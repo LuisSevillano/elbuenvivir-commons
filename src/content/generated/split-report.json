@@ -1,0 +1,303 @@
+{
+  "generatedAt": "2026-05-13T10:02:45.738Z",
+  "documentsTotal": 36,
+  "sectionsTotal": 2404,
+  "averageSectionsPerDocument": 66.78,
+  "averageSectionLength": 2074,
+  "documents": [
+    {
+      "documentSlug": "docs-estatutos-estatutos-axuntase",
+      "sectionCount": 59,
+      "averageLength": 1212,
+      "longestSectionLength": 3071,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-estatutos-estatutos-blanxart",
+      "sectionCount": 64,
+      "averageLength": 1676,
+      "longestSectionLength": 8432,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-estatutos-estatutos-cancarner",
+      "sectionCount": 61,
+      "averageLength": 1302,
+      "longestSectionLength": 6049,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-estatutos-estatutos-elciempies",
+      "sectionCount": 8,
+      "averageLength": 15531,
+      "longestSectionLength": 42354,
+      "warnings": [
+        "Long section detected (42354 characters)"
+      ]
+    },
+    {
+      "documentSlug": "docs-estatutos-estatutos-entrepatios",
+      "sectionCount": 182,
+      "averageLength": 897,
+      "longestSectionLength": 7137,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-estatutos-estatutos-la-borda",
+      "sectionCount": 65,
+      "averageLength": 1356,
+      "longestSectionLength": 8407,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-estatutos-estatutos-laseronda-org",
+      "sectionCount": 68,
+      "averageLength": 1229,
+      "longestSectionLength": 5456,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "sectionCount": 8,
+      "averageLength": 15689,
+      "longestSectionLength": 42014,
+      "warnings": [
+        "Long section detected (42014 characters)"
+      ]
+    },
+    {
+      "documentSlug": "docs-estatutos-estatutos-losnidales",
+      "sectionCount": 94,
+      "averageLength": 1526,
+      "longestSectionLength": 6371,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-estatutos-estatutos-pepu",
+      "sectionCount": 151,
+      "averageLength": 987,
+      "longestSectionLength": 9756,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+      "sectionCount": 151,
+      "averageLength": 987,
+      "longestSectionLength": 9756,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+      "sectionCount": 122,
+      "averageLength": 953,
+      "longestSectionLength": 11951,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+      "sectionCount": 144,
+      "averageLength": 935,
+      "longestSectionLength": 7444,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-estatutos-estatutos-tejiendovida-asociacion",
+      "sectionCount": 44,
+      "averageLength": 462,
+      "longestSectionLength": 1648,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "sectionCount": 2,
+      "averageLength": 77179,
+      "longestSectionLength": 91049,
+      "warnings": [
+        "Few sections detected (2)",
+        "Long section detected (91049 characters)"
+      ]
+    },
+    {
+      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "sectionCount": 1,
+      "averageLength": 185693,
+      "longestSectionLength": 185693,
+      "warnings": [
+        "Few sections detected (1)",
+        "Long section detected (185693 characters)"
+      ]
+    },
+    {
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "sectionCount": 13,
+      "averageLength": 39854,
+      "longestSectionLength": 121283,
+      "warnings": [
+        "Long section detected (121283 characters)"
+      ]
+    },
+    {
+      "documentSlug": "docs-leyes-normativa-autonomica",
+      "sectionCount": 271,
+      "averageLength": 983,
+      "longestSectionLength": 15873,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-leyes-normativa-estatal",
+      "sectionCount": 331,
+      "averageLength": 779,
+      "longestSectionLength": 17808,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-05012005-1-decreto-125-2004",
+      "sectionCount": 106,
+      "averageLength": 823,
+      "longestSectionLength": 5025,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-10022005-1-resolucion-31-enero-2005",
+      "sectionCount": 1,
+      "averageLength": 2984,
+      "longestSectionLength": 2984,
+      "warnings": [
+        "Few sections detected (1)"
+      ]
+    },
+    {
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-10102022-1-decreto-41-2022",
+      "sectionCount": 2,
+      "averageLength": 6748,
+      "longestSectionLength": 11805,
+      "warnings": [
+        "Few sections detected (2)"
+      ]
+    },
+    {
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-1990-30735-ley-20-1990",
+      "sectionCount": 47,
+      "averageLength": 1620,
+      "longestSectionLength": 13432,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2004-3634-rd-296-2004",
+      "sectionCount": 9,
+      "averageLength": 3859,
+      "longestSectionLength": 15847,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+      "sectionCount": 10,
+      "averageLength": 97657,
+      "longestSectionLength": 416303,
+      "warnings": [
+        "Long section detected (416303 characters)"
+      ]
+    },
+    {
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+      "sectionCount": 34,
+      "averageLength": 5839,
+      "longestSectionLength": 135599,
+      "warnings": [
+        "Long section detected (135599 characters)"
+      ]
+    },
+    {
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2011-18204-ley-6-2011",
+      "sectionCount": 2,
+      "averageLength": 7174,
+      "longestSectionLength": 9919,
+      "warnings": [
+        "Few sections detected (2)"
+      ]
+    },
+    {
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2013-8555-ley-13-2013",
+      "sectionCount": 13,
+      "averageLength": 2598,
+      "longestSectionLength": 12875,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2014-9959-ley-5-2014",
+      "sectionCount": 54,
+      "averageLength": 2403,
+      "longestSectionLength": 14696,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
+      "sectionCount": 3,
+      "averageLength": 11516,
+      "longestSectionLength": 30547,
+      "warnings": [
+        "Long section detected (30547 characters)"
+      ]
+    },
+    {
+      "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
+      "sectionCount": 76,
+      "averageLength": 1306,
+      "longestSectionLength": 4169,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-otros-modelo-estatutos-viviendas",
+      "sectionCount": 70,
+      "averageLength": 1258,
+      "longestSectionLength": 4798,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+      "sectionCount": 43,
+      "averageLength": 653,
+      "longestSectionLength": 7934,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-rri-informe-cooperativas-cesion-de-uso",
+      "sectionCount": 4,
+      "averageLength": 44329,
+      "longestSectionLength": 115792,
+      "warnings": [
+        "Long section detected (115792 characters)"
+      ]
+    },
+    {
+      "documentSlug": "docs-rri-rri-axuntase",
+      "sectionCount": 21,
+      "averageLength": 987,
+      "longestSectionLength": 3915,
+      "warnings": []
+    },
+    {
+      "documentSlug": "docs-rri-rri-vallecas2homes",
+      "sectionCount": 70,
+      "averageLength": 461,
+      "longestSectionLength": 2688,
+      "warnings": []
+    }
+  ],
+  "warnings": [
+    "docs-estatutos-estatutos-elciempies: Long section detected (42354 characters)",
+    "docs-estatutos-estatutos-los-girasoles: Long section detected (42014 characters)",
+    "docs-guias-guia-introduccion-al-cohousing-senior-2019-4: Few sections detected (2)",
+    "docs-guias-guia-introduccion-al-cohousing-senior-2019-4: Long section detected (91049 characters)",
+    "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024: Few sections detected (1)",
+    "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024: Long section detected (185693 characters)",
+    "docs-guias-las-guias-de-sostre-civic: Long section detected (121283 characters)",
+    "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-10022005-1-resolucion-31-enero-2005: Few sections detected (1)",
+    "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-10102022-1-decreto-41-2022: Few sections detected (2)",
+    "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007: Long section detected (416303 characters)",
+    "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010: Long section detected (135599 characters)",
+    "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2011-18204-ley-6-2011: Few sections detected (2)",
+    "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa: Long section detected (30547 characters)",
+    "docs-rri-informe-cooperativas-cesion-de-uso: Long section detected (115792 characters)"
+  ]
+}

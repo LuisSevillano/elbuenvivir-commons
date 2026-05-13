@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-netlify';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -8,15 +8,9 @@ const config = {
     alias: {
       $content: 'src/content'
     },
-    prerender: {
-      handleUnseenRoutes: 'ignore'
-    },
     adapter: adapter({
-      pages: 'build',
-      assets: 'build',
-      fallback: undefined,
-      precompress: false,
-      strict: true
+      edge: false,
+      split: false
     })
   }
 };

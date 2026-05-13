@@ -47,7 +47,7 @@
 {/if}
 
 <section class="section panel">
-  <h2>Próximos temas de consulta</h2>
+  <h2>Próximos temas consultables</h2>
   <p>
     Hay {plannedCount} temas previstos para ampliar el atlas comparado con más cuestiones de gobernanza,
     convivencia y economía cooperativa.

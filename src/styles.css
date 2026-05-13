@@ -60,6 +60,40 @@ nav a:hover {
   color: var(--ink);
 }
 
+.header-tools {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.global-search label {
+  display: block;
+}
+
+.global-search span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.global-search input {
+  background: #fffdf8;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--ink);
+  font: inherit;
+  padding: 0.5rem 0.85rem;
+  width: min(220px, 45vw);
+}
+
 .hero {
   background: linear-gradient(135deg, #fffdf8 0%, #eee5d6 100%);
   border: 1px solid var(--border);

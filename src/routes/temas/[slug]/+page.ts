@@ -1,4 +1,5 @@
 import { error } from '@sveltejs/kit';
+import { loadSynthesis } from '$lib/content/loadSyntheses';
 import { loadGeneratedReferences, loadTopic, loadTopics } from '$lib/content/loadTopics';
 
 export function entries() {
@@ -14,6 +15,8 @@ export function load({ params }) {
 
   return {
     topic,
-    generatedReferences: loadGeneratedReferences(topic.slug)
+    topics: loadTopics(),
+    generatedReferences: loadGeneratedReferences(topic.slug),
+    synthesis: loadSynthesis(topic.slug) ?? null
   };
 }

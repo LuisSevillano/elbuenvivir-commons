@@ -15,10 +15,20 @@
 <div class="site-shell">
   <header class="site-header">
     <a class="brand" href="/">El Buen Vivir Commons</a>
-    <nav aria-label="Navegación principal">
-      <a href="/temas">Temas</a>
-      <a href="/documentos">Documentos</a>
-    </nav>
+    <div class="header-tools">
+      <form class="global-search" action="/buscar" method="get" role="search">
+        <label>
+          <span>Buscar</span>
+          <input name="q" type="search" placeholder="Buscar..." />
+        </label>
+      </form>
+      <nav aria-label="Navegación principal">
+        <a href="/temas">Temas</a>
+        <a href="/patrones">Patrones</a>
+        <a href="/drafts">Borradores de trabajo</a>
+        <a href="/documentos">Documentos</a>
+      </nav>
+    </div>
   </header>
   <main>{@render children()}</main>
 </div>

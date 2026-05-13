@@ -2,7 +2,7 @@
   import type { Snippet } from 'svelte';
 
   interface Props {
-    type?: 'pattern' | 'difference' | 'risk' | 'approach';
+    type?: 'pattern' | 'difference' | 'risk' | 'approach' | 'tension';
     label?: string;
     children: Snippet;
   }
@@ -13,7 +13,8 @@
     pattern: { icon: '◈', color: '#3b82f6', bg: '#eff6ff' },
     difference: { icon: '↔', color: '#8b5cf6', bg: '#f5f3ff' },
     risk: { icon: '⚠', color: '#f59e0b', bg: '#fffbeb' },
-    approach: { icon: '◎', color: '#10b981', bg: '#ecfdf5' }
+    approach: { icon: '◎', color: '#10b981', bg: '#ecfdf5' },
+    tension: { icon: '⚡', color: '#a855f7', bg: '#faf5ff' }
   };
 
   const config = $derived(typeConfig[type]);

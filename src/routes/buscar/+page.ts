@@ -2,6 +2,8 @@ import { loadDocuments } from '$lib/content/loadDocuments';
 import { loadDrafts } from '$lib/content/loadDrafts';
 import { loadGeneratedReferences, loadTaxonomy, loadTopics } from '$lib/content/loadTopics';
 
+export const prerender = false;
+
 export function load({ url }) {
   const documents = loadDocuments();
   const documentsBySlug = new Map(documents.map((document) => [document.slug, document]));

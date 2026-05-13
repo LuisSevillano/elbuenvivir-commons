@@ -1,0 +1,2558 @@
+GUÍA PRÁCTICA:
+REDACCIÓN DE ESTATUTOS
+DE LAS COOPERATIVAS DE
+COHOUSING SÉNIOR
+
+-- 1 of 62 --
+
+DIRECCIÓN
+ELABORACIÓN JURÍDICA
+FGC ADCVOCATS, SCCL
+Cristina R. Grau López como autora
+con la colaboración de Ainhoa Domínguez Peña.
+COLABORA
+Diciembre 2024
+Confederación Española de Cooperativas de Consumidores y Usuarios – HISPACOOP
+Quintana, 1 - 2º B ● 28008 Madrid
+Tel. 91 593 09 35
+www.hispacoop.com
+La información publicada en este documento es exclusivamente a título informativo y no
+constituye una recomendación. HISPACOOP no se hace responable del uso que pueda darse a la
+información incluida.
+© HISPACOOP Todos los derechos reservados. Queda prohibida la reproducción total o parcial del
+material protegido por los derechos de propiedad intelectual, o su uso en cualquier forma, o por
+cualquier medio, ya sea electrónico o mecánico, incluyendo fotocopiado, grabación, transmisión
+o cualquier sistema de almacenamiento y recuperación de información, sin el permiso por escrito
+de HISPACOOP.
+
+-- 2 of 62 --
+
+3
+ÍNDICE
+GUÍA PRÁCTICA: 	REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+ÍNDICE
+Introducción y metodología. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	5
+1. Capítulo I. Disposiciones Generales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	9
+1.1. 	Denominación y clase de cooperativa. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	9
+1.1.1. 	Denominación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	9
+1.1.2. 	La Ley aplicable. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	9
+1.1.3. 	La clase de cooperativa. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	9
+1.1.4. 	La Cooperativa como entidad sin ánimo de lucro (ESAL). . . . . . . . . 	11
+1.2. Objeto social . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	13
+1.3. Domicilio social. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	14
+2. Capítulo II. Las Personas Socias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	17
+2.1. Personas que pueden ser socias de la cooperativa . . . . . . . . . . . . . . . . . . . . . 	17
+2.1.1. 	Persona socia cooperativista . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	17
+2.1.2. 	Persona socia expectante . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	18
+2.1.3. 	Persona socia colaboradora . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	18
+2.2. Procedimiento de admisión. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	18
+2.3. Obligaciones y derechos de las personas socias. . . . . . . . . . . . . . . . . . . . . . . 	19
+2.3.1. 	Obligaciones de las personas socias. . . . . . . . . . . . . . . . . . . . . . . . . . . . 	19
+2.3.2. 	Derechos de las personas socias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	20
+2.4. Baja de la persona socia. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	24
+2.4.1. 	Calificación de la baja como justificada o no justificada. . . . . . . . . . 	24
+2.4.2. 	La baja obligatoria. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	25
+2.4.3. 	La baja por expulsión.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	25
+2.4.4. Procedimiento de baja de la cooperativa. . . . . . . . . . . . . . . . . . . . . . . . 	25
+2.4.5. 	Fecha de efectos de la baja. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	25
+2.4.6. Consecuencias económicas de la baja. . . . . . . . . . . . . . . . . . . . . . . . . . 	26
+2.5. Disciplina social. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	27
+3. Capítulo III. Régimen económico de la cooperativa . . . . . . . . . . . . . . . . . . . 	31
+3.1. El capital social. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	31
+3.2. Nuevas aportaciones obligatorias al capital social . . . . . . . . . . . . . . . . . . . . . . 	34
+3.3. Otras aportaciones obligatorias al capital social. . . . . . . . . . . . . . . . . . . . . . . 	34
+3.4. Las aportaciones voluntarias al capital social. . . . . . . . . . . . . . . . . . . . . . . . . . 	35
+3.5. La retribución de las aportaciones a capital social. . . . . . . . . . . . . . . . . . . . . 	35
+3.6. Transmisión de las aportaciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	36
+3.7. Reembolso de las participaciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	37
+3.8. Cuotas y otras aportaciones que no forman parte del capital social. . . . . 	37
+3.9. Resultados del ejercicio y su aplicación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	39
+3.10. Fondo de reserva obligatorio (FRO). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	39
+3.11. Fondo de educación y promoción (FEPC). . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	40
+3.12. Ejercicio económico.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	40
+3.13. Responsabilidad de las personas socias. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	40
+
+-- 3 of 62 --
+
+4
+ÍNDICE
+GUÍA PRÁCTICA: 	REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+4. Capítulo IV. Los órganos sociales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	42
+4.1. Asamblea general. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	42
+4.1.1. 	Competencias. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	42
+4.1.2. 	Clases y formas de la asamblea general. . . . . . . . . . . . . . . . . . . . . . . . . 	43
+4.1.3. 	Convocatoria. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	43
+4.1.4. 	Constitución de la asamblea general. . . . . . . . . . . . . . . . . . . . . . . . . . . . 	44
+4.1.5. 	Voto y adopción de acuerdos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	45
+4.1.6. 	Acta. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	46
+4.1.7. 	Impugnación de acuerdos sociales. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	46
+4.2. Consejo rector. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	47
+4.2.1. 	Competencias. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	47
+4.2.2. 	Composición. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	47
+4.2.3. 	Elección. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	48
+4.2.4. Funcionamiento. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	48
+4.2.5. 	Impugnación de acuerdos del consejo rector. . . . . . . . . . . . . . . . . . . . 	49
+4.2.6. Responsabilidad de los miembros del consejo rector. . . . . . . . . . . . . 	49
+4.3. Comité de recursos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	50
+4.4. Intervención de Cuentas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	50
+4.5. Auditoría de Cuentas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	51
+5. Capítulo V. Modificación de estatutos sociales . . . . . . . . . . . . . . . . . . . . . . 	54
+6. Capítulo VI. Disolución y liquidación de la cooperativa . . . . . . . . . . . . . . 	56
+6.1. Disolución. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	56
+6.2. Liquidación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	57
+6.3. Escisión. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	58
+6.4. Fusión. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	59
+6.5. Transformación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 	61
+
+-- 4 of 62 --
+
+5
+Introducción y metodología
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Introducción y metodología
+En esta guía abordamos cómo elaborar los estatutos sociales de una cooperativa de “cohousing sénior”
+o también denominadas en algunas normas legales “vivienda colaborativa” para mayores.
+Estos proyectos tienen como finalidad primordial articular una comunidad colaborativa autogestionada
+integrada por personas mayores, que ingresan como socias, para conseguir el envejecimiento activo de
+sus miembros o, dicho de otro modo, que las personas mayores puedan desarrollarse íntegramente en
+las mejores condiciones.
+Por ello estos proyectos dan respuesta a distintas necesidades: una vivienda adecuada y accesible,
+sin barreras arquitectónicas; la prestación de todos aquellos servicios que son necesarios para el
+pleno desarrollo de la personalidad, tanto los vinculados a la persona -servicios médicos, peluquería,
+podología, alimentación, dinamización social, lavandería, gimnasio, asistencia, etc.-, como a la propia
+vivienda -suministros comunes para hacer economías de escala, limpieza, etc.-. En definitiva, todos
+aquellos servicios que permitan conseguir que los miembros del cohousing sean lo más independientes
+posibles en su vida diaria, poniendo a estos efectos a su disposición todos los servicios que, con esta
+finalidad, satisfacen sus necesidades, y lo llevan a cabo en una comunidad que convive en un entorno
+promovido y diseñado por sus miembros, que cuenta con espacios de uso privativo (unidades habita-
+cionales), así como con espacios comunes en los que compartir las actividades, servicios y cuidados.
+Pero el cohousing sénior no es una residencia, ni tampoco un centro de día, sino una comunidad que
+ofrece a sus personas socias todos aquellos servicios que necesitan para evitar su aislamiento o soledad
+no deseada, socializando entre ellos y con el entorno en el que radica el cohousing. La vivienda, aun
+cuando su coste puede ser mucho más elevado que el de otros servicios y productos, no deja de ser, por
+tanto, un bien más que se proporciona a los miembros de la cooperativa.
+Por ello siendo su objeto social la prestación de aquellos bienes y servicios para el consumo de los
+residentes que les permiten alcanzar el envejecimiento y la máxima independencia y calidad de vida,
+esta actividad es la propia de las cooperativas de consumidores y usuarios.
+Así, podemos decir que la vivienda tiene un valor instrumental, es un medio más para para conseguir
+las finalidades del proyecto, en cuanto a crear una comunidad de vida, y siendo a la vez la vocación
+de estos proyectos su asequibilidad económica, no es de extrañar que la mayoría hayan optado por el
+régimen de cesión de uso, en vez de la adjudicación en propiedad, modelo mayoritariamente seguido
+por el cooperativismo en nuestro país, cuando a la vivienda se refiere.
+En el modelo de cesión de uso la cooperativa conserva la propiedad del conjunto de lo edificado, tanto
+los espacios susceptibles de uso privado, como aquellos de uso común o colectivo y comunitario.
+Como, a su vez, el proyecto busca la máxima asequibilidad económica, ha encontrado en la cooperativa,
+sociedad de naturaleza personalista y no especulativa, el instrumento idóneo para vehicular los
+
+-- 5 of 62 --
+
+6
+Introducción y metodología
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+proyectos objeto de estudio, en especial en tanto en cuanto, adjudican a las personas socias, residentes
+en el edificio, un derecho de uso de la vivienda o dependencia privativa, pero conservando la sociedad
+propiedad del conjunto de lo edificado, tanto de los elementos comunes o comunitarios, como los de
+uso privado o privativo.
+Cabe recordar en este sentido que la Alianza Cooperativa Internacional (en adelante, ACI) en su Congreso
+de Manchester de 1995 reformuló el concepto de cooperativa y sus rasgos de identidad, definiendo
+a la cooperativa como “una asociación autónoma de personas unidas voluntariamente para satisfacer
+sus necesidades y aspiraciones económicas, sociales y culturales comunes a través de una empresa de
+propiedad conjunta y controlada democráticamente” y agrega que “como empresas impulsadas por
+valores, no solo por ganancias, las cooperativas comparten principios acordados internacionalmente y
+actúan juntas para construir un mundo mejor a través de la cooperación”(1).
+Asimismo, declaró que las cooperativas se basan en los valores de la autoayuda, la autorresponsabilidad,
+la democracia, la igualdad, la equidad y la solidaridad, y que su actuación se basa en los principios
+de adhesión voluntaria y abierta, control democrático de sus miembros, participación económica de
+estos, autonomía e independencia de la organización respecto de los poderes públicos y de otras
+sociedades, la educación, la formación y la información, la cooperación entre cooperativas, así como
+la preocupación por el entorno y la comunidad.
+De acuerdo con lo anterior, podemos concluir que el objetivo principal de la cooperativa no es la obtención
+de beneficios económicos, sino la satisfacción de las necesidades e intereses de los miembros de
+la cooperativa, para y la mejora de sus condiciones de vida a través del desarrollo de un proyecto
+colectivo(2). Lo que nos permite colegir que la cooperativa es una sociedad no especulativa, carente
+de lucro objetivo, como han reconocido nuestros tribunales, acomodándose, por tanto, también, a los
+propósitos económicos de los miembros del cohousing.
+En esta guía pretendemos explicar el contenido que deben tener los estatutos sociales de los proyectos
+de cohousing sénior que adopten la forma de cooperativas de consumo, explicando los diversos artículos
+que conforman dichos estatutos y efectuando algunas recomendaciones sobre cómo regularlo en los
+proyectos cooperativos de cohousing sénior.
+Asimismo, para los casos en que la ley aplicable a la cooperativa y/o los criterios del Registro de
+Cooperativas correspondiente obligue a articular estos proyectos como cooperativa integral de consumo
+y de vivienda, formulamos algunas recomendaciones específicas.
+Los estatutos sociales son la norma básica por la que se rige la cooperativa, regulando el objeto social
+de ésta, es decir, qué actividades va a llevar a cabo, qué requisitos deben cumplir las personas que
+pretendan ingresar como socias, sus derechos y obligaciones como tales, las normas de disciplina social,
+así como los órganos sociales que rigen la vida de la sociedad, incluyendo su composición, la elección de
+sus miembros y las reglas de funcionamiento, en especial el régimen de adopción de acuerdo; finalmente
+los estatutos incluyen las operaciones estructurales, es decir, aquellas que afectan a reglas básicas de
+la sociedad, a su estructura: la modificación de los estatutos, la fusión, la escisión, y la disolución y
+liquidación de la cooperativa.
+(1) 	A https://www.ica.coop/en/cooperatives/cooperative-identity.
+(2) 	En el mismo sentido, Fajardo García, G., in La gestión económica de la cooperativa: responsabilidad de los socios. Ed. Tecnos,
+Madrid, 1997.
+
+-- 6 of 62 --
+
+7
+Introducción y metodología
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Los estatutos de la cooperativa se dividen en capítulos. Generalmente, en unos estatutos podemos
+encontrar los siguientes capítulos:
+● Capítulo I: Disposiciones Generales. En este capítulo se regula la denominación de la cooperativa,
+el domicilio social, el ámbito de actuación, el objeto social y la duración de la cooperativa, si fuera
+el caso.
+● Capítulo II: Las personas socias. En el capítulo relativo a las personas socias se regulan los
+requisitos que se exigen a las personas que pretenden ingresar como socios o socias, las clases de
+personas socias que hay en la cooperativa, el procedimiento de admisión, los derechos y obliga-
+ciones y las normas de disciplina social.
+● Capítulo III: Régimen económico de la cooperativa. En este capítulo se regula el capital social,
+las aportaciones de las personas socias, tanto obligatorias como voluntarias, su transmisión, su
+régimen de transmisión y todos aquellos aspectos económicos de la cooperativa.
+● Capítulo IV: Órganos sociales de la cooperativa. En este capítulo se regulan los órganos que tendrá
+la cooperativa, dado que hay algunos órganos que son obligatorios (como la asamblea general y el
+consejo rector) y otros que son voluntarios (como el comité de recursos). En este capítulo se ha de
+regular todos los aspectos relacionados con los órganos que tenga la cooperativa: composición,
+elección, funciones, impugnación de acuerdos, etc.
+● Capítulo V: Modificación de los Estatutos. En este capítulo se regulará la forma en la que se
+pueden modificar los estatutos.
+● Capítulo VI: Disolución y liquidación de la cooperativa. En este capítulo se regulará las formas en
+las que se puede disolver una cooperativa y las consecuencias de cada una de ellas.
+
+-- 7 of 62 --
+
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+8
+1. Capítulo I. Disposiciones Generales
+1.1. 	Denominación y clase de Cooperativa
+1.1.1. 	Denominación
+1.1.2. 	La Ley aplicable
+1.1.3. 	La clase de cooperativa
+1.1.4. 	La Cooperativa como entidad sin ánimo
+de lucro (ESAL)
+1.2. 	Objeto social
+1.3. 	Domicilio Social
+
+-- 8 of 62 --
+
+9 	9
+1. Capítulo I. Disposiciones Generales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+1. Capítulo I. Disposiciones Generales
+En el capítulo relativo a las disposiciones generales se ha de regular la denominación y clase de la
+cooperativa, donde se encuentra su domicilio social, así como el objeto social de la cooperativa.
+1.1. Denominación y clase de cooperativa.
+1.1.1. Denominación.
+El primer artículo que deben tener los estatutos de la cooperativa es el relativo a la denominación. La
+denominación de las cooperativas necesariamente ha de incluir los términos “Sociedad Cooperativa”
+o su abreviatura “S. Coop.”. Algunas Comunidades Autónomas han regulado otros términos que ha de
+incluir la denominación de la Cooperativa. A título de ejemplo, en Cataluña se debe indicar “Sociedad
+Cooperativa Catalana”, o en Andalucía “Sociedad Cooperativa Andaluza”. Asimismo, algunas leyes
+exigen que se añada la referencia al régimen de responsabilidad limitada de la cooperativa, añadiendo
+la palabra “Limitada” o sus abreviaciones “Ltda.” o “L.” Es importante indicar que, la denominación de
+la Cooperativa no debe llevar a confusión en relación a su naturaleza jurídica, y tampoco puede ser
+idéntica al nombre social de otras cooperativas preexistentes, ni llevar a confusión con estas.
+1.1.2. La Ley aplicable.
+En el artículo primero de la norma estatutaria se indica también la normativa aplicable, es decir, la Ley a
+la que está sujeta la cooperativa, que vendrá establecida en función de donde radique el domicilio social
+de ésta y dónde desarrolla su actividad principal, como seguidamente veremos.
+Es muy importante tener en cuenta que todas las Comunidades Autónomas han aprobado su respectiva ley
+de cooperativas, regulando cuestiones que pueden ser muy diferentes en cada una de ellas (por ejemplo,
+en plazos para impugnar acuerdos, clases de cooperativas, de personas socias, etc.). Por ello, es esencial
+consultar la norma autonómica que sea de aplicación para asegurarse de cumplir correctamente la ley
+respectiva. Dado que las leyes sufren constantes modificaciones recomendamos consultar la legislación
+consolidada del Boletín Oficial del Estado: https://www.boe.es/ para asegurarse de consultar la norma
+que esté en vigor en el momento de la redacción de los estatutos.
+Por ejemplo, si la Cooperativa tiene su proyecto en Zaragoza, y sólo actúa en esta Comunidad Autónoma,
+la ley aplicable será el Decreto Legislativo 2/2014, de 29 de agosto, del Gobierno de Aragón, por el que
+se aprueba el texto refundido de la Ley de Cooperativas de Aragón. Si el domicilio se encuentra en
+Cáceres, la norma que se tiene que consultar es la Ley 9/2018, de 30 de octubre, de sociedades cooper-
+ativas de Extremadura. Estas normas se aplican incluso si la cooperativa desarrolla proyectos en otras
+Comunidades Autónomas, siempre que en una de ellas radique la mayoría de su actividad. Si la actividad
+se produce por igual en distintas comunidades autónomas, en este caso será aplicable la Ley estatal.
+1.1.3. La clase de cooperativa.
+Existen diferentes clases de cooperativas en función de la actividad cooperativizada, es decir, la actividad
+que las personas socias ponen en común a través de la cooperativa. Las personas fundadoras deben
+decidir en el momento de constituir la cooperativa qué clase de cooperativa quieren o deben adoptar,
+según las actividades que vayan a poner en común.
+
+-- 9 of 62 --
+
+10 	10
+1. Capítulo I. Disposiciones Generales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Los proyectos de cohousing sénior articulan para las personas socias una comunidad colaborativa
+autogestionada que convive en un entorno, promovido y diseñado por sus miembros, que cuenta
+con espacios de uso privativo (unidades habitacionales), así como con espacios comunes en los que
+compartir actividades, servicios y cuidados. En el ámbito de estos cuidados estos proyectos ofrecen
+aquellos servicios que necesiten sus residentes para conseguir el envejecimiento activo. El cohousing
+sénior no es una residencia, ni tampoco un centro de día, sino una comunidad que ofrece a sus personas
+socias todos aquellos servicios que necesitan para evitar su aislamiento y conseguir que sean lo más
+independientes posibles en su vida diaria, poniendo a disposición de las personas socias diferentes
+servicios que se adaptan a sus necesidades. Por ejemplo, se les puede ofrecer servicio de podología,
+servicios médicos, servicios de peluquería, de asistencia, etc. Por ello su objeto social también consiste
+en la prestación de bienes y servicios para el consumo de los residentes, actividad específica de las
+cooperativas de consumidores y usuarios.
+Veamos cada una de estas clases.
+a) Cooperativa de Consumo.
+Las cooperativas de consumo son aquellas que tienen por objeto procurar, siempre en las mejores
+condiciones de calidad, información y precio, bienes y servicios, ya sea producidos por la propia
+cooperativa o adquiridos a una tercera persona, para el consumo de las personas socias o de las
+personas que con ellas convivan.
+Un ejemplo de cooperativa de consumo es aquella en la que se suministra bienes de primera
+necesidad a sus personas socias a través de un supermercado, pero también pueden prestarles
+servicios de toda clase, en especial aquellos vinculados al desarrollo personal de las socias y
+los socios cooperativistas y de los miembros de su unidad familiar o de convivencia. Además, la
+cooperativa puede producir los bienes y servicios que luego presta a sus miembros, sin perder por
+ello la condición de cooperativa de consumo.
+Dado que la cooperativa es la persona jurídica que resulta de la agrupación de sus personas socias
+para desarrollar de manera conjunta esta actividad de prestaciones de bienes y de servicios, las
+operaciones entre la persona socia y la cooperativa no se califican como compraventa (de bienes
+o de servicios), pues se entiende que los han adquirido conjuntamente, y en este sentido las leyes
+atribuyen a la cooperativa de consumo la condición de minorista, pero también la de poder actuar
+como mayorista.
+Finalmente debe tenerse en cuenta que las cooperativas de consumo tienen la condición legal de
+organizaciones de consumo, es decir, las que agrupan a personas consumidoras y usuarias finales.
+Por ello también forma parte de su objeto social la formación, la información y la defensa de los
+consumidores.
+Por todo cuanto antecede, la cooperativa de consumo es la idónea para articular proyectos de
+cohousing sénior, sobre todo teniendo en cuenta que la cooperativa de vivienda no deja de ser,
+en cierto modo, una cooperativa de consumo que proporciona un bien de primera necesidad muy
+específico, es decir, la vivienda. Tanto es así que en muchas comunidades autónomas el proyecto
+se desarrolla a través de una cooperativa de consumo.
+Solo en los casos en que la ley aplicable (la estatal u otras leyes) establezcan la cooperativa de
+viviendas como una clase específica, y teniendo en cuenta que la clasificación se regula a través
+de normas obligatorias, no sea posible organizar un cohousing sénior sólo como cooperativa de
+consumo, la solución pasa por constituirlo como cooperativa integral de consumo y de viviendas,
+según se explica en el siguiente apartado.
+
+-- 10 of 62 --
+
+11 	11
+1. Capítulo I. Disposiciones Generales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+b) Cooperativa integral (polivalente o mixta).
+La mayoría de los Registros de Cooperativas consideran que en tanto en cuanto el cohousing
+proporciona alojamiento a las personas socias y a quienes con ellos conviven (vivienda) estos
+proyectos deben necesariamente encuadrarse, como mínimo, dentro de las cooperativas de
+viviendas. Pero, como hemos dicho, un cohousing no se limita a la vivienda, sino que presta otros
+servicios a sus miembros, por lo que es recomendable que las cooperativas de cohousing sean
+cooperativas integrales, polivalentes o mixtas, según su denominación en las distintas leyes.
+La cooperativa integral (denominada en algunas leyes autonómicas como cooperativa polivalente
+o mixta) es aquella en la que las personas socias llevan a cabo actividades cooperativizadas de
+distinta clase. En el caso que nos ocupa, una cooperativa integral, polivalente o mixta sería una
+cooperativa de vivienda y de consumo, que proporciona a las personas socias una vivienda y,
+además, les ofrecen servicios médicos, asistenciales, culturales, sociales, de ocio, etc.
+c) Cooperativa de vivienda.
+La cooperativa de viviendas se define en la mayoría de las normas legales como las que asocian
+a personas físicas que precisan alojamiento y/o locales para sí y para las personas que con ellas
+convivan y añaden que pueden tener como objeto, incluso único, el procurar edificaciones e
+instalaciones complementarias para el uso de viviendas y locales de los socios, la conservación y
+administración de las viviendas y locales, elementos, zonas o edificaciones comunes y la creación
+y suministros de servicios complementarios y la rehabilitación de viviendas, locales y edifica-
+ciones e instalaciones complementarias. Así pues, podríamos decir que la cooperativa de vivienda
+únicamente procura a las personas socias una vivienda, sin desarrollar otro tipo de servicios. Por
+ello, articular un proyecto de cohousing sénior solo como cooperativa de viviendas no resulta
+adecuado, puesto que el objeto social no permitiría el desarrollo de los servicios necesarios para
+el desarrollo de sus miembros, y que constituyen el objetivo principal de este modelo cooperativo.
+Por lo que acabamos de exponer, y dada la duplicidad de actividades cooperativizadas, nuestra
+recomendación, cuando la cooperativa de cohousing sénior no se pueda articular exclusivamente
+como cooperativa de consumo, según cual sea la legislación aplicable y los criterios del Registro de
+Cooperativas competente, es optar por la cooperativa integral, polivalente o mixta de consumo y de
+vivienda.
+Finalmente debe tenerse en cuenta que algunas normas autonómicas exigen, en función de la clase de
+cooperativa, un determinado número de personas socias de cada clase. Este es, por ejemplo, el caso
+de Cataluña que, en el caso de cooperativas de consumo, exige que al menos estén formadas por diez
+personas físicas.
+1.1.4. La Cooperativa como entidad sin ánimo de lucro (ESAL).
+La Disposición Adicional Primera de la Ley de Cooperativas estatal, la Ley 27/1999, de 16 de julio,
+estableció que pueden ser calificadas como entidades sin ánimo de lucro las sociedades cooper-
+ativas que gestionen servicios de interés colectivo o de titularidad pública, así como las que realicen
+actividades económicas que conduzcan a la integración laboral de las personas que sufran cualquier
+clase de exclusión social y en sus Estatutos recojan expresamente:
+a) Que los resultados positivos que se produzcan en un ejercicio económico no podrán ser distri-
+buidos entre sus socios.
+b) Las aportaciones de los socios al capital social, tanto obligatorias como voluntarias, no podrán
+devengar un interés superior al interés legal del dinero, sin perjuicio de la posible actualización de
+las mismas.
+
+-- 11 of 62 --
+
+12 	12
+1. Capítulo I. Disposiciones Generales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+c) El carácter gratuito del desempeño de los cargos del Consejo rector, sin perjuicio de las compen-
+saciones económicas procedentes por los gastos en los que puedan incurrir los consejeros en el
+desempeño de sus funciones.
+d) Las retribuciones de los socios trabajadores o, en su caso, de los socios de trabajo y de los
+trabajadores por cuenta ajena no podrán superar el 150 por 100 de las retribuciones que en función
+de la actividad y categoría profesional, establezca el convenio colectivo aplicable al personal
+asalariado del sector”.
+La mayoría de las leyes autonómicas contiene normas similares a la analizada. Algunas de ellas, como la
+Ley estatal restringen la posibilidad de que la cooperativa se configure como el resto de las entidades no
+lucrativas a ciertas clases de cooperativas o al desarrollo de ciertas actividades. Sin embargo, en otras
+leyes autonómicas no existe limitación alguna ni en cuanto a la clase de cooperativas, ni en cuanto a la
+actividad que llevan a cabo. Así pues, una vez más debe analizarse con cuidado cómo se regula este
+aspecto en la respectiva ley aplicable.
+El interés en obtener esta calificación reside, sobre todo, en la posibilidad de acceder a ciertas líneas de
+subvenciones u otros programas de ayuda, especialmente los derivados de las políticas de fomento de
+vivienda, tales como las mejoras en las condiciones de crédito si la cooperativa debe acudir a financiación
+ajena para la construcción o rehabilitación del edificio. Estas normas suelen exigir como requisito que
+el destinatario de la subvención, ayuda o medida de fomento sea una entidad no lucrativa. Igualmente,
+esta condición es un requisito exigido por algunas de las normas legales autonómicas que han regulado
+las cooperativas de cesión de uso, en especial, las leyes cooperativas de Baleares y la Rioja, así como la
+Ley de la vivienda colaborativa de la Comunidad Valenciana.
+Asimismo, esta cuestión tiene particular interés cuando se pretende acceder a ciertas exenciones
+tributarias, especialmente en cuanto al Impuesto sobre el Valor Añadido (IVA). La Ley que regula este
+impuesto prevé que están exentas del mismo ciertas actividades, muchas de las cuales coinciden con
+las que desarrolla la cooperativa. Para poder disfrutar de esta exención es necesario que, además de
+desarrollar la concreta actividad exenta, el sujeto pasivo, la cooperativa, sea considerada “estableci-
+miento de carácter social”.
+La Ley del IVA establece ciertos requisitos para tener esta consideración:
+a) Que los cargos que ocupan los órganos sociales sean gratuitos, es decir, que no se les retribuya
+por el mero ejercicio del cargo (aunque lógicamente se les puede resarcir de los gastos en que
+incurran en ejercicio de dicho cargo social).
+b) Que no distribuyan sus resultados entre las personas socias. El límite relativo a la retribución del
+capital social, es decir, al pago de los intereses que la cooperativa puede abonar a las personas
+socias por las aportaciones obligatorias o voluntarias al capital social, así como el límite a la
+retribución del trabajo son prevenciones legales para evitar que por cualquiera de estas vías se
+pueda hacer un reparto encubierto de los excedentes.
+La Ley también prevé como requisito para que la entidad sea considerada como establecimiento de
+carácter social que las beneficiarias de la actividad no sean exclusivamente las personas socias, pero en
+los servicios de atención a la persona, como los que presta la cooperativa, este requisito no se aplica.
+Debe tenerse en cuenta que, si se efectúa esta opción, los cuatro requisitos que antes se han mencionado
+(no distribuir los resultados positivos del ejercicio; no retribuir los cargos sociales; limitar los intereses
+por el capital o la retribución de personas socias trabajadoras y de trabajadoras no socias) deberán
+recogerse en los artículos de los estatutos que regulan estas cuestiones.
+
+-- 12 of 62 --
+
+13 	13
+1. Capítulo I. Disposiciones Generales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+1.2. Objeto social
+Los estatutos sociales deben indicar cuál es el objeto social de la cooperativa, es decir, la actividad
+económica que se lleva a cabo.
+Es muy importante detallar en los Estatutos que la Cooperativa podrá prestar todos aquellos servicios,
+ya sea personales o análogos, a las personas socias en su beneficio. Si se realiza un listado cerrado de
+los servicios que puede prestar la Cooperativa y, con posterioridad, se quisiera añadir algún otro servicio
+no contemplado en el listado, se deberá proceder a modificar los Estatutos, con el procedimiento y la
+demora que puede comportar.
+Téngase igualmente en cuenta que desde la promulgación de la Ley 14/2013, de 27 de septiembre, de
+apoyo a los emprendedores y su internacionalización, es obligatorio consignar en la escritura de consti-
+tución de la sociedad o en sus estatutos sociales el CNAE correspondiente a la actividad principal de
+la cooperativa. Las siglas CNAE son el acrónimo de Código Nacional de Actividades Económicas. Se
+trata de una clasificación de las distintas actividades económicas existentes en el ámbito europeo, y no
+coinciden con las del Impuesto sobre Actividades Económicas (IAE).
+En nuestro caso pueden incluirse distintas CNAE, vinculados a la vivienda o al consumo, pero deberá
+determinarse cuál de ellos es el principal. Sugerimos algunos de ellos: 4121 (Construcción de edificios
+residenciales), 6832 (Gestión y administración de la propiedad inmobiliaria), 8110 (Servicios integrales a
+edificios e instalaciones) o 9609 (Otros servicios personales n.c.o.p.).
+En el caso de que el cohousing sénior también desarrolle actividades de generación de energía eléctrica
+para autoconsumo los CNAE aconsejables serían: 3515 (Producción de energía hidroeléctrica), 3516
+(Producción de energía eléctrica de origen térmico convencional), 3518 (Producción de energía eléctrica
+de origen eólico) o 3519 (Producción de energía eléctrica de otros tipos).
+Teniendo en cuenta que es importante recoger las distintas actividades que constituyen el objeto social
+de la cooperativa, aconsejamos que, al menos, se consigne las siguientes:
+La cooperativa tiene como fin primordial hacer efectivo el derecho a una vivienda El objeto social de
+la Cooperativa consiste en procurar a sus socias y socios, personas mayores, viviendas, edificaciones
+e instalaciones complementarias, así como el suministro, sin ánimo de lucro de bienes y servicios de
+manutención, sanitarios, culturales, de formación, educativas y de recreo que les permitan mantener
+una cierta calidad de vida y desarrollo personal, a través, además, del fomento de la solidaridad y la
+ayuda mutua.
+Las actividades que, en cumplimiento de dicho objeto social, desarrollará la Cooperativa, son las
+siguientes:
+a) Procurar a sus socios viviendas y locales, edificaciones e instalaciones complementarias digna,
+adecuada, asequible, y sostenible económica, social y medioambientalmente, así como mejorar,
+conservar y administrar dichos inmuebles y elementos comunes; crear y prestar los servicios
+correspondientes pudiendo también realizar la rehabilitación de viviendas, locales y otras edifica-
+ciones e instalaciones destinadas a ellos;
+b) Adquirir, parcelar y urbanizar terrenos y, en general, desarrollar cuantas actividades y trabajos
+sean necesarios para el cumplimiento de su objeto social;
+c) Podrá asimismo acoger sus promociones de obra a los beneficios que la legislación de viviendas
+de Protección Oficial establece, con sujeción a la normativa específica, o bien en régimen de
+precio libre y/o, en general, acogidas a cualquier sistema de financiación pública;
+
+-- 13 of 62 --
+
+14 	14
+1. Capítulo I. Disposiciones Generales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+d) Crear y autogestionar servicios de asistencia precisos pata atender las necesidades de los socios
+que constituyen, además de la nuda vivienda, el objeto social de la Cooperativa, tales como: el
+suministro de bienes y servicios necesarios para el adecuado mantenimiento y sostenimiento del
+edificio y de sus instalaciones, tanto de uso privativo, como de uso común, como los servicios
+de, agua, residuos, comunicación, movilidad, energía, incluyendo la producción, el consumo, el
+almacenaje, la acumulación, la venta, la prestación de servicios de eficiencia energética, servicios
+de recarga para vehículos eléctricos), así como los bienes y servicios para la personas socias,
+tales como los servicios de la provisión para el consumo de las personas socias y de quienes con
+ellas conviven habitualmente de los bienes y servicios que acuerde la asamblea general, tales
+como servicios de manutención, sanitarios, culturales, de formación, educativas y de recreo. La
+cooperativa puede adquirir los mencionados bienes y servicios a terceros o producirlos por sí
+misma.
+También constituye el objeto de la cooperativa, la defensa, la información, la educación, la formación,
+la asistencia y la representación de las personas consumidoras, y que hayan constituido un fondo con
+este objeto, de acuerdo con su legislación específica.
+La cooperativa retendrá la propiedad de las viviendas y locales, cuyo uso y disfrute, de carácter
+permanente, será cedido a las personas socias, mediante título admitido en Derecho.
+La Cooperativa podrá desarrollar sus actividades con terceros, dentro de los límites impuestos por la
+legislación cooperativa.
+1.3. Domicilio social.
+La cooperativa debe fijar su domicilio social dentro del territorio español en el lugar en el que desarrolle
+principalmente su actividad. El domicilio social de la cooperativa es el lugar donde exigirle el cumplimiento
+de sus obligaciones. Además del domicilio social físico de la cooperativa, ésta puede tener domicilio
+electrónico. Si una Cooperativa tiene página web y pretende que, más allá de una página comercial, se
+constituya como domicilio electrónico, deberá indicar también en este artículo la dirección electrónica
+de esta web, además de cumplir las normas que exigen las respectivas leyes aplicables.
+Téngase en cuenta que el domicilio electrónico se puede establecer a efectos de publicidad, de comuni-
+cación e incluso del ejercicio de derechos de las personas socias.
+En este caso, si el sitio web corporativo no se aprueba en el momento de constituir la cooperativa, sino
+que se aprueba con posterioridad, se deberá aprobar por la asamblea general, que implica modificar los
+Estatutos, en particular el artículo en el que se indica el domicilio de la cooperativa. Una vez aprobada
+la modificación de todos aquellos artículos de los Estatutos que estén afectados por la inclusión de la
+página web, el acuerdo de la Asamblea se debe presentar en el Registro de Cooperativas del lugar en
+el que se encuentre inscrita la cooperativa, para que tenga efectos. Normalmente la modificación de
+estatutos exige escritura pública, aunque hay excepciones en algunas normas legales, como la andaluza.
+Una vez inscrita, la Cooperativa puede realizar publicaciones en el sitio web corporativo, como, por
+ejemplo, la convocatoria de la asamblea general o noticias que puedan ser de interés para las personas
+socias o para terceras personas que puedan tener algún tipo de interés, y también a través de la página
+web pueden ejercerse derechos de las personas socias, como el de información o, si la asamblea se
+desarrolla por medios virtuales, acreditar su asistencia, el voto, etc.
+La mayoría de las leyes prevén que la cooperativa debe fijar su domicilio social dentro del territorio
+español, en el lugar donde realice principalmente su actividad que, como, hemos visto, determinará cuál
+sea la ley aplicable.
+
+-- 14 of 62 --
+
+15 	15
+1. Capítulo I. Disposiciones Generales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Una cuestión práctica: muchas cooperativas de cohousing empiezan incluso antes de adquirir el edificio o
+el solar en el que éste se construirá. O incluso una vez adquirido, deben realizarse obras de construcción
+o de rehabilitación. SI indicamos este domicilio, es muy probable que no se puedan recibir las notifica-
+ciones o comunicaciones que reciba la cooperativa. Por ello es recomendable que el domicilio social,
+mientras no se resida en el proyecto, sea el de alguna de las personas socias, hasta que finalicen las
+obras y las personas socias puedan residir en el edificio. Se puede indicar que el domicilio social sea
+el del Presidente o Presidenta de la Cooperativa. Una vez hayan finalizado las obras de rehabilitación,
+recomendamos que el domicilio social de la Cooperativa sea el lugar en el que se encuentre el edificio.
+
+-- 15 of 62 --
+
+16
+GUÍA PRÁCTICA: 	REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+2. Capítulo II. Las Personas Socias
+2.1. 	Personas que pueden ser socias de la cooperativa
+2.1.1. 	Persona socia cooperativista
+2.1.2. 	Persona socia expectante
+2.1.3. 	Persona socia colaboradora
+2.2. Procedimiento de admisión
+2.3. Obligaciones y derechos de las personas socias
+2.3.1. 	Obligaciones de las personas socias
+2.3.2. Derechos de las personas socias
+2.4. Baja del socio
+2.4.1. 	Calificación de la baja como justificada
+o no justificada
+2.4.2. La baja obligatoria
+2.4.3. La baja por expulsión
+2.4.4. Procedimiento de baja de la cooperativa
+2.4.5. Fecha de efectos de la baja
+2.4.6. Consecuencias económicas de la baja
+2.5. Disciplina social
+
+-- 16 of 62 --
+
+17
+2. Capítulo II. Las Personas Socias
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+2. Capítulo II. Las Personas Socias
+En el capítulo dedicado a las personas socias se debe regular qué personas pueden ser socias de la
+cooperativa, los requisitos que se les exigirán, los tipos de personas socias que puede haber en la
+cooperativa, el procedimiento de admisión, la baja y la disciplina social.
+2.1. Personas que pueden ser socias de la cooperativa.
+Con carácter general, pueden ser miembros de las cooperativas las personas físicas, las personas
+jurídicas, públicas, privadas o las comunidades de bienes. En función de la actividad cooperativizada
+que realice la cooperativa podrán ser socios unas u otras personas.
+En los Estatutos se debe indicar qué personas pueden ser socias y los requisitos que se les exigirán. Las
+cooperativas de cohousing sénior suelen indicar que es requisito indispensable que la persona socia
+tenga una edad mínima. También es usual que indiquen límite máximo de edad, así como que la persona
+no tenga ninguna minusvalía o dependencia reconocida en el momento de su ingreso como socia. Por
+ejemplo, se puede indicar que únicamente pueden ser personas socias aquellas personas que tengan
+una edad comprendida entre los 45 y 80 años y que no tengan reconocida un grado minusvalía ni de
+dependencia.
+No obstante, los estatutos suelen prever igualmente que, una vez la persona es miembro de pleno
+derecho de la cooperativa, no perderá su condición de tal ni por sobrepasar la edad máximo que los
+estatutos hayan previsto como límite, ni por devenir en alguna situación de minusvalía o dependencia.
+Es muy importante indicar de forma clara en los Estatutos los requisitos que se exigirán para poder ser
+persona socia de la Cooperativa, para así poder denegar, si fuera el caso, de forma justificada su ingreso
+en la Cooperativa.
+En las cooperativas pueden existir diferentes clases de personas socias que deberán ser reguladas en
+los Estatutos de la Cooperativa. En los proyectos de cohousing las clases más usuales son las que
+explicamos a continuación.
+2.1.1. Persona socia cooperativista.
+La persona socia residente es aquella persona que se encuentra residiendo en la comunidad y que lleva
+a cabo la actividad cooperativizada sin ningún tipo de limitación. Algunos proyectos consideran estatu-
+ariamente obligatorio que todas las personas residentes en una vivienda o dependencia deban tener la
+condición de socias residentes; en otros casos se exige que sólo una persona por vivienda sea la socia,
+dado que la actividad cooperativizada de vivienda y de consumo se dirige al núcleo familiar. Otros
+estatutos no prevén una norma especial, de modo que cada unidad de convivencia optará por la vía que
+considere más adecuada. En todo caso suelen exigir como requisito adicional de esta clase de persona
+socia que destine la vivienda o dependencia privada a su residencia habitual y permanente.
+En los casos en que la legislación aplicable exija que se adopte la clase de cooperativa integral de
+vivienda y de consumo, conviene consultar en el registro correspondiente si es suficiente con definir
+a las personas socias cooperativistas de manera conjunta o si debe especificarse las de cada clase, es
+decir, socios de consumo y socias de vivienda. Dado que en los proyectos de cohousing sénior las dos
+
+-- 17 of 62 --
+
+18
+2. Capítulo II. Las Personas Socias
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+actividades se desarrollan a la vez por todas las personas, igualmente conviene consultar al Registro de
+Cooperativas competente la posibilidad de añadir en los estatutos sociales que “En esta Cooperativa,
+todas las personas socias deben ser a su vez socias de consumo y socias de vivienda” o una frase similar.
+2.1.2. Persona socia expectante.
+Es posible que cuando una persona solicite su admisión como tal en la cooperativa todas se encuentren
+ocupadas y no haya ninguna vivienda disponible. En este caso, la persona puede ser admitida como socia,
+pero no como socia residente, sino como socia expectante, dado que estará a la espera de conseguir
+que se desaloje una vivienda para que le adjudiquen su uso, momento a partir del cual pasará a tener la
+condición de persona socia residente.
+Las personas socias expectantes deberán realizar el desembolso del capital social que exijan los Estatutos
+de la cooperativa.
+2.1.3. Persona socia colaboradora.
+La persona socia colaboradora es aquella persona que no puede colaborar ni desarrollar la actividad
+cooperativizada, pero sí que puede contribuir a su consecución. En las Cooperativas de Cohousing son
+aquellas personas que no participan en el uso y disfrute de los elementos privativos de la Cooperativa,
+pero quieren contribuir a realizar los fines u objetivos de la Cooperativa.
+Normalmente la figura puede ser útil para vincular a ciertos proveedores de servicios, a simpatizantes del
+proyecto y eventualmente a inversores (socios o socias que se limitan a apoyar el proyecto aportando
+capital).
+Las personas socias colaboradoras tienen que desembolsar la aportación a capital que indiquen los
+estatutos sociales o la asamblea general, no se les podrá exigir que realicen nuevas aportaciones al
+capital, más allá de la inicial, y la mayoría de las leyes prevén que su capital se contabilice separa-
+damente del de las socias cooperativistas.
+En los proyectos de cohousing sénior otra posibilidad de persona socia colaboradora es aquella que
+colabora como voluntaria en la cooperativa para desarrollar las actividades sociales, culturales o
+sanitarias.
+2.2. Procedimiento de admisión.
+Las personas que deseen ingresar como socias de la Cooperativa deben dirigir por escrito su petición al
+consejo rector, que dispone de un plazo máximo para resolver la petición. Aconsejamos que este plazo
+máximo se indique en los estatutos, ya que en las diversas normas autonómicas este plazo varía entre
+2 y 3 meses, por lo que es esencial, una vez más, consultar la normativa aplicable en cada Comunidad
+Autónoma.
+La petición de admisión, tanto si es favorable como denegatoria, se deberá resolver por escrito y
+notificarla en el domicilio que haya indicado la persona solicitante; si lo ha autorizado, dicha notificación
+se puede realizar por medios electrónicos. La resolución de la admisión o denegación debe publicarse
+en el tablón de anuncios o en la página web de la cooperativa.
+Si el consejo rector no resuelve la petición antes del plazo máximo establecido en los estatutos se debe
+entender aceptada por silencio positivo la solicitud de ingreso.
+
+-- 18 of 62 --
+
+19
+2. Capítulo II. Las Personas Socias
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Si el consejo rector decide denegar la solicitud de ingreso, la deberá motivar de manera objetiva, en
+base a los requisitos que haya establecido la cooperativa en sus estatutos para ser persona socia.
+El resto de las personas socias de la cooperativa podrán impugnar tanto el acuerdo de admisión como
+la denegación en la forma que se determine en los estatutos sociales.
+Si el solicitante no está conforme con la denegación de admisión, puede recurrirlo en el plazo que
+determina la ley aplicable a la cooperativa; normalmente este plazo oscila de veinte días a un mes,
+posteriores a la recepción de la notificación, por lo que es esencial, de nuevo, consultar la normativa
+aplicable en cada Comunidad Autónoma. La persona cuya solicitud ha sido denegada puede impugnar
+la decisión presentando un escrito ante el comité de recursos, si los estatutos han previsto este órgano
+social o, en otro caso, ante la asamblea general.
+Las impugnaciones ante la asamblea general o, en su caso, ante el comité de recursos deben ser
+resueltas en el plazo que determine la ley aplicable a la cooperativa. Normalmente en el caso del comité
+de recursos deben ser resueltas en el plazo máximo de 3 meses y cuando se trata de la asamblea
+general, en la primera que se celebre tras recibir la impugnación. Al contrario de lo que sucede con la
+admisión, el silencio por parte del comité de recursos o de la asamblea general, es negativo, por lo que
+el recurso se debe entender como desestimado y, por tanto, rechazada la admisión. Contra el acuerdo
+de la asamblea general o del comité de recursos (incluso si el recurso se ha desestimado por silencio) se
+puede presentar demanda ante la jurisdicción ordinaria o bien someterse a arbitraje cooperativo.
+Recomendamos indicar en los estatutos que las personas socias y el solicitante pueden acudir tanto a
+la jurisdicción ordinaria como al arbitraje cooperativo para resolver las discrepancias existentes.
+2.3. Obligaciones y derechos de las personas socias.
+Las personas socias tienen derechos y deberes de naturaleza política y económica, así como el derecho
+a desarrollar la actividad cooperativa.
+2.3.1. Obligaciones de las personas socias.
+Todas las personas socias están obligadas a cumplir con los deberes que se indiquen en la norma que
+se aplique a la Cooperativa en función de donde se encuentre su domicilio social, así como de aquellos
+otros deberes que se indiquen en los Estatutos.
+Las obligaciones que tienen las personas socias son las siguientes:
+● 	Cumplir con los acuerdos adoptados por los órganos sociales. Únicamente podrá eludir esta
+obligación en los casos previstos legalmente, normalmente limitados a exigencia de nuevas obliga-
+ciones o cargas no previstas en los estatutos, incluyendo las económicas, y exigiendo, además, que
+haya salvado su voto, si está ausente o disconforme del acuerdo de la asamblea general que las ha
+impuesto.
+● 	Participar en la actividad cooperativizada.
+● 	Guardar secreto sobre aquellas cuestiones que pueden perjudicar los intereses sociales lícitos de
+la cooperativa.
+● 	Aceptar los cargos para los cuales hayan sido elegidos, excepto justa causa.
+● 	Cumplir con las obligaciones económicas que le correspondan.
+
+-- 19 of 62 --
+
+20
+2. Capítulo II. Las Personas Socias
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+● 	No realizar ninguna actividad en competencia con la cooperativa, excepto si el consejo rector le
+haya dado autorización para realizarla.
+● 	Cumplir con aquellas otras obligaciones que se establezca en la norma que sea aplicable o en los
+Estatutos.
+Específicamente, en los proyectos de cohousing sénior suelen añadirse en los estatutos sociales las
+siguientes obligaciones:
+● 	Residir de manera habitual y permanente en la vivienda cooperativa.
+● 	Cumplir con las normas de convivencia de la cooperativa.
+● 	Participar en los gastos de la cooperativa, en función de los servicios que utilice.
+El incumplimiento de las obligaciones por parte de la persona socia puede comportar la comisión de
+una falta que se calificará como leve, grave o muy grave en función de la intencionalidad, reiteración,
+gravedad…. En el apartado relativo a la disciplina social de las personas socias se analizarán los tipos de
+faltas que puede cometer la persona socia y sus consecuencias.
+2.3.2. Derechos de las personas socias.
+Las personas socias de la cooperativa tienen derechos políticos, consistentes en la participación en la
+toma de decisiones y, por tanto, implican también el derecho a formar parte de los órganos sociales,
+esto es, el derecho de voto en la toma de acuerdos, y como prius lógico, el derecho a estar informado,
+para poder adoptar estas decisiones.
+a) Derecho de voto en la asamblea general.
+En las cooperativas cada persona socia tiene un voto en la asamblea general. Es lo que se denomina
+derecho de voto igualitario. Algunas Comunidades Autónomas han regulado el voto ponderado,
+pero los criterios de ponderación no pueden ser en función del capital aportado, sino que deben
+determinarse en proporción a la participación de la persona socia en la actividad cooperativizada.
+Este es uno de los puntos que tiene diversa regulación en las distintas leyes aplicables, por lo
+que, si se pretenden establecer criterios estatutarios de ponderación de voto, debe consultarse el
+contenido de la norma. Téngase en cuenta que la mayoría de las normas legales sólo prevén esta
+posibilidad para ciertas clases de cooperativas (segundo grado, de servicios, agrarias etcétera);
+otras leyes lo prevén con carácter más general, pero excluyen la posibilidad de ponderar voto en
+algunas clases de cooperativas.
+Las normas cooperativas consideran que el derecho de asistir a las asambleas constituye uno de
+los denominados “derecho-deber”. Es decir, la persona socia tiene, a la vez, el deber de implicarse
+en la sociedad, y en la toma de decisiones, e incluso suele preverse en las normas de disciplina
+social como una infracción la ausencia a las reuniones de la asamblea y demás órganos sociales a
+los que sea convocado.
+Téngase en cuenta, no obstante, que respecto de las personas socias que no desarrollan alguna de
+las actividades cooperativizadas las normas legales limitan el voto que pueden tener en conjunto.
+En este sentido se limita el voto de las personas socias colaboradoras (las inversoras, si están
+previstas en la respectiva ley autonómica), las expectantes y las socias en excedencia o inactivas.
+
+-- 20 of 62 --
+
+21
+2. Capítulo II. Las Personas Socias
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Una advertencia sobre el derecho de voto de las personas socias cuando se comparte la
+titularidad del derecho de uso:
+Como regla general, la persona socia no puede ser privada de su derecho de voto, salvo
+que este derecho haya sido suspendido, previa la tramitación de un expediente de disciplina
+social, como sanción o, si lo permite la respectiva Ley autonómica, como medida cautelar. En
+consecuencia, todas las personas socias tienen derecho de voto.
+Si el derecho de uso de la vivienda o dependencia privativa pertenece a más de una persona
+socia, ambos cotitulares tienen derecho a votar en la asamblea. Así pues, no se pueden incluir
+en los estatutos sociales normas similares a las contenidas en Ley de Propiedad Horizontal,
+que para los casos de copropiedad del elemento privativo obliga a que se designe a uno
+sólo de los cotitulares para que actúe en la Junta de Propietarios como representante de la
+entidad. Una norma similar sería nula por impedir al socio o socia de pleno derecho el ejercicio
+de un derecho tan fundamental como es el de voto.
+Por excepción a lo anterior, los proyectos cooperativos valencianos que se acojan a la Ley
+3/2023, de 13 de abril, de la Generalitat, de Viviendas Colaborativas de la Comunidad Valenciana
+podrán prever en sus estatutos que, en el caso de que el derecho de uso de la vivienda colabo-
+rativa corresponda a más de una persona socia, entre ellas designen a una sola persona para
+que asista a las asambleas generales con derecho de voz y de voto, en cuyo caso, los estatutos
+sociales deberán atribuir un solo derecho de voto a cada vivienda o dependencia susceptible
+de uso privativo (artículo 15.2.b).
+b) Derecho de información.
+La persona socia tiene derecho de información, cuyo contenido se extiende, en primer lugar, a
+recibir copia de los estatutos sociales y de los reglamentos que haya aprobado la cooperativa, así
+como de sus modificaciones.
+También tiene derecho a solicitar información sobre las cuestiones que le afectan personalmente
+como socio o socia, y sobre su situación económica con respecto a la cooperativa. Tiene igualmente
+derecho a pedir certificaciones de los acuerdos recogidos en el libro de actas de la asamblea
+general, derecho que se extiende a cualquier acuerdo, así como los del consejo rector, pero en este
+caso, sólo de los acuerdos que le afecten personalmente.
+Asimismo, la persona socia tiene derecho de información sobre las cuestiones incluidas en los
+puntos que se someterán a votación de la asamblea, como es lógico, pues difícilmente puede
+crearse una opinión y emitir su voto sobre dichos puntos, si previamente no dispone de una
+información suficiente y adecuada sobre los mismos.
+Este derecho se traduce en la posibilidad de examinar en el domicilio social y, en el plazo
+comprendido entre la convocatoria de la asamblea y su celebración, los documentos que vayan a
+ser sometidos a la misma y en particular: las cuentas anuales, el informe de gestión, la propuesta
+de distribución de resultados y el informe de los Interventores o el informe de la auditoría, según
+los casos.
+La persona socia también puede solicitar por escrito, antes de la asamblea, o verbalmente en el
+transcurso de esta, la ampliación de la información que considere necesaria en relación con los
+puntos contenidos en el orden del día. También puede solicitar por escrito información sobre la
+marcha de la cooperativa, que el consejo rector(3), salvo si compromete el interés de la sociedad.
+(3) 	Consultar la norma de la Comunidad Autónoma que sea de aplicación, dado que algunas Comunidades Autónomas han
+indicado plazos diferentes.
+
+-- 21 of 62 --
+
+22
+2. Capítulo II. Las Personas Socias
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+El consejo no puede alegar esta excusa cuando se trate de información que esté obligado a dar
+en la asamblea general.
+Si se ha previsto en los estatutos, este derecho se puede ejercer empleando medios telemáticos.
+Debe tenerse en cuenta, a su vez, que la persona socia tiene el deber de guardar secreto sobre
+todos aquellos aspectos que conoce de la cooperativa. La omisión de este deber puede calificarse
+como una falta en los estatutos de la cooperativa.
+c) Derecho a formar parte de los órganos sociales.
+La persona socia tiene derecho a participar en los órganos sociales. Como ya se ha dicho, y siendo
+el primero de ellos, el de formar parte de la asamblea general, donde puede dar su opinión, ser
+oída en sus reuniones, pero también y, sobre todo, puede emitir su voto y contribuir a conformar
+la voluntad social, participando de forma activa en la toma de decisiones de la cooperativa.
+El control democrático de las personas socias comporta, no sólo la participación democrática de
+éstas en la asamblea, sino su participación real en la gestión de la cooperativa. Los socios y socias
+deben implicarse en la administración de la sociedad, participando activamente en el estableci-
+miento de sus políticas y en la toma de decisiones.
+Este derecho tiene una doble vertiente, el derecho de sufragio activo, es decir, el de elegir a las
+personas que han de formar parte de los órganos sociales, y el derecho de sufragio pasivo, es
+decir, el derecho a ser elegido como miembros de dichos órganos sociales.
+Como en el caso del derecho de voto, las leyes limitan la participación en estos órganos sociales
+de aquellas personas socias que no desarrollan alguna de las actividades cooperativas (socias
+colaboradoras, expectantes, , etc.), así como de las personas socias con vínculo temporal.
+Si bien la mayor parte de leyes cooperativas autonómicas establecen que sólo los socios y socias
+pueden formar parte de los órganos sociales, algunas leyes, como la catalana, la extremeña o la
+andaluza, permiten que puedan formar parte del consejo rector personas que no sean socias de
+la cooperativa, pero en tal caso se limita a un tercio como máximo del total de los miembros de
+dicho órgano.
+d) Derecho a participar en las actividades de la cooperativa.
+Las personas socias cooperativistas tienen derecho a participar en las actividades que realice la
+Cooperativa, en función de su clase. Así, las personas socias tiene derecho a recibir el suministro
+de bienes y/o servicios que presta la cooperativa y a residir en el edificio cooperativo. Pero, aunque
+el derecho corresponda a la persona socia, la actividad cooperativizada se realiza en beneficio de
+la unidad familiar o de las personas que conviven con la socia. Así lo reconoce la mayoría de las
+leyes cooperativas, en la regulación de las clases, tanto respecto de las cooperativas de personas
+consumidoras y usuarias, como las de las cooperativas de vivienda.
+Por ello muchos proyectos de cooperativas de cohousing también regulan la figura de la persona
+beneficiaria, definiendo quienes tienen esta condición (las personas que forman parte de la unidad
+familiar o conviven con la socia), y estipulando sus derechos y obligaciones.
+Únicamente aquellas personas socias que tengan la condición de socias de consumo tienen
+derecho a adquirir bienes y servicios en la cooperativa y sólo las que tengan la condición de socias
+
+-- 22 of 62 --
+
+23
+2. Capítulo II. Las Personas Socias
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+residentes podrán usar y disfrutar de los bienes y servicios de uso privativo de los que disponga
+la cooperativa, así como poder consumir los bienes y servicios cooperativos.
+En los proyectos cooperativos de cohousing, también en los sénior, es recomendable incluir
+en los estatutos un artículo específico que regule la actividad cooperativizada, en especial el
+derecho de uso de la vivienda cooperativa y de las instalaciones, equipamientos y servicios
+comunes, así como, en el caso de los cohousing sénior, a participar en las actividades sociales y
+culturales que realice la comunidad. Igualmente se suelen incluir en este artículo las correspon-
+dientes obligaciones que asume la persona socia, especialmente la de residir de manera habitual
+en el cohousing. Finalmente, se suele regular cómo funciona el proceso de adjudicación de este
+derecho.
+En este precepto se suele indicar que la cooperativa adjudicará a cada persona socia el derecho
+de uso sobre una vivienda, mediante la firma del correspondiente contrato de adjudicación, que
+el mismo tendrá naturaleza obligacional, y en ningún caso se convertirá en un derecho ni se podrá
+inscribir en el Registro de la Propiedad. Normalmente se incluye el deber de la persona socia de
+destinar la vivienda a su residencia habitual y permanente y/o a la de los miembros de su unidad
+de convivencia, la duración del derecho de uso sobre las viviendas, normalmente indefinida, salvo
+en el caso de las personas socias temporales, que el derecho de uso de una vivienda cooperativa
+comporta también el derecho de uso de los espacios y equipamientos comunitarios, y la consid-
+eración de personas beneficiarias de los derechos, bienes y servicios que suministra la cooperativa,
+además de la persona socia, los demás miembros que con ella convivan.
+Y en cuanto al proceso de adjudicación de la cesión de uso de la vivienda se suele limitar a las
+personas socias, la firma del correspondiente contrato, la aceptación de las obligaciones legales y
+estatutarias, especialmente en cuanto a sus aportaciones obligatorias para financiar la construcción
+de la edificación, las aportaciones periódicas en concepto de canon por el derecho de uso y los
+gastos de funcionamiento y de mantenimiento del edificio y se suele regular, igualmente, el proceso
+de adjudicación a las personas socias expectantes, por orden de antigüedad, cuando quede una
+vivienda vacante.
+e) Derecho a recibir el retorno cooperativo.
+El retorno cooperativo se puede definir como un mecanismo que tiene la cooperativa para distribuir
+los resultados del ejercicio entre sus personas socias. En el apartado relativo al régimen económico
+de la Cooperativa se analizará el retorno cooperativo y el derecho del socio a percibir la liquidación
+de las aportaciones al capital social que haya realizado. Téngase en cuenta, no obstante, que
+si la cooperativa ha optado por tener la consideración de entidad no lucrativa este derecho no
+deberá incluirse en los estatutos sociales, pues esta consideración implica que la cooperativa no
+pueda repartir sus resultados positivos entre las personas socias, sino que debe aplicarlos a la
+consecución de sus fines sociales.
+f) Derecho a la baja voluntaria y a recibir el reembolso de sus aportaciones al capital social.
+La persona socia tiene derecho a causar baja como tal en la cooperativa en cualquier momento,
+salvo que los estatutos sociales hayan previsto: a) un período mínimo de permanencia; o b) un
+preaviso. La baja es voluntaria cuando la solicita la persona socia y obligatoria cuando ésta pierde
+los requisitos para poder continuar siendo socia. Asimismo, la baja se califica como justificada o
+injustificada, como veremos en el siguiente apartado, en el que se analizarán los tipos de baja y las
+consecuencias de cada una de ellas para la persona socia.
+
+-- 23 of 62 --
+
+24
+2. Capítulo II. Las Personas Socias
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+La persona socia también puede causar baja por expulsión, como consecuencia de la tramitación
+de un expediente disciplinario.
+Con carácter general, la baja de la persona socia comporta el derecho a que le sean reembolsadas
+sus aportaciones a capital social, pero como veremos en los siguientes apartados este derecho
+puede ser limitado por los estatutos.
+2.4. Baja de la persona socia.
+La persona socia de la cooperativa puede darse de baja en cualquier momento. Para ello deberá notificar
+por escrito al consejo rector su petición, siendo válida la forma telemática, si lo prevén los estatutos
+sociales y si la persona socia ha aceptado este medio de comunicación. Si los Estatutos indican un plazo
+de preaviso debe cumplirse o de lo contrario la baja se calificará como no justificada. La mayoría de las
+normas limitan el plazo máximo de preaviso que puede incluirse en los estatutos. Debe examinarse la ley
+aplicable a la cooperativa para no incluir un plazo superior al previsto en la norma respectiva.
+Aunque la persona socia puede darse de baja de la cooperativa en cualquier momento, los estatutos
+pueden prever un período mínimo de permanencia en la cooperativa, que la mayoría de las leyes prevén
+que en ningún caso pueda ser superior a 5 años. También podrán establecer el compromiso de la persona
+socia de no presentar su petición de baja hasta que finalice el ejercicio económico.
+Sin perjuicio de que el consejo rector venga obligado a aceptar la baja de la persona socia, ésta deberá
+calificarse como justificada o como no justificada.
+2.4.1. Calificación de la baja como justificada o no justificada.
+La baja voluntaria se considera justificada cuando la persona socia ha cumplido el período de preaviso y,
+en su caso, el período mínimo de permanencia que establezcan los estatutos. Asimismo, se considerará
+justificada en los demás casos en que lo prevean los estatutos sociales. Por ejemplo, en los proyectos de
+cohousing suele considerarse baja justificada el cambio de las circunstancias económicas de la persona socia
+si no le permiten hacer frente a los pagos a los que viene obligada, incremento de los costes de construcción
+por encima de cierto porcentaje, cambios en la composición de su unidad de convivencia, y similares.
+Asimismo, el consejo rector, en atención a otras circunstancias imponderables, puede considerar la baja
+como justificada.
+El consejo rector debe resolver la petición de baja y calificarla antes del período que contiene la ley
+aplicable, en la mayoría de ellas se prevé un plazo de 3 meses. En otro caso la baja tendrá efectos para
+la persona socia y, además, se considerará como baja justiciada.
+Finalmente, las normas legales consideran la baja como justificada cuando la cooperativa adopta ciertos
+acuerdos que implican un cambio sustancial de la estructura de la cooperativa o de las obligaciones que
+deben asumir las personas socias. Prácticamente todas las leyes incluyen entre estos casos los acuerdos
+estructurales (fusión, escisión o transformación de la cooperativa en otra forma de sociedad), el acuerdo
+adoptado en asamblea de nuevas aportaciones obligatorias al capital social de las personas socias o la
+imposición a éstas de nuevas obligaciones.
+En estos casos, para poder solicitar la baja y que la misma sea considerada como baja justificada la
+persona socia debe salvar su voto en asamblea (es decir, votar en contra del acuerdo), hacer constar en
+acta su oposición y comunicarlo su voluntad de causar baja por escrito dirigido al consejo rector dentro
+del plazo previsto legalmente. Debe consultarse la ley aplicable a la cooperativa, pues este plazo varía
+en las distintas normas legales.
+
+-- 24 of 62 --
+
+25
+2. Capítulo II. Las Personas Socias
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+2.4.2. La baja obligatoria.
+Cuando la persona socia pierda los requisitos previstos en los estatutos para adquirir esta condición
+debe causar baja obligatoriamente. Recuérdese que en el caso de los cohousing sénior es usual poner
+una edad máxima para ingresar como persona socia, e igualmente se exige no tener la condición de
+dependiente. No obstante, estos requisitos sólo se exigen en el momento del ingreso y no implican
+perder la condición de socio o socia superar el umbral de edad o devenir dependiente. Por ello esta
+circunstancia debe recogerse expresamente en los estatutos o, en otro caso, serían causa de baja
+obligatoria.
+La baja obligatoria debe acordarla el consejo rector, que puede actuar de oficio, a petición de otra
+persona socia, o de la propia persona afectada, siempre con la audiencia previa de la persona interesada.
+Prácticamente todas las normas cooperativas españolas prevén que la baja obligatoria del socio siempre
+se considere justificada, aunque en algunas de ellas se permite calificarla como injustificada cuando la
+pérdida de los requisitos es consecuencia de la voluntad del socio o socia de incumplir sus obligaciones
+con la cooperativa o de beneficiarse indebidamente con su baja obligatoria.
+2.4.3. La baja por expulsión.
+También causan baja las personas socias que sean expulsadas de la cooperativa. La baja por expulsión
+sólo puede tener lugar si se ha instruido un expediente a estos efectos, y sólo por la comisión de una
+falta muy grave previamente tipificada en los estatutos. Es decir, debe tramitarse el correspondiente
+expediente sancionador que específicamente debe adoptar la forma de expediente de expulsión. Nos
+ocupamos de este procedimiento al tratar las normas de disciplina social.
+2.4.4. Procedimiento de baja de la cooperativa.
+La calificación y la determinación de la baja de la persona socia son competencia del consejo rector,
+que, como se ha dicho, deberá resolver en el plazo máximo a contar desde que la persona socia haya
+presentado su solicitud que establezca la respectiva norma legal aplicable a la cooperativa.
+Si la persona socia está disconforme con el acuerdo del consejo rector sobre la calificación y efectos de
+la baja, puede interponer recurso ante el comité de recursos o ante la asamblea general. El recurso ante
+el comité de recursos únicamente se podrá plantear si la cooperativa ha regulado este órgano en los
+estatutos sociales. Si la cooperativa no ha regulado este órgano, el recurso deberá presentarse ante la
+asamblea general. Las Comunidades Autónomas han establecido plazos diferentes plazos de resolución
+de los recursos, tanto del comité de recursos como de la asamblea general. Por ello, debe consultarse la
+normativa aplicable a la concreta cooperativa.
+Una vez transcurrido el plazo de que disponen el comité de recursos o la asamblea general para resolver
+el recurso presentado sin que se haya dictado resolución, se entenderá que el recurso ha sido estimado
+y, por tanto, que queda revocado el acuerdo del consejo rector.
+Si el socio o socia están disconformes con la resolución del comité de recursos o de la asamblea general,
+pueden interponer recurso ante la jurisdicción competente.
+2.4.5. Fecha de efectos de la baja.
+Cuando la persona socia cumple el plazo de preaviso, la baja produce efectos una vez ha transcurrido
+dicho plazo. Si los estatutos no prevén este plazo, la baja tendrá efectos desde que la persona socia
+presentó la solicitud ante el consejo rector. Si la persona socia incumple el preaviso, la baja tendrá
+igualmente efectos desde dicha solicitud, pero, como ya hemos dicho anteriormente, la baja se
+considerará como no justificada y, de acuerdo con lo que explicamos en el siguiente apartado, tendrá
+consecuencias económicas para la persona socia.
+
+-- 25 of 62 --
+
+26
+2. Capítulo II. Las Personas Socias
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+En aquellos casos en que la baja obedece a la previa tramitación de un expediente de expulsión del
+socio o socia, el acuerdo será ejecutivo en el momento en el que sea notificado el acuerdo de ratificación
+de la expulsión por comité de recursos o la asamblea general. Como luego veremos, si así lo establecen
+los estatutos, se puede acordar la suspensión cautelar de los derechos y obligaciones de la persona
+socia hasta que el acuerdo sea ejecutivo.
+2.4.6. Consecuencias económicas de la baja.
+La baja de la persona socia significa que, como regla general, se le reembolsarán sus aportaciones a
+capital social, pero como el capital está sujeto al riesgo empresarial de la cooperativa, previamente a su
+reembolso, el consejo rector debe practicar la oportuna liquidación del capital aportado, tomando como
+base el balance del cierre del ejercicio en el que se produzca la baja.
+La mayoría de las normas legales cooperativas establecen el siguiente procedimiento de liquidación y
+reembolso del capital social:
+a) En los tres meses siguientes a la aprobación de las cuentas anuales del ejercicio en que la persona
+socia cause baja, el consejo rector deberá realizar el cálculo del importe a reembolsar a la persona
+socia, descontando de su aportación las pérdidas que le sean imputables, tanto del ejercicio del
+que se tarte, como las pendientes de imputación correspondientes a ejercicios anteriores.
+b) Cuando la persona socia ha incumplido el período mínimo de permanencia o el preaviso, y la baja
+se ha calificado como no justificada, los estatutos podrán prever una deducción, que no podrá
+superar el 20% del capital obligatorio en caso de baja no justificada. En caso de expulsión este
+porcentaje de deducción puede ser del 30%. Debe tenerse en cuenta que, si por la Ley aplicable o
+por el criterio del Registro se ha tenido que constituir la cooperativa como integral de consumo y
+de viviendas, leyes cooperativas permiten que, por lo que afecta a las viviendas, estas deducciones
+se practiquen también sobre las cantidades entregadas para financiar el coste de la construcción. Si
+es interés de la cooperativa incluir esta deducción en sus estatutos, debe consultarse la respectiva
+ley aplicable para confirmar que se contempla esta posibilidad.
+c) La cooperativa dispone de un plazo máximo de cinco años para hacer efectivo el reembolso.
+En caso de fallecimiento de la persona socia, algunas normas legales suelen prever un
+plazo más breve, alrededor de un año. En este caso el reembolso se efectúa a favor de los
+herederos, salvo que éstos soliciten su ingreso en la cooperativa como persona socia, dentro
+del plazo establecido en la norma legal aplicable. Lógicamente para poder solicitar este
+ingreso el heredero o heredera debe cumplir los requisitos previstos en los estatutos sociales.
+Normalmente en estos casos los estatutos de las cooperativas de cohousing sénior exoneran
+al heredero de cumplir el límite de edad máxima o la condición de persona no dependiente
+si el heredero era una persona que convivía con el socio o socia fallecidos.
+Debe tenerse en cuenta que las comunidades autónomas que han regulado específicamente las
+cooperativas en cesión de uso suelen contener normas especiales sobre la sucesión por causa
+de muerte, normalmente para permitir que sucede al causante otro miembro de su unidad de
+convivencia. No obstante, dado que la sucesión legal se regula por normas de orden público, de
+obligatorio cumplimiento, si la ley aplicable al proyecto de cohousing sénior no contiene estas
+previsiones, debemos aconsejar que se designe como heredero a quien la persona socia desee
+que le suceda en el cohousing a su fallecimiento.
+Al principio de este apartado hemos explicado que la baja de la persona socia significa que, como
+regla general, se le reembolsarán sus aportaciones a capital social. No obstante, como se explica en
+el apartado sobre régimen económico, este reembolso puede ser rechazado incondicionalmente por
+el consejo rector, con el fin de que las aportaciones a capital social tengan la consideración de fondo
+propio de la cooperativa. Véase en este sentido el apartado 3.1.c).
+
+-- 26 of 62 --
+
+27
+2. Capítulo II. Las Personas Socias
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+2.5. Disciplina social.
+Los estatutos han de contener las normas de disciplina social de la cooperativa, que servirán para
+sancionar las conductas de aquellas personas socias que incumplan sus obligaciones estatutarias.
+Las faltas se clasificarán, según su gravedad, en leves, graves y muy graves. Únicamente podrán ser
+sancionadas aquellas conductas que estén previamente tipificadas en los estatutos sociales. Una partic-
+ularidad de la Ley de cooperativas valenciana es que limita la tipificación estatutaria en el caso de las
+faltas muy graves, de modo que sólo pueden ser consideradas como tales las previstas en la norma legal.
+Las infracciones cometidas por las personas socias prescriben por el mero paso del tiempo si no se ha
+iniciado expediente sancionador o, si habiéndose iniciado, no se dicta y notifica la resolución en el plazo
+establecido en la normativa.
+Por norma general, las infracciones leves prescriben a los 2 meses, las graves a los 4 meses y las muy
+graves a los 6 meses y el cómputo de la prescripción de las sanciones se iniciará en el momento en
+el cual la persona socia ha cometido la infracción. Hay que tener presente que algunas Comunidades
+Autónomas han regulado plazos de prescripción diferentes a los indicados, pudiendo ser inferiores o
+superiores, y han establecido que el cómputo del período de prescripción no se inicia hasta el momento
+en el cual el consejo rector ha tenido conocimiento de la infracción cometida.
+Normativa
+Infracciones
+leves
+Infracciones
+graves
+Infracciones
+muy graves 	Cómputo plazo
+Estatal 	2 meses 	4 meses 	6 meses 	Desde la fecha en que se ha cometido la infracción
+Andalucía 	1 año 	2 años 	3 años 	Desde la fecha de su comisión
+Aragón 	1 mes 	2 meses 	3 meses Desde el día que el consejo rector tiene
+conocimiento de la infracción
+Principado
+de Asturias 2 meses 	4 meses 	6 meses Desde la fecha en la que se ha cometido la
+infracción
+Illes Balears 	1 mes 	2 meses 	3 meses Desde el día que el consejo rector tiene
+conocimiento de la infracción
+Canarias 	2 meses 	4 meses 	6 meses Des de la fecha en la que se ha cometido la
+infracción
+Cantabria 	2 meses 	4 meses 	6 meses Desde la fecha en la que se ha cometido la
+infracción
+Castilla
+y León 2 meses 	4 meses 	6 meses Desde la fecha en la que se ha cometido la
+infracción
+Castilla
+La Mancha 4 meses 	8 meses 	12 meses Desde la fecha en la que se ha cometido la
+infracción
+Cataluña 	1 mes 	2 meses 	3 meses Desde el día que el consejo rector tiene
+conocimiento de la infracción
+Comunidad
+Valenciana 1 año 	2 años 	3 años 	Desde la fecha de su comisión
+Extremadura 	2 meses 	4 meses 	6 meses Des de que el órgano administrativo ha tenido
+conocimiento
+Galicia 	1 mes 	2 meses 	3 meses Desde el día que el órgano de administración tiene
+conocimiento de la infracción
+Comunidad
+de Madrid 2 meses 	4 meses 	6 meses 	Desde la fecha de su comisión
+Región
+de Murcia 2 meses 	4 meses 	6 meses 	Desde la fecha de su comisión
+País Vasco 	1 mes 	2 meses 	3 meses 	Desde la fecha de su comisión
+La Rioja 	1 mes 	2 meses 	3 meses Desde el día que el consejo rector tiene
+conocimiento de la infracción
+Tabla 1.
+
+-- 27 of 62 --
+
+28
+2. Capítulo II. Las Personas Socias
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+En la Tabla 1 se puede ver la fecha del plazo de prescripción de cada tipo de sanción y cuándo se inicia
+el cómputo del plazo, según lo que ha regulado cada Comunidad Autónoma.
+Téngase en cuenta que la Ley foral Navarra no contiene normas específicas a este respecto.
+Los estatutos deberán establecer el procedimiento sancionador y los recursos que se puedan interponer,
+salvaguardando las siguientes normas:
+● 	El consejo rector es el órgano que tiene facultad sancionadora que, en la mayoría de las leyes es
+indelegable, aunque en algunos casos se puede delegar a otro órgano social como, por ejemplo,
+lo prevén la ley andaluza o la catalana.
+● 	Es preceptivo conceder audiencia previa a la persona interesada. Algunas normas legales prevén
+que en los casos tipificados como faltas graves y muy graves las alegaciones se deberán realizar
+por escrito o por cualquier otro medio que permita su consulta ulterior.
+● 	El acuerdo de sanción podrá ser impugnado en el plazo de un mes desde su notificación o ante
+el comité de recursos (que, por lo común, las leyes prevén que debe resolver en el plazo de dos
+meses) o ante la asamblea general (que resolverá en la primera reunión que se celebre). De nuevo
+se ha de tener en cuenta que algunas Comunidades Autónomas han establecido plazos diferentes,
+por lo que debe consultarse la normativa autonómica de aplicación.
+Si el recurso no se ha resuelto en los plazos establecidos se entenderá que ha sido estimado. En caso
+de que la impugnación no sea admitida o se desestime se puede recurrir ante el Juzgado de Primera
+Instancia del domicilio de la cooperativa en el plazo de un mes a contar desde la no admisión o desde
+la notificación de la resolución.
+Los estatutos podrán regular la posibilidad de suspender a la persona socia de sus derechos mientras,
+cautelarmente, se tramite el procedimiento sancionador, o como sanción, una vez finalizado el expediente.
+Pero debe consultarse de nuevo la ley aplicable a la cooperativa, ya que todas las normas legales limitan
+qué derechos pueden suspenderse y cuáles no, así como en qué casos es posible la suspensión. En la
+mayoría de los casos, no puede suspenderse el derecho de información ni, si fuera el caso, el derecho
+a percibir el retorno, al devengo de intereses por sus aportaciones al capital social, así como tampoco
+a la actualización de estas y algunas normas tampoco permiten suspender el derecho de voz ante la
+asamblea, aunque sí puede privarse a la persona socia sancionada o sujeta a una medida cautelar.
+En cuanto a las sanciones, los estatutos de la cooperativa deberán indicar qué sanción corresponde
+imponer a la persona socia en función de la falta que haya cometido.
+Normalmente, las faltas leves se pueden sancionar con amonestaciones por escrito o de forma verbal;
+las faltas graves se podrán sancionar con una multa económica, inhabilitaciones para ejercer cargos
+sociales o con amonestaciones verbales o por escrito; en el caso de las faltas muy graves se podrán
+sancionar con multas económicas superiores a las faltas graves y con la inhabilitación para ejercer cargos
+en un período superior al indicado para las faltas graves. Únicamente se podrá expulsar a las personas
+socias que hayan cometido una infracción tipificada como muy grave en los estatutos y mediante la
+instrucción de un expediente instruido a este efecto. El acuerdo de expulsión será ejecutivo cuando
+se haya notificado a la persona socia la ratificación del comité de recursos o de la asamblea general, o
+cuando haya transcurrido el plazo para presentar recurso sin haberlo hecho.
+En el cuadro siguiente efectuamos algunas recomendaciones sobre cómo regular las faltas y las sanciones
+en los estatutos de un cohousing sénior.
+
+-- 28 of 62 --
+
+29
+2. Capítulo II. Las Personas Socias
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Tipificación de las faltas:
+Serán faltas leves:
+● La falta de notificación al Consejo Rector de la cooperativa, del cambio de domicilio de la
+persona socia.
+● La falta de respeto y consideración para con otra/s persona/s socia/s de la entidad en actos
+sociales de la misma.
+● La falta de notificación de la situación de incapacidad laboral transitoria o análoga, que impida a
+la persona socia prestar su actividad en la cooperativa.
+● La falta de asistencia no justificada a los actos societarios a los que fuese convocado en la forma
+debida.
+Serán faltas graves:
+● La inasistencia injustificada a las Asambleas Generales debidamente convocadas, cuando la
+persona socia haya sido sancionada dos veces por falta leve por no asistir a las reuniones de
+dicho órgano social en los últimos cinco años.
+● La usurpación de las funciones de los órganos rectores.
+● Prevalerse de la condición de persona socia, para realizar actividades especulativas o contrarias
+a las leyes.
+● El incumplimiento de un mandato del Consejo Rector o de la Asamblea General, siempre que se
+produzca por vez primera y no altere de una forma notoria la vida social de la cooperativa ni sus
+fines.
+● No aceptar los cargos sociales para los que fuesen elegidos, salvo causa justificada de excusa.
+● La reincidencia o acumulación de dos faltas leves, aunque sean de distinta naturaleza, dentro de
+un período consecutivo de un año, a contar desde la fecha de la primera falta leve.
+● Los malos tratos de palabra u obra a otra persona socia, empleada o terceros, con ocasión de
+reuniones de los órganos sociales o la realización del objeto social de la cooperativa.
+● Inducir a otra persona socia a que no cumpla con los acuerdos de la Asamblea General o del
+Consejo Rector.
+Serán faltas muy graves:
+● Desarrollar una actuación perjudicial y grave a los intereses de la cooperativa, tales como
+operaciones de competencia, fraude de aportaciones u ocultación de datos relevantes, que
+atenten contra los intereses materiales o el prestigio de la entidad.
+● Especular con la vivienda cedida por la Cooperativa.
+● Incumplir por parte de la persona socia que posea el derecho de uso de la vivienda las
+obligaciones referidas al uso.
+● Falsificación de documentos, firmas, sellos, marcas, claves o datos análogos propios y
+significativos de la cooperativa.
+● No participar en la actividad cooperativizada en la forma preceptuada en los Estatutos.
+● La falta de pago de las aportaciones y cuotas obligatorias.
+● La acumulación de dos faltas graves en el período de un año a contar desde la fecha de la
+primera falta grave.
+● El robo, el fraude, el huerto, la apropiación indebida, la estafa y cualquier otro acto ilícito de
+características similares que sea cometido por la persona socia contra la Cooperativa, contra
+otra persona socia o contra sus clientes.
+
+-- 29 of 62 --
+
+30
+GUÍA PRÁCTICA: 	REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+3. 	Capítulo III. Régimen económico
+de la cooperativa
+3.1. 	El capital social
+3.2. 	Nuevas aportaciones: obligatorias y voluntarias
+3.3. 	Otras aportaciones obligatorias al capital social
+3.4. 	Las aportaciones voluntarias al capital social
+3.5. 	La retribución de las aportaciones a capital social
+3.6. 	Transmisión de las aportaciones
+3.7. 	Reembolso de las participaciones
+3.8. 	Cuotas y otras aportaciones que no forman parte
+del capital social
+3.9. 	Resultados del ejercicio y su aplicación
+3.10. Fondo de reserva obligatorio
+3.11. 	Fondo de educación y promoción
+3.12. Ejercicio económico
+3.13. Responsabilidad de las personas socias
+
+-- 30 of 62 --
+
+31
+3. Capítulo III. Régimen económico de la cooperativa
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+3. Capítulo III. Régimen económico de la cooperativa
+Los estatutos sociales incluyen un capítulo que regula el régimen económico de la cooperativa. En
+las cooperativas de cohousing este capítulo cobra especial importancia, tanto por el hecho de que la
+cooperativa, en la mayoría de los casos, retendrá la propiedad del edificio, como por la prestación de
+diversos servicios a las personas socias y quienes conviven con ellas, de lo que derivan aportaciones
+distintas de las que se realizan en otras clases de cooperativas. Vemos, pues, que las aportaciones de
+las personas socias no se limitan al capital, sino que: a) deben financiar -al menos en parte- la compra,
+construcción o rehabilitación del edificio; b) sufragar los gastos de mantenimiento del inmueble, y c)
+abonar el coste correspondiente a la prestación de servicios a las personas socias, ya estén vinculados
+a la vivienda, ya a la persona socia y quienes con ella conviven.
+3.1. El capital social.
+Como todo proyecto económico (no podemos olvidar que la cooperativa lleva a cabo una actividad
+empresarial, aunque la desarrolle sin ánimo de lucro) la cooperativa tiene que contar con un capital. A
+diferencia de otras formas societarias, como la sociedad anónima o la sociedad limitada, la cooperativa
+es una sociedad de capital variable, en concordancia con el principio de libre adhesión y baja voluntaria,
+también denominado de “puerta abierta”. Así, cuando ingresan nuevas personas socias, éstas aportan
+capital, de modo que el capital de la sociedad aumenta y, a su vez, cuando las personas causan baja,
+se les debe reembolsar el capital aportado, con lo que el capital social disminuye, y ello sin que sea
+necesario modificar los estatutos, ni la escritura de constitución por esa variación en el capital. Por
+ello algunas leyes españolas prevén que si la cooperativa anuncia al público la cifra de su capital debe
+determinar la fecha en que existía esta cifra e igualmente indicar si está totalmente desembolsado o no.
+Por excepción a lo anterior sí deben modificarse los estatutos sociales si la variación en el capital implica
+una reducción del capital mínimo previstos en los estatutos, pues este capital mínimo funciona como
+elemento de garantía patrimonial, junto al fondo de reserva obligatoria.
+a) El capital mínimo de la cooperativa.
+Por lo anterior, los estatutos deben prever cuál será el capital mínimo para poder constituir y
+funcionar la cooperativa que, en la mayoría de las normas legales, debe estar totalmente suscrito
+y desembolsado en el momento de constituir la sociedad.
+La mayoría de las leyes cooperativas establecen una cifra mínima de capital social, por lo común
+cifrada en tres mil euros. En la siguiente Tabla se constata el capital mínimo que exigen las distintas
+leyes para constituir una cooperativa, sea de la clase que sea.
+
+-- 31 of 62 --
+
+32
+3. Capítulo III. Régimen económico de la cooperativa
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Norma legal 	Precepto 	Capital mínimo
+Ley 27/1999, de 16 de julio, de Cooperativas 	Art. 45 Deben fijarlo los estatutos,
+pero no impone cifra mínima
+Ley 14/2011, de 23 de diciembre, de Sociedades
+Cooperativas Andaluzas Art. 11 Deben fijarlo los estatutos,
+pero no impone cifra mínima
+Ley 9/1998, de 2 de diciembre, de Cooperativas de
+Aragón Art. 48 Deben fijarlo los estatutos,
+pero no impone cifra mínima
+Ley 4/2022, de 31 de octubre, de Sociedades
+Cooperativas de Canarias Art. 63 Deben fijarlo los estatutos,
+pero no impone cifra mínima
+Ley 6/2013, de 6 de noviembre, de Cooperativas de
+Cantabria Art. 6 	3.000,00 €
+Ley 4/2002, de 11 abril, de Cooperativas de Castilla y León. 	Art. 4 	3.000,00 €
+Ley 11/2010 de 4 noviembre, de Cooperativas de
+Castilla-La Mancha. Art. 7 	3.000,00 €
+Ley 12/2015, de 9 de julio, de cooperativas de Cataluña. 	Art. 70 	3.000,00 €
+Decreto legislativo 2/2015, de 15 de mayo de cooperativas
+de la Comunidad Valenciana Art. 55 Deben fijarlo los estatutos,
+pero no impone cifra mínima
+Ley 9/2018, de 30 de octubre, de Sociedades
+Cooperativas de Extremadura Art. 5 	3.000,00 €
+Ley 5/1998, de 18 diciembre, de Cooperativas de Galicia 	Art. 5 	3.000,00 €
+Ley 5/2023, de 8 de marzo, de Cooperativas de las
+Illes Balears Art. 84 	1.800,00 €
+Ley 4/2001, de 2 julio, de Cooperativas de La Rioja 	Art. 61 1.803,00 €; en las cooperativas
+de iniciativa social 300,00 €
+Ley 2/2023, de 24 de febrero, de Cooperativas de Madrid. 	Art. 47 	1,00 €
+Ley Foral 14/2006, de 11 de diciembre, de Cooperativas de
+Navarra Art. 7 1.500,00 € y las cooperativas
+educacionales 600,00 €
+Ley 11/2019, de 20 de diciembre, de Cooperativas de
+Euskadi Art. 13 Deben fijarlo los estatutos,
+pero no impone cifra mínima
+Ley 4/2010, de 29 junio, de Cooperativas del
+Principado de Asturias Art. 4 	3.000,00 €
+Ley 8/2006, de 16 noviembre, de Sociedades
+Cooperativas de Murcia Art. 64 Deben fijarlo los estatutos,
+pero no impone cifra mínima
+Tabla 2.
+Dado que estos proyectos requieren de inversiones importantes, recomendamos
+que el capital social sea por lo menos de 3.000,00 €.
+b) El capital mínimo para adquirir la condición de persona socia.
+El artículo de los estatutos que regula el capital social de la cooperativa debe recoger igualmente
+si la aportación obligatoria mínima al capital social que se exige a las personas socias para adquirir
+esta condición, así como la forma de aportarla y los plazos de desembolso. Debe comprobarse
+igualmente si, además de la aportación mínima, la ley que sea de aplicación a la cooperativa,
+según su ámbito de actividad ha previsto una aportación máxima, normalmente referenciada a un
+porcentaje del capital social total de la cooperativa.
+
+-- 32 of 62 --
+
+33
+3. Capítulo III. Régimen económico de la cooperativa
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Igualmente, los estatutos han de contemplar la aportación a capital social que deben los nuevos
+socios y socias que ingresen con posterioridad a la cooperativa. La mayoría de las normas legales
+prevén que deben ser las mismas aportaciones obligatorias que las exigidas a las personas socias
+existentes, actualizadas según el Índice de Precios al Consumo y deben desembolsarse en las
+mismas condiciones que se exigieron a las socias existentes, norma que refleja la naturaleza no
+especulativa de la cooperativa, a la vez que hace efectivo el principio de “puerta abierta”.
+Por lo que se refiere a la aportación mínima obligatoria a capital social para adquirir la condición de
+persona socia pueden ser la misma para todas ellas, independientemente de su clase, o pueden ser
+diferentes para cada clase de persona socia. Asimismo, dentro de la misma clase de socia, pueden
+establecerse aportaciones diferentes en función de la actividad cooperativizada que vaya a realizar
+la persona socia.
+En el caso de los cohousing sénior suele haber, como se ha explicado en el apartado 6.1, que puede
+haber distintas clases de personas socias cooperativistas: socias de vivienda y socias de consumo,
+si bien algunos proyectos pueden exigir que la misma persona reúna la doble condición y, de
+hecho, la persona socia de vivienda lo será también de consumo, tanto por los bienes y servicios
+vinculados a la vivienda, como los vinculados a la persona socia y quienes con ella conviven.
+Igualmente puede haber personas socias que, si bien contribuyen a que la cooperativa cumpla sus
+fines, no llevan a cabo la actividad cooperativizada principal, ya sean colaboradoras, asociadas, ….
+Al respecto debe decirse que la mayoría de los estatutos sociales de las cooperativas de cohousing
+sénior suelen establecer aportaciones distintas para las distintas clases de personas socias a las
+que nos acabamos de referir. Igualmente es usual que, en el caso de la actividad cooperativizada
+de vivienda, cuando éstas tienen distinta superficie o tipología, se suele prever que las aporta-
+ciones a capital de esta clase de socias sean distintas, en proporción a la superficie de la vivienda
+que ocupara la persona socia.
+Dado que estos proyectos requieren de inversiones importantes para los socios,
+recomendamos que el capital social sea por lo menos de 1.000,00 € por persona
+socia.
+c) El reembolso del capital.
+El derecho de reembolso del capital social en caso de baja se puede configurar como un derecho
+incondicional del socio, o bien puede estar sujeto a la voluntad del Consejo Rector que podrá
+decidir de manera incondicional si reembolsa el capital a la persona socia que ha causado baja o si
+rehúsa dicho reembolso, convirtiéndola en acreedora, hasta tanto no le sea reintegrado el capital
+aportado en su día. Téngase en cuenta que algunas leyes autonómicas permiten que los estatutos
+decidan si esta decisión corresponde al consejo rector o a la asamblea, por lo que debe aplicarse
+la norma autonómica que corresponda a la cooperativa, en función de cuál sea el ámbito territorial
+en el que desempeñe su actividad principal.
+Dado que, como sea dicho, la cooperativa es una sociedad de capital variable, desde el punto de
+vista contable, este capital se considerará como un pasivo exigible (deuda) si la persona socia
+tiene un derecho incondicional a exigir el reembolso de su capital al causar baja como socia, lo
+que puede repercutir en la ratio financiera que será tenida en cuenta, entre otros, por las entidades
+financieras. En cambio, si se atribuye a la cooperativa la decisión sobre el reembolso del capital en
+caso de baja, a este capital se considerará fondo propio a efectos contables (patrimonio).
+Por tanto, al regular el capital social los estatutos deben determinar si el capital es reembolsable
+incondicionalmente a petición de la persona socia que causa baja o si el consejo rector (o en su
+caso la asamblea) podrán rechazar incondicionalmente este reembolso.
+
+-- 33 of 62 --
+
+34
+3. Capítulo III. Régimen económico de la cooperativa
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Dadas las consecuencias contables para la cooperativa en el caso de que el
+reembolso del capital social se regule como un derecho de las personas socias,
+y teniendo en cuenta las necesidades de financiación ajena que suelen tener este
+tipo de proyectos, recomendamos que el reembolso del capital social en caso de
+baja de la persona socia sea reusable incondicionalmente por el Consejo Rector
+(o si lo permite la Ley sea aplicable a la Cooperativa y esté previsto en los
+estatutos sociales, por la asamblea).
+d) La acreditación de las aportaciones de las personas socia al capital social.
+Al regular el capital social los Estatutos sociales deben prever igualmente cómo se acreditarán las
+aportaciones al capital social, que pueden ser mediante anotaciones en cuenta, libretas en partici-
+pación o en títulos nominativos, sin que en ningún caso puedan tener la consideración de títulos
+valores, ni valores negociables, ni podrán denominarse acciones o participaciones sociales.
+3.2. Nuevas aportaciones obligatorias al capital social.
+La aportación mínima para adquirir la condición de persona socia se puede incrementar más allá del
+IPC. En este caso además ha de modificarse el correspondiente artículo de los estatutos sociales. Al
+comportar la modificación de los estatutos sociales es necesario que el acuerdo lo adopte la asamblea
+general de la cooperativa, con el quórum exigido por la legislación para realizar tal modificación,
+normalmente exigiendo el voto favorable de dos terceras partes de las personas socias presentes y
+representadas en la asamblea, aunque conviene comprobar si la ley aplicable a la concreta cooperativa
+exige, adicionalmente, por ejemplo, un quórum específico de constitución de la asamblea general, tal
+como sucede en la Ley valenciana.
+La asamblea general también puede acordar, sin necesidad de modificar los estatutos sociales, la
+exigencia de nuevas aportaciones obligatorias al capital social que han de suscribir y desembolsar
+las personas socias, adicionales a las previstas estatutariamente, exigiendo el mismo quórum para la
+adopción de este acuerdo, aun cuando no comporte la modificación de los estatutos.
+La persona socia que tenga aportaciones voluntarias podrá imputar a aportaciones a las nuevas aporta-
+ciones obligatorias acordadas por la asamblea. Y en el caso de que la persona socia no esté conforme
+con este acuerdo, puede solicitar su baja como socia, que tendrá la consideración de justificada, siempre
+que cumpla las formalidades y los plazos previstos en la norma legal aplicable a la cooperativa en
+función del ámbito territorial en el que desarrolla su actividad principal. Normalmente las formalidades
+consisten en votar en contra del acuerdo y hacer constar en acta dicho voto en contra, y solicitar la baja
+en el plazo previsto en la respectiva ley que sea aplicable a la cooperativa según su ámbito territorial de
+actuación.
+3.3. Otras aportaciones obligatorias al capital social.
+En el modelo de adjudicación en propiedad de la vivienda a las personas socias, el coste de la vivienda
+constituye el precio de la adquisición. Sin embargo, cuando la cooperativa conserva la propiedad de toda
+la edificación, las personas socias deben aportar recursos para financiar la construcción o rehabilitación
+del edificio. Normalmente la cooperativa suele acudir a financiación ajena, a través de la modalidad del
+“préstamo al promotor” para hacer frente a los costes del proceso de edificación. Estos préstamos suelen
+alcanzar el 80% del coste de la edificación, pero no el del suelo ni el resto del coste de la construcción.
+Por ello es preciso que las personas socias efectúen aportaciones destinadas a sufragar estos los costes.
+
+-- 34 of 62 --
+
+35
+3. Capítulo III. Régimen económico de la cooperativa
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Esas aportaciones pueden adaptar la forma de capital social obligatorio o de aportaciones obligatorias
+que no integren el capital. En este caso los estatutos sociales, el reglamento o un acuerdo de la asamblea
+general debe fijar el importe de estas aportaciones, en qué calidad deben efectuarse y los plazos de
+desembolso, teniendo en cuenta lo que hemos expuesto en el apartado anterior para cuando se trate de
+nuevas aportaciones obligatorias al capital social.
+Algunos proyectos emplean el término “aportaciones voluntarias” para referirse a estos pagos financieros,
+pero no recomendamos el uso de este término, para diferenciarlos de la aportación mínima para adquirir
+la condición de persona socia. No recomendamos esta fórmula, ya que, a diferencia de las voluntarias
+en sentido estricto, nos estamos refiriendo a una aportación obligatoria para poder disfrutar el uso de
+la vivienda y si, argumentando que son voluntarias, un socio o socia se negase a su pago, la cooperativa
+no podría exigírsela ni tampoco dar de baja a la persona socia, que tendría derecho a continuar como
+tal, a pesar de haber efectuado unas aportaciones muy inferiores a las del resto.
+Finalmente conviene tener en cuenta que, aunque cada vez sea más excepcional, en algunos proyectos
+las personas socias efectúan aportaciones para cubrir la totalidad de los costes de construcción, sin
+acudir a financiación ajena. También en este caso as aportaciones pueden adoptar la forma de capital
+social o no, según lo explicado en los párrafos anteriores.
+Téngase en cuenta que algunas normas legales, como la Ley de cooperativas de La Rioja o al Ley de
+Viviendas Colaborativas de la Comunitat Valenciana limitan las aportaciones que se pueden exigir a las
+personas socias para contribuir a financiar la construcción.
+3.4. Las aportaciones voluntarias al capital social.
+Los estatutos también podrán incluir las aportaciones voluntarias, como mecanismo de financiación
+adicional. Téngase en cuenta que al tratarse de capital sólo puede ser suscrito por las personas socias
+de la cooperativa, sea cual sea su clase. La mayoría de las leyes de cooperativas prevén que en este caso
+el acuerdo de admisión debe ser adoptado por la asamblea general, y debe fijar las condiciones de la
+admisión de capital social voluntario: el importe total de la admisión, si las personas socias deben hacer
+una aportación mínima o una máxima; las condiciones de retribución; su régimen de reembolso (como
+derecho del socio o reusable incondicionalmente por el consejo rector); etc.
+La mayoría de las leyes de cooperativas permiten la admisión de capital social voluntario por el consejo
+rector, pero en este caso las condiciones del acuerdo de admisión deben ser las mismas que las últimas
+acordadas por la asamblea general, por lo que el consejo rector sólo podrá aceptar nuevas aportaciones
+de capital voluntario si la asamblea de la cooperativa lo ha admitido con anterioridad.
+3.5. La retribución de las aportaciones a capital social.
+Los estatutos deben igualmente prever si las aportaciones a capital social ya sean obligatorias o
+voluntarias, devengan o no intereses. Normalmente las aportaciones obligatorias al capital social no
+suelen devengarlos, mientras que las voluntarias, al ser un instrumento de financiación, sí suelen preverlos.
+En todo caso nuestra recomendación es que estos intereses se limiten al interés legal del dinero, dado
+que este es uno de los requisitos exigidos por las normas cooperativas para poder ser considerada como
+una entidad no lucrativa, requisito que, como hemos dicho, suele ser interesante para acceder a ciertas
+líneas de subvenciones, a políticas de fomento de vivienda o a ciertos programas de ayuda.
+
+-- 35 of 62 --
+
+36
+3. Capítulo III. Régimen económico de la cooperativa
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+3.6. Transmisión de las aportaciones.
+Las leyes cooperativas prevén normas específicas sobre la transmisión de las aportaciones a capital
+social de las personas socias, tanto por actos inter vivos, como mortis causa.
+La mayoría de ellas prevén que la transmisión se regule estatuariamente y, por lo común, se permite
+que sea entre personas socias, previa publicación en el tablón de anuncios de la cooperativa y, en
+algunos casos, precisamente para ofrecerlas a las personas socias expectantes. Asimismo, en cuanto
+a la sucesión por causa de muerte las normas legales suelen prever la posibilidad de transmitirla a las
+personas que han de suceder al causante, tano si son herederas legales, como testamentarias, siempre y
+cuando dicha persona reúna los requisitos para ser socia de la cooperativa y lo solicite dentro del plazo
+previsto en la Ley que, generalmente, es de tres meses, aunque debe consultarse la norma aplicable
+a la cooperativa. Si los herederos o heredaras no solicitan su ingreso como tales, tendrán derecho al
+reembolso de tales aportaciones.
+En los proyectos de cohousing recomendamos que se incluya en el artículo de los estatutos que regula
+la transmisión de las aportaciones a capital social una norma que permita expresamente, y con carácter
+preferente a los socios -incluso los expectantes-, la transmisión de estas aportaciones a los demás
+miembros de la unidad familiar, tanto si se éstos tienen la condición de persona socia, como si son
+personas beneficiarias. En este último caso, deberán solicitar su ingreso como socia en el plazo que
+marquen los estatutos sociales, sui cumplen los requisitos para ello.
+Ello es especialmente importante cuando el derecho de uso de la vivienda o unidad habitacional se
+ha regulado como un derecho de carácter personalísimo e intransmisible de la persona socia. Por ello
+recomendamos que al redactar la norma estatutaria se haga referencia, además, a que la transmisión
+de las aportaciones sociales comporta simultáneamente la atribución del derecho de uso al nuevo
+socio o socia, empleando, por ejemplo, la siguiente redacción, al encabezar este artículo:
+Artículo ***.- Transmisión de aportaciones a capital social
+La transmisión de las aportaciones a capital social, y con ellas el derecho de uso de
+la vivienda cooperativa, podrá producirse en los siguientes casos:
+a) Por actos “inter vivos”: ……………………………………………………………………….…………
+b) “Mortis causa”: ………………………………………………………………………………………………...
+Conviene tener en cuenta que pueden producirse distintas circunstancias que lo aconsejen, como, por
+ejemplo, en casos de separación o divorcio cuando la persona socia ha sido privada del uso de la
+vivienda familiar, que se atribuye al otro miembro de la pareja que no tiene la condición de socio o socia,
+por sentencia judicial o por el convenio suscrito entre las partes, o por otras circunstancias similares.
+Si el socio o socia transmite la totalidad de sus aportaciones en estos términos, además, causará baja
+obligatoria de la cooperativa, que debe ser considerada como justificada.
+Las normas legales autonómicas que han regulado expresamente el modelo de cesión de uso han incluido
+normas sobre la materia, precisamente para que estas transmisiones sean libres, siempre que la persona
+adquirente solicites su ingreso como socia en el plazo previsto estatutariamente, permitiendo que los
+estatutos exijan la condición de conviviente, e incluso que ésta se haya prolongado en el tiempo (por
+ejemplo, al menos dos años antes de la transmisión). E igualmente permiten que, en caso de defunción
+los herederos o herederas solo puedan sustituir al causante si tenían esta previa condición de conviviente.
+Sobre este particular deben consultarse la respectiva Ley reguladora de la cooperativa para comprobar
+si lo permite o, en su caso, formular consulta al Registro de Cooperatives competente. Un ejemplo de
+regulación específica y bastante concreta lo encontramos en la Ley de Cooperativas de Canarias que
+
+-- 36 of 62 --
+
+37
+3. Capítulo III. Régimen económico de la cooperativa
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+prevé que el derecho de uso y disfrute no podrá ser transmitido inter vivos. En caso de baja de la persona
+socia su derecho de uso se pondrá a disposición de la cooperativa, que lo cederá, por riguroso orden
+de antigüedad, a las socias expectantes y que este orden será alterado en los siguientes supuestos:
+(i) Cuando la transmisión del derecho de uso se produzca entre cónyuges decretadas o aprobadas
+judicialmente en los casos de separación o divorcio; (ii) Si así lo fijan los estatutos, en los supuestos de
+baja voluntaria justificada o baja obligatoria, a favor de los componentes de la unidad de convivencia. Y
+en cuanto a la transmisión mortis causa permite efectuarla a quienes sean causahabientes de la persona
+socia fallecida, previa su admisión como personas socias, de conformidad con los requisitos generales,
+si así lo solicitaren en el plazo de tres meses; en otro caso, tendrán derecho a la liquidación del crédito
+correspondiente y, en el supuesto de ser varios los causahabientes, la cooperativa podrá exigir que el
+derecho a solicitar la condición de persona socia sea ejercitado por una sola de ellas. La norma añade
+que los estatutos podrán prever la transmisión mortis causa a los miembros de la unidad de convivencia
+de la persona socia fallecida. Y en la misma línea lo regula la Ley de Viviendas Colaborativas de la
+Comunitat Valenciana y la Ley de Cooperativas de la Comunidad de Madrid.
+Como se ha dicho, conviene consultar si el Registro de Cooperativas correspondiente inscribiría una
+redacción estatutaria similar a la propuesta.
+3.7. Reembolso de las participaciones.
+Como se ha explicado, el régimen de reembolso en caso de baja de la persona socia debe regularse en
+los estatutos de la cooperativa y, para que el capital sea considerado patrimonio social (fondo propio)
+recomendamos que los estatutos incluyan el derecho incondicional del consejo rector -o, si lo permite
+la respectiva ley aplicable y está previsto en los estatutos sociales, la asamblea- a rehusar el reembolso
+del capital.
+Por otra parte, tanto si el reembolso del capital social se ha regulado como un derecho de la persona socia
+o si los estatutos han incluido el derecho incondicional a rehusar su reembolso, recomendamos incluir en
+los estatutos que el reembolso a las personas socias que han causado baja, pueda aplazarse hasta que otra
+persona socia (o socia expectante) ocupe el lugar de la que causó baja y efectúe las aportaciones correspon-
+dientes. Con esta medida se pretende mantener el equilibrio financiero y patrimonial de la cooperativa.
+3.8. Cuotas y otras aportaciones que no forman parte del capital social.
+a) Cuota de ingreso.
+La cooperativa puede obtener recursos a través de otros medios de financiación, como la imposición
+de cuotas de ingreso o periódicas a las personas socias. Las cuotas de ingreso se integrarán en la
+reserva obligatoria. Estas aportaciones se aplican al fondo de reserva obligatoria, que explicamos
+más adelante, y no son reembolsables a las personas socias en caso de baja y, de acuerdo con la
+mayoría de las leyes de cooperativas autonómicas y la ley estatal, tampoco son reembolsables en
+caso de disolución de la sociedad.
+b) Otras aportaciones que no integran el capital social.
+Además de las cuotas las normas cooperativas prevén diversos ingresos financieros que no
+forman parte del capital social. Nos referimos a la posibilidad de emitir obligaciones, títulos partic-
+ipativos, cuentas en participación y otros instrumentos financieros. Debe consultarse la ley que
+
+-- 37 of 62 --
+
+38
+3. Capítulo III. Régimen económico de la cooperativa
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+sea aplicable, que determinará el órgano competente para acordar el instrumento concreto, así
+como si existen normas de obligatoria observancia por la cooperativa.
+c) Aportaciones vinculadas a los servicios cooperativos.
+En el caso de las cooperativas de cohousing son necesarias aportaciones para financiar el proceso
+de construcción que, como hemos dicho, pueden adoptar la forma de capital social obligatorio,
+pero también pueden acordarse como aportación obligatoria que no se integre en el capital social,
+sino que forma parte de la masa de gestión de la sociedad cooperativa.
+Por otra parte, si la cooperativa ha acudido a la fórmula del préstamo al promotor, las personas socias
+deberán efectuar aportaciones periódicas que se destinen por la sociedad a amortizar dicho préstamo,
+de modo que la persona socia abona una contraprestación por el derecho de uso. Esta aportación se
+denomina comúnmente canon o cuota de uso.
+La mayoría de las leyes de cooperativas prevén que estos fondos que las personas socias entregan a la
+cooperativa para la gestión de la masa social, ya se trate de una aportación única o de pagos periódicos,
+no constituyen aportaciones sociales a capital, ni integran el patrimonio cooperativo, por lo que no
+responden de las deudas sociales y serán reembolsables en caso de baja de la persona socia e incluso
+algunas leyes prevén que no se les podrán aplicar deducciones por penalización.
+Al tratarse de obligaciones económicas, si constan en los estatutos o se derivan de un acuerdo adoptado
+por los órganos sociales son exigibles igual que las aportaciones obligatorias a capital social y en caso
+de incumplimiento de estos deberes económicos se les aplicarán los intereses o las penalizaciones
+previstas en los estatutos, además de poder aplicar las normas de disciplina social que normalmente
+prevén como infracción grave el incumplimiento de los deberes económicos, y como infracción muy
+grave, de las que puede dar lugar a la expulsión, el incumplimiento reiterado de dichos deberes.
+Para poder aplicar esta norma, sobre todo si se pretende incoar un expediente de expulsión de la persona
+socia, conviene puntualizar cuándo se considera reiterado el incumplimiento, p. e., el impago de tres
+cuotas o cánones mensuales consecutivos, o no consecutivas en un periodo de seis meses.
+Finalmente debe tenerse en cuenta que, si esta aportación para financiar la construcción se prevé como
+una cuota de ingreso exigible a la persona socia al ingresar como tal, junto a su aportación a capital, la
+cuota no se recuperará en caso de baja. A su vez, si se aporta como capital está sujeto al mismo régimen
+de responsabilidad que éste.
+Junto a la cuota o canon de uso, las personas socias deben efectuar pagos periódicos para hacer
+frente a los gastos generales de la cooperativa, entre ellos, el coste de los suministros y servicios de
+la edificación, tanto de las viviendas y dependencias de uso privativo, como de los espacios e instala-
+ciones comunes; igualmente deben hacer frente a los gastos de mantenimiento y conservación de la
+edificación, los tributos que la graven, los seguros y demás gastos en que incurra la cooperativa.
+Conviene prever los distintos conceptos de estos pagos en los estatutos sociales para que, como se ha
+dicho anteriormente, constituyan obligaciones económicas del socio o socia y que, cuyo incumplimiento
+permita aplicar los intereses moratorios u otras penalizaciones que se hayan previsto en los estatutos
+o, en su caso, las normas de disciplina social. No es necesario detallarlos uno por uno, ni cuantificarlos,
+pero sí recomendamos que se incluya, como hemos dicho, una referencia a cada uno de estos conceptos.
+Así mismo, las personas socias que lleven a cabo actividades de consumo, deberán pagar el coste
+establecido por la cooperativa por los productos y los servicios que suministra a sus miembros, tanto
+los vinculados a la vivienda (suministros, alimentos, servicio de limpieza de la vivienda, etc.), como de
+naturaleza personal (comida, peluquería, gimnasio, etc.).
+
+-- 38 of 62 --
+
+39
+3. Capítulo III. Régimen económico de la cooperativa
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+También respecto de estos pagos las normas cooperativas prevén que no forman parte del capital social
+de la cooperativa.
+Como ya hemos apuntado, nuestra recomendación es que, a fin de evitar conflictos en el futuro, se
+consignen en los estatutos sociales las distintas tipologías de aportaciones a las que se obligan las
+personas socias: el capital, las aportaciones financieras para hacer frente al coste de la construcción, los
+gastos de mantenimiento de los servicios e instalaciones comunes, el pago por los productos y servicios
+de consumo, etc.
+3.9. Resultados del ejercicio y su aplicación.
+Las leyes cooperativas regulan con detalle qué partidas integran los ingresos y los gastos cooperativos y
+los extraordinarios y extracooperativos, así como el destino que debe darse a cada clase de resultados.
+Como se verá en los dos apartados siguientes, deben dotarse al menos dos fondos obligatorios, el fondo de
+reserva obligatorio (FRO) y el fondo de educación y promoción cooperativa (FEPC), según los porcentajes
+establecidos en cada norma autonómica y en la Ley estatal como mínimos, aunque los estatutos sociales
+pueden incrementarlos. A estos efectos téngase en cuenta que, aunque la mayoría de las leyes prevé que
+los resultados extraordinarios y extracooperativos deben destinarse al menos en el 50% a FRO, alguna ley
+autonómica sigue establece que el 100% de estos resultados se destine a la reserva obligatoria.
+Una vez pagado el Impuesto sobre Sociedades y efectuadas las dotaciones anteriores, el resultado que
+queda es de libre disposición por la cooperativa.
+No obstante, si la cooperativa ha optado por ser considerada como una entidad no lucrativa, sobre todo,
+como se ha dicho, para acceder a ciertas líneas de subvenciones o las distintas medidas derivadas de las
+políticas de fomento de la vivienda (acceso a suelo gratuito o por precio inferior al de mercado, vías de
+financiación blanda, etc.) los estatutos han de prever que la totalidad de los resultados de libre disposición
+sean destinados a una reserva voluntaria, irrepartible entre las personas socias tanto en caso de baja como
+de disolución de la cooperativa. Este fondo debe destinarse a cumplir los fines estatuariamente previstos.
+Igualmente, en este precepto suele preverse cómo se aplican las pérdidas económicas de la cooperativa.
+En el caso de que la cooperativa haya optado por ser considerada una entidad no lucrativa, y deba
+dotar la reserva irrepartible antes mencionada, pueden aplicarse a la misma la totalidad las pérdidas del
+ejercicio, tanto las cooperativas, como las extracooperativas.
+3.10. Fondo de reserva obligatorio (FRO).
+El fondo de reserva obligatorio tiene como finalidad la consolidación, el desarrollo y la garantía de la
+cooperativa. Es un patrimonio social indivisible entre las personas socias, tanto en caso de baja, como
+en caso de disolución de la sociedad.
+El fondo se dota, como se ha dicho, con el porcentaje de los resultados cooperativos y extracooper-
+ativos del ejercicio, además de con las cuotas de ingreso (y en el caso de las cooperativas que actúan
+en Cataluña, también con las cuotas periódicas), en el caso en que los Estatutos sociales hayan previsto
+tales cuotas, así como con el cincuenta por ciento del resultado de la regularización del balance y con
+las deducciones sobre las aportaciones obligatorias en caso de baja del socio o socia. No obstante, en
+este extremo conviene consultar con detalle la ley autonómica que resulte de aplicación.
+Además de prever un porcentaje específico de dotación de este fondo, las distintas leyes de cooperativas
+contienen normas específicas sobre si su dotación es indefinida o si finaliza cuando alcance determinada
+
+-- 39 of 62 --
+
+40
+3. Capítulo III. Régimen económico de la cooperativa
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+cifra (normalmente fijada como un porcentaje del capital social) o su irrepartibilidad total o su posible
+repetibilidad (normalmente sólo parcial) en determinados supuestos, por lo que debe consultarse la ley
+que sea aplicable a la cooperativa, según su ámbito territorial de actuación.
+3.11. Fondo de educación y promoción (FEPC).
+El FEPC tiene como fines la formación de las personas socias de trabajo o trabajadoras no socias de la
+cooperativa en los principios y técnicas cooperativas, económicas y profesionales; la promoción de las
+relaciones intercooperativas, la difusión del cooperativismo y la promoción cultural, profesional y social
+del entorno local o de la comunidad en general. La mayoría de las leyes prevén que el FEPC sirva para
+pagar las cuotas de la federación a la que pertenezca la cooperativa o que sea aportado íntegramente
+a esta para el cumplimiento de los fines específicos de este fondo.
+El FEPC se dota con el porcentaje de los excedentes netos y beneficios que establezcan los estatutos o
+la asamblea general, cumpliendo siempre el mínimo legal previsto en la ley aplicable, con las donaciones
+y otras ayudas que reciba para el cumplimiento de los fines que le son propios y con el importe de
+las sanciones impuestas a las personas socias. Este fondo es irrepartible e inembargable excepto por
+deudas contraídas para el cumplimiento de sus fines.
+3.12. Ejercicio económico.
+Los estatutos sociales deben establecer la duración del ejercicio económico, que debe comprender un
+año completo, de doce meses contados de fecha a fecha. Por lo común en los estatutos de las cooper-
+ativas de cohousing sénior este ejercicio coincide con el año natural.
+3.13. Responsabilidad de las personas socias.
+La responsabilidad de las personas socias por las deudas sociales se encuentra limitada por sus aporta-
+ciones a capital social. Es decir, que de las deudas contraídas por la sociedad cooperativa responde esta,
+con indemnidad del patrimonio privado de sus miembros. Esta responsabilidad de la cooperativa abarca
+todo su patrimonio presente y futuro, excepto el correspondiente al fondo de formación y promoción
+cooperativa, que solo responderá de las obligaciones estipuladas para el cumplimiento de sus fines.
+La mayoría de las leyes sobre cooperativas establecen este principio sin excepción, aunque algunas
+permiten que los estatutos establezcan un régimen de responsabilidad limitada de las personas socias por
+las deudas sociales, en cuyo caso estaríamos ante una responsabilidad mancomunada simple, salvo que
+los propios estatutos la declaren de carácter solidario. No recomendamos ninguna de estas dos opciones.
+Cuestión distinta a la responsabilidad de las personas socias por las deudas sociales, es decir, la respon-
+sabilidad del socio frente a los acreedores de la cooperativa (externa), es la de la responsabilidad de
+la persona socia por el cumplimiento de sus obligaciones contraídas con la cooperativa por el uso de
+los servicios cooperativos (responsabilidad interna), es decir, por el derecho de uso, la propiedad de su
+vivienda o los gastos de administración general. En este caso las personas socias responden, como en
+los demás casos, de manera ilimitada, de acuerdo con el artículo 1.911 del Código civil. En este sentido
+el artículo 64.1 de la LCCV prevé que la persona socia responde ilimitadamente del cumplimiento de
+la obligación de participar en la actividad cooperativizada. La baja como persona socia no le eximirá
+del cumplimiento de las obligaciones contraídas hasta ese momento. El incumplimiento de la anterior
+obligación dará derecho a la cooperativa al resarcimiento de los daños y perjuicios ocasionados.
+
+-- 40 of 62 --
+
+41
+GUÍA PRÁCTICA: 	REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+4. Capítulo IV. Los órganos sociales
+4.1. 	Asamblea General
+4.1.1. 	Competencias
+4.1.2. 	Clases y formas de la asamblea general
+4.1.3. Convocatoria
+4.1.4. Constitución de la asamblea general
+4.1.5. 	Voto y adopción de acuerdos
+4.1.6. Acta
+4.1.7. 	Impugnación de acuerdos sociales
+4.2. 	Consejo Rector
+4.2.1. 	Competencias
+4.2.2. Composición
+4.2.3. Elección
+4.2.4. Funcionamiento
+4.2.5. Impugnación de acuerdos
+4.2.6. Responsabilidad de los miembros del consejo rector
+4.3. 	Comité de Recursos
+4.4. 	Intervención de Cuentas
+4.5. 	Auditoría de Cuentas
+
+-- 41 of 62 --
+
+42
+4. Capítulo IV. Los órganos sociales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+4. Capítulo IV. Los órganos sociales
+La cooperativa está compuesta por diferentes órganos, algunos de los cuales son obligatorios y otros
+son potestativos. Son órganos obligatorios de la cooperativa la asamblea general, el consejo rector y, en
+la mayoría de las leyes, la intervención de cuentas, también denominada en algunas normas legales como
+comisión de control de la gestión o comisión de vigilancia. Además de estos órganos, la cooperativa
+puede regular en sus estatutos la existencia de otros órganos que sean útiles para el desarrollo de su
+actividad. No se pueden atribuir a estos órganos competencias que la normativa atribuya a la asamblea
+general o al consejo rector con carácter de indelegables.
+Órganos
+potestativos
+Órganos
+obligatorios
+● Asamblea General
+● Consejo Rector
+● Intervención de Cuentas
+● Comité de Recursos
+● La Dirección
+● Otros órganos estatutarios
+4.1. Asamblea general.
+La asamblea general es uno de los órganos que ha de tener toda cooperativa, ya que se trata del órgano
+soberano, formado por el conjunto de todas las personas socias que integran la cooperativa, que se
+reúnen para deliberar y adoptar la mayoría de los acuerdos en las materias que sean de su competencia.
+4.1.1. Competencias.
+La asamblea general puede tomar acuerdos en aquellas materias que sean de su competencia, así como
+en todas aquellas que la Ley no atribuya específicamente a otro órgano de la cooperativa.
+En todo caso, su acuerdo es imprescindible, en las siguientes materias:
+● 	Examen de la gestión social, aprobación de las cuentas anuales, del informe de gestión y de la
+aplicación de los excedentes disponibles o imputación de las pérdidas.
+● 	Nombramiento y revocación de las personas que han de integrar los órganos sociales: consejo
+rector, intervención de cuentas, auditores de cuentas, personas que integran el órgano de
+liquidación y, en su caso, el nombramiento del comité de recursos; también es competencia de la
+asamblea establecer si estos cargos serán retribuidos y la cuantía de su retribución. Recordemos
+que si la cooperativa tiene la condición de entidad no lucrativa estos cargos deben ser gratuitos,
+sin perjuicio de que se les compensen los gastos en que hayan incurrido en ejercicio del cargo.
+● 	Modificar los estatutos y aprobación o modificación, en su caso, del reglamento de régimen interno
+de la cooperativa.
+
+-- 42 of 62 --
+
+43
+4. Capítulo IV. Los órganos sociales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+● 	Aprobación de nuevas aportaciones obligatorias, admisión de aportaciones voluntarias, actual-
+ización del valor de las aportaciones al capital social, fijación de las aportaciones de las nuevas
+personas socias, el régimen de reembolso del capital, establecimiento de cuotas de ingreso o
+periódicas, así como el tipo de interés a abonar por las aportaciones al capital social.
+● 	Emisión de títulos participativos y participaciones especiales.
+● 	Fusión, escisión, transformación y disolución de la sociedad.
+● 	Toda decisión que suponga una modificación sustancial, según los estatutos, de la estructura
+económica, social, organizativa o funcional de la cooperativa. A este respecto debe tenerse
+en cuenta que algunas leyes autonómicas incluyen entre las competencias de la asamblea los
+acuerdos de transmisión del conjunto de la empresa o patrimonio cooperativos, de todo el activo
+o de elementos del inmovilizado que constituyan más de un porcentaje del dicho inmovilizado.
+● 	Constitución de cooperativas de segundo grado y de grupos cooperativos o incorporación a éstos
+si ya están constituidos, participación en otras formas de colaboración económica, adhesión a
+entidades de carácter representativo, así como la separación de estas. Téngase en cuenta que
+algunas normas legales permiten que los estatutos atribuyan esta competencia al consejo rector,
+pero en caso de no incluir esta posibilidad, seguirá siendo competencia de la asamblea general.
+● 	El ejercicio de la acción social de responsabilidad contra los miembros del consejo rector, los
+auditores de cuentas y liquidadores.
+● 	Todas aquellas competencias que le sean atribuidas por una norma legal o por los estatutos.
+La asamblea general no puede delegar la competencia de aquellas actuaciones que estén reguladas en
+la ley o en los estatutos.
+4.1.2. Clases y formas de la asamblea general.
+La asamblea general puede tener carácter ordinario o extraordinario.
+La asamblea general ordinaria es aquella que debe examinar la gestión social y aprobar, si procede,
+las cuentas anuales de la cooperativa y debe celebrarse dentro de los seis primeros meses siguientes
+a la fecha de cierre del ejercicio económico. A pesar de que estos puntos del orden del día son los
+propios y necesarios de la asamblea general ordinaria, se pueden incluir en el orden del día otra serie de
+cuestiones a tratar que sean competencia de la asamblea.
+El resto de las asambleas generales tendrán el carácter de extraordinario.
+Como veremos en el apartado siguiente, la asamblea general, tanto la ordinaria como al extraordinaria,
+pueden tener carácter de universal cuando, estando presentes la totalidad de personas socias, deciden
+constituirse en asamblea, por unanimidad e igualmente por unanimidad acuerdan el orden del día de la
+reunión.
+4.1.3. Convocatoria.
+El consejo rector es el encargado de convocar la asamblea general. En el caso de la ordinaria y lo deberá
+hacer en los seis meses siguientes al cierre del ejercicio económico de la cooperativa. Si el consejo rector
+no convoca la asamblea general dentro del plazo indicado, la mayoría de las normas legales prevén
+que la Intervención de cuentas pueda instarle para que la convoque y, si no lo hace, podrá solicitar al
+juzgado de primera instancia del domicilio donde se encuentre la cooperativa que proceda a convocar
+la asamblea general.
+
+-- 43 of 62 --
+
+44
+4. Capítulo IV. Los órganos sociales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+El consejo rector puede convocar la asamblea general siempre que lo considere conveniente y está
+obligado a hacerlo a petición del porcentaje de personas socias que prevea la norma legal aplicable.
+Estos porcentajes varían de una norma a otra, por lo que debe consultarse la ley aplicable la cooperativa.
+También lo podrá solicitar la intervención de cuentas si lo prevén los estatutos. Si el consejo rector no
+atiende a la petición, las personas socias peticionarias podrán acudir al juzgado de primera instancia que
+sea competente para solicitarle que convoque a la asamblea.
+En el supuesto que estén presentes o representadas todas las personas socias no es necesaria que se
+realice la convocatoria, dado que se puede constituir la asamblea general universal si todas ellas así lo
+deciden y acuerdan el orden del día de la sesión.
+La convocatoria de la asamblea general debe efectuarse con una antelación mínima de quince días y
+máxima de un mes, plazo que algunas leyes autonómicas amplían a dos meses. El anuncio de la convocatoria
+debe publicarse en el tablón de anuncios del domicilio social de la cooperativa, así como en los centros
+donde la cooperativa realice su actividad y normalmente por escrito a las personas socias, siendo válido
+a estos efectos los medios telemáticos, si lo prevén los estatutos lo ha aceptado la persona socia. Si la
+cooperativa dispone de domicilio virtual también se debe publicar el anuncio en la web. Los estatutos
+pueden establecer otros medios de comunicación, de forma individual y escrita a cada persona socia.
+Solo en los casos en los que la cooperativa tenga más de quinientas personas socias debe tenerse en
+cuenta que algunas normas legales exigen adicionalmente que se publique el anuncio de convocatoria
+de la asamblea general en el diario de mayor difusión en el territorio en el que tenga su domicilio social.
+El anuncio de la convocatoria debe contener, como mínimo, los siguientes datos:
+● 	Fecha, lugar y hora de la convocatoria, si es en primera o en segunda convocatoria, entre las que
+debe transcurrir media hora.
+● 	Los puntos que serán debatidos como orden del día.
+● 	Aquellos asuntos que hayan solicitado las personas socias, en los porcentajes y términos que
+prevea la respectiva ley aplicable.
+● 	En caso de que los estatutos lo prevean es posible que la asamblea general se pueda reunir a través
+de videoconferencia o a través de otros medios electrónicos. En este caso, se deberá indicar la forma
+en la cual la persona socia puede asistir y participar a la asamblea general de forma telemática.
+4.1.4. Constitución de la asamblea general.
+La asamblea general queda constituida en primera convocatoria si están presentes o representados al
+menos más de la mitad de los votos sociales. Si no se alcanza esta cifra, quedará constituida en segunda
+convocatoria, como norma general, sea cual sea el número de personas socias que asisten presentes
+o representadas a la reunión. Debe tenerse en cuenta que algunas leyes exigen también un quórum de
+asistencia mínimo para que la reunión se celebre en segunda convocatoria, porcentaje que social entre
+el 10% y 5% de los votos o un número mínimo de estos. Debe consultarse la respectiva ley aplicable a la
+cooperativa dado que se trata de normas de obligatoria observancia.
+La asamblea general está presidida por quien ostente la presidencia del consejo rector y, en su defecto,
+por quien ocupe la vicepresidencia y la secretaría corresponde a quien ostenta este cargo en el consejo
+rector o la persona que le sustituya según los estatutos o, en ambos casos, por las personas elegidas
+por la propia asamblea.
+La asamblea puede desarrollarse íntegramente por medios telemáticos o bien en formas híbridas,
+asistiendo algunas personas socias presencialmente y participando otras por medios telemáticos, En
+
+-- 44 of 62 --
+
+45
+4. Capítulo IV. Los órganos sociales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+todo caso estos medios deben permitir el cumplimiento de los requisitos de constitución de la asamblea
+general, identificar a la persona socia, la continuidad de la comunicación, la participación de la persona
+socia en la deliberación y toma de acuerdos y el ejercicio del derecho de voto.
+4.1.5. Voto y adopción de acuerdos.
+Como norma general, las votaciones de la asamblea general serán secretas en aquellos supuestos en los
+cuales la norma legal o los estatutos así lo prevean, o se solicite por el número de las personas socias
+que prevea la legislación aplicable a la cooperativa.
+Si en la cooperativa hay distintas clases de personas socias, como en el caso de las cooperativas de
+cohousing, se debe atribuir un voto proporcional para las diferentes clases de personas socias. Asimismo,
+hay que recordar que, como se ha dicho al explicar el derecho de voto, ciertas clases de personas socias
+tiene un voto limitado con relación al total de votos presentes o representadas en la asamblea general.
+A propósito de la representación, si una persona socia no puede acudir a la asamblea general puede
+autorizar a otra persona socia para que le represente. En este caso, el representante no puede ostentar
+más de dos delegaciones de voto (aunque debe revisarse la ley aplicable, pues algunas normas legales
+solo permiten que una persona socia represente a otra).
+Las personas socias también pueden delegar su voto en un familiar dentro del grado de parentesco que
+prevean los estatutos o la normativa autonómica que sea de aplicación. Por norma general, se permite
+que los cónyuges o pareja de hecho, así como los ascendientes y descendientes de la persona socia le
+puedan representar en la asamblea general.
+La representación se deberá realizar por escrito y se debe presentar a la presidencia de la asamblea
+general en el inicio de la sesión, salvo en el caso de los parientes, aunque debe acreditarse el parentesco.
+Como norma general, los acuerdos de la asamblea general se adoptarán por mayoría simple, es decir, con
+más votos a favor que votos en contra y abstenciones, aunque algunas leyes exigen mayoría absoluta,
+es decir, el voto de más de la mitad de los votos que se hayan emitido, sin contar los votos en blanco ni
+las abstenciones.
+Hay que tener en cuenta que, en los supuestos de modificación de estatutos, adhesión o baja a un grupo
+cooperativo, transformación, fusión, escisión, disolución y reactivación de la cooperativa, o venta de
+activos que supere cierto porcentaje el acuerdo debe adoptarse por dos tercios de los votos que estén
+presentes y representados para adoptar los acuerdos. Debe revisarse, también en esta materia, la ley
+aplicable a la cooperativa.
+Los estatutos pueden exigir mayor consenso y establecer mayorías superiores a las indicadas anteriormente,
+para adoptar determinados acuerdos o para todos, pero la mayoría de las leyes no permiten superar los
+dos tercios y eventualmente, en algún caso, los cuatro quintos de los votos presentes y representados.
+Excepto que la cooperativa se haya constituido con carácter de universal, no se pueden adoptar acuerdos
+que no consten en el orden el día, con excepción de los siguientes:
+● 	la convocatoria de una nueva asamblea general,
+● 	la de censurar la gestión de los miembros del consejo rector o la intervención de cuentas;
+● 	el ejercicio de la acción de responsabilidad contra los miembros del consejo rector, de la intervención
+de cuentas, de la empresa auditora o del órgano de liquidación;
+● 	la revocación de los cargos de los miembros indicados en el apartado anterior.
+
+-- 45 of 62 --
+
+46
+4. Capítulo IV. Los órganos sociales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+4.1.6. Acta.
+El acta de la reunión debe ser redactada por la persona que ocupe la secretaría. El acta de la reunión
+deberá contener, en todo caso, los siguientes puntos:
+● 	Fecha, lugar y hora de la reunión.
+● 	Relación de las personas socias que han asistido presentes o representadas.
+● 	Si la asamblea general se ha reunido en primera o en segunda convocatoria.
+● 	Se ha de indicar que existe el quórum suficiente para constituirse de forma válida.
+● 	El orden del día.
+● 	Resumen de las deliberaciones y de las intervenciones.
+● 	Transcripción de los acuerdos que se hayan adoptado.
+● 	Las intervenciones que se haya solicitado que consten en acta.
+El acta se deberá aprobar o bien al final de la reunión o bien en los quince días siguientes a su
+celebración. El acta debe ser firmada por quienes hayan ocupado la presidencia y la secretaría de
+la asamblea general y, en el caso de que hayan sido elegidas, por las personas designadas como
+interventoras del acta.
+En la asamblea general puede estar presente un notario, que se encargará de levantar el acta de la
+asamblea. El consejo rector puede requerir su presencia o bien si se lo solicitan un determinado número
+de personas socias con la antelación que indica la norma que sea de aplicación según donde esté el
+domicilio social de la cooperativa.
+4.1.7. Impugnación de acuerdos sociales.
+Los acuerdos que haya aprobado la asamblea general se pueden impugnar si son contrarios a la ley, a
+los estatutos o si lesionan, ya sea en beneficio de alguna persona socia o de una tercera persona, los
+intereses de la cooperativa. Si el acuerdo ha sido dejado sin efecto o si se ha sustituido por otro no se
+podrá impugnar.
+Diversas leyes de cooperativas prevén que los órganos sociales (el consejo rector, la intervención de
+cuentas, el órgano de liquidación o el comité de recursos) están obligados a impugnar aquellos acuerdos
+que sean contarios a la ley y a los estatutos.
+a) Acuerdos nulos.
+Únicamente los acuerdos que sean contrarios a la ley serán nulos. La nulidad se puede definir
+como aquellos actos que, desde su nacimiento, son inválidos porque no cumplen con los requisitos
+esenciales (se han adoptado en contra de lo que establece la ley) y se considera que nunca han
+existido.
+En la mayoría de las leyes cooperativas, la acción para impugnar los actos que sean nulos caducará
+al año de haberse aprobado, con excepción de aquellos que resulten contrarios al orden público,
+que no prescriben. Debe consultarse la norma que sea de aplicación, dado que algunas de ellas
+han establecido plazos de impugnación diferentes.
+
+-- 46 of 62 --
+
+47
+4. Capítulo IV. Los órganos sociales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Los acuerdos nulos pueden ser impugnados por cualquier persona socia, por los miembros del
+consejo rector, la intervención de cuentas, el comité de recursos y por aquellas terceras personas
+que tengan un interés legítimo.
+b) Acuerdos anulables.
+El resto de los acuerdos no comprendidos en el apartado anterior son anulables. La anulabilidad se
+refiere a aquella posibilidad que un acto que se haya adoptado sea anulado porque tiene defectos
+en su formación. A diferencia de los actos nulos, los actos anulables pueden ser válidos hasta que
+un juez decida lo contrario.
+La acción para impugnar los actos que sean anulables caducará, como norma general, a los 40
+días. Debe consultarse la norma que sea de aplicación, dado que algunas de ellas han establecido
+plazos de impugnación diferentes.
+Pueden impugnar los acuerdos anulables las personas socias que hayan asistido a la asamblea,
+siempre y cuando cumplan los requisitos previstos en la respectiva ley aplicable, las personas
+socias a las que se les haya prohibido votar de forma ilegítima, los miembros del consejo rector y
+de la intervención de cuentas. Debe consultarse la norma que sea de aplicación, dado que algunas
+de ellas contienen regulación específica.
+La demanda de impugnación del acuerdo se tiene que presentar de acuerdo con la norma aplicable
+a los procedimientos civiles. En algunos casos se puede solicitar la suspensión cautelar del acuerdo
+que se quiere impugnar, de forma que no produzca ningún efecto mientras está pendiente de
+resolver la demanda que se ha presentado. Debe consultarse la norma autonómica que sea de
+aplicación a la cooperativa, dado que algunas Comunidades Autónomas han establecido un
+porcentaje de socios diferente que pueden solicitar la suspensión cautelar del acuerdo. A título de
+ejemplo, la Ley Estatal o la gallega indican que únicamente lo pueden solicitar los interventores o
+personas socias que representen un veinte por ciento del total de votos sociales; y en Cataluña se
+ha establecido que lo pueden solicitar un cinco por ciento del total de votos sociales.
+La Sentencia que estime la demanda presentada por las personas socias producirá efectos frente
+a todas las personas socias de la cooperativa.
+4.2. Consejo rector.
+El consejo rector es el órgano de administración y gestión de la cooperativa al que le corresponden,
+entre otras funciones, la representación y gobierno de la cooperativa.
+4.2.1. Competencias.
+Corresponde al consejo rector la alta gestión de la cooperativa, la supervisión de los directivos y represen-
+tación de la cooperativa, el traslado del domicilio social dentro del mismo municipio, representar a la
+cooperativa en todos aquellos actos relacionados con las actividades que integren su objeto social,
+así como aquellas otras funciones que le sean atribuidas según la ley aplicable o los estatutos de la
+cooperativa, y siempre que no sean competencia de otro órgano.
+4.2.2. Composición.
+Los estatutos deben regular la composición del consejo rector, que no podrá tener menos de tres
+miembros.
+
+-- 47 of 62 --
+
+48
+4. Capítulo IV. Los órganos sociales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Pueden ser miembros del consejo rector las personas socias de la cooperativa, aunque los estatutos
+pueden permitir que personas ajenas a la cooperativa formen parte del consejo rector.
+Los cargos que obligatoriamente debe tener toda cooperativa son la presidencia y la secretaría. Los
+estatutos pueden prever la existencia de otros cargos y de suplentes, de hecho, es usual nombrar una o
+varias vicepresidencias.
+4.2.3. Elección.
+La asamblea general es la encargada de escoger a los miembros del consejo rector mediante votación
+secreta. En los estatutos se debe indicar la forma en la que se va a realizar el proceso de elección, siempre
+respetando la norma que sea de aplicación. En caso de miembros suplentes, que sustituirán a los titulares
+en el caso que se produzca una vacante, también corresponde su elección a la asamblea general.
+Los estatutos también deberán indicar el mandato de los miembros del consejo rector, es decir, el
+período de tiempo por el cual se escogen a los miembros titulares y a sus suplentes. Los miembros
+de consejo rector que se renueven pueden volver a presentar su candidatura y pueden volver a ser
+reelegidos, excepto que los estatutos, o la ley aplicable a la cooperativa, indiquen lo contrario. Debe
+consultarse la norma aplicable a la cooperativa en función de donde esté el domicilio social, dado que se
+han establecido períodos de vigencia de los mandatos que pueden oscilar entre los 2 a 6 años y algunas
+contienen límites a la reelección.
+La elección de los miembros del consejo rector se puede realizar de forma total o de forma parcial,
+de forma que se renueve únicamente la mitad de los cargos del consejo rector. En este supuesto
+es recomendable llevar un control de la fecha en la cual se han de renovar los cargos para evitar
+encontrarse con que todos los cargos han caducado y se tengan que renovar en bloque. Es importante
+indicar que los cargos continuarán siendo vigentes hasta que se renueven.
+Una vez se han elegido los miembros del consejo rector éstos deben aceptar el cargo, momento en el
+cual empieza a surtir efecto el nombramiento. El acta de nombramiento de los cargos se debe inscribir
+en el Registro de Cooperativas donde esté inscrita la cooperativa.
+En el supuesto en el cual un miembro del consejo rector cese, será sustituido por un suplente. La duración
+del cargo del suplente será la misma que la del miembro al cual está sustituyendo. En el caso en el cual
+no exista ningún suplente el consejo rector podrá nombrar de forma extraordinaria un sustituto.
+Los cargos del consejo rector pueden ser elegidos directamente por la asamblea general, o bien ésta
+se limita a elegir los miembros del consejo rector, correspondiendo a este órgano la distribución de los
+cargos entre los miembros que han sido elegidos.
+4.2.4. Funcionamiento.
+Los estatutos o la asamblea general deben regular el funcionamiento interno del consejo rector. En
+todo caso, sus acuerdos sólo son válidos si se encuentran presentes (o si lo permite la ley aplicable,
+representados) más de la mitad de sus miembros. Sus acuerdos se adoptan por más de la mitad de los
+votos presentes (y representados) y el voto de la presidencia dirimirá los empates. Cada miembro del
+consejo tiene un voto.
+En la mayoría de las normas se ha establecido que los miembros del consejo rector no se pueden hacer
+representar por otro miembro en el supuesto en el cual no puedan asistir a la reunión. En Cataluña,
+por ejemplo, sí que se permite que se pueda conceder la representación a otro miembro en caso de
+que no se pueda asistir a la reunión. Debe consultarse la norma autonómica que sea de aplicación a
+la cooperativa para saber si los miembros del consejo rector pueden otorgar la representación a otro
+miembro.
+
+-- 48 of 62 --
+
+49
+4. Capítulo IV. Los órganos sociales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Si así lo prevén los estatutos, se puede permitir que los miembros del consejo rector asistan a las
+reuniones a través de medios digitales, tal como hemos explicado en la asamblea.
+Como norma general, se ha establecido que el consejo rector se ha de reunir cada trimestre, aunque
+en los estatutos se puede establecer un período más largo, que en todo caso no puede superar el
+año. La presidencia del consejo rector puede realizar la convocatoria de forma extraordinaria o bien
+a iniciativa propia o bien si se lo requieren los consejeros o consejeras. En caso de que no lo haga, lo
+podrán convocar los consejeros o consejeras que reúnan el quórum requerido por la norma aplicable a
+la cooperativa.
+También como regla general, los miembros del consejo rector no tienen derecho a recibir ninguna
+retribución por el ejercicio de su cargo, con excepción que le sean pagadas las dietas y los gastos que
+se les ocasionen con motivo del ejercicio de su cargo. Como excepción, los estatutos sí que pueden
+establecer que perciban una retribución, pero si ejercen tareas de gestión directa y algunas leyes
+permiten la retribución a los consejeros o consejeras que no tengan la condición de persona socia.
+De las reuniones del consejo rector debe levantarse acta, que deben firmar quienes ocupen la presidencia
+y la secretaría.
+4.2.5. Impugnación de acuerdos del consejo rector.
+Los acuerdos del consejo rector se pueden impugnar si se considera que son contrarios a la ley o a
+los estatutos o que lesionen intereses, en beneficio de cualquier persona socia o tercera persona, los
+intereses de la cooperativa.
+Igual que en el caso de impugnación de los acuerdos de la asamblea general, los acuerdos del consejo
+rector pueden ser nulos o anulables.
+Todas las personas socias de la cooperativa pueden impugnar los acuerdos nulos del consejo rector,
+incluidos aquellos miembros que hubieran votado a favor o se hubieran abstenido. También pueden
+impugnar los acuerdos anulables aquellos miembros que hubieran votado en contra, los que estaban
+ausentes y aquellos a los que se les haya privado de forma ilegítima de su voto.
+El plazo de impugnación, con carácter general, es de un mes desde la fecha en la cual se haya adoptado el
+acuerdo, en caso de que el impugnante sea un consejero o consejera. En el resto de los casos, el plazo se
+inicia desde el momento en el cual la persona ha tenido conocimiento del acuerdo adoptado, siempre que
+no haya transcurrido un año. Es conveniente consultar la norma autonómica aplicable a la cooperativa en
+función de donde se encuentre su domicilio social, dado que se han regulado plazos diferentes.
+El procedimiento de impugnación de los acuerdos del consejo rector es el mismo que el de impugnación
+de los acuerdos de la asamblea general, por lo que es recomendable consultar el apartado 5.1.7.
+4.2.6. Responsabilidad de los miembros del consejo rector.
+Los miembros del consejo rector deben desempeñar su cargo con la diligencia exigida en las normas
+y respetando los principios cooperativos. Los miembros del consejo rector responderán por los daños
+que, de forma dolosa o culpable, causen tanto a las personas socias, como a terceras personas. Siempre
+responderán si se extralimitan de las facultades que la ley o los estatutos les han encomendado.
+El dolo se define en la RAE como “Acción u omisión realizada con conciencia y voluntad de producir un
+resultado antijurídico que impedirá el cumplimiento normal de una obligación”. Por lo que se refiere a la
+culpa, la RAE, en su acepción jurídica la define como “Falta de la diligencia exigible en el cumplimiento del
+deber jurídico o norma de cuidado que conduce a realizar la acción u omisión constitutiva de infracción
+administrativa”.
+
+-- 49 of 62 --
+
+50
+4. Capítulo IV. Los órganos sociales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+La exigencia de responsabilidades de esta índole a los miembros del consejo rector se debe decidir por
+la asamblea general, adoptando el correspondiente acuerdo de ejercicio de la acción de responsabilidad
+contra los miembros del consejo rector. Este acuerdo requerirá el voto favorable de la mayoría ordinaria
+o absoluta de los votos presentes o representados en la concreta asamblea en la que se propone
+adoptar el acuerdo -según la ley aplicable- si constaba en el orden del día, y un quórum superior si no
+consta, normalmente en este caso se exige el voto favorable de la mayoría absoluta del total de los
+votos sociales, con independencia de los presentes o representados en la asamblea. Debemos recordar
+que este es uno de los acuerdos que se puede aprobar incluso si no constaba en el orden del día. Debe
+consultarse cada ley aplicable para ver qué concretos quórums exige cada una.
+4.3. Comité de recursos.
+El comité de recursos es un órgano potestativo, por lo que es la cooperativa la que decidirá en sus
+estatutos su creación. La función del comité de recursos es la de tramitar y resolver los recursos contra
+las sanciones que el consejo rector haya impuesto a los socios y las socias. También podrá resolver sobre
+otros recursos que regule la normativa aplicable o aquellos que se hayan establecido en los estatutos.
+El comité de recursos se compone de un mínimo de tres personas socias escogidas por la asamblea
+general en votación secreta. Algunas Comunidades Autónomas han regulado la duración máxima del
+mandato de los miembros del comité de recursos, por lo que es recomendable consultar la normativa
+aplicable en cada caso.
+Hay una serie de supuestos en los cuales los miembros del comité de recursos se deberán abstener y
+recusar de resolver un recurso. A título de ejemplo, deberán recursar los miembros que tengan un grado
+de parentesco con el socio o socia afectado, ni tampoco aquellos que tengan una relación directa con
+el objeto del recurso.
+Los acuerdos del comité de recursos son ejecutivos y definitivos, dado que expresan la voluntad social.
+Los acuerdos del comité de recursos se pueden recurrir siguiendo el mismo procedimiento que para
+impugnar los acuerdos aprobados por la asamblea general, según lo que hemos expuesto en el apartado
+5.1.7.
+4.4. Intervención de Cuentas
+La intervención de cuentas, también denominada en algunas leyes como comisión de control y supervisión
+de las operaciones económicas y financieras de la cooperativa, previsto en todas las normas legales,
+salvo la vigente Ley de cooperativas extremeña, que lo ha suprimido. Algunas normas legales lo incluyen
+entre los órganos obligatorios y en otras, en cambio, se ha configurado con carácter potestativo.
+Este órgano está formado por personas socias designadas por la asamblea general , con las funciones de
+control antes mencionadas, y si bien los estatutos pueden ampliarlas, se les pueden atribuir competencias
+que la ley atribuya a otros órganos sociales.
+Los miembros de la intervención tienen derecho a comprobar toda la documentación de la cooperativa
+en cualquier momento, en especial la documentación económica y contable. Anualmente, con carácter
+previo a la asamblea general ordinaria deben elaborar un informe, que se pondrá a disposición de las
+personas socias, desde la convocatoria de dicha asamblea.
+Como hemos dicho, esta figura se ha regulado de formas diferentes en las normas que han aprobado
+las Comunidades Autónomas, empleando distinta nomenclatura y naturaleza, siendo en algunas de ellas
+
+-- 50 of 62 --
+
+51
+4. Capítulo IV. Los órganos sociales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+obligatorio que la cooperativa tenga este órgano y en otras potestativo. A continuación, exponemos un
+cuadro con las diferencias.
+Normativa 	Nomenclatura 	Obligatorio/Potestativo
+Estatal 	Intervención 	Obligatorio
+Andalucía 	Intervención 	Potestativo
+Aragón 	Interventor 	Obligatorio
+Principado de Asturias 	Intervención 	Obligatorio
+Illes Balears 	Intervención de cuentas 	Potestativo
+Canarias 	Intervención 	Obligatorio
+Cantabria 	Intervención 	Potestativo
+Castilla y León 	Intervención 	Obligatorio
+Castilla La Mancha 	Comisión de intervención o de control de la gestión 	Potestativo
+Cataluña 	Intervención de cuentas 	Potestativo
+Comunitat Valenciana 	Comisión de control de la gestión 	Potestativo
+Extremadura 	No la contempla
+Galicia 	Órgano social de intervención 	Potestativo
+Comunidad de Madrid 	Interventor 	Obligatorio
+Región de Murcia 	Intervención 	Obligatorio
+País Vasco 	Comisión de vigilancia 	Potestativo
+La Rioja 	Intervención 	Potestativo
+Tabla 3.
+Los estatutos de la cooperativa deben regular el número de miembros que integran la intervención, que
+deberá ser impar, así como la duración de su mandato, entre 3 y 5 años, si bien algunas normas legales
+han establecido plazos de duración inferiores, por lo que debe consultarse la normativa aplicable. Como
+en el caso del consejo rector, su renovación se puede realizar de forma total al finalizar su mandato, o
+parcialmente, por ejemplo, por mitades. Es recomendable controlar el plazo para realizar la renovación
+de los miembros de la intervención de cuentas para evitar que algunos o todos de sus miembros
+actúen con el mandato caducado, pues ello impedirá poder efectuar el depósito de las cuentas anuales,
+cuando el órgano es preceptivo y debe emitir su informe.
+Como el resto de los órganos sociales, su elección corresponde a la asamblea general, de entre todas
+las personas socias de la cooperativa, mediante votación secreta. Dadas sus funciones de control, este
+órgano es incompatible con los demás órganos sociales, en especial con el consejo rector cuya gestión
+debe controlar.
+Algunas normas legales permiten la retribución de este cargo social, si así lo establecen los estatutos
+o lo acuerda la asamblea general. En todo caso, siempre se les deberán resarcir aquellos gastos en los
+que hayan incurrido por el ejercicio de su cargo. Debe recordarse, no obstante, que si la cooperativa
+tiene la condición de entidad no lucrativa estos cargos deben ser gratuitos, sin perjuicio de que se les
+compensen los gastos en que hayan incurrido en ejercicio del cargo.
+4.5. Auditoría de Cuentas
+La auditoría de cuentas consiste en la actividad de revisar y verificar las cuentas anuales de la cooperativa,
+así como de los estados financieros y los documentos contables por una empresa o persona auditora, ajena
+a la cooperativa. La empresa o persona auditora de cuentas deberá emitir un informe en el que indique si
+las cuentas reflejan de forma fiel la imagen económica, financiera y patrimonial de la cooperativa.
+
+-- 51 of 62 --
+
+52
+4. Capítulo IV. Los órganos sociales
+GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Además, cuando los casos en que así lo establecen las disposiciones mercantiles, debe tenerse en
+cuenta que, en el caso de que el Registro de Cooperativas correspondiente obligue a adoptar la forma
+de cooperativa integral de consuno y de viviendas, deben someter sus cuentas a auditoría externa, antes
+de presentarlas ante la asamblea general, cuando se produce alguno de los siguientes supuestos:
+● 	Que la cooperativa tenga en promoción un número superior a cincuenta entre viviendas y locales.
+● 	Cualquiera que sea el número de viviendas y locales en promoción, cuando correspondan a
+distintas fases, o cuando se construyan en distintos bloques que constituyan, a efectos económicos,
+promociones diferentes.
+● 	En los casos en los que la cooperativa haya otorgado poderes a la gestión empresarial a personas
+físicas o jurídicas, que sean distintas de los miembros del consejo rector.
+● 	Cuando así lo prevean los estatutos o la asamblea general.
+Los gastos y los honorarios originados por la auditoría de cuentas son de cuenta y cargo de la
+cooperativa. Por excepción si la auditoría la han solicitado los socios o socias o la asamblea general, se
+podrá repercutir el coste en los miembros del consejo rector si, una vez verificada la contabilidad, se
+comprueba que éstos han incurrido en grave incumplimiento de sus deberes.
+Algunas Comunidades Autónomas han establecido otros requisitos en los cuales las cuentas anuales
+deben ser auditadas, por lo que se debe consultar la norma aplicable a cada cooperativa a efectos
+de comprobar si es obligatorio auditar las cuentas de la cooperativa. En el caso de Euskadi, se ha
+establecido que la cooperativa de cohousing siempre debe auditar sus cuentas mientras no se produzca
+su adjudicación o cesión. En Galicia, es obligatorio auditar las cuentas mientras no se produzca la adjudi-
+cación, cesión o venta de las viviendas o locales, excepto cuando la actividad económica realizada en el
+ejercicio no supere el importe del capital social más el importe de los fondos obligatorios.
+
+-- 52 of 62 --
+
+53
+GUÍA PRÁCTICA: 	REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+5. 	Capítulo V. Modificación de
+los Estatutos
+
+-- 53 of 62 --
+
+GUÍA PRÁCTICA: ASPECTOS A TENER EN CUENTA
+EN LA REDACCIÓN DE ESTATUTOS DE LAS
+COOPERATIVAS DE COHOUSING SÉNIOR
+54
+5. Capítulo V. Modificación de estatutos sociales
+5. Capítulo V. Modificación de estatutos sociales
+Los Estatutos Sociales de la cooperativa son, junto con la Ley, la norma máxima por la que se rige la
+vida de las personas socias. Por ello su modificación exige un amplio consenso social, que se traduce
+en exigir quórums reforzados para que la asamblea pueda adoptar el acuerdo de modificación. Las
+leyes cooperativas españolas establecen este quórum en dos terceras partes de los votos presentes y/o
+representados en la asamblea general.
+Hay que tener en cuenta, además, que cuando se pretende modificar solo algunos artículos, la mayoría
+de leyes exigen que se identifique en el punto del orden del día relativo a la modificación estatutaria
+cuáles van a ser los artículos a modificar, como garantía del derecho de información de las personas
+socias.
+La modificación es los estatutos como la constitución de la cooperativa, debe inscribirse en el Registro
+de Cooperativas correspondiente y, por tanto, se exige la escritura pública. Es decir, los acuerdos
+adoptados deben elevarse a público ante notario e inscribirse en el Registro, como se ha dicho. La única
+excepción es el caso de las cooperativas andaluzas, para los que no siempre se exige la escritura notarial.
+Asimismo, algunas leyes exigen requisitos formales adicionales, como elaborar una memoria justificativa
+de las razones que justifican la propuesta de modificación de los estatutos o, cuando dicha modificación
+tiene por objeto ciertos acuerdos muy trascendentes, como la modificación del objeto social, de la clase
+de cooperativa, la cesión de la empresa cooperativa o de elementos del activo que represente más de un
+porcentaje respecto de los totales, la imposición de nuevas obligaciones a las personas socias, y otras,
+además la asamblea debe constituirse con un quórum mínimo de asistentes. Por ello debe consultarse
+la Ley aplicable a la cooperativa de la que se trate para comprobar si se exigen estos requisitos, y poder
+darles cumplimiento.
+
+-- 54 of 62 --
+
+GUÍA PRÁCTICA: ASPECTOS A TENER EN CUENTA
+EN LA REDACCIÓN DE ESTATUTOS DE LAS
+COOPERATIVAS DE COHOUSING SÉNIOR
+55
+6. 	Capítulo VI. Disolución y Liquidación
+de la Cooperativa
+6.1. 	Disolución
+6.2. 	Liquidación
+6.3. 	Escisión
+6.4. 	Fusión
+6.5. 	Transformación
+
+-- 55 of 62 --
+
+56
+6. Capítulo VI. Disolución y liquidación de la cooperativa
+GUÍA PRÁCTICA: 	REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+6. Capítulo VI. Disolución y liquidación de la cooperativa
+En este apartado de los estatutos se deben regular las causas por las que la cooperativa se puede
+disolver, transformar, fusionar o escindirse, así como las consecuencias de cada una de estas figuras.
+6.1. Disolución.
+La disolución se puede definir como aquel acto jurídico a través del cual la cooperativa pone fin al
+desarrollo de la actividad para la que ha sido creada y entra en el proceso de liquidación.
+La cooperativa se puede disolver por los siguientes motivos:
+● 	Por el cumplimiento del plazo fijado en los estatutos, en el caso que se haya fijado un plazo.
+● 	Por acuerdo de la asamblea general. El acuerdo deberá ser adoptado por mayoría de los dos
+tercios de las personas socias presentes y representadas.
+● 	Por la paralización de los órganos sociales o de la actividad cooperativizada durante dos años, sin
+causa justificada, de tal modo que imposibilite su funcionamiento.
+● 	Por la reducción del número de personas socias por debajo de los mínimos establecidos en la
+normativa o del capital social por debajo del mínimo establecido en los estatutos, sin que en un
+año se restablezcan.
+● 	Por la realización del objeto social o la imposibilidad de su cumplimiento.
+● 	Por fusión, absolución o escisión total.
+● 	El concurso o la quiebra.
+● 	Por cualquier otra causa establecida en la normativa o en los estatutos de la cooperativa.
+La Ley de Cooperativas de Cataluña ha establecido, además, que las personas socias pueden instar la
+disolución de la cooperativa que esté en constitución en aquellos casos en los que, habiendo transcurrido
+seis meses desde que se otorgó la escritura de constitución no se haya solicitado la inscripción en el
+Registro de Cooperativas o si se ha verificado la voluntad de no inscribirla.
+Es importante remarcar que, durante el plazo de disolución de la cooperativa, se debe añadir a su
+denominación social la palabra “En liquidación”.
+Si los estatutos han establecido un plazo de duración de la cooperativa, antes de que transcurra este
+plazo las personas socias podrán decidir prorrogar su duración. Este acuerdo se deberá inscribir en el
+Registro de Cooperativas para que surja efecto y la cooperativa no quede disuelta de pleno derecho al
+transcurrir el plazo establecido.
+En lo supuestos de disolución por paralización de los órganos sociales, reducción del número de personas
+socias, de capital social, realización del objeto social, imposibilidad de su cumplimiento o por cualquier
+
+-- 56 of 62 --
+
+57
+6. Capítulo VI. Disolución y liquidación de la cooperativa
+GUÍA PRÁCTICA: 	REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+otra causa establecida, el consejo rector deberá convocar a la asamblea general en el plazo de un mes
+desde que haya constatado la causa que puede provocar la disolución de la cooperativa. Cualquier
+persona socia puede requerir al consejo rector para que convoque a la asamblea general si considera
+que existe alguna causa de disolución de la cooperativa. El acuerdo de disolución se podrá adoptar con
+mayoría simple de los votos, excepto que los estatutos prevean otra mayor.
+En los supuestos en los que el consejo rector no convoque a la asamblea general o no se llegue a
+alcanzar el acuerdo de disolución, cualquier persona interesada puede solicitar a la autoridad judicial
+competente la disolución de la cooperativa.
+La escritura de disolución de la cooperativa, o la resolución judicial o administrativa que acuerde su
+disolución se deberán inscribir en el Registro de Cooperativas y se deberá publicar en el diario de mayor
+publicación de la provincia del domicilio social.
+Únicamente en los casos de reducción del número de personas socias o del capital social se podrá
+reactivar la cooperativa si ha cesado la causa que ha motivado su disolución, pero siempre que no
+se hubiera comenzado con el reembolso de las aportaciones a las personas socias. Una mayoría de
+dos tercios de votos presentes y representados en la asamblea general podrá adoptar el acuerdo de
+reactivación, que no será eficaz hasta que se eleve a escritura pública y se inscriba en el Registro de
+Cooperativas.
+6.2. Liquidación.
+Una vez que se ha disuelto la cooperativa, se debe proceder a su liquidación. Es posible prever en los
+estatutos a quién corresponde realizar la liquidación. Si no se prevé en los estatutos será la asamblea
+general la encargada de nombrar a las personas socias que se encargarán de la liquidación, que siempre
+deberán ser impares.
+Mientras dure el período de liquidación de la cooperativa se debe seguir convocando y reuniendo la
+asamblea general que será convocada por los liquidadores. Serán ellos los encargados de presidir las
+reuniones y de rendir cuentas de la liquidación.
+En el caso que así lo solicite el quorum requerido, las personas socias pueden solicitar al Juzgado de
+Primera Instancia del domicilio social de la cooperativa que controle el período de liquidación.
+Las funciones de las personas miembros del órgano de liquidación son las siguientes:
+● 	Llevar y custodiar los libros y la correspondencia de la cooperativa, así como velar por la integridad
+de su patrimonio.
+● 	Realizar las operaciones que estén pendientes. También deberán realizar aquellas nuevas
+operaciones, pero únicamente en los casos en los que sean necesarias.
+● 	Tienen que encargarse de reclamar y de cobrar los créditos que estén pendientes, tanto contra las
+personas socias como contra terceras personas.
+● 	Concertar transacciones y compromisos cuando así convenga a los intereses sociales.
+● 	Pagar a los acreedores y a las personas socias cuando corresponda.
+● 	Son los encargados de representar a la cooperativa en juicio para el cumplimiento de las funciones
+que tienen encomendadas.
+
+-- 57 of 62 --
+
+58
+6. Capítulo VI. Disolución y liquidación de la cooperativa
+GUÍA PRÁCTICA: 	REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+Las leyes cooperativas contemplan el destino que debe darse al patrimonio que reste, una vez finalizadas
+las operaciones anteriores. En primer lugar, la dotación del Fondo de Educación y Promoción Cooperativo
+(FEPC) deben transferirse íntegramente a la entidad federativa a la que pertenezca la cooperativa o a la
+que acuerde la asamblea general, si ésta no está federada. Algunas leyes prevén que, en caso de no estar
+federada, la destinataria de este fondo será la administración autonómica competente, según el ámbito
+de actuación de la cooperativa.
+Posteriormente se reembolsarán a las personas socias sus aportaciones al capital social, actualizadas, si
+procede. En este sentido la mayoría de las normas autonómicas prevén que debe empezarse, en primer
+lugar, por las aportaciones voluntarias, y luego por las obligatorias. Asimismo, en el caso de que la
+cooperativa haya dotado fondos de reserva voluntaria repartibles, se reembolsará a cada persona socia
+la parte que le corresponda. Téngase en cuenta que esta reserva voluntaria repartible no se puede dotar
+cuando la cooperativa se ha configurado como entidad no lucrativa.
+Si, una vez efectuadas estas operaciones, hubiera patrimonio sobrante, éste se aplica al FEPC para ser
+transferido a la entidad federativa a la que pertenezca la cooperativa, a la que figure en los estatutos o
+a la que acuerde la asamblea general, reunida como asamblea de liquidación. Debe consultarse la Ley
+aplicable a la cooperativa, ya que diversas leyes autonómicas también permiten que este patrimonio
+pueda destinarse a otras cooperativas o a entidades no lucrativas de fines similares a los de la cooperativa
+disuelta.
+Asimismo, si la ley autonómica aplicable ha regulado las cooperativas en cesión de uso debe tenerse en
+cuenta que algunas leyes como la de Islas Baleares, la de La Rioja o la Ley de viviendas colaborativas de
+la Comunitat Valenciana imponen como destino del patrimonio sobrante otras cooperativas de la misma
+clase o a las asociaciones de éstas.
+Una vez finalizadas las operaciones debe celebrarse la asamblea general de liquidación, que deberá
+aprobar la gestión del órgano de liquidación, el balance final y el destino del patrimonio sobrante, según
+la aplicación que se acaba de explicar.
+Algunas leyes exigen que tanto el balance final como el proyecto de distribución deben ser publicados
+en uno de los diarios de mayor circulación de la provincia donde se encuentre el domicilio social de la
+cooperativa.
+Cuando hayan finalizado los trámites de liquidación, los liquidadores deben acudir a la notaría y firmar
+escritura pública de extinción de la cooperativa, que deberá contener:
+● 	El balance final y el proyecto de distribución aprobado por la asamblea general.
+● 	Deberán indicar que ha pasado el plazo para impugnar y que no se han presentado impugna-
+ciones.
+● 	Que se ha adjudicado el haber social de la cooperativa.
+La escritura pública de liquidación se debe inscribir en el Registro de Cooperativas correspondiente.
+6.3. Escisión.
+Mediante la escisión, la cooperativa divide su patrimonio en dos o más cooperativas, preexistentes o de
+nueva creación. La cooperativa puede disolverse, o bien conservar su personalidad si solo segrega parte
+de su patrimonio en otra u otras cooperativas, patrimonio que se traspasa por sucesión universal. En
+estos casos hablamos de segregación en una o más partes. En ambos casos, escisión y segregación, la
+
+-- 58 of 62 --
+
+59
+6. Capítulo VI. Disolución y liquidación de la cooperativa
+GUÍA PRÁCTICA: 	REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+parte o partes segregadas se traspasan por sucesión universal a la otra u otras cooperativas, que pueden
+ser de nueva creación o bien preexistentes.
+Como hemos explicado en el caso de la liquidación, algunas de las leyes autonómicas que han regulado
+las cooperativas de vivienda en cesión de uso sólo permiten la escisión o segregación de una cooperativa
+de cesión de uso en cooperativas de la misma clase. Son los casos de Islas Baleares, La Rioja y la Ley
+valenciana de Viviendas Colaborativas.
+6.4. Fusión.
+La cooperativa puede decidir fusionarse con otra cooperativa y crear una nueva o bien puede ser
+absorbida por otra cooperativa ya existente o absorberla. Las cooperativas que se encuentren en fase
+de liquidación podrán participar en la fusión, pero siempre y cuando no hayan comenzado en reembolso
+de las aportaciones del capital social.
+Las cooperativas que se fusionen en una nueva o que sean absorbidas por otra ya existente quedarán
+disueltas, pero no entrarán en la fase de liquidación. Tanto las personas socias como el patrimonio
+pasarán en bloque, por sucesión universal, a la nueva cooperativa.
+Las personas socias asumirán los derechos y obligaciones de la nueva cooperativa. Los fondos sociales,
+obligatorios o voluntarios pasarán a integrarse a la nueva cooperativa o a la ya existente.
+Los consejos rectores de las cooperativas implicadas en la fusión deben suscribir un convenio previo que
+deberá contener las siguientes menciones:
+● 	La denominación, clase y domicilio de las cooperativas que participen en la fusión o de la nueva
+cooperativa. También se deberán indicar los datos de inscripción en el Registro de Cooperativas
+correspondiente.
+● 	El sistema que se escoja para fijar la cuantía que se reconoce a cada socio de las cooperativas que,
+en su caso, se extingan como aportación al capital social de la nueva cooperativa de la cooperativa
+que absorbente. En caso de que existan, también se deberán computar las reservas voluntarias
+que tengan el carácter de repartible.
+● 	Los derechos y obligaciones que se reconozcan a las personas socias de la cooperativa que se
+extingue en la nueva cooperativa o en la cooperativa absorbente.
+● 	La fecha en la que se deben considerar como realizadas las operaciones de las cooperativas que
+se extingan, a efectos contables, de la nueva cooperativa o de la cooperativa absorbente.
+● 	Los derechos que les corresponden a los titulares que tengan participaciones especiales, títulos
+participativos u otros títulos que sean similares de las cooperativas que se extingan en la nueva
+cooperativa o en la absorbente.
+Mientras dure el proceso de fusión de las cooperativas, los miembros del consejo rector de las cooper-
+ativas deben de abstenerse de realizar cualquier acto o celebrar cualquier contrato que pueda obstac-
+ulizar la aprobación del proyecto o modificar sustancialmente la proporción de la participación de las
+personas socias.
+La asamblea general de la cooperativa debe aprobar el proyecto de fusión en el plazo de seis
+meses desde la fecha de aprobación del mismo. En caso contrario, el proyecto de fusión queda sin
+efecto.
+
+-- 59 of 62 --
+
+60
+6. Capítulo VI. Disolución y liquidación de la cooperativa
+GUÍA PRÁCTICA: 	REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+La asamblea general, en la publicación de la convocatoria que deba aprobar la fusión, debe poner a
+disposición de las personas socias en el domicilio social de la cooperativa los siguientes documentos:
+● 	El proyecto de fusión.
+● 	Los estatutos de las cooperativas implicadas.
+● 	Los informes redactados por el consejo rector, en los que se explique la conveniencia y efectos de
+la fusión.
+● 	El balance de pérdidas y ganancias, y la memoria explicativa de los tres últimos ejercicios de las
+cooperativas que participen en la fusión. Y, si fuera el caso, también se deberán poner a disposición
+los informes del auditor de cuentas y los informes de gestión.
+● 	El proyecto de estatutos de la nueva cooperativa, si se crease una nueva cooperativa.
+● 	Las modificaciones de los estatutos de la cooperativa absorbente, si fuera el caso.
+● 	La relación de nombres, apellidos, edad, si fueran personas físicas, o la denominación o razón
+social si fueran personas jurídicas y en ambos casos, la nacionalidad y domicilio de los consejeros
+de las sociedades que participan en la fusión y la fecha desde la que desempeñan sus cargos, y
+en su caso, las mismas indicaciones de quienes vayan a ser propuestos como consejeros como
+consecuencia de la fusión.
+Las asambleas generales de las cooperativas implicadas en el proyecto de fusión deben aprobar el
+acuerdo de fusión, por mayoría de dos tercios de los votos presentes y representados. El acuerdo de
+fusión será efectivo en el momento en que haya sido aprobado por las asambleas generales.
+El acuerdo de fusión se deberá publicar en el Boletín Oficial del Estado o bien en el Boletín Oficial de la
+Comunidad Autónoma del domicilio en el que la cooperativa realice su actividad principal. También se
+deberá publicar en el diario de mayor circulación de la provincia del domicilio social de la cooperativa.
+Para formalizar los acuerdos de fusión es necesario acudir a la Notaría y firmar la escritura pública, que
+deberá ser inscrita en el Registro de Cooperativas para que tenga eficacia.
+Las personas socias que no estén conformes con el proyecto de fusión y que hayan votado en contra o
+aquellas que, aunque no hayan podido asistir a la votación hayan enviado un escrito al consejo rector en
+el que indiquen los motivos por los que no están conformes con el proyecto de fusión, tienen derecho
+a darse de baja de la cooperativa. La persona socia tiene entre un mes y cuarenta días de plazo des
+de que la cooperativa ha publicado el anuncio del acuerdo de fusión o de la comunicación por escrito.
+Debe consultarse la norma aplicable a la cooperativa para comprobar el plazo que tiene la persona socia
+para darse de baja. Esta baja de la persona socia se considerará como justificada y se tiene que realizar
+en el plazo de un mes a contar desde que la asamblea ha acordado la fusión o la persona socia haya
+presentado el escrito manifestando su disconformidad.
+La fusión no se puede formalizar hasta que no se haya garantizado a las personas socias que hayan
+solicitado la baja de la cooperativa el reembolso de las aportaciones. La devolución de estas aporta-
+ciones es obligación de la nueva cooperativa o de la cooperativa absorbente.
+Los acreedores de la cooperativa también tienen derecho a oponerse a este acuerdo de fusión, que
+deberán comunicar por escrito. Si algún acreedor se opone a la fusión de la cooperativa, no se podrá
+realizar hasta que la cooperativa haya abonado los créditos pendientes, o si la sociedad deudora o
+la cooperativa que resulte de la fusión no han aportado garantía de pago. Es conveniente consultar
+
+-- 60 of 62 --
+
+61
+6. Capítulo VI. Disolución y liquidación de la cooperativa
+GUÍA PRÁCTICA: 	REDACCIÓN DE ESTATUTOS DE
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
+la norma aplicable a la cooperativa dado que las Comunidades Autónomas han establecido plazos
+diferentes para que los acreedores presenten su oposición.
+La cooperativa también puede fusionarse con una entidad no cooperativa, siempre que no exista una
+norma que lo prohíba. En este caso, a la entidad que surja de esta fusión le será de aplicación la norma
+reguladora de la entidad absorbente o de la entidad que se constituya a partir de la fusión. En los casos
+en los que la persona socia solicite la baja por no estar conforme con el proyecto, tendrá los mismos
+derechos que si se tratara de una operación entre cooperativas.
+Como hemos explicado en el caso de la escisión, algunas de las leyes autonómicas que han regulado las
+cooperativas de vivienda en cesión de uso sólo permiten la fusión de una cooperativa de cesión de uso
+con otras cooperativas de la misma clase. Son los casos de Islas Baleares, La Rioja y la Ley valenciana
+de Viviendas Colaborativas.
+6.5. Transformación.
+La cooperativa puede decidir transformarse en otra persona jurídica u otra entidad puede decidir
+transformase en una cooperativa. Por ejemplo, una cooperativa puede decidir transformarse en una
+asociación, o a la inversa.
+En los casos en los que una cooperativa quiera transformarse en otra entidad, las personas socias de la
+cooperativa no quedan eximidas de su responsabilidad por las posibles deudas que haya podido contraer
+la cooperativa, excepto que los acreedores así lo acepten. Si una cooperativa decide transformarse en
+otra entidad jurídica los saldos de los fondos de reserva obligatorios, el fondo de educación y cualquier
+otro fondo o reservas que se hayan previsto en los estatutos, se les deberá de dar el destino que prevé
+la norma en los casos de liquidación de la cooperativa.
+La transformación de la cooperativa se tiene que adoptar en la asamblea general, en las condiciones
+que prevean los estatutos. Las personas socias que no estén conformes con la transformación de la
+cooperativa también podrán decidir darse de baja, que se considerará como justificada.
+La entidad que quiera transformarse en una cooperativa debe cumplir con los requisitos que establezca
+la normativa y sus personas socias tienen que pasar a ser socios cooperativos. El acuerdo de transfor-
+mación se debe realizar en escritura pública que deberá ser inscrita en el Registro de Cooperativas.
+Téngase en cuenta que algunas de las leyes autonómicas que han regulado las cooperativas de vivienda
+en cesión de uso prohíben la transformación de esta clase de cooperativas en cualquier otro tipo de
+sociedad, e incluso la modificación de la clase de cooperativa.
+
+-- 61 of 62 --
+
+
+
+-- 62 of 62 --

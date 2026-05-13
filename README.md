@@ -58,6 +58,20 @@ Los encabezados se detectan con patrones como `Artículo 1`, `Artículo 1.`, `Ar
 
 También se genera `src/content/generated/split-report.json` con número de secciones, longitud media y warnings para documentos con pocas secciones o secciones demasiado largas.
 
+## Índice temático heurístico
+
+La Fase 9 sugiere referencias automáticas por tema sin modificar contenido curado.
+
+```sh
+npm run build:index
+```
+
+El script lee `taxonomy/topics.json`, `src/content/generated/sections/*.sections.json` y `src/content/documents/documents.json`. Usa `keywords` y `aliases` de la taxonomía con pesos simples y umbral mínimo para generar `src/content/generated/topic-references.json`.
+
+Cada referencia automática incluye `topicSlug`, `documentSlug`, `projectName` si existe, `documentTitle`, `documentType`, `articleOrSection`, `excerpt`, `sourcePath`, `tags`, `confidence` y `reviewStatus: auto`.
+
+No se generan summaries jurídicos ni `suggestedClause`. La UI muestra estas referencias separadas de las referencias curadas con el estado `Referencia automática sin revisar`.
+
 ## Validación
 
 ```sh

@@ -299,6 +299,7 @@ if (!generatedReferences || !Array.isArray(generatedReferences.references)) {
     const documentSlug = stringField(reference, 'documentSlug', context);
     stringField(reference, 'excerpt', context);
     const reviewStatus = stringField(reference, 'reviewStatus', context);
+    const score = reference.score;
 
     if (topicSlug && !taxonomySlugSet.has(topicSlug)) {
       errors.push(`${context}: topicSlug inexistente en taxonomy/topics.json "${topicSlug}"`);
@@ -310,6 +311,10 @@ if (!generatedReferences || !Array.isArray(generatedReferences.references)) {
 
     if (reviewStatus !== 'auto') {
       warnings.push(`${context}: las referencias generadas deberían empezar con reviewStatus "auto"`);
+    }
+
+    if (score !== undefined && (typeof score !== 'number' || score < 0)) {
+      errors.push(`${context}: score debe ser número positivo`);
     }
 
     validateExcerptLength(reference, context);

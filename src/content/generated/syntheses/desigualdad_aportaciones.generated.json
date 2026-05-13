@@ -1,69 +1,167 @@
 {
   "slug": "desigualdad_aportaciones",
-  "generatedAt": "2026-05-13T14:29:44.015Z",
+  "generatedAt": "2026-05-13T15:02:24.500Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/desigualdad_aportaciones.md",
-    "referencesCount": 1,
+    "referencesCount": 34,
     "documents": [
-      "docs-guias-las-guias-de-sostre-civic"
+      "docs-estatutos-estatutos-axuntase",
+      "docs-estatutos-estatutos-blanxart",
+      "docs-estatutos-estatutos-cancarner",
+      "docs-estatutos-estatutos-elciempies",
+      "docs-estatutos-estatutos-entrepatios",
+      "docs-estatutos-estatutos-la-borda",
+      "docs-estatutos-estatutos-laseronda-org",
+      "docs-estatutos-estatutos-losnidales",
+      "docs-estatutos-estatutos-pepu",
+      "docs-estatutos-estatutos-senior-cohousing-huelva",
+      "docs-estatutos-estatutos-tarocohousing",
+      "docs-guias-las-guias-de-sostre-civic",
+      "docs-leyes-normativa-autonomica",
+      "docs-leyes-normativa-estatal"
     ]
   },
   "summary": {
     "overview": [
-      "No se han detectado suficientes extractos claros sobre aportaciones iniciales desiguales.",
-      "Conviene revisar manualmente los documentos antes de convertir esta cuestión en una cláusula."
+      "Los extractos más claros relacionan este tema con reembolso, aportación obligatoria, préstamos o financiación de personas socias.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Entrepatios, Estatutos Senior Cohousing Huelva, Estatutos Tarocohousing, Normativa Autonomica.",
+      "La devolución de aportaciones aparece vinculada al reembolso y, en algunos casos, a deducciones o plazos.",
+      "También se usa evidencia indirecta de temas relacionados (aportaciones_obligatorias, reembolso_aportaciones) para completar la comparación sin inventar referencias directas."
     ],
     "commonPatterns": [
-      "No se han detectado suficientes extractos claros sobre aportaciones iniciales desiguales."
+      "La devolución de aportaciones aparece vinculada al reembolso y, en algunos casos, a deducciones o plazos.",
+      "La aportación obligatoria aparece como una condición económica básica de pertenencia o participación.",
+      "Las necesidades de financiación pueden canalizarse por vías distintas al capital obligatorio, como préstamos o aportaciones voluntarias.",
+      "Las aportaciones voluntarias aparecen como instrumento de financiación adicional diferenciado de la obligación básica.",
+      "Algunos textos conectan aportaciones y cuotas con necesidades de financiación del proyecto.",
+      "Cuando hay pocas referencias directas, las referencias indirectas sobre aportaciones obligatorias y reembolso ayudan a distinguir capital, cuotas, préstamos y derechos económicos sin inventar cláusulas nuevas."
     ],
     "majorDifferences": [
-      "No hay base suficiente para comparar soluciones prácticas entre proyectos."
+      "La diferencia práctica suele estar entre devolución inmediata, devolución condicionada por liquidez y devolución vinculada a nueva incorporación.",
+      "Algunos textos parecen tratarla como capital social estable y otros la conectan con cuotas, financiación o derechos de uso.",
+      "Algunos textos separan financiación y participación política; otros dejan la prevención de privilegios menos explícita.",
+      "La diferencia relevante para El Buen Vivir es si una diferencia económica queda limitada a financiación o si afecta a voto, uso, retorno o participación."
     ],
     "commonRisks": [
-      "El principal riesgo es regular con una base documental demasiado débil."
+      "Un reembolso inmediato puede tensionar la caja; un reembolso indefinido puede generar inseguridad para quien sale.",
+      "Si la aportación se vincula a poder, uso o permanencia sin límites claros, puede generar desigualdad interna.",
+      "Si la financiación adicional no se distingue del capital obligatorio, pueden confundirse retorno económico y pertenencia cooperativa.",
+      "Pueden generar expectativas de retorno o influencia si no se separan claramente de los derechos políticos.",
+      "La financiación puede desplazar decisiones de convivencia si no se separan necesidades económicas y derechos de participación.",
+      "Una aportación inicial desigual puede convertirse en privilegio informal si no se separa de voto, uso de vivienda, retorno económico y participación en decisiones."
     ],
     "commonTradeoffs": [
-      "Conviene mantener abierto el equilibrio entre seguridad jurídica y aprendizaje progresivo."
+      "derecho de salida vs estabilidad financiera del proyecto",
+      "igualdad formal vs aportaciones económicas desiguales",
+      "flexibilidad financiera vs claridad de derechos económicos",
+      "necesidad de financiación vs igualdad cooperativa real",
+      "financiación suficiente vs igualdad política y convivencial"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Solo conviene llevar a Estatutos principios o derechos básicos si se confirman en revisión jurídica."
+      "principio de igualdad política entre personas socias",
+      "límites a que aportaciones, préstamos o cuotas generen privilegios de voto o uso",
+      "naturaleza de las aportaciones obligatorias y criterios de reembolso",
+      "marco general de aportaciones voluntarias o financiación adicional",
+      "derecho de reembolso, criterios generales de deducción y plazos máximos",
+      "importe, naturaleza, exigibilidad y criterios básicos de devolución de aportaciones obligatorias"
     ],
     "usuallyInRRI": [
-      "Los detalles operativos deberían esperar a contar con ejemplos más claros o acuerdos internos."
+      "calendario y trazabilidad de pagos diferenciados",
+      "comunicación presupuestaria comprensible para todo el grupo",
+      "procedimiento para documentar préstamos o apoyos económicos sin privilegios",
+      "seguimiento de incidencias de pago y acuerdos de fraccionamiento",
+      "calendario interno de pagos, documentación y seguimiento del acuerdo de devolución",
+      "calendario de pagos, comunicación interna y gestión de incidencias de pago"
     ],
     "mixedApproaches": [
-      "No se detecta un enfoque mixto claro con la información disponible."
+      "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
     ],
     "notes": [
-      "Evitar sobrerregular sin evidencia suficiente.",
-      "Separar principios estables de prácticas que puedan aprenderse con el uso."
+      "Las conexiones con aportaciones_obligatorias, reembolso_aportaciones son evidencia indirecta y deben leerse como apoyo comparativo, no como referencia directa del tema.",
+      "No conviene llevar a Estatutos detalles que el grupo necesite aprender o ajustar con la práctica.",
+      "La revisión jurídica debe confirmar qué materias exigen rango estatutario."
     ]
   },
   "recommendationsForBuenVivir": {
     "minimalApproach": [
-      "Mantener una redacción mínima y prudente hasta revisar más documentos."
+      "Fijar solo principios y efectos básicos que necesiten estabilidad.",
+      "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
+      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
     ],
     "flexibleApproach": [
-      "Dejar los detalles operativos para acuerdos revisables."
+      "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
+      "Mantener espacio para revisar la práctica tras los primeros usos reales.",
+      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
     ],
     "pointsToDecideSoon": [
-      "Qué decisión concreta necesita seguridad desde el inicio."
+      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
+      "decidir si la financiación adicional será préstamo, aportación voluntaria, cuota u otro instrumento separado",
+      "decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa",
+      "decidir cómo se informará al grupo sobre necesidades financieras sin crear jerarquías internas",
+      "Decidir si cualquier aportación desigual será capital, préstamo, cuota, aportación voluntaria u otro instrumento con trazabilidad propia."
     ],
     "pointsThatCanWait": [
-      "Detalles procedimentales o formularios internos."
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Información limitada: conviene evitar conclusiones fuertes hasta revisar más extractos."
+    "derecho de salida vs estabilidad financiera del proyecto",
+    "igualdad formal vs aportaciones económicas desiguales",
+    "flexibilidad financiera vs claridad de derechos económicos",
+    "necesidad de financiación vs igualdad cooperativa real",
+    "aportaciones desiguales vs una persona socia con igual participación"
   ],
   "notableProjects": [
     {
-      "projectName": "Las GuíAs De Sostre CíVic",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "projectName": "Estatutos Entrepatios",
+      "notableBecause": "Aporta evidencia indirecta desde aportaciones_obligatorias, reembolso_aportaciones.",
       "references": [
-        "Las GuíAs De Sostre CíVic - Título original: La construcció i la cura dels grups"
+        "Estatutos Entrepatios - Artículo 18. Capital social. Aportaciones iniciales dinerarias y no (evidencia indirecta: aportaciones_obligatorias)",
+        "Estatutos Entrepatios - Artículo 33. Reducción del capital social. (evidencia indirecta: aportaciones_obligatorias)",
+        "Estatutos Entrepatios - Artículo 69. Procedimiento de liquidación. (evidencia indirecta: reembolso_aportaciones)"
+      ]
+    },
+    {
+      "projectName": "Estatutos Losnidales",
+      "notableBecause": "Aporta evidencia indirecta desde aportaciones_obligatorias, reembolso_aportaciones.",
+      "references": [
+        "Estatutos Losnidales - Artículo 23.- Financiaciones que no integran el capital social. (evidencia indirecta: aportaciones_obligatorias)",
+        "Estatutos Losnidales - Artículo 67.- Procedimiento de liquidación. (evidencia indirecta: reembolso_aportaciones)"
+      ]
+    },
+    {
+      "projectName": "Estatutos Axuntase",
+      "notableBecause": "Aporta evidencia indirecta desde aportaciones_obligatorias.",
+      "references": [
+        "Estatutos Axuntase - Artículo 33.- Capital social (evidencia indirecta: aportaciones_obligatorias)"
+      ]
+    },
+    {
+      "projectName": "Estatutos Blanxart",
+      "notableBecause": "Aporta evidencia indirecta desde aportaciones_obligatorias.",
+      "references": [
+        "Estatutos Blanxart - Article 23. Capital social (evidencia indirecta: aportaciones_obligatorias)"
+      ]
+    },
+    {
+      "projectName": "Estatutos Cancarner",
+      "notableBecause": "Aporta evidencia indirecta desde aportaciones_obligatorias.",
+      "references": [
+        "Estatutos Cancarner - Article 24. Capital social. (evidencia indirecta: aportaciones_obligatorias)"
+      ]
+    },
+    {
+      "projectName": "Estatutos Elciempies",
+      "notableBecause": "Aporta evidencia indirecta desde aportaciones_obligatorias.",
+      "references": [
+        "Estatutos Elciempies - CAPÍTULO IV (evidencia indirecta: aportaciones_obligatorias)"
       ]
     }
   ],

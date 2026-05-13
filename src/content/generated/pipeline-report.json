@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-05-13T10:14:40.031Z",
-  "durationMs": 28475,
+  "generatedAt": "2026-05-13T15:01:34.375Z",
+  "durationMs": 32751,
   "stages": [
     {
       "name": "ingest",
       "command": "npm run ingest",
       "success": true,
-      "durationMs": 783,
+      "durationMs": 838,
       "warnings": []
     },
     {
       "name": "extract",
       "command": "npm run extract",
       "success": true,
-      "durationMs": 22120,
+      "durationMs": 20084,
       "warnings": []
     },
     {
       "name": "split",
       "command": "npm run split",
       "success": true,
-      "durationMs": 1030,
+      "durationMs": 1327,
       "warnings": [
         "docs-estatutos-estatutos-elciempies: Long section detected (42354 characters)",
         "docs-estatutos-estatutos-los-girasoles: Long section detected (42014 characters)",
@@ -42,14 +42,14 @@
       "name": "build:index",
       "command": "npm run build:index",
       "success": true,
-      "durationMs": 3660,
+      "durationMs": 9311,
       "warnings": []
     },
     {
       "name": "validate:content",
       "command": "npm run validate:content",
       "success": true,
-      "durationMs": 880,
+      "durationMs": 1186,
       "warnings": []
     }
   ],
@@ -82,10 +82,10 @@
       "averageLength": 2074
     },
     "references": {
-      "total": 467,
-      "highConfidence": 297,
-      "mediumConfidence": 110,
-      "lowConfidence": 60
+      "total": 280,
+      "highConfidence": 154,
+      "mediumConfidence": 73,
+      "lowConfidence": 53
     }
   }
 }

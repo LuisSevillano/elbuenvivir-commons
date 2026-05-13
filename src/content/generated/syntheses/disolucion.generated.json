@@ -1,17 +1,21 @@
 {
   "slug": "disolucion",
-  "generatedAt": "2026-05-13T14:29:44.017Z",
+  "generatedAt": "2026-05-13T15:02:24.504Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/disolucion.md",
-    "referencesCount": 30,
+    "referencesCount": 42,
     "documents": [
       "docs-estatutos-estatutos-axuntase",
+      "docs-estatutos-estatutos-blanxart",
+      "docs-estatutos-estatutos-cancarner",
       "docs-estatutos-estatutos-elciempies",
       "docs-estatutos-estatutos-entrepatios",
       "docs-estatutos-estatutos-la-borda",
       "docs-estatutos-estatutos-laseronda-org",
       "docs-estatutos-estatutos-los-girasoles",
       "docs-estatutos-estatutos-losnidales",
+      "docs-estatutos-estatutos-pepu",
+      "docs-estatutos-estatutos-pequenopueblo",
       "docs-estatutos-estatutos-senior-cohousing-huelva",
       "docs-estatutos-estatutos-tarocohousing",
       "docs-leyes-normativa-autonomica",
@@ -22,100 +26,145 @@
   },
   "summary": {
     "overview": [
-      "No se han detectado suficientes extractos claros sobre disolución.",
-      "Conviene revisar manualmente los documentos antes de convertir esta cuestión en una cláusula."
+      "Los extractos más claros relacionan este tema con acuerdo de asamblea para disolver, liquidación y destino del patrimonio.",
+      "Aparecen ejemplos en varios proyectos, entre ellos MODELO ESTATUTOS VIVIENDAS, Normativa Autonomica, Estatutos Entrepatios, Estatutos Losnidales.",
+      "La disolución se trata como una decisión estructural que normalmente requiere acuerdo formal y conexión con causas legales.",
+      "También se usa evidencia indirecta de temas relacionados (reembolso_aportaciones, aportaciones_obligatorias, asamblea_general) para completar la comparación sin inventar referencias directas."
     ],
     "commonPatterns": [
-      "No se han detectado suficientes extractos claros sobre disolución."
+      "La disolución se trata como una decisión estructural que normalmente requiere acuerdo formal y conexión con causas legales.",
+      "La liquidación conecta patrimonio, fondos, derechos económicos y destino final de bienes o remanentes.",
+      "La disolución conecta acuerdo de Asamblea, causas legales, liquidación, fondos, patrimonio y efectos económicos sobre las personas socias."
     ],
     "majorDifferences": [
-      "No hay base suficiente para comparar soluciones prácticas entre proyectos."
+      "Algunos textos se centran en causas legales y otros añaden consecuencias patrimoniales o liquidatorias.",
+      "Unos textos se apoyan en la normativa legal general y otros concretan más el destino del patrimonio o el proceso de liquidación."
     ],
     "commonRisks": [
-      "El principal riesgo es regular con una base documental demasiado débil."
+      "Sin reglas claras, una crisis del proyecto puede mezclar salida de personas, destino del inmueble y devolución de aportaciones.",
+      "Si no se prevé el destino de fondos o patrimonio, pueden aparecer expectativas contradictorias sobre adjudicación, devolución o continuidad social del proyecto.",
+      "Si no se separa disolución, liquidación y reembolso, el grupo puede confundir devolución de aportaciones con adjudicación de patrimonio o fondos obligatorios."
     ],
     "commonTradeoffs": [
-      "Conviene mantener abierto el equilibrio entre seguridad jurídica y aprendizaje progresivo."
+      "continuidad del proyecto vs salida ordenada y protegida",
+      "derechos económicos individuales vs destino colectivo o legalmente condicionado del patrimonio",
+      "cierre ordenado del proyecto vs expectativas individuales sobre patrimonio"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Solo conviene llevar a Estatutos principios o derechos básicos si se confirman en revisión jurídica."
+      "causas de disolución y remisión a la normativa cooperativa aplicable",
+      "mayorías u órgano competente para el acuerdo de disolución",
+      "criterios básicos de liquidación y destino del patrimonio o fondos",
+      "relación con reembolso de aportaciones y derechos económicos",
+      "causas de disolución, órgano competente, mayorías y remisión al régimen legal aplicable",
+      "criterios de liquidación, destino del patrimonio y respeto a fondos obligatorios"
     ],
     "usuallyInRRI": [
-      "Los detalles operativos deberían esperar a contar con ejemplos más claros o acuerdos internos."
+      "preparación de información económica y patrimonial para la Asamblea",
+      "calendario interno de comunicación y acompañamiento del cierre",
+      "inventario práctico de bienes, contratos y obligaciones pendientes",
+      "canales de contraste jurídico antes de adoptar acuerdos irreversibles",
+      "preparación de información interna, calendario de comunicación y acompañamiento del cierre",
+      "inventario, comunicación interna y documentación práctica de la liquidación"
     ],
     "mixedApproaches": [
-      "No se detecta un enfoque mixto claro con la información disponible."
+      "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
     ],
     "notes": [
-      "Evitar sobrerregular sin evidencia suficiente.",
-      "Separar principios estables de prácticas que puedan aprenderse con el uso."
+      "Las conexiones con reembolso_aportaciones, aportaciones_obligatorias, asamblea_general son evidencia indirecta y deben leerse como apoyo comparativo, no como referencia directa del tema.",
+      "No conviene llevar a Estatutos detalles que el grupo necesite aprender o ajustar con la práctica.",
+      "La revisión jurídica debe confirmar qué materias exigen rango estatutario."
     ]
   },
   "recommendationsForBuenVivir": {
     "minimalApproach": [
-      "Mantener una redacción mínima y prudente hasta revisar más documentos."
+      "Fijar solo principios y efectos básicos que necesiten estabilidad.",
+      "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
+      "decidir qué información económica y patrimonial deberá conocer la Asamblea antes de acordar una disolución",
+      "decidir cómo se explicará al grupo la diferencia entre reembolso de aportaciones, fondos obligatorios y posible patrimonio remanente"
     ],
     "flexibleApproach": [
-      "Dejar los detalles operativos para acuerdos revisables."
+      "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
+      "Mantener espacio para revisar la práctica tras los primeros usos reales.",
+      "decidir qué información económica y patrimonial deberá conocer la Asamblea antes de acordar una disolución",
+      "decidir cómo se explicará al grupo la diferencia entre reembolso de aportaciones, fondos obligatorios y posible patrimonio remanente"
     ],
     "pointsToDecideSoon": [
-      "Qué decisión concreta necesita seguridad desde el inicio."
+      "decidir qué información económica y patrimonial deberá conocer la Asamblea antes de acordar una disolución",
+      "decidir cómo se explicará al grupo la diferencia entre reembolso de aportaciones, fondos obligatorios y posible patrimonio remanente",
+      "Decidir qué información económica, patrimonial y jurídica necesitaría la Asamblea antes de valorar una disolución.",
+      "Decidir cómo se explicará la diferencia entre reembolso de aportaciones, fondos obligatorios, liquidación y destino del inmueble."
     ],
     "pointsThatCanWait": [
-      "Detalles procedimentales o formularios internos."
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Información limitada: conviene evitar conclusiones fuertes hasta revisar más extractos."
+    "continuidad del proyecto vs salida ordenada y protegida",
+    "derechos económicos individuales vs destino colectivo o legalmente condicionado del patrimonio",
+    "derechos económicos individuales vs destino legal o colectivo del patrimonio"
   ],
   "notableProjects": [
     {
+      "projectName": "Estatutos Entrepatios",
+      "notableBecause": "Aporta evidencia indirecta desde reembolso_aportaciones, aportaciones_obligatorias, asamblea_general.",
+      "references": [
+        "Estatutos Entrepatios - Artículo 66. Acuerdo de disolución.",
+        "Estatutos Entrepatios - Artículo 69. Procedimiento de liquidación.",
+        "Estatutos Entrepatios - Artículo 69. Procedimiento de liquidación. (evidencia indirecta: reembolso_aportaciones)",
+        "Estatutos Entrepatios - Artículo 18. Capital social. Aportaciones iniciales dinerarias y no (evidencia indirecta: aportaciones_obligatorias)",
+        "Estatutos Entrepatios - Artículo 33. Reducción del capital social. (evidencia indirecta: aportaciones_obligatorias)"
+      ]
+    },
+    {
       "projectName": "Estatutos Losnidales",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "notableBecause": "Aporta evidencia indirecta desde reembolso_aportaciones, aportaciones_obligatorias, asamblea_general.",
       "references": [
         "Estatutos Losnidales - Art. 64.- Acuerdo de disolución.",
         "Estatutos Losnidales - Artículo 67.- Procedimiento de liquidación.",
-        "Estatutos Losnidales - Artículo 63.- Causas de disolución."
-      ]
-    },
-    {
-      "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
-      "references": [
-        "Estatutos Entrepatios - Artículo 66. Acuerdo de disolución.",
-        "Estatutos Entrepatios - Artículo 69. Procedimiento de liquidación."
-      ]
-    },
-    {
-      "projectName": "Estatutos Senior Cohousing Huelva",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
-      "references": [
-        "Estatutos Senior Cohousing Huelva - Artículo 48. Disolución",
-        "Estatutos Senior Cohousing Huelva - artículo 24.2 de estos estatutos."
-      ]
-    },
-    {
-      "projectName": "Otras Leyes, Decretos, Modificaciones",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
-      "references": [
-        "BOCYL D 05012005 1 Decreto+125 2004 - Artículo 59.– Inscripción de la disolución.",
-        "BOCYL D 05012005 1 Decreto+125 2004 - Artículo 60.– Contenido de la inscripción de disolución y, en su caso, de"
+        "Estatutos Losnidales - Artículo 63.- Causas de disolución.",
+        "Estatutos Losnidales - Artículo 67.- Procedimiento de liquidación. (evidencia indirecta: reembolso_aportaciones)",
+        "Estatutos Losnidales - Artículo 23.- Financiaciones que no integran el capital social. (evidencia indirecta: aportaciones_obligatorias)"
       ]
     },
     {
       "projectName": "Estatutos Axuntase",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "notableBecause": "Aporta evidencia indirecta desde aportaciones_obligatorias, asamblea_general.",
       "references": [
-        "Estatutos Axuntase - Artículo 47.- Causas de disolución"
+        "Estatutos Axuntase - Artículo 47.- Causas de disolución",
+        "Estatutos Axuntase - Artículo 33.- Capital social (evidencia indirecta: aportaciones_obligatorias)",
+        "Estatutos Axuntase - Artículo 21.- Convocatoria de la Asamblea General (evidencia indirecta: asamblea_general)",
+        "Estatutos Axuntase - Artículo 22.- Constitución y funcionamiento de la Asamblea General (evidencia indirecta: asamblea_general)",
+        "Estatutos Axuntase - Artículo 19.- Asamblea General. Concepto y Clases (evidencia indirecta: asamblea_general)"
+      ]
+    },
+    {
+      "projectName": "Estatutos La Borda",
+      "notableBecause": "Aporta evidencia indirecta desde aportaciones_obligatorias, asamblea_general.",
+      "references": [
+        "Estatutos La Borda - Artículo 51. Disolución y liquidación",
+        "Estatutos La Borda - Artículo 23. Capital social (evidencia indirecta: aportaciones_obligatorias)",
+        "Estatutos La Borda - Artículo 34. Asamblea General. Convocatoria de la Asamblea General ordinaria (evidencia indirecta: asamblea_general)"
+      ]
+    },
+    {
+      "projectName": "Estatutos Senior Cohousing Huelva",
+      "notableBecause": "Aporta evidencia indirecta desde reembolso_aportaciones.",
+      "references": [
+        "Estatutos Senior Cohousing Huelva - Artículo 48. Disolución",
+        "Estatutos Senior Cohousing Huelva - artículo 24.2 de estos estatutos.",
+        "Estatutos Senior Cohousing Huelva - Artículo 36. Reembolso (evidencia indirecta: reembolso_aportaciones)"
       ]
     },
     {
       "projectName": "Estatutos Elciempies",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "notableBecause": "Aporta evidencia indirecta desde aportaciones_obligatorias.",
       "references": [
-        "Estatutos Elciempies - CAPÍTULO VII"
+        "Estatutos Elciempies - CAPÍTULO VII",
+        "Estatutos Elciempies - CAPÍTULO IV (evidencia indirecta: aportaciones_obligatorias)"
       ]
     }
   ],

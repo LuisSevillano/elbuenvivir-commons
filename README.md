@@ -96,10 +96,38 @@ pnpm generate:syntheses
 
 La salida sigue escribiéndose en `src/content/generated/syntheses/{topicSlug}.generated.json`, pero el contenido evita frases de metadatos y prioriza observaciones prácticas: soluciones encontradas, diferencias entre enfoques, riesgos deducibles, ubicación razonable entre Estatutos/RRI y decisiones concretas para El Buen Vivir. Si no hay extractos claros, el script lo indica de forma prudente en lugar de rellenar con conclusiones genéricas.
 
+La Fase 21 añade mejora selectiva para `desigualdad_aportaciones`, `disolucion`, `reservas_estancias_pernoctas` y `expulsion_socio`. Estos temas incorporan tratamientos específicos y pueden apoyarse en temas relacionados como evidencia indirecta, marcada expresamente en la síntesis para mantener trazabilidad sin inventar referencias directas.
+
+## Auditoría de calidad de síntesis
+
+La Fase 20 genera un informe de calidad editorial para detectar síntesis débiles, genéricas o poco útiles:
+
+```sh
+pnpm audit:syntheses
+```
+
+La salida se escribe en `src/content/generated/synthesis-quality-report.json` y `docs/reports/synthesis-quality-report.md`.
+
 ## Validación
 
 ```sh
 pnpm validate:content
 pnpm check
 pnpm build
+```
+
+## Deploy en Netlify
+
+El proyecto incluye `netlify.toml` con `pnpm build` como comando de build y `build` como directorio publicado.
+
+Deploy preview:
+
+```sh
+pnpm deploy:netlify
+```
+
+Deploy a producción:
+
+```sh
+pnpm deploy:netlify:prod
 ```

@@ -11,6 +11,7 @@ interface PackReference {
   project?: string;
   articleOrSection?: string;
   excerpt: string;
+  indirectEvidenceTopic?: string;
 }
 
 interface ConceptDefinition {
@@ -54,6 +55,13 @@ const referencesPath = join(root, 'src/content/generated/topic-references.json')
 const taxonomyPath = join(root, 'taxonomy/topics.json');
 const outputDir = join(root, 'src/content/generated/syntheses');
 const maxProjects = 6;
+
+const indirectEvidenceTopicsBySlug: Record<string, string[]> = {
+  desigualdad_aportaciones: ['aportaciones_obligatorias', 'reembolso_aportaciones'],
+  reservas_estancias_pernoctas: ['invitados', 'uso_espacios_comunes', 'conflictos_y_mediacion'],
+  expulsion_socio: ['baja_socio', 'derechos_y_obligaciones', 'conflictos_y_mediacion'],
+  disolucion: ['reembolso_aportaciones', 'aportaciones_obligatorias', 'asamblea_general']
+};
 
 const conceptsByCategory: Partial<Record<string, Record<string, ConceptDefinition>>> = {
   socios: {
@@ -282,6 +290,101 @@ const conceptsByTopicSlug: Record<string, Record<string, ConceptDefinition>> = {
     ...(conceptsByCategory.economico ?? {}),
     ...(conceptsByCategory.uso_espacios ?? {}),
     ...(conceptsByCategory.convivencia ?? {})
+  },
+  desigualdad_aportaciones: {
+    ...(conceptsByCategory.economico ?? {}),
+    igualdad_derechos: {
+      label: 'igualdad de derechos políticos pese a diferencias económicas',
+      terms: ['igualdad', 'voto', 'participacion', 'derechos politicos', 'un socio un voto', 'una persona socia un voto'],
+      pattern: 'La cuestión clave no es solo cuánto aporta cada persona, sino si esa diferencia altera voto, participación o derechos de uso.',
+      difference: 'Algunos textos separan financiación y participación política; otros dejan la prevención de privilegios menos explícita.',
+      risk: 'Si una aportación mayor se interpreta como mayor poder o prioridad de uso, puede romperse la igualdad cooperativa.',
+      tradeoff: 'necesidad de financiación vs igualdad cooperativa real',
+      statutes: 'principio de igualdad política y límites a que las aportaciones generen privilegios',
+      rri: 'seguimiento interno de pagos, préstamos o apoyos económicos sin alterar participación',
+      decision: 'decidir cómo se documentan aportaciones, préstamos o cuotas sin crear privilegios de voto, uso o retorno'
+    },
+    prestamos_socios: {
+      label: 'préstamos o financiación de personas socias',
+      terms: ['prestamo', 'prestamos', 'financiacion', 'credito', 'aportaciones voluntarias', 'retornos'],
+      pattern: 'Las necesidades de financiación pueden canalizarse por vías distintas al capital obligatorio, como préstamos o aportaciones voluntarias.',
+      risk: 'Si la financiación adicional no se distingue del capital obligatorio, pueden confundirse retorno económico y pertenencia cooperativa.',
+      tradeoff: 'flexibilidad financiera vs claridad de derechos económicos',
+      statutes: 'marco general para financiación adicional y límites de derechos asociados',
+      rri: 'procedimiento de propuesta, información al grupo y registro de préstamos o aportaciones no obligatorias',
+      decision: 'decidir si la financiación adicional será préstamo, aportación voluntaria, cuota u otro instrumento separado'
+    }
+  },
+  reservas_estancias_pernoctas: {
+    ...(conceptsByCategory.uso_espacios ?? {}),
+    ...(conceptsByCategory.convivencia ?? {}),
+    criterios_reserva: {
+      label: 'criterios de reserva y prioridad de uso',
+      terms: ['reserva', 'reservas', 'prioridad', 'turno', 'turnos', 'calendario', 'limite de uso', 'limites de uso'],
+      pattern: 'Las reservas suelen necesitar criterios de prioridad, calendario y límites de uso para evitar apropiaciones informales de espacios comunes.',
+      difference: 'La diferencia práctica está entre reglas muy abiertas de convivencia y sistemas más formalizados de calendario, turnos o prioridad.',
+      risk: 'Sin criterios de reserva, los espacios comunes pueden quedar capturados por quien los solicita antes o por usos recurrentes no revisados.',
+      tradeoff: 'hospitalidad flexible vs disponibilidad equitativa de espacios comunes',
+      statutes: 'principio general de uso común, convivencia y respeto a acuerdos internos',
+      rri: 'calendario, turnos, prioridades, límites de pernocta y forma de aviso',
+      decision: 'decidir qué espacios requieren reserva previa, qué usos tienen prioridad y cuánto tiempo máximo puede durar una estancia'
+    },
+    responsabilidad_anfitriona: {
+      label: 'responsabilidad por invitados y pernoctas',
+      terms: ['invitados', 'visitas', 'familiares', 'persona anfitriona', 'responsabilidad', 'pernocta', 'pernoctas'],
+      pattern: 'Cuando aparecen invitados o pernoctas, la regla útil suele combinar aviso, responsabilidad de la persona anfitriona y límites de duración.',
+      risk: 'No definir responsabilidad puede trasladar costes, limpieza o conflictos de convivencia al conjunto del grupo.',
+      statutes: 'principio de convivencia y compatibilidad entre uso privado y común',
+      rri: 'avisos, límites, calendario, limpieza y responsabilidad de la persona anfitriona',
+      decision: 'decidir qué debe comunicar la persona anfitriona y qué responsabilidades asume durante la estancia'
+    }
+  },
+  expulsion_socio: {
+    ...(conceptsByCategory.socios ?? {}),
+    ...(conceptsByCategory.convivencia ?? {}),
+    procedimiento_sancionador: {
+      label: 'procedimiento sancionador con garantías',
+      terms: ['procedimiento sancionador', 'audiencia', 'alegaciones', 'recurso', 'expediente', 'sancion', 'sanciones'],
+      pattern: 'La expulsión aparece como último escalón de un régimen disciplinario que necesita faltas, audiencia, órgano competente y recurso.',
+      difference: 'La diferencia práctica suele estar entre regular solo causas de expulsión o describir también garantías y pasos del procedimiento.',
+      risk: 'Una expulsión sin audiencia, recurso o órgano claro puede generar impugnaciones y dañar la confianza interna.',
+      tradeoff: 'protección del grupo vs garantías de la persona socia',
+      statutes: 'faltas muy graves, causa de expulsión, órgano competente, audiencia y recurso básico',
+      rri: 'mediación previa, documentación del conflicto, plazos internos y acompañamiento del procedimiento',
+      decision: 'decidir qué incumplimientos pueden llegar a expulsión y qué garantías mínimas tendrá la persona afectada'
+    },
+    organo_competente: {
+      label: 'órgano competente para sancionar o resolver recursos',
+      terms: ['consejo rector', 'asamblea', 'organo de administracion', 'recurso ante la asamblea', 'acuerdo de expulsion'],
+      pattern: 'Los textos suelen vincular sanciones y expulsión a órganos formales como Consejo Rector o Asamblea.',
+      risk: 'Si no se distingue quién instruye, quién decide y quién revisa, el procedimiento puede percibirse como arbitrario.',
+      statutes: 'competencias del órgano que acuerda la expulsión y vías de recurso',
+      rri: 'circuito interno de comunicación, mediación y preparación documental',
+      decision: 'decidir qué papel tendrá Consejo Rector, Asamblea y mediación antes de una expulsión'
+    }
+  },
+  disolucion: {
+    asamblea_disolucion: {
+      label: 'acuerdo de asamblea para disolver',
+      terms: ['disolucion', 'acuerdo de disolucion', 'asamblea general', 'mayoria', 'quorum', 'causas legales'],
+      pattern: 'La disolución se trata como una decisión estructural que normalmente requiere acuerdo formal y conexión con causas legales.',
+      difference: 'Algunos textos se centran en causas legales y otros añaden consecuencias patrimoniales o liquidatorias.',
+      risk: 'Sin reglas claras, una crisis del proyecto puede mezclar salida de personas, destino del inmueble y devolución de aportaciones.',
+      tradeoff: 'continuidad del proyecto vs salida ordenada y protegida',
+      statutes: 'causas de disolución, órgano competente, mayorías y remisión al régimen legal aplicable',
+      rri: 'preparación de información interna, calendario de comunicación y acompañamiento del cierre',
+      decision: 'decidir qué información económica y patrimonial deberá conocer la Asamblea antes de acordar una disolución'
+    },
+    liquidacion_patrimonio: {
+      label: 'liquidación y destino del patrimonio',
+      terms: ['liquidacion', 'liquidadores', 'destino del patrimonio', 'destino del inmueble', 'fondos', 'fondo de reserva', 'haber social', 'adjudicacion'],
+      pattern: 'La liquidación conecta patrimonio, fondos, derechos económicos y destino final de bienes o remanentes.',
+      risk: 'Si no se prevé el destino de fondos o patrimonio, pueden aparecer expectativas contradictorias sobre adjudicación, devolución o continuidad social del proyecto.',
+      tradeoff: 'derechos económicos individuales vs destino colectivo o legalmente condicionado del patrimonio',
+      statutes: 'criterios de liquidación, destino del patrimonio y respeto a fondos obligatorios',
+      rri: 'inventario, comunicación interna y documentación práctica de la liquidación',
+      decision: 'decidir cómo se explicará al grupo la diferencia entre reembolso de aportaciones, fondos obligatorios y posible patrimonio remanente'
+    }
   }
 };
 
@@ -336,6 +439,30 @@ function packFiles(): string[] {
 
 function referencesForTopic(slug: string, allReferences: GeneratedTopicReference[]): GeneratedTopicReference[] {
   return allReferences.filter((reference) => reference.topicSlug === slug);
+}
+
+function packReferenceFromGenerated(reference: GeneratedTopicReference, indirectEvidenceTopic: string): PackReference {
+  return {
+    documentTitle: reference.documentTitle,
+    documentSlug: reference.documentSlug,
+    documentType: reference.documentType,
+    project: reference.projectName,
+    articleOrSection: reference.articleOrSection
+      ? `${reference.articleOrSection} (evidencia indirecta: ${indirectEvidenceTopic})`
+      : `Evidencia indirecta: ${indirectEvidenceTopic}`,
+    excerpt: reference.excerpt,
+    indirectEvidenceTopic
+  };
+}
+
+function indirectEvidenceForTopic(slug: string, allReferences: GeneratedTopicReference[]): PackReference[] {
+  return (indirectEvidenceTopicsBySlug[slug] ?? []).flatMap((relatedSlug) => referencesForTopic(relatedSlug, allReferences)
+    .toSorted((a, b) => {
+      const confidenceWeight = { high: 3, medium: 2, low: 1 };
+      return confidenceWeight[b.confidence] - confidenceWeight[a.confidence] || a.documentTitle.localeCompare(b.documentTitle, 'es');
+    })
+    .slice(0, 8)
+    .map((reference) => packReferenceFromGenerated(reference, relatedSlug)));
 }
 
 function unique(values: string[]): string[] {
@@ -461,6 +588,101 @@ function addTopicSpecificInsights(topic: TaxonomyTopic, detected: DetectedConcep
     insights.pointsToDecideSoon.push('Separar qué debe quedar estable de qué puede aprenderse y actualizarse en RRI.');
   }
 
+  if (topic.slug === 'desigualdad_aportaciones') {
+    insights.commonPatterns.push('Cuando hay pocas referencias directas, las referencias indirectas sobre aportaciones obligatorias y reembolso ayudan a distinguir capital, cuotas, préstamos y derechos económicos sin inventar cláusulas nuevas.');
+    insights.majorDifferences.push('La diferencia relevante para El Buen Vivir es si una diferencia económica queda limitada a financiación o si afecta a voto, uso, retorno o participación.');
+    insights.commonRisks.push('Una aportación inicial desigual puede convertirse en privilegio informal si no se separa de voto, uso de vivienda, retorno económico y participación en decisiones.');
+    insights.commonTradeoffs.push('financiación suficiente vs igualdad política y convivencial');
+    insights.detectedTensions.push('aportaciones desiguales vs una persona socia con igual participación');
+    insights.pointsToDecideSoon.push('Decidir si cualquier aportación desigual será capital, préstamo, cuota, aportación voluntaria u otro instrumento con trazabilidad propia.');
+    insights.pointsToDecideSoon.push('Decidir expresamente que una mayor aportación no da más voto, prioridad de uso ni ventaja en decisiones comunes.');
+    insights.usuallyInStatutes = pick([
+      'principio de igualdad política entre personas socias',
+      'límites a que aportaciones, préstamos o cuotas generen privilegios de voto o uso',
+      'naturaleza de las aportaciones obligatorias y criterios de reembolso',
+      'marco general de aportaciones voluntarias o financiación adicional',
+      ...insights.usuallyInStatutes
+    ], 6);
+    insights.usuallyInRRI = pick([
+      'calendario y trazabilidad de pagos diferenciados',
+      'comunicación presupuestaria comprensible para todo el grupo',
+      'procedimiento para documentar préstamos o apoyos económicos sin privilegios',
+      'seguimiento de incidencias de pago y acuerdos de fraccionamiento',
+      ...insights.usuallyInRRI
+    ], 6);
+  }
+
+  if (topic.slug === 'reservas_estancias_pernoctas') {
+    insights.commonPatterns.push('Las referencias indirectas de invitados, espacios comunes y convivencia permiten tratar reservas y pernoctas como reglas prácticas de uso compartido, no como derechos individuales ilimitados.');
+    insights.majorDifferences.push('Los enfoques varían entre confianza informal, calendario de reservas y límites explícitos para visitas o pernoctas prolongadas.');
+    insights.commonRisks.push('Sin calendario, prioridades o límites de estancia, los espacios comunes pueden saturarse y generar conflictos entre hospitalidad e intimidad comunitaria.');
+    insights.commonTradeoffs.push('apertura a invitados vs disponibilidad cotidiana para quienes conviven');
+    insights.detectedTensions.push('hospitalidad flexible vs reparto equitativo de espacios comunes');
+    insights.pointsToDecideSoon.push('Decidir qué espacios se reservan, quién tiene prioridad, cuántas pernoctas son admisibles y cómo se avisa al grupo.');
+    insights.pointsToDecideSoon.push('Decidir qué responsabilidades asume la persona anfitriona sobre limpieza, daños, llaves, convivencia y límites de uso.');
+    insights.usuallyInStatutes = pick([
+      'principio general de convivencia y uso compartido de espacios comunes',
+      'deber de respetar acuerdos comunitarios sobre uso de espacios',
+      'compatibilidad entre uso privativo, invitados y vida comunitaria',
+      ...insights.usuallyInStatutes
+    ], 6);
+    insights.usuallyInRRI = pick([
+      'calendario de reservas, turnos y prioridades',
+      'límites de pernocta, avisos y responsabilidad de la persona anfitriona',
+      'criterios para invitados, familiares y usos repetidos',
+      'gestión de conflictos por solapamientos o usos intensivos',
+      ...insights.usuallyInRRI
+    ], 6);
+  }
+
+  if (topic.slug === 'expulsion_socio') {
+    insights.commonPatterns.push('La expulsión debe leerse junto con baja, derechos y obligaciones, conflictos y mediación: no es una regla aislada, sino el último escalón de incumplimientos graves.');
+    insights.majorDifferences.push('La diferencia práctica está entre enunciar causas de expulsión y regular un procedimiento con faltas, audiencia, decisión, recurso y posible mediación previa.');
+    insights.commonRisks.push('Sin faltas concretas, audiencia, órgano competente y recurso, una expulsión puede parecer arbitraria e impugnable.');
+    insights.commonTradeoffs.push('protección del proyecto común vs garantías de la persona socia');
+    insights.detectedTensions.push('convivencia protegida vs riesgo de sanción arbitraria');
+    insights.pointsToDecideSoon.push('Decidir qué incumplimientos son leves, graves o muy graves y cuáles podrían justificar expulsión.');
+    insights.pointsToDecideSoon.push('Decidir qué órgano instruye, qué órgano decide, qué audiencia existe y ante quién se puede recurrir.');
+    insights.usuallyInStatutes = pick([
+      'causas de expulsión y faltas muy graves',
+      'órgano competente para acordar la expulsión',
+      'audiencia de la persona afectada y recurso básico',
+      'relación con derechos, obligaciones y pérdida de condición de socia',
+      ...insights.usuallyInStatutes
+    ], 6);
+    insights.usuallyInRRI = pick([
+      'mediación previa cuando proceda',
+      'documentación del conflicto, plazos y comunicación interna',
+      'acompañamiento de la persona afectada y del grupo',
+      'pasos operativos posteriores si la expulsión se confirma',
+      ...insights.usuallyInRRI
+    ], 6);
+  }
+
+  if (topic.slug === 'disolucion') {
+    insights.commonPatterns.push('La disolución conecta acuerdo de Asamblea, causas legales, liquidación, fondos, patrimonio y efectos económicos sobre las personas socias.');
+    insights.majorDifferences.push('Unos textos se apoyan en la normativa legal general y otros concretan más el destino del patrimonio o el proceso de liquidación.');
+    insights.commonRisks.push('Si no se separa disolución, liquidación y reembolso, el grupo puede confundir devolución de aportaciones con adjudicación de patrimonio o fondos obligatorios.');
+    insights.commonTradeoffs.push('cierre ordenado del proyecto vs expectativas individuales sobre patrimonio');
+    insights.detectedTensions.push('derechos económicos individuales vs destino legal o colectivo del patrimonio');
+    insights.pointsToDecideSoon.push('Decidir qué información económica, patrimonial y jurídica necesitaría la Asamblea antes de valorar una disolución.');
+    insights.pointsToDecideSoon.push('Decidir cómo se explicará la diferencia entre reembolso de aportaciones, fondos obligatorios, liquidación y destino del inmueble.');
+    insights.usuallyInStatutes = pick([
+      'causas de disolución y remisión a la normativa cooperativa aplicable',
+      'mayorías u órgano competente para el acuerdo de disolución',
+      'criterios básicos de liquidación y destino del patrimonio o fondos',
+      'relación con reembolso de aportaciones y derechos económicos',
+      ...insights.usuallyInStatutes
+    ], 6);
+    insights.usuallyInRRI = pick([
+      'preparación de información económica y patrimonial para la Asamblea',
+      'calendario interno de comunicación y acompañamiento del cierre',
+      'inventario práctico de bienes, contratos y obligaciones pendientes',
+      'canales de contraste jurídico antes de adoptar acuerdos irreversibles',
+      ...insights.usuallyInRRI
+    ], 6);
+  }
+
   return {
     ...insights,
     commonPatterns: pick(insights.commonPatterns, 6),
@@ -534,26 +756,42 @@ function notableProjects(references: PackReference[], detected: DetectedConcept[
 
       return {
         projectName: name,
-        notableBecause: relatedConcepts.length > 0
-          ? `Aparece en relación con ${relatedConcepts.join(', ')}.`
-          : 'Aporta extractos útiles para comparar cómo se aborda esta cuestión.',
+        notableBecause: projectReferences.some((reference) => reference.indirectEvidenceTopic)
+          ? `Aporta evidencia indirecta desde ${unique(projectReferences.map((reference) => reference.indirectEvidenceTopic ?? '').filter(Boolean)).join(', ')}.`
+          : relatedConcepts.length > 0
+            ? `Aparece en relación con ${relatedConcepts.join(', ')}.`
+            : 'Aporta extractos útiles para comparar cómo se aborda esta cuestión.',
         references: projectReferences.slice(0, 5).map(referenceLabel)
       };
     });
 }
 
-function synthesize(topic: TaxonomyTopic, packPath: string, pack: string, topicReferences: GeneratedTopicReference[]): GeneratedTopicSynthesis {
-  const references = parseReferences(pack);
+function synthesize(topic: TaxonomyTopic, packPath: string, pack: string, topicReferences: GeneratedTopicReference[], allReferences: GeneratedTopicReference[]): GeneratedTopicSynthesis {
+  const directReferences = parseReferences(pack);
+  const indirectReferences = indirectEvidenceForTopic(topic.slug, allReferences);
+  const references = [...directReferences, ...indirectReferences];
   const documents = unique(references.map((reference) => reference.documentSlug)).toSorted();
   const detected = detectConcepts(references, conceptDictionaryForTopic(topic));
   const insights = buildTopicSpecificInsights(topic, references);
+
+  if (indirectReferences.length > 0) {
+    const relatedTopics = unique(indirectReferences.map((reference) => reference.indirectEvidenceTopic ?? '').filter(Boolean));
+    insights.overview = pick([
+      ...insights.overview,
+      `También se usa evidencia indirecta de temas relacionados (${relatedTopics.join(', ')}) para completar la comparación sin inventar referencias directas.`
+    ], 4);
+    insights.notes = pick([
+      `Las conexiones con ${relatedTopics.join(', ')} son evidencia indirecta y deben leerse como apoyo comparativo, no como referencia directa del tema.`,
+      ...insights.notes
+    ], 4);
+  }
 
   return {
     slug: topic.slug,
     generatedAt: new Date().toISOString(),
     generatedFrom: {
       researchPack: packPath.replace(`${root}/`, ''),
-      referencesCount: topicReferences.length || references.length,
+      referencesCount: (topicReferences.length || directReferences.length) + indirectReferences.length,
       documents
     },
     summary: {
@@ -604,7 +842,7 @@ for (const packPath of packFiles()) {
   }
 
   const pack = readFileSync(packPath, 'utf8');
-  const synthesis = synthesize(topic, packPath, pack, referencesForTopic(slug, references));
+  const synthesis = synthesize(topic, packPath, pack, referencesForTopic(slug, references), references);
   writeFileSync(join(outputDir, `${slug}.generated.json`), `${JSON.stringify(synthesis, null, 2)}\n`);
   generated += 1;
 }

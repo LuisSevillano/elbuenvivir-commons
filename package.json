@@ -18,8 +18,11 @@
     "generate:research-packs": "tsx scripts/generate-research-packs.ts",
     "generate:topic-drafts": "tsx scripts/generate-topic-drafts.ts",
     "generate:syntheses": "tsx scripts/generate-topic-syntheses.ts",
+    "audit:syntheses": "tsx scripts/audit-syntheses-quality.ts",
     "build:patterns": "tsx scripts/build-cross-topic-patterns.ts",
-    "build:project-profiles": "tsx scripts/build-project-profiles.ts"
+    "build:project-profiles": "tsx scripts/build-project-profiles.ts",
+    "deploy:netlify": "pnpm dlx netlify-cli deploy --build",
+    "deploy:netlify:prod": "pnpm dlx netlify-cli deploy --build --prod"
   },
   "devDependencies": {
     "@sveltejs/adapter-netlify": "^6.0.4",

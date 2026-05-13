@@ -66,7 +66,21 @@
     "title": "Expulsión de una persona socia",
     "category": "disciplina",
     "status": "planned",
-    "keywords": ["expulsion", "falta grave", "sancion"]
+    "aliases": ["separacion disciplinaria", "perdida disciplinaria de condicion de socio", "regimen disciplinario"],
+    "keywords": [
+      "expulsion",
+      "falta grave",
+      "falta muy grave",
+      "sancion",
+      "procedimiento sancionador",
+      "audiencia",
+      "recurso",
+      "incumplimiento",
+      "asamblea",
+      "consejo rector",
+      "derechos y obligaciones"
+    ],
+    "negativeKeywords": ["expulsion de aire", "expulsion tecnica"]
   },
   {
     "slug": "reembolso_aportaciones",
@@ -80,7 +94,26 @@
     "title": "Aportaciones iniciales desiguales",
     "category": "economico",
     "status": "planned",
-    "keywords": ["aportaciones desiguales", "desigualdad", "derechos economicos"]
+    "aliases": ["aportaciones diferentes", "aportaciones no iguales", "financiacion desigual", "diferencias economicas entre socias"],
+    "keywords": [
+      "aportaciones desiguales",
+      "desigualdad",
+      "derechos economicos",
+      "aportaciones",
+      "capital social",
+      "cuotas",
+      "prestamos",
+      "financiacion",
+      "retornos",
+      "reembolso",
+      "igualdad",
+      "voto",
+      "participacion",
+      "derechos politicos",
+      "aportaciones voluntarias",
+      "aportacion obligatoria"
+    ],
+    "negativeKeywords": ["desigualdad social general", "igualdad de genero"]
   },
   {
     "slug": "asamblea_general",
@@ -108,7 +141,26 @@
     "title": "Reservas, estancias y pernoctas",
     "category": "uso_espacios",
     "status": "planned",
-    "keywords": ["reserva", "estancia", "pernocta"]
+    "aliases": ["reservas de espacios", "estancias de invitados", "pernoctas de visitas", "uso temporal de espacios comunes"],
+    "keywords": [
+      "reserva",
+      "reservas",
+      "estancia",
+      "estancias",
+      "pernocta",
+      "pernoctas",
+      "invitados",
+      "visitas",
+      "familiares",
+      "espacios comunes",
+      "zonas comunes",
+      "prioridad de uso",
+      "limites de uso",
+      "turnos",
+      "calendario",
+      "convivencia",
+      "responsabilidad de la persona anfitriona"
+    ]
   },
   {
     "slug": "invitados",
@@ -136,7 +188,23 @@
     "title": "Disolución",
     "category": "ciclo_vida",
     "status": "planned",
-    "keywords": ["disolucion", "liquidacion", "destino del inmueble"]
+    "aliases": ["liquidacion de la cooperativa", "cierre del proyecto", "extincion de la cooperativa"],
+    "keywords": [
+      "disolucion",
+      "liquidacion",
+      "destino del inmueble",
+      "destino del patrimonio",
+      "fondos",
+      "fondo de reserva",
+      "fondo de educacion",
+      "adjudicacion",
+      "haber social",
+      "asamblea general",
+      "acuerdo de disolucion",
+      "causas legales",
+      "extincion",
+      "liquidadores"
+    ]
   },
   {
     "slug": "gobernanza_estatutos_vs_rri",

@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-05-13T16:26:31.522Z",
+  "sources": {
+    "referencesCount": 280,
+    "documentsCount": 36,
+    "projectsDetected": 1
+  },
+  "projects": [
+    {
+      "projectName": "Otras Leyes, Decretos, Modificaciones",
+      "topics": [
+        "disolucion",
+        "lista_espera",
+        "mantenimiento",
+        "reservas_estancias_pernoctas",
+        "uso_espacios_comunes"
+      ],
+      "topicCount": 5,
+      "documentTypes": [
+        "ley"
+      ],
+      "jurisdictions": [],
+      "regulatoryTone": "Sin datos suficientes",
+      "characteristics": [
+        "Incluye consideraciones de cuidado"
+      ],
+      "notes": "Aparece en 5 temas. Enfoque general detectado."
+    }
+  ]
+}

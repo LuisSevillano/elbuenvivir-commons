@@ -1,5 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
+import { fileURLToPath } from 'url';
 
 interface TopicReference {
   topicSlug: string;
@@ -38,6 +39,8 @@ interface Synthesis {
   commonPatterns: string[];
 }
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 const contentDir = path.join(rootDir, 'src/content');
 const generatedDir = path.join(contentDir, 'generated');
@@ -119,15 +122,16 @@ function main() {
   const synthesesDir = path.join(generatedDir, 'syntheses');
 
   const references = loadJson(referencesPath) as { references: TopicReference[] };
-  const documents = loadJson(documentsPath) as { documents: Document[] };
+  const documentsData = loadJson(documentsPath) as Document[] | { documents: Document[] } | null;
+  const documents = Array.isArray(documentsData) ? documentsData : (documentsData?.documents ?? []);
 
-  if (!references || !documents) {
+  if (!references || documents.length === 0) {
     console.error('❌ Faltan datos necesarios: references o documents');
     process.exit(1);
   }
 
   const documentsMap = new Map<string, Document>();
-  for (const doc of documents.documents) {
+  for (const doc of documents) {
     documentsMap.set(doc.slug, doc);
   }
 
@@ -235,7 +239,7 @@ function main() {
     generatedAt: new Date().toISOString(),
     sources: {
       referencesCount: references.references.length,
-      documentsCount: documents.documents.length,
+      documentsCount: documents.length,
       projectsDetected: profiles.length
     },
     projects: profiles

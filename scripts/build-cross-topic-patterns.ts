@@ -1,5 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
+import { fileURLToPath } from 'url';
 
 interface TopicReference {
   topicSlug: string;
@@ -34,6 +35,8 @@ interface Pattern {
   frequency: number;
 }
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 const contentDir = path.join(rootDir, 'src/content');
 const generatedDir = path.join(contentDir, 'generated');
@@ -189,10 +192,11 @@ function main() {
   const referencesPath = path.join(generatedDir, 'topic-references.json');
   const synthesesDir = path.join(generatedDir, 'syntheses');
 
-  const taxonomy = loadJson(taxonomyPath) as { topics: Topic[] };
+  const taxonomyData = loadJson(taxonomyPath) as Topic[] | { topics: Topic[] } | null;
   const references = loadJson(referencesPath) as { references: TopicReference[] };
+  const topics = Array.isArray(taxonomyData) ? taxonomyData : (taxonomyData?.topics ?? []);
 
-  if (!taxonomy || !references) {
+  if (topics.length === 0 || !references) {
     console.error('❌ Faltan datos necesarios: taxonomy o references');
     process.exit(1);
   }
@@ -255,7 +259,7 @@ function main() {
   const crossTopicPatterns = {
     generatedAt: new Date().toISOString(),
     sources: {
-      topicsCount: taxonomy.topics.length,
+      topicsCount: topics.length,
       referencesCount: references.references.length,
       synthesesCount: syntheses.size,
       projectsCount: projectNames.size

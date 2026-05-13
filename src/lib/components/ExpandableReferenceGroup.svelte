@@ -10,8 +10,11 @@
 
   let { title, count, defaultExpanded = false, children }: Props = $props();
 
-  let initialExpanded = defaultExpanded;
-  let expanded = $state(initialExpanded);
+  let expanded = $state(false);
+
+  $effect(() => {
+    expanded = defaultExpanded;
+  });
 
   function toggle() {
     expanded = !expanded;

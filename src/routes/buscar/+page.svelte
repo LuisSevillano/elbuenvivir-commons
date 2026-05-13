@@ -44,11 +44,15 @@
     };
   } = $props();
 
-  let query = $state(data.query);
+  let query = $state('');
   let documentTypeFilter = $state('all');
   let jurisdictionFilter = $state('all');
   let confidenceFilter = $state('all');
   let categoryFilter = $state('all');
+
+  $effect(() => {
+    query = data.query;
+  });
 
   const documentTypes = $derived(
     [...new Set(data.documents.map((document) => document.type))].toSorted((a, b) => a.localeCompare(b, 'es'))

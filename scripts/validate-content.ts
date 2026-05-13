@@ -22,6 +22,7 @@ const allowedCategories = new Set([
   'legal',
   'otros'
 ]);
+const allowedIngestionStatuses = new Set(['pending', 'ok', 'needs_review']);
 
 const errors: string[] = [];
 const warnings: string[] = [];
@@ -105,6 +106,8 @@ if (!Array.isArray(documents)) {
     stringField(document, 'fileName', context);
     const sourcePath = stringField(document, 'sourcePath', context);
     stringField(document, 'type', context);
+    const contentHash = stringField(document, 'contentHash', context);
+    const ingestionStatus = stringField(document, 'ingestionStatus', context);
     arrayField(document, 'tags', context);
 
     if (slug) {
@@ -114,6 +117,18 @@ if (!Array.isArray(documents)) {
 
     if (sourcePath && !existsSync(join(root, sourcePath))) {
       errors.push(`${context}: sourcePath no existe: ${sourcePath}`);
+    }
+
+    if (contentHash && !/^[a-f0-9]{64}$/.test(contentHash)) {
+      errors.push(`${context}: contentHash debe ser sha256 hexadecimal`);
+    }
+
+    if (ingestionStatus && !allowedIngestionStatuses.has(ingestionStatus)) {
+      errors.push(`${context}: ingestionStatus no reconocido "${ingestionStatus}"`);
+    }
+
+    if (document.needsReview !== undefined && typeof document.needsReview !== 'boolean') {
+      errors.push(`${context}: needsReview debe ser boolean`);
     }
   }
 

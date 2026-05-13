@@ -98,6 +98,10 @@
     margin: 0 0 1rem;
   }
 
+  dl > div {
+    min-width: 0;
+  }
+
   dt {
     color: var(--muted);
     font-size: 0.85rem;
@@ -106,5 +110,13 @@
 
   dd {
     margin: 0;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  li,
+  li :global(a),
+  li span {
+    overflow-wrap: anywhere;
   }
 </style>

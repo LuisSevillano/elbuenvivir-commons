@@ -21,6 +21,10 @@
 	box-sizing: border-box;
 }
 
+:where(p, li, dd, dt, blockquote, .lead, .empty-state) {
+	overflow-wrap: anywhere;
+}
+
 body {
 	background: var(--bg);
 	margin: 0;
@@ -113,6 +117,7 @@ nav a:hover {
 .hero {
 	background: linear-gradient(135deg, #fffdf8 0%, #eee5d6 100%);
 	border-radius: 4px;
+	min-width: 0;
 	padding: clamp(1.4rem, 4vw, 3rem);
 }
 
@@ -179,13 +184,14 @@ h3 {
 .grid {
 	display: grid;
 	gap: 1rem;
-	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
 }
 
 .panel {
 	background: var(--surface);
 	border: 1px solid var(--border);
 	border-radius: 4px;
+	min-width: 0;
 	padding: 1.2rem;
 }
 
@@ -199,7 +205,7 @@ h3 {
 .two-column {
 	display: grid;
 	gap: 1rem;
-	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
 }
 
 .stack {

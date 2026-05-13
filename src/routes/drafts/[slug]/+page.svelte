@@ -194,7 +194,7 @@
   .comparison-grid {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
   }
 
   .placement-lists {
@@ -206,6 +206,10 @@
     gap: 0.6rem;
   }
 
+  dl > div {
+    min-width: 0;
+  }
+
   dt {
     color: var(--muted);
     font-size: 0.85rem;
@@ -214,6 +218,8 @@
 
   dd {
     margin: 0;
+    min-width: 0;
+    overflow-wrap: anywhere;
   }
 
   .evidence-card {

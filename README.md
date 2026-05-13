@@ -72,6 +72,20 @@ Cada referencia automática incluye `topicSlug`, `documentSlug`, `projectName` s
 
 No se generan summaries jurídicos ni `suggestedClause`. La UI muestra estas referencias separadas de las referencias curadas con el estado `Referencia automática sin revisar`.
 
+## Pipeline completo
+
+La Fase 10 unifica las etapas automáticas en un flujo manual, robusto y auditable:
+
+```sh
+npm run content:pipeline
+```
+
+El pipeline ejecuta en orden `ingest`, `extract`, `split`, `build:index` y `validate:content`. Si una etapa emite warnings, el flujo continúa. Si una etapa falla de forma crítica, el pipeline se detiene, escribe `src/content/generated/pipeline-report.json` y devuelve error.
+
+El reporte incluye fecha, duración, etapas ejecutadas, éxito/error por etapa, warnings principales y resumen de documentos, secciones y referencias.
+
+Este pipeline no se ejecuta durante `npm run build` y no modifica `src/content/topics`.
+
 ## Validación
 
 ```sh

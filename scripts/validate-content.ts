@@ -235,12 +235,12 @@ for (const file of topicFiles) {
 validateUnique([...topicSlugs], 'topics');
 
 const taxonomy = readJson<JsonValue[]>(taxonomyPath) ?? [];
+const taxonomySlugSet = new Set<string>();
 
 if (!Array.isArray(taxonomy)) {
   errors.push('taxonomy/topics.json debe ser un array');
 } else {
   const taxonomySlugs: string[] = [];
-  const taxonomySlugSet = new Set<string>();
 
   for (const [index, item] of taxonomy.entries()) {
     const context = `taxonomy[${index}]`;
@@ -300,8 +300,8 @@ if (!generatedReferences || !Array.isArray(generatedReferences.references)) {
     stringField(reference, 'excerpt', context);
     const reviewStatus = stringField(reference, 'reviewStatus', context);
 
-    if (topicSlug && !topicSlugs.has(topicSlug)) {
-      errors.push(`${context}: topicSlug inexistente "${topicSlug}"`);
+    if (topicSlug && !taxonomySlugSet.has(topicSlug)) {
+      errors.push(`${context}: topicSlug inexistente en taxonomy/topics.json "${topicSlug}"`);
     }
 
     if (documentSlug && !documentSlugs.has(documentSlug)) {

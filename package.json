@@ -11,7 +11,8 @@
     "validate:content": "tsx scripts/validate-content.ts",
     "ingest": "tsx scripts/ingest-documents.ts",
     "extract": "tsx scripts/extract-text.ts",
-    "split": "tsx scripts/split-articles.ts"
+    "split": "tsx scripts/split-articles.ts",
+    "build:index": "tsx scripts/build-topic-index.ts"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.8",

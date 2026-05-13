@@ -1,6 +1,11 @@
 <script lang="ts">
   import StatusBadge from '$lib/components/StatusBadge.svelte';
   import TagList from '$lib/components/TagList.svelte';
+  import {
+    getDocumentDisplayTitle,
+    getDocumentProjectName,
+    getDocumentSummary
+  } from '$lib/content/documentDisplay';
   import { documentTypeLabels } from '$lib/content/labels';
   import type { GeneratedTopicReference, GovernanceTopic, SourceDocument } from '$lib/content/types';
 
@@ -16,13 +21,16 @@
 
   const curatedTopicSlugs = $derived(new Set(data.curatedTopicSlugs));
   const topicTitles = $derived(data.topicTitles);
+  const displayTitle = $derived(getDocumentDisplayTitle(data.document));
+  const summary = $derived(getDocumentSummary(data.document));
+  const projectName = $derived(getDocumentProjectName(data.document));
 </script>
 
 <article>
   <header class="hero">
     <p class="eyebrow">{documentTypeLabels[data.document.type]}</p>
-    <h1>{data.document.title}</h1>
-    <p class="lead">{data.document.notes ?? data.document.fileName}</p>
+    <h1>{displayTitle}</h1>
+    <p class="lead">{data.document.notes ?? summary}</p>
     <div class="document-badges">
       {#if data.document.jurisdiction}<StatusBadge>{data.document.jurisdiction}</StatusBadge>{/if}
       {#if data.document.year}<StatusBadge>{data.document.year}</StatusBadge>{/if}
@@ -35,7 +43,8 @@
     <dl>
       <div><dt>Archivo</dt><dd>{data.document.fileName}</dd></div>
       <div><dt>Tipo</dt><dd>{documentTypeLabels[data.document.type]}</dd></div>
-      {#if data.document.projectName}<div><dt>Proyecto</dt><dd>{data.document.projectName}</dd></div>{/if}
+      {#if projectName}<div><dt>Proyecto</dt><dd>{projectName}</dd></div>{/if}
+      <div><dt>Resumen</dt><dd>{summary}</dd></div>
     </dl>
     <TagList tags={data.document.tags} />
   </section>

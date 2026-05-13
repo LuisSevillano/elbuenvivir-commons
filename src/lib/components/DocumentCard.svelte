@@ -1,10 +1,14 @@
 <script lang="ts">
 	import { documentTypeLabels } from '$lib/content/labels';
+	import { getDocumentDisplayTitle, getDocumentSummary } from '$lib/content/documentDisplay';
 	import type { SourceDocument } from '$lib/content/types';
 	import StatusBadge from './StatusBadge.svelte';
 	import TagList from './TagList.svelte';
 
 	let { document }: { document: SourceDocument } = $props();
+
+	const displayTitle = $derived(getDocumentDisplayTitle(document));
+	const summary = $derived(getDocumentSummary(document));
 </script>
 
 <a class="document-card" href={`/documentos/${document.slug}`}>
@@ -14,8 +18,8 @@
 			<StatusBadge tone="warning">Revisar metadatos</StatusBadge>
 		{/if}
 	</div>
-	<h2>{document.title}</h2>
-	<p>{document.projectName ?? document.jurisdiction ?? document.fileName}</p>
+	<h2>{displayTitle}</h2>
+	<p class="document-summary">{summary}</p>
 	<TagList tags={document.tags} />
 </a>
 
@@ -37,14 +41,21 @@
 	}
 
 	h2 {
-		font-size: 1.1rem;
+		font-size: 1.03rem;
+		line-height: 1.25;
 		margin: 0.75rem 0 0.35rem;
 	}
 
-	p {
+	.document-summary {
 		color: var(--muted);
+		font-size: 0.84rem;
+		line-height: 1.35;
 		margin: 0 0 0.8rem;
 		overflow: hidden;
 		text-overflow: ellipsis;
+		display: -webkit-box;
+		line-clamp: 2;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
 	}
 </style>

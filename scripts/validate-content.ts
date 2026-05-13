@@ -23,6 +23,7 @@ const allowedCategories = new Set([
   'otros'
 ]);
 const allowedIngestionStatuses = new Set(['pending', 'ok', 'needs_review']);
+const allowedExtractionStatuses = new Set(['not_started', 'ok', 'partial', 'failed', 'unsupported']);
 
 const errors: string[] = [];
 const warnings: string[] = [];
@@ -108,6 +109,7 @@ if (!Array.isArray(documents)) {
     stringField(document, 'type', context);
     const contentHash = stringField(document, 'contentHash', context);
     const ingestionStatus = stringField(document, 'ingestionStatus', context);
+    const extractionStatus = document.extractionStatus;
     arrayField(document, 'tags', context);
 
     if (slug) {
@@ -129,6 +131,16 @@ if (!Array.isArray(documents)) {
 
     if (document.needsReview !== undefined && typeof document.needsReview !== 'boolean') {
       errors.push(`${context}: needsReview debe ser boolean`);
+    }
+
+    if (extractionStatus !== undefined) {
+      if (typeof extractionStatus !== 'string' || !allowedExtractionStatuses.has(extractionStatus)) {
+        errors.push(`${context}: extractionStatus no reconocido "${String(extractionStatus)}"`);
+      }
+    }
+
+    if (document.extractionError !== undefined && typeof document.extractionError !== 'string') {
+      errors.push(`${context}: extractionError debe ser string`);
     }
   }
 

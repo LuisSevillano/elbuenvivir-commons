@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@11.1.1",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -22,7 +23,6 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-netlify": "^6.0.4",
-    "@sveltejs/adapter-static": "^3.0.8",
     "@sveltejs/kit": "^2.22.0",
     "@sveltejs/vite-plugin-svelte": "^5.1.0",
     "pdf-parse": "^2.4.5",

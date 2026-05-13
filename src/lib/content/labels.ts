@@ -27,9 +27,9 @@ export const documentTypeLabels: Record<DocumentType, string> = {
 };
 
 export const topicStatusLabels: Record<TopicStatus, string> = {
-  draft: 'Borrador curado',
+  draft: 'En revisión',
   reviewed: 'Revisado',
-  needs_legal_review: 'Revisión jurídica pendiente'
+  needs_legal_review: 'Revisión jurídica recomendada'
 };
 
 export function placementLabel(value: string): string {
@@ -38,6 +38,19 @@ export function placementLabel(value: string): string {
     rri: 'RRI',
     mixed: 'Mixto',
     case_by_case: 'Caso por caso'
+  };
+
+  return labels[value] ?? value;
+}
+
+export function relationshipLabel(value: string): string {
+  const labels: Record<string, string> = {
+    develops: 'Desarrolla',
+    depends_on: 'Depende de',
+    complements: 'Complementa',
+    limits: 'Limita',
+    operationalizes: 'Hace operativo',
+    generates_tension_with: 'Genera tensión con'
   };
 
   return labels[value] ?? value;

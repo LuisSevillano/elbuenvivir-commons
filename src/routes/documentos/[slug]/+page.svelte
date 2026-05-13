@@ -9,11 +9,13 @@
       document: SourceDocument;
       curatedTopics: GovernanceTopic[];
       curatedTopicSlugs: string[];
+      topicTitles: Record<string, string>;
       generatedReferences: GeneratedTopicReference[];
     };
   } = $props();
 
   const curatedTopicSlugs = $derived(new Set(data.curatedTopicSlugs));
+  const topicTitles = $derived(data.topicTitles);
 </script>
 
 <article>
@@ -24,26 +26,24 @@
     <div class="document-badges">
       {#if data.document.jurisdiction}<StatusBadge>{data.document.jurisdiction}</StatusBadge>{/if}
       {#if data.document.year}<StatusBadge>{data.document.year}</StatusBadge>{/if}
-      {#if data.document.needsReview}<StatusBadge tone="warning">Revisar metadatos</StatusBadge>{/if}
+      {#if data.document.needsReview}<StatusBadge tone="warning">Información limitada</StatusBadge>{/if}
     </div>
   </header>
 
   <section class="section panel">
-    <h2>Metadatos</h2>
+    <h2>Información del documento</h2>
     <dl>
       <div><dt>Archivo</dt><dd>{data.document.fileName}</dd></div>
-      <div><dt>Ruta</dt><dd><code>{data.document.sourcePath}</code></dd></div>
       <div><dt>Tipo</dt><dd>{documentTypeLabels[data.document.type]}</dd></div>
       {#if data.document.projectName}<div><dt>Proyecto</dt><dd>{data.document.projectName}</dd></div>{/if}
-      {#if data.document.extractionStatus}<div><dt>Extracción</dt><dd>{data.document.extractionStatus}</dd></div>{/if}
     </dl>
     <TagList tags={data.document.tags} />
   </section>
 
   <section class="section panel">
-    <h2>Temas relacionados por contenido curado</h2>
+    <h2>Temas relacionados</h2>
     {#if data.curatedTopics.length === 0}
-      <p class="empty-state">Este documento todavía no está enlazado desde temas curados.</p>
+      <p class="empty-state">Este documento todavía no aparece vinculado a temas principales.</p>
     {:else}
       <ul>
         {#each data.curatedTopics as topic}
@@ -54,18 +54,18 @@
   </section>
 
   <section class="section panel">
-    <h2>Referencias automáticas</h2>
+    <h2>Referencias detectadas</h2>
     {#if data.generatedReferences.length === 0}
-      <p class="empty-state">No hay referencias automáticas para este documento.</p>
+      <p class="empty-state">No hay referencias detectadas para este documento.</p>
     {:else}
         <ul>
         {#each data.generatedReferences as reference}
           <li>
-            <StatusBadge tone="auto">Referencia automática sin revisar</StatusBadge>
+            <StatusBadge tone="auto">Referencia detectada</StatusBadge>
             {#if curatedTopicSlugs.has(reference.topicSlug)}
-              <a href={`/temas/${reference.topicSlug}`}>{reference.topicSlug}</a>
+              <a href={`/temas/${reference.topicSlug}`}>{topicTitles[reference.topicSlug] ?? reference.topicSlug}</a>
             {:else}
-              <span>{reference.topicSlug}</span>
+              <span>{topicTitles[reference.topicSlug] ?? reference.topicSlug}</span>
             {/if}
             <span>: {reference.excerpt}</span>
           </li>

@@ -23,10 +23,16 @@ export function load({ params }) {
     (reference) => reference.documentSlug === document.slug
   );
 
+  const topicTitles: Record<string, string> = {};
+  for (const topic of topics) {
+    topicTitles[topic.slug] = topic.title;
+  }
+
   return {
     document,
     curatedTopics,
     curatedTopicSlugs: topics.map((topic) => topic.slug),
+    topicTitles,
     generatedReferences
   };
 }

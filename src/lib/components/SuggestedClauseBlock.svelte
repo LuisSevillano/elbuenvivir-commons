@@ -7,8 +7,8 @@
 
 <section class="clause-block">
   <div class="heading">
-    <h2>Borrador orientativo</h2>
-    <StatusBadge tone="warning">{clause.status}</StatusBadge>
+    <h2>Ejemplo orientativo de cláusula</h2>
+    <StatusBadge tone="warning">Revisión jurídica recomendada</StatusBadge>
   </div>
   <blockquote>{clause.text}</blockquote>
   <p>{clause.disclaimer}</p>

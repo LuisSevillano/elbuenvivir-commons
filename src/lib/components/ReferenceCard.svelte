@@ -15,22 +15,27 @@
   const summary = $derived(
     'summary' in reference
       ? reference.summary
-      : 'Referencia detectada automáticamente pendiente de revisión editorial.'
+      : 'Ejemplo encontrado en los documentos analizados. Conviene revisarlo antes de usarlo como criterio.'
   );
+
+  function confidenceLabel(value: string): string {
+    const labels: Record<string, string> = { high: 'alta', medium: 'media', low: 'baja' };
+    return labels[value] ?? value;
+  }
 </script>
 
 <article class="reference-card">
     <div class="meta">
       {#if automatic}
-      <StatusBadge tone="auto">Referencia automática sin revisar</StatusBadge>
+      <StatusBadge tone="auto">Referencia detectada</StatusBadge>
       {:else}
-        <StatusBadge tone="success">Referencia curada</StatusBadge>
+        <StatusBadge tone="success">Referencia revisada</StatusBadge>
       {/if}
     {#if documentType}
       <StatusBadge>{documentTypeLabels[documentType]}</StatusBadge>
     {/if}
     {#if reference.confidence}
-      <StatusBadge>Confianza {reference.confidence}</StatusBadge>
+      <StatusBadge>Coincidencia {confidenceLabel(reference.confidence)}</StatusBadge>
     {/if}
   </div>
   <h3>{title}</h3>

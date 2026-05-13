@@ -1,0 +1,201 @@
+{
+  "slug": "baja_socio",
+  "title": "Baja de una persona socia",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre baja de una persona socia; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "socios",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre baja, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre baja voluntaria, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre baja obligatoria, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre reembolso, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre separacion, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre perdida de condicion de socio, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si baja de una persona socia debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: una regla estatutaria puede ser más difícil de adaptar que una regla de RRI.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "admision_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "derechos_y_obligaciones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular baja de una persona socia mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/baja_socio.md",
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 18,
+    "mediumConfidenceEvidence": 0,
+    "lowConfidenceEvidence": 0,
+    "evidence": [
+      {
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos.",
+        "confidence": "high",
+        "excerpt": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos. La persona socia podrá causar baja en la Cooperativa de las formas y de acuerdo con los procedimientos que a continuación se establecen. En el momento en que la baja..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos.",
+        "confidence": "high",
+        "excerpt": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos. La persona socia podrá causar baja en la Cooperativa de las formas y de acuerdo con los procedimientos que a continuación se establecen. En el momento en que la baja..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 16.- Baja obligatoria",
+        "confidence": "high",
+        "excerpt": "Artículo 16.- Baja obligatoria"
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-axuntase",
+        "documentTitle": "Estatutos Axuntase",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 13.- Baja obligatoria",
+        "confidence": "high",
+        "excerpt": "Artículo 13.- Baja obligatoria 1.- Las personas socias causarán baja obligatoria cuando dejen de reunir los requisitos exigidos para ostentar tal cualidad y previa apertura de expediente, de acuerdo con lo previsto en la Ley de Cooperativas..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 14. Causas y efectos de la baja obligatoria",
+        "confidence": "high",
+        "excerpt": "Artículo 14. Causas y efectos de la baja obligatoria 14.1. Las personas socias causarán baja obligatoria cuando dejen de reunir los requisitos exigidos para ostentar tal cualidad, de acuerdo con lo previsto en la LSCA y en estos estatutos...."
+      },
+      {
+        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
+        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "Artículo 15.- Causas y efectos de la baja obligatoria",
+        "confidence": "high",
+        "excerpt": "Artículo 15.- Causas y efectos de la baja obligatoria 1. Las personas socias causarán baja obligatoria cuando dejen de reunir los requisitos exigidos para ostentar tal cualidad, de acuerdo con lo previsto en la LSCA y en estos estatutos. 2...."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-autonomica",
+        "documentTitle": "Normativa Autonomica",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 105. Baja obligatoria por causas económicas, técnicas, organizativas, de",
+        "confidence": "high",
+        "excerpt": "Artículo 105. Baja obligatoria por causas económicas, técnicas, organizativas, de producción o derivadas de fuerza mayor. 1. Cuando por causas económicas, técnicas, organizativas o de producción, o en el supuesto de fuerza mayor, para mante..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-estatal",
+        "documentTitle": "Normativa Estatal",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 85. Baja obligatoria por causas económicas, técnicas, organizativas o de",
+        "confidence": "high",
+        "excerpt": "Artículo 85. Baja obligatoria por causas económicas, técnicas, organizativas o de producción. 1. Cuando, por causas económicas, técnicas, organizativas o de producción o en el supuesto de fuerza mayor, para mantener la viabilidad empresaria..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 14. Baja de las personas socias. Clases, procedimientos y",
+        "confidence": "high",
+        "excerpt": "Artículo 14. Baja de las personas socias. Clases, procedimientos y efectos. Las personas socias podrá causar baja en la Cooperativa de las formas y de acuerdo con los procedimientos que a continuación se establecen. A) Baja voluntaria. 1. L..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-autonomica",
+        "documentTitle": "Normativa Autonomica",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 21. Baja obligatoria del socio.",
+        "confidence": "high",
+        "excerpt": "Artículo 21. Baja obligatoria del socio. 1. Causarán baja obligatoria los socios que pierdan los requisitos exigidos para serlo según esta Ley o los Estatutos de la cooperativa. 2. La baja obligatoria será acordada, previa audiencia del int..."
+      },
+      {
+        "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
+        "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "ARTÍCULO 12.- BAJA VOLUNTARIA.",
+        "confidence": "high",
+        "excerpt": "ARTÍCULO 12.- BAJA VOLUNTARIA. 1. El socio puede darse de baja voluntariamente en la cooperativa en cualquier momento, mediante preaviso por escrito al Consejo Rector que deberá enviar con .......... 19 de antelación. Hasta que transcurra e..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 15.- Baja voluntaria",
+        "confidence": "high",
+        "excerpt": "Artículo 15.- Baja voluntaria"
+      }
+    ]
+  }
+}

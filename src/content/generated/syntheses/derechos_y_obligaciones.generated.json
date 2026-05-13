@@ -1,0 +1,145 @@
+{
+  "slug": "derechos_y_obligaciones",
+  "generatedAt": "2026-05-13T10:59:49.833Z",
+  "generatedFrom": {
+    "researchPack": "src/content/research-packs/derechos_y_obligaciones.md",
+    "referencesCount": 13,
+    "documents": [
+      "docs-estatutos-estatutos-la-borda",
+      "docs-estatutos-estatutos-laseronda-org",
+      "docs-estatutos-estatutos-pepu",
+      "docs-estatutos-estatutos-pequenopueblo",
+      "docs-estatutos-estatutos-tejiendovida-asociacion",
+      "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "docs-leyes-normativa-autonomica"
+    ]
+  },
+  "summary": {
+    "overview": [
+      "La síntesis compara 13 referencias automáticas asociadas al tema \"Derechos y obligaciones\".",
+      "Las observaciones se formulan de forma prudente y deben verificarse contra las referencias originales."
+    ],
+    "commonPatterns": [
+      "Parece frecuente que el tema aparezca en documentos de tipo estatutos, guia, ley.",
+      "Varios proyectos parecen tratar elementos estructurales o derechos básicos en referencias de Estatutos Pepu, Estatutos Pequenopueblo, Estatutos La Borda.",
+      "Algunos grupos parecen desarrollar aspectos operativos o de convivencia en referencias de Estatutos La Borda, GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4, GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024.",
+      "La lectura automática sugiere revisar derechos, obligaciones, deberes como términos activadores principales."
+    ],
+    "majorDifferences": [
+      "Aparecen diferencias por tipo documental: estatutos, guia, ley.",
+      "La dimensión jurisdiccional no parece suficientemente diversa en las referencias disponibles.",
+      "La evidencia combina referencias de confianza alta (3) y baja (10); conviene priorizar las primeras."
+    ],
+    "commonRisks": [
+      "Se detectan posibles riesgos o conflictos en referencias de Estatutos Pepu, Estatutos Pequenopueblo, GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4.",
+      "Puede existir riesgo de rigidez si se fija demasiado detalle en referencias de Estatutos Pepu, Estatutos Pequenopueblo, Estatutos La Borda.",
+      "No debe asumirse que una práctica de otro proyecto sea adecuada sin contrastar tamaño, fase y contexto de El Buen Vivir."
+    ],
+    "commonTradeoffs": [
+      "El tradeoff principal parece estar entre claridad normativa y capacidad de adaptación futura.",
+      "No hay evidencia suficiente para identificar una práctica flexible dominante.",
+      "Algunas señales parecen especialmente relevantes para grupos pequeños o de convivencia intensa en referencias de GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4."
+    ]
+  },
+  "governancePlacement": {
+    "usuallyInStatutes": [
+      "Parece frecuente reservar para Estatutos principios, derechos, obligaciones o efectos estructurales.",
+      "Esta señal aparece en referencias de Estatutos Pepu, Estatutos Pequenopueblo, Estatutos La Borda."
+    ],
+    "usuallyInRRI": [
+      "Parece frecuente desarrollar en RRI aspectos operativos, convivencia, uso o procedimientos revisables.",
+      "Esta señal aparece en referencias de Estatutos La Borda, GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4, GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024."
+    ],
+    "mixedApproaches": [
+      "Algunas referencias combinan lenguaje estatutario y desarrollo operativo, lo que sugiere enfoques mixtos."
+    ],
+    "notes": [
+      "Esta lectura es generada automáticamente y no debe convertirse en regla sin revisión jurídica.",
+      "La ubicación final debe diferenciar qué es principio estable y qué es procedimiento adaptable."
+    ]
+  },
+  "recommendationsForBuenVivir": {
+    "minimalApproach": [
+      "Una opción prudente es fijar solo criterios mínimos verificables por las referencias disponibles.",
+      "Conviene evitar reproducir detalles de otros proyectos sin validar su encaje en El Buen Vivir.",
+      "Conviene cubrir explícitamente los riesgos más repetidos antes de añadir detalle operativo."
+    ],
+    "flexibleApproach": [
+      "Si no hay evidencia flexible clara, conviene mantener el borrador abierto y revisable.",
+      "Para grupos pequeños, parece más compatible separar principios estables de protocolos que puedan cambiar con la experiencia."
+    ],
+    "pointsToDecideSoon": [
+      "Qué parte del tema afecta a derechos u obligaciones básicas.",
+      "Qué decisiones requieren seguridad desde el inicio para evitar conflictos.",
+      "Qué referencias de confianza alta merecen revisión prioritaria."
+    ],
+    "pointsThatCanWait": [
+      "Detalles de procedimiento no respaldados por varias referencias.",
+      "Protocolos operativos que puedan aprenderse con la práctica comunitaria.",
+      "Formularios, calendarios internos y reglas menores que no afecten derechos básicos."
+    ]
+  },
+  "detectedTensions": [
+    "Tensión entre fijar reglas en Estatutos y evitar rigidez futura.",
+    "Tensión entre prevenir conflictos y no sobrerregular procedimientos internos.",
+    "Tensión potencial entre detalle normativo y aprendizaje progresivo."
+  ],
+  "notableProjects": [
+    {
+      "projectName": "Estatutos Pepu",
+      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "references": [
+        "Estatutos Pepu - Artículo 34.- Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de",
+        "Estatutos Pepu - Art. 34 Deberes de diligencia, lealtad y secreto. Responsabilidad y",
+        "Estatutos Pepu - Artículo 10.- Obligaciones y responsabilidad de las personas socias."
+      ]
+    },
+    {
+      "projectName": "Estatutos Pequenopueblo",
+      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "references": [
+        "Estatutos Pequenopueblo - Artículo 34.- Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de",
+        "Estatutos Pequenopueblo - Art. 34 Deberes de diligencia, lealtad y secreto. Responsabilidad y",
+        "Estatutos Pequenopueblo - Artículo 10.- Obligaciones y responsabilidad de las personas socias."
+      ]
+    },
+    {
+      "projectName": "Normativa Autonomica",
+      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "references": [
+        "Normativa Autonomica - Sección 2.ª Derechos, deberes y normas de disciplina social . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14",
+        "Normativa Autonomica - Sección 2.ª Derechos, deberes y normas de disciplina social"
+      ]
+    },
+    {
+      "projectName": "Estatutos La Borda",
+      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "references": [
+        "Estatutos La Borda - Artículo 7. Obligaciones de las socias y socios"
+      ]
+    },
+    {
+      "projectName": "Estatutos Laseronda.Org",
+      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "references": [
+        "Estatutos Laseronda.Org - ARTÍCULO 11.- OBLIGACIONES DE LOS SOCIOS"
+      ]
+    },
+    {
+      "projectName": "Estatutos Tejiendovida Asociacion",
+      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "references": [
+        "Estatutos Tejiendovida Asociacion - Artículo 23º.- Deberes."
+      ]
+    }
+  ],
+  "legalWarnings": [
+    "Síntesis generada automáticamente sin revisión jurídica.",
+    "No sustituye asesoramiento jurídico profesional.",
+    "No debe usarse como contenido curado sin comprobar las referencias originales.",
+    "La separación entre ley, proyectos e interpretación automática debe mantenerse visible."
+  ],
+  "generatedDisclaimer": "Síntesis comparada generada automáticamente a partir de research packs y referencias heurísticas. Revisar jurídicamente y contrastar con fuentes originales antes de usar.",
+  "status": "needs_legal_review"
+}

@@ -1,0 +1,201 @@
+{
+  "slug": "reservas_estancias_pernoctas",
+  "title": "Reservas, estancias y pernoctas",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre reservas, estancias y pernoctas; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "uso_espacios",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre reserva, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre estancia, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre pernocta, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Article 33. Fons de reserva voluntaris: el Fons Col·lectiu d’Accés a l’Habitatge i el, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Article 32. Fons de reserva obligatori, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Article 27. Aplicació dels excedents, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si reservas, estancias y pernoctas debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular reservas, estancias y pernoctas mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. Los procedimientos operativos podrán desarrollarse en una norma interna revisable, si la cooperativa lo considera adecuado.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/reservas_estancias_pernoctas.md",
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 4,
+    "mediumConfidenceEvidence": 9,
+    "lowConfidenceEvidence": 5,
+    "evidence": [
+      {
+        "documentSlug": "docs-estatutos-estatutos-blanxart",
+        "documentTitle": "Estatutos Blanxart",
+        "documentType": "estatutos",
+        "articleOrSection": "Article 33. Fons de reserva voluntaris: el Fons Col·lectiu d’Accés a l’Habitatge i el",
+        "confidence": "high",
+        "excerpt": "Article 33. Fons de reserva voluntaris: el Fons Col·lectiu d’Accés a l’Habitatge i el Fons Mutual 33.1. La Cooperativa pot establir fons de reserva voluntaris, que en tot cas tindran la consideració de no repartibles, per donar compliment a..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-cancarner",
+        "documentTitle": "Estatutos Cancarner",
+        "documentType": "estatutos",
+        "articleOrSection": "Article 35. Fons de reserva voluntaris: el Fons Col·lectiu d'Accés a l'Habitatge i el Fons",
+        "confidence": "high",
+        "excerpt": "Article 35. Fons de reserva voluntaris: el Fons Col·lectiu d'Accés a l'Habitatge i el Fons Mutual. 35.1. La Cooperativa pot establir fons de reserva voluntaris, que en tot cas tindran la consideració d'irrepartibles, per donar compliment a..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 32.- La Reserva de educación y promoción.",
+        "confidence": "high",
+        "excerpt": "Artículo 32.- La Reserva de educación y promoción. 1. La Reserva de educación y promoción se destinará a actividades que desarrollen algunos de los siguientes fines: a) La formación de los/as socios/as en los principios y valores cooperativ..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 25. La Reserva de educación y promoción cooperativa.",
+        "confidence": "high",
+        "excerpt": "Artículo 25. La Reserva de educación y promoción cooperativa. 1. La Reserva de educación y promoción cooperativa se destina a: - La formación de las personas socias y los trabajadores/as en los principios y las técnicas cooperativas, empres..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-blanxart",
+        "documentTitle": "Estatutos Blanxart",
+        "documentType": "estatutos",
+        "articleOrSection": "Article 32. Fons de reserva obligatori",
+        "confidence": "medium",
+        "excerpt": "Article 32. Fons de reserva obligatori 32.1. El fons de reserva obligatori no es pot repartir entre els socis i sòcies, i té la finalitat de conso- lidar econòmicament la societat. 32.2. El fons de reserva obligatori és constituït per: a) L..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-cancarner",
+        "documentTitle": "Estatutos Cancarner",
+        "documentType": "estatutos",
+        "articleOrSection": "Article 34. El fons de reserva obligatori",
+        "confidence": "medium",
+        "excerpt": "Article 34. El fons de reserva obligatori 34.1 El fons de reserva obligatori no es pot repartir entre els socis i sòcies i té la finalitat de consolidar econòmicament la societat. 34.2. El fons de reserva obligatori és constituït per: a) L’..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 30.- La Reserva obligatoria.",
+        "confidence": "medium",
+        "excerpt": "Artículo 30.- La Reserva obligatoria. La Reserva obligatoria se destinará a la consolidación, desarrollo y garantía de la Cooperativa, y es irrepartible entre los/as socios/as, incluso en el caso de disolución de la misma. Se destinarán obl..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 24. La Reserva obligatoria.",
+        "confidence": "medium",
+        "excerpt": "Artículo 24. La Reserva obligatoria. 1. La Reserva obligatoria tiene la finalidad de consolidar y garantizar económicamente la sociedad Además de las funciones previstas en la ley, garantizará el pago del crédito hipotecario solicitado por..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-blanxart",
+        "documentTitle": "Estatutos Blanxart",
+        "documentType": "estatutos",
+        "articleOrSection": "Article 27. Aplicació dels excedents",
+        "confidence": "medium",
+        "excerpt": "Article 27. Aplicació dels excedents 27.1. De conformitat amb la Llei de cooperatives de Catalunya, la determinació dels resultats de l’exercici s’efectua d’acord amb la normativa comptable, atenent les deduccions específiques que es contem..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-cancarner",
+        "documentTitle": "Estatutos Cancarner",
+        "documentType": "estatutos",
+        "articleOrSection": "Article 29. Aplicació dels excedents i fons socials obligatoris.",
+        "confidence": "medium",
+        "excerpt": "Article 29. Aplicació dels excedents i fons socials obligatoris. En la determinació dels excedents s’han de tenir en compte, a més de les normes generals, les específiques previstes a l’article 124 de la Llei 12/2015, de 9 d juliol, de coop..."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+        "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
+        "documentType": "ley",
+        "articleOrSection": "capítulo IV del Texto Refundido de la Ley de Sociedades Anónimas y de la Ley de",
+        "confidence": "medium",
+        "excerpt": "capítulo IV del Texto Refundido de la Ley de Sociedades Anónimas y de la Ley de Sociedades de Responsabilidad Limitada). Figurarán en el patrimonio neto, con signo negativo. Su movimiento es el siguiente: a) Se cargará por el importe de la..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 28.- Distribución de beneficios y excedentes.",
+        "confidence": "medium",
+        "excerpt": "Artículo 28.- Distribución de beneficios y excedentes. 1. Los beneficios extracooperativos y extraordinarios, una vez deducidas las pérdidas de igual procedencia de ejercicios anteriores, se destinarán a la Reserva obligatoria. 2. Los exced..."
+      }
+    ]
+  }
+}

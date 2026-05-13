@@ -1,0 +1,201 @@
+{
+  "slug": "lista_espera",
+  "title": "Lista de espera",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre lista de espera; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "socios",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre lista de espera, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre sustitucion, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre incorporacion, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre : Requisitos de Admisión, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Procedimiento de admisión, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Clases de personas socias. Personas Usuarias, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si lista de espera debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: conviene revisar si el tema puede generar desacuerdos prácticos aunque no aparezcan expresamente."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular lista de espera mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/lista_espera.md",
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 8,
+    "mediumConfidenceEvidence": 5,
+    "lowConfidenceEvidence": 5,
+    "evidence": [
+      {
+        "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+        "documentType": "rri",
+        "articleOrSection": "Artículo 3: Requisitos de Admisión",
+        "confidence": "high",
+        "excerpt": "Artículo 3: Requisitos de Admisión 1. Requisitos para adquirir la condición de socio/a a) Los aspirantes a la cooperativa deben estar inscritos en el registro de solicitantes de vivienda, cumpliendo los requisitos establecidos por la legisl..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 8.- Procedimiento de admisión.",
+        "confidence": "high",
+        "excerpt": "Artículo 8.- Procedimiento de admisión. 1. La persona interesada deberá presentar su solicitud de ingreso, o de inclusión en la Lista de Espera, por escrito al órgano de administración, con justificación de la situación que le da derecho co..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 9.- Clases de personas socias. Personas Usuarias.",
+        "confidence": "high",
+        "excerpt": "Artículo 9.- Clases de personas socias. Personas Usuarias."
+      },
+      {
+        "documentSlug": "docs-rri-rri-vallecas2homes",
+        "documentTitle": "Rri Vallecas2homes",
+        "documentType": "rri",
+        "articleOrSection": "Artículo 25. Procedimiento para cubrir las bajas.",
+        "confidence": "high",
+        "excerpt": "Artículo 25. Procedimiento para cubrir las bajas."
+      },
+      {
+        "documentSlug": "docs-rri-rri-axuntase",
+        "documentTitle": "Rri Axuntase",
+        "documentType": "rri",
+        "articleOrSection": "Artículo 4.- Las personas acompañantes (artículo añadido 18 junio 2024)",
+        "confidence": "high",
+        "excerpt": "Artículo 4.- Las personas acompañantes (artículo añadido 18 junio 2024) - Se entiende por persona acompañante aquella que convive de forma habitual y continuada con una persona socia, compartiendo con ella la ocupación de la vivienda. Es im..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "CAPITULO II",
+        "confidence": "high",
+        "excerpt": "CAPITULO II DE LAS PERSONAS SOCIAS Ar\u001aculo 9.- Clases de personas socias.  Personas socias de vivienda.- Son aquellas personas Esicas que \u000eenen plenos derechos y obligaciones recogidos en estos estatutos respecto de la vivienda o, en su ca..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "CAPITULO II",
+        "confidence": "high",
+        "excerpt": "CAPITULO II DE LAS PERSONAS SOCIAS Arơculo 11.- Clases de personas socias.  Personas socias de vivienda.- Son aquellas personas İsicas que Ɵenen plenos derechos y obligaciones recogidos en estos estatutos respecto de la vivienda o, en su c..."
+      },
+      {
+        "documentSlug": "docs-rri-rri-vallecas2homes",
+        "documentTitle": "Rri Vallecas2homes",
+        "documentType": "rri",
+        "articleOrSection": "Artículo 9. Procedimiento de incorporación como socio.",
+        "confidence": "high",
+        "excerpt": "Artículo 9. Procedimiento de incorporación como socio. a. El solicitante entregará en la sede social de la cooperativa, debidamente cumplimentado el documento denominado SOLICITUD de ADMISIÓN/PREINSCRIPCIÓN, al que adjuntará copia del justi..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 45.- Transmisión de las aportaciones.",
+        "confidence": "medium",
+        "excerpt": "Artículo 45.- Transmisión de las aportaciones."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+        "documentTitle": "BOE A 2010 20034 Orden+EHA+3360 2010",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 2. Ámbito de aplicación.",
+        "confidence": "medium",
+        "excerpt": "Artículo 2. Ámbito de aplicación. 1. Las presentes Normas serán de aplicación obligatoria para las sociedades cooperativas. En todo lo no modificado específicamente en estas Normas, será de aplicación el Plan General de Contabilidad, en los..."
+      },
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "Documento completo",
+        "confidence": "medium",
+        "excerpt": "Las guías de Sostre Cívic sobre vivienda cooperativa en cesión de uso ahora también en castellano Sostre Cívic, una cooperativa que es referencia a nivel estatal en la promoción de las viviendas cooperativas en cesión de uso, ha publicado e..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 39. Aplicación de resultados positivos e Imputación de pérdidas",
+        "confidence": "medium",
+        "excerpt": "Artículo 39. Aplicación de resultados positivos e Imputación de pérdidas 39.1. El destino de los resultados positivos se acordará por la Asamblea General al cierre de cada ejercicio, conforme a lo establecido en el artículo 68 de la LSCA, y..."
+      }
+    ]
+  }
+}

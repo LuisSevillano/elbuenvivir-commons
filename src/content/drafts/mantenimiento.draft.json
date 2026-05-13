@@ -1,0 +1,201 @@
+{
+  "slug": "mantenimiento",
+  "title": "Mantenimiento",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre mantenimiento; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "convivencia",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre mantenimiento, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre limpieza, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre reparaciones, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Título original: La construcció i la cura dels grups, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Título original: Cures en la convivència de persones grans, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre El fondo especial de Mantenimiento y Conservación, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si mantenimiento debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: una regla estatutaria puede ser más difícil de adaptar que una regla de RRI.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: conviene revisar si el tema puede generar desacuerdos prácticos aunque no aparezcan expresamente."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular mantenimiento mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/mantenimiento.md",
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 9,
+    "mediumConfidenceEvidence": 8,
+    "lowConfidenceEvidence": 1,
+    "evidence": [
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "Título original: La construcció i la cura dels grups",
+        "confidence": "high",
+        "excerpt": "Título original: La construcció i la cura dels grups La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 26. El fondo especial de Mantenimiento y Conservación.",
+        "confidence": "high",
+        "excerpt": "Artículo 26. El fondo especial de Mantenimiento y Conservación. Además de los fondos obligatorios descritos en los dos artículos anteriores, se creará un Fondo Especial de Mantenimiento y Conservación del edificio que tendrá el carácter de..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "CAPITULO I",
+        "confidence": "high",
+        "excerpt": "CAPITULO I DENOMINACIÓN, DOMICILIO, ÁMBITO TERRITORIAL, PRINCIPIOS, OBJETO, FINALIDADES, ACTIVIDAD ECONÓMICA Y DURACIÓN. Arơculo 1.- Denominación. Con la denominación de COOPERATIVA DE VIVIENDAS COLABORATIVA LOS GIRASOLES, S. COOP. CAN. se..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "CAPITULO I",
+        "confidence": "high",
+        "excerpt": "CAPITULO I DENOMINACIÓN, DOMICILIO, ÁMBITO TERRITORIAL, OBJETO, PRINCIPIOS, FINALIDADES, ACTIVIDAD ECONÓMICA Y DURACIÓN Ar\u001aculo 1.- Denominación. Con la denominación de COOPERATIVA DE VIVIENDA COLABORATIVA EL CIEMPIES, S. COOP. CAN. se cons..."
+      },
+      {
+        "documentSlug": "docs-rri-informe-cooperativas-cesion-de-uso",
+        "documentTitle": "Informe Cooperativas Cesion De Uso",
+        "documentType": "rri",
+        "articleOrSection": "TÍTULO TERCERO.",
+        "confidence": "high",
+        "excerpt": "TÍTULO TERCERO. EJECUCIÓN DEL CONTRATO La ejecución de este contrato, tanto en cuanto a la ejecución de todas las obras y su financiación, como en cuanto a su conservación, mantenimiento, gestión y posterior explotación, se realizará a ries..."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+        "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 2. Obligatoriedad del Plan.",
+        "confidence": "high",
+        "excerpt": "Artículo 2. Obligatoriedad del Plan. El Plan General de Contabilidad será de aplicación obligatoria para todas las empresas, cualquiera que sea su forma jurídica, individual o societaria, sin perjuicio de aquellas empresas que puedan aplica..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 6.- Actividades",
+        "confidence": "high",
+        "excerpt": "Artículo 6.- Actividades"
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-la-borda",
+        "documentTitle": "Estatutos La Borda",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 7. Obligaciones de las socias y socios",
+        "confidence": "high",
+        "excerpt": "Artículo 7. Obligaciones de las socias y socios 7.1. Las socias y socios, sea cual sea su tipología, están obligados a: a) Hacer el desembolso de la aportación comprometida y cumplir las obligaciones económicas que les corresponda en virtud..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+        "documentType": "guia",
+        "articleOrSection": "Documento completo",
+        "confidence": "high",
+        "excerpt": "GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR -- 1 of 62 -- DIRECCIÓN ELABORACIÓN JURÍDICA FGC ADCVOCATS, SCCL Cristina R. Grau López como autora con la colaboración de Ainhoa Domínguez Peña. COLABORA Diciemb..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "documentType": "guia",
+        "articleOrSection": "Documento completo",
+        "confidence": "medium",
+        "excerpt": "COHOUSING SENIOR Y COOPERATIVISMO DE CONSUMO -- 1 of 54 -- Diciembre 2018 Madrid -- 2 of 54 -- Índice 1. Introducción _____________________________________5 2. Definición de un proyecto de cohousing senior _________6 3. Aspectos urbanístico..."
+      },
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "Título original: Cures en la convivència de persones grans",
+        "confidence": "medium",
+        "excerpt": "Título original: Cures en la convivència de persones grans La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el f..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 64. Derechos y obligaciones de la Cooperativa en relación con",
+        "confidence": "medium",
+        "excerpt": "Artículo 64. Derechos y obligaciones de la Cooperativa en relación con las viviendas cedidas a las personas socias. 1. La Cooperativa tendrá, en relación con las viviendas cedidas a las personas socias, los derechos que se derivan del artíc..."
+      }
+    ]
+  }
+}

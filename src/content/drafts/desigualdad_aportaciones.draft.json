@@ -1,0 +1,92 @@
+{
+  "slug": "desigualdad_aportaciones",
+  "title": "Aportaciones iniciales desiguales",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre aportaciones iniciales desiguales; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "economico",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre aportaciones desiguales, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre desigualdad, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre derechos economicos, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Título original: La construcció i la cura dels grups, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable.",
+    "Mantener trazabilidad entre cada regla propuesta y las referencias automáticas revisadas."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si aportaciones iniciales desiguales debe formularse como principio, procedimiento o combinación de ambos.",
+    "Si no hay evidencia estatutaria suficiente en el research pack, conviene evitar elevar detalles a Estatutos sin revisión.",
+    "Si el research pack no aporta evidencia de RRI, conviene tratar los procedimientos internos como hipótesis de trabajo.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: conviene revisar si el tema puede generar desacuerdos prácticos aunque no aparezcan expresamente."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "derechos_y_obligaciones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular aportaciones iniciales desiguales mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. Los procedimientos operativos podrán desarrollarse en una norma interna revisable, si la cooperativa lo considera adecuado.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/desigualdad_aportaciones.md",
+    "evidenceCount": 1,
+    "highConfidenceEvidence": 0,
+    "mediumConfidenceEvidence": 0,
+    "lowConfidenceEvidence": 1,
+    "evidence": [
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "Título original: La construcció i la cura dels grups",
+        "confidence": "low",
+        "excerpt": "Título original: La construcció i la cura dels grups La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento..."
+      }
+    ]
+  }
+}

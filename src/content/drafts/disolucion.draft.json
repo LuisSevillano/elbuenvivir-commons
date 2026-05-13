@@ -1,0 +1,201 @@
+{
+  "slug": "disolucion",
+  "title": "Disolución",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre disolución; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "ciclo_vida",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre disolucion, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre liquidacion, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre destino del inmueble, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Disolución, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Acuerdo de disolución, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable.",
+    "Mantener trazabilidad entre cada regla propuesta y las referencias automáticas revisadas."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si disolución debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular disolución mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/disolucion.md",
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 18,
+    "mediumConfidenceEvidence": 0,
+    "lowConfidenceEvidence": 0,
+    "evidence": [
+      {
+        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
+        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "Artículo 46.- Disolución",
+        "confidence": "high",
+        "excerpt": "Artículo 46.- Disolución 1. Son causas de disolución de la sociedad cooperativa: a) El cumplimiento del plazo fijado, en su caso. b) La conclusión de su objeto o la imposibilidad de realizar la actividad cooperativizada. c) La ausencia de a..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-autonomica",
+        "documentTitle": "Normativa Autonomica",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 90. Disolución.",
+        "confidence": "high",
+        "excerpt": "Artículo 90. Disolución. 1. La sociedad cooperativa se disolverá: a) Por el cumplimiento del plazo fijado en los Estatutos. b) Por acuerdo de la Asamblea general adoptado por mayoría de los dos tercios de los socios presentes y representado..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 66. Acuerdo de disolución.",
+        "confidence": "high",
+        "excerpt": "Artículo 66. Acuerdo de disolución. 1. Cuando concurra cualquiera de las causas previstas en el artículo anterior, a excepción de las indicadas en los apartados h) y j) del mismo, el órgano de administración deberá convocar, en el plazo de..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "Art. 64.- Acuerdo de disolución.",
+        "confidence": "high",
+        "excerpt": "Art. 64.- Acuerdo de disolución. 1. Cuando concurra cualquiera de las causas previstas en el artículo anterior, a excepción de las indicadas en los apartados h) y j) del mismo, el órgano de administración deberá convocar, en el plazo de tre..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-estatal",
+        "documentTitle": "Normativa Estatal",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 70. Disolución.",
+        "confidence": "high",
+        "excerpt": "Artículo 70. Disolución. 1. La sociedad cooperativa se disolverá: a) Por el cumplimiento del plazo fijado en los Estatutos. b) Por acuerdo de la Asamblea General, adoptado por mayoría de los dos tercios de los socios presentes y representad..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 48. Disolución",
+        "confidence": "high",
+        "excerpt": "Artículo 48. Disolución 48.1. Son causas de disolución de la sociedad cooperativa: a) El cumplimiento del plazo fijado en estos estatutos. b) La conclusión de su objeto o la imposibilidad de realizar la actividad cooperativizada. c) La ause..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-la-borda",
+        "documentTitle": "Estatutos La Borda",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 51. Disolución y liquidación",
+        "confidence": "high",
+        "excerpt": "Artículo 51. Disolución y liquidación La disolución de la Cooperativa deberá aprobar por la Asamblea General, con el voto favorable de dos terceras partes de los asistentes, presentes y representados. Son causas de disolución de la Cooperat..."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-05012005-1-decreto-125-2004",
+        "documentTitle": "BOCYL D 05012005 1 Decreto+125 2004",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 59.– Inscripción de la disolución.",
+        "confidence": "high",
+        "excerpt": "Artículo 59.– Inscripción de la disolución. 1.– Transcurrido el plazo fijado en los estatutos sociales para la duración de la Sociedad Cooperativa, el encargado del registro extenderá, de oficio o a instancia de cualquier interesado, una no..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentType": "estatutos",
+        "articleOrSection": "artículo 24.2 de estos estatutos.",
+        "confidence": "high",
+        "excerpt": "artículo 24.2 de estos estatutos. 48.3. El Consejo Rector deberá y cualquier interesado podrá solicitar la disolución judicial de la cooperativa en los siguientes casos: a) Si la Asamblea General no fuere convocada. b) Si no se reuniese en..."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-05012005-1-decreto-125-2004",
+        "documentTitle": "BOCYL D 05012005 1 Decreto+125 2004",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 60.– Contenido de la inscripción de disolución y, en su caso, de",
+        "confidence": "high",
+        "excerpt": "Artículo 60.– Contenido de la inscripción de disolución y, en su caso, de la reactivación. 1.– En la inscripción de la disolución de la Sociedad Cooperativa se hará constar, además de las circunstancias generales, la causa de disolución. 2...."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 69. Procedimiento de liquidación.",
+        "confidence": "high",
+        "excerpt": "Artículo 69. Procedimiento de liquidación. 1. La Asamblea General que hubiera decidido la disolución o, en otro caso, la que deberá convocar sin demora el órgano de administración, elegirá de entre los socios, en votación secreta, y por el..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 67.- Procedimiento de liquidación.",
+        "confidence": "high",
+        "excerpt": "Artículo 67.- Procedimiento de liquidación. 48 -- 48 of 53 -- ESTATUTOS LOS NIDALES ECOVIVIENDA S.COOP.MAD 1. La Asamblea General que hubiera decidido la disolución o, en otro caso, la que deberá convocar sin demora el órgano de administrac..."
+      }
+    ]
+  }
+}

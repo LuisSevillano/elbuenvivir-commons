@@ -1,0 +1,201 @@
+{
+  "slug": "estatutos_vs_rri",
+  "title": "Estatutos frente a Reglamento de Régimen Interno",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre estatutos frente a reglamento de régimen interno; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "legal",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre estatutos, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre reglamento de regimen interno, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre modificacion, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre normas internas, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre gobernanza estatutos rri, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre flexibilidad normativa, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si estatutos frente a reglamento de régimen interno debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: una regla estatutaria puede ser más difícil de adaptar que una regla de RRI.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular estatutos frente a reglamento de régimen interno mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/estatutos_vs_rri.md",
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 16,
+    "mediumConfidenceEvidence": 2,
+    "lowConfidenceEvidence": 0,
+    "evidence": [
+      {
+        "documentSlug": "docs-rri-rri-vallecas2homes",
+        "documentTitle": "Rri Vallecas2homes",
+        "documentType": "rri",
+        "articleOrSection": "Artículo 3. Modificación del Reglamento de Régimen Interno.",
+        "confidence": "high",
+        "excerpt": "Artículo 3. Modificación del Reglamento de Régimen Interno."
+      },
+      {
+        "documentSlug": "docs-rri-rri-vallecas2homes",
+        "documentTitle": "Rri Vallecas2homes",
+        "documentType": "rri",
+        "articleOrSection": "Artículo 6. Aplicación del Reglamento de Régimen Interno en las Fases",
+        "confidence": "high",
+        "excerpt": "Artículo 6. Aplicación del Reglamento de Régimen Interno en las Fases existentes. Acordada la aprobación del Reglamento de Régimen Interno o una modificación de éste, el acuerdo no será aplicable a los miembros de una fase o promoción, si d..."
+      },
+      {
+        "documentSlug": "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
+        "documentTitle": "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
+        "documentType": "otro",
+        "articleOrSection": "art. 34.1: “La convocatoria de la asamblea general tendrá que hacerse mediante anuncio destacado en el domi-",
+        "confidence": "high",
+        "excerpt": "art. 34.1: “La convocatoria de la asamblea general tendrá que hacerse mediante anuncio destacado en el domi- cilio social y en cada uno de los centros de trabajo, así como mediante carta remitida al domicilio del socio, o mediante cualquier..."
+      },
+      {
+        "documentSlug": "docs-rri-rri-vallecas2homes",
+        "documentTitle": "Rri Vallecas2homes",
+        "documentType": "rri",
+        "articleOrSection": "Artículo 1. Objeto del Reglamento de Régimen Interno.",
+        "confidence": "high",
+        "excerpt": "Artículo 1. Objeto del Reglamento de Régimen Interno."
+      },
+      {
+        "documentSlug": "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
+        "documentTitle": "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
+        "documentType": "otro",
+        "articleOrSection": "Documento completo",
+        "confidence": "high",
+        "excerpt": "EL REGLAMENTO DE RÉGIMEN INTERNO DE LA COOPERATIVA: «INSTRUCCIONES DE USO» Mª José Senent Vidal Profesora de Derecho Mercantil Universitat Jaume I, Castellón I. ANTECEDENTES A pesar de la escasa o nula mención que de él se hace en los texto..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 14.- Obligaciones de las personas socias",
+        "confidence": "high",
+        "excerpt": "Artículo 14.- Obligaciones de las personas socias"
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 65.- Los presentes estatutos se desarrollarán por un Reglamento de Régimen Interno.",
+        "confidence": "high",
+        "excerpt": "Artículo 65.- Los presentes estatutos se desarrollarán por un Reglamento de Régimen Interno. COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 65.- Los presentes estatutos se desarrollarán por un Reglamento de Régimen Interno.",
+        "confidence": "high",
+        "excerpt": "Artículo 65.- Los presentes estatutos se desarrollarán por un Reglamento de Régimen Interno. COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 7.- Actividad cooperativizada.",
+        "confidence": "high",
+        "excerpt": "Artículo 7.- Actividad cooperativizada."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "CAPITULO II",
+        "confidence": "high",
+        "excerpt": "CAPITULO II DE LAS PERSONAS SOCIAS Arơculo 11.- Clases de personas socias.  Personas socias de vivienda.- Son aquellas personas İsicas que Ɵenen plenos derechos y obligaciones recogidos en estos estatutos respecto de la vivienda o, en su c..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "CAPITULO II",
+        "confidence": "high",
+        "excerpt": "CAPITULO II DE LAS PERSONAS SOCIAS Ar\u001aculo 9.- Clases de personas socias.  Personas socias de vivienda.- Son aquellas personas Esicas que \u000eenen plenos derechos y obligaciones recogidos en estos estatutos respecto de la vivienda o, en su ca..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 9.- Clases de personas socias. Personas Usuarias.",
+        "confidence": "high",
+        "excerpt": "Artículo 9.- Clases de personas socias. Personas Usuarias."
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "slug": "expulsion_socio",
+  "title": "Expulsión de una persona socia",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre expulsión de una persona socia; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "disciplina",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre expulsion, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre falta grave, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre sancion, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Procedimiento de expulsión, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Procedimiento sancionador, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre EXPULSIÓN, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si expulsión de una persona socia debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: una regla estatutaria puede ser más difícil de adaptar que una regla de RRI.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "admision_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular expulsión de una persona socia mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/expulsion_socio.md",
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 17,
+    "mediumConfidenceEvidence": 1,
+    "lowConfidenceEvidence": 0,
+    "evidence": [
+      {
+        "documentSlug": "docs-estatutos-estatutos-axuntase",
+        "documentTitle": "Estatutos Axuntase",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 17.- Procedimiento de expulsión",
+        "confidence": "high",
+        "excerpt": "Artículo 17.- Procedimiento de expulsión 1.- La expulsión de una persona socia, que sólo podrá fundarse en causa muy grave prevista en estos Estatutos, será determinada por el Consejo Rector, a resultas del expediente instruido al efecto y..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 20.- Procedimiento de expulsión",
+        "confidence": "high",
+        "excerpt": "Artículo 20.- Procedimiento de expulsión"
+      },
+      {
+        "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
+        "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "ARTÍCULO 19.- EXPULSIÓN.",
+        "confidence": "high",
+        "excerpt": "ARTÍCULO 19.- EXPULSIÓN. La sanción de expulsión del socio podrá acordarla el Consejo Rector por falta muy grave. Si afectase a un cargo social, el mismo Consejo Rector podrá incluir la propuesta de cese simultáneo en el desempeño de dicho..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 15.- Faltas y sanciones.",
+        "confidence": "high",
+        "excerpt": "Artículo 15.- Faltas y sanciones. 1. Solamente podrán imponerse a los/as socios/as las sanciones que estén establecidas en estos Estatutos por la comisión de las faltas previamente tipificadas en los mismos. FALTAS. Las faltas cometidas por..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 16. Faltas y sanciones.",
+        "confidence": "high",
+        "excerpt": "Artículo 16. Faltas y sanciones. Solamente podrán imponerse a las personas socias las sanciones que estén establecidas en estos Estatutos por la comisión de las faltas previamente tipificadas en los mismos. FALTAS. Las faltas cometidas por..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-laseronda-org",
+        "documentTitle": "Estatutos Laseronda.Org",
+        "documentType": "estatutos",
+        "articleOrSection": "ARTÍCULO 13.- NORMAS DE DISCIPLINA SOCIAL Y PROCEDIMIENTO SANCIONADOR:",
+        "confidence": "high",
+        "excerpt": "ARTÍCULO 13.- NORMAS DE DISCIPLINA SOCIAL Y PROCEDIMIENTO SANCIONADOR: 1. En función del presente régimen disciplinario, podrán imponerse sanciones a los socios por la comisión de alguna falta, siempre que ésta esté tipificada en estos Esta..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 15.- Régimen disciplinario: Faltas y sanciones.",
+        "confidence": "high",
+        "excerpt": "Artículo 15.- Régimen disciplinario: Faltas y sanciones. Solamente podrán imponerse a las personas socias las sanciones que estén establecidas en estos Estatutos por la comisión de las faltas previamente tipificadas en los mismos. 15.1 - FA..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 15.- Régimen disciplinario: Faltas y sanciones.",
+        "confidence": "high",
+        "excerpt": "Artículo 15.- Régimen disciplinario: Faltas y sanciones. Solamente podrán imponerse a las personas socias las sanciones que estén establecidas en estos Estatutos por la comisión de las faltas previamente tipificadas en los mismos. 15.1 - FA..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 13.- Baja del socio o socia. Clases, procedimientos y efectos.",
+        "confidence": "high",
+        "excerpt": "Artículo 13.- Baja del socio o socia. Clases, procedimientos y efectos. El o la socia podrá causar baja en la Cooperativa de las formas y de acuerdo con los procedimientos que a continuación se establecen. A) Baja voluntaria. 1. El socio o..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-laseronda-org",
+        "documentTitle": "Estatutos Laseronda.Org",
+        "documentType": "estatutos",
+        "articleOrSection": "ARTÍCULO 15.- SANCIONES",
+        "confidence": "high",
+        "excerpt": "ARTÍCULO 15.- SANCIONES Solamente podrán imponerse a los socios las sanciones que se establecen a continuación: 1. Por la comisión de faltas muy graves, multa de trescientos uno a seiscientos euros, suspensión al socio en sus derechos -con..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 14. Baja de las personas socias. Clases, procedimientos y",
+        "confidence": "high",
+        "excerpt": "Artículo 14. Baja de las personas socias. Clases, procedimientos y efectos. Las personas socias podrá causar baja en la Cooperativa de las formas y de acuerdo con los procedimientos que a continuación se establecen. A) Baja voluntaria. 1. L..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-estatal",
+        "documentTitle": "Normativa Estatal",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 18. Normas de disciplina social.",
+        "confidence": "high",
+        "excerpt": "Artículo 18. Normas de disciplina social. 1. Los socios sólo podrán ser sancionados por las faltas previamente tipificadas en los Estatutos, que se clasificarán en faltas leves, graves y muy graves. 2. Las infracciones cometidas por los soc..."
+      }
+    ]
+  }
+}

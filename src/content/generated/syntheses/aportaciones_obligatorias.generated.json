@@ -1,0 +1,150 @@
+{
+  "slug": "aportaciones_obligatorias",
+  "generatedAt": "2026-05-13T10:59:49.804Z",
+  "generatedFrom": {
+    "researchPack": "src/content/research-packs/aportaciones_obligatorias.md",
+    "referencesCount": 18,
+    "documents": [
+      "docs-estatutos-estatutos-axuntase",
+      "docs-estatutos-estatutos-blanxart",
+      "docs-estatutos-estatutos-cancarner",
+      "docs-estatutos-estatutos-elciempies",
+      "docs-estatutos-estatutos-entrepatios",
+      "docs-estatutos-estatutos-la-borda",
+      "docs-estatutos-estatutos-laseronda-org",
+      "docs-estatutos-estatutos-losnidales",
+      "docs-estatutos-estatutos-senior-cohousing-huelva",
+      "docs-estatutos-estatutos-tarocohousing",
+      "docs-leyes-normativa-autonomica",
+      "docs-leyes-normativa-estatal",
+      "docs-otros-modelo-estatutos-viviendas",
+      "docs-rri-rri-axuntase"
+    ]
+  },
+  "summary": {
+    "overview": [
+      "La síntesis compara 18 referencias automáticas asociadas al tema \"Aportaciones obligatorias\".",
+      "Las observaciones se formulan de forma prudente y deben verificarse contra las referencias originales."
+    ],
+    "commonPatterns": [
+      "Parece frecuente que el tema aparezca en documentos de tipo estatutos, ley, otro.",
+      "Varios proyectos parecen tratar elementos estructurales o derechos básicos en referencias de Estatutos Entrepatios, Estatutos Laseronda.Org, Estatutos Losnidales.",
+      "Algunos grupos parecen desarrollar aspectos operativos o de convivencia en referencias de Normativa Estatal, Estatutos La Borda, Estatutos Laseronda.Org.",
+      "La lectura automática sugiere revisar aportacion obligatoria, capital social, desembolso, cuota de ingreso como términos activadores principales."
+    ],
+    "majorDifferences": [
+      "Aparecen diferencias por tipo documental: estatutos, ley, otro, rri.",
+      "Aparecen jurisdicciones distintas que conviene no mezclar sin revisión: España, Andalucía.",
+      "La distribución de confidence no permite por sí sola comparar diferencias de calidad."
+    ],
+    "commonRisks": [
+      "Se detectan posibles riesgos o conflictos en referencias de Estatutos Axuntase, Estatutos Elciempies, Estatutos Laseronda.Org.",
+      "Puede existir riesgo de rigidez si se fija demasiado detalle en referencias de Normativa Estatal, Estatutos Laseronda.Org, Estatutos Losnidales.",
+      "No debe asumirse que una práctica de otro proyecto sea adecuada sin contrastar tamaño, fase y contexto de El Buen Vivir."
+    ],
+    "commonTradeoffs": [
+      "El tradeoff principal parece estar entre claridad normativa y capacidad de adaptación futura.",
+      "Las referencias sugieren margen para soluciones flexibles en referencias de Estatutos La Borda, Estatutos Laseronda.Org, Estatutos Senior Cohousing Huelva.",
+      "No hay evidencia suficiente para afirmar compatibilidad específica con grupos pequeños."
+    ]
+  },
+  "governancePlacement": {
+    "usuallyInStatutes": [
+      "Parece frecuente reservar para Estatutos principios, derechos, obligaciones o efectos estructurales.",
+      "Esta señal aparece en referencias de Estatutos Entrepatios, Estatutos Laseronda.Org, Estatutos Losnidales."
+    ],
+    "usuallyInRRI": [
+      "Parece frecuente desarrollar en RRI aspectos operativos, convivencia, uso o procedimientos revisables.",
+      "Esta señal aparece en referencias de Normativa Estatal, Estatutos La Borda, Estatutos Laseronda.Org."
+    ],
+    "mixedApproaches": [
+      "Algunas referencias combinan lenguaje estatutario y desarrollo operativo, lo que sugiere enfoques mixtos."
+    ],
+    "notes": [
+      "Esta lectura es generada automáticamente y no debe convertirse en regla sin revisión jurídica.",
+      "La ubicación final debe diferenciar qué es principio estable y qué es procedimiento adaptable."
+    ]
+  },
+  "recommendationsForBuenVivir": {
+    "minimalApproach": [
+      "Una opción prudente es fijar solo criterios mínimos verificables por las referencias disponibles.",
+      "Conviene evitar reproducir detalles de otros proyectos sin validar su encaje en El Buen Vivir.",
+      "Conviene cubrir explícitamente los riesgos más repetidos antes de añadir detalle operativo."
+    ],
+    "flexibleApproach": [
+      "Una práctica compatible con flexibilidad parece remitir procedimientos al RRI o normas internas.",
+      "Para grupos pequeños, parece más compatible separar principios estables de protocolos que puedan cambiar con la experiencia."
+    ],
+    "pointsToDecideSoon": [
+      "Qué parte del tema afecta a derechos u obligaciones básicas.",
+      "Qué decisiones requieren seguridad desde el inicio para evitar conflictos.",
+      "Qué referencias de confianza alta merecen revisión prioritaria."
+    ],
+    "pointsThatCanWait": [
+      "Detalles de procedimiento no respaldados por varias referencias.",
+      "Protocolos operativos que puedan aprenderse con la práctica comunitaria.",
+      "Formularios, calendarios internos y reglas menores que no afecten derechos básicos."
+    ]
+  },
+  "detectedTensions": [
+    "Tensión entre fijar reglas en Estatutos y evitar rigidez futura.",
+    "Tensión entre prevenir conflictos y no sobrerregular procedimientos internos.",
+    "Tensión entre autonomía comunitaria y necesidad de reglas claras."
+  ],
+  "notableProjects": [
+    {
+      "projectName": "Estatutos Entrepatios",
+      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "references": [
+        "Estatutos Entrepatios - Artículo 18. Capital social. Aportaciones iniciales dinerarias y no",
+        "Estatutos Entrepatios - Artículo 30. Financiaciones que no integran el capital social."
+      ]
+    },
+    {
+      "projectName": "Estatutos Laseronda.Org",
+      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "references": [
+        "Estatutos Laseronda.Org - ARTÍCULO 38.- APORTACIONES OBLIGATORIAS",
+        "Estatutos Laseronda.Org - artículo 35 de estos Estatutos, que fueran las equivalentes realizadas por el resto de socios."
+      ]
+    },
+    {
+      "projectName": "Estatutos Losnidales",
+      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "references": [
+        "Estatutos Losnidales - Artículo 17.- El capital social. Aportaciones iniciales dinerarias y no dinerarias;",
+        "Estatutos Losnidales - Artículo 23.- Financiaciones que no integran el capital social."
+      ]
+    },
+    {
+      "projectName": "Normativa Estatal",
+      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "references": [
+        "Normativa Estatal - Artículo 46. Aportaciones obligatorias.",
+        "Normativa Estatal - Artículo 52. Aportaciones que no forman parte del capital social."
+      ]
+    },
+    {
+      "projectName": "Estatutos Axuntase",
+      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "references": [
+        "Estatutos Axuntase - Artículo 33.- Capital social"
+      ]
+    },
+    {
+      "projectName": "Estatutos Blanxart",
+      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "references": [
+        "Estatutos Blanxart - Article 23. Capital social"
+      ]
+    }
+  ],
+  "legalWarnings": [
+    "Síntesis generada automáticamente sin revisión jurídica.",
+    "No sustituye asesoramiento jurídico profesional.",
+    "No debe usarse como contenido curado sin comprobar las referencias originales.",
+    "La separación entre ley, proyectos e interpretación automática debe mantenerse visible."
+  ],
+  "generatedDisclaimer": "Síntesis comparada generada automáticamente a partir de research packs y referencias heurísticas. Revisar jurídicamente y contrastar con fuentes originales antes de usar.",
+  "status": "needs_legal_review"
+}

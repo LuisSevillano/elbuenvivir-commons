@@ -2,6 +2,8 @@ import { error } from '@sveltejs/kit';
 import { loadCrossTopicPatterns } from '$lib/content/loadPatterns';
 import { loadProjectProfiles } from '$lib/content/loadProjectProfiles';
 
+export const prerender = false;
+
 export function load() {
   let patterns = null;
   let profiles = null;

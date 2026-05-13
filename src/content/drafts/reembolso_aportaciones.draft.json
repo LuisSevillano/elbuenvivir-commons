@@ -1,0 +1,201 @@
+{
+  "slug": "reembolso_aportaciones",
+  "title": "Reembolso de aportaciones",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre reembolso de aportaciones; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "economico",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre reembolso, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre devolucion de aportaciones, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre liquidacion, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Reembolso, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Reembolso de las aportaciones, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre El capital social. Aportaciones iniciales dinerarias y no, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si reembolso de aportaciones debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "admision_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular reembolso de aportaciones mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/reembolso_aportaciones.md",
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 18,
+    "mediumConfidenceEvidence": 0,
+    "lowConfidenceEvidence": 0,
+    "evidence": [
+      {
+        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 36. Reembolso",
+        "confidence": "high",
+        "excerpt": "Artículo 36. Reembolso 36.1. En los supuestos de pérdida de la condición de persona socia o inversora, éstos o sus derechohabientes, tienen derecho a exigir el reembolso de sus aportaciones integrantes del capital social, cuyo valor será el..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-estatal",
+        "documentTitle": "Normativa Estatal",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 51. Reembolso de las aportaciones.",
+        "confidence": "high",
+        "excerpt": "Artículo 51. Reembolso de las aportaciones. 1. Los estatutos regularán el reembolso de las aportaciones al capital social en caso de baja en la cooperativa. La liquidación de estas aportaciones se hará según el balance de cierre del ejercic..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 46.- Reembolso de las aportaciones.",
+        "confidence": "high",
+        "excerpt": "Artículo 46.- Reembolso de las aportaciones."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-autonomica",
+        "documentTitle": "Normativa Autonomica",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 66. Reembolso de las aportaciones.",
+        "confidence": "high",
+        "excerpt": "Artículo 66. Reembolso de las aportaciones. 1. Los Estatutos sociales regularán el reembolso de las aportaciones al capital en caso de baja en la cooperativa, de acuerdo con las normas fijadas en este artículo. La liquidación BOLETÍN OFICIA..."
+      },
+      {
+        "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
+        "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "ARTÍCULO 52.- REEMBOLSO DE LAS APORTACIONES.67",
+        "confidence": "high",
+        "excerpt": "ARTÍCULO 52.- REEMBOLSO DE LAS APORTACIONES.67 1. Los socios tendrán derecho al reembolso de sus aportaciones al capital social en caso de baja en la cooperativa. La liquidación de estas aportaciones se hará según el balance de cierre del e..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 45.- Liquidación y reembolso de las aportaciones.",
+        "confidence": "high",
+        "excerpt": "Artículo 45.- Liquidación y reembolso de las aportaciones. En cuanto al reembolso de las aportaciones y de las cantidades para financiar la vivienda, y la responsabilidad de los socios que causen baja en la Cooperativa, se estará a lo estab..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 45.- Liquidación y reembolso de las aportaciones.",
+        "confidence": "high",
+        "excerpt": "Artículo 45.- Liquidación y reembolso de las aportaciones. En cuanto al reembolso de las aportaciones y de las cantidades para financiar la vivienda, y la responsabilidad de los socios que causen baja en la Cooperativa, se estará a lo estab..."
+      },
+      {
+        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
+        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "Artículo 37.- Reembolso",
+        "confidence": "high",
+        "excerpt": "Artículo 37.- Reembolso 1.- En los supuestos de pérdida de la condición de persona socia o inversora, éstos o sus derechohabientes, tienen derecho a exigir el reembolso de sus aportaciones integrantes del capital social, cuyo valor será el..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 14.- Efectos económicos de las bajas.",
+        "confidence": "high",
+        "excerpt": "Artículo 14.- Efectos económicos de las bajas. 1.- La persona que causa baja en la Cooperativa o sus causahabientes tienen derecho a exigir el reembolso de sus participaciones sociales, tanto el actualizado de las obligatorias como el de la..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 14.- Efectos económicos de las bajas.",
+        "confidence": "high",
+        "excerpt": "Artículo 14.- Efectos económicos de las bajas. 1.- La persona que causa baja en la Cooperativa o sus causahabientes tienen derecho a exigir el reembolso de sus participaciones sociales, tanto el actualizado de las obligatorias como el de la..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-axuntase",
+        "documentTitle": "Estatutos Axuntase",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 37.- Reembolso de las aportaciones obligatorias o voluntarias",
+        "confidence": "high",
+        "excerpt": "Artículo 37.- Reembolso de las aportaciones obligatorias o voluntarias 1.- La liquidación de las aportaciones al capital social obligatorias o voluntarias se hará según el balance de cierre del ejercicio en el que se produzca la baja, con l..."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2011-18204-ley-6-2011",
+        "documentTitle": "BOE A 2011 18204 Ley+6 2011",
+        "documentType": "ley",
+        "articleOrSection": "artículo 20.4 o, en su caso, el que establezcan los Estatutos.",
+        "confidence": "high",
+        "excerpt": "artículo 20.4 o, en su caso, el que establezcan los Estatutos. 3. En el caso de baja no justificada por incumplimiento del período de permanencia mínimo, a que se hace referencia en el artículo 20.2 de la presente Ley, se podrá establecer u..."
+      }
+    ]
+  }
+}

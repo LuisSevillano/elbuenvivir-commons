@@ -1,0 +1,201 @@
+{
+  "slug": "admision_socio",
+  "title": "Admisión de personas socias",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre admisión de personas socias; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "socios",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre admision, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre nuevas personas socias, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre solicitud de ingreso, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre admision nuevos miembros, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Procedimiento de admisión, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Requisitos para ser socia y socio, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si admisión de personas socias debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: una regla estatutaria puede ser más difícil de adaptar que una regla de RRI.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "derechos_y_obligaciones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular admisión de personas socias mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/admision_socio.md",
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 15,
+    "mediumConfidenceEvidence": 3,
+    "lowConfidenceEvidence": 0,
+    "evidence": [
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 8. Procedimiento de admisión.",
+        "confidence": "high",
+        "excerpt": "Artículo 8. Procedimiento de admisión. 1.- La persona interesada deberá presentar su solicitud de ingreso por escrito al Consejo Rector, con justificación de la situación que le da derecho conforme a estos Estatutos a formar parte de la Coo..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 8.- Procedimiento de admisión.",
+        "confidence": "high",
+        "excerpt": "Artículo 8.- Procedimiento de admisión. 1. La persona interesada deberá presentar su solicitud de ingreso, o de inclusión en la Lista de Espera, por escrito al órgano de administración, con justificación de la situación que le da derecho co..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 39.- Aportaciones de las nuevas personas socias.",
+        "confidence": "high",
+        "excerpt": "Artículo 39.- Aportaciones de las nuevas personas socias. Las personas socias que ingresen con posterioridad a la constitución de la Cooperativa deberán suscribir dos títulos de trescientos euros que constituyen la participación obligatoria..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 39.- Aportaciones de las nuevas personas socias.",
+        "confidence": "high",
+        "excerpt": "Artículo 39.- Aportaciones de las nuevas personas socias. Las personas socias que ingresen con posterioridad a la constitución de la Cooperativa deberán suscribir dos títulos de trescientos euros que constituyen la participación obligatoria..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 9.- Procedimiento de admisión.",
+        "confidence": "high",
+        "excerpt": "Artículo 9.- Procedimiento de admisión. Toda persona interesada en formar parte de la Cooperativa, deberá presentar la solicitud de admisión por escrito ante el Consejo Rector, con justificación de la situación que le da derecho a su preten..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 9.- Procedimiento de admisión.",
+        "confidence": "high",
+        "excerpt": "Artículo 9.- Procedimiento de admisión. Toda persona interesada en formar parte de la Cooperativa, deberá presentar la solicitud de admisión por escrito ante el Consejo Rector, con justificación de la situación que le da derecho a su preten..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 7. Admisión y adquisición de la condición de persona socia",
+        "confidence": "high",
+        "excerpt": "Artículo 7. Admisión y adquisición de la condición de persona socia 7.1. La persona interesada que pretenda ingresar en la cooperativa deberá formular la solicitud por escrito dirigida al Consejo Rector en la que conste la justificación de..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 40.- Aportaciones de las nuevas personas socias",
+        "confidence": "high",
+        "excerpt": "Artículo 40.- Aportaciones de las nuevas personas socias"
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-autonomica",
+        "documentTitle": "Normativa Autonomica",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 19. Admisión de nuevos socios.",
+        "confidence": "high",
+        "excerpt": "Artículo 19. Admisión de nuevos socios. 1. Los Estatutos de cada sociedad cooperativa establecerán los requisitos necesarios para la adquisición de la condición de nuevos socios, que en todo caso habrán de respetar los principios constituci..."
+      },
+      {
+        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
+        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "Artículo 8.- Admisión",
+        "confidence": "high",
+        "excerpt": "Artículo 8.- Admisión 1.- Para ingresar en la cooperativa la persona aspirante deberá formular la solicitud por escrito dirigida al órgano de administración en la que conste la justificación de la situación que le da derecho, conforme a est..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-estatal",
+        "documentTitle": "Normativa Estatal",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 13. Admisión de nuevos socios.",
+        "confidence": "high",
+        "excerpt": "Artículo 13. Admisión de nuevos socios. 1. La solicitud para la adquisición de la condición de socio se formulará por escrito al Consejo Rector, que deberá resolver y comunicar su decisión en el plazo no superior a tres meses, a contar desd..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 12.- Procedimiento de admisión",
+        "confidence": "high",
+        "excerpt": "Artículo 12.- Procedimiento de admisión"
+      }
+    ]
+  }
+}

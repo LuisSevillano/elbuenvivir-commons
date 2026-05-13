@@ -1,0 +1,201 @@
+{
+  "slug": "toma_decisiones",
+  "title": "Toma de decisiones",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre toma de decisiones; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "gobernanza",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre consenso, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre mayoria, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre votacion, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre asamblea, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre bloqueo, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre consenso y mayorias, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si toma de decisiones debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "expulsion_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "asamblea_general",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "consejo_rector",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular toma de decisiones mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/toma_decisiones.md",
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 10,
+    "mediumConfidenceEvidence": 8,
+    "lowConfidenceEvidence": 0,
+    "evidence": [
+      {
+        "documentSlug": "docs-estatutos-estatutos-tejiendovida-asociacion",
+        "documentTitle": "Estatutos Tejiendovida Asociacion",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 9º.- Quórum de asistencia y votaciones.",
+        "confidence": "high",
+        "excerpt": "Artículo 9º.- Quórum de asistencia y votaciones. Las Asambleas Generales, tanto ordinarias como extraordinarias, quedarán válidamente constituidas cuando concurran a ella dos tercios de los asociados con derecho a voto. Será necesaria en to..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-laseronda-org",
+        "documentTitle": "Estatutos Laseronda.Org",
+        "documentType": "estatutos",
+        "articleOrSection": "ARTÍCULO 22.- VOTACIONES EN LA ASAMBLEA GENERAL",
+        "confidence": "high",
+        "excerpt": "ARTÍCULO 22.- VOTACIONES EN LA ASAMBLEA GENERAL 1. Principios generales A cada socio le corresponde un voto. En los casos de representación, ejercitará asimismo el derecho de voto de su o sus representados. 2. Abstención en el voto El socio..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 21.- Adopción de acuerdos.",
+        "confidence": "high",
+        "excerpt": "Artículo 21.- Adopción de acuerdos. Es valor destacado de esta cooperativa el intento de consenso en cualquier toma de decisiones, en caso de no ser posible, los acuerdos se tomarán de la siguiente forma: 1.- Serán nulos los acuerdos sobre..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 21.- Adopción de acuerdos.",
+        "confidence": "high",
+        "excerpt": "Artículo 21.- Adopción de acuerdos. Es valor destacado de esta cooperativa el intento de consenso en cualquier toma de decisiones, en caso de no ser posible, los acuerdos se tomarán de la siguiente forma: 1.- Serán nulos los acuerdos sobre..."
+      },
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "Título original: Transformem l’entorn",
+        "confidence": "high",
+        "excerpt": "Título original: Transformem l’entorn La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercoo..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 45. Adopción de acuerdos.",
+        "confidence": "high",
+        "excerpt": "Artículo 45. Adopción de acuerdos. 1. Para deliberar y tomar acuerdos sobre un asunto será indispensable que conste en el orden del día de la convocatoria o en el aprobado al inicio de la Asamblea General Universal, salvo cuando se trate de..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 42.- Adopción de acuerdos.",
+        "confidence": "high",
+        "excerpt": "Artículo 42.- Adopción de acuerdos. 1. Para deliberar y tomar acuerdos sobre un asunto será indispensable que conste en el orden del día de la convocatoria o en el aprobado al inicio de la Asamblea General Universal, salvo cuando se trate d..."
+      },
+      {
+        "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+        "documentType": "rri",
+        "articleOrSection": "Artículo 5: Órganos de Gobierno",
+        "confidence": "high",
+        "excerpt": "Artículo 5: Órganos de Gobierno 1. Clases de órganos de gobierno a) La Asamblea General es el máximo órgano de decisión. b) El Consejo Rector será el responsable de la gestión diaria, velando por el cumplimiento de los objetivos y normativa..."
+      },
+      {
+        "documentSlug": "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
+        "documentTitle": "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
+        "documentType": "otro",
+        "articleOrSection": "art. 33 Lcoop). En relación con ello, llama la atención esta única remisión, cuando",
+        "confidence": "high",
+        "excerpt": "art. 33 Lcoop). En relación con ello, llama la atención esta única remisión, cuando otros muchos aspectos del funcionamiento órganico podrían ser objeto de desarrollo: convocatorias de los órganos2, confección del orden del día, desa- rroll..."
+      },
+      {
+        "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
+        "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "ARTÍCULO 24.- CONSTITUCIÓN Y FUNCIONAMIENTO DE LA ASAMBLEA.35",
+        "confidence": "high",
+        "excerpt": "ARTÍCULO 24.- CONSTITUCIÓN Y FUNCIONAMIENTO DE LA ASAMBLEA.35 1. La Asamblea General quedará válidamente constituida en primera convocatoria, cuando estén presentes o representados más de la mitad de los votos sociales y, en segunda convoca..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "CAPÍTULO III",
+        "confidence": "medium",
+        "excerpt": "CAPÍTULO III REPRESENTACIÓN Y GESTIÓN DE LA COOPERATIVA Ar\u001aculo 21.- Órganos Sociales. Los órganos de la coopera\u000eva para su dirección y administración son: La Asamblea General El Consejo Rector La Intervención Ar\u001aculo 22.- Asamblea General...."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "CAPÍTULO III",
+        "confidence": "medium",
+        "excerpt": "CAPÍTULO III REPRESENTACIÓN Y GESTIÓN DE LA COOPERATIVA Arơculo 24.- Órganos Sociales. Los órganos de la cooperaƟva para su dirección y administración son: La Asamblea General El Consejo Rector La Intervención 22 -- 22 of 46 -- Arơculo 25.-..."
+      }
+    ]
+  }
+}

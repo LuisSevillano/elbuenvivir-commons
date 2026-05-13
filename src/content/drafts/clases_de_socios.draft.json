@@ -1,0 +1,169 @@
+{
+  "slug": "clases_de_socios",
+  "title": "Clases de personas socias",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre clases de personas socias; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "socios",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre socio usuario, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre socio colaborador, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre clases de socios, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre SOCIOS COLABORADORES, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Socio colaborador y socio de servicios, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Sección 3.ª Otras clases de socios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si clases de personas socias debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
+    "Tradeoffs: conviene equilibrar seguridad jurídica interna, claridad comunitaria y capacidad de aprendizaje.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "admision_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular clases de personas socias mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/clases_de_socios.md",
+    "evidenceCount": 8,
+    "highConfidenceEvidence": 4,
+    "mediumConfidenceEvidence": 0,
+    "lowConfidenceEvidence": 4,
+    "evidence": [
+      {
+        "documentSlug": "docs-estatutos-estatutos-laseronda-org",
+        "documentTitle": "Estatutos Laseronda.Org",
+        "documentType": "estatutos",
+        "articleOrSection": "ARTÍCULO 10.- SOCIOS COLABORADORES",
+        "confidence": "high",
+        "excerpt": "ARTÍCULO 10.- SOCIOS COLABORADORES Podrán integrarse en esta Cooperativa, en calidad de socios colaboradores, tanto las personas físicas como las jurídicas, que contribuyan a la consecución del fin social mediante la realización de aportaci..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-autonomica",
+        "documentTitle": "Normativa Autonomica",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 26. Socio colaborador y socio de servicios.",
+        "confidence": "high",
+        "excerpt": "Artículo 26. Socio colaborador y socio de servicios. 1. Las sociedades cooperativas podrán incorporar, si lo prevén sus Estatutos, socios colaboradores, que efectúen aportación al capital y que no podrán realizar actividad cooperativizada...."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-autonomica",
+        "documentTitle": "Normativa Autonomica",
+        "documentType": "ley",
+        "articleOrSection": "Sección 3.ª Otras clases de socios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18",
+        "confidence": "high",
+        "excerpt": "Sección 3.ª Otras clases de socios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18"
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-autonomica",
+        "documentTitle": "Normativa Autonomica",
+        "documentType": "ley",
+        "articleOrSection": "Sección 3.ª Otras clases de socios",
+        "confidence": "high",
+        "excerpt": "Sección 3.ª Otras clases de socios"
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-estatal",
+        "documentTitle": "Normativa Estatal",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 46. Aportaciones obligatorias.",
+        "confidence": "low",
+        "excerpt": "Artículo 46. Aportaciones obligatorias. 1. Los Estatutos fijarán la aportación obligatoria mínima al capital social para ser socio, que podrá ser diferente para las distintas clases de socios o para cada socio en proporción al compromiso o..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-estatal",
+        "documentTitle": "Normativa Estatal",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 52. Aportaciones que no forman parte del capital social.",
+        "confidence": "low",
+        "excerpt": "Artículo 52. Aportaciones que no forman parte del capital social. 1. Los Estatutos o la Asamblea General podrán establecer cuotas de ingresos y/o periódicas, que no integrarán el capital social ni serán reintegrables. Dichas cuotas podrán s..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 40.- Aportaciones de las nuevas personas socias",
+        "confidence": "low",
+        "excerpt": "Artículo 40.- Aportaciones de las nuevas personas socias"
+      },
+      {
+        "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
+        "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "ARTÍCULO 46.- APORTACIONES DE LOS NUEVOS SOCIOS.",
+        "confidence": "low",
+        "excerpt": "ARTÍCULO 46.- APORTACIONES DE LOS NUEVOS SOCIOS. La Asamblea General fijará la aportación obligatoria al capital social que deberán efectuar los socios que se incorporen con posterioridad a la constitución de la cooperativa que podrá ser di..."
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "slug": "uso_espacios_comunes",
+  "title": "Uso de espacios comunes",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre uso de espacios comunes; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "uso_espacios",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre espacios comunes, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre zonas comunes, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre uso comun, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre reservas, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre pernoctas, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre casa comun, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si uso de espacios comunes debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "derechos_y_obligaciones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "asamblea_general",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular uso de espacios comunes mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/uso_espacios_comunes.md",
+    "evidenceCount": 15,
+    "highConfidenceEvidence": 4,
+    "mediumConfidenceEvidence": 2,
+    "lowConfidenceEvidence": 9,
+    "evidence": [
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "Título original: La construcció i la cura dels grups",
+        "confidence": "high",
+        "excerpt": "Título original: La construcció i la cura dels grups La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento..."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+        "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
+        "documentType": "ley",
+        "articleOrSection": "capítulo IV del Texto Refundido de la Ley de Sociedades Anónimas y de la Ley de",
+        "confidence": "high",
+        "excerpt": "capítulo IV del Texto Refundido de la Ley de Sociedades Anónimas y de la Ley de Sociedades de Responsabilidad Limitada). Figurarán en el patrimonio neto, con signo negativo. Su movimiento es el siguiente: a) Se cargará por el importe de la..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 19. Reservas sociales",
+        "confidence": "high",
+        "excerpt": "Artículo 19. Reservas sociales Las finalidades, dotaciones y demás cuestiones relativas a las reservas de la Cooperativa se regirán por lo dispuesto en los Artículos 24 a 26 de estos Estatutos."
+      },
+      {
+        "documentSlug": "docs-rri-informe-cooperativas-cesion-de-uso",
+        "documentTitle": "Informe Cooperativas Cesion De Uso",
+        "documentType": "rri",
+        "articleOrSection": "Documento completo",
+        "confidence": "high",
+        "excerpt": "E X P E R I E N C I A S , M O D E L O S Y P R O P U E S T A S P A R A E L F O M E N T O D E C O O P E R A T I V A S D E V I V I E N D A S E N C E S I Ó N D E D E R E C H O D E U S O D I C I E M B R E , 2 0 2 0 C O N C E J A L Í A D E U R B..."
+      },
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "Título original: Transformem l’entorn",
+        "confidence": "medium",
+        "excerpt": "Título original: Transformem l’entorn La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercoo..."
+      },
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "Título original: Cures en la convivència de persones grans",
+        "confidence": "medium",
+        "excerpt": "Título original: Cures en la convivència de persones grans La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el f..."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+        "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
+        "documentType": "ley",
+        "articleOrSection": "artículo 42 del Código de Comercio, incluso cuando la sociedad dominante esté domiciliada",
+        "confidence": "low",
+        "excerpt": "artículo 42 del Código de Comercio, incluso cuando la sociedad dominante esté domiciliada fuera del territorio español, se informará sobre su nombre, así como el de la sociedad dominante directa y de la dominante última del grupo, la reside..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 5.- Objeto Social",
+        "confidence": "low",
+        "excerpt": "Artículo 5.- Objeto Social"
+      },
+      {
+        "documentSlug": "docs-rri-rri-axuntase",
+        "documentTitle": "Rri Axuntase",
+        "documentType": "rri",
+        "articleOrSection": "Artículo 1. Definición",
+        "confidence": "low",
+        "excerpt": "Artículo 1. Definición 1.- Reglamento de Régimen Interno es un instrumento previsto en el Art.7.2.g y en el Art.50 de los Estatutos para complementarlos, tratando de regular situaciones no contempladas en los mismos. Este Reglamento puede s..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 19. Reservas sociales ............................................................................................................................. 23",
+        "confidence": "low",
+        "excerpt": "Artículo 19. Reservas sociales ............................................................................................................................. 23"
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 2. Objeto",
+        "confidence": "low",
+        "excerpt": "Artículo 2. Objeto 1. La cooperativa se constituye con el objetivo de facilitar a sus socias y socios el acceso a una vivienda de carácter social, económica y ambientalmente sostenibles. Concretamente, los fines de la cooperativa son: - Mej..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-la-borda",
+        "documentTitle": "Estatutos La Borda",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 2. Finalidades y objeto",
+        "confidence": "low",
+        "excerpt": "Artículo 2. Finalidades y objeto 2.1. La Cooperativa se constituye con el objetivo de facilitar a sus socias y socios el acceso a una vivienda de carácter social, económica y ambientalmente sostenibles y facilitarles la entrega de bienes o..."
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "slug": "aportaciones_obligatorias",
+  "title": "Aportaciones obligatorias",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre aportaciones obligatorias; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "economico",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre aportacion obligatoria, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre capital social, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre desembolso, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre cuota de ingreso, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre capital obligatorio, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre desembolso obligatorio, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si aportaciones obligatorias debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "admision_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular aportaciones obligatorias mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/aportaciones_obligatorias.md",
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 18,
+    "mediumConfidenceEvidence": 0,
+    "lowConfidenceEvidence": 0,
+    "evidence": [
+      {
+        "documentSlug": "docs-estatutos-estatutos-laseronda-org",
+        "documentTitle": "Estatutos Laseronda.Org",
+        "documentType": "estatutos",
+        "articleOrSection": "ARTÍCULO 38.- APORTACIONES OBLIGATORIAS",
+        "confidence": "high",
+        "excerpt": "ARTÍCULO 38.- APORTACIONES OBLIGATORIAS 1. Concepto Serán aportaciones obligatorias aquellas acordadas por la Asamblea General con carácter obligatorio para los socios de la Cooperativa. Las aportaciones obligatorias no devengarán intereses..."
+      },
+      {
+        "documentSlug": "docs-rri-rri-axuntase",
+        "documentTitle": "Rri Axuntase",
+        "documentType": "rri",
+        "articleOrSection": "Artículo 10.- Aportaciones al Capital Social",
+        "confidence": "high",
+        "excerpt": "Artículo 10.- Aportaciones al Capital Social 1.- La cuantía de la aportación obligatoria mínima inicial para adquirir la condición de socia/o de la Cooperativa será la que en cada momento señalen los Estatutos y acuerdos adoptados por la As..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 18. Capital social. Aportaciones iniciales dinerarias y no",
+        "confidence": "high",
+        "excerpt": "Artículo 18. Capital social. Aportaciones iniciales dinerarias y no dinerarias; suscripción y desembolso. 1. El capital social está constituido por las aportaciones obligatorias y voluntarias de las socias y socios, que se acreditarán media..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 42.- Cuotas de Ingreso y/o periódicas.",
+        "confidence": "high",
+        "excerpt": "Artículo 42.- Cuotas de Ingreso y/o periódicas."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 17.- El capital social. Aportaciones iniciales dinerarias y no dinerarias;",
+        "confidence": "high",
+        "excerpt": "Artículo 17.- El capital social. Aportaciones iniciales dinerarias y no dinerarias; suscripción y desembolso. 1. El capital social estará constituido por las aportaciones obligatorias y voluntarias de sus socios/as que se acreditarán median..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-estatal",
+        "documentTitle": "Normativa Estatal",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 46. Aportaciones obligatorias.",
+        "confidence": "high",
+        "excerpt": "Artículo 46. Aportaciones obligatorias. 1. Los Estatutos fijarán la aportación obligatoria mínima al capital social para ser socio, que podrá ser diferente para las distintas clases de socios o para cada socio en proporción al compromiso o..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 23.- Financiaciones que no integran el capital social.",
+        "confidence": "high",
+        "excerpt": "Artículo 23.- Financiaciones que no integran el capital social. 1. Cantidades entregadas para financiar la construcción de las edificaciones Las cantidades entregadas por los socios para financiar la construcción de las edificaciones no int..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-laseronda-org",
+        "documentTitle": "Estatutos Laseronda.Org",
+        "documentType": "estatutos",
+        "articleOrSection": "artículo 35 de estos Estatutos, que fueran las equivalentes realizadas por el resto de socios.",
+        "confidence": "high",
+        "excerpt": "artículo 35 de estos Estatutos, que fueran las equivalentes realizadas por el resto de socios. El acuerdo de admisión fijará las condiciones -forma y plazos- de desembolso de dicha aportación obligatoria, estableciendo el porcentaje de dese..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 33. Aportaciones Obligatorias y Voluntarias",
+        "confidence": "high",
+        "excerpt": "Artículo 33. Aportaciones Obligatorias y Voluntarias 33.1. Aportaciones Obligatorias Las aportaciones obligatorias son aquellas que forman parte del capital social, y cuya suscripción, al constituirse la entidad, o posteriormente por acuerd..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 30. Financiaciones que no integran el capital social.",
+        "confidence": "high",
+        "excerpt": "Artículo 30. Financiaciones que no integran el capital social. Las entregas de bienes, depósitos para la gestión cooperativa y, en general, los pagos para la obtención de los servicios cooperativizados no forman parte del capital social ni..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-estatal",
+        "documentTitle": "Normativa Estatal",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 52. Aportaciones que no forman parte del capital social.",
+        "confidence": "high",
+        "excerpt": "Artículo 52. Aportaciones que no forman parte del capital social. 1. Los Estatutos o la Asamblea General podrán establecer cuotas de ingresos y/o periódicas, que no integrarán el capital social ni serán reintegrables. Dichas cuotas podrán s..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-axuntase",
+        "documentTitle": "Estatutos Axuntase",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 33.- Capital social",
+        "confidence": "high",
+        "excerpt": "Artículo 33.- Capital social 1.- El capital social estará constituido por las aportaciones obligatorias y voluntarias de los/as socios/as. 2.- Las aportaciones de los/as socios/as al capital social, se realizarán en moneda de curso legal. E..."
+      }
+    ]
+  }
+}

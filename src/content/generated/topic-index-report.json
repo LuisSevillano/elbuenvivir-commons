@@ -1,0 +1,424 @@
+{
+  "generatedAt": "2026-05-13T10:30:25.274Z",
+  "referencesTotal": 303,
+  "maxReferencesPerTopic": 18,
+  "maxReferencesPerDocumentPerTopic": 3,
+  "minimumScore": 8,
+  "referencesByTopic": [
+    {
+      "topicSlug": "baja_socio",
+      "references": 18,
+      "candidates": 129,
+      "topKeywords": [
+        {
+          "term": "baja obligatoria",
+          "hits": 71,
+          "weightedScore": 728
+        },
+        {
+          "term": "baja voluntaria",
+          "hits": 35,
+          "weightedScore": 400
+        },
+        {
+          "term": "baja",
+          "hits": 207,
+          "weightedScore": 348
+        },
+        {
+          "term": "reembolso",
+          "hits": 8,
+          "weightedScore": 24
+        },
+        {
+          "term": "separacion",
+          "hits": 3,
+          "weightedScore": 15
+        }
+      ],
+      "noiseWarning": "High candidate volume (129) before filtering"
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "references": 18,
+      "candidates": 174,
+      "topKeywords": [
+        {
+          "term": "capital social",
+          "hits": 124,
+          "weightedScore": 484
+        },
+        {
+          "term": "aportacion obligatoria",
+          "hits": 32,
+          "weightedScore": 288
+        },
+        {
+          "term": "desembolso",
+          "hits": 26,
+          "weightedScore": 78
+        },
+        {
+          "term": "cuota de ingreso",
+          "hits": 11,
+          "weightedScore": 55
+        }
+      ],
+      "noiseWarning": "High candidate volume (174) before filtering"
+    },
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "references": 15,
+      "candidates": 16,
+      "topKeywords": [
+        {
+          "term": "espacios comunes",
+          "hits": 24,
+          "weightedScore": 207
+        },
+        {
+          "term": "reservas",
+          "hits": 27,
+          "weightedScore": 100
+        },
+        {
+          "term": "zonas comunes",
+          "hits": 8,
+          "weightedScore": 64
+        },
+        {
+          "term": "uso comun",
+          "hits": 3,
+          "weightedScore": 15
+        },
+        {
+          "term": "casa comun",
+          "hits": 1,
+          "weightedScore": 7
+        }
+      ]
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "references": 18,
+      "candidates": 54,
+      "topKeywords": [
+        {
+          "term": "votacion",
+          "hits": 49,
+          "weightedScore": 294
+        },
+        {
+          "term": "votaciones",
+          "hits": 18,
+          "weightedScore": 144
+        },
+        {
+          "term": "mayoria",
+          "hits": 34,
+          "weightedScore": 136
+        },
+        {
+          "term": "consenso",
+          "hits": 13,
+          "weightedScore": 40
+        },
+        {
+          "term": "bloqueo",
+          "hits": 3,
+          "weightedScore": 18
+        }
+      ]
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "references": 18,
+      "candidates": 157,
+      "topKeywords": [
+        {
+          "term": "reglamento de regimen interno",
+          "hits": 85,
+          "weightedScore": 710
+        },
+        {
+          "term": "modificacion",
+          "hits": 37,
+          "weightedScore": 132
+        },
+        {
+          "term": "rri",
+          "hits": 40,
+          "weightedScore": 54
+        }
+      ],
+      "noiseWarning": "High candidate volume (157) before filtering"
+    },
+    {
+      "topicSlug": "admision_socio",
+      "references": 18,
+      "candidates": 47,
+      "topKeywords": [
+        {
+          "term": "admision",
+          "hits": 100,
+          "weightedScore": 496
+        },
+        {
+          "term": "nuevas personas socias",
+          "hits": 11,
+          "weightedScore": 184
+        },
+        {
+          "term": "solicitud de ingreso",
+          "hits": 4,
+          "weightedScore": 36
+        }
+      ]
+    },
+    {
+      "topicSlug": "clases_de_socios",
+      "references": 8,
+      "candidates": 10,
+      "topKeywords": [
+        {
+          "term": "clases de socios",
+          "hits": 9,
+          "weightedScore": 135
+        },
+        {
+          "term": "socio colaborador",
+          "hits": 9,
+          "weightedScore": 88
+        }
+      ]
+    },
+    {
+      "topicSlug": "derechos_y_obligaciones",
+      "references": 13,
+      "candidates": 13,
+      "topKeywords": [
+        {
+          "term": "deberes",
+          "hits": 40,
+          "weightedScore": 232
+        }
+      ]
+    },
+    {
+      "topicSlug": "expulsion_socio",
+      "references": 18,
+      "candidates": 55,
+      "topKeywords": [
+        {
+          "term": "expulsion",
+          "hits": 73,
+          "weightedScore": 684
+        },
+        {
+          "term": "sancion",
+          "hits": 31,
+          "weightedScore": 186
+        },
+        {
+          "term": "falta grave",
+          "hits": 6,
+          "weightedScore": 48
+        }
+      ]
+    },
+    {
+      "topicSlug": "reembolso_aportaciones",
+      "references": 18,
+      "candidates": 99,
+      "topKeywords": [
+        {
+          "term": "reembolso",
+          "hits": 131,
+          "weightedScore": 774
+        },
+        {
+          "term": "liquidacion",
+          "hits": 28,
+          "weightedScore": 102
+        }
+      ],
+      "noiseWarning": "High candidate volume (99) before filtering"
+    },
+    {
+      "topicSlug": "desigualdad_aportaciones",
+      "references": 1,
+      "candidates": 1,
+      "topKeywords": [
+        {
+          "term": "desigualdad",
+          "hits": 3,
+          "weightedScore": 15
+        }
+      ]
+    },
+    {
+      "topicSlug": "asamblea_general",
+      "references": 18,
+      "candidates": 484,
+      "topKeywords": [
+        {
+          "term": "asamblea general",
+          "hits": 118,
+          "weightedScore": 1458
+        },
+        {
+          "term": "convocatoria",
+          "hits": 94,
+          "weightedScore": 588
+        }
+      ],
+      "noiseWarning": "High candidate volume (484) before filtering"
+    },
+    {
+      "topicSlug": "consejo_rector",
+      "references": 18,
+      "candidates": 382,
+      "topKeywords": [
+        {
+          "term": "consejo rector",
+          "hits": 147,
+          "weightedScore": 1750
+        },
+        {
+          "term": "representacion",
+          "hits": 25,
+          "weightedScore": 100
+        }
+      ],
+      "noiseWarning": "High candidate volume (382) before filtering"
+    },
+    {
+      "topicSlug": "conflictos_y_mediacion",
+      "references": 18,
+      "candidates": 21,
+      "topKeywords": [
+        {
+          "term": "conflicto",
+          "hits": 63,
+          "weightedScore": 292
+        },
+        {
+          "term": "mediacion",
+          "hits": 17,
+          "weightedScore": 153
+        },
+        {
+          "term": "facilitacion",
+          "hits": 13,
+          "weightedScore": 88
+        }
+      ]
+    },
+    {
+      "topicSlug": "reservas_estancias_pernoctas",
+      "references": 18,
+      "candidates": 30,
+      "topKeywords": [
+        {
+          "term": "reserva",
+          "hits": 101,
+          "weightedScore": 387
+        }
+      ]
+    },
+    {
+      "topicSlug": "invitados",
+      "references": 14,
+      "candidates": 14,
+      "topKeywords": [
+        {
+          "term": "familiares",
+          "hits": 28,
+          "weightedScore": 170
+        },
+        {
+          "term": "invitados",
+          "hits": 6,
+          "weightedScore": 54
+        },
+        {
+          "term": "terceras personas",
+          "hits": 9,
+          "weightedScore": 48
+        }
+      ]
+    },
+    {
+      "topicSlug": "mantenimiento",
+      "references": 18,
+      "candidates": 29,
+      "topKeywords": [
+        {
+          "term": "mantenimiento",
+          "hits": 75,
+          "weightedScore": 438
+        },
+        {
+          "term": "limpieza",
+          "hits": 35,
+          "weightedScore": 168
+        },
+        {
+          "term": "reparaciones",
+          "hits": 8,
+          "weightedScore": 56
+        }
+      ]
+    },
+    {
+      "topicSlug": "lista_espera",
+      "references": 18,
+      "candidates": 27,
+      "topKeywords": [
+        {
+          "term": "lista de espera",
+          "hits": 45,
+          "weightedScore": 390
+        },
+        {
+          "term": "incorporacion",
+          "hits": 26,
+          "weightedScore": 160
+        },
+        {
+          "term": "sustitucion",
+          "hits": 5,
+          "weightedScore": 15
+        }
+      ]
+    },
+    {
+      "topicSlug": "disolucion",
+      "references": 18,
+      "candidates": 150,
+      "topKeywords": [
+        {
+          "term": "disolucion",
+          "hits": 106,
+          "weightedScore": 1071
+        },
+        {
+          "term": "liquidacion",
+          "hits": 50,
+          "weightedScore": 232
+        }
+      ],
+      "noiseWarning": "High candidate volume (150) before filtering"
+    }
+  ],
+  "noisyTopics": [
+    "baja_socio",
+    "aportaciones_obligatorias",
+    "estatutos_vs_rri",
+    "reembolso_aportaciones",
+    "asamblea_general",
+    "consejo_rector",
+    "disolucion"
+  ],
+  "topicsWithoutReferences": []
+}

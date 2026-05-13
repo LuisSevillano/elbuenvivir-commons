@@ -1,0 +1,201 @@
+{
+  "slug": "conflictos_y_mediacion",
+  "title": "Conflictos y mediación",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre conflictos y mediación; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "convivencia",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre conflicto, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre mediacion, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre facilitacion, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Resolución de Conflictos, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Título (xx minutos), contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Título original: Transformem l’entorn, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si conflictos y mediación debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "derechos_y_obligaciones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular conflictos y mediación mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/conflictos_y_mediacion.md",
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 3,
+    "mediumConfidenceEvidence": 7,
+    "lowConfidenceEvidence": 8,
+    "evidence": [
+      {
+        "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+        "documentType": "rri",
+        "articleOrSection": "Artículo 12. Resolución de Conflictos",
+        "confidence": "high",
+        "excerpt": "Artículo 12. Resolución de Conflictos En caso de surgir desacuerdos, disputas o conflictos entre las/os socias/os, entre las/os socias/os y el Consejo Rector, o en cualquier otro ámbito de la cooperativa, se establece el siguiente procedimi..."
+      },
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "Título (xx minutos)",
+        "confidence": "high",
+        "excerpt": "Título (xx minutos)"
+      },
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "Título original: Transformem l’entorn",
+        "confidence": "high",
+        "excerpt": "Título original: Transformem l’entorn La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercoo..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-autonomica",
+        "documentTitle": "Normativa Autonomica",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 49. Conflicto de intereses con la cooperativa.",
+        "confidence": "medium",
+        "excerpt": "Artículo 49. Conflicto de intereses con la cooperativa. 1. Será preciso el previo acuerdo de la Asamblea general cuando la cooperativa hubiera de contraer obligaciones con cualquier Consejero, Interventor, Apoderado, órgano de dirección o c..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-estatal",
+        "documentTitle": "Normativa Estatal",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 42. Conflicto de intereses con la cooperativa.",
+        "confidence": "medium",
+        "excerpt": "Artículo 42. Conflicto de intereses con la cooperativa. 1. Será preciso el previo acuerdo de la Asamblea General, cuando la cooperativa hubiera de obligarse con cualquier consejero, interventor o con uno de sus parientes hasta el segundo gr..."
+      },
+      {
+        "documentSlug": "docs-rri-rri-vallecas2homes",
+        "documentTitle": "Rri Vallecas2homes",
+        "documentType": "rri",
+        "articleOrSection": "Artículo 34 Federación de la Cooperativa",
+        "confidence": "medium",
+        "excerpt": "Artículo 34 Federación de la Cooperativa Disposición Final ____________________________________________________ -- 4 of 14 -- ENSANCHE DE VALLECAS 2 HOMES, S.COOP. MAD. P á g i n a 5 | 14"
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 60. Conflicto de intereses.",
+        "confidence": "medium",
+        "excerpt": "Artículo 60. Conflicto de intereses. 1. Será preciso la previa autorización de la Asamblea General cuando la Cooperativa hubiera de obligarse con cualquier miembro del órgano de administración, o el Interventor, o con uno de los parientes d..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 58.- Conflicto de intereses.",
+        "confidence": "medium",
+        "excerpt": "Artículo 58.- Conflicto de intereses. 1. Será preciso la previa autorización de la Asamblea General cuando la Cooperativa hubiera de obligarse con cualquier miembro del órgano de administración, el/la Interventor/a, el/la directora/a, en su..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 35.- Conflicto de intereses y responsabilidad.",
+        "confidence": "medium",
+        "excerpt": "Artículo 35.- Conflicto de intereses y responsabilidad. En cuanto al conflicto de intereses con la cooperativa y en lo relativo a la acción de responsabilidad contra cualquier miembro del Consejo Rector o intervención se estará a lo estable..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 35.- Conflicto de intereses y responsabilidad.",
+        "confidence": "medium",
+        "excerpt": "Artículo 35.- Conflicto de intereses y responsabilidad. En cuanto al conflicto de intereses con la cooperativa y en lo relativo a la acción de responsabilidad contra cualquier miembro del Consejo Rector o intervención se estará a lo estable..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "documentType": "guia",
+        "articleOrSection": "título constitutivo es precisamente el ingreso como socio en la cooperativa. Y que, por tanto, debe",
+        "confidence": "low",
+        "excerpt": "título constitutivo es precisamente el ingreso como socio en la cooperativa. Y que, por tanto, debe regularse en los estatutos sociales de la cooperativa, ante la ausencia de normas legales que le den contenido. En los apartados que siguen,..."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+        "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
+        "documentType": "ley",
+        "articleOrSection": "artículo 84 del Texto Refundido de la Ley de Sociedades Anónimas.",
+        "confidence": "low",
+        "excerpt": "artículo 84 del Texto Refundido de la Ley de Sociedades Anónimas. Con carácter general, el contenido y movimiento de las cuentas citadas de cuatro cifras es el siguiente: 1140. Reservas para acciones o participaciones de la sociedad dominan..."
+      }
+    ]
+  }
+}

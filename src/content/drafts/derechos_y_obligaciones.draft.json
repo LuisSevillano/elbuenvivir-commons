@@ -1,0 +1,201 @@
+{
+  "slug": "derechos_y_obligaciones",
+  "title": "Derechos y obligaciones",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre derechos y obligaciones; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "socios",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre derechos, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre obligaciones, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre deberes, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Art. 34 Deberes de diligencia, lealtad y secreto. Responsabilidad y, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Obligaciones y responsabilidad de las personas socias, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si derechos y obligaciones debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Si el research pack no aporta evidencia de RRI, conviene tratar los procedimientos internos como hipótesis de trabajo.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: conviene revisar si el tema puede generar desacuerdos prácticos aunque no aparezcan expresamente."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "asamblea_general",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular derechos y obligaciones mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. Los procedimientos operativos podrán desarrollarse en una norma interna revisable, si la cooperativa lo considera adecuado.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/derechos_y_obligaciones.md",
+    "evidenceCount": 13,
+    "highConfidenceEvidence": 3,
+    "mediumConfidenceEvidence": 0,
+    "lowConfidenceEvidence": 10,
+    "evidence": [
+      {
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 34.- Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de",
+        "confidence": "high",
+        "excerpt": "Artículo 34.- Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de cargos. Los miembros del Consejo Rector, intervención y Dirección o Gerencia, si lo hubiere, deberán desempeñar su cargo con la diligencia de un ordenad..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 34.- Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de",
+        "confidence": "high",
+        "excerpt": "Artículo 34.- Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de cargos. Los miembros del Consejo Rector, intervención y Dirección o Gerencia, si lo hubiere, deberán desempeñar su cargo con la diligencia de un ordenad..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tejiendovida-asociacion",
+        "documentTitle": "Estatutos Tejiendovida Asociacion",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 23º.- Deberes.",
+        "confidence": "high",
+        "excerpt": "Artículo 23º.- Deberes. Son deberes de los socios: -- 7 of 11 -- 8 a) Compartir las finalidades de la asociación y colaborar para la consecución de las mismas. b) Pagar las cuotas, derramas y otras aportaciones que, con arreglo a los Estatu..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
+        "documentType": "estatutos",
+        "articleOrSection": "Art. 34 Deberes de diligencia, lealtad y secreto. Responsabilidad y",
+        "confidence": "low",
+        "excerpt": "Art. 34 Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de cargos 33"
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "Art. 34 Deberes de diligencia, lealtad y secreto. Responsabilidad y",
+        "confidence": "low",
+        "excerpt": "Art. 34 Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de cargos 33"
+      },
+      {
+        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "documentType": "guia",
+        "articleOrSection": "Documento completo",
+        "confidence": "low",
+        "excerpt": "COHOUSING SENIOR Y COOPERATIVISMO DE CONSUMO -- 1 of 54 -- Diciembre 2018 Madrid -- 2 of 54 -- Índice 1. Introducción _____________________________________5 2. Definición de un proyecto de cohousing senior _________6 3. Aspectos urbanístico..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+        "documentType": "guia",
+        "articleOrSection": "Documento completo",
+        "confidence": "low",
+        "excerpt": "GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR -- 1 of 62 -- DIRECCIÓN ELABORACIÓN JURÍDICA FGC ADCVOCATS, SCCL Cristina R. Grau López como autora con la colaboración de Ainhoa Domínguez Peña. COLABORA Diciemb..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-autonomica",
+        "documentTitle": "Normativa Autonomica",
+        "documentType": "ley",
+        "articleOrSection": "Sección 2.ª Derechos, deberes y normas de disciplina social . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14",
+        "confidence": "low",
+        "excerpt": "Sección 2.ª Derechos, deberes y normas de disciplina social . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14"
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-autonomica",
+        "documentTitle": "Normativa Autonomica",
+        "documentType": "ley",
+        "articleOrSection": "Sección 2.ª Derechos, deberes y normas de disciplina social",
+        "confidence": "low",
+        "excerpt": "Sección 2.ª Derechos, deberes y normas de disciplina social"
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 10.- Obligaciones y responsabilidad de las personas socias.",
+        "confidence": "low",
+        "excerpt": "Artículo 10.- Obligaciones y responsabilidad de las personas socias. Las apersonas socias están obligadas a cumplir con lealtad y de buena fe los deberes legales y estatutarios, y en especial: COPIA AUTENTICA DEL DOCUMENTO Identificador: 13..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 10.- Obligaciones y responsabilidad de las personas socias.",
+        "confidence": "low",
+        "excerpt": "Artículo 10.- Obligaciones y responsabilidad de las personas socias. Las apersonas socias están obligadas a cumplir con lealtad y de buena fe los deberes legales y estatutarios, y en especial: COPIA AUTENTICA DEL DOCUMENTO Identificador: 13..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-la-borda",
+        "documentTitle": "Estatutos La Borda",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 7. Obligaciones de las socias y socios",
+        "confidence": "low",
+        "excerpt": "Artículo 7. Obligaciones de las socias y socios 7.1. Las socias y socios, sea cual sea su tipología, están obligados a: a) Hacer el desembolso de la aportación comprometida y cumplir las obligaciones económicas que les corresponda en virtud..."
+      }
+    ]
+  }
+}

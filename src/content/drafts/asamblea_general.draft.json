@@ -1,0 +1,201 @@
+{
+  "slug": "asamblea_general",
+  "title": "Asamblea General",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre asamblea general; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "gobernanza",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre asamblea general, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre convocatoria, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre acta, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Asamblea General. Convocatoria de la Asamblea General ordinaria, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Convocatoria de la Asamblea General, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Constitución y funcionamiento de la Asamblea General, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si asamblea general debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "derechos_y_obligaciones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular asamblea general mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/asamblea_general.md",
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 18,
+    "mediumConfidenceEvidence": 0,
+    "lowConfidenceEvidence": 0,
+    "evidence": [
+      {
+        "documentSlug": "docs-estatutos-estatutos-la-borda",
+        "documentTitle": "Estatutos La Borda",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 34. Asamblea General. Convocatoria de la Asamblea General ordinaria",
+        "confidence": "high",
+        "excerpt": "Artículo 34. Asamblea General. Convocatoria de la Asamblea General ordinaria y extraordinaria La Asamblea General, ordinaria o extraordinaria, debe ser convocada por el Consejo Rector mediante un anuncio en el domicilio social y, además, me..."
+      },
+      {
+        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
+        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "Artículo 21.- Convocatoria de la Asamblea General",
+        "confidence": "high",
+        "excerpt": "Artículo 21.- Convocatoria de la Asamblea General 1. La Asamblea General ordinaria deberá convocarse por el órgano de administración dentro de los seis meses siguientes al cierre de cada ejercicio económico. Transcurrido dicho plazo sin que..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 19.- Convocatoria de la Asamblea General",
+        "confidence": "high",
+        "excerpt": "Artículo 19.- Convocatoria de la Asamblea General 19.1. La Asamblea General Ordinaria deberá convocarse por el Consejo Rector dentro de los seis meses siguientes al cierre de cada ejercicio económico. Transcurrido dicho plazo sin que se efe..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-axuntase",
+        "documentTitle": "Estatutos Axuntase",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 21.- Convocatoria de la Asamblea General",
+        "confidence": "high",
+        "excerpt": "Artículo 21.- Convocatoria de la Asamblea General 1.- La Asamblea General ordinaria deberá convocarse por el Consejo Rector dentro de los seis meses siguientes al cierre de cada ejercicio económico. Transcurrido dicho plazo sin que se efect..."
+      },
+      {
+        "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
+        "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "ARTÍCULO 22.- CONVOCATORIA DE LA ASAMBLEA GENERAL.",
+        "confidence": "high",
+        "excerpt": "ARTÍCULO 22.- CONVOCATORIA DE LA ASAMBLEA GENERAL. 1. La Asamblea General ordinaria deberá ser convocada por el Consejo Rector dentro de los seis meses siguientes a la fecha de cierre del ejercicio económico. Si transcurre dicho plazo sin q..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 24.- Convocatoria de la Asamblea General",
+        "confidence": "high",
+        "excerpt": "Artículo 24.- Convocatoria de la Asamblea General"
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-autonomica",
+        "documentTitle": "Normativa Autonomica",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 32. Clases de Asamblea general y convocatoria.",
+        "confidence": "high",
+        "excerpt": "Artículo 32. Clases de Asamblea general y convocatoria. 1. Las Asambleas generales pueden ser ordinarias o extraordinarias. La Asamblea ordinaria se reunirá necesariamente una vez al año, dentro de los seis meses siguientes al cierre del ej..."
+      },
+      {
+        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
+        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "Artículo 22.- Constitución y funcionamiento de la Asamblea General",
+        "confidence": "high",
+        "excerpt": "Artículo 22.- Constitución y funcionamiento de la Asamblea General 1. Las reuniones, salvo que tenga carácter de universal, se celebrarán en localidad del domicilio social de la Cooperativa; pero podrán también celebrarse en cualquier otro..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 25.- Constitución y funcionamiento de la Asamblea General",
+        "confidence": "high",
+        "excerpt": "Artículo 25.- Constitución y funcionamiento de la Asamblea General"
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-autonomica",
+        "documentTitle": "Normativa Autonomica",
+        "documentType": "ley",
+        "articleOrSection": "Artículo 81. Convocatoria de Asamblea general para la fusión.",
+        "confidence": "high",
+        "excerpt": "Artículo 81. Convocatoria de Asamblea general para la fusión. Al publicar la convocatoria de la Asamblea general que tenga por objeto aprobar la fusión, deberá ponerse a disposición de los socios, en el domicilio social, los siguientes docu..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 37.- Composición y competencias de la Asamblea General.",
+        "confidence": "high",
+        "excerpt": "Artículo 37.- Composición y competencias de la Asamblea General. 1. La Asamblea General de la Cooperativa es el órgano supremo de la expresión de la voluntad social, constituida para deliberar y adoptar acuerdos por mayoría en las materias..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 40. Composición y competencias de la Asamblea General.",
+        "confidence": "high",
+        "excerpt": "Artículo 40. Composición y competencias de la Asamblea General. 1. La Asamblea General de la Cooperativa es el órgano supremo de la expresión de la voluntad social, constituida para deliberar y adoptar acuerdos por mayoría en las materias p..."
+      }
+    ]
+  }
+}

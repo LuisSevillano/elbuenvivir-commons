@@ -137,6 +137,14 @@
     "keywords": ["conflicto", "mediacion", "facilitacion"]
   },
   {
+    "slug": "convivencia",
+    "title": "Convivencia cotidiana",
+    "category": "convivencia",
+    "status": "planned",
+    "aliases": ["vida comunitaria", "normas de convivencia", "cuidados cotidianos"],
+    "keywords": ["convivencia", "vida comunitaria", "cuidados", "normas internas", "responsabilidad", "limpieza", "conflictos"]
+  },
+  {
     "slug": "reservas_estancias_pernoctas",
     "title": "Reservas, estancias y pernoctas",
     "category": "uso_espacios",

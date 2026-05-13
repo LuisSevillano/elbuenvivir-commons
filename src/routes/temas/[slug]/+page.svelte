@@ -1,296 +1,232 @@
 <script lang="ts">
-  import ReferenceCard from '$lib/components/ReferenceCard.svelte';
-  import RelatedTopicsCard from '$lib/components/RelatedTopicsCard.svelte';
-  import TopicHero from '$lib/components/TopicHero.svelte';
-  import EditorialSection from '$lib/components/EditorialSection.svelte';
-  import ComparisonColumns from '$lib/components/ComparisonColumns.svelte';
+  import CollapsibleReferences from '$lib/components/CollapsibleReferences.svelte';
+  import CompactInsightList from '$lib/components/CompactInsightList.svelte';
+  import CompactSolutionModel from '$lib/components/CompactSolutionModel.svelte';
   import DecisionChecklist from '$lib/components/DecisionChecklist.svelte';
-  import ExpandableReferenceGroup from '$lib/components/ExpandableReferenceGroup.svelte';
-  import InsightBlock from '$lib/components/InsightBlock.svelte';
+  import EditorialSection from '$lib/components/EditorialSection.svelte';
+  import GovernanceSplit from '$lib/components/GovernanceSplit.svelte';
+  import RelatedTopicsCard from '$lib/components/RelatedTopicsCard.svelte';
   import SuggestedClauseBlock from '$lib/components/SuggestedClauseBlock.svelte';
-  import SoftCallout from '$lib/components/SoftCallout.svelte';
-  import { legalDisclaimer } from '$lib/content/labels';
-  import type { ConsultableTopic, GeneratedTopicReference, GeneratedTopicSynthesis } from '$lib/content/types';
+  import TopicHero from '$lib/components/TopicHero.svelte';
+  import type {
+    ConsultableTopic,
+    GeneratedTopicReference,
+    GeneratedTopicSynthesis,
+    SolutionApproach,
+    TopicDecisionModel
+  } from '$lib/content/types';
 
   let { data }: {
     data: {
       topic: ConsultableTopic;
       topics: ConsultableTopic[];
+      decisionModel: TopicDecisionModel | null;
       generatedReferences: GeneratedTopicReference[];
       synthesis: GeneratedTopicSynthesis | null;
     };
   } = $props();
 
   const topic = $derived(data.topic);
+  const decisionModel = $derived(data.decisionModel);
   const synthesis = $derived(data.synthesis);
-  const refCount = $derived(topic.referenceCount);
-  const projectCount = $derived(topic.projectCount);
+
+  const decisionQuestions = $derived(compactQuestions(topic, decisionModel, synthesis));
+  const solutionModels = $derived(compactSolutionModels(decisionModel));
+  const tradeoffsAndRisks = $derived(compactTradeoffsAndRisks(topic, decisionModel, synthesis));
+  const recommendations = $derived(compactRecommendations(topic, decisionModel, synthesis));
+  const statutesItems = $derived(compactStatutes(topic, decisionModel, synthesis));
+  const rriItems = $derived(compactRri(topic, decisionModel, synthesis));
+
+  function compactQuestions(
+    currentTopic: ConsultableTopic,
+    model: TopicDecisionModel | null,
+    currentSynthesis: GeneratedTopicSynthesis | null
+  ): string[] {
+    if (model) {
+      const evidenced = model.decisionQuestions
+        .filter((question) => question.relatedExtracts.length > 0)
+        .map((question) => question.question);
+
+      if (evidenced.length > 0) {
+        return evidenced.slice(0, 8);
+      }
+    }
+
+    const synthesisDecisions = currentSynthesis?.recommendationsForBuenVivir.pointsToDecideSoon ?? [];
+    return [...currentTopic.decisionsForBuenVivir, ...synthesisDecisions].slice(0, 6);
+  }
+
+  function compactSolutionModels(model: TopicDecisionModel | null): SolutionApproach[] {
+    if (!model) {
+      return [];
+    }
+
+    const byName = new Map<string, SolutionApproach>();
+
+    for (const question of model.decisionQuestions) {
+      for (const approach of question.detectedApproaches) {
+        if (!byName.has(approach.name)) {
+          byName.set(approach.name, approach);
+        }
+      }
+    }
+
+    return [...byName.values()].slice(0, 5);
+  }
+
+  function compactTradeoffsAndRisks(
+    currentTopic: ConsultableTopic,
+    model: TopicDecisionModel | null,
+    currentSynthesis: GeneratedTopicSynthesis | null
+  ): string[] {
+    const modelItems = model ? [...model.commonTradeoffs, ...model.frequentRisks] : [];
+    const synthesisItems = currentSynthesis
+      ? [...currentSynthesis.summary.commonTradeoffs, ...currentSynthesis.summary.commonRisks]
+      : [];
+
+    return unique([...modelItems, ...synthesisItems, ...currentTopic.risks]).slice(0, 6);
+  }
+
+  function compactRecommendations(
+    currentTopic: ConsultableTopic,
+    model: TopicDecisionModel | null,
+    currentSynthesis: GeneratedTopicSynthesis | null
+  ): string[] {
+    const synthesisItems = currentSynthesis
+      ? [
+          ...currentSynthesis.recommendationsForBuenVivir.pointsToDecideSoon,
+          ...currentSynthesis.recommendationsForBuenVivir.minimalApproach
+        ]
+      : [];
+
+    return unique([...(model?.recommendationsForBuenVivir ?? []), ...currentTopic.decisionsForBuenVivir, ...synthesisItems]).slice(0, 5);
+  }
+
+  function compactStatutes(
+    currentTopic: ConsultableTopic,
+    model: TopicDecisionModel | null,
+    currentSynthesis: GeneratedTopicSynthesis | null
+  ): string[] {
+    return unique([
+      ...(model?.suggestedPlacement.statutes ?? []),
+      ...currentTopic.governancePlacement.shouldBeInStatutes,
+      ...(currentSynthesis?.governancePlacement.usuallyInStatutes ?? [])
+    ]).slice(0, 4);
+  }
+
+  function compactRri(
+    currentTopic: ConsultableTopic,
+    model: TopicDecisionModel | null,
+    currentSynthesis: GeneratedTopicSynthesis | null
+  ): string[] {
+    return unique([
+      ...(model?.suggestedPlacement.rri ?? []),
+      ...currentTopic.governancePlacement.shouldBeInRRI,
+      ...(currentSynthesis?.governancePlacement.usuallyInRRI ?? [])
+    ]).slice(0, 4);
+  }
+
+  function unique(values: string[]): string[] {
+    return [...new Set(values.filter(Boolean))];
+  }
 </script>
 
 <article class="topic-page">
-  <TopicHero {topic} referenceCount={refCount} projectCount={projectCount} />
+  <TopicHero {topic} />
 
-  <SoftCallout type="info" title="Aviso jurídico">
-    {legalDisclaimer}
-  </SoftCallout>
-
-  <EditorialSection title="Resumen rápido" subtitle="Puntos clave para entender este tema" density="compact">
-    <ul class="quick-summary">
-      {#each topic.minimumContents.slice(0, 5) as item}
-        <li>{item}</li>
-      {/each}
-    </ul>
-  </EditorialSection>
-
-  {#if synthesis}
-    <section class="analysis-section">
-      <EditorialSection
-        title="Análisis comparado"
-        subtitle="Cómo otros proyectos han resuelto esta cuestión"
-        density="spacious"
-      >
-        <SoftCallout type="note" title="Lectura orientativa">
-          Esta síntesis se basa en {synthesis.generatedFrom.referencesCount} referencias de {synthesis.generatedFrom.documents.length} documentos. Contrasta siempre con los documentos relacionados y solicita revisión jurídica antes de convertir estas observaciones en acuerdos.
-        </SoftCallout>
-
-        {#if synthesis.summary.overview.length > 0}
-          <InsightBlock type="pattern" label="Resumen">
-            <ul>
-              {#each synthesis.summary.overview as item}
-                <li>{item}</li>
-              {/each}
-            </ul>
-          </InsightBlock>
-        {/if}
-
-        {#if synthesis.summary.commonPatterns.length > 0}
-          <InsightBlock type="pattern" label="Patrones detectados">
-            <ul>
-              {#each synthesis.summary.commonPatterns as item}
-                <li>{item}</li>
-              {/each}
-            </ul>
-          </InsightBlock>
-        {/if}
-
-        {#if synthesis.summary.majorDifferences.length > 0}
-          <InsightBlock type="difference" label="Diferencias importantes">
-            <ul>
-              {#each synthesis.summary.majorDifferences as item}
-                <li>{item}</li>
-              {/each}
-            </ul>
-          </InsightBlock>
-        {/if}
-      </EditorialSection>
-
-      <EditorialSection title="Estatutos vs RRI" subtitle="Dónde suele regularse esta cuestión" density="spacious">
-        <ComparisonColumns
-          columns={[
-            { title: 'Estatutos', color: 'blue', items: synthesis.governancePlacement.usuallyInStatutes },
-            { title: 'RRI', color: 'green', items: synthesis.governancePlacement.usuallyInRRI }
-          ]}
-        />
-
-        {#if synthesis.governancePlacement.mixedApproaches.length > 0}
-          <div class="mixed-approaches">
-            <h4>Soluciones mixtas</h4>
-            <ul>
-              {#each synthesis.governancePlacement.mixedApproaches as item}
-                <li>{item}</li>
-              {/each}
-            </ul>
-          </div>
-        {/if}
-      </EditorialSection>
-
-      {#if synthesis.detectedTensions.length > 0 || synthesis.summary.commonRisks.length > 0}
-        <EditorialSection title="Riesgos y tensiones" subtitle="Qué observar y prevenir" density="spacious">
-          {#if synthesis.detectedTensions.length > 0}
-            <InsightBlock type="tension" label="Tensiones detectadas">
-              <ul>
-                {#each synthesis.detectedTensions as tension}
-                  <li>{tension}</li>
-                {/each}
-              </ul>
-            </InsightBlock>
-          {/if}
-
-          {#if synthesis.summary.commonRisks.length > 0}
-            <InsightBlock type="risk" label="Riesgos frecuentes">
-              <ul>
-                {#each synthesis.summary.commonRisks as risk}
-                  <li>{risk}</li>
-                {/each}
-              </ul>
-            </InsightBlock>
-          {/if}
-        </EditorialSection>
+  <section class="workbench">
+    <EditorialSection title="Qué debe decidir el grupo" density="compact">
+      {#if decisionQuestions.length > 0}
+        <DecisionChecklist title="Preguntas de trabajo" items={decisionQuestions} priority="high" />
+      {:else}
+        <p class="empty-note">No se han encontrado suficientes preguntas claras para este tema.</p>
       {/if}
-
-      <EditorialSection title="Decisiones para El Buen Vivir" subtitle="Qué definir y en qué orden" density="normal">
-        {#if synthesis.recommendationsForBuenVivir.pointsToDecideSoon.length > 0}
-          <DecisionChecklist
-            title="Decisiones que conviene tomar pronto"
-            items={synthesis.recommendationsForBuenVivir.pointsToDecideSoon}
-            priority="high"
-          />
-        {/if}
-
-        {#if synthesis.recommendationsForBuenVivir.minimalApproach.length > 0}
-          <DecisionChecklist
-            title="Enfoque mínimo"
-            items={synthesis.recommendationsForBuenVivir.minimalApproach}
-            priority="medium"
-          />
-        {/if}
-
-        {#if synthesis.recommendationsForBuenVivir.pointsThatCanWait.length > 0}
-          <DecisionChecklist
-            title="Cuestiones que pueden esperar"
-            items={synthesis.recommendationsForBuenVivir.pointsThatCanWait}
-            priority="low"
-          />
-        {/if}
-      </EditorialSection>
-    </section>
-  {/if}
-
-  <EditorialSection title="Ubicación recomendada" subtitle="Dónde conviene regular esta cuestión" density="compact">
-    <ComparisonColumns
-      columns={[
-        { title: 'Estatutos', color: 'blue', items: topic.governancePlacement.shouldBeInStatutes },
-        { title: 'RRI', color: 'green', items: topic.governancePlacement.shouldBeInRRI }
-      ]}
-    />
-  </EditorialSection>
-
-  {#if topic.risks.length > 0}
-    <EditorialSection title="Riesgos a valorar" density="compact">
-      <ul class="risk-list">
-        {#each topic.risks as risk}
-          <li>{risk}</li>
-        {/each}
-      </ul>
     </EditorialSection>
-  {/if}
 
-  {#if data.generatedReferences.length > 0}
-    <EditorialSection
-      title="Ejemplos de documentos"
-      subtitle="Referencias donde se trata este tema"
-      density="normal"
-    >
-      <ExpandableReferenceGroup
-        title="Referencias detectadas en documentos"
-        count={data.generatedReferences.length}
-        defaultExpanded={false}
-      >
-        <div class="references-list">
-          {#each data.generatedReferences as reference}
-            <ReferenceCard {reference} automatic />
+    {#if solutionModels.length > 0}
+      <EditorialSection title="Modelos de solución detectados" density="normal">
+        <div class="solution-grid">
+          {#each solutionModels as approach}
+            <CompactSolutionModel {approach} />
           {/each}
         </div>
-      </ExpandableReferenceGroup>
-    </EditorialSection>
-  {/if}
+      </EditorialSection>
+    {/if}
 
-  {#if topic.suggestedClause}
-    <EditorialSection title="Ejemplo orientativo" density="normal">
-      <SuggestedClauseBlock clause={topic.suggestedClause} />
+    {#if tradeoffsAndRisks.length > 0}
+      <EditorialSection title="Tradeoffs y riesgos" density="compact">
+        <CompactInsightList items={tradeoffsAndRisks} limit={6} />
+      </EditorialSection>
+    {/if}
+
+    <EditorialSection title="Estatutos vs RRI" density="compact">
+      <GovernanceSplit statutes={statutesItems} rri={rriItems} />
     </EditorialSection>
-  {/if}
+
+    {#if recommendations.length > 0}
+      <EditorialSection title="Recomendación para El Buen Vivir" density="compact">
+        <CompactInsightList items={recommendations} limit={5} tone="highlight" />
+      </EditorialSection>
+    {/if}
+
+    {#if decisionModel && decisionModel.limits.length > 0}
+      <EditorialSection title="Si falta evidencia" density="compact">
+        <CompactInsightList items={decisionModel.limits} limit={3} />
+      </EditorialSection>
+    {/if}
+  </section>
+
+  <EditorialSection title="Profundizar" subtitle="Evidencia y material de apoyo, cerrado por defecto" density="compact">
+    <CollapsibleReferences decisionModel={decisionModel} generatedReferences={data.generatedReferences} />
+
+    {#if topic.suggestedClause}
+      <div class="secondary-block">
+        <SuggestedClauseBlock clause={topic.suggestedClause} />
+      </div>
+    {/if}
+  </EditorialSection>
 
   {#if topic.relatedTopics && topic.relatedTopics.length > 0}
     <EditorialSection title="Temas relacionados" density="compact">
-      <RelatedTopicsCard
-        topicSlug={topic.slug}
-        relatedTopics={topic.relatedTopics}
-        topics={data.topics}
-      />
+      <RelatedTopicsCard topicSlug={topic.slug} relatedTopics={topic.relatedTopics} topics={data.topics} />
     </EditorialSection>
   {/if}
 </article>
 
-{#snippet renderList(items: string[])}
-  {#if items.length === 0}
-    <p class="empty-text">Sin información disponible</p>
-  {:else}
-    <ul>
-      {#each items as item}
-        <li>{item}</li>
-      {/each}
-    </ul>
-  {/if}
-{/snippet}
-
 <style>
   .topic-page {
-    max-width: 75ch;
+    max-width: 70ch;
     margin: 0 auto;
   }
 
-  .quick-summary {
-    padding-left: 1.25rem;
+  .workbench {
+    display: grid;
+    gap: 0.35rem;
   }
 
-  .quick-summary li {
-    margin-bottom: 0.5rem;
-    font-size: 0.95rem;
+  .solution-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    gap: 0.85rem;
   }
 
-  .analysis-section {
-    margin-top: 2rem;
-  }
-
-  .mixed-approaches {
-    margin-top: 1rem;
-    padding: 1rem;
-    background: #faf5ff;
-    border-radius: 4px;
-  }
-
-  .mixed-approaches h4 {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: #7e22ce;
-    margin: 0 0 0.5rem;
-  }
-
-  .mixed-approaches ul {
+  .empty-note {
     margin: 0;
-    padding-left: 1.25rem;
-  }
-
-  .mixed-approaches li {
-    font-size: 0.9rem;
-    margin-bottom: 0.35rem;
-  }
-
-  .risk-list {
-    list-style: none;
-    padding: 0;
-  }
-
-  .risk-list li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid var(--border);
-    font-size: 0.9rem;
-  }
-
-  .risk-list li:last-child {
-    border-bottom: none;
-  }
-
-  .references-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-  }
-
-  .empty-text {
-    font-size: 0.85rem;
+    padding: 0.9rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: #fafafa;
     color: var(--muted);
-    font-style: italic;
+    font-size: 0.92rem;
+  }
+
+  .secondary-block {
+    margin-top: 0.85rem;
+  }
+
+  @media (max-width: 640px) {
+    .topic-page {
+      max-width: 100%;
+    }
   }
 </style>

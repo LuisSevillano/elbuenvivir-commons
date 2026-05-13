@@ -1,0 +1,364 @@
+{
+  "topicSlug": "baja_socio",
+  "generatedAt": "2026-05-13T22:04:07.835Z",
+  "decisionQuestions": [
+    {
+      "id": "exit_process",
+      "question": "¿Qué pasos sigue una persona socia para darse de baja?",
+      "whyItMatters": [
+        "La salida afecta convivencia, uso de espacios y continuidad económica.",
+        "Evita improvisar cuando la relación ya está tensionada."
+      ],
+      "detectedApproaches": [
+        {
+          "name": "Salida con preaviso y cierre práctico",
+          "summary": "Regula comunicación, transición de uso y cierre de responsabilidades.",
+          "characteristics": [
+            "preaviso",
+            "entrega de uso",
+            "acompañamiento"
+          ],
+          "advantages": [
+            "facilita salidas no conflictivas"
+          ],
+          "risks": [
+            "puede quedarse corto ante tensiones económicas"
+          ],
+          "suitableFor": [
+            "grupos pequeños con baja rotación"
+          ],
+          "detectedInProjects": [
+            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+            "Estatutos Elciempies",
+            "Estatutos Los Girasoles",
+            "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4"
+          ],
+          "evidenceLevel": "medium"
+        },
+        {
+          "name": "Sustitución o lista de espera coordinada",
+          "summary": "Conecta la salida con entrada posterior sin privatizar la transmisión.",
+          "characteristics": [
+            "lista de espera",
+            "sustitución",
+            "gestión cooperativa"
+          ],
+          "advantages": [
+            "ordena continuidad",
+            "evita compraventas informales"
+          ],
+          "risks": [
+            "puede retrasar salidas"
+          ],
+          "suitableFor": [
+            "proyectos con derecho de uso asociado"
+          ],
+          "detectedInProjects": [
+            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+            "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+            "Estatutos Elciempies",
+            "Estatutos Los Girasoles",
+            "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4"
+          ],
+          "evidenceLevel": "high"
+        }
+      ],
+      "commonTradeoffs": [
+        "libertad de salida vs estabilidad del proyecto"
+      ],
+      "recommendationsForBuenVivir": [
+        "Definir preaviso y cierre práctico sin bloquear salidas legítimas."
+      ],
+      "relatedExtracts": [
+        "baja_socio-exit_process-1",
+        "baja_socio-exit_process-2",
+        "baja_socio-exit_process-3",
+        "baja_socio-exit_process-4",
+        "baja_socio-exit_process-5"
+      ],
+      "relatedProjects": [
+        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+        "Estatutos Elciempies",
+        "Estatutos Los Girasoles",
+        "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4"
+      ],
+      "suggestedPlacement": {
+        "statutes": [
+          "causas, clases de baja y efectos básicos"
+        ],
+        "rri": [
+          "comunicación, acompañamiento, llaves, uso y transición"
+        ]
+      }
+    },
+    {
+      "id": "exit_money",
+      "question": "¿Cuándo y cómo se devuelve el dinero?",
+      "whyItMatters": [
+        "El reembolso puede tensionar la liquidez común.",
+        "Una regla ambigua genera expectativas opuestas entre quien sale y quienes permanecen."
+      ],
+      "detectedApproaches": [
+        {
+          "name": "Salida con preaviso y cierre práctico",
+          "summary": "Regula comunicación, transición de uso y cierre de responsabilidades.",
+          "characteristics": [
+            "preaviso",
+            "entrega de uso",
+            "acompañamiento"
+          ],
+          "advantages": [
+            "facilita salidas no conflictivas"
+          ],
+          "risks": [
+            "puede quedarse corto ante tensiones económicas"
+          ],
+          "suitableFor": [
+            "grupos pequeños con baja rotación"
+          ],
+          "detectedInProjects": [
+            "Otras Leyes, Decretos, Modificaciones",
+            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+            "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+            "Estatutos Los Girasoles"
+          ],
+          "evidenceLevel": "medium"
+        },
+        {
+          "name": "Reembolso condicionado por reglas claras",
+          "summary": "Fija plazos, deducciones y coordinación con liquidez o nueva entrada.",
+          "characteristics": [
+            "plazos",
+            "deducciones",
+            "liquidez",
+            "documentación"
+          ],
+          "advantages": [
+            "protege a quien sale y al proyecto"
+          ],
+          "risks": [
+            "puede ser rígido si no contempla excepciones"
+          ],
+          "suitableFor": [
+            "proyectos con aportaciones significativas"
+          ],
+          "detectedInProjects": [
+            "Otras Leyes, Decretos, Modificaciones",
+            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+            "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+            "Estatutos Los Girasoles"
+          ],
+          "evidenceLevel": "high"
+        }
+      ],
+      "commonTradeoffs": [
+        "derecho de reembolso vs liquidez colectiva"
+      ],
+      "recommendationsForBuenVivir": [
+        "Prever plazos, deducciones y escenarios de falta de liquidez."
+      ],
+      "relatedExtracts": [
+        "baja_socio-exit_money-1",
+        "baja_socio-exit_money-2",
+        "baja_socio-exit_money-3",
+        "baja_socio-exit_money-4",
+        "baja_socio-exit_money-5"
+      ],
+      "relatedProjects": [
+        "Otras Leyes, Decretos, Modificaciones",
+        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+        "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "Estatutos Los Girasoles"
+      ],
+      "suggestedPlacement": {
+        "statutes": [
+          "derecho de reembolso, deducciones y plazos máximos"
+        ],
+        "rri": [
+          "calendario interno, documentación y comunicación"
+        ]
+      }
+    }
+  ],
+  "practicalPatterns": [
+    "Salida con preaviso y cierre práctico",
+    "Sustitución o lista de espera coordinada",
+    "Salida con preaviso y cierre práctico",
+    "Reembolso condicionado por reglas claras"
+  ],
+  "commonTradeoffs": [
+    "libertad de salida vs estabilidad del proyecto",
+    "derecho de reembolso vs liquidez colectiva"
+  ],
+  "frequentRisks": [
+    "puede quedarse corto ante tensiones económicas",
+    "puede retrasar salidas",
+    "puede ser rígido si no contempla excepciones"
+  ],
+  "recommendationsForBuenVivir": [
+    "Definir preaviso y cierre práctico sin bloquear salidas legítimas.",
+    "Prever plazos, deducciones y escenarios de falta de liquidez."
+  ],
+  "suggestedPlacement": {
+    "statutes": [
+      "causas, clases de baja y efectos básicos",
+      "derecho de reembolso, deducciones y plazos máximos"
+    ],
+    "rri": [
+      "comunicación, acompañamiento, llaves, uso y transición",
+      "calendario interno, documentación y comunicación"
+    ]
+  },
+  "relevantProjects": [
+    "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+    "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+    "Estatutos Elciempies",
+    "Estatutos Los Girasoles",
+    "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+    "Otras Leyes, Decretos, Modificaciones"
+  ],
+  "extracts": [
+    {
+      "id": "baja_socio-exit_process-1",
+      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
+      "articleOrSection": "Documento completo",
+      "excerpt": "GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR -- 1 of 62 -- DIRECCIÓN ELABORACIÓN JURÍDICA FGC ADCVOCATS, SCCL Cristina R. Grau López como autora con la colaboración de Ainhoa Domínguez Peña. COLABORA Diciembre 2024 Confederación Española de Cooperativas de Consumidores y Usuarios – HISPACOOP Quintana, 1 - 2º B ● 28008 Madrid Tel. 91 593 09 35 www.hispacoop.com La información publicada en este documento es exclusivamente a título informativo y no constituye una recomendación. HISPACO...",
+      "matchedConcepts": [
+        "baja voluntaria",
+        "sustitución o lista de espera"
+      ],
+      "score": 88
+    },
+    {
+      "id": "baja_socio-exit_process-2",
+      "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+      "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+      "documentType": "rri",
+      "sourcePath": "docs/rri/EJEMPLO_DE_REGLAMENTO_DE_REGIMEN_INTERNO_PARA_VIVIENDAS_COOPERATIVAS_EN_CESION_DE_USO.pdf",
+      "articleOrSection": "Artículo 3: Requisitos de Admisión",
+      "excerpt": "Artículo 3: Requisitos de Admisión 1. Requisitos para adquirir la condición de socio/a a) Los aspirantes a la cooperativa deben estar inscritos en el registro de solicitantes de vivienda, cumpliendo los requisitos establecidos por la legislación local. b) Ser residente empadronado en la localidad donde se desarrolla el proyecto. c) Demostrar recursos económicos limitados y la ausencia de propiedad inmobiliaria. d) Compromiso con los principios de convivencia y participación comunitaria. e) No se producirá ningún ti...",
+      "matchedConcepts": [
+        "sustitución o lista de espera"
+      ],
+      "score": 87
+    },
+    {
+      "id": "baja_socio-exit_process-3",
+      "documentSlug": "docs-estatutos-estatutos-elciempies",
+      "documentTitle": "Estatutos Elciempies",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
+      "articleOrSection": "CAPITULO II",
+      "excerpt": "CAPITULO II DE LAS PERSONAS SOCIAS Ar\u001aculo 9.- Clases de personas socias.  Personas socias de vivienda.- Son aquellas personas Esicas que \u000eenen plenos derechos y obligaciones recogidos en estos estatutos respecto de la vivienda o, en su caso, local, así como los elementos comunes. También puede ser socio/a de vivienda las siguientes personas jurídicas: los entes públicos y las en\u000edades sin ánimo de lucro, que precisen alojamiento para aquellas personas que, dependientes de ellos, tengan que residir, por razón de s...",
+      "matchedConcepts": [
+        "baja voluntaria",
+        "sustitución o lista de espera"
+      ],
+      "score": 79
+    },
+    {
+      "id": "baja_socio-exit_process-4",
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "documentTitle": "Estatutos Los Girasoles",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "articleOrSection": "CAPITULO II",
+      "excerpt": "CAPITULO II DE LAS PERSONAS SOCIAS Arơculo 11.- Clases de personas socias.  Personas socias de vivienda.- Son aquellas personas İsicas que Ɵenen plenos derechos y obligaciones recogidos en estos estatutos respecto de la vivienda o, en su caso, local, así como los elementos comunes. 7 -- 7 of 46 -- También puede ser socio/a de vivienda las siguientes personas jurídicas: los entes públicos y las enƟdades sin ánimo de lucro, que precisen alojamiento para aquellas personas que, dependientes de ellos, tengan que residi...",
+      "matchedConcepts": [
+        "baja voluntaria",
+        "sustitución o lista de espera"
+      ],
+      "score": 79
+    },
+    {
+      "id": "baja_socio-exit_process-5",
+      "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
+      "articleOrSection": "título constitutivo es precisamente el ingreso como socio en la cooperativa. Y que, por tanto, debe",
+      "excerpt": "título constitutivo es precisamente el ingreso como socio en la cooperativa. Y que, por tanto, debe regularse en los estatutos sociales de la cooperativa, ante la ausencia de normas legales que le den contenido. En los apartados que siguen, ofrecemos algunas pautas de cómo regularlo. c) El contenido y el alcance del derecho de uso Hemos dicho en el apartado anterior que el derecho de uso en las cooperativas de cohousing es un derecho específico, indisolublemente ligado a la condición de socio cooperativo. Este dere...",
+      "matchedConcepts": [
+        "baja voluntaria",
+        "sustitución o lista de espera"
+      ],
+      "score": 55
+    },
+    {
+      "id": "baja_socio-exit_money-1",
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+      "documentTitle": "BOE A 2010 20034 Orden+EHA+3360 2010",
+      "documentType": "ley",
+      "projectName": "Otras Leyes, Decretos, Modificaciones",
+      "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2010-20034_Orden+EHA+3360_2010.pdf",
+      "articleOrSection": "Artículo 2. \tÁmbito de aplicación.",
+      "excerpt": "Artículo 2. Ámbito de aplicación. 1. Las presentes Normas serán de aplicación obligatoria para las sociedades cooperativas. En todo lo no modificado específicamente en estas Normas, será de aplicación el Plan General de Contabilidad, en los términos previstos en el Real Decreto 1514/2007, de 16 de noviembre, así como las adaptaciones sectoriales y las Resoluciones del Instituto de Contabilidad y Auditoría de Cuentas aprobadas al amparo de las disposiciones finales primera y tercera, respectivamente, del citado Real...",
+      "matchedConcepts": [
+        "baja voluntaria",
+        "reembolso de aportaciones"
+      ],
+      "score": 331
+    },
+    {
+      "id": "baja_socio-exit_money-2",
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+      "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
+      "documentType": "ley",
+      "projectName": "Otras Leyes, Decretos, Modificaciones",
+      "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2007-19884-consolidado_RD+1514_2007.pdf",
+      "articleOrSection": "artículo 84 del Texto Refundido de la Ley de Sociedades Anónimas.",
+      "excerpt": "artículo 84 del Texto Refundido de la Ley de Sociedades Anónimas. Con carácter general, el contenido y movimiento de las cuentas citadas de cuatro cifras es el siguiente: 1140. Reservas para acciones o participaciones de la sociedad dominante Las constituidas obligatoriamente en caso de adquisición de acciones o participaciones de la sociedad dominante y en tanto éstas no sean enajenadas (artículo 79.3.a del Texto Refundido de la Ley de Sociedades Anónimas y artículo 40.bis de la Ley de Sociedades de Responsabilida...",
+      "matchedConcepts": [
+        "reembolso de aportaciones"
+      ],
+      "score": 326
+    },
+    {
+      "id": "baja_socio-exit_money-3",
+      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
+      "articleOrSection": "Documento completo",
+      "excerpt": "GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR -- 1 of 62 -- DIRECCIÓN ELABORACIÓN JURÍDICA FGC ADCVOCATS, SCCL Cristina R. Grau López como autora con la colaboración de Ainhoa Domínguez Peña. COLABORA Diciembre 2024 Confederación Española de Cooperativas de Consumidores y Usuarios – HISPACOOP Quintana, 1 - 2º B ● 28008 Madrid Tel. 91 593 09 35 www.hispacoop.com La información publicada en este documento es exclusivamente a título informativo y no constituye una recomendación. HISPACO...",
+      "matchedConcepts": [
+        "baja voluntaria",
+        "reembolso de aportaciones"
+      ],
+      "score": 250
+    },
+    {
+      "id": "baja_socio-exit_money-4",
+      "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
+      "articleOrSection": "Documento completo",
+      "excerpt": "COHOUSING SENIOR Y COOPERATIVISMO DE CONSUMO -- 1 of 54 -- Diciembre 2018 Madrid -- 2 of 54 -- Índice 1. Introducción _____________________________________5 2. Definición de un proyecto de cohousing senior _________6 3. Aspectos urbanísticos a considerar __________________ 10 4. Aspectos societarios de la cooperativa _______________ 14 5. Algunos aspectos fiscales a tener en cuenta __________39 6. La gobernanza y la gestión _______________________ 43 -- 3 of 54 -- 4 COHOUSING SENIOR Y COOPERATIVISMO DE CONSUMO -- 4...",
+      "matchedConcepts": [
+        "baja voluntaria",
+        "reembolso de aportaciones"
+      ],
+      "score": 109
+    },
+    {
+      "id": "baja_socio-exit_money-5",
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "documentTitle": "Estatutos Los Girasoles",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "excerpt": "CAPÍTULO IV RÉGIMEN ECONÓMICO DE LA COOPERATIVA Arơculo 39.- Responsabilidad de la cooperaƟva y de las personas socias. La cooperaƟva responderá de las deudas contraídas con todo su patrimonio presente y futuro. La responsabilidad de la persona socia por las deudas sociales estará limitada a las aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito, estén o no desembolsadas en su totalidad. No obstante, en caso de baja o expulsión, la persona socia responderá personalmente por la...",
+      "matchedConcepts": [
+        "baja voluntaria",
+        "reembolso de aportaciones"
+      ],
+      "score": 100
+    }
+  ],
+  "limits": []
+}

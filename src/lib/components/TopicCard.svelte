@@ -9,6 +9,7 @@
 
   const statusTone = $derived(topic.status === 'reviewed' ? 'success' : 'warning');
   const availabilityBadge = $derived('availabilityBadge' in topic ? topic.availabilityBadge : null);
+  const placement = $derived(topic.governancePlacement.recommendedPrimaryLocation);
 </script>
 
 <a class="topic-card" href={`/temas/${topic.slug}`}>
@@ -24,7 +25,16 @@
   </div>
   <h2>{topic.title}</h2>
   <p>{topic.shortDescription}</p>
-  <span class="reference-count">{referenceCount} referencias</span>
+  <div class="card-footer">
+    <div class="placement-key" aria-label="Ubicación normativa recomendada">
+      <span class:active={placement === 'estatutos' || placement === 'mixed'} class="placement-pill statutes">Estatutos</span>
+      <span class:active={placement === 'rri' || placement === 'mixed'} class="placement-pill rri">RRI</span>
+      {#if placement === 'case_by_case'}
+        <span class="placement-pill neutral active">Caso por caso</span>
+      {/if}
+    </div>
+    <span class="reference-count">{referenceCount} referencias</span>
+  </div>
 </a>
 
 <style>
@@ -62,6 +72,52 @@
   p {
     color: var(--muted);
     margin: 0 0 1rem;
+  }
+
+  .card-footer {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: space-between;
+  }
+
+  .placement-key {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .placement-pill {
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--muted);
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1;
+    opacity: 0.42;
+    padding: 0.35rem 0.45rem;
+  }
+
+  .placement-pill.active {
+    opacity: 1;
+  }
+
+  .placement-pill.statutes.active {
+    background: #eef5ff;
+    border-color: #bfdbfe;
+    color: #1d4ed8;
+  }
+
+  .placement-pill.rri.active {
+    background: #eefdf3;
+    border-color: #bbf7d0;
+    color: #15803d;
+  }
+
+  .placement-pill.neutral.active {
+    background: #f5f5f5;
+    color: #525252;
   }
 
   .reference-count {

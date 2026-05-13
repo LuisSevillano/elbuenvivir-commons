@@ -1,0 +1,310 @@
+{
+  "topicSlug": "conflictos_y_mediacion",
+  "generatedAt": "2026-05-13T22:04:11.680Z",
+  "decisionQuestions": [
+    {
+      "id": "conflict_path",
+      "question": "¿Qué conflictos se gestionan informalmente y cuáles requieren procedimiento?",
+      "whyItMatters": [
+        "No todos los desacuerdos deben convertirse en expediente.",
+        "Un cauce escalonado evita tanto la evitación como la judicialización interna."
+      ],
+      "detectedApproaches": [
+        {
+          "name": "Mediación escalonada",
+          "summary": "Empieza por escucha y mediación antes de formalizar sanciones.",
+          "characteristics": [
+            "primer contacto",
+            "mediación",
+            "escalado gradual"
+          ],
+          "advantages": [
+            "cuida relaciones",
+            "evita expedientes prematuros"
+          ],
+          "risks": [
+            "puede dilatar conflictos graves"
+          ],
+          "suitableFor": [
+            "conflictos convivenciales"
+          ],
+          "detectedInProjects": [
+            "Otras Leyes, Decretos, Modificaciones",
+            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+            "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+            "Estatutos Los Girasoles",
+            "Estatutos Elciempies"
+          ],
+          "evidenceLevel": "high"
+        }
+      ],
+      "commonTradeoffs": [
+        "cuidado relacional vs garantías formales"
+      ],
+      "recommendationsForBuenVivir": [
+        "Definir una primera vía de escucha/mediación antes de activar sanciones."
+      ],
+      "relatedExtracts": [
+        "conflictos_y_mediacion-conflict_path-1",
+        "conflictos_y_mediacion-conflict_path-2",
+        "conflictos_y_mediacion-conflict_path-3",
+        "conflictos_y_mediacion-conflict_path-4",
+        "conflictos_y_mediacion-conflict_path-5"
+      ],
+      "relatedProjects": [
+        "Otras Leyes, Decretos, Modificaciones",
+        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+        "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "Estatutos Los Girasoles",
+        "Estatutos Elciempies"
+      ],
+      "suggestedPlacement": {
+        "statutes": [
+          "principios, garantías y régimen disciplinario básico"
+        ],
+        "rri": [
+          "pasos de mediación, plazos, documentación y personas de referencia"
+        ]
+      }
+    },
+    {
+      "id": "last_resort",
+      "question": "¿Cuándo un conflicto puede llegar a sanción o expulsión?",
+      "whyItMatters": [
+        "Las sanciones necesitan garantías para proteger al grupo y a la persona afectada.",
+        "Evita que conflictos convivenciales acaben en decisiones arbitrarias."
+      ],
+      "detectedApproaches": [
+        {
+          "name": "Procedimiento garantista",
+          "summary": "Reserva sanciones para incumplimientos graves con audiencia y recurso.",
+          "characteristics": [
+            "faltas",
+            "audiencia",
+            "órgano competente",
+            "recurso"
+          ],
+          "advantages": [
+            "reduce arbitrariedad",
+            "protege al grupo"
+          ],
+          "risks": [
+            "puede ser pesado para conflictos menores"
+          ],
+          "suitableFor": [
+            "incumplimientos graves o reiterados"
+          ],
+          "detectedInProjects": [
+            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+            "Otras Leyes, Decretos, Modificaciones",
+            "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+            "Estatutos Los Girasoles",
+            "Estatutos Elciempies"
+          ],
+          "evidenceLevel": "high"
+        }
+      ],
+      "commonTradeoffs": [
+        "protección del grupo vs garantías individuales"
+      ],
+      "recommendationsForBuenVivir": [
+        "Reservar sanciones para incumplimientos graves y documentados."
+      ],
+      "relatedExtracts": [
+        "conflictos_y_mediacion-last_resort-1",
+        "conflictos_y_mediacion-last_resort-2",
+        "conflictos_y_mediacion-last_resort-3",
+        "conflictos_y_mediacion-last_resort-4",
+        "conflictos_y_mediacion-last_resort-5"
+      ],
+      "relatedProjects": [
+        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+        "Otras Leyes, Decretos, Modificaciones",
+        "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "Estatutos Los Girasoles",
+        "Estatutos Elciempies"
+      ],
+      "suggestedPlacement": {
+        "statutes": [
+          "faltas, órgano competente, audiencia y recurso"
+        ],
+        "rri": [
+          "mediación previa, preparación del expediente y acompañamiento"
+        ]
+      }
+    }
+  ],
+  "practicalPatterns": [
+    "Mediación escalonada",
+    "Procedimiento garantista"
+  ],
+  "commonTradeoffs": [
+    "cuidado relacional vs garantías formales",
+    "protección del grupo vs garantías individuales"
+  ],
+  "frequentRisks": [
+    "puede dilatar conflictos graves",
+    "puede ser pesado para conflictos menores"
+  ],
+  "recommendationsForBuenVivir": [
+    "Definir una primera vía de escucha/mediación antes de activar sanciones.",
+    "Reservar sanciones para incumplimientos graves y documentados."
+  ],
+  "suggestedPlacement": {
+    "statutes": [
+      "principios, garantías y régimen disciplinario básico",
+      "faltas, órgano competente, audiencia y recurso"
+    ],
+    "rri": [
+      "pasos de mediación, plazos, documentación y personas de referencia",
+      "mediación previa, preparación del expediente y acompañamiento"
+    ]
+  },
+  "relevantProjects": [
+    "Otras Leyes, Decretos, Modificaciones",
+    "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+    "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+    "Estatutos Los Girasoles",
+    "Estatutos Elciempies"
+  ],
+  "extracts": [
+    {
+      "id": "conflictos_y_mediacion-conflict_path-1",
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+      "documentTitle": "BOE A 2010 20034 Orden+EHA+3360 2010",
+      "documentType": "ley",
+      "projectName": "Otras Leyes, Decretos, Modificaciones",
+      "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2010-20034_Orden+EHA+3360_2010.pdf",
+      "articleOrSection": "Artículo 2. \tÁmbito de aplicación.",
+      "excerpt": "...os previstos en el Real Decreto 1514/2007, de 16 de noviembre, así como las adaptaciones sectoriales y las Resoluciones del Instituto de Contabilidad y Auditoría de Cuentas aprobadas al amparo de las disposiciones finales primera y tercera, respectivamente, del citado Real Decreto. 2. Las cooperativas que, de acuerdo con lo establecido en los artículos 2 y 4 del Real Decreto 1515/2007, de 16 de noviembre, hayan optado por aplicar el Plan General de Contabilidad de Pequeñas y Medianas Empresas o, en su caso, los cri...",
+      "matchedConcepts": [
+        "escalado del conflicto"
+      ],
+      "score": 308
+    },
+    {
+      "id": "conflictos_y_mediacion-conflict_path-2",
+      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
+      "articleOrSection": "Documento completo",
+      "excerpt": "...ste documento es exclusivamente a título informativo y no constituye una recomendación. HISPACOOP no se hace responable del uso que pueda darse a la información incluida. © HISPACOOP Todos los derechos reservados. Queda prohibida la reproducción total o parcial del material protegido por los derechos de propiedad intelectual, o su uso en cualquier forma, o por cualquier medio, ya sea electrónico o mecánico, incluyendo fotocopiado, grabación, transmisión o cualquier sistema de almacenamiento y recuperación de inform...",
+      "matchedConcepts": [
+        "escalado del conflicto"
+      ],
+      "score": 251
+    },
+    {
+      "id": "conflictos_y_mediacion-conflict_path-3",
+      "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
+      "articleOrSection": "título constitutivo es precisamente el ingreso como socio en la cooperativa. Y que, por tanto, debe",
+      "excerpt": "...le den contenido. En los apartados que siguen, ofrecemos algunas pautas de cómo regularlo. c) El contenido y el alcance del derecho de uso Hemos dicho en el apartado anterior que el derecho de uso en las cooperativas de cohousing es un derecho específico, indisolublemente ligado a la condición de socio cooperativo. Este derecho consiste en el disfrute privativo por parte del socio usuario de las viviendas o dependencias susceptibles de uso privativo y también comporta el derecho a usar y servirse de los elementos e...",
+      "matchedConcepts": [
+        "mediación",
+        "escalado del conflicto"
+      ],
+      "score": 211
+    },
+    {
+      "id": "conflictos_y_mediacion-conflict_path-4",
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "documentTitle": "Estatutos Los Girasoles",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "articleOrSection": "CAPITULO II",
+      "excerpt": "...a persona socia de vivienda como a la persona beneficiaria, se enƟende como convivencia habitual cuando éstas hacen uso del servicio de alojamiento prestado por esta cooperaƟva durante un mínimo de 10 meses al año, excepto causas jusƟficadas que se recogerán en el Reglamento de Régimen Interno. Para la consideración de residencia habitual y permanente se aplicará el mismo criterio anterior.  Personas socias de consumo.- Además de las personas socias de vivienda son socias de consumo aquellas que Ɵenen plenos derec...",
+      "matchedConcepts": [
+        "escalado del conflicto"
+      ],
+      "score": 170
+    },
+    {
+      "id": "conflictos_y_mediacion-conflict_path-5",
+      "documentSlug": "docs-estatutos-estatutos-elciempies",
+      "documentTitle": "Estatutos Elciempies",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
+      "articleOrSection": "CAPITULO II",
+      "excerpt": "...la persona socia de vivienda como a la persona bene,ciaria, se en\u000eende como convivencia habitual cuando éstas hacen uso del servicio de alojamiento prestado por esta coopera\u000eva durante un mínimo de 10 meses al año, excepto causas jus\u000e,cadas que se recogerán en el Reglamento de Régimen Interno. Para la consideración de residencia habitual y permanente se aplicará el mismo criterio anterior.  Personas socias de consumo.- Son aquellas que \u000eenen plenos derechos y obligaciones recogidos en estos estatutos respecto al u...",
+      "matchedConcepts": [
+        "escalado del conflicto"
+      ],
+      "score": 167
+    },
+    {
+      "id": "conflictos_y_mediacion-last_resort-1",
+      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
+      "articleOrSection": "Documento completo",
+      "excerpt": "...ste documento es exclusivamente a título informativo y no constituye una recomendación. HISPACOOP no se hace responable del uso que pueda darse a la información incluida. © HISPACOOP Todos los derechos reservados. Queda prohibida la reproducción total o parcial del material protegido por los derechos de propiedad intelectual, o su uso en cualquier forma, o por cualquier medio, ya sea electrónico o mecánico, incluyendo fotocopiado, grabación, transmisión o cualquier sistema de almacenamiento y recuperación de inform...",
+      "matchedConcepts": [
+        "régimen disciplinario",
+        "escalado del conflicto"
+      ],
+      "score": 322
+    },
+    {
+      "id": "conflictos_y_mediacion-last_resort-2",
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+      "documentTitle": "BOE A 2010 20034 Orden+EHA+3360 2010",
+      "documentType": "ley",
+      "projectName": "Otras Leyes, Decretos, Modificaciones",
+      "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2010-20034_Orden+EHA+3360_2010.pdf",
+      "articleOrSection": "Artículo 2. \tÁmbito de aplicación.",
+      "excerpt": "...os previstos en el Real Decreto 1514/2007, de 16 de noviembre, así como las adaptaciones sectoriales y las Resoluciones del Instituto de Contabilidad y Auditoría de Cuentas aprobadas al amparo de las disposiciones finales primera y tercera, respectivamente, del citado Real Decreto. 2. Las cooperativas que, de acuerdo con lo establecido en los artículos 2 y 4 del Real Decreto 1515/2007, de 16 de noviembre, hayan optado por aplicar el Plan General de Contabilidad de Pequeñas y Medianas Empresas o, en su caso, los cri...",
+      "matchedConcepts": [
+        "escalado del conflicto"
+      ],
+      "score": 308
+    },
+    {
+      "id": "conflictos_y_mediacion-last_resort-3",
+      "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
+      "articleOrSection": "título constitutivo es precisamente el ingreso como socio en la cooperativa. Y que, por tanto, debe",
+      "excerpt": "...le den contenido. En los apartados que siguen, ofrecemos algunas pautas de cómo regularlo. c) El contenido y el alcance del derecho de uso Hemos dicho en el apartado anterior que el derecho de uso en las cooperativas de cohousing es un derecho específico, indisolublemente ligado a la condición de socio cooperativo. Este derecho consiste en el disfrute privativo por parte del socio usuario de las viviendas o dependencias susceptibles de uso privativo y también comporta el derecho a usar y servirse de los elementos e...",
+      "matchedConcepts": [
+        "régimen disciplinario",
+        "escalado del conflicto"
+      ],
+      "score": 226
+    },
+    {
+      "id": "conflictos_y_mediacion-last_resort-4",
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "documentTitle": "Estatutos Los Girasoles",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "articleOrSection": "CAPITULO II",
+      "excerpt": "...a persona socia de vivienda como a la persona beneficiaria, se enƟende como convivencia habitual cuando éstas hacen uso del servicio de alojamiento prestado por esta cooperaƟva durante un mínimo de 10 meses al año, excepto causas jusƟficadas que se recogerán en el Reglamento de Régimen Interno. Para la consideración de residencia habitual y permanente se aplicará el mismo criterio anterior.  Personas socias de consumo.- Además de las personas socias de vivienda son socias de consumo aquellas que Ɵenen plenos derec...",
+      "matchedConcepts": [
+        "régimen disciplinario",
+        "escalado del conflicto"
+      ],
+      "score": 223
+    },
+    {
+      "id": "conflictos_y_mediacion-last_resort-5",
+      "documentSlug": "docs-estatutos-estatutos-elciempies",
+      "documentTitle": "Estatutos Elciempies",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
+      "articleOrSection": "CAPITULO II",
+      "excerpt": "...la persona socia de vivienda como a la persona bene,ciaria, se en\u000eende como convivencia habitual cuando éstas hacen uso del servicio de alojamiento prestado por esta coopera\u000eva durante un mínimo de 10 meses al año, excepto causas jus\u000e,cadas que se recogerán en el Reglamento de Régimen Interno. Para la consideración de residencia habitual y permanente se aplicará el mismo criterio anterior.  Personas socias de consumo.- Son aquellas que \u000eenen plenos derechos y obligaciones recogidos en estos estatutos respecto al u...",
+      "matchedConcepts": [
+        "régimen disciplinario",
+        "escalado del conflicto"
+      ],
+      "score": 220
+    }
+  ],
+  "limits": []
+}

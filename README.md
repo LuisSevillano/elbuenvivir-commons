@@ -108,6 +108,27 @@ pnpm audit:syntheses
 
 La salida se escribe en `src/content/generated/synthesis-quality-report.json` y `docs/reports/synthesis-quality-report.md`.
 
+## Decision Intelligence
+
+La Fase 24 añade una capa de modelos de decisión cooperativa. No sustituye al índice temático ni a las síntesis: construye una lectura más práctica a partir de secciones reales, preguntando qué problema organizativo aparece, qué modelos de solución pueden compararse y qué evidencia documental sostiene cada observación.
+
+```sh
+pnpm build:decision-models
+```
+
+El script escribe `src/content/generated/decision-models/{topicSlug}.json` y `src/content/generated/decision-models-report.json`. Los temas priorizados son `invitados`, `reservas_estancias_pernoctas`, `uso_espacios_comunes`, `desigualdad_aportaciones`, `baja_socio`, `toma_decisiones`, `convivencia` y `conflictos_y_mediacion`.
+
+Cada modelo se organiza alrededor de `DecisionQuestion`: pregunta real, importancia práctica, enfoques detectados, tradeoffs, recomendaciones, proyectos relacionados, ubicación probable entre Estatutos/RRI y extractos trazables. Los `SolutionApproach` solo se muestran cuando hay extractos que activan los conceptos asociados.
+
+La detección usa matching contextual, no simple presencia de keywords. Para conceptos ambiguos como `reserva`, exige proximidad con términos como estancia, habitación, calendario, invitados, noche, pernocta, espacio, uso o disponibilidad. También aplica exclusiones contextuales para evitar ruido como fondo de reserva, reserva legal, reserva contable o capital social. El sistema puntúa coocurrencias dentro de ventanas de palabras y descarta secciones que no alcanzan evidencia mínima.
+
+Límites importantes:
+
+- No usa IA externa, embeddings ni APIs.
+- No inventa acuerdos: si faltan extractos claros, el modelo lo declara como evidencia insuficiente.
+- Los enfoques son patrones editoriales apoyados en evidencia, no asesoramiento jurídico definitivo.
+- La calidad depende de la extracción, la división en secciones y la cobertura real de los documentos fuente.
+
 ## Validación
 
 ```sh

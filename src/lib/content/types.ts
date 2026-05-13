@@ -16,6 +16,7 @@ export type TopicCategory =
 export type TopicStatus = 'draft' | 'reviewed' | 'needs_legal_review';
 export type ReviewStatus = 'auto' | 'reviewed' | 'rejected';
 export type Confidence = 'high' | 'medium' | 'low';
+export type EvidenceLevel = 'high' | 'medium' | 'low';
 
 export interface SourceDocument {
   slug: string;
@@ -110,6 +111,62 @@ export interface ConsultableTopic extends GovernanceTopic {
   referenceCount: number;
   documentCount: number;
   projectCount: number;
+}
+
+export interface SolutionApproach {
+  name: string;
+  summary: string;
+  characteristics: string[];
+  advantages: string[];
+  risks: string[];
+  suitableFor: string[];
+  detectedInProjects: string[];
+  evidenceLevel: EvidenceLevel;
+}
+
+export interface DecisionQuestion {
+  id: string;
+  question: string;
+  whyItMatters: string[];
+  detectedApproaches: SolutionApproach[];
+  commonTradeoffs: string[];
+  recommendationsForBuenVivir: string[];
+  relatedExtracts: string[];
+  relatedProjects: string[];
+  suggestedPlacement: {
+    statutes: string[];
+    rri: string[];
+  };
+}
+
+export interface DecisionModelExtract {
+  id: string;
+  documentSlug: string;
+  documentTitle: string;
+  documentType: DocumentType;
+  projectName?: string;
+  sourcePath: string;
+  articleOrSection?: string;
+  excerpt: string;
+  matchedConcepts: string[];
+  score: number;
+}
+
+export interface TopicDecisionModel {
+  topicSlug: string;
+  generatedAt: string;
+  decisionQuestions: DecisionQuestion[];
+  practicalPatterns: string[];
+  commonTradeoffs: string[];
+  frequentRisks: string[];
+  recommendationsForBuenVivir: string[];
+  suggestedPlacement: {
+    statutes: string[];
+    rri: string[];
+  };
+  relevantProjects: string[];
+  extracts: DecisionModelExtract[];
+  limits: string[];
 }
 
 export interface GeneratedTopicDraft extends GovernanceTopic {

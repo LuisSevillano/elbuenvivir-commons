@@ -33,24 +33,24 @@
 
 <style>
   .decision-checklist {
-    margin: 1.5rem 0;
-    padding: 1.25rem;
+    margin: 0;
+    padding: 0.95rem;
     background: var(--surface);
     border-radius: 4px;
     border: 1px solid var(--border);
   }
 
   .checklist-title {
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 600;
     color: var(--heading);
-    margin: 0 0 0.75rem;
+    margin: 0 0 0.55rem;
   }
 
   .priority-label {
     font-size: 0.8rem;
     font-weight: 600;
-    margin: 0 0 0.75rem;
+    margin: 0 0 0.5rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
@@ -65,9 +65,9 @@
     display: flex;
     align-items: flex-start;
     gap: 0.75rem;
-    padding: 0.5rem 0;
+    padding: 0.32rem 0;
     font-size: 0.9rem;
-    line-height: 1.5;
+    line-height: 1.38;
   }
 
   .checkbox {

@@ -1,0 +1,348 @@
+{
+  "topicSlug": "convivencia",
+  "generatedAt": "2026-05-13T22:04:13.491Z",
+  "decisionQuestions": [
+    {
+      "id": "daily_rules_scope",
+      "question": "¿Qué reglas de convivencia conviene acordar desde el inicio?",
+      "whyItMatters": [
+        "La convivencia cotidiana acumula tensiones pequeñas si no hay criterios compartidos.",
+        "Un grupo flexible necesita pocas reglas, pero suficientemente claras."
+      ],
+      "detectedApproaches": [
+        {
+          "name": "Reglas mínimas revisables",
+          "summary": "Acuerda pocas pautas de convivencia y las revisa tras experiencia real.",
+          "characteristics": [
+            "mínimos claros",
+            "revisión periódica",
+            "lenguaje práctico"
+          ],
+          "advantages": [
+            "evita sobrerregular",
+            "permite aprendizaje"
+          ],
+          "risks": [
+            "puede dejar zonas grises"
+          ],
+          "suitableFor": [
+            "grupos pequeños y flexibles"
+          ],
+          "detectedInProjects": [
+            "Las GuíAs De Sostre CíVic",
+            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024"
+          ],
+          "evidenceLevel": "medium"
+        },
+        {
+          "name": "Turnos y responsabilidades explícitas",
+          "summary": "Distribuye tareas comunes para evitar cargas invisibles.",
+          "characteristics": [
+            "turnos",
+            "responsables",
+            "seguimiento ligero"
+          ],
+          "advantages": [
+            "hace visible el cuidado",
+            "reduce reproches"
+          ],
+          "risks": [
+            "puede sentirse burocrático"
+          ],
+          "suitableFor": [
+            "espacios comunes con mantenimiento recurrente"
+          ],
+          "detectedInProjects": [
+            "Las GuíAs De Sostre CíVic",
+            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024"
+          ],
+          "evidenceLevel": "medium"
+        }
+      ],
+      "commonTradeoffs": [
+        "autonomía personal vs cuidado común"
+      ],
+      "recommendationsForBuenVivir": [
+        "Empezar por reglas mínimas sobre uso, cuidado y revisión periódica."
+      ],
+      "relatedExtracts": [
+        "convivencia-daily_rules_scope-1",
+        "convivencia-daily_rules_scope-2",
+        "convivencia-daily_rules_scope-3",
+        "convivencia-daily_rules_scope-4",
+        "convivencia-daily_rules_scope-5"
+      ],
+      "relatedProjects": [
+        "Las GuíAs De Sostre CíVic",
+        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024"
+      ],
+      "suggestedPlacement": {
+        "statutes": [
+          "principios generales de respeto, cuidado y participación"
+        ],
+        "rri": [
+          "normas prácticas, turnos, revisión y gestión de incidencias"
+        ]
+      }
+    },
+    {
+      "id": "informal_or_formal_conflict",
+      "question": "¿Cuándo una tensión cotidiana pasa a mediación o procedimiento?",
+      "whyItMatters": [
+        "Permite no sobrerregular cada desacuerdo, pero evita dejar conflictos sin cauce.",
+        "Distingue malestar ordinario, incumplimiento reiterado y conflicto grave."
+      ],
+      "detectedApproaches": [
+        {
+          "name": "Reglas mínimas revisables",
+          "summary": "Acuerda pocas pautas de convivencia y las revisa tras experiencia real.",
+          "characteristics": [
+            "mínimos claros",
+            "revisión periódica",
+            "lenguaje práctico"
+          ],
+          "advantages": [
+            "evita sobrerregular",
+            "permite aprendizaje"
+          ],
+          "risks": [
+            "puede dejar zonas grises"
+          ],
+          "suitableFor": [
+            "grupos pequeños y flexibles"
+          ],
+          "detectedInProjects": [
+            "Las GuíAs De Sostre CíVic",
+            "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4"
+          ],
+          "evidenceLevel": "medium"
+        },
+        {
+          "name": "Cauce temprano de mediación",
+          "summary": "Activa escucha o facilitación antes de que el desacuerdo escale.",
+          "characteristics": [
+            "conversación temprana",
+            "persona de referencia",
+            "seguimiento"
+          ],
+          "advantages": [
+            "previene enquistamiento",
+            "cuida vínculos"
+          ],
+          "risks": [
+            "requiere confianza en el cauce"
+          ],
+          "suitableFor": [
+            "conflictos cotidianos o repetidos"
+          ],
+          "detectedInProjects": [
+            "Las GuíAs De Sostre CíVic",
+            "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4"
+          ],
+          "evidenceLevel": "medium"
+        }
+      ],
+      "commonTradeoffs": [
+        "confianza informal vs cauce claro"
+      ],
+      "recommendationsForBuenVivir": [
+        "Definir una primera conversación facilitada antes de activar mecanismos formales."
+      ],
+      "relatedExtracts": [
+        "convivencia-informal_or_formal_conflict-1",
+        "convivencia-informal_or_formal_conflict-2",
+        "convivencia-informal_or_formal_conflict-3",
+        "convivencia-informal_or_formal_conflict-4",
+        "convivencia-informal_or_formal_conflict-5"
+      ],
+      "relatedProjects": [
+        "Las GuíAs De Sostre CíVic",
+        "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4"
+      ],
+      "suggestedPlacement": {
+        "statutes": [
+          "principios de convivencia y garantías básicas"
+        ],
+        "rri": [
+          "pasos de escucha, mediación y seguimiento"
+        ]
+      }
+    }
+  ],
+  "practicalPatterns": [
+    "Reglas mínimas revisables",
+    "Turnos y responsabilidades explícitas",
+    "Reglas mínimas revisables",
+    "Cauce temprano de mediación"
+  ],
+  "commonTradeoffs": [
+    "autonomía personal vs cuidado común",
+    "confianza informal vs cauce claro"
+  ],
+  "frequentRisks": [
+    "puede dejar zonas grises",
+    "puede sentirse burocrático",
+    "requiere confianza en el cauce"
+  ],
+  "recommendationsForBuenVivir": [
+    "Empezar por reglas mínimas sobre uso, cuidado y revisión periódica.",
+    "Definir una primera conversación facilitada antes de activar mecanismos formales."
+  ],
+  "suggestedPlacement": {
+    "statutes": [
+      "principios generales de respeto, cuidado y participación",
+      "principios de convivencia y garantías básicas"
+    ],
+    "rri": [
+      "normas prácticas, turnos, revisión y gestión de incidencias",
+      "pasos de escucha, mediación y seguimiento"
+    ]
+  },
+  "relevantProjects": [
+    "Las GuíAs De Sostre CíVic",
+    "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+    "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4"
+  ],
+  "extracts": [
+    {
+      "id": "convivencia-daily_rules_scope-1",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "Título original: La construcció i la cura dels grups",
+      "excerpt": "Título original: La construcció i la cura dels grups La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 211 of 377 -- -- 212 of 377 -- Cuidados...",
+      "matchedConcepts": [
+        "normas de convivencia cotidiana",
+        "cuidados, limpieza y mantenimiento ordinario"
+      ],
+      "score": 907
+    },
+    {
+      "id": "convivencia-daily_rules_scope-2",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "Título original: Transformem l’entorn",
+      "excerpt": "Título original: Transformem l’entorn La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 128 of 377 -- -- 129 of 377 -- La construcción y el cu...",
+      "matchedConcepts": [
+        "normas de convivencia cotidiana",
+        "cuidados, limpieza y mantenimiento ordinario"
+      ],
+      "score": 124
+    },
+    {
+      "id": "convivencia-daily_rules_scope-3",
+      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
+      "articleOrSection": "Documento completo",
+      "excerpt": "GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR -- 1 of 62 -- DIRECCIÓN ELABORACIÓN JURÍDICA FGC ADCVOCATS, SCCL Cristina R. Grau López como autora con la colaboración de Ainhoa Domínguez Peña. COLABORA Diciembre 2024 Confederación Española de Cooperativas de Consumidores y Usuarios – HISPACOOP Quintana, 1 - 2º B ● 28008 Madrid Tel. 91 593 09 35 www.hispacoop.com La información publicada en este documento es exclusivamente a título informativo y no constituye una recomendación. HISPACO...",
+      "matchedConcepts": [
+        "normas de convivencia cotidiana",
+        "cuidados, limpieza y mantenimiento ordinario"
+      ],
+      "score": 112
+    },
+    {
+      "id": "convivencia-daily_rules_scope-4",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "Título original: Cures en la convivència de persones grans",
+      "excerpt": "Título original: Cures en la convivència de persones grans La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 287 of 377 -- 79 -- 288 of 377 --...",
+      "matchedConcepts": [
+        "normas de convivencia cotidiana",
+        "cuidados, limpieza y mantenimiento ordinario"
+      ],
+      "score": 101
+    },
+    {
+      "id": "convivencia-daily_rules_scope-5",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "Documento completo",
+      "excerpt": "Las guías de Sostre Cívic sobre vivienda cooperativa en cesión de uso ahora también en castellano Sostre Cívic, una cooperativa que es referencia a nivel estatal en la promoción de las viviendas cooperativas en cesión de uso, ha publicado en castellano varias de sus guías sobre este modelo que promovemos también desde la Promotora del Común de Tangente. Estos documentos son una lectura excelente, no sólo para iniciarse en el tema de la vivienda cooperativa y entender mejor este tipo de proyectos, sino para que incl...",
+      "matchedConcepts": [
+        "normas de convivencia cotidiana",
+        "cuidados, limpieza y mantenimiento ordinario"
+      ],
+      "score": 97
+    },
+    {
+      "id": "convivencia-informal_or_formal_conflict-1",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "Título original: La construcció i la cura dels grups",
+      "excerpt": "Título original: La construcció i la cura dels grups La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 211 of 377 -- -- 212 of 377 -- Cuidados...",
+      "matchedConcepts": [
+        "normas de convivencia cotidiana",
+        "prevención de conflictos convivenciales"
+      ],
+      "score": 220
+    },
+    {
+      "id": "convivencia-informal_or_formal_conflict-2",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "Título original: Transformem l’entorn",
+      "excerpt": "Título original: Transformem l’entorn La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 128 of 377 -- -- 129 of 377 -- La construcción y el cu...",
+      "matchedConcepts": [
+        "normas de convivencia cotidiana",
+        "prevención de conflictos convivenciales"
+      ],
+      "score": 184
+    },
+    {
+      "id": "convivencia-informal_or_formal_conflict-3",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "Documento completo",
+      "excerpt": "Las guías de Sostre Cívic sobre vivienda cooperativa en cesión de uso ahora también en castellano Sostre Cívic, una cooperativa que es referencia a nivel estatal en la promoción de las viviendas cooperativas en cesión de uso, ha publicado en castellano varias de sus guías sobre este modelo que promovemos también desde la Promotora del Común de Tangente. Estos documentos son una lectura excelente, no sólo para iniciarse en el tema de la vivienda cooperativa y entender mejor este tipo de proyectos, sino para que incl...",
+      "matchedConcepts": [
+        "normas de convivencia cotidiana",
+        "prevención de conflictos convivenciales"
+      ],
+      "score": 82
+    },
+    {
+      "id": "convivencia-informal_or_formal_conflict-4",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "Título original: Cures en la convivència de persones grans",
+      "excerpt": "Título original: Cures en la convivència de persones grans La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 287 of 377 -- 79 -- 288 of 377 --...",
+      "matchedConcepts": [
+        "normas de convivencia cotidiana"
+      ],
+      "score": 72
+    },
+    {
+      "id": "convivencia-informal_or_formal_conflict-5",
+      "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
+      "articleOrSection": "título constitutivo es precisamente el ingreso como socio en la cooperativa. Y que, por tanto, debe",
+      "excerpt": "título constitutivo es precisamente el ingreso como socio en la cooperativa. Y que, por tanto, debe regularse en los estatutos sociales de la cooperativa, ante la ausencia de normas legales que le den contenido. En los apartados que siguen, ofrecemos algunas pautas de cómo regularlo. c) El contenido y el alcance del derecho de uso Hemos dicho en el apartado anterior que el derecho de uso en las cooperativas de cohousing es un derecho específico, indisolublemente ligado a la condición de socio cooperativo. Este dere...",
+      "matchedConcepts": [
+        "normas de convivencia cotidiana",
+        "prevención de conflictos convivenciales"
+      ],
+      "score": 52
+    }
+  ],
+  "limits": []
+}

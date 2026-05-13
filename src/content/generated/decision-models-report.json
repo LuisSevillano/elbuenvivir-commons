@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-05-13T22:04:13.492Z",
+  "topics": [
+    {
+      "topicSlug": "invitados",
+      "questions": 3,
+      "questionsWithEvidence": 3,
+      "extracts": 15,
+      "relevantProjects": 7,
+      "limits": []
+    },
+    {
+      "topicSlug": "reservas_estancias_pernoctas",
+      "questions": 3,
+      "questionsWithEvidence": 3,
+      "extracts": 15,
+      "relevantProjects": 7,
+      "limits": []
+    },
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "questions": 2,
+      "questionsWithEvidence": 2,
+      "extracts": 10,
+      "relevantProjects": 5,
+      "limits": []
+    },
+    {
+      "topicSlug": "desigualdad_aportaciones",
+      "questions": 2,
+      "questionsWithEvidence": 2,
+      "extracts": 10,
+      "relevantProjects": 5,
+      "limits": []
+    },
+    {
+      "topicSlug": "baja_socio",
+      "questions": 2,
+      "questionsWithEvidence": 2,
+      "extracts": 10,
+      "relevantProjects": 6,
+      "limits": []
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "questions": 2,
+      "questionsWithEvidence": 2,
+      "extracts": 10,
+      "relevantProjects": 7,
+      "limits": []
+    },
+    {
+      "topicSlug": "conflictos_y_mediacion",
+      "questions": 2,
+      "questionsWithEvidence": 2,
+      "extracts": 10,
+      "relevantProjects": 5,
+      "limits": []
+    },
+    {
+      "topicSlug": "convivencia",
+      "questions": 2,
+      "questionsWithEvidence": 2,
+      "extracts": 10,
+      "relevantProjects": 3,
+      "limits": []
+    }
+  ]
+}

@@ -5,24 +5,13 @@
 
   interface Props {
     topic: GovernanceTopic | ConsultableTopic;
-    referenceCount?: number;
-    projectCount?: number;
   }
 
-  let { topic, referenceCount = 0, projectCount = 0 }: Props = $props();
+  let { topic }: Props = $props();
   const availabilityBadge = $derived('availabilityBadge' in topic ? topic.availabilityBadge : null);
 </script>
 
 <header class="topic-hero">
-  <div class="hero-meta">
-    <span class="category">{categoryLabels[topic.category]}</span>
-    <span class="separator">·</span>
-    <span class="stats">
-      {referenceCount} referencia{referenceCount !== 1 ? 's' : ''}
-      {projectCount > 0 ? ` · ${projectCount} proyecto${projectCount !== 1 ? 's' : ''}` : ''}
-    </span>
-  </div>
-
   <h1 class="hero-title">{topic.title}</h1>
 
   {#if topic.shortDescription}
@@ -30,6 +19,7 @@
   {/if}
 
   <div class="hero-badges">
+    <StatusBadge>{categoryLabels[topic.category]}</StatusBadge>
     {#if availabilityBadge}
       <StatusBadge tone={availabilityBadge === 'Análisis amplio' ? 'success' : 'neutral'}>
         {availabilityBadge}
@@ -43,46 +33,26 @@
 
 <style>
   .topic-hero {
-    margin-bottom: 2rem;
-    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.1rem;
     border-bottom: 1px solid var(--border);
   }
 
-  .hero-meta {
-    font-size: 0.8rem;
-    color: var(--muted);
-    margin-bottom: 0.75rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .category {
-    font-weight: 500;
-    color: var(--accent);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
-  .separator {
-    opacity: 0.5;
-  }
-
   .hero-title {
-    font-size: 2rem;
+    font-size: clamp(1.65rem, 4vw, 2rem);
     font-weight: 700;
     color: var(--heading);
-    margin: 0 0 0.75rem;
+    margin: 0 0 0.55rem;
     line-height: 1.2;
     letter-spacing: -0.02em;
   }
 
   .hero-description {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--muted);
-    margin: 0 0 1.25rem;
-    line-height: 1.5;
-    max-width: 65ch;
+    margin: 0 0 0.9rem;
+    line-height: 1.45;
+    max-width: 58ch;
   }
 
   .hero-badges {
@@ -91,13 +61,4 @@
     gap: 0.5rem;
   }
 
-  @media (max-width: 640px) {
-    .hero-title {
-      font-size: 1.65rem;
-    }
-
-    .hero-description {
-      font-size: 1rem;
-    }
-  }
 </style>

@@ -19,6 +19,7 @@
     "generate:topic-drafts": "tsx scripts/generate-topic-drafts.ts",
     "generate:syntheses": "tsx scripts/generate-topic-syntheses.ts",
     "audit:syntheses": "tsx scripts/audit-syntheses-quality.ts",
+    "build:decision-models": "tsx scripts/build-decision-models.ts",
     "build:patterns": "tsx scripts/build-cross-topic-patterns.ts",
     "build:project-profiles": "tsx scripts/build-project-profiles.ts",
     "deploy:netlify": "pnpm --package=netlify-cli dlx netlify deploy --build --site 28954291-cdf4-49f8-a212-11b4c7c15bbb",

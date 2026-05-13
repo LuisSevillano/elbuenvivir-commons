@@ -21,8 +21,8 @@
     "audit:syntheses": "tsx scripts/audit-syntheses-quality.ts",
     "build:patterns": "tsx scripts/build-cross-topic-patterns.ts",
     "build:project-profiles": "tsx scripts/build-project-profiles.ts",
-    "deploy:netlify": "pnpm dlx netlify-cli deploy --build",
-    "deploy:netlify:prod": "pnpm dlx netlify-cli deploy --build --prod"
+    "deploy:netlify": "pnpm --package=netlify-cli dlx netlify deploy --build --site 28954291-cdf4-49f8-a212-11b4c7c15bbb",
+    "deploy:netlify:prod": "pnpm --package=netlify-cli dlx netlify deploy --build --prod --site 28954291-cdf4-49f8-a212-11b4c7c15bbb"
   },
   "devDependencies": {
     "@sveltejs/adapter-netlify": "^6.0.4",

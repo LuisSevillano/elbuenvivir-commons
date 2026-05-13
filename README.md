@@ -44,6 +44,20 @@ Si junto a un PDF existe un `.txt` con el mismo `slug` del documento o con el mi
 
 El script se salta automáticamente si se ejecuta con `NETLIFY=true`, para evitar extracción durante builds de Netlify.
 
+## División en secciones
+
+La Fase 8 convierte los textos extraídos en secciones o artículos citables sin tocar `src/content/topics` ni `src/content/documents/documents.json`.
+
+```sh
+npm run split
+```
+
+El script lee `src/content/generated/extracted/*.txt` y genera `src/content/generated/sections/{documentSlug}.sections.json`. Cada sección contiene `id`, `documentSlug`, `heading`, `text`, `order` y `possibleTopics: []`.
+
+Los encabezados se detectan con patrones como `Artículo 1`, `Artículo 1.`, `Art. 1`, `Article 1`, `CAPÍTULO`, `CAPITULO`, `TÍTULO`, `Sección`, `Capítol` y `Article`. Si no se detectan encabezados, se genera una sección única de fallback.
+
+También se genera `src/content/generated/split-report.json` con número de secciones, longitud media y warnings para documentos con pocas secciones o secciones demasiado largas.
+
 ## Validación
 
 ```sh

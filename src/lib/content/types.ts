@@ -163,6 +163,9 @@ export interface ExtractedSection {
   text: string;
   order: number;
   possibleTopics: string[];
+  splitMethod?: string;
+  qualityWarning?: string;
+  sourceRangeLabel?: string;
 }
 
 export interface GeneratedTopicReference {

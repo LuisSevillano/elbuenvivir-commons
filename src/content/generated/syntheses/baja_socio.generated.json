@@ -1,9 +1,9 @@
 {
   "slug": "baja_socio",
-  "generatedAt": "2026-05-13T10:59:49.817Z",
+  "generatedAt": "2026-05-13T14:29:44.001Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/baja_socio.md",
-    "referencesCount": 18,
+    "referencesCount": 30,
     "documents": [
       "docs-estatutos-estatutos-axuntase",
       "docs-estatutos-estatutos-entrepatios",
@@ -21,78 +21,97 @@
   },
   "summary": {
     "overview": [
-      "La síntesis compara 18 referencias automáticas asociadas al tema \"Baja de una persona socia\".",
-      "Las observaciones se formulan de forma prudente y deben verificarse contra las referencias originales."
+      "Los extractos más claros relacionan este tema con baja o salida de una persona socia, derechos y obligaciones, reembolso.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Pepu, Estatutos Pequenopueblo, Estatutos Tarocohousing, Estatutos Axuntase.",
+      "Varios proyectos distinguen tipos de baja o pérdida de condición de persona socia."
     ],
     "commonPatterns": [
-      "Parece frecuente que el tema aparezca en documentos de tipo estatutos, ley, otro.",
-      "Varios proyectos parecen tratar elementos estructurales o derechos básicos en referencias de Normativa Autonomica, Estatutos Senior Cohousing Huelva, Estatutos Tarocohousing.",
-      "Algunos grupos parecen desarrollar aspectos operativos o de convivencia en referencias de MOD ESTATUTOS COOP VIVIENDAS, Normativa Autonomica, Estatutos Axuntase.",
-      "La lectura automática sugiere revisar baja, baja voluntaria, baja obligatoria, reembolso como términos activadores principales."
+      "Varios proyectos distinguen tipos de baja o pérdida de condición de persona socia.",
+      "Los textos suelen combinar derechos de participación e información con obligaciones económicas y de convivencia.",
+      "La devolución de aportaciones aparece vinculada al reembolso y, en algunos casos, a deducciones o plazos.",
+      "Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones.",
+      "La aportación obligatoria aparece como una condición económica básica de pertenencia o participación.",
+      "La salida aparece conectada con el reembolso de aportaciones y con efectos económicos que conviene fijar con claridad."
     ],
     "majorDifferences": [
-      "Aparecen diferencias por tipo documental: estatutos, ley, otro.",
-      "Aparecen jurisdicciones distintas que conviene no mezclar sin revisión: Andalucía, España.",
-      "La distribución de confidence no permite por sí sola comparar diferencias de calidad."
+      "La diferencia práctica suele estar entre una salida libre con preaviso y una salida condicionada por incumplimientos, sustitución o efectos económicos.",
+      "La diferencia práctica suele estar entre devolución inmediata, devolución condicionada por liquidez y devolución vinculada a nueva incorporación.",
+      "Algunos textos parecen tratarla como capital social estable y otros la conectan con cuotas, financiación o derechos de uso."
     ],
     "commonRisks": [
-      "Se detectan posibles riesgos o conflictos en referencias de Estatutos Senior Cohousing Huelva, MODELO ESTATUTOS VIVIENDAS, Normativa Autonomica.",
-      "Puede existir riesgo de rigidez si se fija demasiado detalle en referencias de Normativa Autonomica, Estatutos Senior Cohousing Huelva, MOD ESTATUTOS COOP VIVIENDAS.",
-      "No debe asumirse que una práctica de otro proyecto sea adecuada sin contrastar tamaño, fase y contexto de El Buen Vivir."
+      "Una salida mal regulada puede tensionar la liquidez, el uso de espacios y la continuidad del grupo.",
+      "Una lista amplia pero poco operativa puede dificultar distinguir obligaciones esenciales de prácticas cotidianas.",
+      "Un reembolso inmediato puede tensionar la caja; un reembolso indefinido puede generar inseguridad para quien sale.",
+      "Si no se aclaran los criterios de entrada, puede aparecer discrecionalidad o conflicto sobre quién puede incorporarse.",
+      "Si la aportación se vincula a poder, uso o permanencia sin límites claros, puede generar desigualdad interna."
     ],
     "commonTradeoffs": [
-      "El tradeoff principal parece estar entre claridad normativa y capacidad de adaptación futura.",
-      "Las referencias sugieren margen para soluciones flexibles en referencias de Estatutos Senior Cohousing Huelva, MOD ESTATUTOS COOP VIVIENDAS, Normativa Autonomica.",
-      "No hay evidencia suficiente para afirmar compatibilidad específica con grupos pequeños."
+      "salida flexible vs estabilidad económica del proyecto",
+      "derecho de salida vs estabilidad financiera del proyecto",
+      "igualdad formal vs aportaciones económicas desiguales"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Parece frecuente reservar para Estatutos principios, derechos, obligaciones o efectos estructurales.",
-      "Esta señal aparece en referencias de Normativa Autonomica, Estatutos Senior Cohousing Huelva, Estatutos Tarocohousing."
+      "causas y clases de baja",
+      "efectos económicos básicos",
+      "derecho de reembolso",
+      "criterios generales de deducción y plazos",
+      "causas y clases de baja, pérdida de condición de socia y efectos económicos básicos",
+      "derechos y obligaciones esenciales de las personas socias"
     ],
     "usuallyInRRI": [
-      "Parece frecuente desarrollar en RRI aspectos operativos, convivencia, uso o procedimientos revisables.",
-      "Esta señal aparece en referencias de MOD ESTATUTOS COOP VIVIENDAS, Normativa Autonomica, Estatutos Axuntase."
+      "procedimiento interno de solicitud o comunicación de baja",
+      "acompañamiento de la salida",
+      "gestión de sustitución o lista de espera",
+      "reglas prácticas de entrega de llaves y cierre de uso",
+      "procedimiento interno de comunicación, acompañamiento de salida y cierre de usos o llaves",
+      "pautas cotidianas para hacer efectivos esos derechos y deberes"
     ],
     "mixedApproaches": [
-      "Algunas referencias combinan lenguaje estatutario y desarrollo operativo, lo que sugiere enfoques mixtos."
+      "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
     ],
     "notes": [
-      "Esta lectura es generada automáticamente y no debe convertirse en regla sin revisión jurídica.",
-      "La ubicación final debe diferenciar qué es principio estable y qué es procedimiento adaptable."
+      "No conviene llevar a Estatutos detalles que el grupo necesite aprender o ajustar con la práctica.",
+      "La revisión jurídica debe confirmar qué materias exigen rango estatutario."
     ]
   },
   "recommendationsForBuenVivir": {
     "minimalApproach": [
-      "Una opción prudente es fijar solo criterios mínimos verificables por las referencias disponibles.",
-      "Conviene evitar reproducir detalles de otros proyectos sin validar su encaje en El Buen Vivir.",
-      "Conviene cubrir explícitamente los riesgos más repetidos antes de añadir detalle operativo."
+      "Fijar solo principios y efectos básicos que necesiten estabilidad.",
+      "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
+      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
+      "separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "flexibleApproach": [
-      "Una práctica compatible con flexibilidad parece remitir procedimientos al RRI o normas internas.",
-      "Para grupos pequeños, parece más compatible separar principios estables de protocolos que puedan cambiar con la experiencia."
+      "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
+      "Mantener espacio para revisar la práctica tras los primeros usos reales.",
+      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
+      "separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "pointsToDecideSoon": [
-      "Qué parte del tema afecta a derechos u obligaciones básicas.",
-      "Qué decisiones requieren seguridad desde el inicio para evitar conflictos.",
-      "Qué referencias de confianza alta merecen revisión prioritaria."
+      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
+      "separar obligaciones esenciales de compromisos prácticos revisables",
+      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
+      "Decidir cómo se devuelve dinero si no hay liquidez suficiente en el momento de la baja."
     ],
     "pointsThatCanWait": [
-      "Detalles de procedimiento no respaldados por varias referencias.",
-      "Protocolos operativos que puedan aprenderse con la práctica comunitaria.",
-      "Formularios, calendarios internos y reglas menores que no afecten derechos básicos."
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Tensión entre fijar reglas en Estatutos y evitar rigidez futura.",
-    "Tensión entre prevenir conflictos y no sobrerregular procedimientos internos.",
-    "Tensión entre autonomía comunitaria y necesidad de reglas claras."
+    "salida flexible vs estabilidad económica del proyecto",
+    "derecho de salida vs estabilidad financiera del proyecto",
+    "igualdad formal vs aportaciones económicas desiguales"
   ],
   "notableProjects": [
     {
       "projectName": "Normativa Autonomica",
-      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con baja o salida de una persona socia, derechos y obligaciones, reembolso.",
       "references": [
         "Normativa Autonomica - Artículo 105. Baja obligatoria por causas económicas, técnicas, organizativas, de",
         "Normativa Autonomica - Artículo 21. Baja obligatoria del socio.",
@@ -101,7 +120,7 @@
     },
     {
       "projectName": "Estatutos Senior Cohousing Huelva",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con baja o salida de una persona socia, derechos y obligaciones.",
       "references": [
         "Estatutos Senior Cohousing Huelva - Artículo 14. Causas y efectos de la baja obligatoria",
         "Estatutos Senior Cohousing Huelva - Artículo 13. Causas y efectos de la baja voluntaria"
@@ -109,7 +128,7 @@
     },
     {
       "projectName": "Estatutos Tarocohousing",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con baja o salida de una persona socia.",
       "references": [
         "Estatutos Tarocohousing - Artículo 16.- Baja obligatoria",
         "Estatutos Tarocohousing - Artículo 15.- Baja voluntaria"
@@ -117,7 +136,7 @@
     },
     {
       "projectName": "MOD ESTATUTOS COOP VIVIENDAS",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con baja o salida de una persona socia, derechos y obligaciones, reembolso.",
       "references": [
         "MOD ESTATUTOS COOP VIVIENDAS - ARTÍCULO 12.- BAJA VOLUNTARIA.",
         "MOD ESTATUTOS COOP VIVIENDAS - ARTÍCULO 14.- BAJA OBLIGATORIA."
@@ -125,7 +144,7 @@
     },
     {
       "projectName": "MODELO ESTATUTOS VIVIENDAS",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con baja o salida de una persona socia, derechos y obligaciones, financiación.",
       "references": [
         "MODELO ESTATUTOS VIVIENDAS - Artículo 15.- Causas y efectos de la baja obligatoria",
         "MODELO ESTATUTOS VIVIENDAS - Artículo 14.- Causas y efectos de la baja voluntaria"
@@ -133,18 +152,17 @@
     },
     {
       "projectName": "Estatutos Axuntase",
-      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "notableBecause": "Aparece en relación con baja o salida de una persona socia.",
       "references": [
         "Estatutos Axuntase - Artículo 13.- Baja obligatoria"
       ]
     }
   ],
   "legalWarnings": [
-    "Síntesis generada automáticamente sin revisión jurídica.",
+    "Síntesis orientativa basada en extractos documentales detectados.",
     "No sustituye asesoramiento jurídico profesional.",
-    "No debe usarse como contenido curado sin comprobar las referencias originales.",
-    "La separación entre ley, proyectos e interpretación automática debe mantenerse visible."
+    "Debe contrastarse con los documentos originales antes de usarla en acuerdos o cláusulas."
   ],
-  "generatedDisclaimer": "Síntesis comparada generada automáticamente a partir de research packs y referencias heurísticas. Revisar jurídicamente y contrastar con fuentes originales antes de usar.",
+  "generatedDisclaimer": "Síntesis basada en documentos analizados. Requiere contraste con las fuentes originales y revisión jurídica antes de su uso.",
   "status": "needs_legal_review"
 }

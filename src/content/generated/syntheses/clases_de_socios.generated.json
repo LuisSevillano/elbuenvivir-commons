@@ -1,6 +1,6 @@
 {
   "slug": "clases_de_socios",
-  "generatedAt": "2026-05-13T10:59:49.821Z",
+  "generatedAt": "2026-05-13T14:29:44.004Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/clases_de_socios.md",
     "referencesCount": 8,
@@ -14,78 +14,82 @@
   },
   "summary": {
     "overview": [
-      "La síntesis compara 8 referencias automáticas asociadas al tema \"Clases de personas socias\".",
-      "Las observaciones se formulan de forma prudente y deben verificarse contra las referencias originales."
+      "Los extractos más claros relacionan este tema con admisión de personas socias, baja o salida de una persona socia, derechos y obligaciones.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Laseronda.Org, Normativa Autonomica.",
+      "Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones."
     ],
     "commonPatterns": [
-      "Parece frecuente que el tema aparezca en documentos de tipo ley, estatutos, otro.",
-      "Varios proyectos parecen tratar elementos estructurales o derechos básicos en referencias de Normativa Estatal, Estatutos Laseronda.Org, Estatutos Tarocohousing.",
-      "Algunos grupos parecen desarrollar aspectos operativos o de convivencia en referencias de Normativa Estatal, Estatutos Laseronda.Org.",
-      "La lectura automática sugiere revisar socio usuario, socio colaborador, clases de socios como términos activadores principales."
+      "Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones.",
+      "Varios proyectos distinguen tipos de baja o pérdida de condición de persona socia.",
+      "Los textos suelen combinar derechos de participación e información con obligaciones económicas y de convivencia.",
+      "Cuando aparece expulsión, suele vincularse a incumplimientos graves y a un procedimiento con garantías."
     ],
     "majorDifferences": [
-      "Aparecen diferencias por tipo documental: ley, estatutos, otro.",
-      "La dimensión jurisdiccional no parece suficientemente diversa en las referencias disponibles.",
-      "La evidencia combina referencias de confianza alta (4) y baja (4); conviene priorizar las primeras."
+      "La diferencia práctica suele estar entre una salida libre con preaviso y una salida condicionada por incumplimientos, sustitución o efectos económicos."
     ],
     "commonRisks": [
-      "Se detectan posibles riesgos o conflictos en referencias de Estatutos Laseronda.Org, Normativa Autonomica, Normativa Estatal.",
-      "Puede existir riesgo de rigidez si se fija demasiado detalle en referencias de Normativa Estatal, Estatutos Laseronda.Org, Normativa Autonomica.",
-      "No debe asumirse que una práctica de otro proyecto sea adecuada sin contrastar tamaño, fase y contexto de El Buen Vivir."
+      "Si no se aclaran los criterios de entrada, puede aparecer discrecionalidad o conflicto sobre quién puede incorporarse.",
+      "Una salida mal regulada puede tensionar la liquidez, el uso de espacios y la continuidad del grupo.",
+      "Una lista amplia pero poco operativa puede dificultar distinguir obligaciones esenciales de prácticas cotidianas.",
+      "Sin garantías mínimas, el régimen disciplinario puede convertirse en una fuente de impugnación o conflicto interno."
     ],
     "commonTradeoffs": [
-      "El tradeoff principal parece estar entre claridad normativa y capacidad de adaptación futura.",
-      "Las referencias sugieren margen para soluciones flexibles en referencias de Estatutos Laseronda.Org, Normativa Estatal.",
-      "No hay evidencia suficiente para afirmar compatibilidad específica con grupos pequeños."
+      "salida flexible vs estabilidad económica del proyecto"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Parece frecuente reservar para Estatutos principios, derechos, obligaciones o efectos estructurales.",
-      "Esta señal aparece en referencias de Normativa Estatal, Estatutos Laseronda.Org, Estatutos Tarocohousing."
+      "criterios básicos de admisión y derechos de las personas socias",
+      "causas y clases de baja, pérdida de condición de socia y efectos económicos básicos",
+      "derechos y obligaciones esenciales de las personas socias",
+      "causas generales de expulsión, garantías y órgano competente"
     ],
     "usuallyInRRI": [
-      "Parece frecuente desarrollar en RRI aspectos operativos, convivencia, uso o procedimientos revisables.",
-      "Esta señal aparece en referencias de Normativa Estatal, Estatutos Laseronda.Org."
+      "pasos internos de solicitud, acompañamiento y documentación de la incorporación",
+      "procedimiento interno de comunicación, acompañamiento de salida y cierre de usos o llaves",
+      "pautas cotidianas para hacer efectivos esos derechos y deberes",
+      "tramitación concreta, plazos de audiencia y mediación previa cuando proceda"
     ],
     "mixedApproaches": [
-      "Algunas referencias combinan lenguaje estatutario y desarrollo operativo, lo que sugiere enfoques mixtos."
+      "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
     ],
     "notes": [
-      "Esta lectura es generada automáticamente y no debe convertirse en regla sin revisión jurídica.",
-      "La ubicación final debe diferenciar qué es principio estable y qué es procedimiento adaptable."
+      "No conviene llevar a Estatutos detalles que el grupo necesite aprender o ajustar con la práctica.",
+      "La revisión jurídica debe confirmar qué materias exigen rango estatutario."
     ]
   },
   "recommendationsForBuenVivir": {
     "minimalApproach": [
-      "Una opción prudente es fijar solo criterios mínimos verificables por las referencias disponibles.",
-      "Conviene evitar reproducir detalles de otros proyectos sin validar su encaje en El Buen Vivir.",
-      "Conviene cubrir explícitamente los riesgos más repetidos antes de añadir detalle operativo."
+      "Fijar solo principios y efectos básicos que necesiten estabilidad.",
+      "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido"
     ],
     "flexibleApproach": [
-      "Una práctica compatible con flexibilidad parece remitir procedimientos al RRI o normas internas.",
-      "Para grupos pequeños, parece más compatible separar principios estables de protocolos que puedan cambiar con la experiencia."
+      "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
+      "Mantener espacio para revisar la práctica tras los primeros usos reales.",
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido"
     ],
     "pointsToDecideSoon": [
-      "Qué parte del tema afecta a derechos u obligaciones básicas.",
-      "Qué decisiones requieren seguridad desde el inicio para evitar conflictos.",
-      "Qué referencias de confianza alta merecen revisión prioritaria."
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
+      "separar obligaciones esenciales de compromisos prácticos revisables",
+      "decidir qué conflictos deben pasar por mediación antes de convertirse en sanción"
     ],
     "pointsThatCanWait": [
-      "Detalles de procedimiento no respaldados por varias referencias.",
-      "Protocolos operativos que puedan aprenderse con la práctica comunitaria.",
-      "Formularios, calendarios internos y reglas menores que no afecten derechos básicos."
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Tensión entre fijar reglas en Estatutos y evitar rigidez futura.",
-    "Tensión entre prevenir conflictos y no sobrerregular procedimientos internos.",
-    "Tensión entre autonomía comunitaria y necesidad de reglas claras."
+    "salida flexible vs estabilidad económica del proyecto"
   ],
   "notableProjects": [
     {
       "projectName": "Normativa Autonomica",
-      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con admisión de personas socias, derechos y obligaciones.",
       "references": [
         "Normativa Autonomica - Artículo 26. Socio colaborador y socio de servicios.",
         "Normativa Autonomica - Sección 3.ª Otras clases de socios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18",
@@ -94,7 +98,7 @@
     },
     {
       "projectName": "Normativa Estatal",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Normativa Estatal - Artículo 46. Aportaciones obligatorias.",
         "Normativa Estatal - Artículo 52. Aportaciones que no forman parte del capital social."
@@ -102,32 +106,31 @@
     },
     {
       "projectName": "Estatutos Laseronda.Org",
-      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "notableBecause": "Aparece en relación con admisión de personas socias, baja o salida de una persona socia, expulsión o sanción.",
       "references": [
         "Estatutos Laseronda.Org - ARTÍCULO 10.- SOCIOS COLABORADORES"
       ]
     },
     {
       "projectName": "Estatutos Tarocohousing",
-      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Estatutos Tarocohousing - Artículo 40.- Aportaciones de las nuevas personas socias"
       ]
     },
     {
       "projectName": "MOD ESTATUTOS COOP VIVIENDAS",
-      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "MOD ESTATUTOS COOP VIVIENDAS - ARTÍCULO 46.- APORTACIONES DE LOS NUEVOS SOCIOS."
       ]
     }
   ],
   "legalWarnings": [
-    "Síntesis generada automáticamente sin revisión jurídica.",
+    "Síntesis orientativa basada en extractos documentales detectados.",
     "No sustituye asesoramiento jurídico profesional.",
-    "No debe usarse como contenido curado sin comprobar las referencias originales.",
-    "La separación entre ley, proyectos e interpretación automática debe mantenerse visible."
+    "Debe contrastarse con los documentos originales antes de usarla en acuerdos o cláusulas."
   ],
-  "generatedDisclaimer": "Síntesis comparada generada automáticamente a partir de research packs y referencias heurísticas. Revisar jurídicamente y contrastar con fuentes originales antes de usar.",
+  "generatedDisclaimer": "Síntesis basada en documentos analizados. Requiere contraste con las fuentes originales y revisión jurídica antes de su uso.",
   "status": "needs_legal_review"
 }

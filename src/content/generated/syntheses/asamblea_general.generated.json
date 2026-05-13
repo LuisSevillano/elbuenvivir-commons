@@ -1,9 +1,9 @@
 {
   "slug": "asamblea_general",
-  "generatedAt": "2026-05-13T10:59:49.810Z",
+  "generatedAt": "2026-05-13T14:29:43.993Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/asamblea_general.md",
-    "referencesCount": 18,
+    "referencesCount": 30,
     "documents": [
       "docs-estatutos-estatutos-axuntase",
       "docs-estatutos-estatutos-entrepatios",
@@ -19,78 +19,79 @@
   },
   "summary": {
     "overview": [
-      "La síntesis compara 18 referencias automáticas asociadas al tema \"Asamblea General\".",
-      "Las observaciones se formulan de forma prudente y deben verificarse contra las referencias originales."
+      "Los extractos más claros relacionan este tema con asamblea, consejo rector u órgano de gestión, mayorías, consenso y bloqueo.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos La Borda, MODELO ESTATUTOS VIVIENDAS, Estatutos Senior Cohousing Huelva, Estatutos Axuntase.",
+      "La asamblea aparece como espacio principal de decisión, control y aprobación de cuestiones estructurales."
     ],
     "commonPatterns": [
-      "Parece frecuente que el tema aparezca en documentos de tipo estatutos, otro, ley.",
-      "Varios proyectos parecen tratar elementos estructurales o derechos básicos en referencias de Estatutos Axuntase, Estatutos Tarocohousing, MODELO ESTATUTOS VIVIENDAS.",
-      "Algunos grupos parecen desarrollar aspectos operativos o de convivencia en referencias de Estatutos Axuntase, MODELO ESTATUTOS VIVIENDAS, Estatutos Entrepatios.",
-      "La lectura automática sugiere revisar asamblea general, convocatoria, acta como términos activadores principales."
+      "La asamblea aparece como espacio principal de decisión, control y aprobación de cuestiones estructurales.",
+      "El órgano de gestión suele concentrar representación, ejecución de acuerdos y administración ordinaria.",
+      "Las decisiones suelen combinar reglas de mayoría con mecanismos de participación, quorum o consenso según la importancia del asunto."
     ],
     "majorDifferences": [
-      "Aparecen diferencias por tipo documental: estatutos, otro, ley.",
-      "La dimensión jurisdiccional no parece suficientemente diversa en las referencias disponibles.",
-      "La distribución de confidence no permite por sí sola comparar diferencias de calidad."
+      "Algunos proyectos priorizan agilidad mediante mayorías; otros refuerzan consenso o unanimidad para decisiones sensibles."
     ],
     "commonRisks": [
-      "Se detectan posibles riesgos o conflictos en referencias de MODELO ESTATUTOS VIVIENDAS, Normativa Autonomica, Estatutos Entrepatios.",
-      "Puede existir riesgo de rigidez si se fija demasiado detalle en referencias de Estatutos Axuntase, MODELO ESTATUTOS VIVIENDAS, Normativa Autonomica.",
-      "No debe asumirse que una práctica de otro proyecto sea adecuada sin contrastar tamaño, fase y contexto de El Buen Vivir."
+      "Si no se delimitan competencias y convocatoria, pueden aparecer bloqueos o decisiones poco trazables.",
+      "Una delegación poco controlada puede alejar decisiones cotidianas del grupo.",
+      "La unanimidad puede proteger acuerdos importantes pero también generar bloqueo; mayorías simples pueden dejar minorías expuestas."
     ],
     "commonTradeoffs": [
-      "El tradeoff principal parece estar entre claridad normativa y capacidad de adaptación futura.",
-      "Las referencias sugieren margen para soluciones flexibles en referencias de Estatutos Axuntase, Estatutos Senior Cohousing Huelva, MOD ESTATUTOS COOP VIVIENDAS.",
-      "No hay evidencia suficiente para afirmar compatibilidad específica con grupos pequeños."
+      "agilidad de gestión vs control colectivo",
+      "consenso vs riesgo de bloqueo"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Parece frecuente reservar para Estatutos principios, derechos, obligaciones o efectos estructurales.",
-      "Esta señal aparece en referencias de Estatutos Axuntase, Estatutos Tarocohousing, MODELO ESTATUTOS VIVIENDAS."
+      "competencias, convocatoria, quorum y mayorías esenciales",
+      "composición, mandato, competencias y rendición de cuentas",
+      "quorum, mayorías reforzadas y decisiones que requieren protección especial"
     ],
     "usuallyInRRI": [
-      "Parece frecuente desarrollar en RRI aspectos operativos, convivencia, uso o procedimientos revisables.",
-      "Esta señal aparece en referencias de Estatutos Axuntase, MODELO ESTATUTOS VIVIENDAS, Estatutos Entrepatios."
+      "preparación de reuniones, dinámica interna, actas y seguimiento de acuerdos",
+      "formas de coordinación, comunicación interna y preparación de acuerdos",
+      "facilitación, preparación de decisiones y mecanismos previos para evitar bloqueos"
     ],
     "mixedApproaches": [
-      "Algunas referencias combinan lenguaje estatutario y desarrollo operativo, lo que sugiere enfoques mixtos."
+      "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
     ],
     "notes": [
-      "Esta lectura es generada automáticamente y no debe convertirse en regla sin revisión jurídica.",
-      "La ubicación final debe diferenciar qué es principio estable y qué es procedimiento adaptable."
+      "No conviene llevar a Estatutos detalles que el grupo necesite aprender o ajustar con la práctica.",
+      "La revisión jurídica debe confirmar qué materias exigen rango estatutario."
     ]
   },
   "recommendationsForBuenVivir": {
     "minimalApproach": [
-      "Una opción prudente es fijar solo criterios mínimos verificables por las referencias disponibles.",
-      "Conviene evitar reproducir detalles de otros proyectos sin validar su encaje en El Buen Vivir.",
-      "Conviene cubrir explícitamente los riesgos más repetidos antes de añadir detalle operativo."
+      "Fijar solo principios y efectos básicos que necesiten estabilidad.",
+      "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
+      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
     ],
     "flexibleApproach": [
-      "Una práctica compatible con flexibilidad parece remitir procedimientos al RRI o normas internas.",
-      "Para grupos pequeños, parece más compatible separar principios estables de protocolos que puedan cambiar con la experiencia."
+      "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
+      "Mantener espacio para revisar la práctica tras los primeros usos reales.",
+      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
     ],
     "pointsToDecideSoon": [
-      "Qué parte del tema afecta a derechos u obligaciones básicas.",
-      "Qué decisiones requieren seguridad desde el inicio para evitar conflictos.",
-      "Qué referencias de confianza alta merecen revisión prioritaria."
+      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
+      "decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria"
     ],
     "pointsThatCanWait": [
-      "Detalles de procedimiento no respaldados por varias referencias.",
-      "Protocolos operativos que puedan aprenderse con la práctica comunitaria.",
-      "Formularios, calendarios internos y reglas menores que no afecten derechos básicos."
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Tensión entre fijar reglas en Estatutos y evitar rigidez futura.",
-    "Tensión entre prevenir conflictos y no sobrerregular procedimientos internos.",
-    "Tensión entre autonomía comunitaria y necesidad de reglas claras."
+    "agilidad de gestión vs control colectivo",
+    "consenso vs riesgo de bloqueo"
   ],
   "notableProjects": [
     {
       "projectName": "Estatutos Axuntase",
-      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión, mayorías, consenso y bloqueo.",
       "references": [
         "Estatutos Axuntase - Artículo 21.- Convocatoria de la Asamblea General",
         "Estatutos Axuntase - Artículo 19.- Asamblea General. Concepto y Clases",
@@ -99,7 +100,7 @@
     },
     {
       "projectName": "Estatutos Tarocohousing",
-      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con asamblea.",
       "references": [
         "Estatutos Tarocohousing - Artículo 24.- Convocatoria de la Asamblea General",
         "Estatutos Tarocohousing - Artículo 25.- Constitución y funcionamiento de la Asamblea General",
@@ -108,7 +109,7 @@
     },
     {
       "projectName": "MODELO ESTATUTOS VIVIENDAS",
-      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión.",
       "references": [
         "MODELO ESTATUTOS VIVIENDAS - Artículo 21.- Convocatoria de la Asamblea General",
         "MODELO ESTATUTOS VIVIENDAS - Artículo 22.- Constitución y funcionamiento de la Asamblea General",
@@ -117,7 +118,7 @@
     },
     {
       "projectName": "Estatutos Senior Cohousing Huelva",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión.",
       "references": [
         "Estatutos Senior Cohousing Huelva - Artículo 19.- Convocatoria de la Asamblea General",
         "Estatutos Senior Cohousing Huelva - Artículo 20. Constitución y funcionamiento de la Asamblea General"
@@ -125,7 +126,7 @@
     },
     {
       "projectName": "Normativa Autonomica",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión.",
       "references": [
         "Normativa Autonomica - Artículo 32. Clases de Asamblea general y convocatoria.",
         "Normativa Autonomica - Artículo 81. Convocatoria de Asamblea general para la fusión."
@@ -133,18 +134,17 @@
     },
     {
       "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "notableBecause": "Aparece en relación con asamblea, mayorías, consenso y bloqueo.",
       "references": [
         "Estatutos Entrepatios - Artículo 40. Composición y competencias de la Asamblea General."
       ]
     }
   ],
   "legalWarnings": [
-    "Síntesis generada automáticamente sin revisión jurídica.",
+    "Síntesis orientativa basada en extractos documentales detectados.",
     "No sustituye asesoramiento jurídico profesional.",
-    "No debe usarse como contenido curado sin comprobar las referencias originales.",
-    "La separación entre ley, proyectos e interpretación automática debe mantenerse visible."
+    "Debe contrastarse con los documentos originales antes de usarla en acuerdos o cláusulas."
   ],
-  "generatedDisclaimer": "Síntesis comparada generada automáticamente a partir de research packs y referencias heurísticas. Revisar jurídicamente y contrastar con fuentes originales antes de usar.",
+  "generatedDisclaimer": "Síntesis basada en documentos analizados. Requiere contraste con las fuentes originales y revisión jurídica antes de su uso.",
   "status": "needs_legal_review"
 }

@@ -1,9 +1,9 @@
 {
   "slug": "reembolso_aportaciones",
-  "generatedAt": "2026-05-13T10:59:49.864Z",
+  "generatedAt": "2026-05-13T14:29:44.046Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/reembolso_aportaciones.md",
-    "referencesCount": 18,
+    "referencesCount": 30,
     "documents": [
       "docs-estatutos-estatutos-axuntase",
       "docs-estatutos-estatutos-entrepatios",
@@ -21,78 +21,85 @@
   },
   "summary": {
     "overview": [
-      "La síntesis compara 18 referencias automáticas asociadas al tema \"Reembolso de aportaciones\".",
-      "Las observaciones se formulan de forma prudente y deben verificarse contra las referencias originales."
+      "Los extractos más claros relacionan este tema con reembolso, aportación obligatoria, financiación.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Senior Cohousing Huelva, Normativa Estatal, Estatutos Tarocohousing, Normativa Autonomica.",
+      "La devolución de aportaciones aparece vinculada al reembolso y, en algunos casos, a deducciones o plazos."
     ],
     "commonPatterns": [
-      "Parece frecuente que el tema aparezca en documentos de tipo estatutos, ley, otro.",
-      "Varios proyectos parecen tratar elementos estructurales o derechos básicos en referencias de BOE A 2011 18204 Ley+6 2011, Estatutos Entrepatios, Estatutos Losnidales.",
-      "Algunos grupos parecen desarrollar aspectos operativos o de convivencia en referencias de Estatutos Axuntase, Estatutos Entrepatios, MOD ESTATUTOS COOP VIVIENDAS.",
-      "La lectura automática sugiere revisar reembolso, devolucion de aportaciones, liquidacion como términos activadores principales."
+      "La devolución de aportaciones aparece vinculada al reembolso y, en algunos casos, a deducciones o plazos.",
+      "La aportación obligatoria aparece como una condición económica básica de pertenencia o participación.",
+      "Algunos textos conectan aportaciones y cuotas con necesidades de financiación del proyecto.",
+      "Las aportaciones voluntarias aparecen como instrumento de financiación adicional diferenciado de la obligación básica."
     ],
     "majorDifferences": [
-      "Aparecen diferencias por tipo documental: estatutos, ley, otro.",
-      "Aparecen jurisdicciones distintas que conviene no mezclar sin revisión: Andalucía, España.",
-      "La distribución de confidence no permite por sí sola comparar diferencias de calidad."
+      "La diferencia práctica suele estar entre devolución inmediata, devolución condicionada por liquidez y devolución vinculada a nueva incorporación.",
+      "Algunos textos parecen tratarla como capital social estable y otros la conectan con cuotas, financiación o derechos de uso."
     ],
     "commonRisks": [
-      "Se detectan posibles riesgos o conflictos en referencias de Estatutos Entrepatios, Estatutos Losnidales, Estatutos Pepu.",
-      "Puede existir riesgo de rigidez si se fija demasiado detalle en referencias de Estatutos Losnidales, BOE A 2011 18204 Ley+6 2011, Estatutos Entrepatios.",
-      "No debe asumirse que una práctica de otro proyecto sea adecuada sin contrastar tamaño, fase y contexto de El Buen Vivir."
+      "Un reembolso inmediato puede tensionar la caja; un reembolso indefinido puede generar inseguridad para quien sale.",
+      "Si la aportación se vincula a poder, uso o permanencia sin límites claros, puede generar desigualdad interna.",
+      "La financiación puede desplazar decisiones de convivencia si no se separan necesidades económicas y derechos de participación.",
+      "Pueden generar expectativas de retorno o influencia si no se separan claramente de los derechos políticos."
     ],
     "commonTradeoffs": [
-      "El tradeoff principal parece estar entre claridad normativa y capacidad de adaptación futura.",
-      "Las referencias sugieren margen para soluciones flexibles en referencias de BOE A 2011 18204 Ley+6 2011, Estatutos Axuntase, Estatutos Senior Cohousing Huelva.",
-      "Algunas señales parecen especialmente relevantes para grupos pequeños o de convivencia intensa en referencias de BOE A 2011 18204 Ley+6 2011."
+      "derecho de salida vs estabilidad financiera del proyecto",
+      "igualdad formal vs aportaciones económicas desiguales"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Parece frecuente reservar para Estatutos principios, derechos, obligaciones o efectos estructurales.",
-      "Esta señal aparece en referencias de BOE A 2011 18204 Ley+6 2011, Estatutos Entrepatios, Estatutos Losnidales."
+      "derecho de reembolso, criterios generales de deducción y plazos máximos",
+      "importe, naturaleza, exigibilidad y criterios básicos de devolución de aportaciones obligatorias",
+      "principios generales de financiación y límites a privilegios económicos",
+      "marco general para aportaciones voluntarias y ausencia de privilegios políticos"
     ],
     "usuallyInRRI": [
-      "Parece frecuente desarrollar en RRI aspectos operativos, convivencia, uso o procedimientos revisables.",
-      "Esta señal aparece en referencias de Estatutos Axuntase, Estatutos Entrepatios, MOD ESTATUTOS COOP VIVIENDAS."
+      "calendario interno de pagos, documentación y seguimiento del acuerdo de devolución",
+      "calendario de pagos, comunicación interna y gestión de incidencias de pago",
+      "seguimiento presupuestario y comunicación periódica al grupo",
+      "canales de propuesta, registro y seguimiento interno"
     ],
     "mixedApproaches": [
-      "Algunas referencias combinan lenguaje estatutario y desarrollo operativo, lo que sugiere enfoques mixtos."
+      "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
     ],
     "notes": [
-      "Esta lectura es generada automáticamente y no debe convertirse en regla sin revisión jurídica.",
-      "La ubicación final debe diferenciar qué es principio estable y qué es procedimiento adaptable."
+      "No conviene llevar a Estatutos detalles que el grupo necesite aprender o ajustar con la práctica.",
+      "La revisión jurídica debe confirmar qué materias exigen rango estatutario."
     ]
   },
   "recommendationsForBuenVivir": {
     "minimalApproach": [
-      "Una opción prudente es fijar solo criterios mínimos verificables por las referencias disponibles.",
-      "Conviene evitar reproducir detalles de otros proyectos sin validar su encaje en El Buen Vivir.",
-      "Conviene cubrir explícitamente los riesgos más repetidos antes de añadir detalle operativo."
+      "Fijar solo principios y efectos básicos que necesiten estabilidad.",
+      "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
+      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
     ],
     "flexibleApproach": [
-      "Una práctica compatible con flexibilidad parece remitir procedimientos al RRI o normas internas.",
-      "Para grupos pequeños, parece más compatible separar principios estables de protocolos que puedan cambiar con la experiencia."
+      "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
+      "Mantener espacio para revisar la práctica tras los primeros usos reales.",
+      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
     ],
     "pointsToDecideSoon": [
-      "Qué parte del tema afecta a derechos u obligaciones básicas.",
-      "Qué decisiones requieren seguridad desde el inicio para evitar conflictos.",
-      "Qué referencias de confianza alta merecen revisión prioritaria."
+      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
+      "decidir cómo se informará al grupo sobre necesidades financieras sin crear jerarquías internas",
+      "decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa"
     ],
     "pointsThatCanWait": [
-      "Detalles de procedimiento no respaldados por varias referencias.",
-      "Protocolos operativos que puedan aprenderse con la práctica comunitaria.",
-      "Formularios, calendarios internos y reglas menores que no afecten derechos básicos."
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Tensión entre fijar reglas en Estatutos y evitar rigidez futura.",
-    "Tensión entre prevenir conflictos y no sobrerregular procedimientos internos.",
-    "Tensión entre autonomía comunitaria y necesidad de reglas claras."
+    "derecho de salida vs estabilidad financiera del proyecto",
+    "igualdad formal vs aportaciones económicas desiguales"
   ],
   "notableProjects": [
     {
       "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con reembolso, aportación obligatoria.",
       "references": [
         "Estatutos Entrepatios - Artículo 15. Consecuencias de la baja.",
         "Estatutos Entrepatios - Artículo 32. Reembolso de las aportaciones al Capital Social."
@@ -100,7 +107,7 @@
     },
     {
       "projectName": "Estatutos Losnidales",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con reembolso, aportación obligatoria.",
       "references": [
         "Estatutos Losnidales - Artículo 14.- Consecuencias de la baja.",
         "Estatutos Losnidales - Articulo 25.- Reembolso de las aportaciones y de las cantidades para financiar la unidad"
@@ -108,7 +115,7 @@
     },
     {
       "projectName": "Estatutos Pepu",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con reembolso, financiación.",
       "references": [
         "Estatutos Pepu - Artículo 45.- Liquidación y reembolso de las aportaciones.",
         "Estatutos Pepu - Artículo 14.- Efectos económicos de las bajas."
@@ -116,7 +123,7 @@
     },
     {
       "projectName": "Estatutos Pequenopueblo",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con reembolso, financiación.",
       "references": [
         "Estatutos Pequenopueblo - Artículo 45.- Liquidación y reembolso de las aportaciones.",
         "Estatutos Pequenopueblo - Artículo 14.- Efectos económicos de las bajas."
@@ -124,7 +131,7 @@
     },
     {
       "projectName": "Estatutos Tarocohousing",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con reembolso, aportación obligatoria.",
       "references": [
         "Estatutos Tarocohousing - Artículo 46.- Reembolso de las aportaciones.",
         "Estatutos Tarocohousing - Artículo 37.- El capital social. Aportaciones iniciales dinerarias y no"
@@ -132,7 +139,7 @@
     },
     {
       "projectName": "Otras Leyes, Decretos, Modificaciones",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con reembolso, aportación obligatoria.",
       "references": [
         "BOE A 2011 18204 Ley+6 2011 - artículo 20.4 o, en su caso, el que establezcan los Estatutos.",
         "BOE A 2011 18204 Ley+6 2011 - Documento completo"
@@ -140,11 +147,10 @@
     }
   ],
   "legalWarnings": [
-    "Síntesis generada automáticamente sin revisión jurídica.",
+    "Síntesis orientativa basada en extractos documentales detectados.",
     "No sustituye asesoramiento jurídico profesional.",
-    "No debe usarse como contenido curado sin comprobar las referencias originales.",
-    "La separación entre ley, proyectos e interpretación automática debe mantenerse visible."
+    "Debe contrastarse con los documentos originales antes de usarla en acuerdos o cláusulas."
   ],
-  "generatedDisclaimer": "Síntesis comparada generada automáticamente a partir de research packs y referencias heurísticas. Revisar jurídicamente y contrastar con fuentes originales antes de usar.",
+  "generatedDisclaimer": "Síntesis basada en documentos analizados. Requiere contraste con las fuentes originales y revisión jurídica antes de su uso.",
   "status": "needs_legal_review"
 }

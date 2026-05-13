@@ -1,9 +1,9 @@
 {
   "slug": "disolucion",
-  "generatedAt": "2026-05-13T10:59:49.839Z",
+  "generatedAt": "2026-05-13T14:29:44.017Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/disolucion.md",
-    "referencesCount": 18,
+    "referencesCount": 30,
     "documents": [
       "docs-estatutos-estatutos-axuntase",
       "docs-estatutos-estatutos-elciempies",
@@ -22,78 +22,58 @@
   },
   "summary": {
     "overview": [
-      "La síntesis compara 18 referencias automáticas asociadas al tema \"Disolución\".",
-      "Las observaciones se formulan de forma prudente y deben verificarse contra las referencias originales."
+      "No se han detectado suficientes extractos claros sobre disolución.",
+      "Conviene revisar manualmente los documentos antes de convertir esta cuestión en una cláusula."
     ],
     "commonPatterns": [
-      "Parece frecuente que el tema aparezca en documentos de tipo estatutos, ley, otro.",
-      "Varios proyectos parecen tratar elementos estructurales o derechos básicos en referencias de Estatutos Losnidales, BOCYL D 05012005 1 Decreto+125 2004, Estatutos Entrepatios.",
-      "Algunos grupos parecen desarrollar aspectos operativos o de convivencia en referencias de Estatutos Entrepatios, Estatutos Losnidales, BOCYL D 05012005 1 Decreto+125 2004.",
-      "La lectura automática sugiere revisar disolucion, liquidacion, destino del inmueble como términos activadores principales."
+      "No se han detectado suficientes extractos claros sobre disolución."
     ],
     "majorDifferences": [
-      "Aparecen diferencias por tipo documental: estatutos, ley, otro.",
-      "Aparecen jurisdicciones distintas que conviene no mezclar sin revisión: Andalucía, España.",
-      "La distribución de confidence no permite por sí sola comparar diferencias de calidad."
+      "No hay base suficiente para comparar soluciones prácticas entre proyectos."
     ],
     "commonRisks": [
-      "Se detectan posibles riesgos o conflictos en referencias de Estatutos Losnidales, Estatutos Elciempies, Estatutos Entrepatios.",
-      "Puede existir riesgo de rigidez si se fija demasiado detalle en referencias de Estatutos Losnidales, Estatutos Entrepatios, Estatutos Senior Cohousing Huelva.",
-      "No debe asumirse que una práctica de otro proyecto sea adecuada sin contrastar tamaño, fase y contexto de El Buen Vivir."
+      "El principal riesgo es regular con una base documental demasiado débil."
     ],
     "commonTradeoffs": [
-      "El tradeoff principal parece estar entre claridad normativa y capacidad de adaptación futura.",
-      "Las referencias sugieren margen para soluciones flexibles en referencias de BOCYL D 05012005 1 Decreto+125 2004, Estatutos Entrepatios, Estatutos Losnidales.",
-      "No hay evidencia suficiente para afirmar compatibilidad específica con grupos pequeños."
+      "Conviene mantener abierto el equilibrio entre seguridad jurídica y aprendizaje progresivo."
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Parece frecuente reservar para Estatutos principios, derechos, obligaciones o efectos estructurales.",
-      "Esta señal aparece en referencias de Estatutos Losnidales, BOCYL D 05012005 1 Decreto+125 2004, Estatutos Entrepatios."
+      "Solo conviene llevar a Estatutos principios o derechos básicos si se confirman en revisión jurídica."
     ],
     "usuallyInRRI": [
-      "Parece frecuente desarrollar en RRI aspectos operativos, convivencia, uso o procedimientos revisables.",
-      "Esta señal aparece en referencias de Estatutos Entrepatios, Estatutos Losnidales, BOCYL D 05012005 1 Decreto+125 2004."
+      "Los detalles operativos deberían esperar a contar con ejemplos más claros o acuerdos internos."
     ],
     "mixedApproaches": [
-      "Algunas referencias combinan lenguaje estatutario y desarrollo operativo, lo que sugiere enfoques mixtos."
+      "No se detecta un enfoque mixto claro con la información disponible."
     ],
     "notes": [
-      "Esta lectura es generada automáticamente y no debe convertirse en regla sin revisión jurídica.",
-      "La ubicación final debe diferenciar qué es principio estable y qué es procedimiento adaptable."
+      "Evitar sobrerregular sin evidencia suficiente.",
+      "Separar principios estables de prácticas que puedan aprenderse con el uso."
     ]
   },
   "recommendationsForBuenVivir": {
     "minimalApproach": [
-      "Una opción prudente es fijar solo criterios mínimos verificables por las referencias disponibles.",
-      "Conviene evitar reproducir detalles de otros proyectos sin validar su encaje en El Buen Vivir.",
-      "Conviene cubrir explícitamente los riesgos más repetidos antes de añadir detalle operativo."
+      "Mantener una redacción mínima y prudente hasta revisar más documentos."
     ],
     "flexibleApproach": [
-      "Una práctica compatible con flexibilidad parece remitir procedimientos al RRI o normas internas.",
-      "Para grupos pequeños, parece más compatible separar principios estables de protocolos que puedan cambiar con la experiencia."
+      "Dejar los detalles operativos para acuerdos revisables."
     ],
     "pointsToDecideSoon": [
-      "Qué parte del tema afecta a derechos u obligaciones básicas.",
-      "Qué decisiones requieren seguridad desde el inicio para evitar conflictos.",
-      "Qué referencias de confianza alta merecen revisión prioritaria."
+      "Qué decisión concreta necesita seguridad desde el inicio."
     ],
     "pointsThatCanWait": [
-      "Detalles de procedimiento no respaldados por varias referencias.",
-      "Protocolos operativos que puedan aprenderse con la práctica comunitaria.",
-      "Formularios, calendarios internos y reglas menores que no afecten derechos básicos."
+      "Detalles procedimentales o formularios internos."
     ]
   },
   "detectedTensions": [
-    "Tensión entre fijar reglas en Estatutos y evitar rigidez futura.",
-    "Tensión entre prevenir conflictos y no sobrerregular procedimientos internos.",
-    "Tensión entre autonomía comunitaria y necesidad de reglas claras."
+    "Información limitada: conviene evitar conclusiones fuertes hasta revisar más extractos."
   ],
   "notableProjects": [
     {
       "projectName": "Estatutos Losnidales",
-      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Estatutos Losnidales - Art. 64.- Acuerdo de disolución.",
         "Estatutos Losnidales - Artículo 67.- Procedimiento de liquidación.",
@@ -102,7 +82,7 @@
     },
     {
       "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Estatutos Entrepatios - Artículo 66. Acuerdo de disolución.",
         "Estatutos Entrepatios - Artículo 69. Procedimiento de liquidación."
@@ -110,7 +90,7 @@
     },
     {
       "projectName": "Estatutos Senior Cohousing Huelva",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Estatutos Senior Cohousing Huelva - Artículo 48. Disolución",
         "Estatutos Senior Cohousing Huelva - artículo 24.2 de estos estatutos."
@@ -118,7 +98,7 @@
     },
     {
       "projectName": "Otras Leyes, Decretos, Modificaciones",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "BOCYL D 05012005 1 Decreto+125 2004 - Artículo 59.– Inscripción de la disolución.",
         "BOCYL D 05012005 1 Decreto+125 2004 - Artículo 60.– Contenido de la inscripción de disolución y, en su caso, de"
@@ -126,25 +106,24 @@
     },
     {
       "projectName": "Estatutos Axuntase",
-      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Estatutos Axuntase - Artículo 47.- Causas de disolución"
       ]
     },
     {
       "projectName": "Estatutos Elciempies",
-      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Estatutos Elciempies - CAPÍTULO VII"
       ]
     }
   ],
   "legalWarnings": [
-    "Síntesis generada automáticamente sin revisión jurídica.",
+    "Síntesis orientativa basada en extractos documentales detectados.",
     "No sustituye asesoramiento jurídico profesional.",
-    "No debe usarse como contenido curado sin comprobar las referencias originales.",
-    "La separación entre ley, proyectos e interpretación automática debe mantenerse visible."
+    "Debe contrastarse con los documentos originales antes de usarla en acuerdos o cláusulas."
   ],
-  "generatedDisclaimer": "Síntesis comparada generada automáticamente a partir de research packs y referencias heurísticas. Revisar jurídicamente y contrastar con fuentes originales antes de usar.",
+  "generatedDisclaimer": "Síntesis basada en documentos analizados. Requiere contraste con las fuentes originales y revisión jurídica antes de su uso.",
   "status": "needs_legal_review"
 }

@@ -1,9 +1,9 @@
 {
   "slug": "reservas_estancias_pernoctas",
-  "generatedAt": "2026-05-13T10:59:49.868Z",
+  "generatedAt": "2026-05-13T14:29:44.049Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/reservas_estancias_pernoctas.md",
-    "referencesCount": 18,
+    "referencesCount": 30,
     "documents": [
       "docs-estatutos-estatutos-axuntase",
       "docs-estatutos-estatutos-blanxart",
@@ -18,78 +18,58 @@
   },
   "summary": {
     "overview": [
-      "La síntesis compara 18 referencias automáticas asociadas al tema \"Reservas, estancias y pernoctas\".",
-      "Las observaciones se formulan de forma prudente y deben verificarse contra las referencias originales."
+      "No se han detectado suficientes extractos claros sobre reservas, estancias y pernoctas.",
+      "Conviene revisar manualmente los documentos antes de convertir esta cuestión en una cláusula."
     ],
     "commonPatterns": [
-      "Parece frecuente que el tema aparezca en documentos de tipo estatutos, ley.",
-      "Varios proyectos parecen tratar elementos estructurales o derechos básicos en referencias de Estatutos Entrepatios, Estatutos Losnidales, Estatutos Axuntase.",
-      "Algunos grupos parecen desarrollar aspectos operativos o de convivencia en referencias de Estatutos Losnidales, Estatutos Entrepatios, Estatutos Axuntase.",
-      "La lectura automática sugiere revisar reserva, estancia, pernocta como términos activadores principales."
+      "No se han detectado suficientes extractos claros sobre reservas, estancias y pernoctas."
     ],
     "majorDifferences": [
-      "Aparecen diferencias por tipo documental: estatutos, ley.",
-      "La dimensión jurisdiccional no parece suficientemente diversa en las referencias disponibles.",
-      "La evidencia combina referencias de confianza alta (4) y baja (5); conviene priorizar las primeras."
+      "No hay base suficiente para comparar soluciones prácticas entre proyectos."
     ],
     "commonRisks": [
-      "Se detectan posibles riesgos o conflictos en referencias de Estatutos Entrepatios, Estatutos Losnidales, BOE A 2007 19884 Consolidado RD+1514 2007.",
-      "Puede existir riesgo de rigidez si se fija demasiado detalle en referencias de Estatutos Entrepatios, Estatutos Losnidales, Estatutos Pepu.",
-      "No debe asumirse que una práctica de otro proyecto sea adecuada sin contrastar tamaño, fase y contexto de El Buen Vivir."
+      "El principal riesgo es regular con una base documental demasiado débil."
     ],
     "commonTradeoffs": [
-      "El tradeoff principal parece estar entre claridad normativa y capacidad de adaptación futura.",
-      "Las referencias sugieren margen para soluciones flexibles en referencias de Estatutos Axuntase.",
-      "Algunas señales parecen especialmente relevantes para grupos pequeños o de convivencia intensa en referencias de Estatutos Losnidales, Estatutos Pepu."
+      "Conviene mantener abierto el equilibrio entre seguridad jurídica y aprendizaje progresivo."
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Parece frecuente reservar para Estatutos principios, derechos, obligaciones o efectos estructurales.",
-      "Esta señal aparece en referencias de Estatutos Entrepatios, Estatutos Losnidales, Estatutos Axuntase."
+      "Solo conviene llevar a Estatutos principios o derechos básicos si se confirman en revisión jurídica."
     ],
     "usuallyInRRI": [
-      "Parece frecuente desarrollar en RRI aspectos operativos, convivencia, uso o procedimientos revisables.",
-      "Esta señal aparece en referencias de Estatutos Losnidales, Estatutos Entrepatios, Estatutos Axuntase."
+      "Los detalles operativos deberían esperar a contar con ejemplos más claros o acuerdos internos."
     ],
     "mixedApproaches": [
-      "Algunas referencias combinan lenguaje estatutario y desarrollo operativo, lo que sugiere enfoques mixtos."
+      "No se detecta un enfoque mixto claro con la información disponible."
     ],
     "notes": [
-      "Esta lectura es generada automáticamente y no debe convertirse en regla sin revisión jurídica.",
-      "La ubicación final debe diferenciar qué es principio estable y qué es procedimiento adaptable."
+      "Evitar sobrerregular sin evidencia suficiente.",
+      "Separar principios estables de prácticas que puedan aprenderse con el uso."
     ]
   },
   "recommendationsForBuenVivir": {
     "minimalApproach": [
-      "Una opción prudente es fijar solo criterios mínimos verificables por las referencias disponibles.",
-      "Conviene evitar reproducir detalles de otros proyectos sin validar su encaje en El Buen Vivir.",
-      "Conviene cubrir explícitamente los riesgos más repetidos antes de añadir detalle operativo."
+      "Mantener una redacción mínima y prudente hasta revisar más documentos."
     ],
     "flexibleApproach": [
-      "Una práctica compatible con flexibilidad parece remitir procedimientos al RRI o normas internas.",
-      "Para grupos pequeños, parece más compatible separar principios estables de protocolos que puedan cambiar con la experiencia."
+      "Dejar los detalles operativos para acuerdos revisables."
     ],
     "pointsToDecideSoon": [
-      "Qué parte del tema afecta a derechos u obligaciones básicas.",
-      "Qué decisiones requieren seguridad desde el inicio para evitar conflictos.",
-      "Qué referencias de confianza alta merecen revisión prioritaria."
+      "Qué decisión concreta necesita seguridad desde el inicio."
     ],
     "pointsThatCanWait": [
-      "Detalles de procedimiento no respaldados por varias referencias.",
-      "Protocolos operativos que puedan aprenderse con la práctica comunitaria.",
-      "Formularios, calendarios internos y reglas menores que no afecten derechos básicos."
+      "Detalles procedimentales o formularios internos."
     ]
   },
   "detectedTensions": [
-    "Tensión entre fijar reglas en Estatutos y evitar rigidez futura.",
-    "Tensión entre prevenir conflictos y no sobrerregular procedimientos internos.",
-    "Tensión entre autonomía comunitaria y necesidad de reglas claras."
+    "Información limitada: conviene evitar conclusiones fuertes hasta revisar más extractos."
   ],
   "notableProjects": [
     {
       "projectName": "Estatutos Blanxart",
-      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Estatutos Blanxart - Article 33. Fons de reserva voluntaris: el Fons Col·lectiu d’Accés a l’Habitatge i el",
         "Estatutos Blanxart - Article 32. Fons de reserva obligatori",
@@ -98,7 +78,7 @@
     },
     {
       "projectName": "Estatutos Cancarner",
-      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Estatutos Cancarner - Article 35. Fons de reserva voluntaris: el Fons Col·lectiu d'Accés a l'Habitatge i el Fons",
         "Estatutos Cancarner - Article 34. El fons de reserva obligatori",
@@ -107,7 +87,7 @@
     },
     {
       "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Estatutos Entrepatios - Artículo 25. La Reserva de educación y promoción cooperativa.",
         "Estatutos Entrepatios - Artículo 24. La Reserva obligatoria.",
@@ -116,7 +96,7 @@
     },
     {
       "projectName": "Estatutos Losnidales",
-      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Estatutos Losnidales - Artículo 32.- La Reserva de educación y promoción.",
         "Estatutos Losnidales - Artículo 30.- La Reserva obligatoria.",
@@ -125,7 +105,7 @@
     },
     {
       "projectName": "Estatutos Pepu",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Estatutos Pepu - Artículo 51.- Fondo de Reserva voluntario.",
         "Estatutos Pepu - Artículo 52.- Fondo de Reserva de Promoción y Formación Cooperativa."
@@ -133,18 +113,17 @@
     },
     {
       "projectName": "Estatutos Axuntase",
-      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Estatutos Axuntase - Artículo 43.- Fondo de Reserva voluntario de solidaridad"
       ]
     }
   ],
   "legalWarnings": [
-    "Síntesis generada automáticamente sin revisión jurídica.",
+    "Síntesis orientativa basada en extractos documentales detectados.",
     "No sustituye asesoramiento jurídico profesional.",
-    "No debe usarse como contenido curado sin comprobar las referencias originales.",
-    "La separación entre ley, proyectos e interpretación automática debe mantenerse visible."
+    "Debe contrastarse con los documentos originales antes de usarla en acuerdos o cláusulas."
   ],
-  "generatedDisclaimer": "Síntesis comparada generada automáticamente a partir de research packs y referencias heurísticas. Revisar jurídicamente y contrastar con fuentes originales antes de usar.",
+  "generatedDisclaimer": "Síntesis basada en documentos analizados. Requiere contraste con las fuentes originales y revisión jurídica antes de su uso.",
   "status": "needs_legal_review"
 }

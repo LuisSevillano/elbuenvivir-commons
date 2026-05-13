@@ -10,9 +10,42 @@ interface PackReference {
   jurisdiction?: string;
   project?: string;
   articleOrSection?: string;
-  confidence?: string;
-  score?: number;
   excerpt: string;
+}
+
+interface ConceptDefinition {
+  label: string;
+  terms: string[];
+  pattern?: string;
+  difference?: string;
+  risk?: string;
+  tradeoff?: string;
+  statutes?: string;
+  rri?: string;
+  decision?: string;
+}
+
+interface DetectedConcept extends ConceptDefinition {
+  key: string;
+  count: number;
+  references: PackReference[];
+}
+
+interface TopicInsights {
+  overview: string[];
+  commonPatterns: string[];
+  majorDifferences: string[];
+  commonRisks: string[];
+  commonTradeoffs: string[];
+  detectedTensions: string[];
+  usuallyInStatutes: string[];
+  usuallyInRRI: string[];
+  mixedApproaches: string[];
+  notes: string[];
+  minimalApproach: string[];
+  flexibleApproach: string[];
+  pointsToDecideSoon: string[];
+  pointsThatCanWait: string[];
 }
 
 const root = process.cwd();
@@ -22,12 +55,235 @@ const taxonomyPath = join(root, 'taxonomy/topics.json');
 const outputDir = join(root, 'src/content/generated/syntheses');
 const maxProjects = 6;
 
-const statutesSignals = ['estatutos', 'capital social', 'aportaciones', 'baja', 'admision', 'expulsion', 'asamblea general', 'consejo rector', 'disolucion', 'reembolso'];
-const rriSignals = ['rri', 'reglamento de regimen interno', 'normas internas', 'convivencia', 'uso', 'reservas', 'pernoctas', 'limpieza', 'mantenimiento', 'mediacion', 'procedimiento'];
-const riskSignals = ['riesgo', 'sancion', 'expulsion', 'impugnacion', 'bloqueo', 'conflicto', 'incumplimiento', 'perdida', 'responsabilidad'];
-const rigiditySignals = ['rigidez', 'rigido', 'modificacion', 'dificil de modificar', 'estatutos', 'mayoria reforzada'];
-const flexibilitySignals = ['flexibilidad', 'adaptar', 'rri', 'reglamento', 'procedimiento interno', 'normas internas'];
-const smallGroupSignals = ['grupo pequeño', 'comunidad', 'convivencia', 'acompañamiento', 'mediacion', 'consenso'];
+const conceptsByCategory: Partial<Record<string, Record<string, ConceptDefinition>>> = {
+  socios: {
+    admision: {
+      label: 'admisión de personas socias',
+      terms: ['admision', 'alta', 'nueva persona socia', 'incorporacion', 'solicitud de ingreso'],
+      pattern: 'Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones.',
+      risk: 'Si no se aclaran los criterios de entrada, puede aparecer discrecionalidad o conflicto sobre quién puede incorporarse.',
+      statutes: 'criterios básicos de admisión y derechos de las personas socias',
+      rri: 'pasos internos de solicitud, acompañamiento y documentación de la incorporación',
+      decision: 'definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable'
+    },
+    baja: {
+      label: 'baja o salida de una persona socia',
+      terms: ['baja voluntaria', 'baja obligatoria', 'baja justificada', 'baja no justificada', 'perdida de condicion de socio', 'salida'],
+      pattern: 'Varios proyectos distinguen tipos de baja o pérdida de condición de persona socia.',
+      difference: 'La diferencia práctica suele estar entre una salida libre con preaviso y una salida condicionada por incumplimientos, sustitución o efectos económicos.',
+      risk: 'Una salida mal regulada puede tensionar la liquidez, el uso de espacios y la continuidad del grupo.',
+      tradeoff: 'salida flexible vs estabilidad económica del proyecto',
+      statutes: 'causas y clases de baja, pérdida de condición de socia y efectos económicos básicos',
+      rri: 'procedimiento interno de comunicación, acompañamiento de salida y cierre de usos o llaves',
+      decision: 'decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido'
+    },
+    expulsion: {
+      label: 'expulsión o sanción',
+      terms: ['expulsion', 'sancion', 'falta grave', 'falta muy grave', 'procedimiento sancionador'],
+      pattern: 'Cuando aparece expulsión, suele vincularse a incumplimientos graves y a un procedimiento con garantías.',
+      risk: 'Sin garantías mínimas, el régimen disciplinario puede convertirse en una fuente de impugnación o conflicto interno.',
+      statutes: 'causas generales de expulsión, garantías y órgano competente',
+      rri: 'tramitación concreta, plazos de audiencia y mediación previa cuando proceda',
+      decision: 'decidir qué conflictos deben pasar por mediación antes de convertirse en sanción'
+    },
+    transmision: {
+      label: 'transmisión de derechos',
+      terms: ['transmision', 'transmitir', 'cesion', 'derechos de uso', 'derecho de uso'],
+      pattern: 'Algunos textos conectan la salida con transmisión de derechos o sustitución por otra persona.',
+      risk: 'Si la transmisión no se delimita, puede confundirse un derecho cooperativo con una compraventa privada.',
+      statutes: 'límites generales a la transmisión de derechos societarios o de uso',
+      rri: 'pasos de comunicación y coordinación con lista de espera o personas candidatas',
+      decision: 'aclarar si la salida depende de encontrar sustituto o si la cooperativa gestiona directamente la entrada siguiente'
+    },
+    fallecimiento: {
+      label: 'fallecimiento',
+      terms: ['fallecimiento', 'defuncion', 'herederos', 'herencia', 'causahabiente'],
+      pattern: 'Algunos documentos prevén efectos específicos cuando la pérdida de condición deriva de fallecimiento.',
+      risk: 'Si no se prevé este caso, pueden aparecer tensiones entre derechos económicos, convivencia y expectativas familiares.',
+      statutes: 'efectos básicos del fallecimiento sobre la condición de socia y derechos económicos',
+      rri: 'acompañamiento práctico y gestión temporal del uso del espacio',
+      decision: 'decidir cómo se coordinan herederos, continuidad del proyecto y uso de espacios'
+    },
+    derechos_obligaciones: {
+      label: 'derechos y obligaciones',
+      terms: ['derechos', 'obligaciones', 'deberes', 'participacion', 'informacion'],
+      pattern: 'Los textos suelen combinar derechos de participación e información con obligaciones económicas y de convivencia.',
+      risk: 'Una lista amplia pero poco operativa puede dificultar distinguir obligaciones esenciales de prácticas cotidianas.',
+      statutes: 'derechos y obligaciones esenciales de las personas socias',
+      rri: 'pautas cotidianas para hacer efectivos esos derechos y deberes',
+      decision: 'separar obligaciones esenciales de compromisos prácticos revisables'
+    }
+  },
+  economico: {
+    aportacion_obligatoria: {
+      label: 'aportación obligatoria',
+      terms: ['aportacion obligatoria', 'aportaciones obligatorias', 'capital social obligatorio', 'aportacion inicial'],
+      pattern: 'La aportación obligatoria aparece como una condición económica básica de pertenencia o participación.',
+      difference: 'Algunos textos parecen tratarla como capital social estable y otros la conectan con cuotas, financiación o derechos de uso.',
+      risk: 'Si la aportación se vincula a poder, uso o permanencia sin límites claros, puede generar desigualdad interna.',
+      tradeoff: 'igualdad formal vs aportaciones económicas desiguales',
+      statutes: 'importe, naturaleza, exigibilidad y criterios básicos de devolución de aportaciones obligatorias',
+      rri: 'calendario de pagos, comunicación interna y gestión de incidencias de pago',
+      decision: 'decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios'
+    },
+    aportacion_voluntaria: {
+      label: 'aportación voluntaria',
+      terms: ['aportacion voluntaria', 'aportaciones voluntarias'],
+      pattern: 'Las aportaciones voluntarias aparecen como instrumento de financiación adicional diferenciado de la obligación básica.',
+      risk: 'Pueden generar expectativas de retorno o influencia si no se separan claramente de los derechos políticos.',
+      statutes: 'marco general para aportaciones voluntarias y ausencia de privilegios políticos',
+      rri: 'canales de propuesta, registro y seguimiento interno',
+      decision: 'decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa'
+    },
+    cuotas: {
+      label: 'cuotas',
+      terms: ['cuota', 'cuotas', 'cuota periodica', 'gastos comunes'],
+      pattern: 'Las cuotas suelen aparecer como mecanismo periódico para sostener gastos comunes o funcionamiento ordinario.',
+      risk: 'Si cuotas y aportaciones se mezclan, puede ser difícil distinguir inversión, gasto y retorno.',
+      statutes: 'posibilidad general de cuotas y órgano que las aprueba',
+      rri: 'periodicidad, forma de pago y gestión de retrasos',
+      decision: 'separar claramente aportación al capital, cuotas de gasto y pagos por uso'
+    },
+    reembolso: {
+      label: 'reembolso',
+      terms: ['reembolso', 'devolucion', 'devolver', 'liquidacion', 'deduccion', 'deducciones'],
+      pattern: 'La devolución de aportaciones aparece vinculada al reembolso y, en algunos casos, a deducciones o plazos.',
+      difference: 'La diferencia práctica suele estar entre devolución inmediata, devolución condicionada por liquidez y devolución vinculada a nueva incorporación.',
+      risk: 'Un reembolso inmediato puede tensionar la caja; un reembolso indefinido puede generar inseguridad para quien sale.',
+      tradeoff: 'derecho de salida vs estabilidad financiera del proyecto',
+      statutes: 'derecho de reembolso, criterios generales de deducción y plazos máximos',
+      rri: 'calendario interno de pagos, documentación y seguimiento del acuerdo de devolución',
+      decision: 'decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja'
+    },
+    financiacion: {
+      label: 'financiación',
+      terms: ['financiacion', 'prestamo', 'credito', 'fondos', 'inversion'],
+      pattern: 'Algunos textos conectan aportaciones y cuotas con necesidades de financiación del proyecto.',
+      risk: 'La financiación puede desplazar decisiones de convivencia si no se separan necesidades económicas y derechos de participación.',
+      statutes: 'principios generales de financiación y límites a privilegios económicos',
+      rri: 'seguimiento presupuestario y comunicación periódica al grupo',
+      decision: 'decidir cómo se informará al grupo sobre necesidades financieras sin crear jerarquías internas'
+    }
+  },
+  convivencia: {
+    conflictos: {
+      label: 'conflictos y mediación',
+      terms: ['conflicto', 'mediacion', 'convivencia', 'resolucion de conflictos', 'desacuerdo'],
+      pattern: 'Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados.',
+      risk: 'Sin un cauce claro, desacuerdos pequeños pueden convertirse en conflictos societarios.',
+      tradeoff: 'autonomía comunitaria vs necesidad de procedimiento claro',
+      statutes: 'principios de convivencia y posibilidad de mediación o régimen disciplinario',
+      rri: 'pasos de mediación, tiempos de respuesta y personas de referencia',
+      decision: 'decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito'
+    },
+    mantenimiento: {
+      label: 'mantenimiento y cuidados del espacio',
+      terms: ['mantenimiento', 'limpieza', 'obras', 'reparacion', 'conservacion'],
+      pattern: 'Las reglas de mantenimiento suelen concretar responsabilidades de cuidado, limpieza u obras.',
+      risk: 'Si las tareas comunes no se reparten con claridad, pueden concentrarse cargas invisibles.',
+      statutes: 'obligación general de contribuir al cuidado y conservación',
+      rri: 'turnos, avisos, criterios de obras y gestión de incidencias',
+      decision: 'decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida'
+    }
+  },
+  uso_espacios: {
+    espacios_comunes: {
+      label: 'espacios comunes',
+      terms: ['espacios comunes', 'zonas comunes', 'uso comun', 'espacio comun'],
+      pattern: 'El uso de espacios comunes suele regularse mediante reglas prácticas de reserva, cuidado y prioridad de usos.',
+      risk: 'La falta de criterios puede generar conflictos entre uso individual, uso comunitario e invitados.',
+      tradeoff: 'uso flexible del espacio vs prevención de conflictos de convivencia',
+      statutes: 'principio general de uso compartido y respeto a acuerdos comunitarios',
+      rri: 'reservas, horarios, prioridades, limpieza y criterios de uso cotidiano',
+      decision: 'decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria'
+    },
+    invitados: {
+      label: 'invitados y pernoctas',
+      terms: ['invitados', 'visitas', 'pernocta', 'pernoctas', 'estancias'],
+      pattern: 'Las visitas e invitados suelen conectarse con reservas, pernoctas, uso de espacios y convivencia.',
+      risk: 'Si no hay criterios, puede tensionarse el equilibrio entre hospitalidad, intimidad y disponibilidad de espacios.',
+      statutes: 'principio general de compatibilidad entre uso privado, convivencia y espacios comunes',
+      rri: 'avisos, límites de pernocta, reservas y responsabilidades de la persona anfitriona',
+      decision: 'decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados'
+    },
+    menores_animales: {
+      label: 'menores o animales',
+      terms: ['menores', 'ninos', 'niñas', 'animales', 'mascotas'],
+      pattern: 'Cuando aparecen menores o animales, suelen tratarse como casos de convivencia práctica y cuidado de espacios.',
+      risk: 'No preverlos puede trasladar conflictos cotidianos a decisiones improvisadas.',
+      statutes: 'principio general de convivencia y cuidado',
+      rri: 'reglas prácticas, responsabilidades y usos compatibles',
+      decision: 'decidir qué casos necesitan regla previa y cuáles pueden resolverse caso por caso'
+    }
+  },
+  gobernanza: {
+    asamblea: {
+      label: 'asamblea',
+      terms: ['asamblea', 'asamblea general', 'convocatoria', 'orden del dia'],
+      pattern: 'La asamblea aparece como espacio principal de decisión, control y aprobación de cuestiones estructurales.',
+      risk: 'Si no se delimitan competencias y convocatoria, pueden aparecer bloqueos o decisiones poco trazables.',
+      statutes: 'competencias, convocatoria, quorum y mayorías esenciales',
+      rri: 'preparación de reuniones, dinámica interna, actas y seguimiento de acuerdos',
+      decision: 'decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse'
+    },
+    consejo_rector: {
+      label: 'consejo rector u órgano de gestión',
+      terms: ['consejo rector', 'organo de administracion', 'administradores', 'representacion'],
+      pattern: 'El órgano de gestión suele concentrar representación, ejecución de acuerdos y administración ordinaria.',
+      risk: 'Una delegación poco controlada puede alejar decisiones cotidianas del grupo.',
+      tradeoff: 'agilidad de gestión vs control colectivo',
+      statutes: 'composición, mandato, competencias y rendición de cuentas',
+      rri: 'formas de coordinación, comunicación interna y preparación de acuerdos',
+      decision: 'decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas'
+    },
+    mayorias: {
+      label: 'mayorías, consenso y bloqueo',
+      terms: ['mayoria', 'consenso', 'unanimidad', 'bloqueo', 'quorum', 'voto', 'delegacion de voto'],
+      pattern: 'Las decisiones suelen combinar reglas de mayoría con mecanismos de participación, quorum o consenso según la importancia del asunto.',
+      difference: 'Algunos proyectos priorizan agilidad mediante mayorías; otros refuerzan consenso o unanimidad para decisiones sensibles.',
+      risk: 'La unanimidad puede proteger acuerdos importantes pero también generar bloqueo; mayorías simples pueden dejar minorías expuestas.',
+      tradeoff: 'consenso vs riesgo de bloqueo',
+      statutes: 'quorum, mayorías reforzadas y decisiones que requieren protección especial',
+      rri: 'facilitación, preparación de decisiones y mecanismos previos para evitar bloqueos',
+      decision: 'decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria'
+    },
+    modificacion: {
+      label: 'modificación de normas',
+      terms: ['modificacion de estatutos', 'modificacion del reglamento', 'reforma', 'modificar estatutos', 'modificar reglamento'],
+      pattern: 'La modificación de Estatutos suele requerir más estabilidad que la adaptación del RRI.',
+      risk: 'Si todo se lleva a Estatutos, cualquier aprendizaje posterior puede requerir reformas pesadas.',
+      tradeoff: 'seguridad jurídica vs capacidad de aprendizaje',
+      statutes: 'materias estructurales y procedimiento de reforma estatutaria',
+      rri: 'detalles revisables y procedimientos de actualización interna',
+      decision: 'decidir qué debe quedar estable y qué conviene poder ajustar con experiencia'
+    }
+  }
+};
+
+const conceptsByTopicSlug: Record<string, Record<string, ConceptDefinition>> = {
+  baja_socio: {
+    ...(conceptsByCategory.socios ?? {}),
+    ...(conceptsByCategory.economico ?? {})
+  },
+  aportaciones_obligatorias: {
+    ...(conceptsByCategory.economico ?? {}),
+    ...(conceptsByCategory.socios ?? {})
+  },
+  uso_espacios_comunes: {
+    ...(conceptsByCategory.uso_espacios ?? {}),
+    ...(conceptsByCategory.convivencia ?? {})
+  },
+  toma_decisiones: {
+    ...(conceptsByCategory.gobernanza ?? {})
+  },
+  estatutos_vs_rri: {
+    ...(conceptsByCategory.gobernanza ?? {}),
+    ...(conceptsByCategory.socios ?? {}),
+    ...(conceptsByCategory.economico ?? {}),
+    ...(conceptsByCategory.uso_espacios ?? {}),
+    ...(conceptsByCategory.convivencia ?? {})
+  }
+};
 
 function readJson<T>(path: string): T {
   return JSON.parse(readFileSync(path, 'utf8')) as T;
@@ -62,11 +318,9 @@ function parseReferences(pack: string): PackReference[] {
       jurisdiction: field(block, 'Jurisdicción'),
       project: field(block, 'Proyecto'),
       articleOrSection: field(block, 'Sección/artículo'),
-      confidence: field(block, 'Confidence'),
-      score: Number(field(block, 'Score') ?? 0) || undefined,
       excerpt
     };
-  });
+  }).filter((reference) => reference.excerpt.length > 0);
 }
 
 function packFiles(): string[] {
@@ -80,26 +334,175 @@ function packFiles(): string[] {
     .map((file) => join(packsDir, file));
 }
 
-function includesAny(text: string, signals: string[]): boolean {
-  const normalized = normalize(text);
-  return signals.some((signal) => normalized.includes(normalize(signal)));
+function referencesForTopic(slug: string, allReferences: GeneratedTopicReference[]): GeneratedTopicReference[] {
+  return allReferences.filter((reference) => reference.topicSlug === slug);
 }
 
-function countBy<T extends string>(values: T[]): Map<T, number> {
-  const counts = new Map<T, number>();
+function unique(values: string[]): string[] {
+  return [...new Set(values.filter(Boolean))];
+}
 
-  for (const value of values) {
-    counts.set(value, (counts.get(value) ?? 0) + 1);
+function pick(items: string[], max: number): string[] {
+  return unique(items).slice(0, max);
+}
+
+function conceptDictionaryForTopic(topic: TaxonomyTopic): Record<string, ConceptDefinition> {
+  return {
+    ...(conceptsByCategory[topic.category] ?? {}),
+    ...(conceptsByTopicSlug[topic.slug] ?? {})
+  };
+}
+
+function detectConcepts(references: PackReference[], conceptDictionary: Record<string, ConceptDefinition>): DetectedConcept[] {
+  const detected: DetectedConcept[] = [];
+
+  for (const [key, definition] of Object.entries(conceptDictionary)) {
+    const matches = references.filter((reference) => {
+      const text = normalize(`${reference.articleOrSection ?? ''} ${reference.excerpt}`);
+      return definition.terms.some((term) => text.includes(normalize(term)));
+    });
+
+    if (matches.length > 0) {
+      detected.push({ ...definition, key, count: matches.length, references: matches });
+    }
   }
 
-  return counts;
+  return detected.toSorted((a, b) => b.count - a.count || a.label.localeCompare(b.label, 'es'));
 }
 
-function topValues(counts: Map<string, number>, max = 4): string[] {
-  return [...counts.entries()]
-    .toSorted((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'es'))
-    .slice(0, max)
-    .map(([value]) => value);
+function summarizeDetectedConcepts(detected: DetectedConcept[], topic: TaxonomyTopic): string[] {
+  if (detected.length === 0) {
+    return [`No se han detectado suficientes extractos claros sobre ${topic.title.toLowerCase()}.`];
+  }
+
+  const topConcepts = detected.slice(0, 3).map((concept) => concept.label);
+  const projects = unique(detected.flatMap((concept) => concept.references.map((reference) => reference.project ?? reference.documentTitle))).slice(0, 4);
+  const overview = [`Los extractos más claros relacionan este tema con ${topConcepts.join(', ')}.`];
+
+  if (projects.length > 1) {
+    overview.push(`Aparecen ejemplos en varios proyectos, entre ellos ${projects.join(', ')}.`);
+  }
+
+  const concretePattern = detected.find((concept) => concept.pattern)?.pattern;
+  if (concretePattern) {
+    overview.push(concretePattern);
+  }
+
+  return overview.slice(0, 3);
+}
+
+function buildFallbackInsights(topic: TaxonomyTopic): TopicInsights {
+  const limited = `No se han detectado suficientes extractos claros sobre ${topic.title.toLowerCase()}.`;
+  return {
+    overview: [limited, 'Conviene revisar manualmente los documentos antes de convertir esta cuestión en una cláusula.'],
+    commonPatterns: [limited],
+    majorDifferences: ['No hay base suficiente para comparar soluciones prácticas entre proyectos.'],
+    commonRisks: ['El principal riesgo es regular con una base documental demasiado débil.'],
+    commonTradeoffs: ['Conviene mantener abierto el equilibrio entre seguridad jurídica y aprendizaje progresivo.'],
+    detectedTensions: ['Información limitada: conviene evitar conclusiones fuertes hasta revisar más extractos.'],
+    usuallyInStatutes: ['Solo conviene llevar a Estatutos principios o derechos básicos si se confirman en revisión jurídica.'],
+    usuallyInRRI: ['Los detalles operativos deberían esperar a contar con ejemplos más claros o acuerdos internos.'],
+    mixedApproaches: ['No se detecta un enfoque mixto claro con la información disponible.'],
+    notes: ['Evitar sobrerregular sin evidencia suficiente.', 'Separar principios estables de prácticas que puedan aprenderse con el uso.'],
+    minimalApproach: ['Mantener una redacción mínima y prudente hasta revisar más documentos.'],
+    flexibleApproach: ['Dejar los detalles operativos para acuerdos revisables.'],
+    pointsToDecideSoon: ['Qué decisión concreta necesita seguridad desde el inicio.'],
+    pointsThatCanWait: ['Detalles procedimentales o formularios internos.']
+  };
+}
+
+function addTopicSpecificInsights(topic: TaxonomyTopic, detected: DetectedConcept[], insights: TopicInsights): TopicInsights {
+  const keys = new Set(detected.map((concept) => concept.key));
+
+  if (topic.slug === 'baja_socio') {
+    if (keys.has('baja') && keys.has('reembolso')) {
+      insights.commonPatterns.push('La salida aparece conectada con el reembolso de aportaciones y con efectos económicos que conviene fijar con claridad.');
+      insights.pointsToDecideSoon.push('Decidir cómo se devuelve dinero si no hay liquidez suficiente en el momento de la baja.');
+    }
+    if (keys.has('transmision')) {
+      insights.commonPatterns.push('Algunos textos conectan la salida con la entrada de una nueva persona socia o con transmisión de derechos.');
+      insights.pointsToDecideSoon.push('Decidir si la baja depende de encontrar sustituto o si la cooperativa gestiona la sustitución.');
+    }
+    insights.usuallyInStatutes = pick([
+      'causas y clases de baja',
+      'efectos económicos básicos',
+      'derecho de reembolso',
+      'criterios generales de deducción y plazos',
+      ...insights.usuallyInStatutes
+    ], 6);
+    insights.usuallyInRRI = pick([
+      'procedimiento interno de solicitud o comunicación de baja',
+      'acompañamiento de la salida',
+      'gestión de sustitución o lista de espera',
+      'reglas prácticas de entrega de llaves y cierre de uso',
+      ...insights.usuallyInRRI
+    ], 6);
+  }
+
+  if (topic.slug === 'aportaciones_obligatorias') {
+    insights.commonTradeoffs.push('igualdad cooperativa vs necesidades reales de financiación');
+    insights.pointsToDecideSoon.push('Decidir si habrá aportaciones desiguales y cómo se evita que generen privilegios.');
+    insights.usuallyInStatutes = pick(['importe o criterio de cálculo de la aportación obligatoria', 'naturaleza de la aportación y derechos que no puede alterar', 'criterios de devolución o actualización', ...insights.usuallyInStatutes], 6);
+    insights.usuallyInRRI = pick(['calendario de pagos', 'gestión interna de retrasos o fraccionamientos', 'comunicación presupuestaria al grupo', ...insights.usuallyInRRI], 6);
+  }
+
+  if (topic.slug === 'uso_espacios_comunes') {
+    insights.commonTradeoffs.push('uso flexible de espacios vs prevención de conflictos cotidianos');
+    insights.pointsToDecideSoon.push('Decidir qué usos requieren reserva, aviso previo o prioridad comunitaria.');
+  }
+
+  if (topic.slug === 'toma_decisiones') {
+    insights.commonTradeoffs.push('consenso vs bloqueo');
+    insights.pointsToDecideSoon.push('Decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria.');
+  }
+
+  if (topic.slug === 'estatutos_vs_rri') {
+    insights.commonTradeoffs.push('Estatutos mínimos vs sobrerregulación');
+    insights.pointsToDecideSoon.push('Separar qué debe quedar estable de qué puede aprenderse y actualizarse en RRI.');
+  }
+
+  return {
+    ...insights,
+    commonPatterns: pick(insights.commonPatterns, 6),
+    commonTradeoffs: pick(insights.commonTradeoffs, 6),
+    pointsToDecideSoon: pick(insights.pointsToDecideSoon, 6),
+    usuallyInStatutes: pick(insights.usuallyInStatutes, 6),
+    usuallyInRRI: pick(insights.usuallyInRRI, 6)
+  };
+}
+
+function buildTopicSpecificInsights(topic: TaxonomyTopic, references: PackReference[]): TopicInsights {
+  const detected = detectConcepts(references, conceptDictionaryForTopic(topic));
+  if (detected.length === 0 || references.length < 2) {
+    return buildFallbackInsights(topic);
+  }
+
+  const patterns = detected.map((concept) => concept.pattern).filter((value): value is string => Boolean(value));
+  const differences = detected.map((concept) => concept.difference).filter((value): value is string => Boolean(value));
+  const risks = detected.map((concept) => concept.risk).filter((value): value is string => Boolean(value));
+  const tradeoffs = detected.map((concept) => concept.tradeoff).filter((value): value is string => Boolean(value));
+  const statutes = detected.map((concept) => concept.statutes).filter((value): value is string => Boolean(value));
+  const rri = detected.map((concept) => concept.rri).filter((value): value is string => Boolean(value));
+  const decisions = detected.map((concept) => concept.decision).filter((value): value is string => Boolean(value));
+
+  const insights: TopicInsights = {
+    overview: summarizeDetectedConcepts(detected, topic),
+    commonPatterns: pick(patterns, 5),
+    majorDifferences: pick(differences.length > 0 ? differences : ['Las diferencias prácticas dependen de si el proyecto prioriza reglas estables, procedimientos internos o soluciones caso por caso.'], 4),
+    commonRisks: pick(risks.length > 0 ? risks : ['El riesgo principal es trasladar una solución de otro proyecto sin revisar su encaje económico, jurídico y convivencial.'], 5),
+    commonTradeoffs: pick(tradeoffs.length > 0 ? tradeoffs : ['flexibilidad vs seguridad jurídica'], 5),
+    detectedTensions: pick(tradeoffs.length > 0 ? tradeoffs : ['flexibilidad vs seguridad jurídica'], 5),
+    usuallyInStatutes: pick(statutes.length > 0 ? statutes : ['principios, derechos u obligaciones básicas que deban ser estables'], 5),
+    usuallyInRRI: pick(rri.length > 0 ? rri : ['procedimientos internos y detalles operativos que puedan revisarse con la experiencia'], 5),
+    mixedApproaches: ['Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables.'],
+    notes: ['No conviene llevar a Estatutos detalles que el grupo necesite aprender o ajustar con la práctica.', 'La revisión jurídica debe confirmar qué materias exigen rango estatutario.'],
+    minimalApproach: pick(['Fijar solo principios y efectos básicos que necesiten estabilidad.', 'Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.', ...decisions.slice(0, 2)], 4),
+    flexibleApproach: pick(['Remitir procedimientos, calendarios y pautas cotidianas al RRI.', 'Mantener espacio para revisar la práctica tras los primeros usos reales.', ...decisions.slice(0, 2)], 4),
+    pointsToDecideSoon: pick(decisions.length > 0 ? decisions : ['Qué parte del tema afecta a derechos u obligaciones básicas.', 'Qué detalle puede esperar a una norma interna revisable.'], 5),
+    pointsThatCanWait: ['formularios internos', 'calendarios operativos', 'protocolos menores que no afecten derechos básicos']
+  };
+
+  return addTopicSpecificInsights(topic, detected, insights);
 }
 
 function referenceLabel(reference: PackReference): string {
@@ -112,141 +515,7 @@ function projectName(reference: PackReference): string {
   return reference.project || reference.documentTitle;
 }
 
-function referencesForTopic(slug: string, allReferences: GeneratedTopicReference[]): GeneratedTopicReference[] {
-  return allReferences.filter((reference) => reference.topicSlug === slug);
-}
-
-function signalsSummary(references: PackReference[], signals: string[]): PackReference[] {
-  return references.filter((reference) => includesAny(`${reference.articleOrSection ?? ''} ${reference.excerpt}`, signals));
-}
-
-function sentenceFromEvidence(prefix: string, matches: PackReference[], fallback: string): string {
-  if (matches.length === 0) {
-    return fallback;
-  }
-
-  const docs = topValues(countBy(matches.map((reference) => reference.documentTitle)), 3);
-  return `${prefix} en referencias de ${docs.join(', ')}.`;
-}
-
-function commonPatterns(topic: TaxonomyTopic, references: PackReference[]): string[] {
-  if (references.length === 0) {
-    return ['No hay referencias suficientes en el research pack para detectar patrones comparados.'];
-  }
-
-  const statutesMatches = signalsSummary(references, statutesSignals);
-  const rriMatches = signalsSummary(references, rriSignals);
-  const typeCounts = countBy(references.map((reference) => reference.documentType));
-  const mainTypes = topValues(typeCounts, 3);
-
-  return [
-    `Parece frecuente que el tema aparezca en documentos de tipo ${mainTypes.join(', ') || 'no identificado'}.`,
-    sentenceFromEvidence('Varios proyectos parecen tratar elementos estructurales o derechos básicos', statutesMatches, 'No se detecta evidencia suficiente para afirmar un patrón estatutario claro.'),
-    sentenceFromEvidence('Algunos grupos parecen desarrollar aspectos operativos o de convivencia', rriMatches, 'No se detecta evidencia suficiente para afirmar un patrón claro de RRI.'),
-    `La lectura automática sugiere revisar ${topic.keywords?.slice(0, 4).join(', ') || topic.title.toLowerCase()} como términos activadores principales.`
-  ];
-}
-
-function majorDifferences(references: PackReference[]): string[] {
-  const documentTypes = topValues(countBy(references.map((reference) => reference.documentType)), 5);
-  const jurisdictions = topValues(countBy(references.map((reference) => reference.jurisdiction).filter((value): value is string => Boolean(value))), 5);
-  const high = references.filter((reference) => reference.confidence === 'high').length;
-  const low = references.filter((reference) => reference.confidence === 'low').length;
-
-  return [
-    documentTypes.length > 1
-      ? `Aparecen diferencias por tipo documental: ${documentTypes.join(', ')}.`
-      : 'No hay suficiente variedad de tipos documentales para comparar enfoques con seguridad.',
-    jurisdictions.length > 1
-      ? `Aparecen jurisdicciones distintas que conviene no mezclar sin revisión: ${jurisdictions.join(', ')}.`
-      : 'La dimensión jurisdiccional no parece suficientemente diversa en las referencias disponibles.',
-    high > 0 && low > 0
-      ? `La evidencia combina referencias de confianza alta (${high}) y baja (${low}); conviene priorizar las primeras.`
-      : 'La distribución de confidence no permite por sí sola comparar diferencias de calidad.'
-  ];
-}
-
-function risksAndTradeoffs(references: PackReference[]): { risks: string[]; tradeoffs: string[]; tensions: string[] } {
-  const riskMatches = signalsSummary(references, riskSignals);
-  const rigidityMatches = signalsSummary(references, rigiditySignals);
-  const flexibilityMatches = signalsSummary(references, flexibilitySignals);
-  const smallGroupMatches = signalsSummary(references, smallGroupSignals);
-
-  return {
-    risks: [
-      sentenceFromEvidence('Se detectan posibles riesgos o conflictos', riskMatches, 'No se detectan riesgos explícitos suficientes; aun así conviene revisar conflictos potenciales manualmente.'),
-      sentenceFromEvidence('Puede existir riesgo de rigidez si se fija demasiado detalle', rigidityMatches, 'No se detecta señal fuerte de rigidez, pero conviene valorar cuánto detalle llevar a Estatutos.'),
-      'No debe asumirse que una práctica de otro proyecto sea adecuada sin contrastar tamaño, fase y contexto de El Buen Vivir.'
-    ],
-    tradeoffs: [
-      'El tradeoff principal parece estar entre claridad normativa y capacidad de adaptación futura.',
-      sentenceFromEvidence('Las referencias sugieren margen para soluciones flexibles', flexibilityMatches, 'No hay evidencia suficiente para identificar una práctica flexible dominante.'),
-      sentenceFromEvidence('Algunas señales parecen especialmente relevantes para grupos pequeños o de convivencia intensa', smallGroupMatches, 'No hay evidencia suficiente para afirmar compatibilidad específica con grupos pequeños.')
-    ],
-    tensions: [
-      rigidityMatches.length > 0 ? 'Tensión entre fijar reglas en Estatutos y evitar rigidez futura.' : 'Tensión potencial entre seguridad y flexibilidad, pendiente de revisión.',
-      riskMatches.length > 0 ? 'Tensión entre prevenir conflictos y no sobrerregular procedimientos internos.' : 'Tensión potencial por falta de evidencia explícita sobre conflictos.',
-      flexibilityMatches.length > 0 ? 'Tensión entre autonomía comunitaria y necesidad de reglas claras.' : 'Tensión potencial entre detalle normativo y aprendizaje progresivo.'
-    ]
-  };
-}
-
-function governancePlacement(references: PackReference[]): GeneratedTopicSynthesis['governancePlacement'] {
-  const statutesMatches = signalsSummary(references, statutesSignals);
-  const rriMatches = signalsSummary(references, rriSignals);
-  const both = references.filter((reference) => includesAny(reference.excerpt, statutesSignals) && includesAny(reference.excerpt, rriSignals));
-
-  return {
-    usuallyInStatutes: statutesMatches.length > 0
-      ? [
-          'Parece frecuente reservar para Estatutos principios, derechos, obligaciones o efectos estructurales.',
-          sentenceFromEvidence('Esta señal aparece', statutesMatches, 'No hay evidencia estatutaria suficiente.')
-        ]
-      : ['No hay evidencia suficiente para afirmar que el tema suela ir en Estatutos.'],
-    usuallyInRRI: rriMatches.length > 0
-      ? [
-          'Parece frecuente desarrollar en RRI aspectos operativos, convivencia, uso o procedimientos revisables.',
-          sentenceFromEvidence('Esta señal aparece', rriMatches, 'No hay evidencia de RRI suficiente.')
-        ]
-      : ['No hay evidencia suficiente para afirmar que el tema suela ir en RRI.'],
-    mixedApproaches: both.length > 0
-      ? ['Algunas referencias combinan lenguaje estatutario y desarrollo operativo, lo que sugiere enfoques mixtos.']
-      : ['No se detecta claramente un enfoque mixto; conviene revisar manualmente las referencias.'],
-    notes: [
-      'Esta lectura es generada automáticamente y no debe convertirse en regla sin revisión jurídica.',
-      'La ubicación final debe diferenciar qué es principio estable y qué es procedimiento adaptable.'
-    ]
-  };
-}
-
-function recommendations(references: PackReference[]): GeneratedTopicSynthesis['recommendationsForBuenVivir'] {
-  const flexibilityMatches = signalsSummary(references, flexibilitySignals);
-  const riskMatches = signalsSummary(references, riskSignals);
-
-  return {
-    minimalApproach: [
-      'Una opción prudente es fijar solo criterios mínimos verificables por las referencias disponibles.',
-      'Conviene evitar reproducir detalles de otros proyectos sin validar su encaje en El Buen Vivir.',
-      riskMatches.length > 0 ? 'Conviene cubrir explícitamente los riesgos más repetidos antes de añadir detalle operativo.' : 'Conviene identificar riesgos con revisión humana antes de ampliar el texto.'
-    ],
-    flexibleApproach: [
-      flexibilityMatches.length > 0 ? 'Una práctica compatible con flexibilidad parece remitir procedimientos al RRI o normas internas.' : 'Si no hay evidencia flexible clara, conviene mantener el borrador abierto y revisable.',
-      'Para grupos pequeños, parece más compatible separar principios estables de protocolos que puedan cambiar con la experiencia.'
-    ],
-    pointsToDecideSoon: [
-      'Qué parte del tema afecta a derechos u obligaciones básicas.',
-      'Qué decisiones requieren seguridad desde el inicio para evitar conflictos.',
-      'Qué referencias de confianza alta merecen revisión prioritaria.'
-    ],
-    pointsThatCanWait: [
-      'Detalles de procedimiento no respaldados por varias referencias.',
-      'Protocolos operativos que puedan aprenderse con la práctica comunitaria.',
-      'Formularios, calendarios internos y reglas menores que no afecten derechos básicos.'
-    ]
-  };
-}
-
-function notableProjects(references: PackReference[]): GeneratedTopicSynthesis['notableProjects'] {
+function notableProjects(references: PackReference[], detected: DetectedConcept[]): GeneratedTopicSynthesis['notableProjects'] {
   const grouped = new Map<string, PackReference[]>();
 
   for (const reference of references) {
@@ -257,20 +526,27 @@ function notableProjects(references: PackReference[]): GeneratedTopicSynthesis['
   return [...grouped.entries()]
     .toSorted((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0], 'es'))
     .slice(0, maxProjects)
-    .map(([name, projectReferences]) => ({
-      projectName: name,
-      notableBecause: projectReferences.length > 1
-        ? `Aporta ${projectReferences.length} referencias automáticas para comparar este tema.`
-        : 'Aporta una referencia automática potencialmente útil para revisión.',
-      references: projectReferences.slice(0, 5).map(referenceLabel)
-    }));
+    .map(([name, projectReferences]) => {
+      const relatedConcepts = detected
+        .filter((concept) => concept.references.some((reference) => projectReferences.includes(reference)))
+        .slice(0, 3)
+        .map((concept) => concept.label);
+
+      return {
+        projectName: name,
+        notableBecause: relatedConcepts.length > 0
+          ? `Aparece en relación con ${relatedConcepts.join(', ')}.`
+          : 'Aporta extractos útiles para comparar cómo se aborda esta cuestión.',
+        references: projectReferences.slice(0, 5).map(referenceLabel)
+      };
+    });
 }
 
 function synthesize(topic: TaxonomyTopic, packPath: string, pack: string, topicReferences: GeneratedTopicReference[]): GeneratedTopicSynthesis {
   const references = parseReferences(pack);
-  const documents = [...new Set(references.map((reference) => reference.documentSlug))].toSorted();
-  const enoughInformation = references.length >= 3;
-  const riskData = risksAndTradeoffs(references);
+  const documents = unique(references.map((reference) => reference.documentSlug)).toSorted();
+  const detected = detectConcepts(references, conceptDictionaryForTopic(topic));
+  const insights = buildTopicSpecificInsights(topic, references);
 
   return {
     slug: topic.slug,
@@ -281,31 +557,32 @@ function synthesize(topic: TaxonomyTopic, packPath: string, pack: string, topicR
       documents
     },
     summary: {
-      overview: enoughInformation
-        ? [
-            `La síntesis compara ${references.length} referencias automáticas asociadas al tema "${topic.title}".`,
-            'Las observaciones se formulan de forma prudente y deben verificarse contra las referencias originales.'
-          ]
-        : [
-            `Hay información limitada para "${topic.title}"; la síntesis no permite afirmar patrones robustos.`,
-            'Conviene generar más referencias o revisar manualmente los documentos antes de usar conclusiones.'
-          ],
-      commonPatterns: commonPatterns(topic, references),
-      majorDifferences: majorDifferences(references),
-      commonRisks: riskData.risks,
-      commonTradeoffs: riskData.tradeoffs
+      overview: insights.overview,
+      commonPatterns: insights.commonPatterns,
+      majorDifferences: insights.majorDifferences,
+      commonRisks: insights.commonRisks,
+      commonTradeoffs: insights.commonTradeoffs
     },
-    governancePlacement: governancePlacement(references),
-    recommendationsForBuenVivir: recommendations(references),
-    detectedTensions: riskData.tensions,
-    notableProjects: notableProjects(references),
+    governancePlacement: {
+      usuallyInStatutes: insights.usuallyInStatutes,
+      usuallyInRRI: insights.usuallyInRRI,
+      mixedApproaches: insights.mixedApproaches,
+      notes: insights.notes
+    },
+    recommendationsForBuenVivir: {
+      minimalApproach: insights.minimalApproach,
+      flexibleApproach: insights.flexibleApproach,
+      pointsToDecideSoon: insights.pointsToDecideSoon,
+      pointsThatCanWait: insights.pointsThatCanWait
+    },
+    detectedTensions: insights.detectedTensions,
+    notableProjects: notableProjects(references, detected),
     legalWarnings: [
-      'Síntesis generada automáticamente sin revisión jurídica.',
+      'Síntesis orientativa basada en extractos documentales detectados.',
       'No sustituye asesoramiento jurídico profesional.',
-      'No debe usarse como contenido curado sin comprobar las referencias originales.',
-      'La separación entre ley, proyectos e interpretación automática debe mantenerse visible.'
+      'Debe contrastarse con los documentos originales antes de usarla en acuerdos o cláusulas.'
     ],
-    generatedDisclaimer: 'Síntesis comparada generada automáticamente a partir de research packs y referencias heurísticas. Revisar jurídicamente y contrastar con fuentes originales antes de usar.',
+    generatedDisclaimer: 'Síntesis basada en documentos analizados. Requiere contraste con las fuentes originales y revisión jurídica antes de su uso.',
     status: 'needs_legal_review'
   };
 }

@@ -15,7 +15,7 @@ La Fase 6 detecta documentos fuente en estas carpetas:
 Ejecuta la ingesta con:
 
 ```sh
-npm run ingest
+pnpm ingest
 ```
 
 El script actualiza `src/content/documents/documents.json` con documentos `pdf`, `txt`, `md` y `docx`. Infiere `slug`, `title`, `fileName`, `sourcePath`, `type`, `projectName`, `jurisdiction`, `year`, `language`, `tags`, `contentHash`, `ingestionStatus` y `needsReview`.
@@ -29,7 +29,7 @@ Esta fase no modifica `src/content/topics`.
 La Fase 7 extrae texto cuando es posible y nunca forma parte del build estático. Ejecuta la extracción manualmente con:
 
 ```sh
-npm run extract
+pnpm extract
 ```
 
 El script lee `src/content/documents/documents.json` y escribe los textos en `src/content/generated/extracted/{documentSlug}.txt`. También genera `src/content/generated/extraction-report.json` y actualiza `extractionStatus`, `extractionError` si aplica, y `lastProcessedAt` en `documents.json`.
@@ -49,7 +49,7 @@ El script se salta automáticamente si se ejecuta con `NETLIFY=true`, para evita
 La Fase 8 convierte los textos extraídos en secciones o artículos citables sin tocar `src/content/topics` ni `src/content/documents/documents.json`.
 
 ```sh
-npm run split
+pnpm split
 ```
 
 El script lee `src/content/generated/extracted/*.txt` y genera `src/content/generated/sections/{documentSlug}.sections.json`. Cada sección contiene `id`, `documentSlug`, `heading`, `text`, `order` y `possibleTopics: []`.
@@ -63,7 +63,7 @@ También se genera `src/content/generated/split-report.json` con número de secc
 La Fase 9 sugiere referencias automáticas por tema sin modificar contenido curado.
 
 ```sh
-npm run build:index
+pnpm build:index
 ```
 
 El script lee `taxonomy/topics.json`, `src/content/generated/sections/*.sections.json` y `src/content/documents/documents.json`. Usa `keywords` y `aliases` de la taxonomía con pesos simples y umbral mínimo para generar `src/content/generated/topic-references.json`.
@@ -77,19 +77,29 @@ No se generan summaries jurídicos ni `suggestedClause`. La UI muestra estas ref
 La Fase 10 unifica las etapas automáticas en un flujo manual, robusto y auditable:
 
 ```sh
-npm run content:pipeline
+pnpm content:pipeline
 ```
 
 El pipeline ejecuta en orden `ingest`, `extract`, `split`, `build:index` y `validate:content`. Si una etapa emite warnings, el flujo continúa. Si una etapa falla de forma crítica, el pipeline se detiene, escribe `src/content/generated/pipeline-report.json` y devuelve error.
 
 El reporte incluye fecha, duración, etapas ejecutadas, éxito/error por etapa, warnings principales y resumen de documentos, secciones y referencias.
 
-Este pipeline no se ejecuta durante `npm run build` y no modifica `src/content/topics`.
+Este pipeline no se ejecuta durante `pnpm build` y no modifica `src/content/topics`.
+
+## Síntesis sustantiva por tema
+
+La Fase 19 mejora `pnpm generate:syntheses` para construir síntesis comparadas a partir del contenido real de los extractos, sin APIs externas ni IA. El script detecta conceptos sustantivos por familia temática y por temas principales como `baja_socio`, `aportaciones_obligatorias`, `uso_espacios_comunes`, `toma_decisiones` y `estatutos_vs_rri`.
+
+```sh
+pnpm generate:syntheses
+```
+
+La salida sigue escribiéndose en `src/content/generated/syntheses/{topicSlug}.generated.json`, pero el contenido evita frases de metadatos y prioriza observaciones prácticas: soluciones encontradas, diferencias entre enfoques, riesgos deducibles, ubicación razonable entre Estatutos/RRI y decisiones concretas para El Buen Vivir. Si no hay extractos claros, el script lo indica de forma prudente en lugar de rellenar con conclusiones genéricas.
 
 ## Validación
 
 ```sh
-npm run validate:content
-npm run check
-npm run build
+pnpm validate:content
+pnpm check
+pnpm build
 ```

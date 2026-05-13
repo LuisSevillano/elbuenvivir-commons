@@ -1,6 +1,6 @@
 {
   "slug": "desigualdad_aportaciones",
-  "generatedAt": "2026-05-13T10:59:49.836Z",
+  "generatedAt": "2026-05-13T14:29:44.015Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/desigualdad_aportaciones.md",
     "referencesCount": 1,
@@ -10,88 +10,68 @@
   },
   "summary": {
     "overview": [
-      "Hay información limitada para \"Aportaciones iniciales desiguales\"; la síntesis no permite afirmar patrones robustos.",
-      "Conviene generar más referencias o revisar manualmente los documentos antes de usar conclusiones."
+      "No se han detectado suficientes extractos claros sobre aportaciones iniciales desiguales.",
+      "Conviene revisar manualmente los documentos antes de convertir esta cuestión en una cláusula."
     ],
     "commonPatterns": [
-      "Parece frecuente que el tema aparezca en documentos de tipo guia.",
-      "No se detecta evidencia suficiente para afirmar un patrón estatutario claro.",
-      "Algunos grupos parecen desarrollar aspectos operativos o de convivencia en referencias de Las GuíAs De Sostre CíVic.",
-      "La lectura automática sugiere revisar aportaciones desiguales, desigualdad, derechos economicos como términos activadores principales."
+      "No se han detectado suficientes extractos claros sobre aportaciones iniciales desiguales."
     ],
     "majorDifferences": [
-      "No hay suficiente variedad de tipos documentales para comparar enfoques con seguridad.",
-      "La dimensión jurisdiccional no parece suficientemente diversa en las referencias disponibles.",
-      "La distribución de confidence no permite por sí sola comparar diferencias de calidad."
+      "No hay base suficiente para comparar soluciones prácticas entre proyectos."
     ],
     "commonRisks": [
-      "No se detectan riesgos explícitos suficientes; aun así conviene revisar conflictos potenciales manualmente.",
-      "No se detecta señal fuerte de rigidez, pero conviene valorar cuánto detalle llevar a Estatutos.",
-      "No debe asumirse que una práctica de otro proyecto sea adecuada sin contrastar tamaño, fase y contexto de El Buen Vivir."
+      "El principal riesgo es regular con una base documental demasiado débil."
     ],
     "commonTradeoffs": [
-      "El tradeoff principal parece estar entre claridad normativa y capacidad de adaptación futura.",
-      "No hay evidencia suficiente para identificar una práctica flexible dominante.",
-      "Algunas señales parecen especialmente relevantes para grupos pequeños o de convivencia intensa en referencias de Las GuíAs De Sostre CíVic."
+      "Conviene mantener abierto el equilibrio entre seguridad jurídica y aprendizaje progresivo."
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "No hay evidencia suficiente para afirmar que el tema suela ir en Estatutos."
+      "Solo conviene llevar a Estatutos principios o derechos básicos si se confirman en revisión jurídica."
     ],
     "usuallyInRRI": [
-      "Parece frecuente desarrollar en RRI aspectos operativos, convivencia, uso o procedimientos revisables.",
-      "Esta señal aparece en referencias de Las GuíAs De Sostre CíVic."
+      "Los detalles operativos deberían esperar a contar con ejemplos más claros o acuerdos internos."
     ],
     "mixedApproaches": [
-      "No se detecta claramente un enfoque mixto; conviene revisar manualmente las referencias."
+      "No se detecta un enfoque mixto claro con la información disponible."
     ],
     "notes": [
-      "Esta lectura es generada automáticamente y no debe convertirse en regla sin revisión jurídica.",
-      "La ubicación final debe diferenciar qué es principio estable y qué es procedimiento adaptable."
+      "Evitar sobrerregular sin evidencia suficiente.",
+      "Separar principios estables de prácticas que puedan aprenderse con el uso."
     ]
   },
   "recommendationsForBuenVivir": {
     "minimalApproach": [
-      "Una opción prudente es fijar solo criterios mínimos verificables por las referencias disponibles.",
-      "Conviene evitar reproducir detalles de otros proyectos sin validar su encaje en El Buen Vivir.",
-      "Conviene identificar riesgos con revisión humana antes de ampliar el texto."
+      "Mantener una redacción mínima y prudente hasta revisar más documentos."
     ],
     "flexibleApproach": [
-      "Si no hay evidencia flexible clara, conviene mantener el borrador abierto y revisable.",
-      "Para grupos pequeños, parece más compatible separar principios estables de protocolos que puedan cambiar con la experiencia."
+      "Dejar los detalles operativos para acuerdos revisables."
     ],
     "pointsToDecideSoon": [
-      "Qué parte del tema afecta a derechos u obligaciones básicas.",
-      "Qué decisiones requieren seguridad desde el inicio para evitar conflictos.",
-      "Qué referencias de confianza alta merecen revisión prioritaria."
+      "Qué decisión concreta necesita seguridad desde el inicio."
     ],
     "pointsThatCanWait": [
-      "Detalles de procedimiento no respaldados por varias referencias.",
-      "Protocolos operativos que puedan aprenderse con la práctica comunitaria.",
-      "Formularios, calendarios internos y reglas menores que no afecten derechos básicos."
+      "Detalles procedimentales o formularios internos."
     ]
   },
   "detectedTensions": [
-    "Tensión potencial entre seguridad y flexibilidad, pendiente de revisión.",
-    "Tensión potencial por falta de evidencia explícita sobre conflictos.",
-    "Tensión potencial entre detalle normativo y aprendizaje progresivo."
+    "Información limitada: conviene evitar conclusiones fuertes hasta revisar más extractos."
   ],
   "notableProjects": [
     {
       "projectName": "Las GuíAs De Sostre CíVic",
-      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Las GuíAs De Sostre CíVic - Título original: La construcció i la cura dels grups"
       ]
     }
   ],
   "legalWarnings": [
-    "Síntesis generada automáticamente sin revisión jurídica.",
+    "Síntesis orientativa basada en extractos documentales detectados.",
     "No sustituye asesoramiento jurídico profesional.",
-    "No debe usarse como contenido curado sin comprobar las referencias originales.",
-    "La separación entre ley, proyectos e interpretación automática debe mantenerse visible."
+    "Debe contrastarse con los documentos originales antes de usarla en acuerdos o cláusulas."
   ],
-  "generatedDisclaimer": "Síntesis comparada generada automáticamente a partir de research packs y referencias heurísticas. Revisar jurídicamente y contrastar con fuentes originales antes de usar.",
+  "generatedDisclaimer": "Síntesis basada en documentos analizados. Requiere contraste con las fuentes originales y revisión jurídica antes de su uso.",
   "status": "needs_legal_review"
 }

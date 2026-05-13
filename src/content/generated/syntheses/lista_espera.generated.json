@@ -1,9 +1,9 @@
 {
   "slug": "lista_espera",
-  "generatedAt": "2026-05-13T10:59:49.855Z",
+  "generatedAt": "2026-05-13T14:29:44.039Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/lista_espera.md",
-    "referencesCount": 18,
+    "referencesCount": 16,
     "documents": [
       "docs-estatutos-estatutos-elciempies",
       "docs-estatutos-estatutos-la-borda",
@@ -23,78 +23,77 @@
   },
   "summary": {
     "overview": [
-      "La síntesis compara 18 referencias automáticas asociadas al tema \"Lista de espera\".",
-      "Las observaciones se formulan de forma prudente y deben verificarse contra las referencias originales."
+      "Los extractos más claros relacionan este tema con admisión de personas socias, derechos y obligaciones, transmisión de derechos.",
+      "Aparecen ejemplos en varios proyectos, entre ellos EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO, Estatutos Losnidales, Rri Vallecas2homes, Estatutos Senior Cohousing Huelva.",
+      "Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones."
     ],
     "commonPatterns": [
-      "Parece frecuente que el tema aparezca en documentos de tipo estatutos, rri, guia.",
-      "Varios proyectos parecen tratar elementos estructurales o derechos básicos en referencias de Rri Vallecas2homes, BOE A 2010 20034 Orden+EHA+3360 2010, EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO.",
-      "Algunos grupos parecen desarrollar aspectos operativos o de convivencia en referencias de Rri Vallecas2homes, Las GuíAs De Sostre CíVic, BOE A 2007 19884 Consolidado RD+1514 2007.",
-      "La lectura automática sugiere revisar lista de espera, sustitucion, incorporacion como términos activadores principales."
+      "Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones.",
+      "Los textos suelen combinar derechos de participación e información con obligaciones económicas y de convivencia.",
+      "Algunos textos conectan la salida con transmisión de derechos o sustitución por otra persona."
     ],
     "majorDifferences": [
-      "Aparecen diferencias por tipo documental: estatutos, rri, guia, ley.",
-      "La dimensión jurisdiccional no parece suficientemente diversa en las referencias disponibles.",
-      "La evidencia combina referencias de confianza alta (8) y baja (5); conviene priorizar las primeras."
+      "Las diferencias prácticas dependen de si el proyecto prioriza reglas estables, procedimientos internos o soluciones caso por caso."
     ],
     "commonRisks": [
-      "Se detectan posibles riesgos o conflictos en referencias de Estatutos Laseronda.Org, Estatutos Senior Cohousing Huelva.",
-      "Puede existir riesgo de rigidez si se fija demasiado detalle en referencias de BOE A 2010 20034 Orden+EHA+3360 2010, EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO, Estatutos Elciempies.",
-      "No debe asumirse que una práctica de otro proyecto sea adecuada sin contrastar tamaño, fase y contexto de El Buen Vivir."
+      "Si no se aclaran los criterios de entrada, puede aparecer discrecionalidad o conflicto sobre quién puede incorporarse.",
+      "Una lista amplia pero poco operativa puede dificultar distinguir obligaciones esenciales de prácticas cotidianas.",
+      "Si la transmisión no se delimita, puede confundirse un derecho cooperativo con una compraventa privada."
     ],
     "commonTradeoffs": [
-      "El tradeoff principal parece estar entre claridad normativa y capacidad de adaptación futura.",
-      "Las referencias sugieren margen para soluciones flexibles en referencias de EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO, Estatutos Elciempies, Estatutos La Borda.",
-      "Algunas señales parecen especialmente relevantes para grupos pequeños o de convivencia intensa en referencias de Las GuíAs De Sostre CíVic, EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO, Estatutos Elciempies."
+      "flexibilidad vs seguridad jurídica"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Parece frecuente reservar para Estatutos principios, derechos, obligaciones o efectos estructurales.",
-      "Esta señal aparece en referencias de Rri Vallecas2homes, BOE A 2010 20034 Orden+EHA+3360 2010, EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO."
+      "criterios básicos de admisión y derechos de las personas socias",
+      "derechos y obligaciones esenciales de las personas socias",
+      "límites generales a la transmisión de derechos societarios o de uso"
     ],
     "usuallyInRRI": [
-      "Parece frecuente desarrollar en RRI aspectos operativos, convivencia, uso o procedimientos revisables.",
-      "Esta señal aparece en referencias de Rri Vallecas2homes, Las GuíAs De Sostre CíVic, BOE A 2007 19884 Consolidado RD+1514 2007."
+      "pasos internos de solicitud, acompañamiento y documentación de la incorporación",
+      "pautas cotidianas para hacer efectivos esos derechos y deberes",
+      "pasos de comunicación y coordinación con lista de espera o personas candidatas"
     ],
     "mixedApproaches": [
-      "Algunas referencias combinan lenguaje estatutario y desarrollo operativo, lo que sugiere enfoques mixtos."
+      "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
     ],
     "notes": [
-      "Esta lectura es generada automáticamente y no debe convertirse en regla sin revisión jurídica.",
-      "La ubicación final debe diferenciar qué es principio estable y qué es procedimiento adaptable."
+      "No conviene llevar a Estatutos detalles que el grupo necesite aprender o ajustar con la práctica.",
+      "La revisión jurídica debe confirmar qué materias exigen rango estatutario."
     ]
   },
   "recommendationsForBuenVivir": {
     "minimalApproach": [
-      "Una opción prudente es fijar solo criterios mínimos verificables por las referencias disponibles.",
-      "Conviene evitar reproducir detalles de otros proyectos sin validar su encaje en El Buen Vivir.",
-      "Conviene cubrir explícitamente los riesgos más repetidos antes de añadir detalle operativo."
+      "Fijar solo principios y efectos básicos que necesiten estabilidad.",
+      "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "flexibleApproach": [
-      "Una práctica compatible con flexibilidad parece remitir procedimientos al RRI o normas internas.",
-      "Para grupos pequeños, parece más compatible separar principios estables de protocolos que puedan cambiar con la experiencia."
+      "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
+      "Mantener espacio para revisar la práctica tras los primeros usos reales.",
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "pointsToDecideSoon": [
-      "Qué parte del tema afecta a derechos u obligaciones básicas.",
-      "Qué decisiones requieren seguridad desde el inicio para evitar conflictos.",
-      "Qué referencias de confianza alta merecen revisión prioritaria."
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "separar obligaciones esenciales de compromisos prácticos revisables",
+      "aclarar si la salida depende de encontrar sustituto o si la cooperativa gestiona directamente la entrada siguiente"
     ],
     "pointsThatCanWait": [
-      "Detalles de procedimiento no respaldados por varias referencias.",
-      "Protocolos operativos que puedan aprenderse con la práctica comunitaria.",
-      "Formularios, calendarios internos y reglas menores que no afecten derechos básicos."
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Tensión entre fijar reglas en Estatutos y evitar rigidez futura.",
-    "Tensión entre prevenir conflictos y no sobrerregular procedimientos internos.",
-    "Tensión entre autonomía comunitaria y necesidad de reglas claras."
+    "flexibilidad vs seguridad jurídica"
   ],
   "notableProjects": [
     {
       "projectName": "Rri Vallecas2homes",
-      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con admisión de personas socias.",
       "references": [
         "Rri Vallecas2homes - Artículo 25. Procedimiento para cubrir las bajas.",
         "Rri Vallecas2homes - Artículo 9. Procedimiento de incorporación como socio.",
@@ -103,7 +102,7 @@
     },
     {
       "projectName": "Estatutos Tarocohousing",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con transmisión de derechos.",
       "references": [
         "Estatutos Tarocohousing - Artículo 9.- Clases de personas socias. Personas Usuarias.",
         "Estatutos Tarocohousing - Artículo 45.- Transmisión de las aportaciones."
@@ -111,7 +110,7 @@
     },
     {
       "projectName": "Las GuíAs De Sostre CíVic",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con transmisión de derechos.",
       "references": [
         "Las GuíAs De Sostre CíVic - Documento completo",
         "Las GuíAs De Sostre CíVic - Título original: Cures en la convivència de persones grans"
@@ -119,7 +118,7 @@
     },
     {
       "projectName": "Otras Leyes, Decretos, Modificaciones",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "BOE A 2010 20034 Orden+EHA+3360 2010 - Artículo 2. Ámbito de aplicación.",
         "BOE A 2007 19884 Consolidado RD+1514 2007 - Artículo 2. Obligatoriedad del Plan."
@@ -127,25 +126,24 @@
     },
     {
       "projectName": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
-      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "notableBecause": "Aparece en relación con admisión de personas socias, derechos y obligaciones.",
       "references": [
         "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - Artículo 3: Requisitos de Admisión"
       ]
     },
     {
       "projectName": "Estatutos Elciempies",
-      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "notableBecause": "Aparece en relación con derechos y obligaciones.",
       "references": [
         "Estatutos Elciempies - CAPITULO II"
       ]
     }
   ],
   "legalWarnings": [
-    "Síntesis generada automáticamente sin revisión jurídica.",
+    "Síntesis orientativa basada en extractos documentales detectados.",
     "No sustituye asesoramiento jurídico profesional.",
-    "No debe usarse como contenido curado sin comprobar las referencias originales.",
-    "La separación entre ley, proyectos e interpretación automática debe mantenerse visible."
+    "Debe contrastarse con los documentos originales antes de usarla en acuerdos o cláusulas."
   ],
-  "generatedDisclaimer": "Síntesis comparada generada automáticamente a partir de research packs y referencias heurísticas. Revisar jurídicamente y contrastar con fuentes originales antes de usar.",
+  "generatedDisclaimer": "Síntesis basada en documentos analizados. Requiere contraste con las fuentes originales y revisión jurídica antes de su uso.",
   "status": "needs_legal_review"
 }

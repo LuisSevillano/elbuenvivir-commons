@@ -1,9 +1,9 @@
 {
   "slug": "uso_espacios_comunes",
-  "generatedAt": "2026-05-13T10:59:49.877Z",
+  "generatedAt": "2026-05-13T14:29:44.057Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/uso_espacios_comunes.md",
-    "referencesCount": 15,
+    "referencesCount": 28,
     "documents": [
       "docs-estatutos-estatutos-entrepatios",
       "docs-estatutos-estatutos-la-borda",
@@ -18,78 +18,86 @@
   },
   "summary": {
     "overview": [
-      "La síntesis compara 15 referencias automáticas asociadas al tema \"Uso de espacios comunes\".",
-      "Las observaciones se formulan de forma prudente y deben verificarse contra las referencias originales."
+      "Los extractos más claros relacionan este tema con conflictos y mediación, espacios comunes, mantenimiento y cuidados del espacio.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Las GuíAs De Sostre CíVic, Estatutos Entrepatios, Rri Axuntase, Estatutos Losnidales.",
+      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados."
     ],
     "commonPatterns": [
-      "Parece frecuente que el tema aparezca en documentos de tipo estatutos, guia, rri.",
-      "Varios proyectos parecen tratar elementos estructurales o derechos básicos en referencias de Estatutos Entrepatios, Estatutos Losnidales, Rri Axuntase.",
-      "Algunos grupos parecen desarrollar aspectos operativos o de convivencia en referencias de Estatutos Entrepatios, Las GuíAs De Sostre CíVic, BOE A 2007 19884 Consolidado RD+1514 2007.",
-      "La lectura automática sugiere revisar espacios comunes, zonas comunes, uso comun, reservas como términos activadores principales."
+      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados.",
+      "El uso de espacios comunes suele regularse mediante reglas prácticas de reserva, cuidado y prioridad de usos.",
+      "Las reglas de mantenimiento suelen concretar responsabilidades de cuidado, limpieza u obras.",
+      "Cuando aparecen menores o animales, suelen tratarse como casos de convivencia práctica y cuidado de espacios."
     ],
     "majorDifferences": [
-      "Aparecen diferencias por tipo documental: estatutos, guia, rri, ley.",
-      "La dimensión jurisdiccional no parece suficientemente diversa en las referencias disponibles.",
-      "La evidencia combina referencias de confianza alta (4) y baja (9); conviene priorizar las primeras."
+      "Las diferencias prácticas dependen de si el proyecto prioriza reglas estables, procedimientos internos o soluciones caso por caso."
     ],
     "commonRisks": [
-      "Se detectan posibles riesgos o conflictos en referencias de BOE A 2007 19884 Consolidado RD+1514 2007, Las GuíAs De Sostre CíVic.",
-      "Puede existir riesgo de rigidez si se fija demasiado detalle en referencias de Estatutos Entrepatios, Estatutos Losnidales, Rri Axuntase.",
-      "No debe asumirse que una práctica de otro proyecto sea adecuada sin contrastar tamaño, fase y contexto de El Buen Vivir."
+      "Sin un cauce claro, desacuerdos pequeños pueden convertirse en conflictos societarios.",
+      "La falta de criterios puede generar conflictos entre uso individual, uso comunitario e invitados.",
+      "Si las tareas comunes no se reparten con claridad, pueden concentrarse cargas invisibles.",
+      "No preverlos puede trasladar conflictos cotidianos a decisiones improvisadas."
     ],
     "commonTradeoffs": [
-      "El tradeoff principal parece estar entre claridad normativa y capacidad de adaptación futura.",
-      "Las referencias sugieren margen para soluciones flexibles en referencias de BOE A 2007 19884 Consolidado RD+1514 2007, Las GuíAs De Sostre CíVic, Rri Axuntase.",
-      "Algunas señales parecen especialmente relevantes para grupos pequeños o de convivencia intensa en referencias de Las GuíAs De Sostre CíVic, Estatutos Entrepatios, Estatutos Losnidales."
+      "autonomía comunitaria vs necesidad de procedimiento claro",
+      "uso flexible del espacio vs prevención de conflictos de convivencia",
+      "uso flexible de espacios vs prevención de conflictos cotidianos"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Parece frecuente reservar para Estatutos principios, derechos, obligaciones o efectos estructurales.",
-      "Esta señal aparece en referencias de Estatutos Entrepatios, Estatutos Losnidales, Rri Axuntase."
+      "principios de convivencia y posibilidad de mediación o régimen disciplinario",
+      "principio general de uso compartido y respeto a acuerdos comunitarios",
+      "obligación general de contribuir al cuidado y conservación",
+      "principio general de convivencia y cuidado"
     ],
     "usuallyInRRI": [
-      "Parece frecuente desarrollar en RRI aspectos operativos, convivencia, uso o procedimientos revisables.",
-      "Esta señal aparece en referencias de Estatutos Entrepatios, Las GuíAs De Sostre CíVic, BOE A 2007 19884 Consolidado RD+1514 2007."
+      "pasos de mediación, tiempos de respuesta y personas de referencia",
+      "reservas, horarios, prioridades, limpieza y criterios de uso cotidiano",
+      "turnos, avisos, criterios de obras y gestión de incidencias",
+      "reglas prácticas, responsabilidades y usos compatibles"
     ],
     "mixedApproaches": [
-      "Algunas referencias combinan lenguaje estatutario y desarrollo operativo, lo que sugiere enfoques mixtos."
+      "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
     ],
     "notes": [
-      "Esta lectura es generada automáticamente y no debe convertirse en regla sin revisión jurídica.",
-      "La ubicación final debe diferenciar qué es principio estable y qué es procedimiento adaptable."
+      "No conviene llevar a Estatutos detalles que el grupo necesite aprender o ajustar con la práctica.",
+      "La revisión jurídica debe confirmar qué materias exigen rango estatutario."
     ]
   },
   "recommendationsForBuenVivir": {
     "minimalApproach": [
-      "Una opción prudente es fijar solo criterios mínimos verificables por las referencias disponibles.",
-      "Conviene evitar reproducir detalles de otros proyectos sin validar su encaje en El Buen Vivir.",
-      "Conviene cubrir explícitamente los riesgos más repetidos antes de añadir detalle operativo."
+      "Fijar solo principios y efectos básicos que necesiten estabilidad.",
+      "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
+      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria"
     ],
     "flexibleApproach": [
-      "Una práctica compatible con flexibilidad parece remitir procedimientos al RRI o normas internas.",
-      "Para grupos pequeños, parece más compatible separar principios estables de protocolos que puedan cambiar con la experiencia."
+      "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
+      "Mantener espacio para revisar la práctica tras los primeros usos reales.",
+      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria"
     ],
     "pointsToDecideSoon": [
-      "Qué parte del tema afecta a derechos u obligaciones básicas.",
-      "Qué decisiones requieren seguridad desde el inicio para evitar conflictos.",
-      "Qué referencias de confianza alta merecen revisión prioritaria."
+      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
+      "decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida",
+      "decidir qué casos necesitan regla previa y cuáles pueden resolverse caso por caso",
+      "Decidir qué usos requieren reserva, aviso previo o prioridad comunitaria."
     ],
     "pointsThatCanWait": [
-      "Detalles de procedimiento no respaldados por varias referencias.",
-      "Protocolos operativos que puedan aprenderse con la práctica comunitaria.",
-      "Formularios, calendarios internos y reglas menores que no afecten derechos básicos."
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Tensión entre fijar reglas en Estatutos y evitar rigidez futura.",
-    "Tensión entre prevenir conflictos y no sobrerregular procedimientos internos.",
-    "Tensión entre autonomía comunitaria y necesidad de reglas claras."
+    "autonomía comunitaria vs necesidad de procedimiento claro",
+    "uso flexible del espacio vs prevención de conflictos de convivencia"
   ],
   "notableProjects": [
     {
       "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con conflictos y mediación, espacios comunes, mantenimiento y cuidados del espacio.",
       "references": [
         "Estatutos Entrepatios - Artículo 19. Reservas sociales",
         "Estatutos Entrepatios - Artículo 19. Reservas sociales ............................................................................................................................. 23",
@@ -98,7 +106,7 @@
     },
     {
       "projectName": "Las GuíAs De Sostre CíVic",
-      "notableBecause": "Aporta 3 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aparece en relación con conflictos y mediación, mantenimiento y cuidados del espacio.",
       "references": [
         "Las GuíAs De Sostre CíVic - Título original: La construcció i la cura dels grups",
         "Las GuíAs De Sostre CíVic - Título original: Transformem l’entorn",
@@ -107,7 +115,7 @@
     },
     {
       "projectName": "Estatutos Tarocohousing",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "Estatutos Tarocohousing - Artículo 5.- Objeto Social",
         "Estatutos Tarocohousing - Artículo 6.- Actividades"
@@ -115,7 +123,7 @@
     },
     {
       "projectName": "Otras Leyes, Decretos, Modificaciones",
-      "notableBecause": "Aporta 2 referencias automáticas para comparar este tema.",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
         "BOE A 2007 19884 Consolidado RD+1514 2007 - capítulo IV del Texto Refundido de la Ley de Sociedades Anónimas y de la Ley de",
         "BOE A 2007 19884 Consolidado RD+1514 2007 - artículo 42 del Código de Comercio, incluso cuando la sociedad dominante esté domiciliada"
@@ -123,25 +131,24 @@
     },
     {
       "projectName": "Estatutos La Borda",
-      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "notableBecause": "Aparece en relación con espacios comunes, mantenimiento y cuidados del espacio.",
       "references": [
         "Estatutos La Borda - Artículo 2. Finalidades y objeto"
       ]
     },
     {
       "projectName": "Estatutos Losnidales",
-      "notableBecause": "Aporta una referencia automática potencialmente útil para revisión.",
+      "notableBecause": "Aparece en relación con conflictos y mediación, espacios comunes.",
       "references": [
         "Estatutos Losnidales - Artículo 2.- Objeto o actividad económica."
       ]
     }
   ],
   "legalWarnings": [
-    "Síntesis generada automáticamente sin revisión jurídica.",
+    "Síntesis orientativa basada en extractos documentales detectados.",
     "No sustituye asesoramiento jurídico profesional.",
-    "No debe usarse como contenido curado sin comprobar las referencias originales.",
-    "La separación entre ley, proyectos e interpretación automática debe mantenerse visible."
+    "Debe contrastarse con los documentos originales antes de usarla en acuerdos o cláusulas."
   ],
-  "generatedDisclaimer": "Síntesis comparada generada automáticamente a partir de research packs y referencias heurísticas. Revisar jurídicamente y contrastar con fuentes originales antes de usar.",
+  "generatedDisclaimer": "Síntesis basada en documentos analizados. Requiere contraste con las fuentes originales y revisión jurídica antes de su uso.",
   "status": "needs_legal_review"
 }

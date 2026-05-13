@@ -58,7 +58,7 @@
     padding: 0.75rem 1rem;
     background: var(--surface);
     border: 1px solid var(--border);
-    border-radius: 6px;
+    border-radius: 4px;
     font-size: 0.95rem;
   }
 

@@ -21,7 +21,7 @@
   }
 
   .tags li {
-    border-radius: 999px;
+    border-radius: 4px;
     background: #f1eee8;
     color: #5e5549;
     font-size: 0.8rem;

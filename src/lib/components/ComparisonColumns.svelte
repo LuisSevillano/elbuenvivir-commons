@@ -55,7 +55,7 @@
   .column {
     background: var(--col-bg);
     border: 1px solid var(--col-border);
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 1.25rem;
   }
 

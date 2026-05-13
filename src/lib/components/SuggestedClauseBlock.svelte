@@ -17,7 +17,7 @@
 <style>
   .clause-block {
     border: 1px solid #cfbea4;
-    border-radius: 1.1rem;
+    border-radius: 4px;
     background: #fbf4e7;
     padding: 1.2rem;
   }

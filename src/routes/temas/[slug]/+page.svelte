@@ -252,7 +252,7 @@
     margin-top: 1rem;
     padding: 1rem;
     background: #faf5ff;
-    border-radius: 6px;
+    border-radius: 4px;
   }
 
   .mixed-approaches h4 {

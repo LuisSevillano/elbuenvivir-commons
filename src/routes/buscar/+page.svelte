@@ -274,7 +274,7 @@
   input,
   select {
     border: 1px solid var(--border);
-    border-radius: 0.8rem;
+    border-radius: 4px;
     display: block;
     font: inherit;
     margin-top: 0.35rem;
@@ -305,7 +305,7 @@
 
   .result-card {
     border: 1px solid var(--border);
-    border-radius: 1rem;
+    border-radius: 4px;
     color: inherit;
     display: block;
     padding: 1rem;

@@ -40,7 +40,7 @@
 <style>
   .expandable-group {
     border: 1px solid var(--border);
-    border-radius: 6px;
+    border-radius: 4px;
     margin-bottom: 0.75rem;
     overflow: hidden;
   }

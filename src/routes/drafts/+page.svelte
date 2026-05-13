@@ -67,7 +67,7 @@
 
   .draft-card {
     border: 1px solid var(--border);
-    border-radius: 1.1rem;
+    border-radius: 4px;
     background: #fffdf8;
     color: inherit;
     display: block;

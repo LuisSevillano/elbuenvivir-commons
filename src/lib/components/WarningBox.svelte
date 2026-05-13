@@ -13,7 +13,7 @@
 <style>
   .warning-box {
     border: 1px solid #decf9a;
-    border-radius: 1rem;
+    border-radius: 4px;
     background: #fff9e6;
     color: #483b18;
     padding: 1rem;

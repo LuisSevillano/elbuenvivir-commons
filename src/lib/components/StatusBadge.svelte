@@ -11,7 +11,7 @@
   .badge {
     display: inline-flex;
     align-items: center;
-    border-radius: 999px;
+    border-radius: 4px;
     border: 1px solid var(--border);
     font-size: 0.78rem;
     font-weight: 700;

@@ -24,7 +24,7 @@
 <style>
   .soft-callout {
     padding: 0.85rem 1rem;
-    border-radius: 6px;
+    border-radius: 4px;
     margin: 1rem 0;
     font-size: 0.9rem;
     line-height: 1.5;
@@ -37,7 +37,7 @@
 
   .callout-warning {
     background: #fffbf0;
-    border-left: 3px solid #f59e0b;
+    border: 1px solid #d1ae71;
   }
 
   .callout-note {

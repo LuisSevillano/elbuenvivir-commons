@@ -70,7 +70,7 @@
     padding: 1.5rem;
     background: var(--surface);
     border: 1px solid var(--border);
-    border-radius: 8px;
+    border-radius: 4px;
   }
 
   h2 {

@@ -218,7 +218,7 @@
 
   .evidence-card {
     border: 1px solid var(--border);
-    border-radius: 1rem;
+    border-radius: 4px;
     padding: 1rem;
   }
 

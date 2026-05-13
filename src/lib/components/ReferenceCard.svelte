@@ -53,7 +53,7 @@
 <style>
   .reference-card {
     border: 1px solid var(--border);
-    border-radius: 1rem;
+    border-radius: 4px;
     background: #fff;
     padding: 1rem;
   }

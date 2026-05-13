@@ -36,7 +36,7 @@
   .insight-block {
     padding: 1rem;
     background: var(--insight-bg);
-    border-radius: 6px;
+    border-radius: 4px;
     margin: 1rem 0;
   }
 

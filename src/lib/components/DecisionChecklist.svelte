@@ -36,7 +36,7 @@
     margin: 1.5rem 0;
     padding: 1.25rem;
     background: var(--surface);
-    border-radius: 8px;
+    border-radius: 4px;
     border: 1px solid var(--border);
   }
 

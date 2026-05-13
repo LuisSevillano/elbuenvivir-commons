@@ -1,0 +1,162 @@
+[
+  {
+    "slug": "baja_socio",
+    "title": "Baja de una persona socia",
+    "category": "socios",
+    "status": "active",
+    "aliases": ["baja voluntaria", "separacion", "perdida de condicion de socio"],
+    "keywords": ["baja", "baja voluntaria", "baja obligatoria", "reembolso", "separacion"]
+  },
+  {
+    "slug": "aportaciones_obligatorias",
+    "title": "Aportaciones obligatorias",
+    "category": "economico",
+    "status": "active",
+    "aliases": ["capital obligatorio", "desembolso obligatorio"],
+    "keywords": ["aportacion obligatoria", "capital social", "desembolso", "cuota de ingreso"]
+  },
+  {
+    "slug": "uso_espacios_comunes",
+    "title": "Uso de espacios comunes",
+    "category": "uso_espacios",
+    "status": "active",
+    "aliases": ["zonas comunes", "casa comun"],
+    "keywords": ["espacios comunes", "zonas comunes", "uso comun", "reservas", "pernoctas"]
+  },
+  {
+    "slug": "toma_decisiones",
+    "title": "Toma de decisiones",
+    "category": "gobernanza",
+    "status": "active",
+    "aliases": ["consenso y mayorias", "votaciones"],
+    "keywords": ["consenso", "mayoria", "votacion", "asamblea", "bloqueo"]
+  },
+  {
+    "slug": "estatutos_vs_rri",
+    "title": "Estatutos frente a Reglamento de Régimen Interno",
+    "category": "legal",
+    "status": "active",
+    "aliases": ["gobernanza estatutos rri", "flexibilidad normativa", "rigidez adaptabilidad"],
+    "keywords": ["estatutos", "reglamento de regimen interno", "rri", "modificacion", "normas internas"]
+  },
+  {
+    "slug": "admision_socio",
+    "title": "Admisión de personas socias",
+    "category": "socios",
+    "status": "planned",
+    "aliases": ["admision nuevos miembros"],
+    "keywords": ["admision", "nuevas personas socias", "solicitud de ingreso"]
+  },
+  {
+    "slug": "clases_de_socios",
+    "title": "Clases de personas socias",
+    "category": "socios",
+    "status": "planned",
+    "keywords": ["socio usuario", "socio colaborador", "clases de socios"]
+  },
+  {
+    "slug": "derechos_y_obligaciones",
+    "title": "Derechos y obligaciones",
+    "category": "socios",
+    "status": "planned",
+    "keywords": ["derechos", "obligaciones", "deberes"]
+  },
+  {
+    "slug": "expulsion_socio",
+    "title": "Expulsión de una persona socia",
+    "category": "disciplina",
+    "status": "planned",
+    "keywords": ["expulsion", "falta grave", "sancion"]
+  },
+  {
+    "slug": "reembolso_aportaciones",
+    "title": "Reembolso de aportaciones",
+    "category": "economico",
+    "status": "planned",
+    "keywords": ["reembolso", "devolucion de aportaciones", "liquidacion"]
+  },
+  {
+    "slug": "desigualdad_aportaciones",
+    "title": "Aportaciones iniciales desiguales",
+    "category": "economico",
+    "status": "planned",
+    "keywords": ["aportaciones desiguales", "desigualdad", "derechos economicos"]
+  },
+  {
+    "slug": "asamblea_general",
+    "title": "Asamblea General",
+    "category": "gobernanza",
+    "status": "planned",
+    "keywords": ["asamblea general", "convocatoria", "acta"]
+  },
+  {
+    "slug": "consejo_rector",
+    "title": "Consejo Rector",
+    "category": "gobernanza",
+    "status": "planned",
+    "keywords": ["consejo rector", "administracion", "representacion"]
+  },
+  {
+    "slug": "conflictos_y_mediacion",
+    "title": "Conflictos y mediación",
+    "category": "convivencia",
+    "status": "planned",
+    "keywords": ["conflicto", "mediacion", "facilitacion"]
+  },
+  {
+    "slug": "reservas_estancias_pernoctas",
+    "title": "Reservas, estancias y pernoctas",
+    "category": "uso_espacios",
+    "status": "planned",
+    "keywords": ["reserva", "estancia", "pernocta"]
+  },
+  {
+    "slug": "invitados",
+    "title": "Personas invitadas",
+    "category": "uso_espacios",
+    "status": "planned",
+    "keywords": ["invitados", "familiares", "terceras personas"]
+  },
+  {
+    "slug": "mantenimiento",
+    "title": "Mantenimiento",
+    "category": "convivencia",
+    "status": "planned",
+    "keywords": ["mantenimiento", "limpieza", "reparaciones"]
+  },
+  {
+    "slug": "lista_espera",
+    "title": "Lista de espera",
+    "category": "socios",
+    "status": "planned",
+    "keywords": ["lista de espera", "sustitucion", "incorporacion"]
+  },
+  {
+    "slug": "disolucion",
+    "title": "Disolución",
+    "category": "ciclo_vida",
+    "status": "planned",
+    "keywords": ["disolucion", "liquidacion", "destino del inmueble"]
+  },
+  {
+    "slug": "gobernanza_estatutos_vs_rri",
+    "title": "Gobernanza en Estatutos y RRI",
+    "category": "legal",
+    "status": "merged",
+    "mergedInto": "estatutos_vs_rri"
+  },
+  {
+    "slug": "consenso_y_mayorias",
+    "title": "Consenso y mayorías",
+    "category": "gobernanza",
+    "status": "merged",
+    "mergedInto": "toma_decisiones"
+  },
+  {
+    "slug": "normas_de_convivencia",
+    "title": "Normas de convivencia",
+    "category": "convivencia",
+    "status": "merged",
+    "mergedInto": "conflictos_y_mediacion"
+  }
+]

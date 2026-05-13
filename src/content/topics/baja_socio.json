@@ -1,0 +1,71 @@
+{
+  "slug": "baja_socio",
+  "title": "Baja de una persona socia",
+  "shortDescription": "Criterios mínimos para regular la salida voluntaria u obligatoria de una persona socia y sus efectos económicos y de uso.",
+  "category": "socios",
+  "minimumContents": [
+    "Distinguir baja voluntaria, obligatoria y expulsión.",
+    "Definir preaviso razonable y forma de comunicación.",
+    "Regular la calificación de la baja y sus consecuencias.",
+    "Prever plazo y condiciones de reembolso de aportaciones.",
+    "Aclarar efectos sobre el derecho de uso del inmueble común.",
+    "Conectar la baja con lista de espera o incorporación de nuevas personas."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Decidir si la salida debe tener un preaviso mínimo y qué excepciones admitir.",
+    "Determinar cómo se tratarán aportaciones iniciales desiguales al salir una persona.",
+    "Definir si la sustitución por una nueva persona condiciona el reembolso.",
+    "Separar lo esencial para Estatutos de los detalles operativos para el RRI."
+  ],
+  "risks": [
+    "Regular demasiado en Estatutos puede dificultar ajustes futuros.",
+    "No prever salidas puede generar tensiones económicas en un grupo pequeño.",
+    "Las aportaciones desiguales exigen una regla clara de liquidación y calendario."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "Los derechos básicos de baja y reembolso deberían tener cobertura estatutaria.",
+      "Los procedimientos prácticos, plazos internos de aviso y acompañamiento pueden desarrollarse en el RRI."
+    ],
+    "shouldBeInStatutes": [
+      "Derecho de baja voluntaria.",
+      "Criterios generales de reembolso.",
+      "Consecuencias básicas de perder la condición de persona socia."
+    ],
+    "shouldBeInRRI": [
+      "Procedimiento interno de comunicación.",
+      "Calendario operativo de salida.",
+      "Acompañamiento para buscar persona sustituta si procede."
+    ],
+    "canBeDeferredInitially": [
+      "Detalle fino de formularios, comunicaciones y protocolo de transición."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Convertir detalles prácticos en reglas rígidas difíciles de adaptar."
+    ],
+    "risksIfPlacedInRRI": [
+      "Dejar sin rango suficiente cuestiones económicas esenciales."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "reembolso_aportaciones",
+      "relationship": "depends_on",
+      "explanation": "La baja requiere una regla económica de devolución o liquidación."
+    },
+    {
+      "topicSlug": "lista_espera",
+      "relationship": "complements",
+      "explanation": "La entrada de nuevas personas puede facilitar la salida ordenada."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La persona socia podrá causar baja voluntaria mediante comunicación escrita a la cooperativa con el preaviso que establezcan los Estatutos o, en su caso, el Reglamento de Régimen Interno. La liquidación de sus aportaciones se realizará conforme a la legislación aplicable y a las reglas económicas aprobadas por la cooperativa.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

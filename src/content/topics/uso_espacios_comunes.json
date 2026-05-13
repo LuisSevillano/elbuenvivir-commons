@@ -1,0 +1,69 @@
+{
+  "slug": "uso_espacios_comunes",
+  "title": "Uso de espacios comunes",
+  "shortDescription": "Criterios para ordenar el uso compartido de espacios, estancias, reservas y responsabilidades de cuidado.",
+  "category": "uso_espacios",
+  "minimumContents": [
+    "Definir qué espacios son comunes y qué usos principales tendrán.",
+    "Regular reservas, pernoctas, invitados y límites de ocupación.",
+    "Establecer criterios de prioridad y resolución de solapamientos.",
+    "Prever mantenimiento, limpieza y responsabilidad por daños.",
+    "Permitir adaptación futura si cambia el inmueble o los usos."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Decidir si habrá o no espacios privados asignados individualmente.",
+    "Definir cómo se reservarán estancias si no es primera vivienda.",
+    "Acordar límites para invitados, familiares y uso por terceras personas.",
+    "Evitar meter en Estatutos reglas operativas que cambiarán con la práctica."
+  ],
+  "risks": [
+    "La ausencia de reglas mínimas puede generar conflictos de uso aunque exista confianza previa.",
+    "Sobrerregular antes de conocer el inmueble puede crear normas inútiles.",
+    "No distinguir uso ordinario, invitados y actividades abiertas puede generar inseguridad."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "rri",
+    "rationale": [
+      "El uso concreto de espacios comunes es operativo y necesitará ajustes frecuentes.",
+      "Los Estatutos pueden limitarse a reconocer el derecho de uso conforme a normas internas."
+    ],
+    "shouldBeInStatutes": [
+      "Referencia general al derecho de uso conforme a acuerdos internos.",
+      "Límites esenciales vinculados a la condición de persona socia."
+    ],
+    "shouldBeInRRI": [
+      "Sistema de reservas.",
+      "Normas de invitados y pernoctas.",
+      "Limpieza, mantenimiento y responsabilidades ordinarias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalle exacto de reservas hasta conocer el inmueble y su capacidad real."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Rigidez excesiva para una práctica que probablemente cambiará con el uso."
+    ],
+    "risksIfPlacedInRRI": [
+      "Si no hay ninguna base estatutaria, puede quedar poco claro el alcance del derecho de uso."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "reservas_estancias_pernoctas",
+      "relationship": "develops",
+      "explanation": "Las reservas concretan el uso compartido cuando no hay vivienda permanente."
+    },
+    {
+      "topicSlug": "invitados",
+      "relationship": "complements",
+      "explanation": "El uso común requiere reglas específicas para personas invitadas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "El uso de los espacios comunes se regirá por criterios de corresponsabilidad, cuidado, equidad y respeto a los acuerdos adoptados por la cooperativa. El Reglamento de Régimen Interno desarrollará las normas de reserva, pernocta, invitados, mantenimiento y resolución de incidencias.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

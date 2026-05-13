@@ -1,0 +1,70 @@
+{
+  "slug": "aportaciones_obligatorias",
+  "title": "Aportaciones obligatorias",
+  "shortDescription": "Reglas básicas sobre aportaciones iniciales o periódicas necesarias para sostener el proyecto común.",
+  "category": "economico",
+  "minimumContents": [
+    "Identificar qué aportaciones son obligatorias y cuándo nacen.",
+    "Distinguir aportaciones al capital, cuotas y gastos ordinarios.",
+    "Prever desembolsos, calendario y consecuencias del impago.",
+    "Regular cómo afectan las aportaciones desiguales a derechos económicos y de uso.",
+    "Coordinar aportaciones con baja, transmisión y entrada de nuevas personas."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Decidir si todas las personas aportarán lo mismo o si habrá aportaciones iniciales desiguales.",
+    "Acordar qué parte cubre adquisición, qué parte gastos comunes y qué parte reservas.",
+    "Definir si la desigualdad económica genera o no diferencias de voto o uso.",
+    "Separar reglas económicas esenciales de detalles de calendario y gestión."
+  ],
+  "risks": [
+    "Confundir capital social, cuotas y gastos puede provocar malentendidos internos.",
+    "Las aportaciones desiguales sin regla clara pueden generar conflictos al salir alguien.",
+    "Un régimen económico demasiado complejo puede ser desproporcionado para un grupo pequeño."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "La existencia y régimen básico de aportaciones debe estar en Estatutos cuando sea estructural.",
+      "Los calendarios, cuotas operativas y ajustes periódicos pueden regularse con más flexibilidad en el RRI o acuerdos de asamblea."
+    ],
+    "shouldBeInStatutes": [
+      "Capital social mínimo si procede.",
+      "Régimen general de aportaciones obligatorias.",
+      "Criterios básicos de reembolso o liquidación."
+    ],
+    "shouldBeInRRI": [
+      "Calendarios de pago.",
+      "Procedimiento de comunicación de gastos.",
+      "Reglas operativas de cuotas periódicas."
+    ],
+    "canBeDeferredInitially": [
+      "Detalle de presupuestos anuales futuros mientras no exista inmueble concreto."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Bloquear ajustes económicos ordinarios que podrían cambiar cada año."
+    ],
+    "risksIfPlacedInRRI": [
+      "Dejar sin protección suficiente obligaciones económicas centrales."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "desigualdad_aportaciones",
+      "relationship": "develops",
+      "explanation": "El caso de El Buen Vivir exige tratar específicamente aportaciones iniciales desiguales."
+    },
+    {
+      "topicSlug": "reembolso_aportaciones",
+      "relationship": "depends_on",
+      "explanation": "Toda aportación obligatoria debe conectarse con su eventual devolución."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La Asamblea General podrá acordar aportaciones obligatorias destinadas a financiar la adquisición, uso, mantenimiento o mejora del proyecto común, respetando en todo caso la legislación cooperativa aplicable y las reglas estatutarias sobre capital social, desembolso y reembolso.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

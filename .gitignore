@@ -1,0 +1,9 @@
+node_modules
+.svelte-kit
+build
+.netlify
+.env
+.env.*
+!.env.example
+docs
+.DS_Store

@@ -1,15 +1,16 @@
 <script lang="ts">
   import StatusBadge from './StatusBadge.svelte';
   import { categoryLabels, placementLabel, topicStatusLabels } from '$lib/content/labels';
-  import type { GovernanceTopic } from '$lib/content/types';
+  import type { ConsultableTopic, GovernanceTopic } from '$lib/content/types';
 
   interface Props {
-    topic: GovernanceTopic;
+    topic: GovernanceTopic | ConsultableTopic;
     referenceCount?: number;
     projectCount?: number;
   }
 
   let { topic, referenceCount = 0, projectCount = 0 }: Props = $props();
+  const availabilityBadge = $derived('availabilityBadge' in topic ? topic.availabilityBadge : null);
 </script>
 
 <header class="topic-hero">
@@ -29,7 +30,13 @@
   {/if}
 
   <div class="hero-badges">
-    <StatusBadge tone="warning">{topicStatusLabels[topic.status]}</StatusBadge>
+    {#if availabilityBadge}
+      <StatusBadge tone={availabilityBadge === 'Análisis amplio' ? 'success' : 'neutral'}>
+        {availabilityBadge}
+      </StatusBadge>
+    {:else}
+      <StatusBadge tone="warning">{topicStatusLabels[topic.status]}</StatusBadge>
+    {/if}
     <StatusBadge>{placementLabel(topic.governancePlacement.recommendedPrimaryLocation)}</StatusBadge>
   </div>
 </header>

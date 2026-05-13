@@ -1,25 +1,24 @@
 <script lang="ts">
   import TopicCard from '$lib/components/TopicCard.svelte';
   import { categoryLabels } from '$lib/content/labels';
-  import type { GovernanceTopic, TaxonomyTopic, TopicCategory } from '$lib/content/types';
+  import type { ConsultableTopic, TopicCategory } from '$lib/content/types';
 
-  type TopicWithCount = GovernanceTopic & { referenceCount: number };
+  let { data }: { data: { topics: ConsultableTopic[] } } = $props();
 
-  let { data }: { data: { topics: TopicWithCount[]; taxonomy: TaxonomyTopic[] } } = $props();
-
-  function groupTopics(topics: TopicWithCount[]): [TopicCategory, TopicWithCount[]][] {
-    const groups: Partial<Record<TopicCategory, TopicWithCount[]>> = {};
+  function groupTopics(topics: ConsultableTopic[]): [TopicCategory, ConsultableTopic[]][] {
+    const groups: Partial<Record<TopicCategory, ConsultableTopic[]>> = {};
 
     for (const topic of topics) {
       groups[topic.category] = [...(groups[topic.category] ?? []), topic];
     }
 
-    return Object.entries(groups) as [TopicCategory, TopicWithCount[]][];
+    return Object.entries(groups) as [TopicCategory, ConsultableTopic[]][];
   }
 
   const groupedTopics = $derived(groupTopics(data.topics));
-
-  const plannedCount = $derived(data.taxonomy.filter((topic) => topic.status === 'planned').length);
+  const broadAnalysisCount = $derived(
+    data.topics.filter((topic) => topic.availabilityBadge === 'Análisis amplio').length
+  );
 </script>
 
 <section class="hero">
@@ -47,9 +46,9 @@
 {/if}
 
 <section class="section panel">
-  <h2>Próximos temas consultables</h2>
+  <h2>Atlas consultable</h2>
   <p>
-    Hay {plannedCount} temas previstos para ampliar el atlas comparado con más cuestiones de gobernanza,
-    convivencia y economía cooperativa.
+    Hay {data.topics.length} temas disponibles para explorar. {broadAnalysisCount} reúnen un análisis
+    amplio con referencias de varios documentos.
   </p>
 </section>

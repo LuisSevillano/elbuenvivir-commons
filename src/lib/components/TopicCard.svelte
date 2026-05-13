@@ -1,17 +1,26 @@
 <script lang="ts">
   import { categoryLabels, topicStatusLabels } from '$lib/content/labels';
-  import type { GovernanceTopic } from '$lib/content/types';
+  import type { ConsultableTopic, GovernanceTopic } from '$lib/content/types';
   import StatusBadge from './StatusBadge.svelte';
 
-  let { topic, referenceCount = 0 }: { topic: GovernanceTopic; referenceCount?: number } = $props();
+  type TopicCardTopic = GovernanceTopic | ConsultableTopic;
+
+  let { topic, referenceCount = 0 }: { topic: TopicCardTopic; referenceCount?: number } = $props();
 
   const statusTone = $derived(topic.status === 'reviewed' ? 'success' : 'warning');
+  const availabilityBadge = $derived('availabilityBadge' in topic ? topic.availabilityBadge : null);
 </script>
 
 <a class="topic-card" href={`/temas/${topic.slug}`}>
   <div class="meta">
     <span>{categoryLabels[topic.category]}</span>
-    <StatusBadge tone={statusTone}>{topicStatusLabels[topic.status]}</StatusBadge>
+    {#if availabilityBadge}
+      <StatusBadge tone={availabilityBadge === 'Análisis amplio' ? 'success' : 'neutral'}>
+        {availabilityBadge}
+      </StatusBadge>
+    {:else}
+      <StatusBadge tone={statusTone}>{topicStatusLabels[topic.status]}</StatusBadge>
+    {/if}
   </div>
   <h2>{topic.title}</h2>
   <p>{topic.shortDescription}</p>

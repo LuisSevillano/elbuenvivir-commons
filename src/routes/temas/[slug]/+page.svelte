@@ -10,12 +10,12 @@
   import SuggestedClauseBlock from '$lib/components/SuggestedClauseBlock.svelte';
   import SoftCallout from '$lib/components/SoftCallout.svelte';
   import { legalDisclaimer } from '$lib/content/labels';
-  import type { GeneratedTopicReference, GeneratedTopicSynthesis, GovernanceTopic } from '$lib/content/types';
+  import type { ConsultableTopic, GeneratedTopicReference, GeneratedTopicSynthesis } from '$lib/content/types';
 
   let { data }: {
     data: {
-      topic: GovernanceTopic;
-      topics: GovernanceTopic[];
+      topic: ConsultableTopic;
+      topics: ConsultableTopic[];
       generatedReferences: GeneratedTopicReference[];
       synthesis: GeneratedTopicSynthesis | null;
     };
@@ -23,14 +23,9 @@
 
   const topic = $derived(data.topic);
   const synthesis = $derived(data.synthesis);
-  const refCount = $derived(data.generatedReferences.length);
-  const projectCount = $derived(new Set(data.generatedReferences.map(r => r.projectName).filter(Boolean)).size);
-
-  const projectNames = $derived(
-    Array.from(new Set(data.generatedReferences.map(r => r.projectName).filter(Boolean)))
-  );
-
-  </script>
+  const refCount = $derived(topic.referenceCount);
+  const projectCount = $derived(topic.projectCount);
+</script>
 
 <article class="topic-page">
   <TopicHero {topic} referenceCount={refCount} projectCount={projectCount} />

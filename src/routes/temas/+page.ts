@@ -1,13 +1,9 @@
-import { countReferences, loadTaxonomy, loadTopics } from '$lib/content/loadTopics';
+import { loadConsultableTopics } from '$lib/content/loadConsultableTopics';
 
 export function load() {
-  const topics = loadTopics();
+  const topics = loadConsultableTopics();
 
   return {
-    topics: topics.map((topic) => ({
-      ...topic,
-      referenceCount: countReferences(topic)
-    })),
-    taxonomy: loadTaxonomy()
+    topics
   };
 }

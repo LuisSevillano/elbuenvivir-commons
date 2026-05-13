@@ -97,6 +97,21 @@ export interface GovernanceTopic {
   status: TopicStatus;
 }
 
+export interface ConsultableTopic extends GovernanceTopic {
+  aliases: string[];
+  availability: {
+    hasCuratedTopic: boolean;
+    hasSynthesis: boolean;
+    hasReferences: boolean;
+    hasResearchPack: boolean;
+    hasDraft: boolean;
+  };
+  availabilityBadge: 'Análisis amplio' | 'Análisis disponible' | 'Información limitada' | 'Pocas referencias';
+  referenceCount: number;
+  documentCount: number;
+  projectCount: number;
+}
+
 export interface GeneratedTopicDraft extends GovernanceTopic {
   draftStatus: 'generated_not_curated';
   generatedFrom?: {
@@ -187,6 +202,7 @@ export interface TaxonomyTopic {
   slug: string;
   title: string;
   category: TopicCategory;
+  description?: string;
   status: 'active' | 'planned' | 'merged';
   aliases?: string[];
   keywords?: string[];

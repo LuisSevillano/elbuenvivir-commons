@@ -12,7 +12,8 @@
     "ingest": "tsx scripts/ingest-documents.ts",
     "extract": "tsx scripts/extract-text.ts",
     "split": "tsx scripts/split-articles.ts",
-    "build:index": "tsx scripts/build-topic-index.ts"
+    "build:index": "tsx scripts/build-topic-index.ts",
+    "content:pipeline": "tsx scripts/content-pipeline.ts"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.8",

@@ -97,6 +97,65 @@ export interface GovernanceTopic {
   status: TopicStatus;
 }
 
+export interface GeneratedTopicDraft extends GovernanceTopic {
+  draftStatus: 'generated_not_curated';
+  generatedFrom?: {
+    generated: true;
+    curated: false;
+    sourceResearchPack: string;
+    evidenceCount: number;
+    highConfidenceEvidence: number;
+    mediumConfidenceEvidence: number;
+    lowConfidenceEvidence: number;
+    evidence: {
+      documentSlug: string;
+      documentTitle: string;
+      documentType: DocumentType | string;
+      articleOrSection?: string;
+      confidence?: Confidence | string;
+      excerpt: string;
+    }[];
+  };
+}
+
+export interface GeneratedTopicSynthesis {
+  slug: string;
+  generatedAt: string;
+  generatedFrom: {
+    researchPack: string;
+    referencesCount: number;
+    documents: string[];
+  };
+  summary: {
+    overview: string[];
+    commonPatterns: string[];
+    majorDifferences: string[];
+    commonRisks: string[];
+    commonTradeoffs: string[];
+  };
+  governancePlacement: {
+    usuallyInStatutes: string[];
+    usuallyInRRI: string[];
+    mixedApproaches: string[];
+    notes: string[];
+  };
+  recommendationsForBuenVivir: {
+    minimalApproach: string[];
+    flexibleApproach: string[];
+    pointsToDecideSoon: string[];
+    pointsThatCanWait: string[];
+  };
+  detectedTensions: string[];
+  notableProjects: {
+    projectName: string;
+    notableBecause: string;
+    references: string[];
+  }[];
+  legalWarnings: string[];
+  generatedDisclaimer: string;
+  status: 'generated' | 'needs_legal_review';
+}
+
 export interface ExtractedSection {
   id: string;
   documentSlug: string;
@@ -117,6 +176,7 @@ export interface GeneratedTopicReference {
   excerpt: string;
   confidence: Confidence;
   reviewStatus: ReviewStatus;
+  score?: number;
   tags: string[];
 }
 
@@ -127,5 +187,7 @@ export interface TaxonomyTopic {
   status: 'active' | 'planned' | 'merged';
   aliases?: string[];
   keywords?: string[];
+  negativeKeywords?: string[];
+  keywordWeights?: Record<string, number>;
   mergedInto?: string;
 }

@@ -26,13 +26,13 @@
   <p class="eyebrow">Temas</p>
   <h1>Navegación por decisiones, no por documentos.</h1>
   <p class="lead">
-    Cada tema reúne contenido editorial curado, referencias documentales y una recomendación explícita
-    sobre Estatutos, RRI o tratamiento mixto.
+    Cada tema reúne patrones observados, documentos relacionados y decisiones prácticas para orientar
+    la conversación sobre Estatutos, RRI o soluciones mixtas.
   </p>
 </section>
 
 {#if data.topics.length === 0}
-  <section class="section empty-state">No hay temas curados todavía.</section>
+  <section class="section empty-state">No hay temas disponibles todavía.</section>
 {:else}
   {#each groupedTopics as [category, topics]}
     <section class="section">
@@ -47,9 +47,9 @@
 {/if}
 
 <section class="section panel">
-  <h2>Taxonomía MVP</h2>
+  <h2>Próximos temas de consulta</h2>
   <p>
-    Hay {plannedCount} temas planificados en <code>taxonomy/topics.json</code>. No aparecen como fichas
-    completas hasta que exista contenido editorial curado en <code>src/content/topics</code>.
+    Hay {plannedCount} temas previstos para ampliar el atlas comparado con más cuestiones de gobernanza,
+    convivencia y economía cooperativa.
   </p>
 </section>

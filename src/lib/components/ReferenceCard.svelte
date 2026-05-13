@@ -20,12 +20,12 @@
 </script>
 
 <article class="reference-card">
-  <div class="meta">
-    {#if automatic}
-      <StatusBadge tone="auto">Referencia automática</StatusBadge>
-    {:else}
-      <StatusBadge tone="success">Referencia curada</StatusBadge>
-    {/if}
+    <div class="meta">
+      {#if automatic}
+      <StatusBadge tone="auto">Referencia automática sin revisar</StatusBadge>
+      {:else}
+        <StatusBadge tone="success">Referencia curada</StatusBadge>
+      {/if}
     {#if documentType}
       <StatusBadge>{documentTypeLabels[documentType]}</StatusBadge>
     {/if}

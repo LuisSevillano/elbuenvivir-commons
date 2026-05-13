@@ -8,9 +8,12 @@
     data: {
       document: SourceDocument;
       curatedTopics: GovernanceTopic[];
+      curatedTopicSlugs: string[];
       generatedReferences: GeneratedTopicReference[];
     };
   } = $props();
+
+  const curatedTopicSlugs = $derived(new Set(data.curatedTopicSlugs));
 </script>
 
 <article>
@@ -55,9 +58,17 @@
     {#if data.generatedReferences.length === 0}
       <p class="empty-state">No hay referencias automáticas para este documento.</p>
     {:else}
-      <ul>
+        <ul>
         {#each data.generatedReferences as reference}
-          <li><a href={`/temas/${reference.topicSlug}`}>{reference.topicSlug}</a>: {reference.excerpt}</li>
+          <li>
+            <StatusBadge tone="auto">Referencia automática sin revisar</StatusBadge>
+            {#if curatedTopicSlugs.has(reference.topicSlug)}
+              <a href={`/temas/${reference.topicSlug}`}>{reference.topicSlug}</a>
+            {:else}
+              <span>{reference.topicSlug}</span>
+            {/if}
+            <span>: {reference.excerpt}</span>
+          </li>
         {/each}
       </ul>
     {/if}

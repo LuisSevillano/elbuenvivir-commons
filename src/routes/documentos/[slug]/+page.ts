@@ -13,7 +13,8 @@ export function load({ params }) {
     error(404, 'Documento no encontrado');
   }
 
-  const curatedTopics = loadTopics().filter(
+  const topics = loadTopics();
+  const curatedTopics = topics.filter(
     (topic) =>
       topic.legalBasis.some((reference) => reference.documentSlug === document.slug) ||
       topic.projectReferences.some((reference) => reference.documentSlug === document.slug)
@@ -25,6 +26,7 @@ export function load({ params }) {
   return {
     document,
     curatedTopics,
+    curatedTopicSlugs: topics.map((topic) => topic.slug),
     generatedReferences
   };
 }

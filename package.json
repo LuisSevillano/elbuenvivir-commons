@@ -10,7 +10,8 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "validate:content": "tsx scripts/validate-content.ts",
     "ingest": "tsx scripts/ingest-documents.ts",
-    "extract": "tsx scripts/extract-text.ts"
+    "extract": "tsx scripts/extract-text.ts",
+    "split": "tsx scripts/split-articles.ts"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.8",

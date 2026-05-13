@@ -7,6 +7,8 @@ const root = process.cwd();
 const topicDir = join(root, 'src/content/topics');
 const documentsPath = join(root, 'src/content/documents/documents.json');
 const generatedReferencesPath = join(root, 'src/content/generated/topic-references.json');
+const generatedSectionsDir = join(root, 'src/content/generated/sections');
+const splitReportPath = join(root, 'src/content/generated/split-report.json');
 const taxonomyPath = join(root, 'taxonomy/topics.json');
 
 const allowedCategories = new Set([
@@ -311,6 +313,60 @@ if (!generatedReferences || !Array.isArray(generatedReferences.references)) {
     }
 
     validateExcerptLength(reference, context);
+  }
+}
+
+if (existsSync(generatedSectionsDir)) {
+  const sectionFiles = readdirSync(generatedSectionsDir)
+    .filter((file) => file.endsWith('.sections.json'))
+    .toSorted();
+
+  for (const file of sectionFiles) {
+    const sections = readJson<JsonValue[]>(join(generatedSectionsDir, file));
+    const expectedDocumentSlug = file.replace(/\.sections\.json$/, '');
+
+    if (!Array.isArray(sections)) {
+      errors.push(`generated/sections/${file}: debe ser un array`);
+      continue;
+    }
+
+    for (const [index, section] of sections.entries()) {
+      const context = `generated/sections/${file}[${index}]`;
+
+      if (!isRecord(section)) {
+        errors.push(`${context}: debe ser un objeto`);
+        continue;
+      }
+
+      stringField(section, 'id', context);
+      const documentSlug = stringField(section, 'documentSlug', context);
+      stringField(section, 'heading', context);
+      stringField(section, 'text', context);
+      arrayField(section, 'possibleTopics', context);
+
+      if (documentSlug && documentSlug !== expectedDocumentSlug) {
+        errors.push(`${context}: documentSlug no coincide con el archivo`);
+      }
+
+      if (documentSlug && !documentSlugs.has(documentSlug)) {
+        errors.push(`${context}: documentSlug inexistente "${documentSlug}"`);
+      }
+
+      if (typeof section.order !== 'number' || !Number.isInteger(section.order) || section.order < 1) {
+        errors.push(`${context}: order debe ser entero positivo`);
+      }
+    }
+  }
+}
+
+if (existsSync(splitReportPath)) {
+  const splitReport = readJson<Record<string, JsonValue>>(splitReportPath);
+
+  if (!splitReport || !isRecord(splitReport)) {
+    errors.push('src/content/generated/split-report.json debe ser un objeto');
+  } else {
+    arrayField(splitReport, 'documents', 'src/content/generated/split-report.json');
+    arrayField(splitReport, 'warnings', 'src/content/generated/split-report.json');
   }
 }
 

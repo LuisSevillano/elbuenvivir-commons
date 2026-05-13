@@ -8,8 +8,10 @@ export function load({ url }) {
   const taxonomy = loadTaxonomy();
   const taxonomyBySlug = new Map(taxonomy.map((topic) => [topic.slug, topic]));
 
+  const query = url?.searchParams?.get('q') ?? '';
+
   return {
-    query: url.searchParams.get('q') ?? '',
+    query,
     topics: loadTopics(),
     drafts: loadDrafts(),
     documents,

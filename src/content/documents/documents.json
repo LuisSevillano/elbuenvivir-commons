@@ -1,1 +1,623 @@
-[]
+[
+  {
+    "slug": "docs-estatutos-estatutos-axuntase",
+    "title": "Estatutos Axuntase",
+    "fileName": "estatutos_axuntase.pdf",
+    "sourcePath": "docs/estatutos/estatutos_axuntase.pdf",
+    "type": "estatutos",
+    "language": "es",
+    "tags": [
+      "estatutos"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "d2dca6d79a697c907d500f2572f5c1668eb8abe7d54c768579465ca96755197b",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.328Z"
+  },
+  {
+    "slug": "docs-estatutos-estatutos-blanxart",
+    "title": "Estatutos Blanxart",
+    "fileName": "estatutos_blanxart.pdf",
+    "sourcePath": "docs/estatutos/estatutos_blanxart.pdf",
+    "type": "estatutos",
+    "language": "es",
+    "tags": [
+      "estatutos"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "b4e5462d02a9d9e3c042d4701ecd97fa30cfdb73bd540763b0e36428336cae82",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.329Z"
+  },
+  {
+    "slug": "docs-estatutos-estatutos-cancarner",
+    "title": "Estatutos Cancarner",
+    "fileName": "estatutos_cancarner.pdf",
+    "sourcePath": "docs/estatutos/estatutos_cancarner.pdf",
+    "type": "estatutos",
+    "language": "es",
+    "tags": [
+      "estatutos"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "eac588dc6a6a0929bdd9ddc7586ef394e347b39b4b422845515e843eba033f3f",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.331Z"
+  },
+  {
+    "slug": "docs-estatutos-estatutos-elciempies",
+    "title": "Estatutos Elciempies",
+    "fileName": "estatutos_elciempies.pdf",
+    "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
+    "type": "estatutos",
+    "language": "es",
+    "tags": [
+      "estatutos"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "ed06a31c1c0ce49d8e318cfc1fedff72e857ea77828b8d71726e50e6cb37249c",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.333Z"
+  },
+  {
+    "slug": "docs-estatutos-estatutos-entrepatios",
+    "title": "Estatutos Entrepatios",
+    "fileName": "estatutos_entrepatios.pdf",
+    "sourcePath": "docs/estatutos/estatutos_entrepatios.pdf",
+    "type": "estatutos",
+    "language": "es",
+    "tags": [
+      "estatutos"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "df2d433cd9cc49d2c76f2c7b552ca6341a04e035a87497fbd8ddd071d166e530",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.337Z"
+  },
+  {
+    "slug": "docs-estatutos-estatutos-la-borda",
+    "title": "Estatutos La Borda",
+    "fileName": "estatutos_la_borda.pdf",
+    "sourcePath": "docs/estatutos/estatutos_la_borda.pdf",
+    "type": "estatutos",
+    "language": "es",
+    "tags": [
+      "estatutos"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "8e77b1dae59e819482dcafc2a214e43de9e6b01d243912f245b33238c5c5da7d",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.339Z"
+  },
+  {
+    "slug": "docs-estatutos-estatutos-laseronda-org",
+    "title": "Estatutos Laseronda.Org",
+    "fileName": "estatutos_laseronda.org.pdf",
+    "sourcePath": "docs/estatutos/estatutos_laseronda.org.pdf",
+    "type": "estatutos",
+    "language": "es",
+    "tags": [
+      "estatutos"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "263169e7530ea9050c0ed9fe22af95dd2f3e8eb4671f7a4aa4e8e586abca819f",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.343Z"
+  },
+  {
+    "slug": "docs-estatutos-estatutos-los-girasoles",
+    "title": "Estatutos Los Girasoles",
+    "fileName": "estatutos_los_girasoles.pdf",
+    "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+    "type": "estatutos",
+    "language": "es",
+    "tags": [
+      "estatutos"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "d7d55f6f860ffc1453d0a42a5832dccb6b251b17900219fb9dcaa9218a8ff7c7",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.347Z"
+  },
+  {
+    "slug": "docs-estatutos-estatutos-losnidales",
+    "title": "Estatutos Losnidales",
+    "fileName": "estatutos_losnidales.pdf",
+    "sourcePath": "docs/estatutos/estatutos_losnidales.pdf",
+    "type": "estatutos",
+    "language": "es",
+    "tags": [
+      "estatutos"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "d8b0ba7bdca68f15ea122b50675403ebd7641a6755b3179811f230532f1803a2",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.349Z"
+  },
+  {
+    "slug": "docs-estatutos-estatutos-pepu",
+    "title": "Estatutos Pepu",
+    "fileName": "estatutos_pepu.pdf",
+    "sourcePath": "docs/estatutos/estatutos_pepu.pdf",
+    "type": "estatutos",
+    "language": "es",
+    "tags": [
+      "estatutos"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "00ece492612097517d3de989f2b2d849441f83c5a39199a538a86a5011ab546d",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.351Z"
+  },
+  {
+    "slug": "docs-estatutos-estatutos-pequenopueblo",
+    "title": "Estatutos Pequenopueblo",
+    "fileName": "estatutos_pequenopueblo.pdf",
+    "sourcePath": "docs/estatutos/estatutos_pequenopueblo.pdf",
+    "type": "estatutos",
+    "language": "es",
+    "tags": [
+      "estatutos"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "00ece492612097517d3de989f2b2d849441f83c5a39199a538a86a5011ab546d",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.352Z"
+  },
+  {
+    "slug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+    "title": "Estatutos Senior Cohousing Huelva",
+    "fileName": "estatutos_senior_cohousing_huelva.pdf",
+    "sourcePath": "docs/estatutos/estatutos_senior_cohousing_huelva.pdf",
+    "type": "estatutos",
+    "jurisdiction": "Andalucía",
+    "language": "es",
+    "tags": [
+      "estatutos",
+      "vivienda"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "d875c3a90b2a1121c2cd332adfb6ffcf0817bf7d46f60fc44b15eda515ccd127",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.355Z"
+  },
+  {
+    "slug": "docs-estatutos-estatutos-tarocohousing",
+    "title": "Estatutos Tarocohousing",
+    "fileName": "estatutos_tarocohousing.pdf",
+    "sourcePath": "docs/estatutos/estatutos_tarocohousing.pdf",
+    "type": "estatutos",
+    "language": "es",
+    "tags": [
+      "estatutos"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "4a2ef84c82cb667575de49f4cec737b921cd35038ec06de1560417064761ed21",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.357Z"
+  },
+  {
+    "slug": "docs-estatutos-estatutos-tejiendovida-asociacion",
+    "title": "Estatutos Tejiendovida Asociacion",
+    "fileName": "estatutos_tejiendovida_asociacion.pdf",
+    "sourcePath": "docs/estatutos/estatutos_tejiendovida_asociacion.pdf",
+    "type": "estatutos",
+    "language": "es",
+    "tags": [
+      "estatutos"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "d9c0f7589278142820353955f33f2129d4f79e694696191e131d87372e40a611",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.359Z"
+  },
+  {
+    "slug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+    "title": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+    "fileName": "GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
+    "sourcePath": "docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
+    "type": "guia",
+    "year": 2019,
+    "language": "es",
+    "tags": [
+      "guia",
+      "vivienda"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "20fe0881fb1f6e5ff8a537306d02ba5d3aca022f5ba9a0116647f2e6ec970c9a",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.375Z"
+  },
+  {
+    "slug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+    "title": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+    "fileName": "GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
+    "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
+    "type": "guia",
+    "year": 2024,
+    "language": "es",
+    "tags": [
+      "cooperativas",
+      "estatutos",
+      "guia",
+      "vivienda"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "fe4b6e059bf8ea7ddd883f6e0a36fc4e0974bbebb2c14125d3c3b2fd09e7ad2d",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.386Z"
+  },
+  {
+    "slug": "docs-guias-las-guias-de-sostre-civic",
+    "title": "Las GuíAs De Sostre CíVic",
+    "fileName": "Las guías de Sostre Cívic.pdf",
+    "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+    "type": "guia",
+    "language": "es",
+    "tags": [
+      "guia"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "cd70ffbc275adbba1faef6f1b52621de0da3719d01637de831ec0461c3bbcf2e",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.404Z"
+  },
+  {
+    "slug": "docs-leyes-normativa-autonomica",
+    "title": "Normativa Autonomica",
+    "fileName": "normativa_autonomica.pdf",
+    "sourcePath": "docs/leyes/normativa_autonomica.pdf",
+    "type": "ley",
+    "language": "es",
+    "tags": [
+      "ley",
+      "normativa"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "51d2d32b2f5576fcab5b0dc51d0a0d08f785388bd20ac14f591cd58b9313c858",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.323Z"
+  },
+  {
+    "slug": "docs-leyes-normativa-estatal",
+    "title": "Normativa Estatal",
+    "fileName": "normativa_estatal.pdf",
+    "sourcePath": "docs/leyes/normativa_estatal.pdf",
+    "type": "ley",
+    "jurisdiction": "España",
+    "language": "es",
+    "tags": [
+      "ley",
+      "normativa"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "c18519c5477cef3669bac44183192d79aabd7f6a1dd9757961b4d2bcb8e74d9a",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.326Z"
+  },
+  {
+    "slug": "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-05012005-1-decreto-125-2004",
+    "title": "BOCYL D 05012005 1 Decreto+125 2004",
+    "fileName": "BOCYL-D-05012005-1_Decreto+125_2004.pdf",
+    "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOCYL-D-05012005-1_Decreto+125_2004.pdf",
+    "type": "ley",
+    "projectName": "Otras Leyes, Decretos, Modificaciones",
+    "year": 2004,
+    "language": "es",
+    "tags": [
+      "ley",
+      "normativa"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "ad58e06af038dc6ca32292af2c765575a1ee8f4e48d5226ad165acba3bd5a6ed",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.292Z"
+  },
+  {
+    "slug": "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-10022005-1-resolucion-31-enero-2005",
+    "title": "BOCYL D 10022005 1 ResolucióN+31+Enero+2005",
+    "fileName": "BOCYL-D-10022005-1_Resolución+31+enero+2005.pdf",
+    "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOCYL-D-10022005-1_Resolución+31+enero+2005.pdf",
+    "type": "ley",
+    "projectName": "Otras Leyes, Decretos, Modificaciones",
+    "year": 2005,
+    "language": "es",
+    "tags": [
+      "ley"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "c271e512d61bc0f8cad5541cde11fa3c3b2f55d52d13f74ceb9ef52e23fe1427",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.296Z"
+  },
+  {
+    "slug": "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-10102022-1-decreto-41-2022",
+    "title": "BOCYL D 10102022 1 Decreto+41 2022",
+    "fileName": "BOCYL-D-10102022-1_Decreto+41_2022.pdf",
+    "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOCYL-D-10102022-1_Decreto+41_2022.pdf",
+    "type": "ley",
+    "projectName": "Otras Leyes, Decretos, Modificaciones",
+    "year": 2022,
+    "language": "es",
+    "tags": [
+      "ley",
+      "normativa"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "901055c8cd4c354a9716bd7bd654ce57182e2b44af02712e12fb4c2c06252af5",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.300Z"
+  },
+  {
+    "slug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-1990-30735-ley-20-1990",
+    "title": "BOE A 1990 30735 LEY+20 1990",
+    "fileName": "BOE-A-1990-30735_LEY+20_1990.pdf",
+    "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-1990-30735_LEY+20_1990.pdf",
+    "type": "ley",
+    "projectName": "Otras Leyes, Decretos, Modificaciones",
+    "year": 1990,
+    "language": "es",
+    "tags": [
+      "ley",
+      "normativa"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "48695e918d1c027777b49239abad9da071ee399736646e86f291951b8203d667",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.303Z"
+  },
+  {
+    "slug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2004-3634-rd-296-2004",
+    "title": "BOE A 2004 3634 RD+296 2004",
+    "fileName": "BOE-A-2004-3634_RD+296_2004.pdf",
+    "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2004-3634_RD+296_2004.pdf",
+    "type": "ley",
+    "projectName": "Otras Leyes, Decretos, Modificaciones",
+    "year": 2004,
+    "language": "es",
+    "tags": [
+      "ley"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "29f7f4d5d5b53c25e90ccdda1916518bb58d7909df0df14c745dcba8b9364087",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.305Z"
+  },
+  {
+    "slug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+    "title": "BOE A 2007 19884 Consolidado RD+1514 2007",
+    "fileName": "BOE-A-2007-19884-consolidado_RD+1514_2007.pdf",
+    "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2007-19884-consolidado_RD+1514_2007.pdf",
+    "type": "ley",
+    "projectName": "Otras Leyes, Decretos, Modificaciones",
+    "year": 2007,
+    "language": "es",
+    "tags": [
+      "ley"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "6b70060161b2b7d4bffc2dbc08aa89ddc56fcbfc818fad7690d8217079b5ad96",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.311Z"
+  },
+  {
+    "slug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+    "title": "BOE A 2010 20034 Orden+EHA+3360 2010",
+    "fileName": "BOE-A-2010-20034_Orden+EHA+3360_2010.pdf",
+    "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2010-20034_Orden+EHA+3360_2010.pdf",
+    "type": "ley",
+    "projectName": "Otras Leyes, Decretos, Modificaciones",
+    "year": 2010,
+    "language": "es",
+    "tags": [
+      "ley"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "511e5a34b888c7be55e6fa149f2430d8702cacfbd16ff3fd5148c66fe7921203",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.315Z"
+  },
+  {
+    "slug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2011-18204-ley-6-2011",
+    "title": "BOE A 2011 18204 Ley+6 2011",
+    "fileName": "BOE-A-2011-18204_Ley+6_2011.pdf",
+    "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2011-18204_Ley+6_2011.pdf",
+    "type": "ley",
+    "projectName": "Otras Leyes, Decretos, Modificaciones",
+    "year": 2011,
+    "language": "es",
+    "tags": [
+      "ley",
+      "normativa"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "ed364ff800b146acc44032b6d416ba775c3b96b75e67b2e244fea2e8769a3450",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.316Z"
+  },
+  {
+    "slug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2013-8555-ley-13-2013",
+    "title": "BOE A 2013 8555 LEY+13 2013",
+    "fileName": "BOE-A-2013-8555_LEY+13_2013.pdf",
+    "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2013-8555_LEY+13_2013.pdf",
+    "type": "ley",
+    "projectName": "Otras Leyes, Decretos, Modificaciones",
+    "year": 2013,
+    "language": "es",
+    "tags": [
+      "ley",
+      "normativa"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "0214dd7d096614648bb737903d76a16c43ff65b21cb8bac19d05bc0ee0071c6c",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.318Z"
+  },
+  {
+    "slug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2014-9959-ley-5-2014",
+    "title": "BOE A 2014 9959 Ley+5 2014",
+    "fileName": "BOE-A-2014-9959_Ley+5_2014.pdf",
+    "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2014-9959_Ley+5_2014.pdf",
+    "type": "ley",
+    "projectName": "Otras Leyes, Decretos, Modificaciones",
+    "year": 2014,
+    "language": "es",
+    "tags": [
+      "ley",
+      "normativa"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "742cba6df7f9ea372b704e2f1637963ccd54ffef0ad36c1d9ba959dcec8eb745",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.320Z"
+  },
+  {
+    "slug": "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
+    "title": "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
+    "fileName": "articulo_EL_REGLAMENTO_DE_REGIMEN_INTERNO_DE_LA_COOPERATIVA.pdf",
+    "sourcePath": "docs/otros/articulo_EL_REGLAMENTO_DE_REGIMEN_INTERNO_DE_LA_COOPERATIVA.pdf",
+    "type": "otro",
+    "language": "es",
+    "tags": [
+      "cooperativas",
+      "otro",
+      "rri"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "b39c87a0b1dab1ce5297125f0b0290e84ad7aafb54011da5aa315ddfc511743d",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.411Z"
+  },
+  {
+    "slug": "docs-otros-mod-estatutos-coop-viviendas",
+    "title": "MOD ESTATUTOS COOP VIVIENDAS",
+    "fileName": "MOD_ESTATUTOS_COOP_VIVIENDAS.pdf",
+    "sourcePath": "docs/otros/MOD_ESTATUTOS_COOP_VIVIENDAS.pdf",
+    "type": "otro",
+    "language": "es",
+    "tags": [
+      "estatutos",
+      "otro"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "ad9bb8cea392a761577d6f1dba7de4727bb370a8392a22bda2a3434cc7165965",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.410Z"
+  },
+  {
+    "slug": "docs-otros-modelo-estatutos-viviendas",
+    "title": "MODELO ESTATUTOS VIVIENDAS",
+    "fileName": "MODELO ESTATUTOS  VIVIENDAS.pdf",
+    "sourcePath": "docs/otros/MODELO ESTATUTOS  VIVIENDAS.pdf",
+    "type": "otro",
+    "language": "es",
+    "tags": [
+      "estatutos",
+      "otro"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "0b8ebca7ae20adb76aa1f917f776658b844678df728421efb298fe60d40998d8",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.407Z"
+  },
+  {
+    "slug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+    "title": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+    "fileName": "EJEMPLO_DE_REGLAMENTO_DE_REGIMEN_INTERNO_PARA_VIVIENDAS_COOPERATIVAS_EN_CESION_DE_USO.pdf",
+    "sourcePath": "docs/rri/EJEMPLO_DE_REGLAMENTO_DE_REGIMEN_INTERNO_PARA_VIVIENDAS_COOPERATIVAS_EN_CESION_DE_USO.pdf",
+    "type": "rri",
+    "language": "en",
+    "tags": [
+      "cesion_uso",
+      "cooperativas",
+      "rri"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "d037f1d692ae797778c44eb0c9e95593ccced693978afcbf3d71172577a74de1",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.361Z"
+  },
+  {
+    "slug": "docs-rri-informe-cooperativas-cesion-de-uso",
+    "title": "Informe Cooperativas Cesion De Uso",
+    "fileName": "informe-cooperativas-cesion-de-uso.pdf",
+    "sourcePath": "docs/rri/informe-cooperativas-cesion-de-uso.pdf",
+    "type": "rri",
+    "language": "es",
+    "tags": [
+      "cesion_uso",
+      "cooperativas",
+      "rri"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "42c6cafcf79c1354af712cbab758e2dcd2786153ce938985155219e594ff6f35",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.369Z"
+  },
+  {
+    "slug": "docs-rri-rri-axuntase",
+    "title": "Rri Axuntase",
+    "fileName": "rri_axuntase.pdf",
+    "sourcePath": "docs/rri/rri_axuntase.pdf",
+    "type": "rri",
+    "language": "es",
+    "tags": [
+      "rri"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "a1f0847b290538e1a73a8fd1d902285a52a5c2b7ff50a8435c2d1e45068d0264",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.371Z"
+  },
+  {
+    "slug": "docs-rri-rri-vallecas2homes",
+    "title": "Rri Vallecas2homes",
+    "fileName": "rri_vallecas2homes.pdf",
+    "sourcePath": "docs/rri/rri_vallecas2homes.pdf",
+    "type": "rri",
+    "language": "es",
+    "tags": [
+      "rri"
+    ],
+    "extractionStatus": "not_started",
+    "contentHash": "7c494dbcfc5aac29d89a92880c8d7048d15f5eea0a2d209eab6e3d6972081dd5",
+    "ingestionStatus": "needs_review",
+    "needsReview": true,
+    "lastProcessedAt": "2026-05-13T09:43:49.372Z"
+  }
+]

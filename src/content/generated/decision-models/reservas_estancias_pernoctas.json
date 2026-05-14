@@ -1,6 +1,6 @@
 {
   "topicSlug": "reservas_estancias_pernoctas",
-  "generatedAt": "2026-05-13T22:04:00.786Z",
+  "generatedAt": "2026-05-14T09:02:44.614Z",
   "decisionQuestions": [
     {
       "id": "booking_system",
@@ -54,7 +54,7 @@
             "Las GuíAs De Sostre CíVic",
             "Informe Cooperativas Cesion De Uso"
           ],
-          "evidenceLevel": "medium"
+          "evidenceLevel": "low"
         }
       ],
       "commonTradeoffs": [

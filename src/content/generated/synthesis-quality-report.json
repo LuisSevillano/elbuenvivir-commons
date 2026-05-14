@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T22:04:15.517Z",
+  "generatedAt": "2026-05-14T09:04:03.267Z",
   "inputs": {
     "synthesesDir": "src/content/generated/syntheses (19 archivos)",
     "topicReferences": "src/content/generated/topic-references.json"
@@ -14,8 +14,8 @@
     "weakestTopics": [
       "derechos_y_obligaciones (85)",
       "clases_de_socios (92)",
-      "invitados (92)",
       "mantenimiento (92)",
+      "invitados (93)",
       "conflictos_y_mediacion (95)"
     ]
   },
@@ -57,6 +57,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": null,
       "criteria": {
         "references": {
           "score": 2,
@@ -123,6 +124,14 @@
           "notes": [
             "3 riesgos concretos y 1 tensiones detectadas."
           ]
+        },
+        "evidenceQuality": {
+          "score": 0,
+          "max": 12,
+          "notes": [
+            "No se encontró capa de evidencia."
+          ],
+          "health": null
         }
       },
       "improvementPriorities": [
@@ -183,6 +192,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": null,
       "criteria": {
         "references": {
           "score": 5,
@@ -247,116 +257,14 @@
           "notes": [
             "4 riesgos concretos y 1 tensiones detectadas."
           ]
-        }
-      },
-      "improvementPriorities": [
-        "Mantener como síntesis útil y revisar solo estilo o precisión jurídica."
-      ]
-    },
-    {
-      "slug": "invitados",
-      "score": 92,
-      "grade": "strong",
-      "referencesCount": 6,
-      "documentDiversity": {
-        "documents": 11,
-        "documentTypes": [
-          "estatutos",
-          "guia",
-          "otro",
-          "rri"
-        ]
-      },
-      "usefulLength": {
-        "words": 527,
-        "nonGenericWords": 527
-      },
-      "genericPhrases": {
-        "findings": [],
-        "totalOccurrences": 0,
-        "dominatesContent": false
-      },
-      "substantiveConcepts": [
-        "uso compartido",
-        "espacios comunes",
-        "reserva",
-        "convivencia",
-        "estatutos",
-        "rri",
-        "invitados",
-        "pernocta",
-        "procedimiento",
-        "criterio",
-        "derecho"
-      ],
-      "answersHowOthersManageIt": true,
-      "hasUsefulBuenVivirRecommendations": true,
-      "differentiatesStatutesAndRRI": true,
-      "hasConcreteRisks": true,
-      "criteria": {
-        "references": {
-          "score": 5,
-          "max": 10,
-          "notes": [
-            "6 referencias detectadas."
-          ]
         },
-        "documentDiversity": {
-          "score": 12,
+        "evidenceQuality": {
+          "score": 0,
           "max": 12,
           "notes": [
-            "11 documentos únicos y 4 tipos documentales."
-          ]
-        },
-        "usefulLength": {
-          "score": 12,
-          "max": 12,
-          "notes": [
-            "527 palabras totales; 527 palabras no asociadas a frases pobres detectadas."
-          ]
-        },
-        "genericPhrases": {
-          "score": 10,
-          "max": 10,
-          "notes": [
-            "No se detectan frases pobres configuradas."
-          ]
-        },
-        "substantiveConcepts": {
-          "score": 12,
-          "max": 12,
-          "notes": [
-            "Conceptos detectados: uso compartido, espacios comunes, reserva, convivencia, estatutos, rri, invitados, pernocta, procedimiento, criterio."
-          ]
-        },
-        "comparativeAnswer": {
-          "score": 12,
-          "max": 12,
-          "notes": [
-            "6 proyectos destacados.",
-            "2 patrones y 1 diferencias."
-          ]
-        },
-        "buenVivirRecommendations": {
-          "score": 10,
-          "max": 10,
-          "notes": [
-            "10 recomendaciones accionables detectadas."
-          ]
-        },
-        "statutesVsRRI": {
-          "score": 12,
-          "max": 12,
-          "notes": [
-            "2 elementos para Estatutos, 2 para RRI y 1 enfoques mixtos."
-          ]
-        },
-        "concreteRisks": {
-          "score": 7,
-          "max": 10,
-          "notes": [
-            "2 riesgos concretos y 1 tensiones detectadas."
-          ]
+            "No se encontró capa de evidencia."
+          ],
+          "health": null
         }
       },
       "improvementPriorities": [
@@ -407,6 +315,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": null,
       "criteria": {
         "references": {
           "score": 5,
@@ -471,10 +380,140 @@
           "notes": [
             "2 riesgos concretos y 1 tensiones detectadas."
           ]
+        },
+        "evidenceQuality": {
+          "score": 0,
+          "max": 12,
+          "notes": [
+            "No se encontró capa de evidencia."
+          ],
+          "health": null
         }
       },
       "improvementPriorities": [
         "Mantener como síntesis útil y revisar solo estilo o precisión jurídica."
+      ]
+    },
+    {
+      "slug": "invitados",
+      "score": 93,
+      "grade": "strong",
+      "referencesCount": 6,
+      "documentDiversity": {
+        "documents": 11,
+        "documentTypes": [
+          "estatutos",
+          "guia",
+          "otro",
+          "rri"
+        ]
+      },
+      "usefulLength": {
+        "words": 527,
+        "nonGenericWords": 527
+      },
+      "genericPhrases": {
+        "findings": [],
+        "totalOccurrences": 0,
+        "dominatesContent": false
+      },
+      "substantiveConcepts": [
+        "uso compartido",
+        "espacios comunes",
+        "reserva",
+        "convivencia",
+        "estatutos",
+        "rri",
+        "invitados",
+        "pernocta",
+        "procedimiento",
+        "criterio",
+        "derecho"
+      ],
+      "answersHowOthersManageIt": true,
+      "hasUsefulBuenVivirRecommendations": true,
+      "differentiatesStatutesAndRRI": true,
+      "hasConcreteRisks": true,
+      "evidenceHealth": "weak",
+      "criteria": {
+        "references": {
+          "score": 5,
+          "max": 10,
+          "notes": [
+            "6 referencias detectadas."
+          ]
+        },
+        "documentDiversity": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "11 documentos únicos y 4 tipos documentales."
+          ]
+        },
+        "usefulLength": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "527 palabras totales; 527 palabras no asociadas a frases pobres detectadas."
+          ]
+        },
+        "genericPhrases": {
+          "score": 10,
+          "max": 10,
+          "notes": [
+            "No se detectan frases pobres configuradas."
+          ]
+        },
+        "substantiveConcepts": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "Conceptos detectados: uso compartido, espacios comunes, reserva, convivencia, estatutos, rri, invitados, pernocta, procedimiento, criterio."
+          ]
+        },
+        "comparativeAnswer": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "6 proyectos destacados.",
+            "2 patrones y 1 diferencias."
+          ]
+        },
+        "buenVivirRecommendations": {
+          "score": 10,
+          "max": 10,
+          "notes": [
+            "10 recomendaciones accionables detectadas."
+          ]
+        },
+        "statutesVsRRI": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "2 elementos para Estatutos, 2 para RRI y 1 enfoques mixtos."
+          ]
+        },
+        "concreteRisks": {
+          "score": 7,
+          "max": 10,
+          "notes": [
+            "2 riesgos concretos y 1 tensiones detectadas."
+          ]
+        },
+        "evidenceQuality": {
+          "score": 1,
+          "max": 12,
+          "notes": [
+            "Salud de evidencia: weak",
+            "Filtrados no sustantivos: 10/15",
+            "Alta proporción de snippets no sustantivos.",
+            "Muy baja proporción de evidencia explícita."
+          ],
+          "health": "weak"
+        }
+      },
+      "improvementPriorities": [
+        "La evidencia documental es limitada; revisar antes de usar como base de acuerdos."
       ]
     },
     {
@@ -521,6 +560,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": null,
       "criteria": {
         "references": {
           "score": 8,
@@ -585,6 +625,14 @@
           "notes": [
             "2 riesgos concretos y 1 tensiones detectadas."
           ]
+        },
+        "evidenceQuality": {
+          "score": 0,
+          "max": 12,
+          "notes": [
+            "No se encontró capa de evidencia."
+          ],
+          "health": null
         }
       },
       "improvementPriorities": [
@@ -635,6 +683,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": null,
       "criteria": {
         "references": {
           "score": 8,
@@ -699,6 +748,14 @@
           "notes": [
             "3 riesgos concretos y 1 tensiones detectadas."
           ]
+        },
+        "evidenceQuality": {
+          "score": 0,
+          "max": 12,
+          "notes": [
+            "No se encontró capa de evidencia."
+          ],
+          "health": null
         }
       },
       "improvementPriorities": [
@@ -744,6 +801,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": null,
       "criteria": {
         "references": {
           "score": 8,
@@ -808,6 +866,14 @@
           "notes": [
             "3 riesgos concretos y 2 tensiones detectadas."
           ]
+        },
+        "evidenceQuality": {
+          "score": 0,
+          "max": 12,
+          "notes": [
+            "No se encontró capa de evidencia."
+          ],
+          "health": null
         }
       },
       "improvementPriorities": [
@@ -852,6 +918,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": null,
       "criteria": {
         "references": {
           "score": 8,
@@ -916,6 +983,14 @@
           "notes": [
             "4 riesgos concretos y 3 tensiones detectadas."
           ]
+        },
+        "evidenceQuality": {
+          "score": 0,
+          "max": 12,
+          "notes": [
+            "No se encontró capa de evidencia."
+          ],
+          "health": null
         }
       },
       "improvementPriorities": [
@@ -975,6 +1050,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": null,
       "criteria": {
         "references": {
           "score": 8,
@@ -1039,6 +1115,14 @@
           "notes": [
             "4 riesgos concretos y 1 tensiones detectadas."
           ]
+        },
+        "evidenceQuality": {
+          "score": 0,
+          "max": 12,
+          "notes": [
+            "No se encontró capa de evidencia."
+          ],
+          "health": null
         }
       },
       "improvementPriorities": [
@@ -1092,6 +1176,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": null,
       "criteria": {
         "references": {
           "score": 8,
@@ -1156,123 +1241,14 @@
           "notes": [
             "5 riesgos concretos y 2 tensiones detectadas."
           ]
-        }
-      },
-      "improvementPriorities": [
-        "Mantener como síntesis útil y revisar solo estilo o precisión jurídica."
-      ]
-    },
-    {
-      "slug": "baja_socio",
-      "score": 98,
-      "grade": "strong",
-      "referencesCount": 18,
-      "documentDiversity": {
-        "documents": 12,
-        "documentTypes": [
-          "estatutos",
-          "ley",
-          "otro"
-        ]
-      },
-      "usefulLength": {
-        "words": 853,
-        "nonGenericWords": 853
-      },
-      "genericPhrases": {
-        "findings": [],
-        "totalOccurrences": 0,
-        "dominatesContent": false
-      },
-      "substantiveConcepts": [
-        "baja",
-        "aportación",
-        "aportacion",
-        "reembolso",
-        "cuota",
-        "capital social",
-        "convivencia",
-        "estatutos",
-        "rri",
-        "lista de espera",
-        "liquidez",
-        "procedimiento",
-        "plazo",
-        "criterio",
-        "obligación",
-        "obligacion",
-        "derecho",
-        "financiación",
-        "financiacion"
-      ],
-      "answersHowOthersManageIt": true,
-      "hasUsefulBuenVivirRecommendations": true,
-      "differentiatesStatutesAndRRI": true,
-      "hasConcreteRisks": true,
-      "criteria": {
-        "references": {
-          "score": 8,
-          "max": 10,
-          "notes": [
-            "18 referencias detectadas."
-          ]
         },
-        "documentDiversity": {
-          "score": 12,
+        "evidenceQuality": {
+          "score": 0,
           "max": 12,
           "notes": [
-            "12 documentos únicos y 3 tipos documentales."
-          ]
-        },
-        "usefulLength": {
-          "score": 12,
-          "max": 12,
-          "notes": [
-            "853 palabras totales; 853 palabras no asociadas a frases pobres detectadas."
-          ]
-        },
-        "genericPhrases": {
-          "score": 10,
-          "max": 10,
-          "notes": [
-            "No se detectan frases pobres configuradas."
-          ]
-        },
-        "substantiveConcepts": {
-          "score": 12,
-          "max": 12,
-          "notes": [
-            "Conceptos detectados: baja, aportación, aportacion, reembolso, cuota, capital social, convivencia, estatutos, rri, lista de espera."
-          ]
-        },
-        "comparativeAnswer": {
-          "score": 12,
-          "max": 12,
-          "notes": [
-            "6 proyectos destacados.",
-            "6 patrones y 3 diferencias."
-          ]
-        },
-        "buenVivirRecommendations": {
-          "score": 10,
-          "max": 10,
-          "notes": [
-            "14 recomendaciones accionables detectadas."
-          ]
-        },
-        "statutesVsRRI": {
-          "score": 12,
-          "max": 12,
-          "notes": [
-            "6 elementos para Estatutos, 6 para RRI y 1 enfoques mixtos."
-          ]
-        },
-        "concreteRisks": {
-          "score": 10,
-          "max": 10,
-          "notes": [
-            "5 riesgos concretos y 3 tensiones detectadas."
-          ]
+            "No se encontró capa de evidencia."
+          ],
+          "health": null
         }
       },
       "improvementPriorities": [
@@ -1324,6 +1300,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": null,
       "criteria": {
         "references": {
           "score": 10,
@@ -1388,6 +1365,14 @@
           "notes": [
             "3 riesgos concretos y 3 tensiones detectadas."
           ]
+        },
+        "evidenceQuality": {
+          "score": 0,
+          "max": 12,
+          "notes": [
+            "No se encontró capa de evidencia."
+          ],
+          "health": null
         }
       },
       "improvementPriorities": [
@@ -1443,6 +1428,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": null,
       "criteria": {
         "references": {
           "score": 8,
@@ -1507,6 +1493,14 @@
           "notes": [
             "5 riesgos concretos y 5 tensiones detectadas."
           ]
+        },
+        "evidenceQuality": {
+          "score": 0,
+          "max": 12,
+          "notes": [
+            "No se encontró capa de evidencia."
+          ],
+          "health": null
         }
       },
       "improvementPriorities": [
@@ -1560,6 +1554,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": null,
       "criteria": {
         "references": {
           "score": 10,
@@ -1624,6 +1619,14 @@
           "notes": [
             "6 riesgos concretos y 4 tensiones detectadas."
           ]
+        },
+        "evidenceQuality": {
+          "score": 0,
+          "max": 12,
+          "notes": [
+            "No se encontró capa de evidencia."
+          ],
+          "health": null
         }
       },
       "improvementPriorities": [
@@ -1676,6 +1679,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": null,
       "criteria": {
         "references": {
           "score": 8,
@@ -1740,6 +1744,14 @@
           "notes": [
             "4 riesgos concretos y 2 tensiones detectadas."
           ]
+        },
+        "evidenceQuality": {
+          "score": 0,
+          "max": 12,
+          "notes": [
+            "No se encontró capa de evidencia."
+          ],
+          "health": null
         }
       },
       "improvementPriorities": [
@@ -1747,23 +1759,21 @@
       ]
     },
     {
-      "slug": "toma_decisiones",
-      "score": 98,
+      "slug": "baja_socio",
+      "score": 100,
       "grade": "strong",
       "referencesCount": 18,
       "documentDiversity": {
-        "documents": 20,
+        "documents": 12,
         "documentTypes": [
           "estatutos",
-          "guia",
           "ley",
-          "otro",
-          "rri"
+          "otro"
         ]
       },
       "usefulLength": {
-        "words": 647,
-        "nonGenericWords": 647
+        "words": 853,
+        "nonGenericWords": 853
       },
       "genericPhrases": {
         "findings": [],
@@ -1771,140 +1781,31 @@
         "dominatesContent": false
       },
       "substantiveConcepts": [
-        "asamblea",
-        "consejo rector",
-        "mayoría",
-        "mayoria",
-        "quórum",
-        "quorum",
-        "estatutos",
-        "rri",
-        "reglamento",
-        "procedimiento",
-        "criterio",
-        "derecho"
-      ],
-      "answersHowOthersManageIt": true,
-      "hasUsefulBuenVivirRecommendations": true,
-      "differentiatesStatutesAndRRI": true,
-      "hasConcreteRisks": true,
-      "criteria": {
-        "references": {
-          "score": 8,
-          "max": 10,
-          "notes": [
-            "18 referencias detectadas."
-          ]
-        },
-        "documentDiversity": {
-          "score": 12,
-          "max": 12,
-          "notes": [
-            "20 documentos únicos y 5 tipos documentales."
-          ]
-        },
-        "usefulLength": {
-          "score": 12,
-          "max": 12,
-          "notes": [
-            "647 palabras totales; 647 palabras no asociadas a frases pobres detectadas."
-          ]
-        },
-        "genericPhrases": {
-          "score": 10,
-          "max": 10,
-          "notes": [
-            "No se detectan frases pobres configuradas."
-          ]
-        },
-        "substantiveConcepts": {
-          "score": 12,
-          "max": 12,
-          "notes": [
-            "Conceptos detectados: asamblea, consejo rector, mayoría, mayoria, quórum, quorum, estatutos, rri, reglamento, procedimiento."
-          ]
-        },
-        "comparativeAnswer": {
-          "score": 12,
-          "max": 12,
-          "notes": [
-            "6 proyectos destacados.",
-            "4 patrones y 1 diferencias."
-          ]
-        },
-        "buenVivirRecommendations": {
-          "score": 10,
-          "max": 10,
-          "notes": [
-            "13 recomendaciones accionables detectadas."
-          ]
-        },
-        "statutesVsRRI": {
-          "score": 12,
-          "max": 12,
-          "notes": [
-            "4 elementos para Estatutos, 4 para RRI y 1 enfoques mixtos."
-          ]
-        },
-        "concreteRisks": {
-          "score": 10,
-          "max": 10,
-          "notes": [
-            "4 riesgos concretos y 3 tensiones detectadas."
-          ]
-        }
-      },
-      "improvementPriorities": [
-        "Mantener como síntesis útil y revisar solo estilo o precisión jurídica."
-      ]
-    },
-    {
-      "slug": "uso_espacios_comunes",
-      "score": 98,
-      "grade": "strong",
-      "referencesCount": 18,
-      "documentDiversity": {
-        "documents": 14,
-        "documentTypes": [
-          "estatutos",
-          "guia",
-          "ley",
-          "rri"
-        ]
-      },
-      "usefulLength": {
-        "words": 704,
-        "nonGenericWords": 704
-      },
-      "genericPhrases": {
-        "findings": [],
-        "totalOccurrences": 0,
-        "dominatesContent": false
-      },
-      "substantiveConcepts": [
-        "uso compartido",
-        "espacios comunes",
-        "reserva",
-        "mantenimiento",
+        "baja",
+        "aportación",
+        "aportacion",
+        "reembolso",
+        "cuota",
+        "capital social",
         "convivencia",
-        "mediación",
-        "mediacion",
         "estatutos",
         "rri",
-        "régimen disciplinario",
-        "regimen disciplinario",
-        "invitados",
-        "cuidados",
+        "lista de espera",
+        "liquidez",
         "procedimiento",
+        "plazo",
         "criterio",
         "obligación",
         "obligacion",
-        "derecho"
+        "derecho",
+        "financiación",
+        "financiacion"
       ],
       "answersHowOthersManageIt": true,
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": "strong",
       "criteria": {
         "references": {
           "score": 8,
@@ -1917,14 +1818,14 @@
           "score": 12,
           "max": 12,
           "notes": [
-            "14 documentos únicos y 4 tipos documentales."
+            "12 documentos únicos y 3 tipos documentales."
           ]
         },
         "usefulLength": {
           "score": 12,
           "max": 12,
           "notes": [
-            "704 palabras totales; 704 palabras no asociadas a frases pobres detectadas."
+            "853 palabras totales; 853 palabras no asociadas a frases pobres detectadas."
           ]
         },
         "genericPhrases": {
@@ -1938,7 +1839,7 @@
           "score": 12,
           "max": 12,
           "notes": [
-            "Conceptos detectados: uso compartido, espacios comunes, reserva, mantenimiento, convivencia, mediación, mediacion, estatutos, rri, régimen disciplinario."
+            "Conceptos detectados: baja, aportación, aportacion, reembolso, cuota, capital social, convivencia, estatutos, rri, lista de espera."
           ]
         },
         "comparativeAnswer": {
@@ -1946,29 +1847,39 @@
           "max": 12,
           "notes": [
             "6 proyectos destacados.",
-            "4 patrones y 1 diferencias."
+            "6 patrones y 3 diferencias."
           ]
         },
         "buenVivirRecommendations": {
           "score": 10,
           "max": 10,
           "notes": [
-            "13 recomendaciones accionables detectadas."
+            "14 recomendaciones accionables detectadas."
           ]
         },
         "statutesVsRRI": {
           "score": 12,
           "max": 12,
           "notes": [
-            "4 elementos para Estatutos, 4 para RRI y 1 enfoques mixtos."
+            "6 elementos para Estatutos, 6 para RRI y 1 enfoques mixtos."
           ]
         },
         "concreteRisks": {
           "score": 10,
           "max": 10,
           "notes": [
-            "4 riesgos concretos y 2 tensiones detectadas."
+            "5 riesgos concretos y 3 tensiones detectadas."
           ]
+        },
+        "evidenceQuality": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "Salud de evidencia: strong",
+            "Filtrados no sustantivos: 0/15",
+            "Evidencia sólida y bien filtrada."
+          ],
+          "health": "strong"
         }
       },
       "improvementPriorities": [
@@ -2024,6 +1935,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": "strong",
       "criteria": {
         "references": {
           "score": 10,
@@ -2088,6 +2000,16 @@
           "notes": [
             "6 riesgos concretos y 5 tensiones detectadas."
           ]
+        },
+        "evidenceQuality": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "Salud de evidencia: strong",
+            "Filtrados no sustantivos: 0/15",
+            "Evidencia sólida y bien filtrada."
+          ],
+          "health": "strong"
         }
       },
       "improvementPriorities": [
@@ -2138,6 +2060,7 @@
       "hasUsefulBuenVivirRecommendations": true,
       "differentiatesStatutesAndRRI": true,
       "hasConcreteRisks": true,
+      "evidenceHealth": "insufficient",
       "criteria": {
         "references": {
           "score": 10,
@@ -2202,6 +2125,265 @@
           "notes": [
             "6 riesgos concretos y 4 tensiones detectadas."
           ]
+        },
+        "evidenceQuality": {
+          "score": 0,
+          "max": 12,
+          "notes": [
+            "Salud de evidencia: insufficient",
+            "Filtrados no sustantivos: 12/12",
+            "Alta proporción de snippets no sustantivos."
+          ],
+          "health": "insufficient"
+        }
+      },
+      "improvementPriorities": [
+        "La evidencia documental es limitada; revisar antes de usar como base de acuerdos."
+      ]
+    },
+    {
+      "slug": "toma_decisiones",
+      "score": 100,
+      "grade": "strong",
+      "referencesCount": 18,
+      "documentDiversity": {
+        "documents": 20,
+        "documentTypes": [
+          "estatutos",
+          "guia",
+          "ley",
+          "otro",
+          "rri"
+        ]
+      },
+      "usefulLength": {
+        "words": 647,
+        "nonGenericWords": 647
+      },
+      "genericPhrases": {
+        "findings": [],
+        "totalOccurrences": 0,
+        "dominatesContent": false
+      },
+      "substantiveConcepts": [
+        "asamblea",
+        "consejo rector",
+        "mayoría",
+        "mayoria",
+        "quórum",
+        "quorum",
+        "estatutos",
+        "rri",
+        "reglamento",
+        "procedimiento",
+        "criterio",
+        "derecho"
+      ],
+      "answersHowOthersManageIt": true,
+      "hasUsefulBuenVivirRecommendations": true,
+      "differentiatesStatutesAndRRI": true,
+      "hasConcreteRisks": true,
+      "evidenceHealth": "weak",
+      "criteria": {
+        "references": {
+          "score": 8,
+          "max": 10,
+          "notes": [
+            "18 referencias detectadas."
+          ]
+        },
+        "documentDiversity": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "20 documentos únicos y 5 tipos documentales."
+          ]
+        },
+        "usefulLength": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "647 palabras totales; 647 palabras no asociadas a frases pobres detectadas."
+          ]
+        },
+        "genericPhrases": {
+          "score": 10,
+          "max": 10,
+          "notes": [
+            "No se detectan frases pobres configuradas."
+          ]
+        },
+        "substantiveConcepts": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "Conceptos detectados: asamblea, consejo rector, mayoría, mayoria, quórum, quorum, estatutos, rri, reglamento, procedimiento."
+          ]
+        },
+        "comparativeAnswer": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "6 proyectos destacados.",
+            "4 patrones y 1 diferencias."
+          ]
+        },
+        "buenVivirRecommendations": {
+          "score": 10,
+          "max": 10,
+          "notes": [
+            "13 recomendaciones accionables detectadas."
+          ]
+        },
+        "statutesVsRRI": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "4 elementos para Estatutos, 4 para RRI y 1 enfoques mixtos."
+          ]
+        },
+        "concreteRisks": {
+          "score": 10,
+          "max": 10,
+          "notes": [
+            "4 riesgos concretos y 3 tensiones detectadas."
+          ]
+        },
+        "evidenceQuality": {
+          "score": 5,
+          "max": 12,
+          "notes": [
+            "Salud de evidencia: weak",
+            "Filtrados no sustantivos: 6/12"
+          ],
+          "health": "weak"
+        }
+      },
+      "improvementPriorities": [
+        "La evidencia documental es limitada; revisar antes de usar como base de acuerdos."
+      ]
+    },
+    {
+      "slug": "uso_espacios_comunes",
+      "score": 100,
+      "grade": "strong",
+      "referencesCount": 18,
+      "documentDiversity": {
+        "documents": 14,
+        "documentTypes": [
+          "estatutos",
+          "guia",
+          "ley",
+          "rri"
+        ]
+      },
+      "usefulLength": {
+        "words": 704,
+        "nonGenericWords": 704
+      },
+      "genericPhrases": {
+        "findings": [],
+        "totalOccurrences": 0,
+        "dominatesContent": false
+      },
+      "substantiveConcepts": [
+        "uso compartido",
+        "espacios comunes",
+        "reserva",
+        "mantenimiento",
+        "convivencia",
+        "mediación",
+        "mediacion",
+        "estatutos",
+        "rri",
+        "régimen disciplinario",
+        "regimen disciplinario",
+        "invitados",
+        "cuidados",
+        "procedimiento",
+        "criterio",
+        "obligación",
+        "obligacion",
+        "derecho"
+      ],
+      "answersHowOthersManageIt": true,
+      "hasUsefulBuenVivirRecommendations": true,
+      "differentiatesStatutesAndRRI": true,
+      "hasConcreteRisks": true,
+      "evidenceHealth": "moderate",
+      "criteria": {
+        "references": {
+          "score": 8,
+          "max": 10,
+          "notes": [
+            "18 referencias detectadas."
+          ]
+        },
+        "documentDiversity": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "14 documentos únicos y 4 tipos documentales."
+          ]
+        },
+        "usefulLength": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "704 palabras totales; 704 palabras no asociadas a frases pobres detectadas."
+          ]
+        },
+        "genericPhrases": {
+          "score": 10,
+          "max": 10,
+          "notes": [
+            "No se detectan frases pobres configuradas."
+          ]
+        },
+        "substantiveConcepts": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "Conceptos detectados: uso compartido, espacios comunes, reserva, mantenimiento, convivencia, mediación, mediacion, estatutos, rri, régimen disciplinario."
+          ]
+        },
+        "comparativeAnswer": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "6 proyectos destacados.",
+            "4 patrones y 1 diferencias."
+          ]
+        },
+        "buenVivirRecommendations": {
+          "score": 10,
+          "max": 10,
+          "notes": [
+            "13 recomendaciones accionables detectadas."
+          ]
+        },
+        "statutesVsRRI": {
+          "score": 12,
+          "max": 12,
+          "notes": [
+            "4 elementos para Estatutos, 4 para RRI y 1 enfoques mixtos."
+          ]
+        },
+        "concreteRisks": {
+          "score": 10,
+          "max": 10,
+          "notes": [
+            "4 riesgos concretos y 2 tensiones detectadas."
+          ]
+        },
+        "evidenceQuality": {
+          "score": 8,
+          "max": 12,
+          "notes": [
+            "Salud de evidencia: moderate",
+            "Filtrados no sustantivos: 5/15"
+          ],
+          "health": "moderate"
         }
       },
       "improvementPriorities": [

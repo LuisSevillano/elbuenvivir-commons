@@ -1,6 +1,6 @@
 {
   "topicSlug": "invitados",
-  "generatedAt": "2026-05-13T22:03:55.618Z",
+  "generatedAt": "2026-05-14T09:02:34.477Z",
   "decisionQuestions": [
     {
       "id": "guests_allowed",
@@ -34,7 +34,7 @@
             "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
             "Otras Leyes, Decretos, Modificaciones"
           ],
-          "evidenceLevel": "high"
+          "evidenceLevel": "medium"
         }
       ],
       "commonTradeoffs": [
@@ -98,7 +98,7 @@
             "Estatutos Elciempies",
             "Estatutos Los Girasoles"
           ],
-          "evidenceLevel": "high"
+          "evidenceLevel": "medium"
         },
         {
           "name": "Prioridad absoluta para personas socias",

@@ -1,0 +1,377 @@
+{
+  "topicSlug": "uso_espacios_comunes",
+  "generatedAt": "2026-05-14T09:01:46.889Z",
+  "claims": [
+    {
+      "id": "uso_espacios_comunes-common_space_rules",
+      "statement": "Los espacios comunes tienen reglas de uso definidas",
+      "evidenceType": "explicit",
+      "confidence": "high",
+      "supportingReferences": [
+        "docs-estatutos-estatutos-la-borda",
+        "docs-guias-las-guias-de-sostre-civic",
+        "docs-rri-informe-cooperativas-cesion-de-uso",
+        "docs-guias-las-guias-de-sostre-civic",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-los-girasoles",
+        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "docs-estatutos-estatutos-entrepatios"
+      ],
+      "explanation": "Se ha detectado explícitamente en 11 proyecto(s) con 16 referencia(s) directa(s)."
+    },
+    {
+      "id": "uso_espacios_comunes-care_responsibility",
+      "statement": "El cuidado, limpieza y mantenimiento tienen responsables asignados",
+      "evidenceType": "explicit",
+      "confidence": "high",
+      "supportingReferences": [
+        "docs-estatutos-estatutos-la-borda",
+        "docs-guias-las-guias-de-sostre-civic",
+        "docs-rri-informe-cooperativas-cesion-de-uso",
+        "docs-guias-las-guias-de-sostre-civic",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-los-girasoles",
+        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "docs-estatutos-estatutos-elciempies"
+      ],
+      "explanation": "Se ha detectado explícitamente en 9 proyecto(s) con 14 referencia(s) directa(s)."
+    },
+    {
+      "id": "uso_espacios_comunes-space_booking",
+      "statement": "Algunos espacios requieren reserva previa",
+      "evidenceType": "inferred",
+      "confidence": "medium",
+      "supportingReferences": [
+        "docs-estatutos-estatutos-la-borda",
+        "docs-guias-las-guias-de-sostre-civic",
+        "docs-rri-informe-cooperativas-cesion-de-uso",
+        "docs-estatutos-estatutos-entrepatios",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-los-girasoles",
+        "docs-guias-las-guias-de-sostre-civic",
+        "docs-estatutos-estatutos-la-borda"
+      ],
+      "explanation": "Parece inferirse en 9 proyecto(s), aunque sin mención explícita y directa."
+    },
+    {
+      "id": "uso_espacios_comunes-damage_liability",
+      "statement": "Los daños en espacios comunes tienen un régimen de responsabilidad",
+      "evidenceType": "explicit",
+      "confidence": "high",
+      "supportingReferences": [
+        "docs-estatutos-estatutos-la-borda",
+        "docs-guias-las-guias-de-sostre-civic",
+        "docs-rri-informe-cooperativas-cesion-de-uso",
+        "docs-guias-las-guias-de-sostre-civic",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-los-girasoles",
+        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007"
+      ],
+      "explanation": "Se ha detectado explícitamente en 10 proyecto(s) con 15 referencia(s) directa(s)."
+    },
+    {
+      "id": "uso_espacios_comunes-quiet_enjoyment",
+      "statement": "Se garantiza el derecho al uso pacífico de los espacios comunes",
+      "evidenceType": "explicit",
+      "confidence": "high",
+      "supportingReferences": [
+        "docs-estatutos-estatutos-la-borda",
+        "docs-guias-las-guias-de-sostre-civic",
+        "docs-rri-informe-cooperativas-cesion-de-uso",
+        "docs-guias-las-guias-de-sostre-civic",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-los-girasoles",
+        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "docs-estatutos-estatutos-elciempies"
+      ],
+      "explanation": "Se ha detectado explícitamente en 9 proyecto(s) con 14 referencia(s) directa(s)."
+    }
+  ],
+  "conflictingApproaches": [],
+  "evidenceSummary": {
+    "totalClaims": 5,
+    "explicitCount": 4,
+    "inferredCount": 1,
+    "recommendationCount": 0,
+    "weakEvidenceCount": 0,
+    "conflictingCount": 0,
+    "highConfidenceCount": 4,
+    "mediumConfidenceCount": 1,
+    "lowConfidenceCount": 0
+  },
+  "extracts": [
+    {
+      "id": "uso_espacios_comunes-common_space_rules-docs-estatutos-estatutos-la-borda-10",
+      "claimId": "uso_espacios_comunes-common_space_rules",
+      "documentSlug": "docs-estatutos-estatutos-la-borda",
+      "documentTitle": "Estatutos La Borda",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_la_borda.pdf",
+      "articleOrSection": "Artículo 7. Obligaciones de las socias y socios",
+      "snippet": "...o socio, con dos meses de antelación, salvo en el caso de las socias destinatarias de un derecho de uso , que lo deberán notificar con seis meses de antelación. h) No utilizar la condición de socia o socio para desarrollar actividades especulativas, contrarias a las leyes o al objeto social de la Cooperativa. e) Comportarse con la debida consideración en sus relaciones con las otras socias y socios. j) Respetar aquellos otros deberes que resulten de las normas legales y estatutarias, así como de los acuerdos válidamente adoptados por los órganos de la Cooperativa. k) Participar en las actividades de formación e intercooperación. l) Guardar secreto sobre los asuntos y los datos de la Cooperativa, cuya divulgación pueda perjudicar los intereses sociales. m) Cumplir los demás deberes que resu...",
+      "score": 38,
+      "relevanceFactors": {
+        "explicit": true,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": true,
+        "conceptProximity": true
+      }
+    },
+    {
+      "id": "uso_espacios_comunes-common_space_rules-docs-guias-las-guias-de-sostre-civic-11",
+      "claimId": "uso_espacios_comunes-common_space_rules",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "Título original: La construcció i la cura dels grups",
+      "snippet": "...ercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 211 of 377 -- -- 212 of 377 -- Cuidados en la convivencia de personas mayores CONSTRUIMOS VIVIENDA COOPERATIVA 6 -- 213 of 377 -- 3 05 / PRESENTACIÓN DE GUÍA 07 / 1. INTRODUCCIÓN: EL TRABAJO DE CUIDADOS EN UNA COVIVIENDA SÉNIOR 08 / 1.1 La covivienda sénior, el problema y la importancia de los cuidados 13 / 1.2 La experiencia de Can 70 en el trabajo sobre los cuidados 15 / 1.3 La metodología de Can 70 en el trabajo sobre los cuidados 17 / 2. CONSTRUYENDO UNA COMUNIDAD DE APOYO MUTUO 18 / 2.1 Can 70 como comunidad de apoyo y ayuda mutua 20 / 2.2 El proceso de defi...",
+      "score": 3,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "uso_espacios_comunes-common_space_rules-docs-rri-informe-cooperativas-cesion-de-uso-1",
+      "claimId": "uso_espacios_comunes-common_space_rules",
+      "documentSlug": "docs-rri-informe-cooperativas-cesion-de-uso",
+      "documentTitle": "Informe Cooperativas Cesion De Uso",
+      "documentType": "rri",
+      "sourcePath": "docs/rri/informe-cooperativas-cesion-de-uso.pdf",
+      "articleOrSection": "Documento completo",
+      "snippet": "...ios, sometida a los bancos, a los fondos-buitre y al valor de cambio (su precio) frente al valor de uso. El cooperativismo ha sido y es la alternativa en sus múltiples variantes, pero no ha logrado tener protagonismo porque sus experiencias son muy locales, porque ha derivado en diferentes fórmulas y porque la legislación es compleja y las trabas casi infinitas. Cesión de suelo público, participación de entidades de la economía social y algunas ayudas serían suficientes para que las iniciativas de propiedad colectiva crecieran exponencialmente. Pero siguen siendo pocas las que han conseguido hacer frente a esa especie de tótem construido en torno a la vivienda creada por y para el mercado. Ha llegado la hora de que la vivienda en su concepto convencional se someta a un cambio de paradigma...",
+      "score": 38,
+      "relevanceFactors": {
+        "explicit": true,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": true,
+        "conceptProximity": true
+      }
+    },
+    {
+      "id": "uso_espacios_comunes-care_responsibility-docs-estatutos-estatutos-la-borda-10",
+      "claimId": "uso_espacios_comunes-care_responsibility",
+      "documentSlug": "docs-estatutos-estatutos-la-borda",
+      "documentTitle": "Estatutos La Borda",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_la_borda.pdf",
+      "articleOrSection": "Artículo 7. Obligaciones de las socias y socios",
+      "snippet": "...ad de conformar una UEC. - La persona socia destinataria del derecho de uso notificará las obras de mantenimiento y conservación que tengan la voluntad de realizar en el interior de las viviendas. g) No imponer limitaciones temporales en la transmisión del derecho de uso ni transformar el régimen de tenencia de la cesión de uso de la vivienda cooperativa de duración indefinida en el régimen de tenencia de propiedad o similar, incluyendo el alquiler con opción de compra. La titularidad del derecho de uso sólo se extinguirá en caso de baja de la persona socia como socia o socio destinatario del derecho de uso o por procedimiento de expulsión. -- 6 of 32 -- h) Utilizar de forma adecuada los sistemas de energía, agua, residuos, movilidad y eficiencia energética de la vivienda de uso común, de...",
+      "score": 11,
+      "relevanceFactors": {
+        "explicit": true,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": true
+      }
+    },
+    {
+      "id": "uso_espacios_comunes-care_responsibility-docs-guias-las-guias-de-sostre-civic-11",
+      "claimId": "uso_espacios_comunes-care_responsibility",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "Título original: La construcció i la cura dels grups",
+      "snippet": "...mpulsado por y financiado por la Unión Europea - NextGenerationEU -- 211 of 377 -- -- 212 of 377 -- Cuidados en la convivencia de personas mayores CONSTRUIMOS VIVIENDA COOPERATIVA 6 -- 213 of 377 -- 3 05 / PRESENTACIÓN DE GUÍA 07 / 1. INTRODUCCIÓN: EL TRABAJO DE CUIDADOS EN UNA COVIVIENDA SÉNIOR 08 / 1.1 La covivienda sénior, el problema y la importancia de los cuidados 13 / 1.2 La experiencia de Can 70 en el trabajo sobre los cuidados 15 / 1.3 La metodología de Can 70 en el trabajo sobre los cuidados 17 / 2. CONSTRUYENDO UNA COMUNIDAD DE APOYO MUTUO 18 / 2.1 Can 70 como comunidad de apoyo y ayuda mutua 20 / 2.2 El proceso de definir qué es ayuda mutua para Can 70 25 / 2.3. Mecanismos y formas de apoyo y ayuda mutua en el proyecto de Can 70 31 / 3. PREVIENDO LA CONTINUIDAD DE LOS CUIDADOS...",
+      "score": 3,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "uso_espacios_comunes-care_responsibility-docs-rri-informe-cooperativas-cesion-de-uso-1",
+      "claimId": "uso_espacios_comunes-care_responsibility",
+      "documentSlug": "docs-rri-informe-cooperativas-cesion-de-uso",
+      "documentTitle": "Informe Cooperativas Cesion De Uso",
+      "documentType": "rri",
+      "sourcePath": "docs/rri/informe-cooperativas-cesion-de-uso.pdf",
+      "articleOrSection": "Documento completo",
+      "snippet": "...rango muy alto de autopromoción, autogestión, y codiseño, hasta otro más bajo donde las actividades comunes están externalizadas pero los usuarios sí participan en la gobernanza y toma de decisiones”. El tema conceptual es aquí muy importante, porque el ‘cohousing’ puede realizarse mediante una cooperativa de vivienda, pero no es la única herramienta: puede hacerlo también una empresa o una fundación. Es decir, va más allá de la colaboración o de la tenencia colectiva, porque incorpora “aspectos del ámbito arquitectónico, del diseño de la vivienda, como son los espacios y servicios comunes, que desde el principio están concebidos para facilitar la interacción social”. Las estancias comunes orientadas al encuentro humano son claves, “independientemente de que se haya contado con los usuario...",
+      "score": 30,
+      "relevanceFactors": {
+        "explicit": true,
+        "headingRelevant": false,
+        "contextualCooccurrence": true,
+        "topicDensity": true,
+        "conceptProximity": true
+      }
+    },
+    {
+      "id": "uso_espacios_comunes-space_booking-docs-estatutos-estatutos-la-borda-10",
+      "claimId": "uso_espacios_comunes-space_booking",
+      "documentSlug": "docs-estatutos-estatutos-la-borda",
+      "documentTitle": "Estatutos La Borda",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_la_borda.pdf",
+      "articleOrSection": "Artículo 7. Obligaciones de las socias y socios",
+      "snippet": "Artículo 7. Obligaciones de las socias y socios 7.1. Las socias y socios, sea cual sea su tipología, están obligados a: a) Hacer el desembolso de la aportación comprometida y cumplir las obligaciones económicas que les corresponda en virtud de estos Estatutos o por acuerdo adoptado válidamente por los órganos sociales de la Cooperativa, en especial, las relativas a la financiación de la vivienda o el inmueble asignado. b) Asistir a las reuniones de la Asamblea General y de otros órganos por los que sean convocados, y participar con voz y voto c) Aceptar los cargos sociales, salvo causa justificada apreciada por la Asamblea General. d) Cumplir los acuerdos válidamente adoptados por los órganos sociales. e) No dedicarse a actividades que entren en competencia con las de la Cooperativa ni col...",
+      "score": 3,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "uso_espacios_comunes-space_booking-docs-guias-las-guias-de-sostre-civic-11",
+      "claimId": "uso_espacios_comunes-space_booking",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "Título original: La construcció i la cura dels grups",
+      "snippet": "...globales de cuidados la dinámica \"¿Cómo estoy, cómo estás, cómo estamos?\". Se trata de una rueda de turnos que ocupa los primeros 15 minutos de cada asamblea y en la que todo el mundo tiene la oportunidad de expresar al grupo cómo se siente, comunicar males- tares o buenas noticias, sus alegrías y preocupaciones. A la vez, esta sencilla herramienta permite también que las personas del grupo se conozcan más y mejor entre ellas, facilitando que pue- dan ir adquiriendo la confianza necesaria para poder pedir y recibir eventualmente el apoyo y la ayuda del grupo. Se trata, pues, de la formalización de un espacio en las asambleas que procura visibilizar los cuidados. – El \"micrófono\" de las asambleas y el cuidado del turno de palabra. A lo largo de su proceso de trabajo en torno a los cuidados,...",
+      "score": 3,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "uso_espacios_comunes-space_booking-docs-rri-informe-cooperativas-cesion-de-uso-1",
+      "claimId": "uso_espacios_comunes-space_booking",
+      "documentSlug": "docs-rri-informe-cooperativas-cesion-de-uso",
+      "documentTitle": "Informe Cooperativas Cesion De Uso",
+      "documentType": "rri",
+      "sourcePath": "docs/rri/informe-cooperativas-cesion-de-uso.pdf",
+      "articleOrSection": "Documento completo",
+      "snippet": "...es en ámbitos urbanos. Por eso, las administraciones públicas de todos los niveles pueden aportar y reservar suelos disponibles para promocionar este modelo. No obstante el suelo debe estar situado en lugares demandados. 3 0 d. En el Ayuntamiento de Valencia, la Mesa Técnica de Vivienda determina a qué solares pueden optar viviendas cooperativas en régimen de cesión de uso, un modelo que, según han apuntado desde este Consistorio, “limita la capacidad de especulación”. Esta fórmula se realiza conforme a criterios de baremación para adjudicar viviendas públicas, que ponen especial atención a los colectivos sociales con mayor riesgo de exclusión: mayores de 65 años, quienes hayan sido desahuciados en los últimos 12 meses, familias con algún miembro dependiente o con diversidad funcional, jóv...",
+      "score": 5,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": true,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "uso_espacios_comunes-damage_liability-docs-estatutos-estatutos-la-borda-10",
+      "claimId": "uso_espacios_comunes-damage_liability",
+      "documentSlug": "docs-estatutos-estatutos-la-borda",
+      "documentTitle": "Estatutos La Borda",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_la_borda.pdf",
+      "articleOrSection": "Artículo 7. Obligaciones de las socias y socios",
+      "snippet": "...rsonas socias usuarias que disfrutan de este uso restringido. j) Satisfacer el resarcimiento de los daños y perjuicios en los elementos de uso común del inmueble y / o en la vivienda cooperativa que la persona socia o los miembros de la unidad de convivencia causen por el incumplimiento de la obligación de conservación, uso diligente y adecuada. k) La persona socia destinataria del derecho de uso y los miembros de la UEC abandonarán la vivienda cooperativa en los casos de baja. 7.3. El reglamento de Régimen Interno debe especificar la delimitación de los elementos de uso común, de uso común restringido y de uso privativo del conjunto del edificio de viviendas cooperativas. Asimismo, debe recoger las normas de mantenimiento, conservación y mejora ordinarias y extraordinarias de los elemento...",
+      "score": 7,
+      "relevanceFactors": {
+        "explicit": true,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "uso_espacios_comunes-damage_liability-docs-guias-las-guias-de-sostre-civic-11",
+      "claimId": "uso_espacios_comunes-damage_liability",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "Título original: La construcció i la cura dels grups",
+      "snippet": "...suarias parti- cipaban implicadas en las distintas actividades de la vida diaria en la UC, como la preparación de la comida o doblando ropa de la cola- da. También pudieron ser testigos de la implementación del modelo ACP, pero no solo aplicado al funcionamiento de la UC, sino también en todos los demás espacios de la residencia. En Can 70 han reflexionado y trabajado sobre este modelo y lo han llamado Unidad de Convivencia con Apoyo (UCA), definido como una parte de Can 70 que compartiría los aspectos relativos a la ar- quitectura, los servicios y profesionales, y en la que se prestarían una serie de cuidados más especializados. El diseño de la UCA debería seguir recreando el espacio como casa, acogedor y cómodo para un mínimo de 5 personas y un máximo de 12 (siendo 8 personas el nú- mero...",
+      "score": 3,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "uso_espacios_comunes-damage_liability-docs-rri-informe-cooperativas-cesion-de-uso-1",
+      "claimId": "uso_espacios_comunes-damage_liability",
+      "documentSlug": "docs-rri-informe-cooperativas-cesion-de-uso",
+      "documentTitle": "Informe Cooperativas Cesion De Uso",
+      "documentType": "rri",
+      "sourcePath": "docs/rri/informe-cooperativas-cesion-de-uso.pdf",
+      "articleOrSection": "Documento completo",
+      "snippet": "...os inquilinos, con un 21,7%. Y el tercer motivo más frecuente es la necesidad de obras de reforma o reparación de la vivienda con un 19,7% de las respuestas. ara contrarrestar esta situación existen varios programas en marcha impulsados por ayuntamientos para la movilización de la vivienda vacía hacia el mercado del alquiler, basados en la intermediación pública (a través de sociedades de vivienda) para facilitar que las viviendas de titularidad privada sin uso se incorporen al mercado del alquiler a un precio asequible para las personas arrendatarias, estableciendo un sistema de garantías para el propietario a cambio de fijar unos precios máximos de los alquileres. 8.CONCLUSIONES 3 9 -- 40 of 68 -- Las políticas de vivienda deben adaptarse a las necesidades en todos los ciclos de la vida,...",
+      "score": 4,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": true,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "uso_espacios_comunes-quiet_enjoyment-docs-estatutos-estatutos-la-borda-10",
+      "claimId": "uso_espacios_comunes-quiet_enjoyment",
+      "documentSlug": "docs-estatutos-estatutos-la-borda",
+      "documentTitle": "Estatutos La Borda",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_la_borda.pdf",
+      "articleOrSection": "Artículo 7. Obligaciones de las socias y socios",
+      "snippet": "...o socio, con dos meses de antelación, salvo en el caso de las socias destinatarias de un derecho de uso , que lo deberán notificar con seis meses de antelación. h) No utilizar la condición de socia o socio para desarrollar actividades especulativas, contrarias a las leyes o al objeto social de la Cooperativa. e) Comportarse con la debida consideración en sus relaciones con las otras socias y socios. j) Respetar aquellos otros deberes que resulten de las normas legales y estatutarias, así como de los acuerdos válidamente adoptados por los órganos de la Cooperativa. k) Participar en las actividades de formación e intercooperación. l) Guardar secreto sobre los asuntos y los datos de la Cooperativa, cuya divulgación pueda perjudicar los intereses sociales. m) Cumplir los demás deberes que resu...",
+      "score": 10,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": true,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "uso_espacios_comunes-quiet_enjoyment-docs-guias-las-guias-de-sostre-civic-11",
+      "claimId": "uso_espacios_comunes-quiet_enjoyment",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "Título original: La construcció i la cura dels grups",
+      "snippet": "...ercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 211 of 377 -- -- 212 of 377 -- Cuidados en la convivencia de personas mayores CONSTRUIMOS VIVIENDA COOPERATIVA 6 -- 213 of 377 -- 3 05 / PRESENTACIÓN DE GUÍA 07 / 1. INTRODUCCIÓN: EL TRABAJO DE CUIDADOS EN UNA COVIVIENDA SÉNIOR 08 / 1.1 La covivienda sénior, el problema y la importancia de los cuidados 13 / 1.2 La experiencia de Can 70 en el trabajo sobre los cuidados 15 / 1.3 La metodología de Can 70 en el trabajo sobre los cuidados 17 / 2. CONSTRUYENDO UNA COMUNIDAD DE APOYO MUTUO 18 / 2.1 Can 70 como comunidad de apoyo y ayuda mutua 20 / 2.2 El proceso de defi...",
+      "score": 3,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "uso_espacios_comunes-quiet_enjoyment-docs-rri-informe-cooperativas-cesion-de-uso-1",
+      "claimId": "uso_espacios_comunes-quiet_enjoyment",
+      "documentSlug": "docs-rri-informe-cooperativas-cesion-de-uso",
+      "documentTitle": "Informe Cooperativas Cesion De Uso",
+      "documentType": "rri",
+      "sourcePath": "docs/rri/informe-cooperativas-cesion-de-uso.pdf",
+      "articleOrSection": "Documento completo",
+      "snippet": "...ra una crisis socio-sanitaria mundial que en España ha golpeado con fuerza y que hace prever que el acceso a cobijarse bajo un techo en condiciones mínimas de habitabilidad puede encontrar muros ni siquiera previstos por los mejores expertos en economía. Quizás porque no hablamos de economía sino de una necesidad que se ha desdibujado con los años. De un valor, el de la vivienda, que ha quedado en manos del mercado perdiendo el componente humano de su finalidad. Una vivienda, pues, deshumanizada, despojada de su originario valor por la búsqueda de beneficios, sometida a los bancos, a los fondos-buitre y al valor de cambio (su precio) frente al valor de uso. El cooperativismo ha sido y es la alternativa en sus múltiples variantes, pero no ha logrado tener protagonismo porque sus experiencia...",
+      "score": 70,
+      "relevanceFactors": {
+        "explicit": true,
+        "headingRelevant": false,
+        "contextualCooccurrence": true,
+        "topicDensity": true,
+        "conceptProximity": true
+      }
+    }
+  ],
+  "nonSubstantiveFiltered": 5,
+  "evidenceHealth": "moderate"
+}

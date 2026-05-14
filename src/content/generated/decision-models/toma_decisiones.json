@@ -1,6 +1,6 @@
 {
   "topicSlug": "toma_decisiones",
-  "generatedAt": "2026-05-13T22:04:09.742Z",
+  "generatedAt": "2026-05-14T09:03:03.227Z",
   "decisionQuestions": [
     {
       "id": "which_majority",
@@ -33,7 +33,7 @@
             "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
             "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO"
           ],
-          "evidenceLevel": "high"
+          "evidenceLevel": "medium"
         },
         {
           "name": "Consenso con mecanismos de desbloqueo",
@@ -58,7 +58,7 @@
             "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
             "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO"
           ],
-          "evidenceLevel": "high"
+          "evidenceLevel": "medium"
         }
       ],
       "commonTradeoffs": [
@@ -120,7 +120,7 @@
             "Estatutos Los Girasoles",
             "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4"
           ],
-          "evidenceLevel": "high"
+          "evidenceLevel": "medium"
         },
         {
           "name": "Delegación con rendición de cuentas",
@@ -145,7 +145,7 @@
             "Estatutos Los Girasoles",
             "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4"
           ],
-          "evidenceLevel": "high"
+          "evidenceLevel": "medium"
         }
       ],
       "commonTradeoffs": [

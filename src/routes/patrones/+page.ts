@@ -1,6 +1,7 @@
 import { error } from '@sveltejs/kit';
 import { loadCrossTopicPatterns } from '$lib/content/loadPatterns';
 import { loadProjectProfiles } from '$lib/content/loadProjectProfiles';
+import { buildSeo, withBrand } from '$lib/seo';
 
 export const prerender = false;
 
@@ -25,6 +26,12 @@ export function load() {
   }
 
   return {
+    seo: buildSeo({
+      title: withBrand('Patrones de gobernanza cooperativa'),
+      description:
+        'Cartografía de patrones, tensiones y enfoques comparados detectados en documentos de proyectos cooperativos.',
+      path: '/patrones'
+    }),
     patterns,
     profiles
   };

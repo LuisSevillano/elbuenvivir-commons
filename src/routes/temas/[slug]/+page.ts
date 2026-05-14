@@ -3,6 +3,7 @@ import { loadConsultableTopic, loadConsultableTopics } from '$lib/content/loadCo
 import { loadDecisionModel } from '$lib/content/loadDecisionModels';
 import { loadSynthesis } from '$lib/content/loadSyntheses';
 import { loadGeneratedReferences } from '$lib/content/loadTopics';
+import { topicSeo } from '$lib/seo';
 
 export function entries() {
   return loadConsultableTopics().map((topic) => ({ slug: topic.slug }));
@@ -16,6 +17,7 @@ export function load({ params }) {
   }
 
   return {
+    seo: topicSeo(topic),
     topic,
     topics: loadConsultableTopics(),
     decisionModel: loadDecisionModel(topic.slug) ?? null,

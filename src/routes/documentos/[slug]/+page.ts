@@ -1,6 +1,7 @@
 import { error } from '@sveltejs/kit';
 import { loadDocument, loadDocuments } from '$lib/content/loadDocuments';
 import { loadGeneratedReferences, loadTopics } from '$lib/content/loadTopics';
+import { documentSeo } from '$lib/seo';
 
 export function entries() {
   return loadDocuments().map((document) => ({ slug: document.slug }));
@@ -29,6 +30,7 @@ export function load({ params }) {
   }
 
   return {
+    seo: documentSeo(document),
     document,
     curatedTopics,
     curatedTopicSlugs: topics.map((topic) => topic.slug),

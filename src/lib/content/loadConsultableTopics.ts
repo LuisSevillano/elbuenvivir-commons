@@ -1,5 +1,6 @@
-import { loadDrafts } from './loadDrafts';
 import { loadDecisionModels } from './loadDecisionModels';
+import { loadDrafts } from './loadDrafts';
+import { loadEvidenceLayers } from './loadEvidence';
 import { loadGeneratedReferences, loadTaxonomy, loadTopic, loadTopics } from './loadTopics';
 import { loadSynthesis, loadSyntheses } from './loadSyntheses';
 import type {
@@ -169,6 +170,7 @@ export function loadConsultableTopics(): ConsultableTopic[] {
   for (const synthesis of loadSyntheses()) slugs.add(synthesis.slug);
   for (const reference of loadGeneratedReferences()) slugs.add(reference.topicSlug);
   for (const model of loadDecisionModels()) slugs.add(model.topicSlug);
+  for (const layer of loadEvidenceLayers()) slugs.add(layer.topicSlug);
   for (const path of Object.keys(researchPackModules)) slugs.add(slugFromPath(path, '.md'));
   for (const draft of loadDrafts()) slugs.add(draft.slug);
 

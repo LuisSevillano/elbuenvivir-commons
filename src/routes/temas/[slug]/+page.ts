@@ -1,6 +1,7 @@
 import { error } from '@sveltejs/kit';
 import { loadConsultableTopic, loadConsultableTopics } from '$lib/content/loadConsultableTopics';
 import { loadDecisionModel } from '$lib/content/loadDecisionModels';
+import { loadEvidenceLayer } from '$lib/content/loadEvidence';
 import { loadSynthesis } from '$lib/content/loadSyntheses';
 import { loadGeneratedReferences } from '$lib/content/loadTopics';
 import { topicSeo } from '$lib/seo';
@@ -21,6 +22,7 @@ export function load({ params }) {
     topic,
     topics: loadConsultableTopics(),
     decisionModel: loadDecisionModel(topic.slug) ?? null,
+    evidenceLayer: loadEvidenceLayer(topic.slug) ?? null,
     generatedReferences: loadGeneratedReferences(topic.slug),
     synthesis: loadSynthesis(topic.slug) ?? null
   };

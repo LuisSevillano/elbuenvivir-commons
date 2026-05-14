@@ -19,6 +19,7 @@
     "generate:topic-drafts": "tsx scripts/generate-topic-drafts.ts",
     "generate:syntheses": "tsx scripts/generate-topic-syntheses.ts",
     "audit:syntheses": "tsx scripts/audit-syntheses-quality.ts",
+    "build:evidence": "tsx scripts/build-evidence-layer.ts",
     "build:decision-models": "tsx scripts/build-decision-models.ts",
     "build:patterns": "tsx scripts/build-cross-topic-patterns.ts",
     "build:project-profiles": "tsx scripts/build-project-profiles.ts",

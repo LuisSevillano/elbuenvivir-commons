@@ -255,6 +255,70 @@ export interface GeneratedTopicReference {
   tags: string[];
 }
 
+export type EvidenceClaimType = 'explicit' | 'inferred' | 'recommendation' | 'weak_evidence' | 'conflicting';
+
+export type EvidenceHealth = 'strong' | 'moderate' | 'weak' | 'insufficient';
+
+export interface EvidenceClaim {
+  id: string;
+  statement: string;
+  evidenceType: EvidenceClaimType;
+  confidence: Confidence;
+  supportingReferences: string[];
+  contradictoryReferences?: string[];
+  explanation?: string;
+}
+
+export interface EvidenceExtract {
+  id: string;
+  claimId: string;
+  documentSlug: string;
+  documentTitle: string;
+  documentType: DocumentType;
+  projectName?: string;
+  sourcePath: string;
+  articleOrSection?: string;
+  snippet: string;
+  score: number;
+  relevanceFactors: {
+    explicit: boolean;
+    headingRelevant: boolean;
+    contextualCooccurrence: boolean;
+    topicDensity: boolean;
+    conceptProximity: boolean;
+  };
+  contaminationFlags?: string[];
+}
+
+export interface ConflictingApproach {
+  id: string;
+  question: string;
+  approaches: string[];
+  summary: string;
+  projectReferences: string[];
+}
+
+export interface EvidenceTopicLayer {
+  topicSlug: string;
+  generatedAt: string;
+  claims: EvidenceClaim[];
+  conflictingApproaches: ConflictingApproach[];
+  evidenceSummary: {
+    totalClaims: number;
+    explicitCount: number;
+    inferredCount: number;
+    recommendationCount: number;
+    weakEvidenceCount: number;
+    conflictingCount: number;
+    highConfidenceCount: number;
+    mediumConfidenceCount: number;
+    lowConfidenceCount: number;
+  };
+  extracts: EvidenceExtract[];
+  nonSubstantiveFiltered: number;
+  evidenceHealth: EvidenceHealth;
+}
+
 export interface TaxonomyTopic {
   slug: string;
   title: string;

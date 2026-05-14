@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { basename, join } from 'node:path';
 
-import type { GeneratedTopicReference, GeneratedTopicSynthesis } from '../src/lib/content/types';
+import type { EvidenceHealth, EvidenceTopicLayer, GeneratedTopicReference, GeneratedTopicSynthesis } from '../src/lib/content/types';
 
 interface TopicReferencesFile {
   references: GeneratedTopicReference[];
@@ -41,6 +41,7 @@ interface SynthesisQualityItem {
   hasUsefulBuenVivirRecommendations: boolean;
   differentiatesStatutesAndRRI: boolean;
   hasConcreteRisks: boolean;
+  evidenceHealth: string | null;
   criteria: {
     references: CriterionScore;
     documentDiversity: CriterionScore;
@@ -51,6 +52,7 @@ interface SynthesisQualityItem {
     buenVivirRecommendations: CriterionScore;
     statutesVsRRI: CriterionScore;
     concreteRisks: CriterionScore;
+    evidenceQuality: CriterionScore;
   };
   improvementPriorities: string[];
 }
@@ -76,6 +78,7 @@ interface QualityReport {
 const root = process.cwd();
 const synthesesDir = join(root, 'src/content/generated/syntheses');
 const topicReferencesPath = join(root, 'src/content/generated/topic-references.json');
+const evidenceDir = join(root, 'src/content/generated/evidence');
 const jsonOutputPath = join(root, 'src/content/generated/synthesis-quality-report.json');
 const markdownOutputPath = join(root, 'docs/reports/synthesis-quality-report.md');
 
@@ -310,6 +313,57 @@ function scoreConcreteRisks(synthesis: GeneratedTopicSynthesis): CriterionScore 
   return { score, max: 10, notes };
 }
 
+function readEvidenceLayer(slug: string): EvidenceTopicLayer | null {
+  const path = join(evidenceDir, `${slug}.json`);
+  try {
+    return JSON.parse(readFileSync(path, 'utf-8')) as EvidenceTopicLayer;
+  } catch {
+    return null;
+  }
+}
+
+function scoreEvidenceQuality(slug: string): { score: number; max: number; notes: string[]; health: EvidenceHealth | null } {
+  const layer = readEvidenceLayer(slug);
+  const defaultResult = { score: 0, max: 12, notes: ['No se encontró capa de evidencia.'], health: null as EvidenceHealth | null };
+
+  if (!layer) return defaultResult;
+
+  const health = layer.evidenceHealth;
+  const nonSubstantiveRatio = layer.extracts.length > 0 ? (layer.nonSubstantiveFiltered / layer.extracts.length) : 0;
+  const explicitRatio = layer.evidenceSummary.totalClaims > 0 ? (layer.evidenceSummary.explicitCount / layer.evidenceSummary.totalClaims) : 0;
+  const notes: string[] = [];
+  let penalty = 0;
+
+  notes.push(`Salud de evidencia: ${health}`);
+  notes.push(`Filtrados no sustantivos: ${layer.nonSubstantiveFiltered}/${layer.extracts.length}`);
+
+  if (health === 'strong' && explicitRatio >= 0.5 && nonSubstantiveRatio < 0.2) {
+    return { score: 12, max: 12, notes: [...notes, 'Evidencia sólida y bien filtrada.'], health };
+  }
+
+  if (health === 'strong') penalty = 2;
+  else if (health === 'moderate') penalty = 4;
+  else if (health === 'weak') penalty = 7;
+  else penalty = 10;
+
+  if (nonSubstantiveRatio > 0.5) {
+    penalty += 2;
+    notes.push('Alta proporción de snippets no sustantivos.');
+  }
+
+  if (explicitRatio < 0.2 && layer.evidenceSummary.totalClaims > 2) {
+    penalty += 2;
+    notes.push('Muy baja proporción de evidencia explícita.');
+  }
+
+  return {
+    score: Math.max(0, 12 - penalty),
+    max: 12,
+    notes,
+    health
+  };
+}
+
 function grade(score: number): SynthesisQualityItem['grade'] {
   if (score >= 80) return 'strong';
   if (score >= 60) return 'usable';
@@ -328,6 +382,9 @@ function buildImprovementPriorities(item: Omit<SynthesisQualityItem, 'improvemen
   if (!item.hasUsefulBuenVivirRecommendations) priorities.push('Convertir la síntesis en decisiones concretas para El Buen Vivir.');
   if (!item.differentiatesStatutesAndRRI) priorities.push('Distinguir con más claridad qué va en Estatutos y qué va en RRI.');
   if (!item.hasConcreteRisks) priorities.push('Añadir riesgos concretos y tensiones operativas.');
+  if (item.evidenceHealth === 'weak' || item.evidenceHealth === 'insufficient') {
+    priorities.push('La evidencia documental es limitada; revisar antes de usar como base de acuerdos.');
+  }
 
   return priorities.length ? priorities : ['Mantener como síntesis útil y revisar solo estilo o precisión jurídica.'];
 }
@@ -350,6 +407,7 @@ function auditSynthesis(synthesis: GeneratedTopicSynthesis, references: Generate
   const nonGenericWords = Math.max(0, words - genericWords);
   const concepts = substantiveConcepts.filter((concept) => normalize(fullText).includes(normalize(concept)));
 
+  const evidenceQuality = scoreEvidenceQuality(synthesis.slug);
   const criteria = {
     references: scoreReferences(Math.max(synthesis.generatedFrom.referencesCount, topicReferences.length)),
     documentDiversity: scoreDocumentDiversity(documents.length, documentTypes),
@@ -359,7 +417,8 @@ function auditSynthesis(synthesis: GeneratedTopicSynthesis, references: Generate
     comparativeAnswer: scoreComparativeAnswer(synthesis),
     buenVivirRecommendations: scoreBuenVivirRecommendations(synthesis),
     statutesVsRRI: scoreStatutesVsRRI(synthesis),
-    concreteRisks: scoreConcreteRisks(synthesis)
+    concreteRisks: scoreConcreteRisks(synthesis),
+    evidenceQuality
   };
   const score = clamp(
     Object.values(criteria).reduce((total, criterion) => total + criterion.score, 0),
@@ -389,6 +448,7 @@ function auditSynthesis(synthesis: GeneratedTopicSynthesis, references: Generate
     hasUsefulBuenVivirRecommendations: criteria.buenVivirRecommendations.score >= 7,
     differentiatesStatutesAndRRI: criteria.statutesVsRRI.score >= 8,
     hasConcreteRisks: criteria.concreteRisks.score >= 7,
+    evidenceHealth: evidenceQuality.health,
     criteria
   } satisfies Omit<SynthesisQualityItem, 'improvementPriorities'>;
 
@@ -425,6 +485,7 @@ function buildMarkdown(report: QualityReport): string {
     '- Recomendaciones: utilidad práctica para El Buen Vivir.',
     '- Estatutos/RRI: claridad sobre ubicación normativa.',
     '- Riesgos: concreción de riesgos y tensiones.',
+    '- Calidad de evidencia: salud de la capa de evidencia (solo en temas con evidencia generada).',
     '',
     '## Temas',
     ''
@@ -444,6 +505,8 @@ function buildMarkdown(report: QualityReport): string {
     lines.push(`- Recomendaciones útiles para El Buen Vivir: ${topic.hasUsefulBuenVivirRecommendations ? 'sí' : 'no'}`);
     lines.push(`- Diferencia Estatutos/RRI: ${topic.differentiatesStatutesAndRRI ? 'sí' : 'no'}`);
     lines.push(`- Riesgos concretos: ${topic.hasConcreteRisks ? 'sí' : 'no'}`);
+    lines.push(`- Salud de evidencia: ${topic.evidenceHealth || 'sin capa de evidencia'}`);
+    lines.push(`- Calidad evidencia: ${topic.criteria.evidenceQuality.score}/${topic.criteria.evidenceQuality.max}`);
     lines.push(`- Prioridades: ${topic.improvementPriorities.join(' ')}`);
     lines.push('');
   }

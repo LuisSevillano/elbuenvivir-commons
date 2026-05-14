@@ -4,7 +4,9 @@ import { join } from 'node:path';
 import type {
   DecisionModelExtract,
   DecisionQuestion,
+  EvidenceHealth,
   EvidenceLevel,
+  EvidenceTopicLayer,
   ExtractedSection,
   SolutionApproach,
   SourceDocument,
@@ -61,6 +63,7 @@ const root = process.cwd();
 const taxonomyPath = join(root, 'taxonomy/topics.json');
 const documentsPath = join(root, 'src/content/documents/documents.json');
 const sectionsDir = join(root, 'src/content/generated/sections');
+const evidenceDir = join(root, 'src/content/generated/evidence');
 const outputDir = join(root, 'src/content/generated/decision-models');
 const reportPath = join(root, 'src/content/generated/decision-models-report.json');
 const maxExtractsPerQuestion = 5;
@@ -413,16 +416,38 @@ function projectName(match: SectionMatch): string {
   return match.document.projectName || match.document.title;
 }
 
-function evidenceLevel(matches: SectionMatch[]): EvidenceLevel {
+function readEvidenceLayer(topicSlug: string): EvidenceTopicLayer | null {
+  const path = join(evidenceDir, `${topicSlug}.json`);
+  if (!existsSync(path)) return null;
+  try {
+    return readJson<EvidenceTopicLayer>(path);
+  } catch {
+    return null;
+  }
+}
+
+function evidenceLevel(matches: SectionMatch[], evidenceHealth?: EvidenceHealth): EvidenceLevel {
   const projects = new Set(matches.map(projectName));
 
-  if (matches.length >= 5 && projects.size >= 3) {
-    return 'high';
+  const baseLevel: EvidenceLevel = (() => {
+    if (matches.length >= 5 && projects.size >= 3) return 'high';
+    if (matches.length >= 2 && projects.size >= 2) return 'medium';
+    return 'low';
+  })();
+
+  if (evidenceHealth) {
+    if (baseLevel === 'high' && (evidenceHealth === 'weak' || evidenceHealth === 'insufficient')) {
+      return 'medium';
+    }
+    if (baseLevel === 'high' && evidenceHealth === 'moderate') {
+      if (matches.length < 8 || projects.size < 4) return 'medium';
+    }
+    if (baseLevel === 'medium' && evidenceHealth === 'insufficient') {
+      return 'low';
+    }
   }
-  if (matches.length >= 2 && projects.size >= 2) {
-    return 'medium';
-  }
-  return 'low';
+
+  return baseLevel;
 }
 
 function extractSnippet(text: string, matchedLabels: string[]): string {
@@ -453,7 +478,7 @@ function extractFromMatch(topicSlug: string, questionId: string, match: SectionM
   };
 }
 
-function buildApproaches(question: QuestionBlueprint, matches: SectionMatch[]): SolutionApproach[] {
+function buildApproaches(question: QuestionBlueprint, matches: SectionMatch[], evidenceHealth?: EvidenceHealth): SolutionApproach[] {
   return question.approaches
     .map((approachBlueprint) => {
       const matchedApproachConcepts = new Set(
@@ -473,6 +498,13 @@ function buildApproaches(question: QuestionBlueprint, matches: SectionMatch[]): 
         return undefined;
       }
 
+      const baseLevel = evidenceLevel(approachMatches);
+      const syncedLevel = evidenceLevel(approachMatches, evidenceHealth);
+
+      if (baseLevel !== syncedLevel) {
+        console.log(`    [SYNC] ${approachBlueprint.name}: evidenceLevel ${baseLevel} -> ${syncedLevel} (health=${evidenceHealth})`);
+      }
+
       return {
         name: approachBlueprint.name,
         summary: approachBlueprint.summary,
@@ -481,7 +513,7 @@ function buildApproaches(question: QuestionBlueprint, matches: SectionMatch[]): 
         risks: approachBlueprint.risks,
         suitableFor: approachBlueprint.suitableFor,
         detectedInProjects: [...new Set(approachMatches.map(projectName))].slice(0, 6),
-        evidenceLevel: evidenceLevel(approachMatches)
+        evidenceLevel: syncedLevel
       } satisfies SolutionApproach;
     })
     .filter((approach): approach is SolutionApproach => approach !== undefined);
@@ -495,10 +527,12 @@ function buildModel(
   topic: TaxonomyTopic,
   blueprint: TopicBlueprint,
   sections: ExtractedSection[],
-  documentsBySlug: Map<string, SourceDocument>
+  documentsBySlug: Map<string, SourceDocument>,
+  evidenceLayer: EvidenceTopicLayer | null
 ): TopicDecisionModel {
   const allExtracts: DecisionModelExtract[] = [];
   const limits: string[] = [];
+  const evidenceHealth = evidenceLayer?.evidenceHealth;
   const decisionQuestions: DecisionQuestion[] = blueprint.questions.map((question) => {
     const matches = sectionMatches(blueprint, question, sections, documentsBySlug).slice(0, maxExtractsPerQuestion);
     const extracts = matches.map((match, index) => extractFromMatch(topic.slug, question.id, match, index));
@@ -512,7 +546,7 @@ function buildModel(
       id: question.id,
       question: question.question,
       whyItMatters: question.whyItMatters,
-      detectedApproaches: extracts.length > 0 ? buildApproaches(question, matches) : [],
+      detectedApproaches: extracts.length > 0 ? buildApproaches(question, matches, evidenceHealth) : [],
       commonTradeoffs: extracts.length > 0 ? question.tradeoffs : [],
       recommendationsForBuenVivir: extracts.length > 0 ? question.recommendations : [],
       relatedExtracts: extracts.map((extract) => extract.id),
@@ -557,6 +591,8 @@ const models: TopicDecisionModel[] = [];
 
 mkdirSync(outputDir, { recursive: true });
 
+let syncedCount = 0;
+
 for (const blueprint of blueprints) {
   const topic = topicsBySlug.get(blueprint.slug);
 
@@ -564,7 +600,14 @@ for (const blueprint of blueprints) {
     continue;
   }
 
-  const model = buildModel(topic, blueprint, sections, documentsBySlug);
+  const evidenceLayer = readEvidenceLayer(blueprint.slug);
+  if (evidenceLayer) {
+    if (evidenceLayer.evidenceHealth === 'weak' || evidenceLayer.evidenceHealth === 'insufficient') {
+      syncedCount++;
+    }
+  }
+
+  const model = buildModel(topic, blueprint, sections, documentsBySlug, evidenceLayer);
   models.push(model);
   writeFileSync(join(outputDir, `${topic.slug}.json`), `${JSON.stringify(model, null, 2)}\n`);
 }
@@ -584,3 +627,4 @@ writeFileSync(reportPath, `${JSON.stringify({
 console.log(`Generated ${models.length} decision model file(s).`);
 console.log('Wrote src/content/generated/decision-models/*.json.');
 console.log('Wrote src/content/generated/decision-models-report.json.');
+if (syncedCount > 0) console.log(`Synced ${syncedCount} topic(s) with evidence layer (downgraded evidenceLevel).`);

@@ -108,6 +108,42 @@ pnpm audit:syntheses
 
 La salida se escribe en `src/content/generated/synthesis-quality-report.json` y `docs/reports/synthesis-quality-report.md`.
 
+## Evidence-First Governance Intelligence
+
+La Fase 27 transforma la herramienta desde generación automática de contenido hacia análisis fundamentado de evidencia documental. La prioridad es grounding, precisión y trazabilidad sobre cada afirmación.
+
+```sh
+pnpm build:evidence
+```
+
+El script analiza 6 temas prioritarios (`invitados`, `reservas_estancias_pernoctas`, `desigualdad_aportaciones`, `baja_socio`, `toma_decisiones`, `uso_espacios_comunes`) y clasifica cada claim en uno de estos tipos:
+
+| Tipo | Significado | UI |
+|------|-------------|-----|
+| `explicit` | El concepto aparece de forma literal en encabezados y texto de secciones documentales. | Fondo verde. |
+| `inferred` | El concepto se detecta por contexto, ventanas de palabras o coocurrencias, sin mención explícita directa. | Fondo amarillo. |
+| `recommendation` | Afirmación editorial o de orientación práctica, no directamente extraída de las fuentes. | Fondo azul. |
+| `weak_evidence` | Solo 1–2 referencias, puntuación baja o proyecto único. No debe presentarse como práctica establecida. | Fondo rojo. |
+| `conflicting` | Enfoques incompatibles detectados entre distintos proyectos para una misma cuestión. | Fondo púrpura. |
+
+### Principios del enfoque
+
+- **No aparentar certeza**: cada afirmación importante se clasifica explícitamente.
+- **Trazabilidad**: cada claim lleva sus referencias documentales de soporte.
+- **Conflicting approaches**: se detectan activamente enfoques incompatibles entre proyectos (ej: invitados con uso libre vs autorización previa vs límites anuales vs prohibición en periodos).
+- **Snippets ultra relevantes**: máximo 1–4 párrafos, centrados en la afirmación concreta.
+- **Relevance scoring**: positivo por concepto explícito, heading relevante, coocurrencia contextual, densidad temática y proximidad entre conceptos; negativo por contaminación semántica y conceptos jurídicos ambiguos.
+- **Separación clara**: lo detectado documentalmente, lo inferido y lo recomendado aparecen separados visual y estructuralmente.
+- **Si no hay evidencia suficiente**: se declara como "Evidencia limitada" en lugar de rellenar con generalizaciones.
+
+### Límites
+
+- No usa IA externa, embeddings, RAG, chat ni APIs.
+- No inventa acuerdos: si falta evidencia documental, el modelo lo indica como débil o ausente.
+- La calidad depende de la extracción y división en secciones de los documentos fuente.
+- Los enfoques contradictorios se detectan por agrupación de conceptos, no por análisis semántico profundo.
+- 6 temas priorizados; el resto no dispone de capa de evidencia.
+
 ## Decision Intelligence
 
 La Fase 24 añade una capa de modelos de decisión cooperativa. No sustituye al índice temático ni a las síntesis: construye una lectura más práctica a partir de secciones reales, preguntando qué problema organizativo aparece, qué modelos de solución pueden compararse y qué evidencia documental sostiene cada observación.
@@ -121,6 +157,8 @@ El script escribe `src/content/generated/decision-models/{topicSlug}.json` y `sr
 Cada modelo se organiza alrededor de `DecisionQuestion`: pregunta real, importancia práctica, enfoques detectados, tradeoffs, recomendaciones, proyectos relacionados, ubicación probable entre Estatutos/RRI y extractos trazables. Los `SolutionApproach` solo se muestran cuando hay extractos que activan los conceptos asociados.
 
 La detección usa matching contextual, no simple presencia de keywords. Para conceptos ambiguos como `reserva`, exige proximidad con términos como estancia, habitación, calendario, invitados, noche, pernocta, espacio, uso o disponibilidad. También aplica exclusiones contextuales para evitar ruido como fondo de reserva, reserva legal, reserva contable o capital social. El sistema puntúa coocurrencias dentro de ventanas de palabras y descarta secciones que no alcanzan evidencia mínima.
+
+La capa de evidencia (Fase 27) complementa los modelos de decisión clasificando cada claim por tipo de evidencia, pero no depende de ellos.
 
 Límites importantes:
 

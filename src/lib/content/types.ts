@@ -32,6 +32,9 @@ export interface SourceDocument {
   tags: string[];
   notes?: string;
   originalUrl?: string;
+  googleDriveFileId?: string;
+  googleDriveUrl?: string;
+  previewUrl?: string;
   ingestionStatus?: 'pending' | 'ok' | 'needs_review';
   extractionStatus?: 'not_started' | 'ok' | 'partial' | 'failed' | 'unsupported';
   extractionError?: string;

@@ -26,6 +26,7 @@
     "build:decision-models": "tsx scripts/build-decision-models.ts",
     "build:patterns": "tsx scripts/build-cross-topic-patterns.ts",
     "build:project-profiles": "tsx scripts/build-project-profiles.ts",
+    "enrich:drive-links": "tsx scripts/enrich-google-drive-links.ts",
     "deploy": "netlify deploy --build --prod --site 28954291-cdf4-49f8-a212-11b4c7c15bbb"
   },
   "devDependencies": {

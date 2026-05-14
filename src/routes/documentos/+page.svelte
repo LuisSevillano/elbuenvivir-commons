@@ -9,8 +9,8 @@
   <p class="eyebrow">Documentos</p>
   <h1>Documentos para comparar soluciones reales.</h1>
   <p class="lead">
-    Consulta estatutos, reglamentos, guías y normativa usados para detectar ejemplos, tendencias y
-    formas habituales de resolver cuestiones de gobernanza cooperativa.
+    Consulta estatutos, reglamentos, guías y normativa como apoyo editorial y trazabilidad de lectura.
+    Los documentos ayudan a contextualizar decisiones; no funcionan como repositorio indiferenciado.
   </p>
 </section>
 

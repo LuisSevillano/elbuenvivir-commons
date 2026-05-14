@@ -1,14 +1,18 @@
 <script lang="ts">
   import StatusBadge from './StatusBadge.svelte';
   import { categoryLabels, placementLabel, topicStatusLabels } from '$lib/content/labels';
-  import type { ConsultableTopic, GovernanceTopic } from '$lib/content/types';
+  import { validatedTopicStatusLabels } from '$lib/content/validatedTopicSchema';
+  import type { ConsultableTopic, GovernanceTopic, ValidatedTopicStatus } from '$lib/content/types';
 
   interface Props {
     topic: GovernanceTopic | ConsultableTopic;
+    editorialStatus?: ValidatedTopicStatus;
   }
 
-  let { topic }: Props = $props();
+  let { topic, editorialStatus }: Props = $props();
   const availabilityBadge = $derived('availabilityBadge' in topic ? topic.availabilityBadge : null);
+  const status = $derived(editorialStatus ?? ('editorialStatus' in topic ? topic.editorialStatus : null));
+  const statusTone = $derived(status === 'reviewed' ? 'success' : status === 'exploratory' ? 'neutral' : 'warning');
 </script>
 
 <header class="topic-hero">
@@ -20,10 +24,10 @@
 
   <div class="hero-badges">
     <StatusBadge>{categoryLabels[topic.category]}</StatusBadge>
-    {#if availabilityBadge}
-      <StatusBadge tone={availabilityBadge === 'Análisis amplio' ? 'success' : 'neutral'}>
-        {availabilityBadge}
-      </StatusBadge>
+    {#if status}
+      <StatusBadge tone={statusTone}>{validatedTopicStatusLabels[status]}</StatusBadge>
+    {:else if availabilityBadge}
+      <StatusBadge tone={availabilityBadge === 'Análisis amplio' ? 'success' : 'neutral'}>{availabilityBadge}</StatusBadge>
     {:else}
       <StatusBadge tone="warning">{topicStatusLabels[topic.status]}</StatusBadge>
     {/if}

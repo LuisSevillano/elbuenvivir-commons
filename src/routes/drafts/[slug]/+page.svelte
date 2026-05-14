@@ -1,8 +1,7 @@
 <section class="section internal-notice">
-  <h1>Área interna de trabajo editorial</h1>
+  <h1>Página no disponible</h1>
   <p class="lead">
-    Este borrador no se muestra en la herramienta pública de consulta. Los borradores son artefactos
-    internos del pipeline de análisis y no deben utilizarse como material de referencia.
+    Esta sección no forma parte de la herramienta pública de consulta.
   </p>
   <p class="lead">
     Para acceder al contenido consultable, visita <a href="/temas">la página de temas</a>.

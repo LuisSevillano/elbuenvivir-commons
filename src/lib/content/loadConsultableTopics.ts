@@ -5,10 +5,12 @@ import { loadSynthesis, loadSyntheses } from './loadSyntheses';
 import { loadEditorialReviews, loadValidatedTopics } from './loadValidatedTopics';
 import type {
   ConsultableTopic,
+  EvidenceTopicLayer,
   GeneratedTopicReference,
   GeneratedTopicSynthesis,
   GovernanceTopic,
-  TaxonomyTopic
+  TaxonomyTopic,
+  ValidatedTopic
 } from './types';
 
 const researchPackModules = import.meta.glob<string>('/src/content/research-packs/*.md', {
@@ -53,6 +55,18 @@ function availabilityBadge(hasSynthesis: boolean, referenceCount: number): Consu
   return 'Información limitada';
 }
 
+function editorialStatus(
+  validatedTopic: ValidatedTopic | undefined,
+  evidenceLayer: EvidenceTopicLayer | undefined,
+  hasEditorialReview: boolean,
+  referenceCount: number
+): ConsultableTopic['editorialStatus'] {
+  if (validatedTopic) return validatedTopic.status;
+  if (evidenceLayer?.evidenceHealth === 'weak' || evidenceLayer?.evidenceHealth === 'insufficient') return 'insufficient_evidence';
+  if (hasEditorialReview || referenceCount >= 8) return 'exploratory';
+  return 'insufficient_evidence';
+}
+
 function buildFallbackTopic(
   slug: string,
   taxonomyTopic: TaxonomyTopic | undefined,
@@ -82,7 +96,7 @@ function buildFallbackTopic(
       taxonomyTopic?.description ??
       overview[0] ??
       (references.length > 0
-        ? `Análisis comparado sobre ${topicName} a partir de documentos relacionados y patrones detectados.`
+        ? `Análisis comparado sobre ${topicName} a partir de documentos relacionados y referencias de apoyo.`
         : `Tema consultable sobre ${topicName}, pendiente de ampliar con más referencias documentales.`),
     category: taxonomyTopic?.category ?? 'otros',
     minimumContents:
@@ -140,8 +154,10 @@ function mergeConsultableTopic(slug: string): ConsultableTopic {
   );
   const editorialReview = loadEditorialReviews().find((review) => review.slug === slug);
   const validatedTopic = loadValidatedTopics().find((item) => item.slug === slug);
+  const evidenceLayer = loadEvidenceLayers().find((layer) => layer.topicSlug === slug);
   const baseTopic = curatedTopic ?? buildFallbackTopic(slug, taxonomyTopic, synthesis, references);
   const curatedReferenceCount = baseTopic.legalBasis.length + baseTopic.projectReferences.length;
+  const referenceCount = curatedReferenceCount + references.length;
   const documentSlugs = new Set(references.map((reference) => reference.documentSlug));
   const projectNames = new Set(references.map((reference) => reference.projectName).filter(Boolean));
 
@@ -158,8 +174,9 @@ function mergeConsultableTopic(slug: string): ConsultableTopic {
       hasEditorialReview: Boolean(editorialReview),
       hasValidatedTopic: Boolean(validatedTopic)
     },
-    availabilityBadge: availabilityBadge(Boolean(synthesis), curatedReferenceCount + references.length),
-    referenceCount: curatedReferenceCount + references.length,
+    availabilityBadge: availabilityBadge(Boolean(synthesis), referenceCount),
+    editorialStatus: editorialStatus(validatedTopic, evidenceLayer, Boolean(editorialReview), referenceCount),
+    referenceCount,
     documentCount: documentSlugs.size,
     projectCount: projectNames.size
   };

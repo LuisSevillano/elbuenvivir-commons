@@ -8,9 +8,9 @@
 	</p>
 	<p>
 		No ofrece modelos cerrados ni respuestas únicas. Ayuda a identificar decisiones importantes,
-		comparar enfoques, detectar riesgos y disponer de un punto de partida informado. Cada tema
-		incluye una clasificación de la evidencia disponible: sólida, inferida, hipótesis de trabajo o
-		insuficiente.
+		comparar enfoques, detectar riesgos y disponer de un punto de partida informado. La herramienta
+		separa temas revisados, exploratorios y temas con evidencia insuficiente para proteger la calidad
+		de la lectura.
 	</p>
 </aside>
 
@@ -41,9 +41,4 @@
 		margin-bottom: 0;
 	}
 
-	.closure {
-		font-size: 0.85rem;
-		color: var(--muted);
-		font-style: italic;
-	}
 </style>

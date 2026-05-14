@@ -1,5 +1,6 @@
 <script lang="ts">
   import { categoryLabels, topicStatusLabels } from '$lib/content/labels';
+  import { validatedTopicStatusLabels } from '$lib/content/validatedTopicSchema';
   import type { ConsultableTopic, GovernanceTopic } from '$lib/content/types';
   import StatusBadge from './StatusBadge.svelte';
 
@@ -9,16 +10,18 @@
 
   const statusTone = $derived(topic.status === 'reviewed' ? 'success' : 'warning');
   const availabilityBadge = $derived('availabilityBadge' in topic ? topic.availabilityBadge : null);
+  const editorialStatus = $derived('editorialStatus' in topic ? topic.editorialStatus : null);
+  const editorialTone = $derived(editorialStatus === 'reviewed' ? 'success' : editorialStatus === 'exploratory' ? 'neutral' : 'warning');
   const placement = $derived(topic.governancePlacement.recommendedPrimaryLocation);
 </script>
 
 <a class="topic-card" href={`/temas/${topic.slug}`}>
   <div class="meta">
     <span>{categoryLabels[topic.category]}</span>
-    {#if availabilityBadge}
-      <StatusBadge tone={availabilityBadge === 'Análisis amplio' ? 'success' : 'neutral'}>
-        {availabilityBadge}
-      </StatusBadge>
+    {#if editorialStatus}
+      <StatusBadge tone={editorialTone}>{validatedTopicStatusLabels[editorialStatus]}</StatusBadge>
+    {:else if availabilityBadge}
+      <StatusBadge tone={availabilityBadge === 'Análisis amplio' ? 'success' : 'neutral'}>{availabilityBadge}</StatusBadge>
     {:else}
       <StatusBadge tone={statusTone}>{topicStatusLabels[topic.status]}</StatusBadge>
     {/if}

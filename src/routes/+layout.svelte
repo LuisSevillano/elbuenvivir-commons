@@ -73,7 +73,6 @@
 			{/if}
 			<nav aria-label="Navegación principal">
 				<a href="/temas">Temas</a>
-				<a href="/patrones">Patrones</a>
 				<a href="/documentos">Documentos</a>
 			</nav>
 		</div>
@@ -90,7 +89,6 @@
 		</div>
 		<nav class="footer-links" aria-label="Navegación secundaria">
 			<a href="/temas">Temas</a>
-			<a href="/patrones">Patrones</a>
 			<a href="/documentos">Documentos</a>
 		</nav>
 	</footer>

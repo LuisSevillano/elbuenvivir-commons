@@ -71,14 +71,14 @@
   </section>
 
   <section class="section panel">
-    <h2>Referencias detectadas</h2>
+    <h2>Lecturas relacionadas</h2>
     {#if data.generatedReferences.length === 0}
       <p class="empty-state">No hay referencias detectadas para este documento.</p>
     {:else}
         <ul>
         {#each data.generatedReferences as reference}
           <li>
-            <StatusBadge tone="auto">Referencia detectada</StatusBadge>
+            <StatusBadge tone="auto">Lectura relacionada</StatusBadge>
             {#if curatedTopicSlugs.has(reference.topicSlug)}
               <a href={`/temas/${reference.topicSlug}`}>{topicTitles[reference.topicSlug] ?? reference.topicSlug}</a>
             {:else}

@@ -27,7 +27,7 @@
 <article class="reference-card">
     <div class="meta">
       {#if automatic}
-      <StatusBadge tone="auto">Referencia detectada</StatusBadge>
+      <StatusBadge tone="auto">Lectura relacionada</StatusBadge>
       {:else}
         <StatusBadge tone="success">Referencia revisada</StatusBadge>
       {/if}

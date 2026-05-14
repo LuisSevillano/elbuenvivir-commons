@@ -224,7 +224,7 @@
 <section class="section result-groups">
   {@render ResultGroup('Temas', topics)}
   {@render ResultGroup('Documentos', documents)}
-  {@render ResultGroup('Referencias detectadas', references)}
+  {@render ResultGroup('Lecturas relacionadas', references)}
 </section>
 
 {#snippet ResultGroup(title: string, items: SearchItem[])}
@@ -238,7 +238,7 @@
           <div class="result-meta">
             {#if item.kind === 'topic'}<StatusBadge tone="success">Tema</StatusBadge>{/if}
             {#if item.kind === 'document'}<StatusBadge>Documento</StatusBadge>{/if}
-            {#if item.kind === 'reference'}<StatusBadge tone="auto">Referencia detectada</StatusBadge>{/if}
+            {#if item.kind === 'reference'}<StatusBadge tone="auto">Lectura relacionada</StatusBadge>{/if}
             {#if item.documentType}<StatusBadge>{documentTypeLabels[item.documentType]}</StatusBadge>{/if}
             {#if item.confidence}<StatusBadge>Coincidencia {confidenceLabel(item.confidence)}</StatusBadge>{/if}
             {#if item.category}<StatusBadge>{categoryLabels[item.category]}</StatusBadge>{/if}

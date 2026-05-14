@@ -4,15 +4,15 @@
 	import AtlasOrientation from '$lib/components/AtlasOrientation.svelte';
 	import { legalDisclaimer } from '$lib/content/labels';
 
-	let { data }: { data: { topicCount: number; documentCount: number } } = $props();
+	let { data }: { data: { topicCount: number; priorityTopicCount: number; documentCount: number } } = $props();
 </script>
 
 <section class="hero editorial-hero">
 	<p class="eyebrow">Atlas comparado de gobernanza cooperativa</p>
 	<h1>Explora cómo otros proyectos resuelven decisiones de convivencia y organización.</h1>
 	<p class="lead">
-		Una herramienta para explorar cómo distintas cooperativas y proyectos colectivos han resuelto
-		cuestiones de organización, convivencia, aportaciones económicas y uso compartido de espacios.
+		Una herramienta de trabajo editorial para comparar documentos, distinguir niveles de evidencia y
+		avanzar con prudencia en decisiones de organización, convivencia y uso compartido.
 	</p>
 	<div class="actions">
 		<a class="button button-primary" href="/temas">Explorar temas</a>
@@ -29,35 +29,38 @@
 <section class="section stats-section">
 	<div class="stats-grid">
 		<div class="stat-item">
-			<span class="stat-number">{data.topicCount}</span>
-			<span class="stat-label">temas consultables</span>
+			<span class="stat-number">{data.priorityTopicCount}</span>
+			<span class="stat-label">temas priorizados</span>
 			<p class="stat-desc">
-				Organizados alrededor de decisiones prácticas: qué conviene aclarar, qué riesgos aparecen y
-				dónde suele regularse.
+				La navegación destaca pocos temas con mayor utilidad editorial antes que una cobertura amplia.
 			</p>
 		</div>
 		<div class="stat-item">
 			<span class="stat-number">{data.documentCount}</span>
 			<span class="stat-label">documentos analizados</span>
 			<p class="stat-desc">
-				Estatutos, reglamentos, guías y normativa para comparar soluciones reales.
+				Estatutos, reglamentos, guías y normativa como trazabilidad y lectura contextual.
 			</p>
 		</div>
 		<div class="stat-item">
-			<span class="stat-number">→</span>
-			<span class="stat-label">Patrones y ejemplos</span>
+			<span class="stat-number">3</span>
+			<span class="stat-label">estados editoriales</span>
 			<p class="stat-desc">
-				La herramienta detecta tendencias, diferencias entre proyectos y referencias relacionadas.
+				Revisado, exploratorio y evidencia insuficiente para que ningún tema parezca más sólido de lo que es.
 			</p>
 		</div>
 	</div>
 </section>
 
-<section class="section">
+<section class="section advice">
 	<SoftCallout type="warning" title="Aviso jurídico">{legalDisclaimer}</SoftCallout>
 </section>
 
 <style>
+	.advice {
+		max-width: 62ch;
+		margin: 0 auto 3rem;
+	}
 	.editorial-hero {
 		margin: 0 0 0;
 	}

@@ -16,7 +16,7 @@
 
 {#if hasPatterns}
   <section class="patterns-overview">
-    <h2>Patrones detectados</h2>
+    <h2>Patrones en revisión</h2>
     <p class="lead">
       Al comparar documentos de distintos proyectos, se observan tendencias recurrentes:
     </p>

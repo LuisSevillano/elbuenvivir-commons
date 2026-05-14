@@ -65,8 +65,9 @@
   const explicitClaims = $derived(evidenceClaims.filter((c) => c.evidenceType === 'explicit'));
   const weakClaims = $derived(evidenceClaims.filter((c) => c.evidenceType === 'weak_evidence'));
   const inferredClaims = $derived(evidenceClaims.filter((c) => c.evidenceType === 'inferred'));
-  const editorialStatus = $derived(editorialStatusLabel(validatedTopic, editorialReview));
-  const editorialStatusClass = $derived(validatedTopic?.status ?? (editorialReview ? 'review-available' : 'generated-warning'));
+  const editorialStatusKey = $derived(validatedTopic?.status ?? topic.editorialStatus);
+  const editorialStatus = $derived(editorialStatusLabel(validatedTopic, editorialReview, topic.editorialStatus));
+  const editorialStatusClass = $derived(editorialStatusKey === 'evidencia_insuficiente' ? 'insufficient_evidence' : editorialStatusKey);
 
   function compactQuestions(
     currentTopic: ConsultableTopic,
@@ -203,24 +204,26 @@
     };
   }
 
-  function editorialStatusLabel(validated: ValidatedTopic | null, review: EditorialReview | null): string {
+  function editorialStatusLabel(validated: ValidatedTopic | null, review: EditorialReview | null, fallback: ConsultableTopic['editorialStatus']): string {
     if (validated) return validatedTopicStatusLabels[validated.status];
-    if (review) return 'Revisión editorial disponible';
-    return 'Contenido generado con aviso';
+    if (review) return 'Exploratorio';
+    return validatedTopicStatusLabels[fallback];
   }
 </script>
 
 <article class="topic-page">
-  <TopicHero {topic} />
+  <TopicHero {topic} editorialStatus={editorialStatusKey} />
 
   <section class="editorial-status {editorialStatusClass}">
     <strong>{editorialStatus}</strong>
-    {#if validatedTopic}
-      <span>Esta página prioriza la revisión estructurada y conserva el material generado como apoyo documental.</span>
+    {#if validatedTopic && isInsufficient}
+      <span>La revisión editorial concluye que el material disponible no permite sostener conclusiones comparadas.</span>
+    {:else if validatedTopic}
+      <span>Esta página prioriza la revisión editorial estructurada. El resto del material queda subordinado a ese criterio.</span>
     {:else if editorialReview}
-      <span>Existe una revisión editorial interna para este tema, pero todavía no hay una versión estructurada validada.</span>
+      <span>Existe revisión editorial, pero el tema todavía debe consolidarse antes de presentarse como conclusión robusta.</span>
     {:else}
-      <span>Esta página usa contenido generado y debe contrastarse con las fuentes antes de redactar acuerdos.</span>
+      <span>Este tema se ofrece como exploración prudente y debe contrastarse con las fuentes antes de redactar acuerdos.</span>
     {/if}
   </section>
 
@@ -241,7 +244,7 @@
 
     {#if solutionModels.length > 0 && !isInsufficient}
       <EditorialSection
-        title={isWeak ? 'Posibles enfoques a contrastar' : 'Modelos de solución detectados'}
+        title={isWeak ? 'Posibles enfoques a contrastar' : 'Enfoques documentados'}
         density="normal"
         subtitle={isWeak ? 'Identificados en los documentos, pero con evidencia limitada. Son hipótesis a validar.' : undefined}>
         <div class="solution-grid">
@@ -253,14 +256,16 @@
     {/if}
 
     {#if tradeoffsAndRisks.length > 0}
-      <EditorialSection title="Tradeoffs y riesgos" density="compact">
+      <EditorialSection title="Contrapartidas y riesgos" density="compact">
         <CompactInsightList items={tradeoffsAndRisks} limit={6} />
       </EditorialSection>
     {/if}
 
-    <EditorialSection title="Estatutos vs RRI" density="compact">
-      <GovernanceSplit statutes={statutesItems} rri={rriItems} />
-    </EditorialSection>
+    {#if statutesItems.length > 0 || rriItems.length > 0}
+      <EditorialSection title="Estatutos vs RRI" density="compact">
+        <GovernanceSplit statutes={statutesItems} rri={rriItems} />
+      </EditorialSection>
+    {/if}
 
     {#if recommendations.length > 0}
       <EditorialSection title="Recomendación para El Buen Vivir" density="compact">
@@ -293,7 +298,7 @@
       </EditorialSection>
 
       {#if validatedTopic.unsupportedClaims.length > 0}
-        <EditorialSection title="No usar como conclusión" subtitle="Claims o modelos descartados por la revisión" density="compact">
+        <EditorialSection title="No usar como conclusión" subtitle="Ideas o modelos descartados por la revisión" density="compact">
           <ul class="unsupported-list">
             {#each validatedTopic.unsupportedClaims as claim}
               <li>
@@ -340,10 +345,10 @@
           Las ideas se presentan como hipótesis de trabajo y deben contrastarse antes de redactar acuerdos.
         </div>
       {/if}
-      <EditorialSection title="Análisis de evidencia documental" subtitle="Lo que dicen realmente los documentos" density="compact">
+       <EditorialSection title="Lectura documental" subtitle="Lo que dicen realmente los documentos" density="compact">
         {#if explicitClaims.length > 0}
           <div class="claims-group">
-            <h4 class="claims-heading">Evidencia explícita detectada</h4>
+            <h4 class="claims-heading">Evidencia explícita</h4>
             <ul class="claims-list explicit">
               {#each explicitClaims as claim}
                 <li>
@@ -383,7 +388,7 @@
 
         {#if weakClaims.length > 0}
           <div class="claims-group">
-            <h4 class="claims-heading">Evidencia limitada o no detectada</h4>
+            <h4 class="claims-heading">Evidencia limitada</h4>
             <ul class="claims-list weak">
               {#each weakClaims as claim}
                 <li>
@@ -412,7 +417,7 @@
       </EditorialSection>
 
       {#if solutionModels.length > 0}
-        <EditorialSection title="Hipótesis de trabajo" subtitle="Ideas detectadas en los documentos, con evidencia insuficiente para presentarlas como enfoques contrastados" density="compact">
+        <EditorialSection title="Hipótesis de trabajo" subtitle="Ideas presentes en el material revisado, con evidencia insuficiente para presentarlas como enfoques contrastados" density="compact">
           <div class="solution-grid">
             {#each solutionModels as approach}
               <CompactSolutionModel {approach} />
@@ -422,7 +427,7 @@
       {/if}
 
       {#if tradeoffsAndRisks.length > 0}
-        <EditorialSection title="Tradeoffs y riesgos a considerar" density="compact">
+        <EditorialSection title="Contrapartidas y riesgos a considerar" density="compact">
           <CompactInsightList items={tradeoffsAndRisks} limit={6} />
         </EditorialSection>
       {/if}
@@ -441,7 +446,7 @@
 
   <EditorialSection
     title="Profundizar"
-    subtitle={isWeak ? 'Evidencia y material de apoyo' : 'Evidencia y material de apoyo, cerrado por defecto'}
+    subtitle={isWeak || isInsufficient ? 'Material para contrastar, no conclusiones' : 'Evidencia y material de apoyo'}
     density="compact">
     <CollapsibleReferences
       decisionModel={filteredDecisionModel}
@@ -475,7 +480,6 @@
   .editorial-status.reviewed { border-color: #bbf7d0; background: #f0fdf4; }
   .editorial-status.exploratory, .editorial-status.review-available { border-color: #fde68a; background: #fffbeb; }
   .editorial-status.insufficient_evidence, .editorial-status.evidencia_insuficiente { border-color: #fecaca; background: #fef2f2; }
-  .editorial-status.generated-warning { border-color: #ddd6c8; background: #fbfaf7; }
   .solution-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 0.85rem; }
   .empty-note { margin: 0; padding: 0.9rem; border: 1px solid var(--border); border-radius: 4px; background: #fafafa; color: var(--muted); font-size: 0.92rem; }
   .secondary-block { margin-top: 0.85rem; }

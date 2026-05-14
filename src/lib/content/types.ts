@@ -113,6 +113,7 @@ export interface ConsultableTopic extends GovernanceTopic {
     hasValidatedTopic: boolean;
   };
   availabilityBadge: 'Análisis amplio' | 'Análisis disponible' | 'Información limitada' | 'Pocas referencias';
+  editorialStatus: ValidatedTopicStatus;
   referenceCount: number;
   documentCount: number;
   projectCount: number;

@@ -1,6 +1,7 @@
 <script lang="ts">
   import StatusBadge from '$lib/components/StatusBadge.svelte';
   import TagList from '$lib/components/TagList.svelte';
+  import DrivePreview from '$lib/components/DocumentPreviewModal.svelte';
   import {
     getDocumentDisplayTitle,
     getDocumentProjectName,
@@ -24,6 +25,7 @@
   const displayTitle = $derived(getDocumentDisplayTitle(data.document));
   const summary = $derived(getDocumentSummary(data.document));
   const projectName = $derived(getDocumentProjectName(data.document));
+  const hasDriveLink = $derived(Boolean(data.document.googleDriveUrl));
 </script>
 
 <article>
@@ -36,6 +38,12 @@
       {#if data.document.year}<StatusBadge>{data.document.year}</StatusBadge>{/if}
       {#if data.document.needsReview}<StatusBadge tone="warning">Información limitada</StatusBadge>{/if}
     </div>
+    {#if hasDriveLink}
+      <DrivePreview
+        previewUrl={data.document.previewUrl ?? ''}
+        driveUrl={data.document.googleDriveUrl}
+        documentTitle={displayTitle} />
+    {/if}
   </header>
 
   <section class="section panel">
@@ -89,7 +97,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-top: 1rem;
+    margin: 0 0 0.8rem;
   }
 
   dl {

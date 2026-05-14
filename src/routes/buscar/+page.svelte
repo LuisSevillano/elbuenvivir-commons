@@ -3,22 +3,12 @@
   import { categoryLabels, documentTypeLabels } from '$lib/content/labels';
   import type {
     ConsultableTopic,
-    GeneratedTopicReference,
-    GovernanceTopic,
-    TaxonomyTopic,
     SourceDocument,
     TopicCategory,
-    Confidence,
     DocumentType
   } from '$lib/content/types';
 
-  type ReferenceSearchItem = GeneratedTopicReference & {
-    topicTitle: string;
-    category?: TopicCategory;
-    jurisdiction?: string;
-  };
-
-  type SearchKind = 'topic' | 'document' | 'reference';
+  type SearchKind = 'topic' | 'document';
 
   type SearchItem = {
     kind: SearchKind;
@@ -29,24 +19,21 @@
     category?: TopicCategory;
     documentType?: DocumentType;
     jurisdiction?: string;
-    confidence?: Confidence;
     score: number;
   };
 
   let { data }: {
     data: {
       query: string;
-      topics: GovernanceTopic[];
+      topics: ConsultableTopic[];
       documents: SourceDocument[];
-      references: ReferenceSearchItem[];
-      taxonomy: TaxonomyTopic[];
+      categories: TopicCategory[];
     };
   } = $props();
 
   let query = $state('');
   let documentTypeFilter = $state('all');
   let jurisdictionFilter = $state('all');
-  let confidenceFilter = $state('all');
   let categoryFilter = $state('all');
 
   $effect(() => {
@@ -61,7 +48,7 @@
       .toSorted((a, b) => a.localeCompare(b, 'es'))
   );
   const categories = $derived(
-    [...new Set(data.taxonomy.map((topic) => topic.category))].toSorted((a, b) => a.localeCompare(b, 'es'))
+    data.categories.toSorted((a, b) => a.localeCompare(b, 'es'))
   );
 
   function normalize(value: string): string {
@@ -88,11 +75,6 @@
     }, 0);
   }
 
-  function confidenceLabel(value: string): string {
-    const labels: Record<string, string> = { high: 'alta', medium: 'media', low: 'baja' };
-    return labels[value] ?? value;
-  }
-
   function allItems(): SearchItem[] {
     const topicItems: SearchItem[] = data.topics.map((topic) => ({
       kind: 'topic',
@@ -113,20 +95,7 @@
       jurisdiction: document.jurisdiction,
       score: 0
     }));
-    const referenceItems: SearchItem[] = data.references.map((reference) => ({
-      kind: 'reference',
-      title: reference.topicTitle,
-      subtitle: `${reference.documentTitle}${reference.articleOrSection ? ` · ${reference.articleOrSection}` : ''}`,
-      body: [reference.excerpt, reference.tags.join(' '), reference.projectName, reference.jurisdiction].filter(Boolean).join(' '),
-      href: `/documentos/${reference.documentSlug}`,
-      category: reference.category,
-      documentType: reference.documentType,
-      jurisdiction: reference.jurisdiction,
-      confidence: reference.confidence,
-      score: 0
-    }));
-
-    return [...topicItems, ...documentItems, ...referenceItems];
+    return [...topicItems, ...documentItems];
   }
 
   function passesFilters(item: SearchItem): boolean {
@@ -135,10 +104,6 @@
     }
 
     if (jurisdictionFilter !== 'all' && item.jurisdiction !== jurisdictionFilter) {
-      return false;
-    }
-
-    if (confidenceFilter !== 'all' && item.confidence !== confidenceFilter) {
       return false;
     }
 
@@ -163,22 +128,20 @@
   const results = $derived(searchItems());
   const topics = $derived(results.filter((item) => item.kind === 'topic'));
   const documents = $derived(results.filter((item) => item.kind === 'document'));
-  const references = $derived(results.filter((item) => item.kind === 'reference'));
 </script>
 
 <section class="hero">
-  <p class="eyebrow">Búsqueda transversal</p>
-  <h1>Explora temas, documentos y referencias.</h1>
+  <p class="eyebrow">Búsqueda editorial</p>
+  <h1>Busca en la selección pública.</h1>
   <p class="lead">
-    Localiza rápidamente soluciones, documentos relacionados, ejemplos encontrados y decisiones pendientes
-    dentro del atlas comparado.
+    Encuentra temas publicados y documentos originales. La búsqueda no muestra material interno ni referencias sin revisión editorial.
   </p>
 </section>
 
 <section class="section panel search-panel">
   <label>
     Buscar
-    <input bind:value={query} type="search" placeholder="baja, aportaciones, consejo rector..." />
+    <input bind:value={query} type="search" placeholder="baja, aportaciones, estatutos..." />
   </label>
   <div class="filters">
     <label>
@@ -200,15 +163,6 @@
       </select>
     </label>
     <label>
-      Nivel de confianza
-      <select bind:value={confidenceFilter}>
-        <option value="all">Todas</option>
-        <option value="high">Alto</option>
-        <option value="medium">Medio</option>
-        <option value="low">Bajo</option>
-      </select>
-    </label>
-    <label>
       Categoría
       <select bind:value={categoryFilter}>
         <option value="all">Todas</option>
@@ -224,7 +178,6 @@
 <section class="section result-groups">
   {@render ResultGroup('Temas', topics)}
   {@render ResultGroup('Documentos', documents)}
-  {@render ResultGroup('Lecturas relacionadas', references)}
 </section>
 
 {#snippet ResultGroup(title: string, items: SearchItem[])}
@@ -238,9 +191,7 @@
           <div class="result-meta">
             {#if item.kind === 'topic'}<StatusBadge tone="success">Tema</StatusBadge>{/if}
             {#if item.kind === 'document'}<StatusBadge>Documento</StatusBadge>{/if}
-            {#if item.kind === 'reference'}<StatusBadge tone="auto">Lectura relacionada</StatusBadge>{/if}
             {#if item.documentType}<StatusBadge>{documentTypeLabels[item.documentType]}</StatusBadge>{/if}
-            {#if item.confidence}<StatusBadge>Coincidencia {confidenceLabel(item.confidence)}</StatusBadge>{/if}
             {#if item.category}<StatusBadge>{categoryLabels[item.category]}</StatusBadge>{/if}
           </div>
           <h3>{item.title}</h3>

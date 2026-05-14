@@ -1,0 +1,101 @@
+{
+  "slug": "baja_socio",
+  "status": "reviewed",
+  "editorialSummary": [
+    "La salida de una persona socia no es solo un trámite: suele tocar permanencia, vivienda o uso, liquidez del proyecto y confianza interna.",
+    "La documentación revisada permite trabajar este tema con bastante seguridad porque varios estatutos regulan baja voluntaria, baja obligatoria, preaviso, calificación de la baja y efectos económicos.",
+    "Lo delicado no es reconocer el derecho de baja, sino decidir qué consecuencias prácticas tendrá: cuándo se devuelve el dinero, qué ocurre con el derecho de uso y quién asume el riesgo de tesorería.",
+    "Conviene separar una regla estatutaria estable de un protocolo interno más humano para acompañar la transición y evitar conflictos innecesarios."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "exit_types",
+      "question": "¿Qué diferencia práctica habrá entre baja voluntaria, baja obligatoria y expulsión?",
+      "recommendationsForBuenVivir": [
+        "No basta con nombrarlas. El grupo debería aclarar quién decide, qué garantías tiene la persona afectada y qué efectos económicos o de uso se activan en cada caso."
+      ]
+    },
+    {
+      "id": "notice_and_timing",
+      "question": "¿Qué preaviso protege al proyecto sin convertir la salida en un castigo?",
+      "recommendationsForBuenVivir": [
+        "Un preaviso largo puede dar estabilidad financiera, pero también puede ser injusto si no hay excepciones para situaciones personales graves."
+      ]
+    },
+    {
+      "id": "refund_liquidity",
+      "question": "¿La devolución depende de la liquidez o de la entrada de otra persona?",
+      "recommendationsForBuenVivir": [
+        "Esta decisión conviene hablarla pronto porque muchos conflictos aparecen cuando la persona que sale espera una devolución rápida y la cooperativa necesita preservar caja."
+      ]
+    },
+    {
+      "id": "use_right_end",
+      "question": "¿Cuándo termina el derecho de uso o disfrute del espacio común asignado?",
+      "recommendationsForBuenVivir": [
+        "Si el derecho de uso termina con la baja, debe estar claro el calendario de salida, entrega de llaves y responsabilidades pendientes."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "voluntary_exit",
+      "statement": "El derecho a causar baja voluntaria aparece de forma clara en estatutos y normativa cooperativa.",
+      "summary": "No es una materia que convenga dejar solo al RRI: afecta a la condición de persona socia y a derechos básicos."
+    },
+    {
+      "id": "notice_period",
+      "statement": "Varios estatutos trabajan con preaviso y con consecuencias si no se respeta.",
+      "summary": "El preaviso puede proteger al grupo, pero debe formularse con margen para situaciones justificadas."
+    },
+    {
+      "id": "refund_terms",
+      "statement": "El reembolso suele regularse con plazos, posibles deducciones y margen para proteger la estabilidad económica de la cooperativa.",
+      "summary": "Aquí suele aparecer el conflicto real: derecho individual de salida frente a liquidez colectiva."
+    },
+    {
+      "id": "use_transition",
+      "statement": "En proyectos con derecho de uso, la baja puede tener efectos inmediatos sobre la posesión o uso del espacio asignado.",
+      "summary": "Esto debe tratarse con especial cuidado para no mezclar conflicto económico, convivencia y salida habitacional."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "baja_socio-replacement",
+      "statement": "La baja siempre queda coordinada con la entrada de una nueva persona socia.",
+      "reason": "La documentación permite ver que la sustitución puede ser relevante para la estabilidad económica, pero no justifica presentarla como regla general aplicable a todos los proyectos."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Acordar desde el inicio qué parte de la baja debe quedar en Estatutos y qué parte puede tratarse como protocolo interno revisable.",
+    "Definir un preaviso razonable, con excepciones para situaciones personales graves o causas justificadas.",
+    "Separar tres momentos: comunicación de la baja, pérdida efectiva de derechos y liquidación económica.",
+    "No prometer devoluciones inmediatas si la caja del proyecto puede depender de nuevas incorporaciones o de financiación externa.",
+    "Preparar un protocolo de salida que cuide la convivencia, la entrega de espacios y la información económica pendiente."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Derecho de baja voluntaria y tipos básicos de baja.",
+      "Órgano competente y garantías mínimas en baja obligatoria o expulsión.",
+      "Criterios generales de liquidación, deducciones, plazos y relación con el derecho de uso."
+    ],
+    "rri": [
+      "Forma concreta de comunicación y acompañamiento de la salida.",
+      "Calendario interno de transición, entrega de llaves, espacios y responsabilidades pendientes.",
+      "Pautas para coordinar lista de espera o búsqueda de persona sustituta si el grupo decide usar ese mecanismo."
+    ],
+    "notes": [
+      "La revisión jurídica debe ajustar plazos, deducciones y garantías a la legislación aplicable."
+    ]
+  },
+  "referencesToUse": [
+    "docs-estatutos-estatutos-pepu: Artículo 13 sobre baja de la persona socia y efectos sobre cesión de uso.",
+    "docs-estatutos-estatutos-pequenopueblo: Artículo 13 con regulación equivalente de baja, preaviso y efectos.",
+    "docs-estatutos-estatutos-axuntase: Artículo 13 sobre baja obligatoria, audiencia y recurso.",
+    "docs-leyes-normativa-estatal: marco legal cooperativo sobre baja y reembolso de aportaciones."
+  ],
+  "referencesToAvoid": [
+    "No usar referencias genéricas a admisión o lista de espera para afirmar que toda baja debe depender de una persona sustituta.",
+    "No copiar plazos o deducciones de otro proyecto sin revisar legislación aplicable, situación financiera y régimen de uso propio."
+  ]
+}

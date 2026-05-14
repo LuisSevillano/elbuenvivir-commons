@@ -1,0 +1,104 @@
+{
+  "slug": "aportaciones_obligatorias",
+  "status": "reviewed",
+  "editorialSummary": [
+    "Las aportaciones obligatorias son una de las primeras decisiones donde un grupo descubre si está hablando de capital, gasto, financiación, derecho de uso o compromiso comunitario.",
+    "La documentación es útil para trabajar este tema porque aparecen capital social, aportaciones obligatorias, aportaciones voluntarias, cuotas y financiaciones que no integran capital.",
+    "El riesgo práctico es llamar a todo igual. Si el grupo no distingue conceptos, luego será difícil saber qué se devuelve, qué no se devuelve y qué ocurre cuando alguien entra o sale.",
+    "Conviene regular lo estructural con estabilidad y dejar al RRI o a acuerdos revisables los calendarios, incidencias y formas de gestión cotidiana."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "what_is_obligatory",
+      "question": "¿Qué pago es realmente obligatorio y qué función cumple?",
+      "recommendationsForBuenVivir": [
+        "Antes de fijar cantidades, conviene nombrar cada concepto: capital social, cuota, gasto común, préstamo, reserva o pago por uso."
+      ]
+    },
+    {
+      "id": "same_or_different",
+      "question": "¿Todas las personas aportarán lo mismo o habrá diferencias justificadas?",
+      "recommendationsForBuenVivir": [
+        "Si hay diferencias, deben explicarse sin convertirlas en diferencias de poder o prioridad dentro del grupo."
+      ]
+    },
+    {
+      "id": "refund_rule",
+      "question": "¿Qué parte se devuelve y en qué condiciones?",
+      "recommendationsForBuenVivir": [
+        "La regla de devolución debe pensarse junto con baja, entrada de nuevas personas y liquidez del proyecto."
+      ]
+    },
+    {
+      "id": "payment_difficulties",
+      "question": "¿Qué hará el grupo si una persona no puede cumplir el calendario previsto?",
+      "recommendationsForBuenVivir": [
+        "No conviene improvisar ante un impago. El grupo necesita un procedimiento claro que combine responsabilidad, cuidado y viabilidad económica."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "capital_and_obligation",
+      "statement": "Las aportaciones obligatorias suelen formar parte del marco económico estable de la cooperativa.",
+      "summary": "Por eso no deberían tratarse como un detalle operativo menor ni cambiarse sin garantías."
+    },
+    {
+      "id": "different_financing_tools",
+      "statement": "Los documentos distinguen entre aportaciones al capital, cuotas, financiaciones y otros pagos.",
+      "summary": "Esa distinción es práctica: cada concepto puede tener efectos distintos en devolución, contabilidad y derechos."
+    },
+    {
+      "id": "refund_link",
+      "statement": "La aportación obligatoria debe leerse junto con reembolso, transmisión y baja.",
+      "summary": "Una regla de entrada que no contempla la salida deja un conflicto preparado para el futuro."
+    },
+    {
+      "id": "statutes_and_operation",
+      "statement": "La documentación justifica separar reglas económicas esenciales de calendarios y gestión cotidiana.",
+      "summary": "Esto permite estabilidad jurídica sin bloquear ajustes prácticos del grupo."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "statement": "Existe una única forma correcta de regular aportaciones obligatorias en cohousing.",
+      "reason": "Los documentos muestran soluciones distintas según proyecto, fase, financiación y régimen de uso. La regla debe adaptarse al caso."
+    },
+    {
+      "statement": "Los calendarios y detalles de pago deben estar siempre en Estatutos.",
+      "reason": "La documentación permite defender que lo estructural tenga estabilidad, pero los detalles de gestión pueden requerir flexibilidad."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Crear un pequeño mapa económico antes de redactar: qué es capital, qué es cuota, qué es gasto, qué es financiación y qué se devuelve.",
+    "No aprobar aportaciones desiguales sin decidir expresamente que no generan más voto ni autoridad interna.",
+    "Vincular aportaciones obligatorias con baja, reembolso y entrada de nuevas personas desde el primer borrador.",
+    "Dejar en Estatutos la arquitectura económica básica y llevar al RRI calendarios, incidencias y procedimientos de comunicación.",
+    "Revisar con asesoría cualquier fórmula que mezcle capital, derecho de uso, financiación externa o devolución condicionada."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Capital social mínimo o criterio básico de aportación obligatoria.",
+      "Naturaleza de cada aportación y relación con derechos económicos y políticos.",
+      "Criterios generales de exigibilidad, devolución, transmisión y consecuencias del incumplimiento."
+    ],
+    "rri": [
+      "Calendarios concretos de pago y recordatorios internos.",
+      "Procedimiento para incidencias, fraccionamientos o retrasos.",
+      "Comunicación económica periódica para que el grupo entienda caja, gastos y compromisos."
+    ],
+    "notes": [
+      "La frontera entre Estatutos, RRI y acuerdos de asamblea debe revisarse según legislación aplicable y diseño económico real."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-estatal: artículos sobre aportaciones obligatorias y financiación que no integra capital social.",
+    "docs-estatutos-estatutos-entrepatios: capital social y financiaciones separadas del capital.",
+    "docs-estatutos-estatutos-losnidales: capital social y financiaciones que no integran capital.",
+    "docs-estatutos-estatutos-laseronda-org: aportaciones obligatorias y equivalencia entre personas socias."
+  ],
+  "referencesToAvoid": [
+    "No usar una lista larga de proyectos como sustituto de una decisión económica propia.",
+    "No copiar importes, porcentajes o calendarios sin conocer inmueble, financiación, liquidez y perfil económico del grupo."
+  ]
+}

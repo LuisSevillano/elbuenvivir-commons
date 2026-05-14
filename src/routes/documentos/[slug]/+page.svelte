@@ -8,20 +8,15 @@
     getDocumentSummary
   } from '$lib/content/documentDisplay';
   import { documentTypeLabels } from '$lib/content/labels';
-  import type { GeneratedTopicReference, GovernanceTopic, SourceDocument } from '$lib/content/types';
+  import type { GovernanceTopic, SourceDocument } from '$lib/content/types';
 
   let { data }: {
     data: {
       document: SourceDocument;
       curatedTopics: GovernanceTopic[];
-      curatedTopicSlugs: string[];
-      topicTitles: Record<string, string>;
-      generatedReferences: GeneratedTopicReference[];
     };
   } = $props();
 
-  const curatedTopicSlugs = $derived(new Set(data.curatedTopicSlugs));
-  const topicTitles = $derived(data.topicTitles);
   const displayTitle = $derived(getDocumentDisplayTitle(data.document));
   const summary = $derived(getDocumentSummary(data.document));
   const projectName = $derived(getDocumentProjectName(data.document));
@@ -70,26 +65,6 @@
     {/if}
   </section>
 
-  <section class="section panel">
-    <h2>Lecturas relacionadas</h2>
-    {#if data.generatedReferences.length === 0}
-      <p class="empty-state">No hay referencias detectadas para este documento.</p>
-    {:else}
-        <ul>
-        {#each data.generatedReferences as reference}
-          <li>
-            <StatusBadge tone="auto">Lectura relacionada</StatusBadge>
-            {#if curatedTopicSlugs.has(reference.topicSlug)}
-              <a href={`/temas/${reference.topicSlug}`}>{topicTitles[reference.topicSlug] ?? reference.topicSlug}</a>
-            {:else}
-              <span>{topicTitles[reference.topicSlug] ?? reference.topicSlug}</span>
-            {/if}
-            <span>: {reference.excerpt}</span>
-          </li>
-        {/each}
-      </ul>
-    {/if}
-  </section>
 </article>
 
 <style>

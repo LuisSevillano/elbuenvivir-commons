@@ -6,13 +6,14 @@
 
   type TopicCardTopic = GovernanceTopic | ConsultableTopic;
 
-  let { topic, referenceCount = 0 }: { topic: TopicCardTopic; referenceCount?: number } = $props();
+  let { topic }: { topic: TopicCardTopic; referenceCount?: number } = $props();
 
   const statusTone = $derived(topic.status === 'reviewed' ? 'success' : 'warning');
   const availabilityBadge = $derived('availabilityBadge' in topic ? topic.availabilityBadge : null);
   const editorialStatus = $derived('editorialStatus' in topic ? topic.editorialStatus : null);
   const editorialTone = $derived(editorialStatus === 'reviewed' ? 'success' : editorialStatus === 'exploratory' ? 'neutral' : 'warning');
   const placement = $derived(topic.governancePlacement.recommendedPrimaryLocation);
+  const showPlacement = $derived(editorialStatus !== 'insufficient_evidence' && editorialStatus !== 'evidencia_insuficiente');
 </script>
 
 <a class="topic-card" href={`/temas/${topic.slug}`}>
@@ -28,6 +29,7 @@
   </div>
   <h2>{topic.title}</h2>
   <p>{topic.shortDescription}</p>
+  {#if showPlacement}
   <div class="card-footer">
     <div class="placement-key" aria-label="Ubicación normativa recomendada">
       <span class:active={placement === 'estatutos' || placement === 'mixed'} class="placement-pill statutes">Estatutos</span>
@@ -36,8 +38,8 @@
         <span class="placement-pill neutral active">Caso por caso</span>
       {/if}
     </div>
-    <span class="reference-count">{referenceCount} referencias</span>
   </div>
+  {/if}
 </a>
 
 <style>
@@ -123,9 +125,4 @@
     color: #525252;
   }
 
-  .reference-count {
-    color: #5e5140;
-    font-size: 0.9rem;
-    font-weight: 700;
-  }
 </style>

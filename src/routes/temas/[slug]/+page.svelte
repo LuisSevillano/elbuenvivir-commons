@@ -5,18 +5,17 @@
   import ConflictingApproaches from '$lib/components/ConflictingApproaches.svelte';
   import DecisionChecklist from '$lib/components/DecisionChecklist.svelte';
   import EditorialSection from '$lib/components/EditorialSection.svelte';
-  import EvidenceBadge from '$lib/components/EvidenceBadge.svelte';
   import GovernanceSplit from '$lib/components/GovernanceSplit.svelte';
   import RelatedTopicsCard from '$lib/components/RelatedTopicsCard.svelte';
   import SuggestedClauseBlock from '$lib/components/SuggestedClauseBlock.svelte';
   import TopicHero from '$lib/components/TopicHero.svelte';
+  import { canShowDecisionModels, canShowSuggestedClauses } from '$lib/content/editorialPolicy';
   import { validatedTopicStatusLabels } from '$lib/content/validatedTopicSchema';
   import type {
     ConsultableTopic,
     EditorialReview,
     EvidenceClaim,
     EvidenceTopicLayer,
-    GeneratedTopicReference,
     GeneratedTopicSynthesis,
     SolutionApproach,
     TopicDecisionModel,
@@ -30,7 +29,6 @@
       topics: ConsultableTopic[];
       decisionModel: TopicDecisionModel | null;
       evidenceLayer: EvidenceTopicLayer | null;
-      generatedReferences: GeneratedTopicReference[];
       synthesis: GeneratedTopicSynthesis | null;
       editorialReview: EditorialReview | null;
       validatedTopic: ValidatedTopic | null;
@@ -44,30 +42,40 @@
   const editorialReview = $derived(data.editorialReview);
   const validatedTopic = $derived(data.validatedTopic);
 
-  const filteredDecisionModel = $derived(filterDecisionModel(decisionModel, validatedTopic));
-  const decisionQuestions = $derived(compactQuestions(topic, filteredDecisionModel, synthesis, validatedTopic));
+  const editorialStatusKey = $derived(validatedTopic?.status ?? topic.editorialStatus);
+  const normalizedStatusKey = $derived(editorialStatusKey === 'evidencia_insuficiente' ? 'insufficient_evidence' : editorialStatusKey);
+  const isReviewed = $derived(normalizedStatusKey === 'reviewed');
+  const isExploratory = $derived(normalizedStatusKey === 'exploratory');
+  const isInsufficientState = $derived(normalizedStatusKey === 'insufficient_evidence');
+  const filteredDecisionModel = $derived(canShowDecisionModels(topic) ? filterDecisionModel(decisionModel, validatedTopic) : null);
+  const decisionQuestions = $derived(
+    validatedTopic || isReviewed
+      ? compactQuestions(topic, filteredDecisionModel, synthesis, validatedTopic)
+      : topic.decisionsForBuenVivir.slice(0, 6)
+  );
   const solutionModels = $derived(compactSolutionModels(filteredDecisionModel, validatedTopic));
-  const tradeoffsAndRisks = $derived(compactTradeoffsAndRisks(topic, filteredDecisionModel, synthesis, validatedTopic));
-  const recommendations = $derived(compactRecommendations(topic, filteredDecisionModel, synthesis, validatedTopic));
-  const statutesItems = $derived(compactStatutes(topic, filteredDecisionModel, synthesis, validatedTopic));
-  const rriItems = $derived(compactRri(topic, filteredDecisionModel, synthesis, validatedTopic));
+  const tradeoffsAndRisks = $derived(
+    validatedTopic || isReviewed ? compactTradeoffsAndRisks(topic, filteredDecisionModel, synthesis, validatedTopic) : topic.risks.slice(0, 5)
+  );
+  const recommendations = $derived(isReviewed ? compactRecommendations(topic, filteredDecisionModel, synthesis, validatedTopic) : []);
+  const statutesItems = $derived(isReviewed ? compactStatutes(topic, filteredDecisionModel, synthesis, validatedTopic) : []);
+  const rriItems = $derived(isReviewed ? compactRri(topic, filteredDecisionModel, synthesis, validatedTopic) : []);
 
   const unsupportedClaimIds = $derived(new Set((validatedTopic?.unsupportedClaims ?? []).flatMap((claim) => [claim.id, claim.claimId].filter(Boolean) as string[])));
   const unsupportedStatements = $derived(new Set((validatedTopic?.unsupportedClaims ?? []).map((claim) => claim.statement).filter(Boolean) as string[]));
   const evidenceClaims = $derived((evidenceLayer?.claims ?? []).filter((claim) => !isUnsupportedClaim(claim, unsupportedClaimIds, unsupportedStatements)));
   const evidenceConflicts = $derived(evidenceLayer?.conflictingApproaches ?? []);
   const evidenceExtracts = $derived((evidenceLayer?.extracts ?? []).filter((extract) => !unsupportedClaimIds.has(extract.claimId)));
-  const hasEvidence = $derived(evidenceClaims.length > 0);
+  const hasEvidence = $derived(isReviewed && evidenceClaims.length > 0);
   const evidenceHealth = $derived(validatedTopic?.status === 'insufficient_evidence' || validatedTopic?.status === 'evidencia_insuficiente' ? 'insufficient' : evidenceLayer?.evidenceHealth);
   const isWeak = $derived(evidenceHealth === 'weak');
-  const isInsufficient = $derived(evidenceHealth === 'insufficient');
 
   const explicitClaims = $derived(evidenceClaims.filter((c) => c.evidenceType === 'explicit'));
   const weakClaims = $derived(evidenceClaims.filter((c) => c.evidenceType === 'weak_evidence'));
-  const inferredClaims = $derived(evidenceClaims.filter((c) => c.evidenceType === 'inferred'));
-  const editorialStatusKey = $derived(validatedTopic?.status ?? topic.editorialStatus);
+  const exploratoryIndications = $derived(unique([...topic.minimumContents, ...tradeoffsAndRisks]).slice(0, 5));
+  const exploratoryLimits = $derived(unique([...topic.risks, 'Revisar documentos concretos antes de convertirlo en acuerdo.']).slice(0, 4));
   const editorialStatus = $derived(editorialStatusLabel(validatedTopic, editorialReview, topic.editorialStatus));
-  const editorialStatusClass = $derived(editorialStatusKey === 'evidencia_insuficiente' ? 'insufficient_evidence' : editorialStatusKey);
+  const editorialStatusClass = $derived(normalizedStatusKey);
 
   function compactQuestions(
     currentTopic: ConsultableTopic,
@@ -216,7 +224,7 @@
 
   <section class="editorial-status {editorialStatusClass}">
     <strong>{editorialStatus}</strong>
-    {#if validatedTopic && isInsufficient}
+    {#if validatedTopic && isInsufficientState}
       <span>La revisión editorial concluye que el material disponible no permite sostener conclusiones comparadas.</span>
     {:else if validatedTopic}
       <span>Esta página prioriza la revisión editorial estructurada. El resto del material queda subordinado a ese criterio.</span>
@@ -233,6 +241,56 @@
     </EditorialSection>
   {/if}
 
+  {#if isInsufficientState}
+    <section class="minimal-page">
+      <div class="health-warning insufficient">
+        <strong>No hay suficiente base documental.</strong>
+        La documentación revisada no permite sacar conclusiones útiles ni proponer una regla. Este tema queda como conversación pendiente.
+      </div>
+
+      <EditorialSection title="Preguntas abiertas" density="compact">
+        {#if decisionQuestions.length > 0}
+          <DecisionChecklist title="Para hablar antes de decidir" items={decisionQuestions} priority="high" />
+        {:else}
+          <p class="empty-note">Todavía no hay preguntas editoriales suficientemente claras.</p>
+        {/if}
+      </EditorialSection>
+
+      {#if tradeoffsAndRisks.length > 0}
+        <EditorialSection title="Límites de la documentación" density="compact">
+          <CompactInsightList items={tradeoffsAndRisks} limit={5} />
+        </EditorialSection>
+      {/if}
+
+      {#if validatedTopic?.referencesToAvoid.length}
+        <EditorialSection title="No usar como base" density="compact">
+          <CompactInsightList items={validatedTopic.referencesToAvoid} limit={6} />
+        </EditorialSection>
+      {/if}
+    </section>
+  {:else if isExploratory}
+    <section class="minimal-page">
+      <EditorialSection title="Qué está en discusión" density="compact">
+        {#if decisionQuestions.length > 0}
+          <DecisionChecklist title="Preguntas iniciales" items={decisionQuestions} priority="high" />
+        {:else}
+          <p class="empty-note">Este tema necesita una formulación editorial más precisa.</p>
+        {/if}
+      </EditorialSection>
+
+      {#if exploratoryIndications.length > 0}
+        <EditorialSection title="Indicios útiles" density="compact">
+          <CompactInsightList items={exploratoryIndications} limit={5} />
+        </EditorialSection>
+      {/if}
+
+      {#if exploratoryLimits.length > 0}
+        <EditorialSection title="Qué no está claro" density="compact">
+          <CompactInsightList items={exploratoryLimits} limit={4} />
+        </EditorialSection>
+      {/if}
+    </section>
+  {:else}
   <section class="workbench">
     <EditorialSection title="Qué debe decidir el grupo" density="compact">
       {#if decisionQuestions.length > 0}
@@ -242,11 +300,11 @@
       {/if}
     </EditorialSection>
 
-    {#if solutionModels.length > 0 && !isInsufficient}
+    {#if solutionModels.length > 0}
       <EditorialSection
-        title={isWeak ? 'Posibles enfoques a contrastar' : 'Enfoques documentados'}
+        title="Opciones que conviene comparar"
         density="normal"
-        subtitle={isWeak ? 'Identificados en los documentos, pero con evidencia limitada. Son hipótesis a validar.' : undefined}>
+        subtitle="Otros proyectos lo resuelven de maneras distintas; conviene elegir con cuidado.">
         <div class="solution-grid">
           {#each solutionModels as approach}
             <CompactSolutionModel {approach} />
@@ -256,7 +314,7 @@
     {/if}
 
     {#if tradeoffsAndRisks.length > 0}
-      <EditorialSection title="Contrapartidas y riesgos" density="compact">
+      <EditorialSection title="Qué suele generar conflicto" density="compact">
         <CompactInsightList items={tradeoffsAndRisks} limit={6} />
       </EditorialSection>
     {/if}
@@ -268,21 +326,16 @@
     {/if}
 
     {#if recommendations.length > 0}
-      <EditorialSection title="Recomendación para El Buen Vivir" density="compact">
+      <EditorialSection title="Qué conviene decidir pronto" density="compact">
         <CompactInsightList items={recommendations} limit={5} />
       </EditorialSection>
     {/if}
 
-    {#if filteredDecisionModel && filteredDecisionModel.limits.length > 0 && !validatedTopic}
-      <EditorialSection title="Si falta evidencia" density="compact">
-        <CompactInsightList items={filteredDecisionModel.limits} limit={3} />
-      </EditorialSection>
-    {/if}
   </section>
 
   {#if validatedTopic}
     <section class="evidence-section">
-      <EditorialSection title="Hallazgos revisados" subtitle="Conclusiones que pasan la revisión estructurada" density="compact">
+      <EditorialSection title="Lo que sí puede sostenerse" density="compact">
         {#if validatedTopic.supportedFindings.length > 0}
           <ul class="findings-list">
             {#each validatedTopic.supportedFindings as finding}
@@ -293,12 +346,12 @@
             {/each}
           </ul>
         {:else}
-          <p class="empty-note">La revisión no confirma hallazgos documentales suficientes para este tema.</p>
+          <p class="empty-note">La revisión no confirma conclusiones documentales suficientes para este tema.</p>
         {/if}
       </EditorialSection>
 
       {#if validatedTopic.unsupportedClaims.length > 0}
-        <EditorialSection title="No usar como conclusión" subtitle="Ideas o modelos descartados por la revisión" density="compact">
+        <EditorialSection title="No usar como conclusión" density="compact">
           <ul class="unsupported-list">
             {#each validatedTopic.unsupportedClaims as claim}
               <li>
@@ -311,7 +364,7 @@
       {/if}
 
       {#if validatedTopic.referencesToUse.length > 0 || validatedTopic.referencesToAvoid.length > 0}
-        <EditorialSection title="Referencias editoriales" density="compact">
+        <EditorialSection title="Documentos clave" density="compact">
           <div class="reference-guidance">
             {#if validatedTopic.referencesToUse.length > 0}
               <div>
@@ -329,13 +382,6 @@
         </EditorialSection>
       {/if}
     </section>
-  {:else if isInsufficient}
-    <section class="evidence-section">
-      <div class="health-warning insufficient">
-        <strong>No hay suficiente evidencia documental directa.</strong>
-        Los documentos analizados no contienen suficiente información sobre este tema para presentar conclusiones comparadas. Las preguntas y observaciones que aparecen a continuación son hipótesis de trabajo que El Buen Vivir debe resolver mediante diálogo interno, apoyo externo o búsqueda de referencias adicionales.
-      </div>
-    </section>
   {:else if hasEvidence}
     <section class="evidence-section">
       {#if isWeak}
@@ -345,35 +391,14 @@
           Las ideas se presentan como hipótesis de trabajo y deben contrastarse antes de redactar acuerdos.
         </div>
       {/if}
-       <EditorialSection title="Lectura documental" subtitle="Lo que dicen realmente los documentos" density="compact">
+       <EditorialSection title="Base documental" density="compact">
         {#if explicitClaims.length > 0}
           <div class="claims-group">
-            <h4 class="claims-heading">Evidencia explícita</h4>
+            <h4 class="claims-heading">La documentación permite afirmar</h4>
             <ul class="claims-list explicit">
               {#each explicitClaims as claim}
                 <li>
                   <span class="claim-text">{claim.statement}</span>
-                  <EvidenceBadge type={claim.evidenceType} confidence={claim.confidence} compact />
-                  {#if claim.supportingReferences.length > 0}
-                    <span class="ref-count">{claim.supportingReferences.length} referencia(s)</span>
-                  {/if}
-                </li>
-              {/each}
-            </ul>
-          </div>
-        {/if}
-
-        {#if inferredClaims.length > 0}
-          <div class="claims-group">
-            <h4 class="claims-heading">Evidencia inferida</h4>
-            <ul class="claims-list inferred">
-              {#each inferredClaims as claim}
-                <li>
-                  <span class="claim-text">{claim.statement}</span>
-                  <EvidenceBadge type={claim.evidenceType} confidence={claim.confidence} compact />
-                  {#if claim.supportingReferences.length > 0}
-                    <span class="ref-count">{claim.supportingReferences.length} referencia(s)</span>
-                  {/if}
                 </li>
               {/each}
             </ul>
@@ -381,7 +406,7 @@
         {/if}
 
         {#if evidenceConflicts.length > 0}
-          <EditorialSection title="Enfoques contradictorios detectados" density="compact">
+          <EditorialSection title="Donde otros proyectos difieren" density="compact">
             <ConflictingApproaches approaches={evidenceConflicts} />
           </EditorialSection>
         {/if}
@@ -393,7 +418,6 @@
               {#each weakClaims as claim}
                 <li>
                   <span class="claim-text">{claim.statement}</span>
-                  <EvidenceBadge type={claim.evidenceType} confidence={claim.confidence} compact />
                   {#if claim.explanation}
                     <span class="claim-note">{claim.explanation}</span>
                   {/if}
@@ -406,59 +430,24 @@
     </section>
   {/if}
 
-  {#if isInsufficient && !validatedTopic}
-    <section class="evidence-section">
-      <EditorialSection title="Qué debe decidir El Buen Vivir" subtitle="Preguntas para trabajar en grupo" density="compact">
-        {#if decisionQuestions.length > 0}
-          <DecisionChecklist title="Preguntas de trabajo" items={decisionQuestions} priority="high" />
-        {:else}
-          <p class="empty-note">No se han encontrado preguntas claras en los documentos analizados.</p>
-        {/if}
-      </EditorialSection>
-
-      {#if solutionModels.length > 0}
-        <EditorialSection title="Hipótesis de trabajo" subtitle="Ideas presentes en el material revisado, con evidencia insuficiente para presentarlas como enfoques contrastados" density="compact">
-          <div class="solution-grid">
-            {#each solutionModels as approach}
-              <CompactSolutionModel {approach} />
-            {/each}
-          </div>
-        </EditorialSection>
-      {/if}
-
-      {#if tradeoffsAndRisks.length > 0}
-        <EditorialSection title="Contrapartidas y riesgos a considerar" density="compact">
-          <CompactInsightList items={tradeoffsAndRisks} limit={6} />
-        </EditorialSection>
-      {/if}
-
-      <EditorialSection title="Documentos donde buscar" density="compact">
-        <p class="explore-note">Este tema tiene poca cobertura en los documentos analizados. Para avanzar, el grupo puede consultar:</p>
-        <ul class="explore-list">
-          <li>Reglamentos de Régimen Interior de otras cooperativas.</li>
-          <li>Actas de asamblea y acuerdos de convivencia de proyectos existentes.</li>
-          <li>Guías sectoriales de cohousing y vivienda cooperativa.</li>
-          <li>Asesoramiento jurídico especializado en derecho cooperativo.</li>
-        </ul>
-      </EditorialSection>
-    </section>
   {/if}
 
+  {#if isReviewed}
   <EditorialSection
-    title="Profundizar"
-    subtitle={isWeak || isInsufficient ? 'Material para contrastar, no conclusiones' : 'Evidencia y material de apoyo'}
+    title="Documentos para contrastar"
+    subtitle="Trazabilidad de lectura, no sustituto de revisión jurídica"
     density="compact">
     <CollapsibleReferences
       decisionModel={filteredDecisionModel}
-      generatedReferences={data.generatedReferences}
       evidenceExtracts={evidenceExtracts} />
 
-    {#if topic.suggestedClause}
+    {#if topic.suggestedClause && canShowSuggestedClauses(topic)}
       <div class="secondary-block">
         <SuggestedClauseBlock clause={topic.suggestedClause} />
       </div>
     {/if}
   </EditorialSection>
+  {/if}
 
   {#if topic.relatedTopics && topic.relatedTopics.length > 0}
     <EditorialSection title="Temas relacionados" density="compact">
@@ -470,6 +459,7 @@
 <style>
   .topic-page { max-width: 70ch; margin: 0 auto; }
   .workbench { display: grid; gap: 0.35rem; }
+  .minimal-page { display: grid; gap: 0.45rem; }
   .editorial-status {
     display: grid; gap: 0.2rem; margin: -0.55rem 0 1rem; padding: 0.7rem 0.85rem;
     border: 1px solid var(--border); border-radius: 4px; background: #fafafa;
@@ -492,7 +482,6 @@
     padding: 0.5rem 0.65rem; border-radius: 4px; font-size: 0.88rem; line-height: 1.35;
   }
   .claims-list.explicit li { border: 1px solid #bbf7d0; background: #f0fdf4; }
-  .claims-list.inferred li { border: 1px solid #fde68a; background: #fffbeb; }
   .claims-list.weak li { border: 1px solid #fecaca; background: #fef2f2; }
   .claim-text { flex: 1 1 auto; min-width: 0; }
   .ref-count { color: var(--muted); font-size: 0.76rem; white-space: nowrap; }

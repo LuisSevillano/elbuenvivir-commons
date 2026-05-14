@@ -18,10 +18,6 @@
       : 'Ejemplo encontrado en los documentos analizados. Conviene revisarlo antes de usarlo como criterio.'
   );
 
-  function confidenceLabel(value: string): string {
-    const labels: Record<string, string> = { high: 'alta', medium: 'media', low: 'baja' };
-    return labels[value] ?? value;
-  }
 </script>
 
 <article class="reference-card">
@@ -33,9 +29,6 @@
       {/if}
     {#if documentType}
       <StatusBadge>{documentTypeLabels[documentType]}</StatusBadge>
-    {/if}
-    {#if reference.confidence}
-      <StatusBadge>Coincidencia {confidenceLabel(reference.confidence)}</StatusBadge>
     {/if}
   </div>
   <h3>{title}</h3>

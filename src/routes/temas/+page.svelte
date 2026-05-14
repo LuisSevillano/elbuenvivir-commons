@@ -31,7 +31,7 @@
   <p class="eyebrow">Temas</p>
   <h1>Navegación por decisiones, no por documentos.</h1>
   <p class="lead">
-    El atlas prioriza pocos temas con utilidad editorial real. Algunos están revisados, otros son
+    La selección pública prioriza pocos temas con utilidad editorial real. Algunos están revisados, otros son
     exploratorios y otros quedan marcados como evidencia insuficiente para evitar falsas certezas.
   </p>
 </section>
@@ -53,7 +53,7 @@
     {#if priorityTopics.length > 0}
       <div class="grid">
         {#each priorityTopics as topic}
-          <TopicCard {topic} referenceCount={topic.referenceCount} />
+          <TopicCard {topic} />
         {/each}
       </div>
     {:else}

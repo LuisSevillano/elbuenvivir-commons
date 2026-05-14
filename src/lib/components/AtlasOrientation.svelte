@@ -1,32 +1,28 @@
 <section class="atlas-orientation">
-	<h2>Cómo explorar el atlas</h2>
+	<h2>Cómo usar la selección</h2>
 
 	<div class="orientation-grid">
 		<div class="orient-block">
 			<h3><a href="/temas">Temas</a></h3>
 			<p>
-				Para explorar cuestiones concretas: baja de personas socias, aportaciones económicas,
-				convivencia, invitados, toma de decisiones o uso de espacios comunes. Cada tema distingue
-				entre evidencia documental sólida, enfoques detectados, hipótesis de trabajo y cuestiones
-				que requieren interpretación prudente.
+				Para preparar conversaciones concretas: qué decidir pronto, qué suele generar conflicto y qué
+				no conviene convertir todavía en regla.
 			</p>
 		</div>
 
 		<div class="orient-block">
 			<h3><a href="/documentos">Documentos</a></h3>
 			<p>
-				Para consultar directamente estatutos, reglamentos internos, leyes y materiales de
-				referencia utilizados en el análisis comparado. La herramienta permite recorrer el corpus
-				documental sin necesidad de leer todos los documentos completos desde el principio.
+				Para contrastar la lectura editorial con estatutos, reglamentos internos, leyes y guías originales.
+				Los documentos dan trazabilidad; no sustituyen la revisión del caso propio.
 			</p>
 		</div>
 
 		<div class="orient-block">
 			<h3><a href="/temas">Prioridad editorial</a></h3>
 			<p>
-				Para empezar por pocos temas útiles antes que por una cobertura amplia. La navegación distingue
-				temas revisados, exploratorios y temas con evidencia insuficiente, de modo que cada lectura tenga
-				el peso editorial adecuado.
+				Para distinguir lo que se puede usar como punto de partida, lo que solo abre preguntas y lo que
+				la documentación no permite concluir.
 			</p>
 		</div>
 	</div>

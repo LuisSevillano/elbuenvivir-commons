@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { relationshipLabel } from '$lib/content/labels';
   import type { GovernanceTopic } from '$lib/content/types';
 
   interface RelatedTopic {
@@ -23,6 +22,7 @@
     }
     return map;
   });
+  const visibleRelations = $derived(relatedTopics.filter((relation) => topicsMap().has(relation.topicSlug)));
 
   function getRelationText(relationship: string): string {
     const texts: Record<string, string> = {
@@ -37,12 +37,12 @@
   }
 </script>
 
-{#if relatedTopics && relatedTopics.length > 0}
+{#if visibleRelations.length > 0}
   <div class="related-topics">
     <h3>Temas relacionados</h3>
     <p class="lead">Este tema no está aislado. Se relaciona con otras cuestiones de gobernanza:</p>
     <ul class="relations">
-      {#each relatedTopics as relation}
+      {#each visibleRelations as relation}
         {@const related = topicsMap().get(relation.topicSlug)}
         {#if related}
           <li class="relation-item">

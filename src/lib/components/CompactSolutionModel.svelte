@@ -1,6 +1,5 @@
 <script lang="ts">
   import type { SolutionApproach } from '$lib/content/types';
-  import EvidenceBadge from './EvidenceBadge.svelte';
 
   interface Props {
     approach: SolutionApproach;
@@ -13,18 +12,6 @@
   const suitableFor = $derived(approach.suitableFor.slice(0, 2));
   const projectCount = $derived(approach.detectedInProjects.length);
 
-  function evidenceTypeFromLevel(level: string): 'explicit' | 'inferred' | 'weak_evidence' {
-    if (level === 'high') return 'explicit';
-    if (level === 'medium') return 'inferred';
-    return 'weak_evidence';
-  }
-
-  function evidenceConfidence(level: string): 'high' | 'medium' | 'low' {
-    if (level === 'high') return 'high';
-    if (level === 'medium') return 'medium';
-    return 'low';
-  }
-
   function approachEvidenceLabel(): string {
     if (approach.evidenceLevel === 'high') return 'Práctica explícitamente documentada';
     if (approach.evidenceLevel === 'medium') return 'Combinación de evidencia explícita e inferida';
@@ -35,7 +22,6 @@
 <article class="solution-model">
   <header>
     <h3>{approach.name}</h3>
-    <EvidenceBadge type={evidenceTypeFromLevel(approach.evidenceLevel)} confidence={evidenceConfidence(approach.evidenceLevel)} />
   </header>
 
   <p class="summary">{approach.summary}</p>

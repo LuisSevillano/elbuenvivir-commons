@@ -1,0 +1,101 @@
+{
+  "slug": "desigualdad_aportaciones",
+  "status": "reviewed",
+  "editorialSummary": [
+    "Este tema es central para El Buen Vivir porque una diferencia económica inicial puede convertirse, si no se cuida, en una diferencia de poder, expectativa o prioridad de uso.",
+    "La documentación permite sostener una idea prudente: las aportaciones pueden tener efectos económicos distintos, pero no deberían traducirse automáticamente en más voto, más voz o más derecho de uso.",
+    "La parte difícil no está solo en permitir o no aportaciones desiguales, sino en explicar qué significan, cómo se documentan y cómo se devuelven si alguien sale.",
+    "Conviene hablarlo antes de redactar, porque muchas tensiones aparecen tarde: cuando entra una nueva persona, cuando alguien no puede aportar igual o cuando una socia sale y pide liquidación."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "economic_difference",
+      "question": "¿Qué diferencias económicas son aceptables sin romper la igualdad cooperativa?",
+      "recommendationsForBuenVivir": [
+        "El grupo debería distinguir entre capacidad de aportar, derechos políticos, derechos de uso y expectativas de devolución. Mezclarlos suele generar conflicto."
+      ]
+    },
+    {
+      "id": "political_rights",
+      "question": "¿Queda claro que aportar más no da más voto ni prioridad comunitaria?",
+      "recommendationsForBuenVivir": [
+        "Si se admiten aportaciones distintas, conviene decir expresamente qué no cambian: voto, participación, trato comunitario y acceso a decisiones."
+      ]
+    },
+    {
+      "id": "refund_and_exit",
+      "question": "¿Cómo se devuelve una aportación desigual si la persona sale?",
+      "recommendationsForBuenVivir": [
+        "La salida es donde la desigualdad económica se vuelve más sensible. Conviene definir criterios de reembolso antes de que exista un caso concreto."
+      ]
+    },
+    {
+      "id": "future_members",
+      "question": "¿Qué ocurrirá con nuevas incorporaciones si el nivel económico inicial no es replicable?",
+      "recommendationsForBuenVivir": [
+        "Una regla pensada para el grupo fundador puede ser injusta o inviable para futuras entradas si no se revisa con anticipación."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "one_member_one_vote",
+      "statement": "La igualdad política de las personas socias debe protegerse aunque existan diferencias económicas.",
+      "summary": "El principio una persona, un voto es el límite editorial más importante para no convertir aportación económica en poder interno."
+    },
+    {
+      "id": "economic_rights_separate",
+      "statement": "La documentación permite separar derechos económicos de derechos políticos.",
+      "summary": "Esto abre espacio para regular aportaciones distintas sin romper el funcionamiento democrático, siempre que se explique bien."
+    },
+    {
+      "id": "refund_conditions",
+      "statement": "Las condiciones de reembolso necesitan una regla propia cuando hay aportaciones de distinta naturaleza o cuantía.",
+      "summary": "El conflicto no aparece al aportar, sino al salir, transmitir o actualizar derechos económicos."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "desigualdad_aportaciones-voluntary_contributions",
+      "statement": "Las aportaciones voluntarias adicionales están claramente permitidas y reguladas en todos los proyectos relevantes.",
+      "reason": "Hay referencias útiles sobre aportaciones voluntarias, pero parte del material aparece mezclado con índices, guías o contextos generales. No conviene convertirlo en afirmación universal."
+    },
+    {
+      "claimId": "desigualdad_aportaciones-unequal_effects",
+      "statement": "Las aportaciones desiguales nunca alteran derechos de uso ni prioridad.",
+      "reason": "Es una orientación prudente, pero la documentación no permite afirmarla como regla cerrada para cualquier diseño cooperativo."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Decidir por escrito qué consecuencias no tendrá aportar más: no más voto, no más prioridad automática y no más autoridad informal.",
+    "Separar aportaciones obligatorias, aportaciones voluntarias, préstamos, cuotas y pagos por uso con nombres distintos y efectos distintos.",
+    "Acordar qué ocurre si una persona no puede igualar la aportación inicial prevista por el grupo fundador.",
+    "Definir criterios de devolución antes de que haya una baja, para evitar que el conflicto económico llegue cuando la relación ya está deteriorada.",
+    "Revisar jurídicamente cualquier fórmula que vincule dinero, uso de vivienda o posición societaria."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Principio de igualdad política y una persona, un voto.",
+      "Naturaleza de las aportaciones y efectos económicos básicos.",
+      "Criterios generales de reembolso, transmisión y ausencia de privilegios políticos."
+    ],
+    "rri": [
+      "Calendario de pagos, comunicación interna y seguimiento de compromisos económicos.",
+      "Procedimiento para tratar dificultades de pago o aportaciones no homogéneas.",
+      "Pautas de transparencia para que el grupo entienda qué aporta cada concepto y qué derechos genera."
+    ],
+    "notes": [
+      "Si la desigualdad económica afecta indirectamente al uso, la regla debe revisarse con asesoría jurídica antes de aprobarse."
+    ]
+  },
+  "referencesToUse": [
+    "docs-estatutos-estatutos-tarocohousing: regulación de capital social, aportaciones y reembolso rehusable.",
+    "docs-estatutos-estatutos-senior-cohousing-huelva: artículo sobre aportaciones obligatorias y voluntarias.",
+    "docs-estatutos-estatutos-entrepatios: capital social y financiaciones que no integran capital.",
+    "docs-leyes-normativa-estatal: marco general sobre capital social y aportaciones cooperativas."
+  ],
+  "referencesToAvoid": [
+    "No usar portadas, índices o fragmentos generales de guías como base para afirmar reglas concretas sobre igualdad política.",
+    "No presentar aportaciones voluntarias como solución sencilla sin definir devolución, documentación y límites de influencia."
+  ]
+}

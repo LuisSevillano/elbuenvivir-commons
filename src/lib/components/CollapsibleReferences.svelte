@@ -1,7 +1,6 @@
 <script lang="ts">
   import type { DecisionQuestion, EvidenceExtract, GeneratedTopicReference, TopicDecisionModel } from '$lib/content/types';
   import ExpandableReferenceGroup from './ExpandableReferenceGroup.svelte';
-  import EvidenceBadge from './EvidenceBadge.svelte';
   import ReferenceCard from './ReferenceCard.svelte';
 
   interface Props {
@@ -25,7 +24,7 @@
 </script>
 
 {#if totalCount > 0}
-  <ExpandableReferenceGroup title="Evidencia y material de apoyo" count={totalCount} defaultExpanded={false}>
+  <ExpandableReferenceGroup title="Documentos para contrastar" count={totalCount} defaultExpanded={false}>
     <div class="reference-drawer">
       {#if hasEvidenceExtracts}
         <section class="snippet-group">
@@ -36,7 +35,6 @@
               <footer>
                 {extract.projectName ?? extract.documentTitle}
                 {#if extract.articleOrSection} · {extract.articleOrSection}{/if}
-                · score {extract.score}
               </footer>
             </blockquote>
           {/each}

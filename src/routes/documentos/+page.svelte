@@ -7,10 +7,10 @@
 
 <section class="hero">
   <p class="eyebrow">Documentos</p>
-  <h1>Documentos para comparar soluciones reales.</h1>
+  <h1>Documentos para contrastar la lectura editorial.</h1>
   <p class="lead">
-    Consulta estatutos, reglamentos, guías y normativa como apoyo editorial y trazabilidad de lectura.
-    Los documentos ayudan a contextualizar decisiones; no funcionan como repositorio indiferenciado.
+    Estatutos, reglamentos, guías y normativa usados como trazabilidad. La lectura útil empieza en los
+    temas; los documentos sirven para comprobar contexto y matices.
   </p>
 </section>
 

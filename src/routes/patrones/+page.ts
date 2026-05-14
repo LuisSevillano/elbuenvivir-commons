@@ -1,12 +1,5 @@
-import { buildSeo, withBrand } from '$lib/seo';
+import { error } from '@sveltejs/kit';
 
 export function load() {
-  return {
-    seo: buildSeo({
-      title: withBrand('Patrones en revisión editorial'),
-      description:
-        'Sección en revisión editorial para evitar presentar tendencias transversales sin suficiente consolidación.',
-      path: '/patrones'
-    })
-  };
+  error(404, 'Página no encontrada');
 }

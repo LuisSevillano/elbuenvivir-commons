@@ -1,7 +1,7 @@
-import { loadDecisionModels } from './loadDecisionModels';
 import { loadEvidenceLayers } from './loadEvidence';
+import { isPublicEditorialStatus } from './editorialPolicy';
 import { loadGeneratedReferences, loadTaxonomy, loadTopic, loadTopics } from './loadTopics';
-import { loadSynthesis, loadSyntheses } from './loadSyntheses';
+import { loadSynthesis } from './loadSyntheses';
 import { loadEditorialReviews, loadValidatedTopics } from './loadValidatedTopics';
 import type {
   ConsultableTopic,
@@ -58,13 +58,21 @@ function availabilityBadge(hasSynthesis: boolean, referenceCount: number): Consu
 function editorialStatus(
   validatedTopic: ValidatedTopic | undefined,
   evidenceLayer: EvidenceTopicLayer | undefined,
-  hasEditorialReview: boolean,
-  referenceCount: number
+  hasEditorialReview: boolean
 ): ConsultableTopic['editorialStatus'] {
   if (validatedTopic) return validatedTopic.status;
   if (evidenceLayer?.evidenceHealth === 'weak' || evidenceLayer?.evidenceHealth === 'insufficient') return 'insufficient_evidence';
-  if (hasEditorialReview || referenceCount >= 8) return 'exploratory';
-  return 'insufficient_evidence';
+  if (hasEditorialReview) return 'exploratory';
+  return 'exploratory';
+}
+
+function isPublicEditorialTopic(slug: string): boolean {
+  const hasCuratedTopic = Boolean(loadTopic(slug));
+  const validatedTopic = loadValidatedTopics().find((item) => item.slug === slug);
+  const hasEditorialReview = Boolean(loadEditorialReviews().find((review) => review.slug === slug));
+
+  if (validatedTopic && !isPublicEditorialStatus(validatedTopic.status)) return false;
+  return hasCuratedTopic || Boolean(validatedTopic) || hasEditorialReview;
 }
 
 function buildFallbackTopic(
@@ -96,8 +104,8 @@ function buildFallbackTopic(
       taxonomyTopic?.description ??
       overview[0] ??
       (references.length > 0
-        ? `Análisis comparado sobre ${topicName} a partir de documentos relacionados y referencias de apoyo.`
-        : `Tema consultable sobre ${topicName}, pendiente de ampliar con más referencias documentales.`),
+        ? `Tema para revisar con documentos relacionados antes de tomar decisiones sobre ${topicName}.`
+        : `Tema pendiente de ampliar antes de usarlo como base de decisión sobre ${topicName}.`),
     category: taxonomyTopic?.category ?? 'otros',
     minimumContents:
       overview.length > 0
@@ -175,7 +183,7 @@ function mergeConsultableTopic(slug: string): ConsultableTopic {
       hasValidatedTopic: Boolean(validatedTopic)
     },
     availabilityBadge: availabilityBadge(Boolean(synthesis), referenceCount),
-    editorialStatus: editorialStatus(validatedTopic, evidenceLayer, Boolean(editorialReview), referenceCount),
+    editorialStatus: editorialStatus(validatedTopic, evidenceLayer, Boolean(editorialReview)),
     referenceCount,
     documentCount: documentSlugs.size,
     projectCount: projectNames.size
@@ -186,16 +194,12 @@ export function loadConsultableTopics(): ConsultableTopic[] {
   const slugs = new Set<string>();
 
   for (const topic of loadTopics()) slugs.add(topic.slug);
-  for (const synthesis of loadSyntheses()) slugs.add(synthesis.slug);
-  for (const reference of loadGeneratedReferences()) slugs.add(reference.topicSlug);
-  for (const model of loadDecisionModels()) slugs.add(model.topicSlug);
-  for (const layer of loadEvidenceLayers()) slugs.add(layer.topicSlug);
-  for (const path of Object.keys(researchPackModules)) slugs.add(slugFromPath(path, '.md'));
   for (const review of loadEditorialReviews()) slugs.add(review.slug);
   for (const validatedTopic of loadValidatedTopics()) slugs.add(validatedTopic.slug);
 
   return Array.from(slugs)
     .filter((slug) => loadTaxonomy().find((topic) => topic.slug === slug)?.status !== 'merged')
+    .filter(isPublicEditorialTopic)
     .map((slug) => mergeConsultableTopic(slug))
     .toSorted((a, b) => a.title.localeCompare(b.title, 'es'));
 }

@@ -1,16 +1,12 @@
 <aside class="intro-editorial">
 	<h2>Qué es esta herramienta</h2>
 	<p>
-		El Buen Vivir Commons es un atlas comparado de organización cooperativa. Reúne estatutos,
-		reglamentos, leyes y documentos de proyectos reales para explorar cómo distintos grupos
-		resuelven decisiones sobre admisión, aportaciones, convivencia, uso de espacios o la relación
-		entre Estatutos y RRI.
+		El Buen Vivir Commons ayuda a preparar decisiones cooperativas con documentos reales sobre
+		admisión, aportaciones, convivencia, uso de espacios y relación entre Estatutos y RRI.
 	</p>
 	<p>
-		No ofrece modelos cerrados ni respuestas únicas. Ayuda a identificar decisiones importantes,
-		comparar enfoques, detectar riesgos y disponer de un punto de partida informado. La herramienta
-		separa temas revisados, exploratorios y temas con evidencia insuficiente para proteger la calidad
-		de la lectura.
+		No intenta mostrar todo. Publica solo temas que tienen base editorial suficiente y separa con
+		claridad lo revisado, lo exploratorio y lo que no permite sacar conclusiones.
 	</p>
 </aside>
 

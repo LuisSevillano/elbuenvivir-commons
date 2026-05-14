@@ -3,7 +3,6 @@ import { loadConsultableTopic, loadConsultableTopics } from '$lib/content/loadCo
 import { loadDecisionModel } from '$lib/content/loadDecisionModels';
 import { loadEvidenceLayer } from '$lib/content/loadEvidence';
 import { loadSynthesis } from '$lib/content/loadSyntheses';
-import { loadGeneratedReferences } from '$lib/content/loadTopics';
 import { loadEditorialReview, loadValidatedTopic } from '$lib/content/loadValidatedTopics';
 import { topicSeo } from '$lib/seo';
 
@@ -24,7 +23,6 @@ export function load({ params }) {
     topics: loadConsultableTopics(),
     decisionModel: loadDecisionModel(topic.slug) ?? null,
     evidenceLayer: loadEvidenceLayer(topic.slug) ?? null,
-    generatedReferences: loadGeneratedReferences(topic.slug),
     synthesis: loadSynthesis(topic.slug) ?? null,
     editorialReview: loadEditorialReview(topic.slug) ?? null,
     validatedTopic: loadValidatedTopic(topic.slug) ?? null

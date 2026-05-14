@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
 import { loadDocument, loadDocuments } from '$lib/content/loadDocuments';
-import { loadGeneratedReferences, loadTopics } from '$lib/content/loadTopics';
+import { loadConsultableTopics } from '$lib/content/loadConsultableTopics';
 import { documentSeo } from '$lib/seo';
 
 export function entries() {
@@ -14,27 +14,15 @@ export function load({ params }) {
     error(404, 'Documento no encontrado');
   }
 
-  const topics = loadTopics();
+  const topics = loadConsultableTopics();
   const curatedTopics = topics.filter(
     (topic) =>
       topic.legalBasis.some((reference) => reference.documentSlug === document.slug) ||
       topic.projectReferences.some((reference) => reference.documentSlug === document.slug)
   );
-  const generatedReferences = loadGeneratedReferences().filter(
-    (reference) => reference.documentSlug === document.slug
-  );
-
-  const topicTitles: Record<string, string> = {};
-  for (const topic of topics) {
-    topicTitles[topic.slug] = topic.title;
-  }
-
   return {
     seo: documentSeo(document),
     document,
-    curatedTopics,
-    curatedTopicSlugs: topics.map((topic) => topic.slug),
-    topicTitles,
-    generatedReferences
+    curatedTopics
   };
 }

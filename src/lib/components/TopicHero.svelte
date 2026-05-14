@@ -13,6 +13,7 @@
   const availabilityBadge = $derived('availabilityBadge' in topic ? topic.availabilityBadge : null);
   const status = $derived(editorialStatus ?? ('editorialStatus' in topic ? topic.editorialStatus : null));
   const statusTone = $derived(status === 'reviewed' ? 'success' : status === 'exploratory' ? 'neutral' : 'warning');
+  const showPlacement = $derived(status !== 'insufficient_evidence' && status !== 'evidencia_insuficiente');
 </script>
 
 <header class="topic-hero">
@@ -31,7 +32,9 @@
     {:else}
       <StatusBadge tone="warning">{topicStatusLabels[topic.status]}</StatusBadge>
     {/if}
-    <StatusBadge>{placementLabel(topic.governancePlacement.recommendedPrimaryLocation)}</StatusBadge>
+    {#if showPlacement}
+      <StatusBadge>{placementLabel(topic.governancePlacement.recommendedPrimaryLocation)}</StatusBadge>
+    {/if}
   </div>
 </header>
 

@@ -1,20 +1,18 @@
 import { loadDocuments } from '$lib/content/loadDocuments';
-import { loadGeneratedReferences, loadTaxonomy, loadTopics } from '$lib/content/loadTopics';
+import { loadConsultableTopics } from '$lib/content/loadConsultableTopics';
 import { buildSeo, compactDescription, withBrand } from '$lib/seo';
 
 export const prerender = false;
 
 export function load({ url }) {
   const documents = loadDocuments();
-  const documentsBySlug = new Map(documents.map((document) => [document.slug, document]));
-  const taxonomy = loadTaxonomy();
-  const taxonomyBySlug = new Map(taxonomy.map((topic) => [topic.slug, topic]));
+  const topics = loadConsultableTopics();
 
   const query = url?.searchParams?.get('q') ?? '';
-  const title = query ? `Buscar "${query}"` : 'Buscar en el atlas cooperativo';
+  const title = query ? `Buscar "${query}"` : 'Buscar en la selección editorial';
   const description = query
-    ? `Resultados de búsqueda para "${query}" en temas, documentos y referencias de gobernanza cooperativa.`
-    : 'Busca temas, documentos y referencias del atlas comparado de gobernanza cooperativa.';
+    ? `Resultados de búsqueda para "${query}" en temas públicos y documentos de referencia.`
+    : 'Busca temas seleccionados editorialmente y documentos de referencia.';
 
   return {
     seo: buildSeo({
@@ -23,20 +21,8 @@ export function load({ url }) {
       path: '/buscar'
     }),
     query,
-    topics: loadTopics(),
+    topics,
     documents,
-    references: loadGeneratedReferences().map((reference) => {
-      const document = documentsBySlug.get(reference.documentSlug);
-      const taxonomyTopic = taxonomyBySlug.get(reference.topicSlug);
-
-      return {
-        ...reference,
-        topicTitle: taxonomyTopic?.title ?? reference.topicSlug,
-        category: taxonomyTopic?.category,
-        jurisdiction: document?.jurisdiction,
-        projectName: reference.projectName ?? document?.projectName
-      };
-    }),
-    taxonomy
+    categories: [...new Set(topics.map((topic) => topic.category))]
   };
 }

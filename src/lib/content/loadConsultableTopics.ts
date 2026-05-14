@@ -3,6 +3,7 @@ import { loadDrafts } from './loadDrafts';
 import { loadEvidenceLayers } from './loadEvidence';
 import { loadGeneratedReferences, loadTaxonomy, loadTopic, loadTopics } from './loadTopics';
 import { loadSynthesis, loadSyntheses } from './loadSyntheses';
+import { loadEditorialReviews, loadValidatedTopics } from './loadValidatedTopics';
 import type {
   ConsultableTopic,
   GeneratedTopicReference,
@@ -139,6 +140,8 @@ function mergeConsultableTopic(slug: string): ConsultableTopic {
     Object.keys(researchPackModules).map((path) => slugFromPath(path, '.md'))
   );
   const draft = loadDrafts().find((item) => item.slug === slug);
+  const editorialReview = loadEditorialReviews().find((review) => review.slug === slug);
+  const validatedTopic = loadValidatedTopics().find((item) => item.slug === slug);
   const baseTopic = curatedTopic ?? buildFallbackTopic(slug, taxonomyTopic, synthesis, references);
   const curatedReferenceCount = baseTopic.legalBasis.length + baseTopic.projectReferences.length;
   const documentSlugs = new Set(references.map((reference) => reference.documentSlug));
@@ -154,7 +157,9 @@ function mergeConsultableTopic(slug: string): ConsultableTopic {
       hasSynthesis: Boolean(synthesis),
       hasReferences: references.length > 0,
       hasResearchPack: researchPackSlugs.has(slug),
-      hasDraft: Boolean(draft)
+      hasDraft: Boolean(draft),
+      hasEditorialReview: Boolean(editorialReview),
+      hasValidatedTopic: Boolean(validatedTopic)
     },
     availabilityBadge: availabilityBadge(Boolean(synthesis), curatedReferenceCount + references.length),
     referenceCount: curatedReferenceCount + references.length,
@@ -173,6 +178,8 @@ export function loadConsultableTopics(): ConsultableTopic[] {
   for (const layer of loadEvidenceLayers()) slugs.add(layer.topicSlug);
   for (const path of Object.keys(researchPackModules)) slugs.add(slugFromPath(path, '.md'));
   for (const draft of loadDrafts()) slugs.add(draft.slug);
+  for (const review of loadEditorialReviews()) slugs.add(review.slug);
+  for (const validatedTopic of loadValidatedTopics()) slugs.add(validatedTopic.slug);
 
   return Array.from(slugs)
     .filter((slug) => loadTaxonomy().find((topic) => topic.slug === slug)?.status !== 'merged')

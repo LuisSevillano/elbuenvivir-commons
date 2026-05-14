@@ -46,7 +46,7 @@
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--heading);
-    margin: 0 0 0.5rem;
+    margin: 1rem 0 0.5rem;
     letter-spacing: -0.01em;
   }
 

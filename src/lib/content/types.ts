@@ -17,6 +17,7 @@ export type TopicStatus = 'draft' | 'reviewed' | 'needs_legal_review';
 export type ReviewStatus = 'auto' | 'reviewed' | 'rejected';
 export type Confidence = 'high' | 'medium' | 'low';
 export type EvidenceLevel = 'high' | 'medium' | 'low';
+export type ValidatedTopicStatus = 'reviewed' | 'exploratory' | 'insufficient_evidence';
 
 export interface SourceDocument {
   slug: string;
@@ -106,6 +107,8 @@ export interface ConsultableTopic extends GovernanceTopic {
     hasReferences: boolean;
     hasResearchPack: boolean;
     hasDraft: boolean;
+    hasEditorialReview: boolean;
+    hasValidatedTopic: boolean;
   };
   availabilityBadge: 'Análisis amplio' | 'Análisis disponible' | 'Información limitada' | 'Pocas referencias';
   referenceCount: number;
@@ -167,6 +170,60 @@ export interface TopicDecisionModel {
   relevantProjects: string[];
   extracts: DecisionModelExtract[];
   limits: string[];
+}
+
+export interface ValidatedDecisionQuestion {
+  id?: string;
+  question: string;
+  whyItMatters?: string[];
+  detectedApproaches?: SolutionApproach[];
+  commonTradeoffs?: string[];
+  recommendationsForBuenVivir?: string[];
+  relatedExtracts?: string[];
+  relatedProjects?: string[];
+  suggestedPlacement?: {
+    statutes?: string[];
+    rri?: string[];
+  };
+}
+
+export interface ValidatedFinding {
+  id?: string;
+  statement: string;
+  summary?: string;
+  references?: string[];
+}
+
+export interface UnsupportedClaim {
+  id?: string;
+  claimId?: string;
+  statement?: string;
+  reason?: string;
+  decisionQuestionIds?: string[];
+  approachNames?: string[];
+  referenceIds?: string[];
+}
+
+export interface ValidatedTopic {
+  slug: string;
+  status: ValidatedTopicStatus;
+  editorialSummary: string[];
+  decisionQuestions: Array<string | ValidatedDecisionQuestion>;
+  supportedFindings: ValidatedFinding[];
+  unsupportedClaims: UnsupportedClaim[];
+  recommendationsForBuenVivir: string[];
+  statutesVsRRI: {
+    statutes: string[];
+    rri: string[];
+    notes?: string[];
+  };
+  referencesToUse: string[];
+  referencesToAvoid: string[];
+}
+
+export interface EditorialReview {
+  slug: string;
+  content: string;
 }
 
 export interface GeneratedTopicDraft extends GovernanceTopic {

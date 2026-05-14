@@ -74,7 +74,6 @@
 			<nav aria-label="Navegación principal">
 				<a href="/temas">Temas</a>
 				<a href="/patrones">Patrones</a>
-				<a href="/drafts">Borradores de trabajo</a>
 				<a href="/documentos">Documentos</a>
 			</nav>
 		</div>
@@ -86,13 +85,12 @@
 			<p class="footer-title">El Buen Vivir Commons</p>
 			<p class="footer-copy">
 				Herramienta de apoyo para comparar cómo distintas cooperativas documentan decisiones de
-				gobernanza, convivencia y uso compartido.
+				convivencia, organización y uso compartido.
 			</p>
 		</div>
 		<nav class="footer-links" aria-label="Navegación secundaria">
 			<a href="/temas">Temas</a>
 			<a href="/patrones">Patrones</a>
-			<a href="/drafts">Borradores de trabajo</a>
 			<a href="/documentos">Documentos</a>
 		</nav>
 	</footer>

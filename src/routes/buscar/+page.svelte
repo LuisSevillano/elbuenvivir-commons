@@ -2,14 +2,14 @@
   import StatusBadge from '$lib/components/StatusBadge.svelte';
   import { categoryLabels, documentTypeLabels } from '$lib/content/labels';
   import type {
-    Confidence,
-    DocumentType,
-    GeneratedTopicDraft,
+    ConsultableTopic,
     GeneratedTopicReference,
     GovernanceTopic,
-    SourceDocument,
     TaxonomyTopic,
-    TopicCategory
+    SourceDocument,
+    TopicCategory,
+    Confidence,
+    DocumentType
   } from '$lib/content/types';
 
   type ReferenceSearchItem = GeneratedTopicReference & {
@@ -18,7 +18,7 @@
     jurisdiction?: string;
   };
 
-  type SearchKind = 'topic' | 'draft' | 'document' | 'reference';
+  type SearchKind = 'topic' | 'document' | 'reference';
 
   type SearchItem = {
     kind: SearchKind;
@@ -37,7 +37,6 @@
     data: {
       query: string;
       topics: GovernanceTopic[];
-      drafts: GeneratedTopicDraft[];
       documents: SourceDocument[];
       references: ReferenceSearchItem[];
       taxonomy: TaxonomyTopic[];
@@ -104,15 +103,6 @@
       category: topic.category,
       score: 0
     }));
-    const draftItems: SearchItem[] = data.drafts.map((draft) => ({
-      kind: 'draft',
-      title: draft.title,
-      subtitle: 'Borrador de trabajo',
-      body: [draft.shortDescription, ...draft.minimumContents, ...draft.decisionsForBuenVivir, ...draft.risks].join(' '),
-      href: `/drafts/${draft.slug}`,
-      category: draft.category,
-      score: 0
-    }));
     const documentItems: SearchItem[] = data.documents.map((document) => ({
       kind: 'document',
       title: document.title,
@@ -136,7 +126,7 @@
       score: 0
     }));
 
-    return [...topicItems, ...draftItems, ...documentItems, ...referenceItems];
+    return [...topicItems, ...documentItems, ...referenceItems];
   }
 
   function passesFilters(item: SearchItem): boolean {
@@ -172,14 +162,13 @@
 
   const results = $derived(searchItems());
   const topics = $derived(results.filter((item) => item.kind === 'topic'));
-  const drafts = $derived(results.filter((item) => item.kind === 'draft'));
   const documents = $derived(results.filter((item) => item.kind === 'document'));
   const references = $derived(results.filter((item) => item.kind === 'reference'));
 </script>
 
 <section class="hero">
   <p class="eyebrow">Búsqueda transversal</p>
-  <h1>Explora temas, documentos, borradores y referencias.</h1>
+  <h1>Explora temas, documentos y referencias.</h1>
   <p class="lead">
     Localiza rápidamente soluciones, documentos relacionados, ejemplos encontrados y decisiones pendientes
     dentro del atlas comparado.
@@ -234,7 +223,6 @@
 
 <section class="section result-groups">
   {@render ResultGroup('Temas', topics)}
-  {@render ResultGroup('Borradores de trabajo', drafts)}
   {@render ResultGroup('Documentos', documents)}
   {@render ResultGroup('Referencias detectadas', references)}
 </section>
@@ -249,7 +237,6 @@
         <a class="result-card" href={item.href}>
           <div class="result-meta">
             {#if item.kind === 'topic'}<StatusBadge tone="success">Tema</StatusBadge>{/if}
-            {#if item.kind === 'draft'}<StatusBadge tone="auto">Borrador de trabajo</StatusBadge>{/if}
             {#if item.kind === 'document'}<StatusBadge>Documento</StatusBadge>{/if}
             {#if item.kind === 'reference'}<StatusBadge tone="auto">Referencia detectada</StatusBadge>{/if}
             {#if item.documentType}<StatusBadge>{documentTypeLabels[item.documentType]}</StatusBadge>{/if}

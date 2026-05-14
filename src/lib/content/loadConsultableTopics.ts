@@ -1,5 +1,4 @@
 import { loadDecisionModels } from './loadDecisionModels';
-import { loadDrafts } from './loadDrafts';
 import { loadEvidenceLayers } from './loadEvidence';
 import { loadGeneratedReferences, loadTaxonomy, loadTopic, loadTopics } from './loadTopics';
 import { loadSynthesis, loadSyntheses } from './loadSyntheses';
@@ -139,7 +138,6 @@ function mergeConsultableTopic(slug: string): ConsultableTopic {
   const researchPackSlugs = new Set(
     Object.keys(researchPackModules).map((path) => slugFromPath(path, '.md'))
   );
-  const draft = loadDrafts().find((item) => item.slug === slug);
   const editorialReview = loadEditorialReviews().find((review) => review.slug === slug);
   const validatedTopic = loadValidatedTopics().find((item) => item.slug === slug);
   const baseTopic = curatedTopic ?? buildFallbackTopic(slug, taxonomyTopic, synthesis, references);
@@ -157,7 +155,6 @@ function mergeConsultableTopic(slug: string): ConsultableTopic {
       hasSynthesis: Boolean(synthesis),
       hasReferences: references.length > 0,
       hasResearchPack: researchPackSlugs.has(slug),
-      hasDraft: Boolean(draft),
       hasEditorialReview: Boolean(editorialReview),
       hasValidatedTopic: Boolean(validatedTopic)
     },
@@ -177,7 +174,6 @@ export function loadConsultableTopics(): ConsultableTopic[] {
   for (const model of loadDecisionModels()) slugs.add(model.topicSlug);
   for (const layer of loadEvidenceLayers()) slugs.add(layer.topicSlug);
   for (const path of Object.keys(researchPackModules)) slugs.add(slugFromPath(path, '.md'));
-  for (const draft of loadDrafts()) slugs.add(draft.slug);
   for (const review of loadEditorialReviews()) slugs.add(review.slug);
   for (const validatedTopic of loadValidatedTopics()) slugs.add(validatedTopic.slug);
 

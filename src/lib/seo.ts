@@ -18,7 +18,7 @@ export interface SeoMetadata {
 export const defaultSeo: SeoMetadata = {
   title: `${siteName} | Atlas de gobernanza cooperativa`,
   description:
-    'Atlas comparado para diseñar estatutos, RRI y acuerdos de convivencia en cooperativas de vivienda: temas, patrones, documentos y borradores de trabajo.',
+    'Atlas comparado para diseñar estatutos, RRI y acuerdos de convivencia en cooperativas de vivienda: temas, patrones y documentos de referencia.',
   path: '/',
   image: defaultSocialImage,
   imageAlt: defaultSocialImageAlt,

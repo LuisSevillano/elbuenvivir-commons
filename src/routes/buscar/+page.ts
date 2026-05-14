@@ -1,5 +1,4 @@
 import { loadDocuments } from '$lib/content/loadDocuments';
-import { loadDrafts } from '$lib/content/loadDrafts';
 import { loadGeneratedReferences, loadTaxonomy, loadTopics } from '$lib/content/loadTopics';
 import { buildSeo, compactDescription, withBrand } from '$lib/seo';
 
@@ -14,8 +13,8 @@ export function load({ url }) {
   const query = url?.searchParams?.get('q') ?? '';
   const title = query ? `Buscar "${query}"` : 'Buscar en el atlas cooperativo';
   const description = query
-    ? `Resultados de búsqueda para "${query}" en temas, documentos, borradores y referencias de gobernanza cooperativa.`
-    : 'Busca temas, documentos, borradores y referencias del atlas comparado de gobernanza cooperativa.';
+    ? `Resultados de búsqueda para "${query}" en temas, documentos y referencias de gobernanza cooperativa.`
+    : 'Busca temas, documentos y referencias del atlas comparado de gobernanza cooperativa.';
 
   return {
     seo: buildSeo({
@@ -25,7 +24,6 @@ export function load({ url }) {
     }),
     query,
     topics: loadTopics(),
-    drafts: loadDrafts(),
     documents,
     references: loadGeneratedReferences().map((reference) => {
       const document = documentsBySlug.get(reference.documentSlug);

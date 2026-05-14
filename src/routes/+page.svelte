@@ -1,5 +1,7 @@
 <script lang="ts">
 	import SoftCallout from '$lib/components/SoftCallout.svelte';
+	import IntroEditorial from '$lib/components/IntroEditorial.svelte';
+	import AtlasOrientation from '$lib/components/AtlasOrientation.svelte';
 	import { legalDisclaimer } from '$lib/content/labels';
 
 	let { data }: { data: { topicCount: number; documentCount: number } } = $props();
@@ -7,16 +9,22 @@
 
 <section class="hero editorial-hero">
 	<p class="eyebrow">Atlas comparado de gobernanza cooperativa</p>
-	<h1>Explora cómo otros proyectos resuelven decisiones de convivencia y gobernanza.</h1>
+	<h1>Explora cómo otros proyectos resuelven decisiones de convivencia y organización.</h1>
 	<p class="lead">
 		Una herramienta para explorar cómo distintas cooperativas y proyectos colectivos han resuelto
-		cuestiones de gobernanza, convivencia, aportaciones económicas y uso compartido de espacios.
+		cuestiones de organización, convivencia, aportaciones económicas y uso compartido de espacios.
 	</p>
 	<div class="actions">
 		<a class="button button-primary" href="/temas">Explorar temas</a>
 		<a class="button button-secondary" href="/documentos">Ver documentos</a>
 	</div>
 </section>
+
+<hr class="hero-divider" />
+
+<IntroEditorial />
+
+<AtlasOrientation />
 
 <section class="section stats-section">
 	<div class="stats-grid">
@@ -51,17 +59,24 @@
 
 <style>
 	.editorial-hero {
-		margin: 0 0 3rem;
+		margin: 0 0 0;
+	}
+
+	.hero-divider {
+		border: none;
+		border-top: 1px solid var(--border);
+		margin: 2rem auto;
+		max-width: 62ch;
 	}
 
 	.stats-section {
-		margin: 2rem 0;
+		margin: 2.5rem 0;
 	}
 
 	.stats-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		gap: 2rem;
+		gap: 2.5rem;
 		text-align: center;
 	}
 
@@ -73,7 +88,7 @@
 	}
 
 	.stat-item {
-		padding: 1.5rem;
+		padding: 1.75rem 0.5rem;
 	}
 
 	.stat-number {
@@ -82,7 +97,7 @@
 		font-weight: 700;
 		color: var(--heading);
 		line-height: 1;
-		margin-bottom: 0.25rem;
+		margin-bottom: 0.35rem;
 	}
 
 	.stat-label {
@@ -92,7 +107,7 @@
 		color: var(--accent);
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
-		margin-bottom: 0.75rem;
+		margin-bottom: 0.85rem;
 	}
 
 	.stat-desc {

@@ -106,7 +106,6 @@ export interface ConsultableTopic extends GovernanceTopic {
     hasSynthesis: boolean;
     hasReferences: boolean;
     hasResearchPack: boolean;
-    hasDraft: boolean;
     hasEditorialReview: boolean;
     hasValidatedTopic: boolean;
   };

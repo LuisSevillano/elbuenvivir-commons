@@ -1,22 +1,22 @@
 {
   "slug": "baja_socio",
-  "generatedAt": "2026-05-14T09:03:17.574Z",
+  "generatedAt": "2026-05-14T09:24:12.456Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/baja_socio.md",
     "referencesCount": 18,
     "documents": [
-      "docs-estatutos-estatutos-axuntase",
-      "docs-estatutos-estatutos-entrepatios",
-      "docs-estatutos-estatutos-laseronda-org",
-      "docs-estatutos-estatutos-losnidales",
-      "docs-estatutos-estatutos-pepu",
-      "docs-estatutos-estatutos-pequenopueblo",
-      "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "docs-estatutos-estatutos-tarocohousing",
-      "docs-leyes-normativa-autonomica",
-      "docs-leyes-normativa-estatal",
-      "docs-otros-mod-estatutos-coop-viviendas",
-      "docs-otros-modelo-estatutos-viviendas"
+      "Docs-estatutos-estatutos-axuntase",
+      "Docs-estatutos-estatutos-entrepatios",
+      "Docs-estatutos-estatutos-laseronda-org",
+      "Docs-estatutos-estatutos-losnidales",
+      "Docs-estatutos-estatutos-pepu",
+      "Docs-estatutos-estatutos-pequenopueblo",
+      "Docs-estatutos-estatutos-senior-cohousing-huelva",
+      "Docs-estatutos-estatutos-tarocohousing",
+      "Docs-leyes-normativa-autonomica",
+      "Docs-leyes-normativa-estatal",
+      "Docs-otros-mod-estatutos-coop-viviendas",
+      "Docs-otros-modelo-estatutos-viviendas"
     ]
   },
   "summary": {
@@ -46,27 +46,27 @@
       "Si la aportación se vincula a poder, uso o permanencia sin límites claros, puede generar desigualdad interna."
     ],
     "commonTradeoffs": [
-      "salida flexible vs estabilidad económica del proyecto",
-      "derecho de salida vs estabilidad financiera del proyecto",
-      "igualdad formal vs aportaciones económicas desiguales"
+      "Salida flexible vs estabilidad económica del proyecto",
+      "Derecho de salida vs estabilidad financiera del proyecto",
+      "Igualdad formal vs aportaciones económicas desiguales"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "causas y clases de baja",
-      "efectos económicos básicos",
-      "derecho de reembolso",
-      "criterios generales de deducción y plazos",
-      "causas y clases de baja, pérdida de condición de socia y efectos económicos básicos",
-      "derechos y obligaciones esenciales de las personas socias"
+      "Causas y clases de baja",
+      "Efectos económicos básicos",
+      "Derecho de reembolso",
+      "Criterios generales de deducción y plazos",
+      "Causas y clases de baja, pérdida de condición de socia y efectos económicos básicos",
+      "Derechos y obligaciones esenciales de las personas socias"
     ],
     "usuallyInRRI": [
-      "procedimiento interno de solicitud o comunicación de baja",
-      "acompañamiento de la salida",
-      "gestión de sustitución o lista de espera",
-      "reglas prácticas de entrega de llaves y cierre de uso",
-      "procedimiento interno de comunicación, acompañamiento de salida y cierre de usos o llaves",
-      "pautas cotidianas para hacer efectivos esos derechos y deberes"
+      "Procedimiento interno de solicitud o comunicación de baja",
+      "Acompañamiento de la salida",
+      "Gestión de sustitución o lista de espera",
+      "Reglas prácticas de entrega de llaves y cierre de uso",
+      "Procedimiento interno de comunicación, acompañamiento de salida y cierre de usos o llaves",
+      "Pautas cotidianas para hacer efectivos esos derechos y deberes"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -80,33 +80,33 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
-      "separar obligaciones esenciales de compromisos prácticos revisables"
+      "Decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
+      "Separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
-      "separar obligaciones esenciales de compromisos prácticos revisables"
+      "Decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
+      "Separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "pointsToDecideSoon": [
-      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
-      "separar obligaciones esenciales de compromisos prácticos revisables",
-      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
-      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
+      "Decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
+      "Separar obligaciones esenciales de compromisos prácticos revisables",
+      "Decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
       "Decidir cómo se devuelve dinero si no hay liquidez suficiente en el momento de la baja."
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "salida flexible vs estabilidad económica del proyecto",
-    "derecho de salida vs estabilidad financiera del proyecto",
-    "igualdad formal vs aportaciones económicas desiguales"
+    "Salida flexible vs estabilidad económica del proyecto",
+    "Derecho de salida vs estabilidad financiera del proyecto",
+    "Igualdad formal vs aportaciones económicas desiguales"
   ],
   "notableProjects": [
     {

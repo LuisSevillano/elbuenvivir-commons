@@ -1,19 +1,19 @@
 {
   "slug": "uso_espacios_comunes",
-  "generatedAt": "2026-05-14T09:03:17.758Z",
+  "generatedAt": "2026-05-14T09:24:12.571Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/uso_espacios_comunes.md",
     "referencesCount": 18,
     "documents": [
-      "docs-estatutos-estatutos-entrepatios",
-      "docs-estatutos-estatutos-la-borda",
-      "docs-estatutos-estatutos-losnidales",
-      "docs-estatutos-estatutos-tarocohousing",
-      "docs-guias-las-guias-de-sostre-civic",
-      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "docs-rri-informe-cooperativas-cesion-de-uso",
-      "docs-rri-rri-axuntase",
-      "docs-rri-rri-vallecas2homes"
+      "Docs-estatutos-estatutos-entrepatios",
+      "Docs-estatutos-estatutos-la-borda",
+      "Docs-estatutos-estatutos-losnidales",
+      "Docs-estatutos-estatutos-tarocohousing",
+      "Docs-guias-las-guias-de-sostre-civic",
+      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+      "Docs-rri-informe-cooperativas-cesion-de-uso",
+      "Docs-rri-rri-axuntase",
+      "Docs-rri-rri-vallecas2homes"
     ]
   },
   "summary": {
@@ -38,23 +38,23 @@
       "No preverlos puede trasladar conflictos cotidianos a decisiones improvisadas."
     ],
     "commonTradeoffs": [
-      "autonomía comunitaria vs necesidad de procedimiento claro",
-      "uso flexible del espacio vs prevención de conflictos de convivencia",
-      "uso flexible de espacios vs prevención de conflictos cotidianos"
+      "Autonomía comunitaria vs necesidad de procedimiento claro",
+      "Uso flexible del espacio vs prevención de conflictos de convivencia",
+      "Uso flexible de espacios vs prevención de conflictos cotidianos"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "principios de convivencia y posibilidad de mediación o régimen disciplinario",
-      "principio general de uso compartido y respeto a acuerdos comunitarios",
-      "obligación general de contribuir al cuidado y conservación",
-      "principio general de convivencia y cuidado"
+      "Principios de convivencia y posibilidad de mediación o régimen disciplinario",
+      "Principio general de uso compartido y respeto a acuerdos comunitarios",
+      "Obligación general de contribuir al cuidado y conservación",
+      "Principio general de convivencia y cuidado"
     ],
     "usuallyInRRI": [
-      "pasos de mediación, tiempos de respuesta y personas de referencia",
-      "reservas, horarios, prioridades, limpieza y criterios de uso cotidiano",
-      "turnos, avisos, criterios de obras y gestión de incidencias",
-      "reglas prácticas, responsabilidades y usos compatibles"
+      "Pasos de mediación, tiempos de respuesta y personas de referencia",
+      "Reservas, horarios, prioridades, limpieza y criterios de uso cotidiano",
+      "Turnos, avisos, criterios de obras y gestión de incidencias",
+      "Reglas prácticas, responsabilidades y usos compatibles"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -68,31 +68,31 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria"
+      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "Decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria"
+      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "Decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria"
     ],
     "pointsToDecideSoon": [
-      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
-      "decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida",
-      "decidir qué casos necesitan regla previa y cuáles pueden resolverse caso por caso",
+      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "Decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
+      "Decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida",
+      "Decidir qué casos necesitan regla previa y cuáles pueden resolverse caso por caso",
       "Decidir qué usos requieren reserva, aviso previo o prioridad comunitaria."
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "autonomía comunitaria vs necesidad de procedimiento claro",
-    "uso flexible del espacio vs prevención de conflictos de convivencia"
+    "Autonomía comunitaria vs necesidad de procedimiento claro",
+    "Uso flexible del espacio vs prevención de conflictos de convivencia"
   ],
   "notableProjects": [
     {

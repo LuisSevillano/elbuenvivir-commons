@@ -1,22 +1,22 @@
 {
   "slug": "reembolso_aportaciones",
-  "generatedAt": "2026-05-14T09:03:17.647Z",
+  "generatedAt": "2026-05-14T09:24:12.552Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/reembolso_aportaciones.md",
     "referencesCount": 18,
     "documents": [
-      "docs-estatutos-estatutos-axuntase",
-      "docs-estatutos-estatutos-entrepatios",
-      "docs-estatutos-estatutos-losnidales",
-      "docs-estatutos-estatutos-pepu",
-      "docs-estatutos-estatutos-pequenopueblo",
-      "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "docs-estatutos-estatutos-tarocohousing",
-      "docs-leyes-normativa-autonomica",
-      "docs-leyes-normativa-estatal",
-      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2011-18204-ley-6-2011",
-      "docs-otros-mod-estatutos-coop-viviendas",
-      "docs-otros-modelo-estatutos-viviendas"
+      "Docs-estatutos-estatutos-axuntase",
+      "Docs-estatutos-estatutos-entrepatios",
+      "Docs-estatutos-estatutos-losnidales",
+      "Docs-estatutos-estatutos-pepu",
+      "Docs-estatutos-estatutos-pequenopueblo",
+      "Docs-estatutos-estatutos-senior-cohousing-huelva",
+      "Docs-estatutos-estatutos-tarocohousing",
+      "Docs-leyes-normativa-autonomica",
+      "Docs-leyes-normativa-estatal",
+      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2011-18204-ley-6-2011",
+      "Docs-otros-mod-estatutos-coop-viviendas",
+      "Docs-otros-modelo-estatutos-viviendas"
     ]
   },
   "summary": {
@@ -42,22 +42,22 @@
       "Pueden generar expectativas de retorno o influencia si no se separan claramente de los derechos políticos."
     ],
     "commonTradeoffs": [
-      "derecho de salida vs estabilidad financiera del proyecto",
-      "igualdad formal vs aportaciones económicas desiguales"
+      "Derecho de salida vs estabilidad financiera del proyecto",
+      "Igualdad formal vs aportaciones económicas desiguales"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "derecho de reembolso, criterios generales de deducción y plazos máximos",
-      "importe, naturaleza, exigibilidad y criterios básicos de devolución de aportaciones obligatorias",
-      "principios generales de financiación y límites a privilegios económicos",
-      "marco general para aportaciones voluntarias y ausencia de privilegios políticos"
+      "Derecho de reembolso, criterios generales de deducción y plazos máximos",
+      "Importe, naturaleza, exigibilidad y criterios básicos de devolución de aportaciones obligatorias",
+      "Principios generales de financiación y límites a privilegios económicos",
+      "Marco general para aportaciones voluntarias y ausencia de privilegios políticos"
     ],
     "usuallyInRRI": [
-      "calendario interno de pagos, documentación y seguimiento del acuerdo de devolución",
-      "calendario de pagos, comunicación interna y gestión de incidencias de pago",
-      "seguimiento presupuestario y comunicación periódica al grupo",
-      "canales de propuesta, registro y seguimiento interno"
+      "Calendario interno de pagos, documentación y seguimiento del acuerdo de devolución",
+      "Calendario de pagos, comunicación interna y gestión de incidencias de pago",
+      "Seguimiento presupuestario y comunicación periódica al grupo",
+      "Canales de propuesta, registro y seguimiento interno"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -71,30 +71,30 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
-      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
+      "Decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
-      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
+      "Decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
     ],
     "pointsToDecideSoon": [
-      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
-      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
-      "decidir cómo se informará al grupo sobre necesidades financieras sin crear jerarquías internas",
-      "decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa"
+      "Decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
+      "Decidir cómo se informará al grupo sobre necesidades financieras sin crear jerarquías internas",
+      "Decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa"
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "derecho de salida vs estabilidad financiera del proyecto",
-    "igualdad formal vs aportaciones económicas desiguales"
+    "Derecho de salida vs estabilidad financiera del proyecto",
+    "Igualdad formal vs aportaciones económicas desiguales"
   ],
   "notableProjects": [
     {

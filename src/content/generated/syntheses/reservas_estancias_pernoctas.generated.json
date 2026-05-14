@@ -1,29 +1,29 @@
 {
   "slug": "reservas_estancias_pernoctas",
-  "generatedAt": "2026-05-14T09:03:17.668Z",
+  "generatedAt": "2026-05-14T09:24:12.562Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/reservas_estancias_pernoctas.md",
     "referencesCount": 40,
     "documents": [
-      "docs-estatutos-estatutos-axuntase",
-      "docs-estatutos-estatutos-blanxart",
-      "docs-estatutos-estatutos-cancarner",
-      "docs-estatutos-estatutos-elciempies",
-      "docs-estatutos-estatutos-entrepatios",
-      "docs-estatutos-estatutos-la-borda",
-      "docs-estatutos-estatutos-los-girasoles",
-      "docs-estatutos-estatutos-losnidales",
-      "docs-estatutos-estatutos-pepu",
-      "docs-estatutos-estatutos-pequenopueblo",
-      "docs-estatutos-estatutos-tarocohousing",
-      "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
-      "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "docs-guias-las-guias-de-sostre-civic",
-      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "docs-otros-modelo-estatutos-viviendas",
-      "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
-      "docs-rri-informe-cooperativas-cesion-de-uso",
-      "docs-rri-rri-vallecas2homes"
+      "Docs-estatutos-estatutos-axuntase",
+      "Docs-estatutos-estatutos-blanxart",
+      "Docs-estatutos-estatutos-cancarner",
+      "Docs-estatutos-estatutos-elciempies",
+      "Docs-estatutos-estatutos-entrepatios",
+      "Docs-estatutos-estatutos-la-borda",
+      "Docs-estatutos-estatutos-los-girasoles",
+      "Docs-estatutos-estatutos-losnidales",
+      "Docs-estatutos-estatutos-pepu",
+      "Docs-estatutos-estatutos-pequenopueblo",
+      "Docs-estatutos-estatutos-tarocohousing",
+      "Docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "Docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "Docs-guias-las-guias-de-sostre-civic",
+      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+      "Docs-otros-modelo-estatutos-viviendas",
+      "Docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+      "Docs-rri-informe-cooperativas-cesion-de-uso",
+      "Docs-rri-rri-vallecas2homes"
     ]
   },
   "summary": {
@@ -54,28 +54,28 @@
       "Sin calendario, prioridades o límites de estancia, los espacios comunes pueden saturarse y generar conflictos entre hospitalidad e intimidad comunitaria."
     ],
     "commonTradeoffs": [
-      "hospitalidad flexible vs disponibilidad equitativa de espacios comunes",
-      "autonomía comunitaria vs necesidad de procedimiento claro",
-      "uso flexible del espacio vs prevención de conflictos de convivencia",
-      "apertura a invitados vs disponibilidad cotidiana para quienes conviven"
+      "Hospitalidad flexible vs disponibilidad equitativa de espacios comunes",
+      "Autonomía comunitaria vs necesidad de procedimiento claro",
+      "Uso flexible del espacio vs prevención de conflictos de convivencia",
+      "Apertura a invitados vs disponibilidad cotidiana para quienes conviven"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "principio general de convivencia y uso compartido de espacios comunes",
-      "deber de respetar acuerdos comunitarios sobre uso de espacios",
-      "compatibilidad entre uso privativo, invitados y vida comunitaria",
-      "principio general de uso común, convivencia y respeto a acuerdos internos",
-      "principios de convivencia y posibilidad de mediación o régimen disciplinario",
-      "principio de convivencia y compatibilidad entre uso privado y común"
+      "Principio general de convivencia y uso compartido de espacios comunes",
+      "Deber de respetar acuerdos comunitarios sobre uso de espacios",
+      "Compatibilidad entre uso privativo, invitados y vida comunitaria",
+      "Principio general de uso común, convivencia y respeto a acuerdos internos",
+      "Principios de convivencia y posibilidad de mediación o régimen disciplinario",
+      "Principio de convivencia y compatibilidad entre uso privado y común"
     ],
     "usuallyInRRI": [
-      "calendario de reservas, turnos y prioridades",
-      "límites de pernocta, avisos y responsabilidad de la persona anfitriona",
-      "criterios para invitados, familiares y usos repetidos",
-      "gestión de conflictos por solapamientos o usos intensivos",
-      "calendario, turnos, prioridades, límites de pernocta y forma de aviso",
-      "pasos de mediación, tiempos de respuesta y personas de referencia"
+      "Calendario de reservas, turnos y prioridades",
+      "Límites de pernocta, avisos y responsabilidad de la persona anfitriona",
+      "Criterios para invitados, familiares y usos repetidos",
+      "Gestión de conflictos por solapamientos o usos intensivos",
+      "Calendario, turnos, prioridades, límites de pernocta y forma de aviso",
+      "Pasos de mediación, tiempos de respuesta y personas de referencia"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -90,34 +90,34 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "decidir qué espacios requieren reserva previa, qué usos tienen prioridad y cuánto tiempo máximo puede durar una estancia",
-      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito"
+      "Decidir qué espacios requieren reserva previa, qué usos tienen prioridad y cuánto tiempo máximo puede durar una estancia",
+      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "decidir qué espacios requieren reserva previa, qué usos tienen prioridad y cuánto tiempo máximo puede durar una estancia",
-      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito"
+      "Decidir qué espacios requieren reserva previa, qué usos tienen prioridad y cuánto tiempo máximo puede durar una estancia",
+      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito"
     ],
     "pointsToDecideSoon": [
-      "decidir qué espacios requieren reserva previa, qué usos tienen prioridad y cuánto tiempo máximo puede durar una estancia",
-      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "decidir qué debe comunicar la persona anfitriona y qué responsabilidades asume durante la estancia",
-      "decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
-      "decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados",
+      "Decidir qué espacios requieren reserva previa, qué usos tienen prioridad y cuánto tiempo máximo puede durar una estancia",
+      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "Decidir qué debe comunicar la persona anfitriona y qué responsabilidades asume durante la estancia",
+      "Decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
+      "Decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados",
       "Decidir qué espacios se reservan, quién tiene prioridad, cuántas pernoctas son admisibles y cómo se avisa al grupo."
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "hospitalidad flexible vs disponibilidad equitativa de espacios comunes",
-    "autonomía comunitaria vs necesidad de procedimiento claro",
-    "uso flexible del espacio vs prevención de conflictos de convivencia",
-    "hospitalidad flexible vs reparto equitativo de espacios comunes"
+    "Hospitalidad flexible vs disponibilidad equitativa de espacios comunes",
+    "Autonomía comunitaria vs necesidad de procedimiento claro",
+    "Uso flexible del espacio vs prevención de conflictos de convivencia",
+    "Hospitalidad flexible vs reparto equitativo de espacios comunes"
   ],
   "notableProjects": [
     {

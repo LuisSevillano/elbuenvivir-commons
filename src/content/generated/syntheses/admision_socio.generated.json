@@ -1,23 +1,23 @@
 {
   "slug": "admision_socio",
-  "generatedAt": "2026-05-14T09:03:17.545Z",
+  "generatedAt": "2026-05-14T09:24:12.416Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/admision_socio.md",
     "referencesCount": 18,
     "documents": [
-      "docs-estatutos-estatutos-axuntase",
-      "docs-estatutos-estatutos-entrepatios",
-      "docs-estatutos-estatutos-la-borda",
-      "docs-estatutos-estatutos-losnidales",
-      "docs-estatutos-estatutos-pepu",
-      "docs-estatutos-estatutos-pequenopueblo",
-      "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "docs-estatutos-estatutos-tarocohousing",
-      "docs-leyes-normativa-autonomica",
-      "docs-leyes-normativa-estatal",
-      "docs-otros-modelo-estatutos-viviendas",
-      "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
-      "docs-rri-rri-axuntase"
+      "Docs-estatutos-estatutos-axuntase",
+      "Docs-estatutos-estatutos-entrepatios",
+      "Docs-estatutos-estatutos-la-borda",
+      "Docs-estatutos-estatutos-losnidales",
+      "Docs-estatutos-estatutos-pepu",
+      "Docs-estatutos-estatutos-pequenopueblo",
+      "Docs-estatutos-estatutos-senior-cohousing-huelva",
+      "Docs-estatutos-estatutos-tarocohousing",
+      "Docs-leyes-normativa-autonomica",
+      "Docs-leyes-normativa-estatal",
+      "Docs-otros-modelo-estatutos-viviendas",
+      "Docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+      "Docs-rri-rri-axuntase"
     ]
   },
   "summary": {
@@ -42,21 +42,21 @@
       "Si la transmisión no se delimita, puede confundirse un derecho cooperativo con una compraventa privada."
     ],
     "commonTradeoffs": [
-      "flexibilidad vs seguridad jurídica"
+      "Flexibilidad vs seguridad jurídica"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "criterios básicos de admisión y derechos de las personas socias",
-      "derechos y obligaciones esenciales de las personas socias",
-      "causas generales de expulsión, garantías y órgano competente",
-      "límites generales a la transmisión de derechos societarios o de uso"
+      "Criterios básicos de admisión y derechos de las personas socias",
+      "Derechos y obligaciones esenciales de las personas socias",
+      "Causas generales de expulsión, garantías y órgano competente",
+      "Límites generales a la transmisión de derechos societarios o de uso"
     ],
     "usuallyInRRI": [
-      "pasos internos de solicitud, acompañamiento y documentación de la incorporación",
-      "pautas cotidianas para hacer efectivos esos derechos y deberes",
-      "tramitación concreta, plazos de audiencia y mediación previa cuando proceda",
-      "pasos de comunicación y coordinación con lista de espera o personas candidatas"
+      "Pasos internos de solicitud, acompañamiento y documentación de la incorporación",
+      "Pautas cotidianas para hacer efectivos esos derechos y deberes",
+      "Tramitación concreta, plazos de audiencia y mediación previa cuando proceda",
+      "Pasos de comunicación y coordinación con lista de espera o personas candidatas"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -70,29 +70,29 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "separar obligaciones esenciales de compromisos prácticos revisables"
+      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "Separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "separar obligaciones esenciales de compromisos prácticos revisables"
+      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "Separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "pointsToDecideSoon": [
-      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "separar obligaciones esenciales de compromisos prácticos revisables",
-      "decidir qué conflictos deben pasar por mediación antes de convertirse en sanción",
-      "aclarar si la salida depende de encontrar sustituto o si la cooperativa gestiona directamente la entrada siguiente"
+      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "Separar obligaciones esenciales de compromisos prácticos revisables",
+      "Decidir qué conflictos deben pasar por mediación antes de convertirse en sanción",
+      "Aclarar si la salida depende de encontrar sustituto o si la cooperativa gestiona directamente la entrada siguiente"
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "flexibilidad vs seguridad jurídica"
+    "Flexibilidad vs seguridad jurídica"
   ],
   "notableProjects": [
     {

@@ -1,24 +1,24 @@
 {
   "slug": "desigualdad_aportaciones",
-  "generatedAt": "2026-05-14T09:03:17.591Z",
+  "generatedAt": "2026-05-14T09:24:12.487Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/desigualdad_aportaciones.md",
     "referencesCount": 34,
     "documents": [
-      "docs-estatutos-estatutos-axuntase",
-      "docs-estatutos-estatutos-blanxart",
-      "docs-estatutos-estatutos-cancarner",
-      "docs-estatutos-estatutos-elciempies",
-      "docs-estatutos-estatutos-entrepatios",
-      "docs-estatutos-estatutos-la-borda",
-      "docs-estatutos-estatutos-laseronda-org",
-      "docs-estatutos-estatutos-losnidales",
-      "docs-estatutos-estatutos-pepu",
-      "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "docs-estatutos-estatutos-tarocohousing",
-      "docs-guias-las-guias-de-sostre-civic",
-      "docs-leyes-normativa-autonomica",
-      "docs-leyes-normativa-estatal"
+      "Docs-estatutos-estatutos-axuntase",
+      "Docs-estatutos-estatutos-blanxart",
+      "Docs-estatutos-estatutos-cancarner",
+      "Docs-estatutos-estatutos-elciempies",
+      "Docs-estatutos-estatutos-entrepatios",
+      "Docs-estatutos-estatutos-la-borda",
+      "Docs-estatutos-estatutos-laseronda-org",
+      "Docs-estatutos-estatutos-losnidales",
+      "Docs-estatutos-estatutos-pepu",
+      "Docs-estatutos-estatutos-senior-cohousing-huelva",
+      "Docs-estatutos-estatutos-tarocohousing",
+      "Docs-guias-las-guias-de-sostre-civic",
+      "Docs-leyes-normativa-autonomica",
+      "Docs-leyes-normativa-estatal"
     ]
   },
   "summary": {
@@ -51,29 +51,29 @@
       "Una aportación inicial desigual puede convertirse en privilegio informal si no se separa de voto, uso de vivienda, retorno económico y participación en decisiones."
     ],
     "commonTradeoffs": [
-      "derecho de salida vs estabilidad financiera del proyecto",
-      "igualdad formal vs aportaciones económicas desiguales",
-      "flexibilidad financiera vs claridad de derechos económicos",
-      "necesidad de financiación vs igualdad cooperativa real",
-      "financiación suficiente vs igualdad política y convivencial"
+      "Derecho de salida vs estabilidad financiera del proyecto",
+      "Igualdad formal vs aportaciones económicas desiguales",
+      "Flexibilidad financiera vs claridad de derechos económicos",
+      "Necesidad de financiación vs igualdad cooperativa real",
+      "Financiación suficiente vs igualdad política y convivencial"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "principio de igualdad política entre personas socias",
-      "límites a que aportaciones, préstamos o cuotas generen privilegios de voto o uso",
-      "naturaleza de las aportaciones obligatorias y criterios de reembolso",
-      "marco general de aportaciones voluntarias o financiación adicional",
-      "derecho de reembolso, criterios generales de deducción y plazos máximos",
-      "importe, naturaleza, exigibilidad y criterios básicos de devolución de aportaciones obligatorias"
+      "Principio de igualdad política entre personas socias",
+      "Límites a que aportaciones, préstamos o cuotas generen privilegios de voto o uso",
+      "Naturaleza de las aportaciones obligatorias y criterios de reembolso",
+      "Marco general de aportaciones voluntarias o financiación adicional",
+      "Derecho de reembolso, criterios generales de deducción y plazos máximos",
+      "Importe, naturaleza, exigibilidad y criterios básicos de devolución de aportaciones obligatorias"
     ],
     "usuallyInRRI": [
-      "calendario y trazabilidad de pagos diferenciados",
-      "comunicación presupuestaria comprensible para todo el grupo",
-      "procedimiento para documentar préstamos o apoyos económicos sin privilegios",
-      "seguimiento de incidencias de pago y acuerdos de fraccionamiento",
-      "calendario interno de pagos, documentación y seguimiento del acuerdo de devolución",
-      "calendario de pagos, comunicación interna y gestión de incidencias de pago"
+      "Calendario y trazabilidad de pagos diferenciados",
+      "Comunicación presupuestaria comprensible para todo el grupo",
+      "Procedimiento para documentar préstamos o apoyos económicos sin privilegios",
+      "Seguimiento de incidencias de pago y acuerdos de fraccionamiento",
+      "Calendario interno de pagos, documentación y seguimiento del acuerdo de devolución",
+      "Calendario de pagos, comunicación interna y gestión de incidencias de pago"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -88,35 +88,35 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
-      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
+      "Decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
-      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
+      "Decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
     ],
     "pointsToDecideSoon": [
-      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
-      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
-      "decidir si la financiación adicional será préstamo, aportación voluntaria, cuota u otro instrumento separado",
-      "decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa",
-      "decidir cómo se informará al grupo sobre necesidades financieras sin crear jerarquías internas",
+      "Decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
+      "Decidir si la financiación adicional será préstamo, aportación voluntaria, cuota u otro instrumento separado",
+      "Decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa",
+      "Decidir cómo se informará al grupo sobre necesidades financieras sin crear jerarquías internas",
       "Decidir si cualquier aportación desigual será capital, préstamo, cuota, aportación voluntaria u otro instrumento con trazabilidad propia."
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "derecho de salida vs estabilidad financiera del proyecto",
-    "igualdad formal vs aportaciones económicas desiguales",
-    "flexibilidad financiera vs claridad de derechos económicos",
-    "necesidad de financiación vs igualdad cooperativa real",
-    "aportaciones desiguales vs una persona socia con igual participación"
+    "Derecho de salida vs estabilidad financiera del proyecto",
+    "Igualdad formal vs aportaciones económicas desiguales",
+    "Flexibilidad financiera vs claridad de derechos económicos",
+    "Necesidad de financiación vs igualdad cooperativa real",
+    "Aportaciones desiguales vs una persona socia con igual participación"
   ],
   "notableProjects": [
     {

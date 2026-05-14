@@ -1,23 +1,23 @@
 {
   "slug": "mantenimiento",
-  "generatedAt": "2026-05-14T09:03:17.642Z",
+  "generatedAt": "2026-05-14T09:24:12.547Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/mantenimiento.md",
     "referencesCount": 9,
     "documents": [
-      "docs-estatutos-estatutos-elciempies",
-      "docs-estatutos-estatutos-entrepatios",
-      "docs-estatutos-estatutos-la-borda",
-      "docs-estatutos-estatutos-los-girasoles",
-      "docs-estatutos-estatutos-losnidales",
-      "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "docs-estatutos-estatutos-tarocohousing",
-      "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
-      "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "docs-guias-las-guias-de-sostre-civic",
-      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
-      "docs-rri-informe-cooperativas-cesion-de-uso"
+      "Docs-estatutos-estatutos-elciempies",
+      "Docs-estatutos-estatutos-entrepatios",
+      "Docs-estatutos-estatutos-la-borda",
+      "Docs-estatutos-estatutos-los-girasoles",
+      "Docs-estatutos-estatutos-losnidales",
+      "Docs-estatutos-estatutos-senior-cohousing-huelva",
+      "Docs-estatutos-estatutos-tarocohousing",
+      "Docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "Docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "Docs-guias-las-guias-de-sostre-civic",
+      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+      "Docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+      "Docs-rri-informe-cooperativas-cesion-de-uso"
     ]
   },
   "summary": {
@@ -38,17 +38,17 @@
       "Si las tareas comunes no se reparten con claridad, pueden concentrarse cargas invisibles."
     ],
     "commonTradeoffs": [
-      "autonomía comunitaria vs necesidad de procedimiento claro"
+      "Autonomía comunitaria vs necesidad de procedimiento claro"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "principios de convivencia y posibilidad de mediación o régimen disciplinario",
-      "obligación general de contribuir al cuidado y conservación"
+      "Principios de convivencia y posibilidad de mediación o régimen disciplinario",
+      "Obligación general de contribuir al cuidado y conservación"
     ],
     "usuallyInRRI": [
-      "pasos de mediación, tiempos de respuesta y personas de referencia",
-      "turnos, avisos, criterios de obras y gestión de incidencias"
+      "Pasos de mediación, tiempos de respuesta y personas de referencia",
+      "Turnos, avisos, criterios de obras y gestión de incidencias"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -62,27 +62,27 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
+      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "Decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
+      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "Decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
     ],
     "pointsToDecideSoon": [
-      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
+      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "Decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "autonomía comunitaria vs necesidad de procedimiento claro"
+    "Autonomía comunitaria vs necesidad de procedimiento claro"
   ],
   "notableProjects": [
     {

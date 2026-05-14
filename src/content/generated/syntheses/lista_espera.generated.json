@@ -1,24 +1,24 @@
 {
   "slug": "lista_espera",
-  "generatedAt": "2026-05-14T09:03:17.634Z",
+  "generatedAt": "2026-05-14T09:24:12.544Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/lista_espera.md",
     "referencesCount": 12,
     "documents": [
-      "docs-estatutos-estatutos-elciempies",
-      "docs-estatutos-estatutos-la-borda",
-      "docs-estatutos-estatutos-laseronda-org",
-      "docs-estatutos-estatutos-los-girasoles",
-      "docs-estatutos-estatutos-losnidales",
-      "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "docs-estatutos-estatutos-tarocohousing",
-      "docs-guias-las-guias-de-sostre-civic",
-      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
-      "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
-      "docs-rri-informe-cooperativas-cesion-de-uso",
-      "docs-rri-rri-axuntase",
-      "docs-rri-rri-vallecas2homes"
+      "Docs-estatutos-estatutos-elciempies",
+      "Docs-estatutos-estatutos-la-borda",
+      "Docs-estatutos-estatutos-laseronda-org",
+      "Docs-estatutos-estatutos-los-girasoles",
+      "Docs-estatutos-estatutos-losnidales",
+      "Docs-estatutos-estatutos-senior-cohousing-huelva",
+      "Docs-estatutos-estatutos-tarocohousing",
+      "Docs-guias-las-guias-de-sostre-civic",
+      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+      "Docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+      "Docs-rri-informe-cooperativas-cesion-de-uso",
+      "Docs-rri-rri-axuntase",
+      "Docs-rri-rri-vallecas2homes"
     ]
   },
   "summary": {
@@ -41,19 +41,19 @@
       "Si la transmisión no se delimita, puede confundirse un derecho cooperativo con una compraventa privada."
     ],
     "commonTradeoffs": [
-      "flexibilidad vs seguridad jurídica"
+      "Flexibilidad vs seguridad jurídica"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "criterios básicos de admisión y derechos de las personas socias",
-      "derechos y obligaciones esenciales de las personas socias",
-      "límites generales a la transmisión de derechos societarios o de uso"
+      "Criterios básicos de admisión y derechos de las personas socias",
+      "Derechos y obligaciones esenciales de las personas socias",
+      "Límites generales a la transmisión de derechos societarios o de uso"
     ],
     "usuallyInRRI": [
-      "pasos internos de solicitud, acompañamiento y documentación de la incorporación",
-      "pautas cotidianas para hacer efectivos esos derechos y deberes",
-      "pasos de comunicación y coordinación con lista de espera o personas candidatas"
+      "Pasos internos de solicitud, acompañamiento y documentación de la incorporación",
+      "Pautas cotidianas para hacer efectivos esos derechos y deberes",
+      "Pasos de comunicación y coordinación con lista de espera o personas candidatas"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -67,28 +67,28 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "separar obligaciones esenciales de compromisos prácticos revisables"
+      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "Separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "separar obligaciones esenciales de compromisos prácticos revisables"
+      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "Separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "pointsToDecideSoon": [
-      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "separar obligaciones esenciales de compromisos prácticos revisables",
-      "aclarar si la salida depende de encontrar sustituto o si la cooperativa gestiona directamente la entrada siguiente"
+      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "Separar obligaciones esenciales de compromisos prácticos revisables",
+      "Aclarar si la salida depende de encontrar sustituto o si la cooperativa gestiona directamente la entrada siguiente"
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "flexibilidad vs seguridad jurídica"
+    "Flexibilidad vs seguridad jurídica"
   ],
   "notableProjects": [
     {

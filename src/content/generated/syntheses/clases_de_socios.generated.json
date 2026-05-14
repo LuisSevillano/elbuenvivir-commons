@@ -1,15 +1,15 @@
 {
   "slug": "clases_de_socios",
-  "generatedAt": "2026-05-14T09:03:17.577Z",
+  "generatedAt": "2026-05-14T09:24:12.461Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/clases_de_socios.md",
     "referencesCount": 6,
     "documents": [
-      "docs-estatutos-estatutos-laseronda-org",
-      "docs-estatutos-estatutos-tarocohousing",
-      "docs-leyes-normativa-autonomica",
-      "docs-leyes-normativa-estatal",
-      "docs-otros-mod-estatutos-coop-viviendas"
+      "Docs-estatutos-estatutos-laseronda-org",
+      "Docs-estatutos-estatutos-tarocohousing",
+      "Docs-leyes-normativa-autonomica",
+      "Docs-leyes-normativa-estatal",
+      "Docs-otros-mod-estatutos-coop-viviendas"
     ]
   },
   "summary": {
@@ -34,21 +34,21 @@
       "Sin garantías mínimas, el régimen disciplinario puede convertirse en una fuente de impugnación o conflicto interno."
     ],
     "commonTradeoffs": [
-      "salida flexible vs estabilidad económica del proyecto"
+      "Salida flexible vs estabilidad económica del proyecto"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "criterios básicos de admisión y derechos de las personas socias",
-      "causas y clases de baja, pérdida de condición de socia y efectos económicos básicos",
-      "derechos y obligaciones esenciales de las personas socias",
-      "causas generales de expulsión, garantías y órgano competente"
+      "Criterios básicos de admisión y derechos de las personas socias",
+      "Causas y clases de baja, pérdida de condición de socia y efectos económicos básicos",
+      "Derechos y obligaciones esenciales de las personas socias",
+      "Causas generales de expulsión, garantías y órgano competente"
     ],
     "usuallyInRRI": [
-      "pasos internos de solicitud, acompañamiento y documentación de la incorporación",
-      "procedimiento interno de comunicación, acompañamiento de salida y cierre de usos o llaves",
-      "pautas cotidianas para hacer efectivos esos derechos y deberes",
-      "tramitación concreta, plazos de audiencia y mediación previa cuando proceda"
+      "Pasos internos de solicitud, acompañamiento y documentación de la incorporación",
+      "Procedimiento interno de comunicación, acompañamiento de salida y cierre de usos o llaves",
+      "Pautas cotidianas para hacer efectivos esos derechos y deberes",
+      "Tramitación concreta, plazos de audiencia y mediación previa cuando proceda"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -62,29 +62,29 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido"
+      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "Decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido"
+      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "Decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido"
     ],
     "pointsToDecideSoon": [
-      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
-      "separar obligaciones esenciales de compromisos prácticos revisables",
-      "decidir qué conflictos deben pasar por mediación antes de convertirse en sanción"
+      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "Decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
+      "Separar obligaciones esenciales de compromisos prácticos revisables",
+      "Decidir qué conflictos deben pasar por mediación antes de convertirse en sanción"
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "salida flexible vs estabilidad económica del proyecto"
+    "Salida flexible vs estabilidad económica del proyecto"
   ],
   "notableProjects": [
     {

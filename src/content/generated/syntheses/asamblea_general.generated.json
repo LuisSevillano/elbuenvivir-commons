@@ -1,20 +1,20 @@
 {
   "slug": "asamblea_general",
-  "generatedAt": "2026-05-14T09:03:17.565Z",
+  "generatedAt": "2026-05-14T09:24:12.443Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/asamblea_general.md",
     "referencesCount": 18,
     "documents": [
-      "docs-estatutos-estatutos-axuntase",
-      "docs-estatutos-estatutos-entrepatios",
-      "docs-estatutos-estatutos-la-borda",
-      "docs-estatutos-estatutos-laseronda-org",
-      "docs-estatutos-estatutos-losnidales",
-      "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "docs-estatutos-estatutos-tarocohousing",
-      "docs-leyes-normativa-autonomica",
-      "docs-otros-mod-estatutos-coop-viviendas",
-      "docs-otros-modelo-estatutos-viviendas"
+      "Docs-estatutos-estatutos-axuntase",
+      "Docs-estatutos-estatutos-entrepatios",
+      "Docs-estatutos-estatutos-la-borda",
+      "Docs-estatutos-estatutos-laseronda-org",
+      "Docs-estatutos-estatutos-losnidales",
+      "Docs-estatutos-estatutos-senior-cohousing-huelva",
+      "Docs-estatutos-estatutos-tarocohousing",
+      "Docs-leyes-normativa-autonomica",
+      "Docs-otros-mod-estatutos-coop-viviendas",
+      "Docs-otros-modelo-estatutos-viviendas"
     ]
   },
   "summary": {
@@ -37,20 +37,20 @@
       "La unanimidad puede proteger acuerdos importantes pero también generar bloqueo; mayorías simples pueden dejar minorías expuestas."
     ],
     "commonTradeoffs": [
-      "agilidad de gestión vs control colectivo",
-      "consenso vs riesgo de bloqueo"
+      "Agilidad de gestión vs control colectivo",
+      "Consenso vs riesgo de bloqueo"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "competencias, convocatoria, quorum y mayorías esenciales",
-      "composición, mandato, competencias y rendición de cuentas",
-      "quorum, mayorías reforzadas y decisiones que requieren protección especial"
+      "Competencias, convocatoria, quorum y mayorías esenciales",
+      "Composición, mandato, competencias y rendición de cuentas",
+      "Quorum, mayorías reforzadas y decisiones que requieren protección especial"
     ],
     "usuallyInRRI": [
-      "preparación de reuniones, dinámica interna, actas y seguimiento de acuerdos",
-      "formas de coordinación, comunicación interna y preparación de acuerdos",
-      "facilitación, preparación de decisiones y mecanismos previos para evitar bloqueos"
+      "Preparación de reuniones, dinámica interna, actas y seguimiento de acuerdos",
+      "Formas de coordinación, comunicación interna y preparación de acuerdos",
+      "Facilitación, preparación de decisiones y mecanismos previos para evitar bloqueos"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -64,29 +64,29 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
+      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
+      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
     ],
     "pointsToDecideSoon": [
-      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
-      "decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria"
+      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
+      "Decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria"
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "agilidad de gestión vs control colectivo",
-    "consenso vs riesgo de bloqueo"
+    "Agilidad de gestión vs control colectivo",
+    "Consenso vs riesgo de bloqueo"
   ],
   "notableProjects": [
     {

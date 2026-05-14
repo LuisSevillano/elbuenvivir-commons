@@ -1,19 +1,19 @@
 {
   "slug": "invitados",
-  "generatedAt": "2026-05-14T09:03:17.628Z",
+  "generatedAt": "2026-05-14T09:24:12.535Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/invitados.md",
     "referencesCount": 6,
     "documents": [
-      "docs-estatutos-estatutos-entrepatios",
-      "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "docs-estatutos-estatutos-tejiendovida-asociacion",
-      "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "docs-guias-las-guias-de-sostre-civic",
-      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "docs-otros-modelo-estatutos-viviendas",
-      "docs-rri-informe-cooperativas-cesion-de-uso",
-      "docs-rri-rri-vallecas2homes"
+      "Docs-estatutos-estatutos-entrepatios",
+      "Docs-estatutos-estatutos-senior-cohousing-huelva",
+      "Docs-estatutos-estatutos-tejiendovida-asociacion",
+      "Docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "Docs-guias-las-guias-de-sostre-civic",
+      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+      "Docs-otros-modelo-estatutos-viviendas",
+      "Docs-rri-informe-cooperativas-cesion-de-uso",
+      "Docs-rri-rri-vallecas2homes"
     ]
   },
   "summary": {
@@ -34,17 +34,17 @@
       "Si no hay criterios, puede tensionarse el equilibrio entre hospitalidad, intimidad y disponibilidad de espacios."
     ],
     "commonTradeoffs": [
-      "uso flexible del espacio vs prevención de conflictos de convivencia"
+      "Uso flexible del espacio vs prevención de conflictos de convivencia"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "principio general de uso compartido y respeto a acuerdos comunitarios",
-      "principio general de compatibilidad entre uso privado, convivencia y espacios comunes"
+      "Principio general de uso compartido y respeto a acuerdos comunitarios",
+      "Principio general de compatibilidad entre uso privado, convivencia y espacios comunes"
     ],
     "usuallyInRRI": [
-      "reservas, horarios, prioridades, limpieza y criterios de uso cotidiano",
-      "avisos, límites de pernocta, reservas y responsabilidades de la persona anfitriona"
+      "Reservas, horarios, prioridades, limpieza y criterios de uso cotidiano",
+      "Avisos, límites de pernocta, reservas y responsabilidades de la persona anfitriona"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -58,27 +58,27 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
-      "decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados"
+      "Decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
+      "Decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
-      "decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados"
+      "Decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
+      "Decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados"
     ],
     "pointsToDecideSoon": [
-      "decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
-      "decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados"
+      "Decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
+      "Decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados"
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "uso flexible del espacio vs prevención de conflictos de convivencia"
+    "Uso flexible del espacio vs prevención de conflictos de convivencia"
   ],
   "notableProjects": [
     {

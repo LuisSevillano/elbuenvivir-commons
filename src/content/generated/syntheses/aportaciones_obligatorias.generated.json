@@ -1,24 +1,24 @@
 {
   "slug": "aportaciones_obligatorias",
-  "generatedAt": "2026-05-14T09:03:17.560Z",
+  "generatedAt": "2026-05-14T09:24:12.432Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/aportaciones_obligatorias.md",
     "referencesCount": 18,
     "documents": [
-      "docs-estatutos-estatutos-axuntase",
-      "docs-estatutos-estatutos-blanxart",
-      "docs-estatutos-estatutos-cancarner",
-      "docs-estatutos-estatutos-elciempies",
-      "docs-estatutos-estatutos-entrepatios",
-      "docs-estatutos-estatutos-la-borda",
-      "docs-estatutos-estatutos-laseronda-org",
-      "docs-estatutos-estatutos-losnidales",
-      "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "docs-estatutos-estatutos-tarocohousing",
-      "docs-leyes-normativa-autonomica",
-      "docs-leyes-normativa-estatal",
-      "docs-otros-modelo-estatutos-viviendas",
-      "docs-rri-rri-axuntase"
+      "Docs-estatutos-estatutos-axuntase",
+      "Docs-estatutos-estatutos-blanxart",
+      "Docs-estatutos-estatutos-cancarner",
+      "Docs-estatutos-estatutos-elciempies",
+      "Docs-estatutos-estatutos-entrepatios",
+      "Docs-estatutos-estatutos-la-borda",
+      "Docs-estatutos-estatutos-laseronda-org",
+      "Docs-estatutos-estatutos-losnidales",
+      "Docs-estatutos-estatutos-senior-cohousing-huelva",
+      "Docs-estatutos-estatutos-tarocohousing",
+      "Docs-leyes-normativa-autonomica",
+      "Docs-leyes-normativa-estatal",
+      "Docs-otros-modelo-estatutos-viviendas",
+      "Docs-rri-rri-axuntase"
     ]
   },
   "summary": {
@@ -46,27 +46,27 @@
       "Un reembolso inmediato puede tensionar la caja; un reembolso indefinido puede generar inseguridad para quien sale."
     ],
     "commonTradeoffs": [
-      "igualdad formal vs aportaciones económicas desiguales",
-      "derecho de salida vs estabilidad financiera del proyecto",
-      "igualdad cooperativa vs necesidades reales de financiación"
+      "Igualdad formal vs aportaciones económicas desiguales",
+      "Derecho de salida vs estabilidad financiera del proyecto",
+      "Igualdad cooperativa vs necesidades reales de financiación"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "importe o criterio de cálculo de la aportación obligatoria",
-      "naturaleza de la aportación y derechos que no puede alterar",
-      "criterios de devolución o actualización",
-      "importe, naturaleza, exigibilidad y criterios básicos de devolución de aportaciones obligatorias",
-      "marco general para aportaciones voluntarias y ausencia de privilegios políticos",
-      "derechos y obligaciones esenciales de las personas socias"
+      "Importe o criterio de cálculo de la aportación obligatoria",
+      "Naturaleza de la aportación y derechos que no puede alterar",
+      "Criterios de devolución o actualización",
+      "Importe, naturaleza, exigibilidad y criterios básicos de devolución de aportaciones obligatorias",
+      "Marco general para aportaciones voluntarias y ausencia de privilegios políticos",
+      "Derechos y obligaciones esenciales de las personas socias"
     ],
     "usuallyInRRI": [
-      "calendario de pagos",
-      "gestión interna de retrasos o fraccionamientos",
-      "comunicación presupuestaria al grupo",
-      "calendario de pagos, comunicación interna y gestión de incidencias de pago",
-      "canales de propuesta, registro y seguimiento interno",
-      "pautas cotidianas para hacer efectivos esos derechos y deberes"
+      "Calendario de pagos",
+      "Gestión interna de retrasos o fraccionamientos",
+      "Comunicación presupuestaria al grupo",
+      "Calendario de pagos, comunicación interna y gestión de incidencias de pago",
+      "Canales de propuesta, registro y seguimiento interno",
+      "Pautas cotidianas para hacer efectivos esos derechos y deberes"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -80,32 +80,32 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
-      "decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa"
+      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
+      "Decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
-      "decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa"
+      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
+      "Decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa"
     ],
     "pointsToDecideSoon": [
-      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
-      "decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa",
-      "separar obligaciones esenciales de compromisos prácticos revisables",
-      "separar claramente aportación al capital, cuotas de gasto y pagos por uso",
-      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
+      "Decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa",
+      "Separar obligaciones esenciales de compromisos prácticos revisables",
+      "Separar claramente aportación al capital, cuotas de gasto y pagos por uso",
+      "Decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
       "Decidir si habrá aportaciones desiguales y cómo se evita que generen privilegios."
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "igualdad formal vs aportaciones económicas desiguales",
-    "derecho de salida vs estabilidad financiera del proyecto"
+    "Igualdad formal vs aportaciones económicas desiguales",
+    "Derecho de salida vs estabilidad financiera del proyecto"
   ],
   "notableProjects": [
     {

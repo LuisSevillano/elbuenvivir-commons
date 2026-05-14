@@ -1,22 +1,22 @@
 {
   "slug": "estatutos_vs_rri",
-  "generatedAt": "2026-05-14T09:03:17.609Z",
+  "generatedAt": "2026-05-14T09:24:12.516Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/estatutos_vs_rri.md",
     "referencesCount": 18,
     "documents": [
-      "docs-estatutos-estatutos-elciempies",
-      "docs-estatutos-estatutos-entrepatios",
-      "docs-estatutos-estatutos-la-borda",
-      "docs-estatutos-estatutos-los-girasoles",
-      "docs-estatutos-estatutos-losnidales",
-      "docs-estatutos-estatutos-pepu",
-      "docs-estatutos-estatutos-pequenopueblo",
-      "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "docs-estatutos-estatutos-tarocohousing",
-      "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
-      "docs-rri-rri-axuntase",
-      "docs-rri-rri-vallecas2homes"
+      "Docs-estatutos-estatutos-elciempies",
+      "Docs-estatutos-estatutos-entrepatios",
+      "Docs-estatutos-estatutos-la-borda",
+      "Docs-estatutos-estatutos-los-girasoles",
+      "Docs-estatutos-estatutos-losnidales",
+      "Docs-estatutos-estatutos-pepu",
+      "Docs-estatutos-estatutos-pequenopueblo",
+      "Docs-estatutos-estatutos-senior-cohousing-huelva",
+      "Docs-estatutos-estatutos-tarocohousing",
+      "Docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
+      "Docs-rri-rri-axuntase",
+      "Docs-rri-rri-vallecas2homes"
     ]
   },
   "summary": {
@@ -44,28 +44,28 @@
       "Sin un cauce claro, desacuerdos pequeños pueden convertirse en conflictos societarios."
     ],
     "commonTradeoffs": [
-      "agilidad de gestión vs control colectivo",
-      "consenso vs riesgo de bloqueo",
-      "autonomía comunitaria vs necesidad de procedimiento claro",
-      "seguridad jurídica vs capacidad de aprendizaje",
-      "salida flexible vs estabilidad económica del proyecto",
+      "Agilidad de gestión vs control colectivo",
+      "Consenso vs riesgo de bloqueo",
+      "Autonomía comunitaria vs necesidad de procedimiento claro",
+      "Seguridad jurídica vs capacidad de aprendizaje",
+      "Salida flexible vs estabilidad económica del proyecto",
       "Estatutos mínimos vs sobrerregulación"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "competencias, convocatoria, quorum y mayorías esenciales",
-      "composición, mandato, competencias y rendición de cuentas",
-      "derechos y obligaciones esenciales de las personas socias",
-      "quorum, mayorías reforzadas y decisiones que requieren protección especial",
-      "principios de convivencia y posibilidad de mediación o régimen disciplinario"
+      "Competencias, convocatoria, quorum y mayorías esenciales",
+      "Composición, mandato, competencias y rendición de cuentas",
+      "Derechos y obligaciones esenciales de las personas socias",
+      "Quorum, mayorías reforzadas y decisiones que requieren protección especial",
+      "Principios de convivencia y posibilidad de mediación o régimen disciplinario"
     ],
     "usuallyInRRI": [
-      "preparación de reuniones, dinámica interna, actas y seguimiento de acuerdos",
-      "formas de coordinación, comunicación interna y preparación de acuerdos",
-      "pautas cotidianas para hacer efectivos esos derechos y deberes",
-      "facilitación, preparación de decisiones y mecanismos previos para evitar bloqueos",
-      "pasos de mediación, tiempos de respuesta y personas de referencia"
+      "Preparación de reuniones, dinámica interna, actas y seguimiento de acuerdos",
+      "Formas de coordinación, comunicación interna y preparación de acuerdos",
+      "Pautas cotidianas para hacer efectivos esos derechos y deberes",
+      "Facilitación, preparación de decisiones y mecanismos previos para evitar bloqueos",
+      "Pasos de mediación, tiempos de respuesta y personas de referencia"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -79,35 +79,35 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
+      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
+      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
     ],
     "pointsToDecideSoon": [
-      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
-      "separar obligaciones esenciales de compromisos prácticos revisables",
-      "decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria",
-      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
+      "Separar obligaciones esenciales de compromisos prácticos revisables",
+      "Decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria",
+      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
       "Separar qué debe quedar estable de qué puede aprenderse y actualizarse en RRI."
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "agilidad de gestión vs control colectivo",
-    "consenso vs riesgo de bloqueo",
-    "autonomía comunitaria vs necesidad de procedimiento claro",
-    "seguridad jurídica vs capacidad de aprendizaje",
-    "salida flexible vs estabilidad económica del proyecto"
+    "Agilidad de gestión vs control colectivo",
+    "Consenso vs riesgo de bloqueo",
+    "Autonomía comunitaria vs necesidad de procedimiento claro",
+    "Seguridad jurídica vs capacidad de aprendizaje",
+    "Salida flexible vs estabilidad económica del proyecto"
   ],
   "notableProjects": [
     {

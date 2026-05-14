@@ -1,28 +1,28 @@
 {
   "slug": "toma_decisiones",
-  "generatedAt": "2026-05-14T09:03:17.746Z",
+  "generatedAt": "2026-05-14T09:24:12.567Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/toma_decisiones.md",
     "referencesCount": 18,
     "documents": [
-      "docs-estatutos-estatutos-axuntase",
-      "docs-estatutos-estatutos-elciempies",
-      "docs-estatutos-estatutos-entrepatios",
-      "docs-estatutos-estatutos-la-borda",
-      "docs-estatutos-estatutos-laseronda-org",
-      "docs-estatutos-estatutos-los-girasoles",
-      "docs-estatutos-estatutos-losnidales",
-      "docs-estatutos-estatutos-pepu",
-      "docs-estatutos-estatutos-pequenopueblo",
-      "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "docs-estatutos-estatutos-tarocohousing",
-      "docs-estatutos-estatutos-tejiendovida-asociacion",
-      "docs-guias-las-guias-de-sostre-civic",
-      "docs-leyes-normativa-autonomica",
-      "docs-leyes-normativa-estatal",
-      "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
-      "docs-otros-mod-estatutos-coop-viviendas",
-      "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso"
+      "Docs-estatutos-estatutos-axuntase",
+      "Docs-estatutos-estatutos-elciempies",
+      "Docs-estatutos-estatutos-entrepatios",
+      "Docs-estatutos-estatutos-la-borda",
+      "Docs-estatutos-estatutos-laseronda-org",
+      "Docs-estatutos-estatutos-los-girasoles",
+      "Docs-estatutos-estatutos-losnidales",
+      "Docs-estatutos-estatutos-pepu",
+      "Docs-estatutos-estatutos-pequenopueblo",
+      "Docs-estatutos-estatutos-senior-cohousing-huelva",
+      "Docs-estatutos-estatutos-tarocohousing",
+      "Docs-estatutos-estatutos-tejiendovida-asociacion",
+      "Docs-guias-las-guias-de-sostre-civic",
+      "Docs-leyes-normativa-autonomica",
+      "Docs-leyes-normativa-estatal",
+      "Docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
+      "Docs-otros-mod-estatutos-coop-viviendas",
+      "Docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso"
     ]
   },
   "summary": {
@@ -47,24 +47,24 @@
       "Si todo se lleva a Estatutos, cualquier aprendizaje posterior puede requerir reformas pesadas."
     ],
     "commonTradeoffs": [
-      "agilidad de gestión vs control colectivo",
-      "consenso vs riesgo de bloqueo",
-      "seguridad jurídica vs capacidad de aprendizaje",
-      "consenso vs bloqueo"
+      "Agilidad de gestión vs control colectivo",
+      "Consenso vs riesgo de bloqueo",
+      "Seguridad jurídica vs capacidad de aprendizaje",
+      "Consenso vs bloqueo"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "competencias, convocatoria, quorum y mayorías esenciales",
-      "composición, mandato, competencias y rendición de cuentas",
-      "quorum, mayorías reforzadas y decisiones que requieren protección especial",
-      "materias estructurales y procedimiento de reforma estatutaria"
+      "Competencias, convocatoria, quorum y mayorías esenciales",
+      "Composición, mandato, competencias y rendición de cuentas",
+      "Quorum, mayorías reforzadas y decisiones que requieren protección especial",
+      "Materias estructurales y procedimiento de reforma estatutaria"
     ],
     "usuallyInRRI": [
-      "preparación de reuniones, dinámica interna, actas y seguimiento de acuerdos",
-      "formas de coordinación, comunicación interna y preparación de acuerdos",
-      "facilitación, preparación de decisiones y mecanismos previos para evitar bloqueos",
-      "detalles revisables y procedimientos de actualización interna"
+      "Preparación de reuniones, dinámica interna, actas y seguimiento de acuerdos",
+      "Formas de coordinación, comunicación interna y preparación de acuerdos",
+      "Facilitación, preparación de decisiones y mecanismos previos para evitar bloqueos",
+      "Detalles revisables y procedimientos de actualización interna"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -78,32 +78,32 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
+      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
+      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
     ],
     "pointsToDecideSoon": [
-      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
-      "decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria",
-      "decidir qué debe quedar estable y qué conviene poder ajustar con experiencia",
+      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
+      "Decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria",
+      "Decidir qué debe quedar estable y qué conviene poder ajustar con experiencia",
       "Decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria."
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "agilidad de gestión vs control colectivo",
-    "consenso vs riesgo de bloqueo",
-    "seguridad jurídica vs capacidad de aprendizaje"
+    "Agilidad de gestión vs control colectivo",
+    "Consenso vs riesgo de bloqueo",
+    "Seguridad jurídica vs capacidad de aprendizaje"
   ],
   "notableProjects": [
     {

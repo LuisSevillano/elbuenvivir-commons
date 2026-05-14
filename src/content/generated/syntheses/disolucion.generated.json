@@ -1,27 +1,27 @@
 {
   "slug": "disolucion",
-  "generatedAt": "2026-05-14T09:03:17.596Z",
+  "generatedAt": "2026-05-14T09:24:12.494Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/disolucion.md",
     "referencesCount": 42,
     "documents": [
-      "docs-estatutos-estatutos-axuntase",
-      "docs-estatutos-estatutos-blanxart",
-      "docs-estatutos-estatutos-cancarner",
-      "docs-estatutos-estatutos-elciempies",
-      "docs-estatutos-estatutos-entrepatios",
-      "docs-estatutos-estatutos-la-borda",
-      "docs-estatutos-estatutos-laseronda-org",
-      "docs-estatutos-estatutos-los-girasoles",
-      "docs-estatutos-estatutos-losnidales",
-      "docs-estatutos-estatutos-pepu",
-      "docs-estatutos-estatutos-pequenopueblo",
-      "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "docs-estatutos-estatutos-tarocohousing",
-      "docs-leyes-normativa-autonomica",
-      "docs-leyes-normativa-estatal",
-      "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-05012005-1-decreto-125-2004",
-      "docs-otros-modelo-estatutos-viviendas"
+      "Docs-estatutos-estatutos-axuntase",
+      "Docs-estatutos-estatutos-blanxart",
+      "Docs-estatutos-estatutos-cancarner",
+      "Docs-estatutos-estatutos-elciempies",
+      "Docs-estatutos-estatutos-entrepatios",
+      "Docs-estatutos-estatutos-la-borda",
+      "Docs-estatutos-estatutos-laseronda-org",
+      "Docs-estatutos-estatutos-los-girasoles",
+      "Docs-estatutos-estatutos-losnidales",
+      "Docs-estatutos-estatutos-pepu",
+      "Docs-estatutos-estatutos-pequenopueblo",
+      "Docs-estatutos-estatutos-senior-cohousing-huelva",
+      "Docs-estatutos-estatutos-tarocohousing",
+      "Docs-leyes-normativa-autonomica",
+      "Docs-leyes-normativa-estatal",
+      "Docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-05012005-1-decreto-125-2004",
+      "Docs-otros-modelo-estatutos-viviendas"
     ]
   },
   "summary": {
@@ -46,27 +46,27 @@
       "Si no se separa disolución, liquidación y reembolso, el grupo puede confundir devolución de aportaciones con adjudicación de patrimonio o fondos obligatorios."
     ],
     "commonTradeoffs": [
-      "continuidad del proyecto vs salida ordenada y protegida",
-      "derechos económicos individuales vs destino colectivo o legalmente condicionado del patrimonio",
-      "cierre ordenado del proyecto vs expectativas individuales sobre patrimonio"
+      "Continuidad del proyecto vs salida ordenada y protegida",
+      "Derechos económicos individuales vs destino colectivo o legalmente condicionado del patrimonio",
+      "Cierre ordenado del proyecto vs expectativas individuales sobre patrimonio"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "causas de disolución y remisión a la normativa cooperativa aplicable",
-      "mayorías u órgano competente para el acuerdo de disolución",
-      "criterios básicos de liquidación y destino del patrimonio o fondos",
-      "relación con reembolso de aportaciones y derechos económicos",
-      "causas de disolución, órgano competente, mayorías y remisión al régimen legal aplicable",
-      "criterios de liquidación, destino del patrimonio y respeto a fondos obligatorios"
+      "Causas de disolución y remisión a la normativa cooperativa aplicable",
+      "Mayorías u órgano competente para el acuerdo de disolución",
+      "Criterios básicos de liquidación y destino del patrimonio o fondos",
+      "Relación con reembolso de aportaciones y derechos económicos",
+      "Causas de disolución, órgano competente, mayorías y remisión al régimen legal aplicable",
+      "Criterios de liquidación, destino del patrimonio y respeto a fondos obligatorios"
     ],
     "usuallyInRRI": [
-      "preparación de información económica y patrimonial para la Asamblea",
-      "calendario interno de comunicación y acompañamiento del cierre",
-      "inventario práctico de bienes, contratos y obligaciones pendientes",
-      "canales de contraste jurídico antes de adoptar acuerdos irreversibles",
-      "preparación de información interna, calendario de comunicación y acompañamiento del cierre",
-      "inventario, comunicación interna y documentación práctica de la liquidación"
+      "Preparación de información económica y patrimonial para la Asamblea",
+      "Calendario interno de comunicación y acompañamiento del cierre",
+      "Inventario práctico de bienes, contratos y obligaciones pendientes",
+      "Canales de contraste jurídico antes de adoptar acuerdos irreversibles",
+      "Preparación de información interna, calendario de comunicación y acompañamiento del cierre",
+      "Inventario, comunicación interna y documentación práctica de la liquidación"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -81,31 +81,31 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "decidir qué información económica y patrimonial deberá conocer la Asamblea antes de acordar una disolución",
-      "decidir cómo se explicará al grupo la diferencia entre reembolso de aportaciones, fondos obligatorios y posible patrimonio remanente"
+      "Decidir qué información económica y patrimonial deberá conocer la Asamblea antes de acordar una disolución",
+      "Decidir cómo se explicará al grupo la diferencia entre reembolso de aportaciones, fondos obligatorios y posible patrimonio remanente"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "decidir qué información económica y patrimonial deberá conocer la Asamblea antes de acordar una disolución",
-      "decidir cómo se explicará al grupo la diferencia entre reembolso de aportaciones, fondos obligatorios y posible patrimonio remanente"
+      "Decidir qué información económica y patrimonial deberá conocer la Asamblea antes de acordar una disolución",
+      "Decidir cómo se explicará al grupo la diferencia entre reembolso de aportaciones, fondos obligatorios y posible patrimonio remanente"
     ],
     "pointsToDecideSoon": [
-      "decidir qué información económica y patrimonial deberá conocer la Asamblea antes de acordar una disolución",
-      "decidir cómo se explicará al grupo la diferencia entre reembolso de aportaciones, fondos obligatorios y posible patrimonio remanente",
+      "Decidir qué información económica y patrimonial deberá conocer la Asamblea antes de acordar una disolución",
+      "Decidir cómo se explicará al grupo la diferencia entre reembolso de aportaciones, fondos obligatorios y posible patrimonio remanente",
       "Decidir qué información económica, patrimonial y jurídica necesitaría la Asamblea antes de valorar una disolución.",
       "Decidir cómo se explicará la diferencia entre reembolso de aportaciones, fondos obligatorios, liquidación y destino del inmueble."
     ],
     "pointsThatCanWait": [
-      "formularios internos",
-      "calendarios operativos",
-      "protocolos menores que no afecten derechos básicos"
+      "Formularios internos",
+      "Calendarios operativos",
+      "Protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "continuidad del proyecto vs salida ordenada y protegida",
-    "derechos económicos individuales vs destino colectivo o legalmente condicionado del patrimonio",
-    "derechos económicos individuales vs destino legal o colectivo del patrimonio"
+    "Continuidad del proyecto vs salida ordenada y protegida",
+    "Derechos económicos individuales vs destino colectivo o legalmente condicionado del patrimonio",
+    "Derechos económicos individuales vs destino legal o colectivo del patrimonio"
   ],
   "notableProjects": [
     {

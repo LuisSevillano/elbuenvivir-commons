@@ -4,6 +4,9 @@
   "private": true,
   "type": "module",
   "packageManager": "pnpm@11.1.1",
+  "pnpm": {
+    "onlyBuiltDependencies": ["@parcel/watcher", "netlify-cli", "sharp", "unix-dgram"]
+  },
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -23,13 +26,13 @@
     "build:decision-models": "tsx scripts/build-decision-models.ts",
     "build:patterns": "tsx scripts/build-cross-topic-patterns.ts",
     "build:project-profiles": "tsx scripts/build-project-profiles.ts",
-    "deploy:netlify": "pnpm --package=netlify-cli dlx netlify deploy --build --site 28954291-cdf4-49f8-a212-11b4c7c15bbb",
-    "deploy:netlify:prod": "pnpm --package=netlify-cli dlx netlify deploy --build --prod --site 28954291-cdf4-49f8-a212-11b4c7c15bbb"
+    "deploy": "netlify deploy --build --prod --site 28954291-cdf4-49f8-a212-11b4c7c15bbb"
   },
   "devDependencies": {
     "@sveltejs/adapter-netlify": "^6.0.4",
     "@sveltejs/kit": "^2.22.0",
     "@sveltejs/vite-plugin-svelte": "^5.1.0",
+    "netlify-cli": "^19.0.0",
     "pdf-parse": "^2.4.5",
     "svelte": "^5.34.0",
     "svelte-check": "^4.2.1",

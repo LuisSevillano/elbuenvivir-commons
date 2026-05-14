@@ -58,7 +58,7 @@
   const evidenceConflicts = $derived(evidenceLayer?.conflictingApproaches ?? []);
   const evidenceExtracts = $derived((evidenceLayer?.extracts ?? []).filter((extract) => !unsupportedClaimIds.has(extract.claimId)));
   const hasEvidence = $derived(evidenceClaims.length > 0);
-  const evidenceHealth = $derived(validatedTopic?.status === 'insufficient_evidence' ? 'insufficient' : evidenceLayer?.evidenceHealth);
+  const evidenceHealth = $derived(validatedTopic?.status === 'insufficient_evidence' || validatedTopic?.status === 'evidencia_insuficiente' ? 'insufficient' : evidenceLayer?.evidenceHealth);
   const isWeak = $derived(evidenceHealth === 'weak');
   const isInsufficient = $derived(evidenceHealth === 'insufficient');
 
@@ -474,7 +474,7 @@
   .editorial-status span { color: var(--muted); }
   .editorial-status.reviewed { border-color: #bbf7d0; background: #f0fdf4; }
   .editorial-status.exploratory, .editorial-status.review-available { border-color: #fde68a; background: #fffbeb; }
-  .editorial-status.insufficient_evidence { border-color: #fecaca; background: #fef2f2; }
+  .editorial-status.insufficient_evidence, .editorial-status.evidencia_insuficiente { border-color: #fecaca; background: #fef2f2; }
   .editorial-status.generated-warning { border-color: #ddd6c8; background: #fbfaf7; }
   .solution-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 0.85rem; }
   .empty-note { margin: 0; padding: 0.9rem; border: 1px solid var(--border); border-radius: 4px; background: #fafafa; color: var(--muted); font-size: 0.92rem; }

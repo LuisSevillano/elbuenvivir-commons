@@ -1,11 +1,12 @@
 import type { ValidatedTopicStatus } from './types';
 
-export const validatedTopicStatuses = ['reviewed', 'exploratory', 'insufficient_evidence'] as const;
+export const validatedTopicStatuses = ['reviewed', 'exploratory', 'insufficient_evidence', 'evidencia_insuficiente'] as const;
 
 export const validatedTopicStatusLabels: Record<ValidatedTopicStatus, string> = {
   reviewed: 'Revisado',
   exploratory: 'Exploratorio',
-  insufficient_evidence: 'Evidencia insuficiente'
+  insufficient_evidence: 'Evidencia insuficiente',
+  evidencia_insuficiente: 'Evidencia insuficiente'
 };
 
 export const validatedTopicSchema = {

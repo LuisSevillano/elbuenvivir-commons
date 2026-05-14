@@ -17,7 +17,7 @@ export type TopicStatus = 'draft' | 'reviewed' | 'needs_legal_review';
 export type ReviewStatus = 'auto' | 'reviewed' | 'rejected';
 export type Confidence = 'high' | 'medium' | 'low';
 export type EvidenceLevel = 'high' | 'medium' | 'low';
-export type ValidatedTopicStatus = 'reviewed' | 'exploratory' | 'insufficient_evidence';
+export type ValidatedTopicStatus = 'reviewed' | 'exploratory' | 'insufficient_evidence' | 'evidencia_insuficiente';
 
 export interface SourceDocument {
   slug: string;

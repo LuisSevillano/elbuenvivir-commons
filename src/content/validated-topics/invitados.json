@@ -1,0 +1,128 @@
+{
+  "slug": "invitados",
+  "status": "evidencia_insuficiente",
+  "editorialSummary": [
+    "Las fuentes revisadas no contienen reglas claras y comparables sobre visitas, personas invitadas o pernoctas.",
+    "Los extractos citados tratan operaciones con terceras personas, órganos sociales, convivencia habitual de socias o beneficiarias, responsabilidad societaria o portada e índice de una guía.",
+    "El tema debe tratarse como una materia pendiente de decisión comunitaria, no como una práctica documentada en los proyectos analizados.",
+    "No debe mostrarse ningún modelo como detectado hasta localizar fuentes que regulen expresamente visitas, invitados o pernoctas."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "guests_allowed",
+      "question": "¿Puede una persona socia invitar a terceros?",
+      "detectedApproaches": [],
+      "recommendationsForBuenVivir": [
+        "Decidir expresamente si se permiten visitas, en qué espacios y bajo qué responsabilidad, porque las fuentes revisadas no aportan una regla comparada fiable."
+      ]
+    },
+    {
+      "id": "overnight_limits",
+      "question": "¿Existen límites de noches o estancias?",
+      "detectedApproaches": [],
+      "recommendationsForBuenVivir": [
+        "Si se quiere permitir pernocta, definir en RRI límites, excepciones y mecanismo de revisión sin presentarlo como práctica detectada en las fuentes actuales."
+      ]
+    },
+    {
+      "id": "guest_common_spaces",
+      "question": "¿Pueden usarse espacios comunes por personas invitadas?",
+      "detectedApproaches": [],
+      "recommendationsForBuenVivir": [
+        "Separar acceso acompañado, reserva de espacios, limpieza, responsabilidad e incidencias como puntos de decisión comunitaria."
+      ]
+    },
+    {
+      "id": "guest_presence",
+      "question": "¿Puede una persona invitada permanecer sin la persona socia presente?",
+      "detectedApproaches": [],
+      "recommendationsForBuenVivir": [
+        "Decidir si la presencia de la persona anfitriona será obligatoria, si habrá excepciones y cómo se comunicarán."
+      ]
+    },
+    {
+      "id": "guest_responsibility",
+      "question": "¿Qué responsabilidad asume la persona anfitriona por daños, limpieza o incidencias?",
+      "detectedApproaches": [],
+      "recommendationsForBuenVivir": [
+        "Definir responsabilidades prácticas solo si la comunidad decide permitir visitas o pernoctas, sin apoyarlas en los claims generados actuales."
+      ]
+    }
+  ],
+  "supportedFindings": [],
+  "unsupportedClaims": [
+    {
+      "claimId": "invitados-guests_allowed",
+      "statement": "Las personas socias pueden invitar a terceros a las instalaciones",
+      "reason": "Las referencias revisadas no establecen una regla explícita sobre permiso general para invitar a terceros.",
+      "decisionQuestionIds": ["guests_allowed"],
+      "approachNames": ["Uso libre con comunicación informal"]
+    },
+    {
+      "claimId": "invitados-notice",
+      "statement": "La persona socia debe avisar o solicitar autorización para invitar",
+      "reason": "Los extractos citados no permiten inferir una regla de aviso o autorización para invitados."
+    },
+    {
+      "claimId": "invitados-guest_limit",
+      "statement": "Existe un límite de noches o estancias para personas invitadas",
+      "reason": "No hay evidencia documental que respalde límites de noches o estancias para personas invitadas.",
+      "decisionQuestionIds": ["overnight_limits"],
+      "approachNames": ["Límite anual o periódico de pernoctas"]
+    },
+    {
+      "claimId": "invitados-guest_responsibility",
+      "statement": "La persona socia es responsable de los daños causados por sus invitados",
+      "reason": "Las referencias tratan responsabilidad societaria, de órganos o de deudas sociales, no daños causados por invitados.",
+      "decisionQuestionIds": ["guest_responsibility"]
+    },
+    {
+      "claimId": "invitados-guest_common_spaces",
+      "statement": "Las personas invitadas pueden usar espacios comunes",
+      "reason": "Las secciones revisadas reconocen elementos comunes para socias o beneficiarias, pero no regulan acceso o uso por invitados.",
+      "decisionQuestionIds": ["guest_common_spaces"],
+      "approachNames": ["Prioridad absoluta para personas socias"]
+    },
+    {
+      "claimId": "invitados-guest_alone",
+      "statement": "Personas invitadas pueden estar sin la persona socia presente",
+      "reason": "Los extractos no tratan acompañamiento, presencia de la persona anfitriona, estancias autónomas ni acceso independiente.",
+      "decisionQuestionIds": ["guest_presence"]
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Tratar invitados como una decisión pendiente de la comunidad, no como una práctica ya documentada en las fuentes analizadas.",
+    "Decidir primero si se permiten visitas, pernoctas y uso de espacios comunes por personas invitadas.",
+    "Si se permiten pernoctas, definir límites, excepciones, aviso y revisión en el RRI, con evaluación tras los primeros usos reales.",
+    "Separar acceso acompañado, reserva de espacios, limpieza, responsabilidad e incidencias como decisiones operativas revisables.",
+    "No convertir los modelos generados actuales en cláusulas estatutarias sin localizar fuentes explícitas o recibir revisión jurídica."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Evitar reglas concretas sobre invitados mientras no exista una decisión comunitaria clara y revisada.",
+      "Si se incluye algo en Estatutos, limitarlo a principios generales de convivencia, respeto a acuerdos internos y compatibilidad con el uso cooperativo.",
+      "No incorporar límites de noches, procedimientos de aviso o permisos específicos como si estuvieran respaldados por las fuentes actuales."
+    ],
+    "rri": [
+      "Regular, si la comunidad lo decide, avisos, reservas, pernoctas, presencia de la persona anfitriona, limpieza, daños e incidencias.",
+      "Mantener las reglas de invitados como procedimientos revisables tras experiencia real de uso.",
+      "Definir excepciones y mecanismo de revisión sin presentarlos como prácticas detectadas en proyectos documentados."
+    ],
+    "notes": [
+      "La revisión jurídica debe confirmar qué materias requieren rango estatutario.",
+      "La evidencia disponible no permite sostener una comparativa documental sobre invitados."
+    ]
+  },
+  "referencesToUse": [],
+  "referencesToAvoid": [
+    "docs-otros-modelo-estatutos-viviendas: Artículo 43 regula operaciones con terceras personas, no visitas, invitados ni pernoctas.",
+    "docs-rri-rri-vallecas2homes: Artículos 27 y 28 regulan cesión de derechos a familiares o terceros, no estancia temporal ni invitados.",
+    "docs-estatutos-estatutos-elciempies: CAPÍTULO III regula órganos sociales y no reglas de invitados; CAPÍTULO II solo puede servir como contexto general sobre socias, beneficiarias y elementos comunes.",
+    "docs-estatutos-estatutos-los-girasoles: Las secciones revisadas no contienen una regla sobre visitas o invitados.",
+    "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024: La sección citada es portada, créditos, aviso legal e índice, no evidencia sustantiva sobre invitados.",
+    "docs-guias-las-guias-de-sostre-civic: Los extractos citados en el modelo no deben usarse para presentar reglas detectadas sobre invitados sin revisión sustantiva adicional.",
+    "docs-guias-guia-introduccion-al-cohousing-senior-2019-4: Los extractos citados no sostienen límites de pernocta o prioridad de uso para invitados.",
+    "docs-rri-informe-cooperativas-cesion-de-uso: El extracto citado no regula pernoctas de invitados.",
+    "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007: El extracto citado es contable y no regula invitados."
+  ]
+}

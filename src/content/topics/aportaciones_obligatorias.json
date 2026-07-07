@@ -15,8 +15,8 @@
   "decisionsForBuenVivir": [
     "¿Qué cuantía damos a la aportación obligatoria mínima legal en estatutos? (baja, como otras coops: 100-600 €).",
     "Cerrar los tramos definitivos de la cuota de mantenimiento (40/60/80 €).",
-    "Decidir el retorno del exceso sobre el umbral (propuesta de Economía: 5/4/3 % anual).",
-    "¿Se sube el umbral a 15.000 € si no cubre la compra, o se imputa parte a mantenimiento?",
+    "Decidir el mecanismo de retorno del exceso sobre el umbral (devolución sin interés a medida que otras socias alcanzan el umbral).",
+    "Si el umbral (10.000 €) no cubre el precio de la casa: ¿subir el umbral o financiación externa? (No a mantenimiento: cajas separadas, decidido R21.)",
     "¿La aportación obligatoria mínima será distinta para Socio A y Socio B?"
   ],
   "risks": [
@@ -115,6 +115,7 @@
     "proposal": {
       "rationale": [
         "El grupo aprobó (votación de dic-2025 y Reuniones 19-21 de 2026) un sistema de tres cuotas: cuota umbral orientativa de 10.000 € por Socio A (aportación inicial orientativa de 3.000 €, no obligatoria), cuota de mantenimiento por tramos (~40/60/80 €) y cuota de uso simbólica diferenciada.",
+        "Decidido en la Reunión 21 (07-07-2026): la cuota de mantenimiento y la cuota umbral son cajas separadas, incluso con cuentas bancarias distintas; se reserva un fondo de contingencias de 5.000 €; y la cuota de uso de las personas socias es de 0,5 €/día por igual, con independencia de cuánto usen la casa.",
         "Clave legal: hay que añadir a los estatutos una aportación obligatoria mínima al capital (que la ley exige) diferenciada de la cuota umbral. Puede ser baja (p. ej. 100-300 €), de modo que se cumpla la ley sin desvirtuar la flexibilidad del umbral.",
         "El Socio B no aporta cuota umbral, pero sí debería suscribir la aportación obligatoria mínima para tener la condición de socio."
       ],
@@ -134,21 +135,21 @@
         {
           "target": "rri",
           "heading": "Importe orientativo de la cuota umbral y flexibilidad",
-          "text": "La cuota umbral de referencia se fija en 10.000 € por persona socia usuaria (con una aportación inicial orientativa de 3.000 €), orientativa y flexible según la capacidad económica de cada persona. Cada persona decidirá la cantidad y el ritmo de aportación hasta ese umbral, sin que las diferencias en el camino hacia él generen diferencias de voto, de prioridad de reserva ni de trato. Estos importes son revisables por la Asamblea; si el precio del inmueble superase el capital reunido, la Asamblea decidirá subir el umbral (p. ej. 15.000 €) o imputar la diferencia a mantenimiento.",
+          "text": "La cuota umbral de referencia se fija en 10.000 € por persona socia usuaria (con una aportación inicial orientativa de 3.000 €), orientativa y flexible según la capacidad económica de cada persona. Cada persona decidirá la cantidad y el ritmo de aportación hasta ese umbral, sin que las diferencias en el camino hacia él generen diferencias de voto, de prioridad de reserva ni de trato. Estos importes son revisables por la Asamblea; si el precio del inmueble superase el capital reunido, la Asamblea decidirá subir el umbral (p. ej. 15.000 €) o recurrir a financiación externa. La cuota umbral y la de mantenimiento se gestionan como cajas separadas (cuentas bancarias distintas, Reunión 21), por lo que esa diferencia no se cubre con mantenimiento.",
           "note": "Recoge lo aprobado en dic-2025 y Reuniones 19-21 (2026). Al ser orientativo y revisable, el importe va al RRI; en Estatutos solo queda su naturaleza como aportación reembolsable al capital."
         },
         {
           "target": "rri",
           "heading": "Cuotas de mantenimiento y de uso",
-          "text": "La cuota de mantenimiento se estructura en tramos revisables (estimados en 40, 60 y 80 €), eligiendo cada persona el tramo según su capacidad; las familias con hijos no optarán al tramo más bajo. La cuota de uso es un pago simbólico diario diferenciado (personas socias mantenedoras y sus hijos: 0,5 €/día; personas no mantenedoras: importe superior; invitados: 10-14 €/día adultos y 5 €/día menores), revisable periódicamente por la Asamblea.",
+          "text": "La cuota de mantenimiento se estructura en tramos revisables (estimados en 40, 60 y 80 €), eligiendo cada persona el tramo según su capacidad; las familias con hijos no optarán al tramo más bajo. La cuota de uso es un pago simbólico diario diferenciado (personas socias mantenedoras y sus hijos: 0,5 €/día; personas no mantenedoras: importe superior; invitados: 10-14 €/día adultos y 5 €/día menores), revisable periódicamente por la Asamblea. La cuota de mantenimiento y la cuota umbral se mantienen como cajas separadas, con cuentas bancarias distintas, y se reserva un fondo de contingencias de 5.000 € (Reunión 21). La cuota de uso de las socias es igual para todas (0,5 €/día), con independencia del uso.",
           "note": "Recoge lo aprobado en las Reuniones 20 y 21 (2026); los tramos e importes de las cuotas de mantenimiento y de uso son materia de RRI por ser revisables."
         }
       ],
       "openDecisions": [
         "Fijar la cuantía de la aportación obligatoria mínima legal en estatutos (baja: 100-300 €).",
         "Cerrar los tramos definitivos de la cuota de mantenimiento.",
-        "Aprobar el retorno del exceso sobre el umbral (propuesta de Economía: 5/4/3 % anual).",
-        "¿Subir el umbral a 15.000 € si no cubre la compra, o imputar parte a mantenimiento?",
+        "Aprobar el mecanismo de retorno del exceso sobre el umbral (devolución sin interés a medida que otras socias alcanzan el umbral).",
+        "Si el umbral no cubre el precio de la casa, ¿subir el umbral o recurrir a financiación externa? (Mantenimiento descartado: cajas separadas, R21.)",
         "¿La aportación obligatoria mínima será distinta para Socio A y Socio B?"
       ],
       "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas y documentos de la Comisión de Economía. Debe revisarse jurídicamente antes de aprobarse."

@@ -1,6 +1,6 @@
 <script lang="ts">
   import StatusBadge from './StatusBadge.svelte';
-  import { categoryLabels, placementLabel, topicStatusLabels } from '$lib/content/labels';
+  import { categoryLabels } from '$lib/content/labels';
   import { validatedTopicStatusLabels } from '$lib/content/validatedTopicSchema';
   import type { ConsultableTopic, GovernanceTopic, ValidatedTopicStatus } from '$lib/content/types';
 
@@ -10,55 +10,55 @@
   }
 
   let { topic, editorialStatus }: Props = $props();
-  const availabilityBadge = $derived('availabilityBadge' in topic ? topic.availabilityBadge : null);
   const status = $derived(editorialStatus ?? ('editorialStatus' in topic ? topic.editorialStatus : null));
-  const statusTone = $derived(status === 'reviewed' ? 'success' : status === 'exploratory' ? 'neutral' : 'warning');
-  const showPlacement = $derived(status !== 'insufficient_evidence' && status !== 'evidencia_insuficiente');
+  const isReviewed = $derived(status === 'reviewed');
+  const statusTone = $derived(status === 'exploratory' ? 'neutral' : 'warning');
 </script>
 
 <header class="topic-hero">
+  {#if categoryLabels[topic.category]}
+    <p class="eyebrow">{categoryLabels[topic.category]}</p>
+  {/if}
+
   <h1 class="hero-title">{topic.title}</h1>
 
   {#if topic.shortDescription}
     <p class="hero-description">{topic.shortDescription}</p>
   {/if}
 
-  <div class="hero-badges">
-    <StatusBadge>{categoryLabels[topic.category]}</StatusBadge>
-    {#if status}
+  <!-- El estado solo se muestra cuando es una excepción que conviene ver (no en "Revisado"). -->
+  {#if status && !isReviewed}
+    <div class="hero-badges">
       <StatusBadge tone={statusTone}>{validatedTopicStatusLabels[status]}</StatusBadge>
-    {:else if availabilityBadge}
-      <StatusBadge tone={availabilityBadge === 'Análisis amplio' ? 'success' : 'neutral'}>{availabilityBadge}</StatusBadge>
-    {:else}
-      <StatusBadge tone="warning">{topicStatusLabels[topic.status]}</StatusBadge>
-    {/if}
-    {#if showPlacement}
-      <StatusBadge>{placementLabel(topic.governancePlacement.recommendedPrimaryLocation)}</StatusBadge>
-    {/if}
-  </div>
+    </div>
+  {/if}
 </header>
 
 <style>
   .topic-hero {
-    margin-bottom: 1.5rem;
-    padding-bottom: 1.1rem;
+    margin-bottom: 1.3rem;
+    padding-bottom: 1rem;
     border-bottom: 1px solid var(--border);
   }
 
+  .topic-hero .eyebrow {
+    margin: 0 0 0.35rem;
+  }
+
   .hero-title {
-    font-size: clamp(1.65rem, 4vw, 2rem);
-    font-weight: 700;
-    color: var(--heading);
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 4.5vw, 2.6rem);
+    font-weight: 600;
+    letter-spacing: -0.01em;
     margin: 0 0 0.55rem;
-    line-height: 1.2;
-    letter-spacing: -0.02em;
+    line-height: 1.1;
   }
 
   .hero-description {
     font-size: 1rem;
     color: var(--muted);
     margin: 0 0 0.9rem;
-    line-height: 1.45;
+    line-height: 1.5;
     max-width: 58ch;
   }
 
@@ -67,5 +67,4 @@
     flex-wrap: wrap;
     gap: 0.5rem;
   }
-
 </style>

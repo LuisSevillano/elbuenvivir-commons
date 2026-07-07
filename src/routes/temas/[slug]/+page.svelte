@@ -225,18 +225,18 @@
   <a class="back-link" href="/temas">← Todos los temas</a>
   <TopicHero {topic} editorialStatus={editorialStatusKey} />
 
-  <section class="editorial-status {editorialStatusClass}">
-    <strong>{editorialStatus}</strong>
-    {#if validatedTopic && isInsufficientState}
-      <span>La revisión editorial concluye que el material disponible no permite sostener conclusiones comparadas.</span>
-    {:else if validatedTopic}
-      <span>Esta página prioriza la revisión editorial estructurada. El resto del material queda subordinado a ese criterio.</span>
-    {:else if editorialReview}
-      <span>Existe revisión editorial, pero el tema todavía debe consolidarse antes de presentarse como conclusión robusta.</span>
-    {:else}
-      <span>Este tema se ofrece como exploración prudente y debe contrastarse con las fuentes antes de redactar acuerdos.</span>
-    {/if}
-  </section>
+  {#if isReviewed}
+    <p class="page-note">Borrador de trabajo · contrastar con las fuentes y revisar jurídicamente antes de aprobarlo.</p>
+  {:else}
+    <section class="editorial-status {editorialStatusClass}">
+      <strong>{editorialStatus}</strong>
+      {#if isInsufficientState}
+        <span>La revisión editorial concluye que el material disponible no permite sostener conclusiones comparadas.</span>
+      {:else}
+        <span>Este tema se ofrece como exploración prudente y debe contrastarse con las fuentes antes de redactar acuerdos.</span>
+      {/if}
+    </section>
+  {/if}
 
   {#if validatedTopic && validatedTopic.editorialSummary.length > 0}
     <EditorialSection title="Resumen editorial" density="compact">
@@ -471,6 +471,14 @@
   .back-link:hover { color: var(--accent); }
   .workbench { display: grid; gap: 0.35rem; }
   .minimal-page { display: grid; gap: 0.45rem; }
+  .page-note {
+    margin: 0 0 1.4rem;
+    padding-left: 0.7rem;
+    border-left: 2px solid var(--border);
+    color: var(--muted);
+    font-size: 0.82rem;
+    line-height: 1.45;
+  }
   .editorial-status {
     display: grid; gap: 0.2rem; margin: -0.55rem 0 1rem; padding: 0.7rem 0.85rem;
     border: 1px solid var(--border); border-radius: 4px; background: #fafafa;

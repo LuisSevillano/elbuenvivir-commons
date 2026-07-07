@@ -1,26 +1,26 @@
 {
   "slug": "desigualdad_aportaciones",
   "title": "Aportaciones iniciales desiguales",
-  "shortDescription": "Cómo tratar que cada Socio A aporte una cantidad distinta a la cuota umbral (10.000 €) según su capacidad, manteniendo una persona = un voto, y cómo devolver el exceso aportado por encima del umbral (propuesta de retorno 5%/4%/3% de la Comisión de Economía).",
+  "shortDescription": "Cómo tratar que cada Socio A aporte una cantidad distinta a la cuota umbral (10.000 €) según su capacidad, manteniendo una persona = un voto, y cómo devolver el exceso aportado por encima del umbral (retorno sin interés, a medida que otras socias alcanzan el umbral).",
   "category": "economico",
   "minimumContents": [
     "Fijar una aportación obligatoria mínima al capital para adquirir la condición de socio, separada del umbral orientativo de 10.000 €.",
     "Dejar por escrito que aportar más no da más voto ni más prioridad: una persona = un voto.",
     "Definir la naturaleza del exceso aportado por encima del umbral (capital voluntario, préstamo o financiación que no integra capital) y su régimen de devolución.",
-    "Regular el retorno del exceso (la Comisión de Economía propone tramos 5% / 4% / 3% anual) y de qué bolsa se paga.",
+    "Regular el retorno del exceso (devolución sin interés, desde la bolsa de cuota umbral, separada de mantenimiento — R21).",
     "Regular qué pasa con la aportación y con el exceso cuando una persona se da de baja."
   ],
   "legalBasis": [],
   "projectReferences": [],
   "decisionsForBuenVivir": [
     "¿La aportación obligatoria mínima para ser socio (art. 60) se fija baja e igual para todos, y el resto hasta 10.000 € es voluntario y flexible? Así se sostiene una persona = un voto sin excluir a quien aporta menos.",
-    "¿Se aprueba la tabla de retorno de la Comisión de Economía (5% hasta 2.000 € de exceso, 4% entre 2.000 y 5.000 €, 3% por encima) o se ajusta?",
-    "¿El exceso sobre 10.000 € es aportación voluntaria al capital (retorno = intereses, con el límite del art. 63) o financiación que no integra capital / préstamo (retorno pactado por contrato)? El encaje legal del 'retorno garantizado' depende de esta elección.",
-    "¿De qué bolsa se paga el retorno: solo de la cuota umbral, o también de mantenimiento? Y si el precio de la casa supera el capital reunido, ¿se sube el umbral (p. ej. 15.000 €) o se imputa la diferencia a mantenimiento? (planteado en Reunión 21).",
+    "¿Cómo se articula el retorno del exceso sin interés: orden de devolución (antigüedad / prorrata) y ritmo según entra liquidez o nuevas socias alcanzan el umbral?",
+    "¿El exceso sobre 10.000 € se articula como aportación voluntaria al capital (reembolsable, sin retribución) o como anticipo/financiación que no integra capital? Sin interés, ambas encajan; el anticipo evita además el límite del tercio del capital (art. 59.5).",
+    "Si el precio de la casa supera el capital reunido, ¿se sube el umbral (p. ej. 15.000 €) o se recurre a financiación externa? (No a mantenimiento: cajas separadas, decidido en R21.)",
     "Al causar baja una persona, ¿se le devuelve la cuota umbral aportada y el exceso pendiente de retorno, y con qué plazos y deducciones?"
   ],
   "risks": [
-    "Prometer un 'retorno garantizado' fijo sobre el capital choca con el art. 63.2: la remuneración del capital no puede superar los resultados positivos del ejercicio. Un porcentaje asegurado encaja mejor como préstamo/financiación que no integra capital que como interés de aportación voluntaria.",
+    "Un retorno con interés fijo sobre el capital chocaría con el art. 63.2 (la remuneración del capital no puede superar los resultados del ejercicio). El grupo ha optado por un retorno SIN interés, lo que evita ese problema: se devuelve el exceso aportado, no una ganancia.",
     "Si las aportaciones desiguales se contabilizan como capital, ninguna persona puede superar un tercio del capital social (art. 59.5): una aportación muy alta podría rebasar ese tope.",
     "Confundir capacidad de aportar con poder: aunque una persona aporte más, la ley mantiene un voto por socio (art. 35.1) en una cooperativa de usuarios; conviene decirlo expresamente para evitar autoridad informal.",
     "Dejar el retorno y la salida sin regular hasta que haya un caso real: es donde la desigualdad económica genera más conflicto (baja, herencia, nueva incorporación).",
@@ -30,7 +30,7 @@
     "recommendedPrimaryLocation": "mixed",
     "rationale": [
       "La aportación obligatoria mínima, la naturaleza de las aportaciones y el principio de un voto por socio son contenido estatutario.",
-      "El umbral orientativo, la tabla de retorno, el calendario de pagos y la gestión del FDE son operativos, revisables, y encajan mejor en el RRI (así lo pidió el grupo en Reunión 20: 'flexible, revisable, orientativo, reglamento de régimen interno y no estatutos')."
+      "El umbral orientativo, el retorno del exceso, el calendario de pagos y la gestión del FDE son operativos, revisables, y encajan mejor en el RRI (así lo pidió el grupo en Reunión 20: 'flexible, revisable, orientativo, reglamento de régimen interno y no estatutos')."
     ],
     "shouldBeInStatutes": [
       "Aportación obligatoria mínima al capital para adquirir la condición de socio y su desembolso.",

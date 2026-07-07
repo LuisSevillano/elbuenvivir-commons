@@ -1,11 +1,22 @@
 <script lang="ts">
   let { tags = [] }: { tags?: string[] } = $props();
+
+  const overrides: Record<string, string> = {
+    rri: 'RRI',
+    cesion_uso: 'Cesión de uso'
+  };
+  function formatTag(tag: string): string {
+    const key = tag.toLowerCase();
+    if (overrides[key]) return overrides[key];
+    const words = tag.replace(/_/g, ' ');
+    return words.charAt(0).toLocaleUpperCase('es') + words.slice(1);
+  }
 </script>
 
 {#if tags.length > 0}
   <ul class="tags" aria-label="Etiquetas">
     {#each tags as tag}
-      <li>{tag}</li>
+      <li>{formatTag(tag)}</li>
     {/each}
   </ul>
 {/if}

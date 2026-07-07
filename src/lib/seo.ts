@@ -4,7 +4,7 @@ import type { ConsultableTopic, SourceDocument } from '$lib/content/types';
 export const siteUrl = 'https://elbuenvivir-commons.netlify.app';
 export const siteName = 'El Buen Vivir Commons';
 export const defaultSocialImage = '/thumbnail-og.jpg';
-export const defaultSocialImageAlt = 'Mesa de trabajo con documentos, cuadernos y una ventana abierta al paisaje rural.';
+export const defaultSocialImageAlt = 'Casa rural entre vegetacion, con camino de tierra y montanas al fondo.';
 
 export interface SeoMetadata {
   title: string;

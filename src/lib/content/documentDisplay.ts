@@ -23,7 +23,24 @@ const DOCUMENT_TITLE_OVERRIDES: Record<string, string> = {
   'docs-otros-modelo-estatutos-viviendas': 'Modelo de estatutos de viviendas',
   'docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso':
     'RRI para viviendas cooperativas en cesión de uso',
-  'docs-rri-informe-cooperativas-cesion-de-uso': 'Informe sobre cooperativas en cesión de uso'
+  'docs-rri-informe-cooperativas-cesion-de-uso': 'Informe sobre cooperativas en cesión de uso',
+  'docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-05012005-1-decreto-125-2004':
+    'Decreto 125/2004 (BOCYL)',
+  'docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-10022005-1-resolucion-31-enero-2005':
+    'Resolución de 31 de enero de 2005 (BOCYL)',
+  'docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-10102022-1-decreto-41-2022':
+    'Decreto 41/2022 (BOCYL)',
+  'docs-leyes-otras-leyes-decretos-modificaciones-boe-a-1990-30735-ley-20-1990':
+    'Ley 20/1990, de régimen fiscal de cooperativas (BOE)',
+  'docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2004-3634-rd-296-2004':
+    'Real Decreto 296/2004 (BOE)',
+  'docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007':
+    'Real Decreto 1514/2007, Plan General de Contabilidad (BOE)',
+  'docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010':
+    'Orden EHA/3360/2010, sobre contabilidad de cooperativas (BOE)',
+  'docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2011-18204-ley-6-2011': 'Ley 6/2011 (BOE)',
+  'docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2013-8555-ley-13-2013': 'Ley 13/2013 (BOE)',
+  'docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2014-9959-ley-5-2014': 'Ley 5/2014 (BOE)'
 };
 
 function titleCase(value: string): string {
@@ -65,7 +82,11 @@ export function getDocumentDisplayTitle(document: SourceDocument): string {
   if (document.type === 'rri' && projectName) return `RRI ${projectName}`;
   if (document.type === 'estatutos' && projectName) return `Estatutos ${projectName}`;
 
-  return document.title.replace(/\bRri\b/g, 'RRI');
+  return document.title
+    .replace(/\+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .replace(/\bRri\b/g, 'RRI')
+    .trim();
 }
 
 export function getDocumentSummary(document: SourceDocument): string {

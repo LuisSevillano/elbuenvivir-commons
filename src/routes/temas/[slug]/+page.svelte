@@ -222,6 +222,7 @@
 </script>
 
 <article class="topic-page">
+  <a class="back-link" href="/temas">← Todos los temas</a>
   <TopicHero {topic} editorialStatus={editorialStatusKey} />
 
   <section class="editorial-status {editorialStatusClass}">
@@ -466,6 +467,8 @@
 
 <style>
   .topic-page { max-width: 70ch; margin: 0 auto; }
+  .back-link { display: inline-block; margin-bottom: 0.9rem; color: var(--muted); text-decoration: none; font-size: 0.85rem; }
+  .back-link:hover { color: var(--accent); }
   .workbench { display: grid; gap: 0.35rem; }
   .minimal-page { display: grid; gap: 0.45rem; }
   .editorial-status {

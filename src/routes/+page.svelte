@@ -23,7 +23,6 @@
 
 	<div class="actions">
 		<a class="button button-primary" href="/temas">Ver los temas</a>
-		<a class="button button-secondary" href="/documentos">Documentos originales</a>
 	</div>
 </section>
 
@@ -86,7 +85,8 @@
 	.method-steps p { margin: 0; color: var(--muted); font-size: 0.92rem; line-height: 1.5; }
 
 	@media (max-width: 640px) {
-		.stats { gap: 1.4rem; }
+		.stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem 1.4rem; }
 		.stats dd { font-size: 1.7rem; }
+		.stats .dd-law { font-size: 1.5rem; padding-top: 0; }
 	}
 </style>

@@ -24,6 +24,7 @@
 </script>
 
 <article>
+  <a class="back-link" href="/documentos">← Todos los documentos</a>
   <header class="hero">
     <p class="eyebrow">{documentTypeLabels[data.document.type]}</p>
     <h1>{displayTitle}</h1>
@@ -31,7 +32,6 @@
     <div class="document-badges">
       {#if data.document.jurisdiction}<StatusBadge>{data.document.jurisdiction}</StatusBadge>{/if}
       {#if data.document.year}<StatusBadge>{data.document.year}</StatusBadge>{/if}
-      {#if data.document.needsReview}<StatusBadge tone="warning">Información limitada</StatusBadge>{/if}
     </div>
     {#if hasDriveLink}
       <DrivePreview
@@ -68,6 +68,8 @@
 </article>
 
 <style>
+  .back-link { display: inline-block; margin-bottom: 0.9rem; color: var(--muted); text-decoration: none; font-size: 0.85rem; }
+  .back-link:hover { color: var(--accent); }
   .document-badges {
     display: flex;
     flex-wrap: wrap;

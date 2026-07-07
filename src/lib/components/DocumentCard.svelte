@@ -14,9 +14,6 @@
 <a class="document-card" href={`/documentos/${document.slug}`}>
 	<div class="meta">
 		<StatusBadge>{documentTypeLabels[document.type]}</StatusBadge>
-		{#if document.needsReview}
-			<StatusBadge tone="warning">Revisar metadatos</StatusBadge>
-		{/if}
 	</div>
 	<h2>{displayTitle}</h2>
 	<p class="document-summary">{summary}</p>

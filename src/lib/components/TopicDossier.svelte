@@ -37,7 +37,6 @@
   <!-- Bloque 1: la ley -->
   <section class="block legal">
     <header class="block-head">
-      <span class="icon" aria-hidden="true">⚖️</span>
       <h2>Qué dice la ley</h2>
     </header>
     {#each legal.intro as paragraph}
@@ -77,7 +76,6 @@
   <!-- Bloque 2: otras cooperativas -->
   <section class="block comparison">
     <header class="block-head">
-      <span class="icon" aria-hidden="true">🏘️</span>
       <h2>Cómo lo han resuelto otras cooperativas</h2>
     </header>
     {#if comparison.intro}<p class="intro">{comparison.intro}</p>{/if}
@@ -125,10 +123,9 @@
   <!-- Bloque 3: propuesta -->
   <section class="block proposal">
     <header class="block-head">
-      <span class="icon" aria-hidden="true">✍️</span>
       <h2>Propuesta para El Buen Vivir</h2>
       <button class="copy-all" type="button" onclick={() => copy(fullProposalText, '__all__')}>
-        {copiedKey === '__all__' ? '✓ Copiado' : 'Copiar todo'}
+        {copiedKey === '__all__' ? 'Copiado' : 'Copiar todo'}
       </button>
     </header>
 
@@ -145,7 +142,7 @@
             <span class="target-badge {art.target}">{art.target === 'estatutos' ? 'Estatutos' : 'RRI'}</span>
             <h3>{art.heading}</h3>
             <button class="copy-article" type="button" onclick={() => copy(`${art.heading}\n\n${art.text}`, art.heading)}>
-              {copiedKey === art.heading ? '✓' : 'Copiar'}
+              {copiedKey === art.heading ? 'Copiado' : 'Copiar'}
             </button>
           </div>
           <p class="clause">{#each segments(art.text) as s}{#if s.ph}<mark class="ph">{s.part}</mark>{:else}{s.part}{/if}{/each}</p>
@@ -172,7 +169,6 @@
   .block { border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.1rem; background: #fff; min-width: 0; }
   .block-head { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem; }
   .block-head h2 { margin: 0; font-size: 1.05rem; }
-  .icon { font-size: 1.15rem; }
 
   .copy-all, .copy-article {
     cursor: pointer; border: 1px solid var(--border); background: #fff; color: var(--muted);

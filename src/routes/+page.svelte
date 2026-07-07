@@ -36,17 +36,14 @@
 	<h2>Cada tema, de un vistazo</h2>
 	<ol class="method-steps">
 		<li>
-			<span class="ms-icon" aria-hidden="true">⚖️</span>
 			<h3>Qué dice la ley</h3>
 			<p>El mínimo que la Ley 4/2002 de Castilla y León obliga a cubrir, con el artículo a la vista.</p>
 		</li>
 		<li>
-			<span class="ms-icon" aria-hidden="true">🏘️</span>
 			<h3>Cómo lo hacen otras</h3>
 			<p>La cláusula literal de 14 cooperativas, comparada, para no partir de cero.</p>
 		</li>
 		<li>
-			<span class="ms-icon" aria-hidden="true">✍️</span>
 			<h3>Propuesta para nosotras</h3>
 			<p>Un artículo redactado y ajustado a nuestras decisiones, listo para copiar al documento.</p>
 		</li>
@@ -81,7 +78,6 @@
 		grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
 	}
 	.method-steps li { position: relative; padding-left: 0; }
-	.ms-icon { font-size: 1.4rem; }
 	.method-steps h3 { font-size: 1.05rem; font-weight: 600; margin: 0.4rem 0 0.35rem; }
 	.method-steps p { margin: 0; color: var(--muted); font-size: 0.92rem; line-height: 1.5; }
 

@@ -90,7 +90,7 @@
   <div class="doc-toolbar">
     <h2>{current.title}</h2>
     <div class="doc-actions">
-      <button class="btn" type="button" onclick={copyAll}>{copied ? '✓ Copiado' : 'Copiar todo'}</button>
+      <button class="btn" type="button" onclick={copyAll}>{copied ? 'Copiado' : 'Copiar todo'}</button>
       <button class="btn" type="button" onclick={download}>Descargar .md</button>
     </div>
   </div>

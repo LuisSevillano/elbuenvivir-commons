@@ -9,7 +9,6 @@
   let { topic }: { topic: TopicCardTopic; referenceCount?: number } = $props();
 
   const statusTone = $derived(topic.status === 'reviewed' ? 'success' : 'warning');
-  const availabilityBadge = $derived('availabilityBadge' in topic ? topic.availabilityBadge : null);
   const editorialStatus = $derived('editorialStatus' in topic ? topic.editorialStatus : null);
   const editorialTone = $derived(editorialStatus === 'reviewed' ? 'success' : editorialStatus === 'exploratory' ? 'neutral' : 'warning');
   const placement = $derived(topic.governancePlacement.recommendedPrimaryLocation);
@@ -19,11 +18,10 @@
 <a class="topic-card" href={`/temas/${topic.slug}`}>
   <div class="meta">
     <span>{categoryLabels[topic.category]}</span>
-    {#if editorialStatus}
+    <!-- El estado solo se muestra cuando es de aviso (no en "Revisado", que es lo normal). -->
+    {#if editorialStatus && editorialStatus !== 'reviewed'}
       <StatusBadge tone={editorialTone}>{validatedTopicStatusLabels[editorialStatus]}</StatusBadge>
-    {:else if availabilityBadge}
-      <StatusBadge tone={availabilityBadge === 'Análisis amplio' ? 'success' : 'neutral'}>{availabilityBadge}</StatusBadge>
-    {:else}
+    {:else if !editorialStatus && topic.status !== 'reviewed'}
       <StatusBadge tone={statusTone}>{topicStatusLabels[topic.status]}</StatusBadge>
     {/if}
   </div>

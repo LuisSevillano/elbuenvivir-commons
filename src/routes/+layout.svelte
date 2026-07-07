@@ -29,8 +29,8 @@
 	<meta property="og:image" content={socialImage} />
 	<meta property="og:image:secure_url" content={socialImage} />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image:width" content="1250" />
-	<meta property="og:image:height" content="703" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 	<meta property="og:image:alt" content={socialImageAlt} />
 
 	<meta name="twitter:card" content="summary_large_image" />

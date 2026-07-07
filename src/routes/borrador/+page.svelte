@@ -23,6 +23,11 @@
     return h.replace(/^\s*(art[íi]culos?|normas?)\b[^—–:.\-]*[—–:.\-]\s*/i, '').trim() || h.trim();
   }
 
+  // Divide el texto en segmentos, marcando los [corchetes] como "pendiente de decidir".
+  function segments(text: string) {
+    return text.split(/(\[[^\]]*\])/g).map((part) => ({ part, ph: /^\[[^\]]*\]$/.test(part) }));
+  }
+
   let copied = $state(false);
 
   function plainText(doc: { title: string; unit: string; articles: Article[] }): string {
@@ -101,7 +106,7 @@
             <h3>{cleanHeading(art.heading)}</h3>
             <a class="art-src" href={`/temas/${art.topicSlug}`}>{art.topicTitle} →</a>
           </div>
-          <p class="art-text">{art.text}</p>
+          <p class="art-text">{#each segments(art.text) as s}{#if s.ph}<mark class="ph">{s.part}</mark>{:else}{s.part}{/if}{/each}</p>
           {#if art.note}<p class="art-note">{art.note}</p>{/if}
         </li>
       {/each}
@@ -155,6 +160,15 @@
   .art-text {
     margin: 0; font-family: Georgia, 'Times New Roman', serif; font-size: 0.96rem; line-height: 1.6;
     color: #1f2937; padding-left: 0.85rem; border-left: 2px solid var(--border);
+  }
+  .ph {
+    background: rgba(184, 118, 59, 0.14);
+    color: #8a5a25;
+    border-bottom: 1px dashed var(--accent-warm);
+    border-radius: 2px;
+    padding: 0 0.22em;
+    font-family: var(--font-display);
+    font-style: italic;
   }
   .art-note { margin: 0.5rem 0 0; font-size: 0.78rem; font-style: italic; color: var(--muted); }
 

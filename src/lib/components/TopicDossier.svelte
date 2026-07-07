@@ -7,6 +7,11 @@
   const comparison = $derived(dossier.comparison);
   const proposal = $derived(dossier.proposal);
 
+  // Marca los [corchetes] del texto como "pendiente de decidir".
+  function segments(text: string) {
+    return text.split(/(\[[^\]]*\])/g).map((part) => ({ part, ph: /^\[[^\]]*\]$/.test(part) }));
+  }
+
   const fullProposalText = $derived(
     proposal.articles
       .map((a) => `[${a.target === 'estatutos' ? 'ESTATUTOS' : 'RRI'}] ${a.heading}\n\n${a.text}`)
@@ -143,7 +148,7 @@
               {copiedKey === art.heading ? '✓' : 'Copiar'}
             </button>
           </div>
-          <p class="clause">{art.text}</p>
+          <p class="clause">{#each segments(art.text) as s}{#if s.ph}<mark class="ph">{s.part}</mark>{:else}{s.part}{/if}{/each}</p>
           {#if art.note}<p class="article-note">{art.note}</p>{/if}
         </article>
       {/each}
@@ -164,7 +169,7 @@
 
 <style>
   .dossier { display: grid; gap: 1.3rem; margin: 0.5rem 0 1.5rem; }
-  .block { border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.1rem; background: #fff; }
+  .block { border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.1rem; background: #fff; min-width: 0; }
   .block-head { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem; }
   .block-head h2 { margin: 0; font-size: 1.05rem; }
   .icon { font-size: 1.15rem; }
@@ -182,7 +187,20 @@
   .block.proposal { border-left: 3px solid #a78bfa; }
   .intro { margin: 0 0 0.6rem; font-size: 0.9rem; line-height: 1.5; color: var(--muted); }
 
-  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    /* Sombras de scroll: aparecen en el borde con contenido oculto y se desvanecen al final. */
+    background:
+      linear-gradient(to right, #fff, rgba(255, 255, 255, 0)) 0 0,
+      linear-gradient(to left, #fff, rgba(255, 255, 255, 0)) 100% 0,
+      radial-gradient(farthest-side at 0 50%, rgba(118, 93, 59, 0.30), rgba(118, 93, 59, 0)) 0 0,
+      radial-gradient(farthest-side at 100% 50%, rgba(118, 93, 59, 0.30), rgba(118, 93, 59, 0)) 100% 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 36px 100%, 36px 100%, 14px 100%, 14px 100%;
+    background-attachment: local, local, scroll, scroll;
+  }
   table { width: 100%; border-collapse: collapse; font-size: 0.85rem; min-width: 32rem; }
   th, td { text-align: left; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.35; }
   thead th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); background: #fafafa; }
@@ -217,6 +235,15 @@
   .target-badge.estatutos { background: #dbeafe; color: #1e40af; }
   .target-badge.rri { background: #ede9fe; color: #5b21b6; }
   .clause { margin: 0; font-family: Georgia, 'Times New Roman', serif; font-size: 0.9rem; line-height: 1.55; color: #1f2937; padding-left: 0.7rem; border-left: 2px solid var(--border); }
+  .clause .ph {
+    background: rgba(184, 118, 59, 0.14);
+    color: #8a5a25;
+    border-bottom: 1px dashed var(--accent-warm);
+    border-radius: 2px;
+    padding: 0 0.22em;
+    font-family: var(--font-display);
+    font-style: italic;
+  }
   .article-note { margin: 0.45rem 0 0; font-size: 0.78rem; font-style: italic; color: var(--muted); line-height: 1.4; }
 
   .open-decisions { margin-top: 0.9rem; padding: 0.7rem 0.85rem; border: 1px dashed #c4b5fd; border-radius: 6px; background: #faf5ff; }

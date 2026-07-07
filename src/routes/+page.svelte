@@ -6,7 +6,7 @@
 
 <section class="hero">
 	<p class="eyebrow">Cooperativa de usuarios · Castilla y León</p>
-	<h1>Escribamos juntas nuestros Estatutos y el Reglamento, sin perdernos.</h1>
+	<h1>Nuestras reglas, nuestro Buen Vivir</h1>
 	<p class="lead">
 		El Buen Vivir es un proyecto rural que soñamos compartir entre amigas. Esta es la mesa de
 		trabajo donde, tema a tema, vemos <em>qué exige la ley</em>, <em>cómo lo resolvieron otras
@@ -55,6 +55,7 @@
 
 <style>
 	.hero { margin: 0 0 2.2rem; }
+	.hero h1 { max-width: 15ch; }
 	.hero em { font-style: normal; color: var(--ink); box-shadow: inset 0 -0.35em 0 rgba(184, 118, 59, 0.16); }
 
 	.stats {

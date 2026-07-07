@@ -8,6 +8,7 @@
   import GovernanceSplit from '$lib/components/GovernanceSplit.svelte';
   import RelatedTopicsCard from '$lib/components/RelatedTopicsCard.svelte';
   import SuggestedClauseBlock from '$lib/components/SuggestedClauseBlock.svelte';
+  import TopicDossier from '$lib/components/TopicDossier.svelte';
   import TopicHero from '$lib/components/TopicHero.svelte';
   import { canShowDecisionModels, canShowSuggestedClauses } from '$lib/content/editorialPolicy';
   import { validatedTopicStatusLabels } from '$lib/content/validatedTopicSchema';
@@ -36,6 +37,7 @@
   } = $props();
 
   const topic = $derived(data.topic);
+  const dossier = $derived(data.topic.dossier ?? null);
   const decisionModel = $derived(data.decisionModel);
   const evidenceLayer = $derived(data.evidenceLayer);
   const synthesis = $derived(data.synthesis);
@@ -241,7 +243,13 @@
     </EditorialSection>
   {/if}
 
-  {#if isInsufficientState}
+  {#if dossier}
+    <TopicDossier {dossier} />
+  {/if}
+
+  {#if dossier}
+    <!-- El dossier (arriba) es el contenido completo del tema; no se muestra la capa antigua. -->
+  {:else if isInsufficientState}
     <section class="minimal-page">
       <div class="health-warning insufficient">
         <strong>No hay suficiente base documental.</strong>
@@ -290,7 +298,7 @@
         </EditorialSection>
       {/if}
     </section>
-  {:else}
+  {:else if !dossier}
   <section class="workbench">
     <EditorialSection title="Qué debe decidir el grupo" density="compact">
       {#if decisionQuestions.length > 0}
@@ -432,7 +440,7 @@
 
   {/if}
 
-  {#if isReviewed}
+  {#if isReviewed && !dossier}
   <EditorialSection
     title="Documentos para contrastar"
     subtitle="Trazabilidad de lectura, no sustituto de revisión jurídica"

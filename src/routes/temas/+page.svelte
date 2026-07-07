@@ -6,7 +6,13 @@
   let { data }: { data: { topics: ConsultableTopic[] } } = $props();
 
   function byEditorialWeight(a: ConsultableTopic, b: ConsultableTopic): number {
-    const weights = { reviewed: 3, exploratory: 2, insufficient_evidence: 1, evidencia_insuficiente: 1 };
+    const weights: Record<ConsultableTopic['editorialStatus'], number> = {
+      reviewed: 3,
+      exploratory: 2,
+      insufficient_evidence: 1,
+      evidencia_insuficiente: 1,
+      hidden: 0
+    };
     return weights[b.editorialStatus] - weights[a.editorialStatus] || b.referenceCount - a.referenceCount || a.title.localeCompare(b.title, 'es');
   }
 

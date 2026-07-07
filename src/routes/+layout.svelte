@@ -73,6 +73,7 @@
 			{/if}
 			<nav aria-label="Navegación principal">
 				<a href="/temas">Temas</a>
+				<a href="/borrador">Borrador</a>
 				<a href="/documentos">Documentos</a>
 			</nav>
 		</div>

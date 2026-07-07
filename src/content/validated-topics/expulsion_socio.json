@@ -1,0 +1,33 @@
+{
+  "slug": "expulsion_socio",
+  "status": "reviewed",
+  "editorialSummary": [
+    "El régimen disciplinario está sin redactar. La Ley 4/2002 (art. 24) exige tipificar las faltas en estatutos y reserva la expulsión a la falta muy grave, con garantías (audiencia y recurso).",
+    "Coherente con vuestros valores de buen trato, se propone un enfoque restaurativo: mediación de la Comisión de Convivencia primero, y la expulsión solo como último recurso."
+  ],
+  "decisionQuestions": [],
+  "supportedFindings": [],
+  "unsupportedClaims": [],
+  "recommendationsForBuenVivir": [],
+  "statutesVsRRI": {
+    "statutes": [
+      "Catálogo de faltas (leves/graves/muy graves) y sanciones.",
+      "Órgano sancionador (Consejo Rector), garantías y causa de expulsión."
+    ],
+    "rri": [
+      "Vía de mediación previa de la Comisión de Convivencia.",
+      "Detalle del procedimiento y acuerdos reparadores."
+    ],
+    "notes": [
+      "El grupo aún no ha debatido este tema; requiere decisión en asamblea."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: art. 24 (normas de disciplina social) y art. 21 (baja obligatoria).",
+    "docs-estatutos-estatutos-tarocohousing: Artículo 20, procedimiento de expulsión.",
+    "docs-estatutos-estatutos-los-girasoles: cláusula de no expulsión por enfermedad sobrevenida."
+  ],
+  "referencesToAvoid": [
+    "No fijar multas ni plazos que superen los límites de la Ley 4/2002 CyL."
+  ]
+}

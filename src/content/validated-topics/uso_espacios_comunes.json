@@ -1,0 +1,108 @@
+{
+  "slug": "uso_espacios_comunes",
+  "status": "reviewed",
+  "editorialSummary": [
+    "En una cooperativa de usuarios el socio no es dueño de ninguna habitación: tiene un derecho de uso sobre la casa y los espacios comunes que la cooperativa conserva en propiedad, y ese derecho se extingue al causar baja.",
+    "La ley de Castilla y León (art. 118.3) obliga a reconocer ese uso en los Estatutos, pero deja el funcionamiento diario (calendario, reservas, limpieza) para el Reglamento de Régimen Interno: es, sobre todo, materia de RRI.",
+    "El reto propio de El Buen Vivir es que el uso es vacacional y rotativo: hay que construir un calendario de reservas con prioridad del Socio A y encajar la cuota de uso ya aprobada, algo que las cooperativas de residencia permanente del corpus no resuelven."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "use_not_ownership",
+      "question": "¿Cómo se explica que el socio tiene uso y no propiedad, y qué pasa con ese uso al salir?",
+      "recommendationsForBuenVivir": [
+        "Conviene dejarlo claro en Estatutos: la casa es de la cooperativa, el socio la usa, y el uso revierte a la cooperativa al causar baja. Así se evitan expectativas de \"habitación propia\"."
+      ]
+    },
+    {
+      "id": "rotating_calendar",
+      "question": "¿Cómo será el calendario rotativo de uso y quién reserva primero?",
+      "recommendationsForBuenVivir": [
+        "El uso es un recurso escaso (rotarían 5-8 unidades de convivencia). El calendario y las reglas de prioridad (Socio A antes que Socio B e invitados) son el corazón del tema y deben acordarse pronto, aunque el detalle fino espere a conocer la casa."
+      ]
+    },
+    {
+      "id": "peak_dates",
+      "question": "¿Qué reglas rigen en fechas de alta demanda (verano, festivos)?",
+      "recommendationsForBuenVivir": [
+        "Es donde más probablemente surgen conflictos: conviene prever límites de estancia, aforo y un mecanismo de reparto equitativo para esas fechas."
+      ]
+    },
+    {
+      "id": "fee_and_reservation",
+      "question": "¿Cómo se articula la cuota de uso ya aprobada con las reservas?",
+      "recommendationsForBuenVivir": [
+        "Decidir si la reserva se confirma al abonar la cuota y si hay penalización por anular tarde. La cuota está aprobada; falta engancharla al calendario en el RRI."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "use_right_statutory",
+      "statement": "Cuando la cooperativa retiene la propiedad, la ley exige que los Estatutos fijen las normas de uso y disfrute por los socios.",
+      "summary": "El reconocimiento del derecho de uso tiene rango estatutario (art. 118.3 Ley 4/2002 CyL); el detalle puede ir al RRI."
+    },
+    {
+      "id": "rri_develops_use",
+      "statement": "Las cooperativas de cesión de uso remiten al Reglamento de Régimen Interno las normas de funcionamiento y de servicios comunes.",
+      "summary": "Entrepatios, Los Nidales y Los Girasoles regulan el uso en Estatutos de forma general y desarrollan los comunes en el RRI."
+    },
+    {
+      "id": "use_extinguishes",
+      "statement": "El derecho de uso se extingue al causar baja o ser expulsada la persona socia y revierte a la cooperativa.",
+      "summary": "Es un patrón claro en el corpus y conviene reflejarlo en Estatutos."
+    },
+    {
+      "id": "socioA_priority_fee",
+      "statement": "El grupo ya aprobó la prioridad de reserva del Socio A y una cuota de uso diaria diferenciada.",
+      "summary": "En la Reunión 21 (07-07-2026) se aprobó que el Socio B no tiene prioridad en el calendario y la escala de la cuota de uso; el RRI debe recogerlo."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "uso_espacios-rotating-in-corpus",
+      "statement": "Otras cooperativas de cesión de uso ya regulan un calendario rotativo de uso vacacional.",
+      "reason": "El corpus consultado son proyectos de residencia habitual y permanente con uso exclusivo de cada vivienda; el uso rotativo y compartido de El Buen Vivir no aparece en esas fuentes y debe construirse a medida."
+    },
+    {
+      "claimId": "uso_espacios-socioB-novote",
+      "statement": "El Socio B puede tener uso habitual de la casa y a la vez carecer de voto sin problema legal.",
+      "reason": "La ley reserva el estatus sin voto a quien no usa la casa; dar uso habitual y prioridad menor en el calendario al Socio B es una decisión frágil que debe revisarse jurídicamente."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Reconocer en Estatutos, de forma breve, el derecho de uso (no propiedad), su carácter personal y su extinción con la baja, remitiendo el resto al RRI.",
+    "Construir en el RRI un calendario rotativo con prioridad del Socio A y reglas específicas para fechas de alta demanda.",
+    "Enganchar la cuota de uso ya aprobada al sistema de reservas (confirmación y, si se quiere, penalización por anulación).",
+    "No sobrerregular antes de conocer el inmueble: fijar ahora los principios y dejar aforo y detalle del calendario para cuando haya casa.",
+    "Distinguir con claridad uso de socios, de acompañantes y de invitados, tanto en prioridad como en cuota."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Reconocimiento del derecho de uso (no propiedad) sobre la casa y los espacios comunes.",
+      "Retención de la propiedad por la cooperativa y remisión al RRI.",
+      "Extinción del derecho de uso al causar baja y reversión a la cooperativa.",
+      "Prioridad de reserva vinculada a la condición de Socio A."
+    ],
+    "rri": [
+      "Calendario rotativo de uso y sistema de reservas.",
+      "Criterios de prioridad y resolución de solapamientos.",
+      "Cuota de uso diaria y su relación con la reserva.",
+      "Normas de invitados, pernoctas, aforo y límites de estancia.",
+      "Limpieza, mantenimiento, cuidado y responsabilidad por daños."
+    ],
+    "notes": [
+      "La revisión jurídica debe confirmar el encaje del estatus sin voto del Socio B con su uso habitual de la casa, y ajustar la redacción del derecho de uso a la Ley 4/2002 CyL."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, art. 118.3 (normas de uso y disfrute cuando la cooperativa retiene la propiedad) y art. 117.1 (elementos y zonas comunes).",
+    "docs-estatutos-estatutos-entrepatios: Artículo 62 sobre normas de uso y disfrute de las viviendas y remisión al RRI.",
+    "docs-estatutos-estatutos-losnidales: Artículo 60 con regulación equivalente de uso y servicios comunes.",
+    "docs-estatutos-estatutos-los-girasoles: Artículo 7 sobre el derecho de uso que comporta el de los espacios comunes y su extinción con la baja."
+  ],
+  "referencesToAvoid": [
+    "No presentar el uso rotativo vacacional como algo ya regulado en las cooperativas del corpus: todas son de residencia permanente.",
+    "No copiar el uso exclusivo y permanente de una vivienda de esos proyectos como si encajara con el uso rotativo y compartido de El Buen Vivir."
+  ]
+}

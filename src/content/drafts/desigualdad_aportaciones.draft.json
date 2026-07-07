@@ -7,27 +7,28 @@
     "Conviene valorar una regla mínima sobre aportaciones desiguales, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre desigualdad, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre derechos economicos, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Título original: La construcció i la cura dels grups, contrastando las referencias automáticas del research pack.",
-    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable.",
-    "Mantener trazabilidad entre cada regla propuesta y las referencias automáticas revisadas."
+    "Conviene valorar una regla mínima sobre aportaciones, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre capital social, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre cuotas, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
   ],
   "legalBasis": [],
   "projectReferences": [],
   "decisionsForBuenVivir": [
     "Conviene valorar si aportaciones iniciales desiguales debe formularse como principio, procedimiento o combinación de ambos.",
-    "Si no hay evidencia estatutaria suficiente en el research pack, conviene evitar elevar detalles a Estatutos sin revisión.",
-    "Si el research pack no aporta evidencia de RRI, conviene tratar los procedimientos internos como hipótesis de trabajo.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
     "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
     "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
   ],
   "risks": [
     "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
     "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
-    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
-    "Conflictos potenciales: conviene revisar si el tema puede generar desacuerdos prácticos aunque no aparezcan expresamente."
+    "Tradeoffs: conviene equilibrar seguridad jurídica interna, claridad comunitaria y capacidad de aprendizaje.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
   ],
   "governancePlacement": {
-    "recommendedPrimaryLocation": "mixed",
+    "recommendedPrimaryLocation": "estatutos",
     "rationale": [
       "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
       "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
@@ -58,13 +59,33 @@
   },
   "relatedTopics": [
     {
-      "topicSlug": "derechos_y_obligaciones",
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "admision_socio",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     }
   ],
   "suggestedClause": {
-    "text": "La cooperativa podrá regular aportaciones iniciales desiguales mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. Los procedimientos operativos podrán desarrollarse en una norma interna revisable, si la cooperativa lo considera adecuado.",
+    "text": "La cooperativa podrá regular aportaciones iniciales desiguales mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
     "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
     "status": "draft"
   },
@@ -74,18 +95,106 @@
     "generated": true,
     "curated": false,
     "sourceResearchPack": "src/content/research-packs/desigualdad_aportaciones.md",
-    "evidenceCount": 1,
-    "highConfidenceEvidence": 0,
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 18,
     "mediumConfidenceEvidence": 0,
-    "lowConfidenceEvidence": 1,
+    "lowConfidenceEvidence": 0,
     "evidence": [
       {
-        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "CAPÍTULO IV",
+        "confidence": "high",
+        "excerpt": "CAPÍTULO IV RÉGIMEN ECONÓMICO DE LA COOPERATIVA Ar\u001aculo 36.- Responsabilidad de la coopera3va y de las personas socias. La coopera\u000eva responderá de las deudas contraídas con todo su patrimonio presente y futuro. 33 -- 33 of 48 -- La respons..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "CAPÍTULO IV",
+        "confidence": "high",
+        "excerpt": "CAPÍTULO IV RÉGIMEN ECONÓMICO DE LA COOPERATIVA Arơculo 39.- Responsabilidad de la cooperaƟva y de las personas socias. La cooperaƟva responderá de las deudas contraídas con todo su patrimonio presente y futuro. La responsabilidad de la per..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
         "documentType": "guia",
-        "articleOrSection": "Título original: La construcció i la cura dels grups",
-        "confidence": "low",
-        "excerpt": "Título original: La construcció i la cura dels grups La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento..."
+        "articleOrSection": "3.4. Las aportaciones voluntarias al capital social.",
+        "confidence": "high",
+        "excerpt": "3.4. Las aportaciones voluntarias al capital social. Los estatutos también podrán incluir las aportaciones voluntarias, como mecanismo de financiación adicional. Téngase en cuenta que al tratarse de capital sólo puede ser suscrito por las p..."
+      },
+      {
+        "documentSlug": "docs-rri-rri-axuntase",
+        "documentTitle": "Rri Axuntase",
+        "documentType": "rri",
+        "articleOrSection": "Artículo 10.- Aportaciones al Capital Social",
+        "confidence": "high",
+        "excerpt": "Artículo 10.- Aportaciones al Capital Social 1.- La cuantía de la aportación obligatoria mínima inicial para adquirir la condición de socia/o de la Cooperativa será la que en cada momento señalen los Estatutos y acuerdos adoptados por la As..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-estatal",
+        "documentTitle": "Normativa Estatal",
+        "documentType": "ley",
+        "articleOrSection": "8. Si como consecuencia del reembolso de las aportaciones al capital social o de las",
+        "confidence": "high",
+        "excerpt": "8. Si como consecuencia del reembolso de las aportaciones al capital social o de las deducciones practicadas por la imputación de pérdidas al socio, dicho capital social quedara por debajo del importe mínimo fijado estatutariamente, la coop..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-la-borda",
+        "documentTitle": "Estatutos La Borda",
+        "documentType": "estatutos",
+        "articleOrSection": "a) El reembolso de sus aportaciones, voluntarias y obligatorias, al capital social.",
+        "confidence": "high",
+        "excerpt": "a) El reembolso de sus aportaciones, voluntarias y obligatorias, al capital social. Sin perjuicio, que el Consejo Rector de la sociedad cooperativa pueda rechazar incondicionalmente el retorno de las aportaciones voluntarias."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 41.- Aportaciones Voluntarias",
+        "confidence": "high",
+        "excerpt": "Artículo 41.- Aportaciones Voluntarias"
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "b) aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por",
+        "confidence": "high",
+        "excerpt": "b) aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por el Consejo Rector. Del total de las aportaciones obligatorias y voluntarias suscritas por cada socio/a, un 5% de las mismas, hasta un máximo de 5.000 €..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentType": "estatutos",
+        "articleOrSection": "7 En las sociedades cooperativas el capital social tendrá una doble acepción: el capital social contable, que es el resultante de las",
+        "confidence": "high",
+        "excerpt": "7 En las sociedades cooperativas el capital social tendrá una doble acepción: el capital social contable, que es el resultante de las aportaciones suscritas en cada momento, y el capital social estatutario, constituido por la parte de aquel..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentType": "estatutos",
+        "articleOrSection": "33.2.1. Las aportaciones voluntarias son aquellas que forman parte del capital social y cuya",
+        "confidence": "high",
+        "excerpt": "33.2.1. Las aportaciones voluntarias son aquellas que forman parte del capital social y cuya suscripción, al constituirse la entidad o, posteriormente, por acuerdo del órgano social correspondiente, resulta opcional para las personas socias..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "documentType": "guia",
+        "articleOrSection": "g) La aportación obligatoria mínima al capital social para ser socio, forma y plazos de desembolso y los",
+        "confidence": "high",
+        "excerpt": "g) La aportación obligatoria mínima al capital social para ser socio, forma y plazos de desembolso y los criterios para fijar la aportación obligatoria que habrán de efectuar los nuevos socios que se incorporen a la cooperativa. Los estatut..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-axuntase",
+        "documentTitle": "Estatutos Axuntase",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 33.- Capital social",
+        "confidence": "high",
+        "excerpt": "Artículo 33.- Capital social 1.- El capital social estará constituido por las aportaciones obligatorias y voluntarias de los/as socios/as. 2.- Las aportaciones de los/as socios/as al capital social, se realizarán en moneda de curso legal. E..."
       }
     ]
   }

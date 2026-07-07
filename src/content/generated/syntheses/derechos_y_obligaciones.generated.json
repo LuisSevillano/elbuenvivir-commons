@@ -1,29 +1,26 @@
 {
   "slug": "derechos_y_obligaciones",
-  "generatedAt": "2026-05-14T09:24:12.479Z",
+  "generatedAt": "2026-07-07T07:29:53.058Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/derechos_y_obligaciones.md",
-    "referencesCount": 3,
+    "referencesCount": 4,
     "documents": [
-      "Docs-estatutos-estatutos-la-borda",
-      "Docs-estatutos-estatutos-laseronda-org",
-      "Docs-estatutos-estatutos-pepu",
-      "Docs-estatutos-estatutos-pequenopueblo",
-      "Docs-estatutos-estatutos-tejiendovida-asociacion",
-      "Docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
-      "Docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "Docs-leyes-normativa-autonomica"
+      "docs-estatutos-estatutos-laseronda-org",
+      "docs-estatutos-estatutos-pepu",
+      "docs-estatutos-estatutos-pequenopueblo",
+      "docs-otros-modelo-estatutos-viviendas"
     ]
   },
   "summary": {
     "overview": [
-      "Los extractos más claros relacionan este tema con derechos y obligaciones, admisión de personas socias, transmisión de derechos.",
-      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Pepu, Estatutos Pequenopueblo, Estatutos Tejiendovida Asociacion, GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024.",
+      "Los extractos más claros relacionan este tema con derechos y obligaciones, admisión de personas socias, fallecimiento.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Pepu, Estatutos Pequenopueblo, Estatutos Laseronda.Org, MODELO ESTATUTOS VIVIENDAS.",
       "Los textos suelen combinar derechos de participación e información con obligaciones económicas y de convivencia."
     ],
     "commonPatterns": [
       "Los textos suelen combinar derechos de participación e información con obligaciones económicas y de convivencia.",
       "Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones.",
+      "Algunos documentos prevén efectos específicos cuando la pérdida de condición deriva de fallecimiento.",
       "Algunos textos conectan la salida con transmisión de derechos o sustitución por otra persona."
     ],
     "majorDifferences": [
@@ -32,22 +29,25 @@
     "commonRisks": [
       "Una lista amplia pero poco operativa puede dificultar distinguir obligaciones esenciales de prácticas cotidianas.",
       "Si no se aclaran los criterios de entrada, puede aparecer discrecionalidad o conflicto sobre quién puede incorporarse.",
+      "Si no se prevé este caso, pueden aparecer tensiones entre derechos económicos, convivencia y expectativas familiares.",
       "Si la transmisión no se delimita, puede confundirse un derecho cooperativo con una compraventa privada."
     ],
     "commonTradeoffs": [
-      "Flexibilidad vs seguridad jurídica"
+      "flexibilidad vs seguridad jurídica"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Derechos y obligaciones esenciales de las personas socias",
-      "Criterios básicos de admisión y derechos de las personas socias",
-      "Límites generales a la transmisión de derechos societarios o de uso"
+      "derechos y obligaciones esenciales de las personas socias",
+      "criterios básicos de admisión y derechos de las personas socias",
+      "efectos básicos del fallecimiento sobre la condición de socia y derechos económicos",
+      "límites generales a la transmisión de derechos societarios o de uso"
     ],
     "usuallyInRRI": [
-      "Pautas cotidianas para hacer efectivos esos derechos y deberes",
-      "Pasos internos de solicitud, acompañamiento y documentación de la incorporación",
-      "Pasos de comunicación y coordinación con lista de espera o personas candidatas"
+      "pautas cotidianas para hacer efectivos esos derechos y deberes",
+      "pasos internos de solicitud, acompañamiento y documentación de la incorporación",
+      "acompañamiento práctico y gestión temporal del uso del espacio",
+      "pasos de comunicación y coordinación con lista de espera o personas candidatas"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -61,75 +61,57 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Separar obligaciones esenciales de compromisos prácticos revisables",
-      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable"
+      "separar obligaciones esenciales de compromisos prácticos revisables",
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Separar obligaciones esenciales de compromisos prácticos revisables",
-      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable"
+      "separar obligaciones esenciales de compromisos prácticos revisables",
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable"
     ],
     "pointsToDecideSoon": [
-      "Separar obligaciones esenciales de compromisos prácticos revisables",
-      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "Aclarar si la salida depende de encontrar sustituto o si la cooperativa gestiona directamente la entrada siguiente"
+      "separar obligaciones esenciales de compromisos prácticos revisables",
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "decidir cómo se coordinan herederos, continuidad del proyecto y uso de espacios",
+      "aclarar si la salida depende de encontrar sustituto o si la cooperativa gestiona directamente la entrada siguiente"
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Flexibilidad vs seguridad jurídica"
+    "flexibilidad vs seguridad jurídica"
   ],
   "notableProjects": [
+    {
+      "projectName": "Estatutos Laseronda.Org",
+      "notableBecause": "Aparece en relación con derechos y obligaciones.",
+      "references": [
+        "Estatutos Laseronda.Org - 10. Cumplir los demás deberes que resulten de preceptos legales, de estos Estatutos, en su"
+      ]
+    },
     {
       "projectName": "Estatutos Pepu",
       "notableBecause": "Aparece en relación con derechos y obligaciones, admisión de personas socias.",
       "references": [
-        "Estatutos Pepu - Artículo 34.- Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de",
-        "Estatutos Pepu - Art. 34 Deberes de diligencia, lealtad y secreto. Responsabilidad y",
-        "Estatutos Pepu - Artículo 10.- Obligaciones y responsabilidad de las personas socias."
+        "Estatutos Pepu - Artículo 34.- Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de"
       ]
     },
     {
       "projectName": "Estatutos Pequenopueblo",
       "notableBecause": "Aparece en relación con derechos y obligaciones, admisión de personas socias.",
       "references": [
-        "Estatutos Pequenopueblo - Artículo 34.- Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de",
-        "Estatutos Pequenopueblo - Art. 34 Deberes de diligencia, lealtad y secreto. Responsabilidad y",
-        "Estatutos Pequenopueblo - Artículo 10.- Obligaciones y responsabilidad de las personas socias."
+        "Estatutos Pequenopueblo - Artículo 34.- Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de"
       ]
     },
     {
-      "projectName": "Normativa Autonomica",
-      "notableBecause": "Aparece en relación con derechos y obligaciones.",
+      "projectName": "MODELO ESTATUTOS VIVIENDAS",
+      "notableBecause": "Aparece en relación con derechos y obligaciones, admisión de personas socias, fallecimiento.",
       "references": [
-        "Normativa Autonomica - Sección 2.ª Derechos, deberes y normas de disciplina social . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14",
-        "Normativa Autonomica - Sección 2.ª Derechos, deberes y normas de disciplina social"
-      ]
-    },
-    {
-      "projectName": "Estatutos La Borda",
-      "notableBecause": "Aparece en relación con derechos y obligaciones, transmisión de derechos.",
-      "references": [
-        "Estatutos La Borda - Artículo 7. Obligaciones de las socias y socios"
-      ]
-    },
-    {
-      "projectName": "Estatutos Laseronda.Org",
-      "notableBecause": "Aparece en relación con derechos y obligaciones, admisión de personas socias.",
-      "references": [
-        "Estatutos Laseronda.Org - ARTÍCULO 11.- OBLIGACIONES DE LOS SOCIOS"
-      ]
-    },
-    {
-      "projectName": "Estatutos Tejiendovida Asociacion",
-      "notableBecause": "Aparece en relación con derechos y obligaciones.",
-      "references": [
-        "Estatutos Tejiendovida Asociacion - Artículo 23º.- Deberes."
+        "MODELO ESTATUTOS VIVIENDAS - b) Por sucesión mortis causa: a la muerte de la persona socia, los derechos y deberes económicos"
       ]
     }
   ],

@@ -1,0 +1,102 @@
+{
+  "slug": "identidad_juridica",
+  "status": "reviewed",
+  "editorialSummary": [
+    "La identidad jurídica es la primera página de cualquier Estatuto: denominación, clase, objeto, domicilio, ámbito y duración son contenido mínimo obligatorio (art. 13 de la Ley 4/2002 de CyL).",
+    "Para El Buen Vivir la decisión de fondo ya está tomada —cooperativa de usuarios en Castilla y León— y hay un borrador interno; lo que queda es afinar la redacción del objeto y confirmar la denominación.",
+    "El punto delicado no es el nombre, sino formular el objeto como cooperativa de consumidores y usuarios y dejar explícitas la adquisición del inmueble y las reformas, tal como pidió la Junta de CyL."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "denominacion",
+      "question": "¿Se confirma \"El Buen Vivir S. Coop.\" y su disponibilidad?",
+      "recommendationsForBuenVivir": [
+        "La denominación debe incluir \"S. Coop.\" y ser exclusiva; conviene pedir la certificación negativa al Registro de Cooperativas de CyL antes de dar por buena el nombre."
+      ]
+    },
+    {
+      "id": "objeto_clase",
+      "question": "¿El objeto se redacta como cooperativa de consumidores y usuarios y ampara reformas y cambio de uso?",
+      "recommendationsForBuenVivir": [
+        "Evitar redactar el objeto como promoción de viviendas. La Junta recomendó dejar explícito que la cooperativa es de consumidores y usuarios y que puede hacer las reformas y el cambio de uso del inmueble."
+      ]
+    },
+    {
+      "id": "domicilio",
+      "question": "¿Se fija ya el domicilio o se deja a determinar por la Asamblea?",
+      "recommendationsForBuenVivir": [
+        "El domicilio debe estar en Castilla y León. Si la compra no está cerrada, puede dejarse la localidad y remitir la dirección exacta a la Asamblea, delegando en el Consejo Rector los traslados dentro del municipio."
+      ]
+    },
+    {
+      "id": "duracion",
+      "question": "¿Duración indefinida con o sin cláusula de no disolución antes de 5 años?",
+      "recommendationsForBuenVivir": [
+        "La duración indefinida encaja con un proyecto antiespeculativo. La cláusula de no disolución antes de 5 años es opcional y aparece en Entrepatios y La Borda."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "contenido_minimo",
+      "statement": "Denominación, clase, objeto, domicilio, ámbito y duración son contenido estatutario mínimo obligatorio en CyL.",
+      "summary": "El art. 13 de la Ley 4/2002 los enumera expresamente: no pueden dejarse solo al Reglamento de Régimen Interno."
+    },
+    {
+      "id": "denominacion_scoop",
+      "statement": "La denominación debe incluir \"sociedad cooperativa\" o \"S. Coop.\" y ser exclusiva.",
+      "summary": "Lo exige el art. 1.3 y todos los estatutos del corpus lo respetan en su artículo 1."
+    },
+    {
+      "id": "domicilio_cyl",
+      "statement": "El domicilio social debe radicar en el territorio de Castilla y León.",
+      "summary": "El art. 2 lo impone; el traslado dentro del mismo municipio puede delegarse en el Consejo Rector (art. 58)."
+    },
+    {
+      "id": "objeto_usuarios",
+      "statement": "El objeto puede formularse como uso y disfrute colectivo de un inmueble del que la cooperativa es titular.",
+      "summary": "Pepu (CyL) y Axuntase muestran fórmulas de objeto centradas en el uso, cercanas al modelo de usuarios de El Buen Vivir."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "identidad_juridica-promocion",
+      "statement": "El objeto de una cooperativa como El Buen Vivir debe redactarse como promoción de viviendas.",
+      "reason": "Los estatutos que usan esa fórmula (Entrepatios, La Borda) son cooperativas de vivienda de otras comunidades; El Buen Vivir eligió el modelo de consumidores y usuarios, con un objeto distinto."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Solicitar la certificación negativa de denominación antes de fijar el nombre en los Estatutos.",
+    "Redactar el objeto como cooperativa de usuarios, dejando explícitas la adquisición del inmueble y las reformas o cambio de uso.",
+    "Fijar el domicilio en Castilla y León y decidir si se concreta la dirección o se remite a la Asamblea al cerrar la compra.",
+    "Optar por duración indefinida y valorar la cláusula opcional de no disolución antes de 5 años.",
+    "Revisar jurídicamente la clase exacta de cooperativa para asegurar las ventajas fiscales de la de consumidores y usuarios."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Denominación y clase de cooperativa.",
+      "Objeto social y actividad económica.",
+      "Domicilio social y régimen de cambio.",
+      "Ámbito territorial y duración."
+    ],
+    "rri": [
+      "Dirección postal y de contacto operativa.",
+      "Lugar habitual de reuniones si difiere del domicilio.",
+      "Uso de la denominación e imagen en comunicaciones."
+    ],
+    "notes": [
+      "La revisión jurídica debe confirmar la clase de cooperativa y la redacción del objeto para la calificación registral."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, art. 1.3 (denominación), art. 2 (domicilio), art. 9 (certificación negativa), art. 13 (contenido mínimo), art. 58 (cambio de domicilio).",
+    "docs-estatutos-estatutos-pepu: Artículo 1 sobre denominación y régimen legal de una cooperativa integral de consumidores y usuarios en CyL.",
+    "docs-estatutos-estatutos-axuntase: Artículo 4 sobre objeto social basado en la cesión de uso.",
+    "docs-estatutos-estatutos-entrepatios: Artículos 1 a 5 como modelo de identidad de una cooperativa de cesión de uso.",
+    "docs-estatutos-estatutos-la-borda: Artículo 4 sobre domicilio, ámbito y régimen de traslado."
+  ],
+  "referencesToAvoid": [
+    "No copiar el objeto de cooperativas de vivienda (promoción inmobiliaria) ni las referencias a leyes autonómicas de Madrid o Cataluña.",
+    "No fijar una denominación sin haber comprobado su disponibilidad con la certificación negativa del Registro."
+  ]
+}

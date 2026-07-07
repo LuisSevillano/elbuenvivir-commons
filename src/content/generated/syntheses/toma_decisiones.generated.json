@@ -1,70 +1,58 @@
 {
   "slug": "toma_decisiones",
-  "generatedAt": "2026-05-14T09:24:12.567Z",
+  "generatedAt": "2026-07-07T07:29:53.119Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/toma_decisiones.md",
     "referencesCount": 18,
     "documents": [
-      "Docs-estatutos-estatutos-axuntase",
-      "Docs-estatutos-estatutos-elciempies",
-      "Docs-estatutos-estatutos-entrepatios",
-      "Docs-estatutos-estatutos-la-borda",
-      "Docs-estatutos-estatutos-laseronda-org",
-      "Docs-estatutos-estatutos-los-girasoles",
-      "Docs-estatutos-estatutos-losnidales",
-      "Docs-estatutos-estatutos-pepu",
-      "Docs-estatutos-estatutos-pequenopueblo",
-      "Docs-estatutos-estatutos-senior-cohousing-huelva",
-      "Docs-estatutos-estatutos-tarocohousing",
-      "Docs-estatutos-estatutos-tejiendovida-asociacion",
-      "Docs-guias-las-guias-de-sostre-civic",
-      "Docs-leyes-normativa-autonomica",
-      "Docs-leyes-normativa-estatal",
-      "Docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
-      "Docs-otros-mod-estatutos-coop-viviendas",
-      "Docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso"
+      "docs-estatutos-estatutos-entrepatios",
+      "docs-estatutos-estatutos-la-borda",
+      "docs-estatutos-estatutos-losnidales",
+      "docs-estatutos-estatutos-senior-cohousing-huelva",
+      "docs-estatutos-estatutos-tejiendovida-asociacion",
+      "docs-guias-las-guias-de-sostre-civic",
+      "docs-leyes-normativa-autonomica",
+      "docs-leyes-normativa-estatal",
+      "docs-otros-mod-estatutos-coop-viviendas",
+      "docs-otros-modelo-estatutos-viviendas",
+      "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso"
     ]
   },
   "summary": {
     "overview": [
-      "Los extractos más claros relacionan este tema con asamblea, consejo rector u órgano de gestión, mayorías, consenso y bloqueo.",
-      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Tejiendovida Asociacion, Estatutos Laseronda.Org, Estatutos Pepu, Estatutos Pequenopueblo.",
+      "Los extractos más claros relacionan este tema con asamblea, mayorías, consenso y bloqueo, consejo rector u órgano de gestión.",
+      "Aparecen ejemplos en varios proyectos, entre ellos EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO, Estatutos Tejiendovida Asociacion, Normativa Estatal, Estatutos Senior Cohousing Huelva.",
       "La asamblea aparece como espacio principal de decisión, control y aprobación de cuestiones estructurales."
     ],
     "commonPatterns": [
       "La asamblea aparece como espacio principal de decisión, control y aprobación de cuestiones estructurales.",
-      "El órgano de gestión suele concentrar representación, ejecución de acuerdos y administración ordinaria.",
       "Las decisiones suelen combinar reglas de mayoría con mecanismos de participación, quorum o consenso según la importancia del asunto.",
-      "La modificación de Estatutos suele requerir más estabilidad que la adaptación del RRI."
+      "El órgano de gestión suele concentrar representación, ejecución de acuerdos y administración ordinaria."
     ],
     "majorDifferences": [
       "Algunos proyectos priorizan agilidad mediante mayorías; otros refuerzan consenso o unanimidad para decisiones sensibles."
     ],
     "commonRisks": [
       "Si no se delimitan competencias y convocatoria, pueden aparecer bloqueos o decisiones poco trazables.",
-      "Una delegación poco controlada puede alejar decisiones cotidianas del grupo.",
       "La unanimidad puede proteger acuerdos importantes pero también generar bloqueo; mayorías simples pueden dejar minorías expuestas.",
-      "Si todo se lleva a Estatutos, cualquier aprendizaje posterior puede requerir reformas pesadas."
+      "Una delegación poco controlada puede alejar decisiones cotidianas del grupo."
     ],
     "commonTradeoffs": [
-      "Agilidad de gestión vs control colectivo",
-      "Consenso vs riesgo de bloqueo",
-      "Seguridad jurídica vs capacidad de aprendizaje",
-      "Consenso vs bloqueo"
+      "consenso vs riesgo de bloqueo",
+      "agilidad de gestión vs control colectivo",
+      "consenso vs bloqueo"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Competencias, convocatoria, quorum y mayorías esenciales",
-      "Composición, mandato, competencias y rendición de cuentas",
-      "Quorum, mayorías reforzadas y decisiones que requieren protección especial",
-      "Materias estructurales y procedimiento de reforma estatutaria"
+      "competencias, convocatoria, quorum y mayorías esenciales",
+      "quorum, mayorías reforzadas y decisiones que requieren protección especial",
+      "composición, mandato, competencias y rendición de cuentas"
     ],
     "usuallyInRRI": [
-      "Preparación de reuniones, dinámica interna, actas y seguimiento de acuerdos",
-      "Formas de coordinación, comunicación interna y preparación de acuerdos",
-      "Facilitación, preparación de decisiones y mecanismos previos para evitar bloqueos",
-      "Detalles revisables y procedimientos de actualización interna"
+      "preparación de reuniones, dinámica interna, actas y seguimiento de acuerdos",
+      "facilitación, preparación de decisiones y mecanismos previos para evitar bloqueos",
+      "formas de coordinación, comunicación interna y preparación de acuerdos"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -78,74 +66,79 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
+      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
+      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria"
     ],
     "pointsToDecideSoon": [
-      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
-      "Decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria",
-      "Decidir qué debe quedar estable y qué conviene poder ajustar con experiencia",
+      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria",
+      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
       "Decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria."
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Agilidad de gestión vs control colectivo",
-    "Consenso vs riesgo de bloqueo",
-    "Seguridad jurídica vs capacidad de aprendizaje"
+    "consenso vs riesgo de bloqueo",
+    "agilidad de gestión vs control colectivo"
   ],
   "notableProjects": [
     {
-      "projectName": "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
-      "notableBecause": "Aparece en relación con asamblea, mayorías, consenso y bloqueo.",
-      "references": [
-        "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA - art. 33 Lcoop). En relación con ello, llama la atención esta única remisión, cuando"
-      ]
-    },
-    {
-      "projectName": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
-      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión.",
-      "references": [
-        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - Artículo 5: Órganos de Gobierno"
-      ]
-    },
-    {
-      "projectName": "Estatutos Axuntase",
-      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión, mayorías, consenso y bloqueo.",
-      "references": [
-        "Estatutos Axuntase - Artículo 22.- Constitución y funcionamiento de la Asamblea General"
-      ]
-    },
-    {
-      "projectName": "Estatutos Elciempies",
-      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión.",
-      "references": [
-        "Estatutos Elciempies - CAPÍTULO III"
-      ]
-    },
-    {
       "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión, mayorías, consenso y bloqueo.",
+      "notableBecause": "Aparece en relación con asamblea, mayorías, consenso y bloqueo, consejo rector u órgano de gestión.",
       "references": [
-        "Estatutos Entrepatios - Artículo 45. Adopción de acuerdos."
+        "Estatutos Entrepatios - 1. La Asamblea General, por una mayoría de dos tercios de los votos",
+        "Estatutos Entrepatios - a) Nombramiento y revocación, por votación secreta, del órgano de",
+        "Estatutos Entrepatios - f) Los acuerdos tomados, indicando los términos de las votaciones y los"
+      ]
+    },
+    {
+      "projectName": "Estatutos Losnidales",
+      "notableBecause": "Aparece en relación con asamblea, mayorías, consenso y bloqueo, consejo rector u órgano de gestión.",
+      "references": [
+        "Estatutos Losnidales - 1. La Asamblea General, por una mayoría de dos tercios de los votos presentes y",
+        "Estatutos Losnidales - a) Nombramiento y revocación, por votación secreta, del órgano de administración, los/as",
+        "Estatutos Losnidales - f) Los acuerdos tomados, indicando los términos de las votaciones y los resultados de"
       ]
     },
     {
       "projectName": "Estatutos La Borda",
       "notableBecause": "Aparece en relación con asamblea, mayorías, consenso y bloqueo.",
       "references": [
-        "Estatutos La Borda - Artículo 36. Adopción de acuerdos"
+        "Estatutos La Borda - 32.4. La Cooperativa, por mayoría de dos terceras partes de los votos de la",
+        "Estatutos La Borda - c) Elección del candidato o candidata por votación secreta."
+      ]
+    },
+    {
+      "projectName": "Estatutos Senior Cohousing Huelva",
+      "notableBecause": "Aparece en relación con asamblea, mayorías, consenso y bloqueo.",
+      "references": [
+        "Estatutos Senior Cohousing Huelva - 20.4. Las votaciones serán secretas cuando tengan por finalidad la exclusión de una persona",
+        "Estatutos Senior Cohousing Huelva - 24.1. Los acuerdos de la Asamblea General se adoptarán por mayoría simple de los votos"
+      ]
+    },
+    {
+      "projectName": "MODELO ESTATUTOS VIVIENDAS",
+      "notableBecause": "Aparece en relación con asamblea, mayorías, consenso y bloqueo.",
+      "references": [
+        "MODELO ESTATUTOS VIVIENDAS - 4. Las votaciones serán secretas cuando tengan por finalidad la exclusión de una persona socia, la",
+        "MODELO ESTATUTOS VIVIENDAS - 1. Los acuerdos de la Asamblea General se adoptarán por mayoría simple de los votos válidamente"
+      ]
+    },
+    {
+      "projectName": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+      "notableBecause": "Aparece en relación con asamblea, mayorías, consenso y bloqueo.",
+      "references": [
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - f) Mayoría Requerida para adoptar acuerdos: Los acuerdos en la Asamblea"
       ]
     }
   ],

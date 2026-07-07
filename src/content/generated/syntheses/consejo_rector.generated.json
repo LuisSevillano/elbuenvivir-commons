@@ -1,61 +1,57 @@
 {
   "slug": "consejo_rector",
-  "generatedAt": "2026-05-14T09:24:12.472Z",
+  "generatedAt": "2026-07-07T07:29:53.053Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/consejo_rector.md",
     "referencesCount": 18,
     "documents": [
-      "Docs-estatutos-estatutos-axuntase",
-      "Docs-estatutos-estatutos-entrepatios",
-      "Docs-estatutos-estatutos-la-borda",
-      "Docs-estatutos-estatutos-laseronda-org",
-      "Docs-estatutos-estatutos-losnidales",
-      "Docs-estatutos-estatutos-pepu",
-      "Docs-estatutos-estatutos-pequenopueblo",
-      "Docs-estatutos-estatutos-senior-cohousing-huelva",
-      "Docs-otros-mod-estatutos-coop-viviendas",
-      "Docs-otros-modelo-estatutos-viviendas"
+      "docs-estatutos-estatutos-axuntase",
+      "docs-estatutos-estatutos-entrepatios",
+      "docs-estatutos-estatutos-la-borda",
+      "docs-estatutos-estatutos-laseronda-org",
+      "docs-estatutos-estatutos-pepu",
+      "docs-estatutos-estatutos-pequenopueblo",
+      "docs-estatutos-estatutos-tarocohousing",
+      "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "docs-otros-modelo-estatutos-viviendas",
+      "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso"
     ]
   },
   "summary": {
     "overview": [
-      "Los extractos más claros relacionan este tema con asamblea, consejo rector u órgano de gestión, mayorías, consenso y bloqueo.",
-      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Entrepatios, Estatutos La Borda, Estatutos Axuntase, Estatutos Losnidales.",
-      "La asamblea aparece como espacio principal de decisión, control y aprobación de cuestiones estructurales."
+      "Los extractos más claros relacionan este tema con consejo rector u órgano de gestión, asamblea, mayorías, consenso y bloqueo.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Pepu, Estatutos Pequenopueblo, Estatutos La Borda, GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4.",
+      "El órgano de gestión suele concentrar representación, ejecución de acuerdos y administración ordinaria."
     ],
     "commonPatterns": [
-      "La asamblea aparece como espacio principal de decisión, control y aprobación de cuestiones estructurales.",
       "El órgano de gestión suele concentrar representación, ejecución de acuerdos y administración ordinaria.",
-      "Las decisiones suelen combinar reglas de mayoría con mecanismos de participación, quorum o consenso según la importancia del asunto.",
-      "La modificación de Estatutos suele requerir más estabilidad que la adaptación del RRI."
+      "La asamblea aparece como espacio principal de decisión, control y aprobación de cuestiones estructurales.",
+      "Las decisiones suelen combinar reglas de mayoría con mecanismos de participación, quorum o consenso según la importancia del asunto."
     ],
     "majorDifferences": [
       "Algunos proyectos priorizan agilidad mediante mayorías; otros refuerzan consenso o unanimidad para decisiones sensibles."
     ],
     "commonRisks": [
-      "Si no se delimitan competencias y convocatoria, pueden aparecer bloqueos o decisiones poco trazables.",
       "Una delegación poco controlada puede alejar decisiones cotidianas del grupo.",
-      "La unanimidad puede proteger acuerdos importantes pero también generar bloqueo; mayorías simples pueden dejar minorías expuestas.",
-      "Si todo se lleva a Estatutos, cualquier aprendizaje posterior puede requerir reformas pesadas."
+      "Si no se delimitan competencias y convocatoria, pueden aparecer bloqueos o decisiones poco trazables.",
+      "La unanimidad puede proteger acuerdos importantes pero también generar bloqueo; mayorías simples pueden dejar minorías expuestas."
     ],
     "commonTradeoffs": [
-      "Agilidad de gestión vs control colectivo",
-      "Consenso vs riesgo de bloqueo",
-      "Seguridad jurídica vs capacidad de aprendizaje"
+      "agilidad de gestión vs control colectivo",
+      "consenso vs riesgo de bloqueo"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Competencias, convocatoria, quorum y mayorías esenciales",
-      "Composición, mandato, competencias y rendición de cuentas",
-      "Quorum, mayorías reforzadas y decisiones que requieren protección especial",
-      "Materias estructurales y procedimiento de reforma estatutaria"
+      "composición, mandato, competencias y rendición de cuentas",
+      "competencias, convocatoria, quorum y mayorías esenciales",
+      "quorum, mayorías reforzadas y decisiones que requieren protección especial"
     ],
     "usuallyInRRI": [
-      "Preparación de reuniones, dinámica interna, actas y seguimiento de acuerdos",
-      "Formas de coordinación, comunicación interna y preparación de acuerdos",
-      "Facilitación, preparación de decisiones y mecanismos previos para evitar bloqueos",
-      "Detalles revisables y procedimientos de actualización interna"
+      "formas de coordinación, comunicación interna y preparación de acuerdos",
+      "preparación de reuniones, dinámica interna, actas y seguimiento de acuerdos",
+      "facilitación, preparación de decisiones y mecanismos previos para evitar bloqueos"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -69,81 +65,78 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
+      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
+      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
+      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
+      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse"
     ],
     "pointsToDecideSoon": [
-      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
-      "Decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria",
-      "Decidir qué debe quedar estable y qué conviene poder ajustar con experiencia"
+      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
+      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria"
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Agilidad de gestión vs control colectivo",
-    "Consenso vs riesgo de bloqueo",
-    "Seguridad jurídica vs capacidad de aprendizaje"
+    "agilidad de gestión vs control colectivo",
+    "consenso vs riesgo de bloqueo"
   ],
   "notableProjects": [
     {
+      "projectName": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+      "notableBecause": "Aparece en relación con consejo rector u órgano de gestión, asamblea.",
+      "references": [
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - a) Composición del Consejo Rector: El Consejo Rector estará compuesto por socios",
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - g) Roles y Responsabilidades del Consejo Rector: El Consejo Rector, en conjunto",
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - 2. Responsabilidad del Consejo Rector: El Consejo Rector será responsable de"
+      ]
+    },
+    {
       "projectName": "Estatutos Axuntase",
-      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión, mayorías, consenso y bloqueo.",
+      "notableBecause": "Aparece en relación con consejo rector u órgano de gestión, asamblea, mayorías, consenso y bloqueo.",
       "references": [
-        "Estatutos Axuntase - Artículo 27.- El Consejo Rector: naturaleza y competencia",
         "Estatutos Axuntase - Artículo 29.- Organización, funcionamiento y mandato del Consejo Rector",
-        "Estatutos Axuntase - Artículo 28.- Composición, nombramiento y competencias del Consejo Rector"
-      ]
-    },
-    {
-      "projectName": "Estatutos Senior Cohousing Huelva",
-      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión, mayorías, consenso y bloqueo.",
-      "references": [
-        "Estatutos Senior Cohousing Huelva - Artículo 26. El Consejo Rector: naturaleza y competencia",
-        "Estatutos Senior Cohousing Huelva - Artículo 28. Organización, funcionamiento y mandato del Consejo Rector",
-        "Estatutos Senior Cohousing Huelva - Artículo 27. Composición y elección del Consejo Rector"
-      ]
-    },
-    {
-      "projectName": "MODELO ESTATUTOS VIVIENDAS",
-      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión, mayorías, consenso y bloqueo.",
-      "references": [
-        "MODELO ESTATUTOS VIVIENDAS - Artículo 29.- El Consejo Rector: naturaleza y competencia",
-        "MODELO ESTATUTOS VIVIENDAS - Artículo 31.- Organización, funcionamiento y mandato del Consejo Rector",
-        "MODELO ESTATUTOS VIVIENDAS - Artículo 30.- Composición y elección del Consejo Rector"
-      ]
-    },
-    {
-      "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión, mayorías, consenso y bloqueo.",
-      "references": [
-        "Estatutos Entrepatios - Artículo 49. El Consejo Rector. Naturaleza y competencias.",
-        "Estatutos Entrepatios - Artículo 50. Composición del Consejo Rector. Funciones de los consejeros."
-      ]
-    },
-    {
-      "projectName": "Estatutos Losnidales",
-      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión, mayorías, consenso y bloqueo.",
-      "references": [
-        "Estatutos Losnidales - Artículo 46.- El Consejo Rector. Naturaleza y competencias.",
-        "Estatutos Losnidales - Artículo 47.- Composición del Consejo Rector. Funciones de los consejeros."
+        "Estatutos Axuntase - Artículo 30.- Vacantes, renuncias y retribución del Consejo Rector",
+        "Estatutos Axuntase - j) Aquellas materias atribuidas al Consejo Rector por la ley o estos Estatutos no"
       ]
     },
     {
       "projectName": "Estatutos La Borda",
-      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión.",
+      "notableBecause": "Aparece en relación con consejo rector u órgano de gestión, asamblea, mayorías, consenso y bloqueo.",
       "references": [
-        "Estatutos La Borda - Artículo 38. El Consejo Rector"
+        "Estatutos La Borda - Artículo 38. El Consejo Rector",
+        "Estatutos La Borda - Artículo 41. Funcionamiento del Consejo Rector"
+      ]
+    },
+    {
+      "projectName": "Estatutos Tarocohousing",
+      "notableBecause": "Aparece en relación con consejo rector u órgano de gestión, asamblea.",
+      "references": [
+        "Estatutos Tarocohousing - Artículo 33.- Vacantes, renuncias y retribución del Consejo Rector",
+        "Estatutos Tarocohousing - k) Aquellas materias atribuidas al Consejo Rector por la ley o estos Estatutos no podrán ser"
+      ]
+    },
+    {
+      "projectName": "MODELO ESTATUTOS VIVIENDAS",
+      "notableBecause": "Aparece en relación con consejo rector u órgano de gestión, asamblea, mayorías, consenso y bloqueo.",
+      "references": [
+        "MODELO ESTATUTOS VIVIENDAS - Artículo 31.- Organización, funcionamiento y mandato del Consejo Rector",
+        "MODELO ESTATUTOS VIVIENDAS - Artículo 32.- Vacantes y renuncias del Consejo Rector"
+      ]
+    },
+    {
+      "projectName": "Estatutos Entrepatios",
+      "notableBecause": "Aparece en relación con consejo rector u órgano de gestión, asamblea.",
+      "references": [
+        "Estatutos Entrepatios - 2. La representación del Consejo Rector se extenderá, en juicio o fuera de él,"
       ]
     }
   ],

@@ -1,0 +1,212 @@
+{
+  "slug": "toma_decisiones",
+  "title": "Toma de decisiones",
+  "shortDescription": "Cómo se toman las decisiones en una cooperativa de usuarios de Castilla y León: qué corresponde a la Asamblea y qué al Consejo Rector, el principio de una persona un voto, y cómo conciliar el consenso y la horizontalidad que valora el grupo con las mayorías que exige la ley.",
+  "category": "gobernanza",
+  "minimumContents": [
+    "Identificar los órganos que deciden (Asamblea general y Consejo Rector) y repartir competencias entre ellos.",
+    "Fijar el principio de voto: una persona, un voto, y quién tiene voz y voto (socios A) frente a quién solo voz (socios B).",
+    "Definir las mayorías: mayoría ordinaria, mayoría reforzada de dos tercios para lo estatutario y posible mayoría cualificada propia.",
+    "Regular el quórum de constitución de la Asamblea y la delegación de voto por representación.",
+    "Encajar el proceso de consenso y la gestión de bloqueos que el grupo ya usa (flujograma aprobado en 2025) dentro del marco legal.",
+    "Aclarar el papel de las comisiones de trabajo: preparan y proponen, pero no sustituyen la decisión de los órganos sociales."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿Qué materias se reservan a la Asamblea general y cuáles se delegan en el Consejo Rector para el día a día?",
+    "¿Se mantiene el proceso escalonado del flujograma (buscar consenso primero, votar después) y se lleva a los Estatutos o al RRI?",
+    "¿Se exige una mayoría cualificada propia (el 75 % que el grupo ya mencionó) para decisiones importantes, dentro del techo legal de 4/5?",
+    "¿Cómo se gestiona un bloqueo: comisión mediadora y, si no hay acuerdo, votación por mayoría en la siguiente asamblea?",
+    "¿El Consejo Rector será de al menos 3 personas o, siendo grupo pequeño (menos de 10 socios), se opta por Administrador único?",
+    "¿Qué peso formal tienen las comisiones (Convivencia, Economía, Forma Jurídica, Arquitectura, Comunicación) al preparar decisiones?"
+  ],
+  "risks": [
+    "Exigir consenso o unanimidad en los Estatutos para todo puede bloquear el proyecto y choca con la mayoría simple que la ley fija como regla general.",
+    "El socio B tiene voz pero no voto: si de facto participa en decisiones vinculantes, se difumina un estatus jurídico ya de por sí frágil (art. 26).",
+    "Dejar en manos de las comisiones decisiones que la ley reserva a los órganos sociales puede invalidar acuerdos: las comisiones proponen, no deciden.",
+    "Poner en los Estatutos porcentajes y protocolos muy detallados los vuelve rígidos; conviene reservar el detalle operativo al RRI.",
+    "Superar el 80 % (cuatro quintas partes) de mayoría exigida sería contrario a la ley y anulable."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "El principio de voto, el reparto de competencias entre Asamblea y Consejo Rector y las mayorías afectan a la estructura de gobierno: son contenido estatutario obligatorio.",
+      "El flujograma de consenso, la gestión de bloqueos, los turnos de palabra y el trabajo de las comisiones son operativos y se revisan con más frecuencia: encajan en el RRI."
+    ],
+    "shouldBeInStatutes": [
+      "Órganos sociales y competencias de la Asamblea general y del Consejo Rector.",
+      "Principio de una persona un voto y quién tiene derecho de voto.",
+      "Quórum de constitución y mayorías (ordinaria, dos tercios y, en su caso, mayoría cualificada propia).",
+      "Delegación de voto por representación y su límite."
+    ],
+    "shouldBeInRRI": [
+      "El proceso escalonado de decisión: rondas de consenso, matización del voto y expresión de reticencias.",
+      "El procedimiento ante un bloqueo (comisión mediadora, aplazamiento y votación posterior).",
+      "El funcionamiento de las comisiones de trabajo y su relación con la Asamblea.",
+      "Reglas prácticas de las reuniones: turnos de palabra, tiempos, delegación por escrito o mensajería."
+    ],
+    "canBeDeferredInitially": [
+      "Herramientas concretas de votación telemática y plantillas de acta.",
+      "Protocolo fino de evaluación de urgencia de una decisión."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Congelar el flujograma y los porcentajes de consenso en los Estatutos dificulta ajustarlos con la experiencia del grupo."
+    ],
+    "risksIfPlacedInRRI": [
+      "Dejar solo en el RRI el reparto de competencias o el principio de voto restaría seguridad jurídica a decisiones que pueden impugnarse."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "depends_on",
+      "explanation": "Quién decide depende de la clase de socio: el socio A tiene voz y voto y el socio B, por ahora, solo voz."
+    },
+    {
+      "topicSlug": "expulsion_socio",
+      "relationship": "complements",
+      "explanation": "La sanción y expulsión es competencia del Consejo Rector, con recurso ante la Asamblea general."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Establecer nuevas aportaciones obligatorias es un acuerdo de Asamblea que exige mayoría reforzada de dos tercios."
+    }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "En una cooperativa de usuarios de Castilla y León rige la Ley 4/2002. La ley fija dos órganos que deciden: la Asamblea general, órgano supremo de expresión de la voluntad social al que se convoca a todos los socios (art. 30), y el Consejo Rector, órgano colegiado de gobierno que gestiona y representa a la cooperativa con sujeción a la política general que marca la Asamblea (art. 40). La ley reserva a la Asamblea un núcleo de decisiones (nombrar cargos, aprobar cuentas, modificar Estatutos y RRI, nuevas aportaciones, disolución) y deja al Consejo Rector todo lo no reservado a otros órganos.",
+        "El principio democrático es imperativo: con carácter general, cada socio tiene un voto (art. 35.1), y los acuerdos se toman por mayoría simple, salvo las materias que exigen dos tercios (art. 37). La ley deja margen para subir el listón: los Estatutos pueden exigir mayorías superiores, pero nunca por encima de las cuatro quintas partes de los votos válidos. Ese margen es la puerta legal para acomodar la cultura de consenso del grupo, siempre que no se convierta la unanimidad en requisito que paralice la cooperativa."
+      ],
+      "requirements": [
+        { "aspect": "Asamblea general: órgano supremo y competencias", "law": "Ley 4/2002 CyL, art. 30 y 31", "requirement": "Es el órgano supremo; su acuerdo es necesario para nombrar y revocar cargos, aprobar cuentas, modificar Estatutos y RRI, establecer nuevas aportaciones y acordar fusión o disolución.", "margin": "Podéis atribuirle en Estatutos competencias adicionales." },
+        { "aspect": "Una persona, un voto", "law": "Ley 4/2002 CyL, art. 35.1", "requirement": "En las Asambleas, con carácter general, cada socio tiene un voto.", "margin": "En una cooperativa de usuarios de personas físicas es plenamente 1 persona = 1 voto; el voto plural no os aplica." },
+        { "aspect": "Mayoría ordinaria", "law": "Ley 4/2002 CyL, art. 37.1", "requirement": "Los acuerdos se adoptan por mayoría simple de los votos válidos; no cuentan blancos ni abstenciones.", "margin": "Es el suelo; podéis reforzarlo (art. 37.3)." },
+        { "aspect": "Mayoría reforzada de dos tercios", "law": "Ley 4/2002 CyL, art. 37.2", "requirement": "Modificar Estatutos, fusión, escisión, transformación, disolución y nuevas aportaciones obligatorias exigen al menos dos tercios de los votos presentes o representados.", "margin": "Mínimo imperativo: no cabe rebajarlo." },
+        { "aspect": "Techo de las mayorías", "law": "Ley 4/2002 CyL, art. 37.3", "requirement": "Los Estatutos pueden exigir mayorías superiores, sin rebasar en ningún caso las cuatro quintas partes de los votos válidamente emitidos.", "margin": "Aquí cabe encajar una mayoría cualificada propia (p. ej. el 75 % que el grupo valora)." },
+        { "aspect": "Consejo Rector y comisiones", "law": "Ley 4/2002 CyL, art. 40, 41, 44 y 22", "requirement": "El Consejo Rector gobierna y representa; mínimo 3 consejeros (2 si hay 3 socios) y decide por más de la mitad. Los Estatutos y la Asamblea pueden crear Comisiones como cauce de información, sin confundirlas con los órganos sociales.", "margin": "Con menos de 10 socios podéis optar por Administrador único (art. 32 y 34)." }
+      ],
+      "citations": [
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 35.1 (una persona, un voto)",
+          "excerpt": "En las Asambleas, con carácter general, cada socio tendrá un voto."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 37 (adopción de acuerdos y mayorías)",
+          "excerpt": "La Asamblea general adoptará los acuerdos por mayoría simple del número de votos emitidos válidamente por los socios presentes y representados, no siendo computables, en ningún caso, a estos efectos los votos en blanco ni las abstenciones. Los acuerdos que hagan referencia a fusión, escisión, transformación, disolución, emisión de obligaciones, exigencia de nuevas aportaciones obligatorias al capital social y, en general, cualesquiera que implique modificación de los Estatutos requerirán como mínimo el voto favorable de las dos terceras partes del número de votos sociales presentes o representados. Los Estatutos podrán exigir mayorías superiores a las establecidas en los apartados anteriores, sin que, en ningún caso, rebasen las cuatro quintas partes de los votos válidamente emitidos."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 40 (Consejo Rector)",
+          "excerpt": "El Consejo Rector es el órgano colegiado de gobierno al que corresponde la gestión y representación de la sociedad cooperativa, con sujeción a la Ley, a los Estatutos y a la política general fijada por la Asamblea general. Corresponde al Consejo Rector cuantas facultades no estén reservadas por Ley o por los Estatutos a otros órganos sociales."
+        }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo reparten la decisión y tratan el consenso otras cooperativas del corpus. La mayoría son de vivienda o cesión de uso: útiles como referencia, teniendo en cuenta que El Buen Vivir es de usuarios.",
+      "columns": [
+        { "key": "general", "label": "Regla general" },
+        { "key": "reforzada", "label": "Mayoría reforzada" },
+        { "key": "consenso", "label": "Consenso / bloqueo" },
+        { "key": "comisiones", "label": "Comisiones" }
+      ],
+      "rows": [
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": {
+            "general": "Dos tercios en todos los casos",
+            "reforzada": "Dos tercios como regla base",
+            "consenso": "Si hay bloqueo, tras dos convocatorias se pasa a mayoría simple",
+            "comisiones": "El RRI fija la organización funcional interna"
+          },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 36 — Adopción de acuerdos",
+          "excerpt": "La Asamblea General adopta los acuerdos con el voto favorable de las dos terceras partes de los votos sociales asistentes en todos los casos. En caso de bloqueo de una decisión, después de dos convocatorias se podrá aplicar una mayoría simple en la votación."
+        },
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": {
+            "general": "Se busca asentimiento unánime; si no lo hay, se vota",
+            "reforzada": "Materias tasadas del art. 45 por votación",
+            "consenso": "La propuesta se somete a votación solo cuando falta el asentimiento unánime",
+            "comisiones": "Asamblea y Consejo Rector pueden crear Comisiones (art. 61)"
+          },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Artículo 45 — Adopción de acuerdos",
+          "excerpt": "El Presidente dará por suficientemente debatido cada asunto del orden del día y, cuando no haya asentimiento unánime a la propuesta de acuerdo hecha por la Mesa, o siempre que algún socio lo solicite, someterá el tema a votación. Ésta podrá hacerse, a criterio de la Mesa, a mano alzada, mediante manifestación pública del voto, verbal o mediante tarjetas u otros documentos."
+        },
+        {
+          "project": "Tarocohousing",
+          "cells": {
+            "general": "Más de la mitad de los votos",
+            "reforzada": "Dos tercios para modificar Estatutos, fusión, disolución y expulsión",
+            "consenso": "Valor estatutario: democracia basada en la búsqueda de consenso",
+            "comisiones": "Comisiones de trabajo como actividad de las socias"
+          },
+          "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+          "articleOrSection": "Artículo 9 — Principios (democracia y consenso)",
+          "excerpt": "Democracia, basada en la transparencia y la búsqueda de consenso."
+        },
+        {
+          "project": "Axuntase (Asturias)",
+          "cells": {
+            "general": "Más de la mitad de los votos; sin voto dirimente de la Presidencia",
+            "reforzada": "Dos tercios para modificaciones, disolución y expulsión",
+            "consenso": "No previsto de forma expresa en el articulado",
+            "comisiones": "—"
+          },
+          "documentSlug": "docs-estatutos-estatutos-axuntase",
+          "articleOrSection": "Artículo 25 — Adopción de acuerdos",
+          "excerpt": "Excepto en los supuestos previstos por la LPAC, la Asamblea General adoptará los acuerdos por más de la mitad de los votos presentes y/o representados, conforme art. 50 LCPA, no siendo computables a estos efectos los votos en blanco ni las abstenciones; no existe el voto dirimente de la Presidencia. Será necesaria la mayoría de los dos tercios de los votos presentes y representados, para adoptar acuerdos de modificación de Estatutos, fusión, escisión, disolución, reactivación de la Cooperativa, adhesión o baja de un grupo cooperativo, para resolver los expedientes de expulsión que le sean sometidos a su consideración, así como en los demás supuestos en los que lo establezca la Ley."
+        }
+      ],
+      "note": "El patrón dominante es doble regla legal (mayoría simple y dos tercios para lo estructural). La Borda es el modelo más cercano a El Buen Vivir: parte de una exigencia alta (dos tercios) y prevé una válvula de escape para el bloqueo. Varios proyectos elevan el consenso a principio (Tarocohousing), pero lo traducen en un procedimiento de votación, no en unanimidad obligatoria."
+    },
+    "proposal": {
+      "rationale": [
+        "El Buen Vivir es cooperativa de usuarios de personas físicas: el principio de una persona un voto (art. 35.1) refleja de forma natural la horizontalidad sin jerarquías que recoge el documento de visión.",
+        "El grupo ya aprobó en 2025 un flujograma de toma de decisiones que prioriza el consenso, permite matizar el voto y expresar reticencias o bloqueos, y prevé mayorías cualificadas del 75 %: la propuesta lo formaliza dentro del marco legal en vez de inventar nada nuevo.",
+        "La ley obliga a que exista un Consejo Rector, pero siendo un grupo pequeño conviene que la Asamblea conserve el peso de las decisiones y que el Consejo se limite a la gestión ordinaria y la representación.",
+        "Las comisiones (Convivencia, Economía, Forma Jurídica, Arquitectura, Comunicación) ya funcionan preparando propuestas; su papel debe quedar claro: instruyen y proponen, pero la decisión vinculante corresponde a la Asamblea o al Consejo Rector."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Órganos, voto y mayorías",
+          "text": "La Asamblea general es el órgano supremo de decisión y el Consejo Rector, el órgano de gestión y representación, con sujeción a la política general que fije la Asamblea. Cada persona socia tiene un voto; el derecho de voto corresponde a las personas socias de tipo A. La Asamblea adoptará sus acuerdos por mayoría simple de los votos válidos, salvo las materias que la Ley 4/2002 reserva a la mayoría de dos tercios (modificación de Estatutos y del Reglamento de Régimen Interno, nuevas aportaciones obligatorias, fusión, disolución y análogas). Para [las decisiones que el grupo considere de especial trascendencia] se exigirá una mayoría cualificada del [75] % de los votos presentes y representados, sin superar en ningún caso las cuatro quintas partes que fija la ley. El proceso de búsqueda de consenso previo a la votación, la gestión de bloqueos y el funcionamiento de las comisiones se desarrollarán en el Reglamento de Régimen Interno.",
+          "note": "Núcleo estatutario reservado: existencia y competencias básicas de Asamblea y Consejo Rector, principio de un voto y mayorías legales, incluida la mayoría cualificada del 75 % (que solo es válida si consta en Estatutos, art. 37.3, y queda dentro del techo de 4/5). El flujo de consenso y las comisiones se remiten al RRI. Revisar jurídicamente si el socio B debe tener voto: el estatus sin voto es frágil (art. 26)."
+        },
+        {
+          "target": "rri",
+          "heading": "Proceso escalonado de decisión y gestión de bloqueos",
+          "text": "Las decisiones se preparan en las comisiones y se debaten en Asamblea buscando primero el consenso. Se permitirá matizar el voto y expresar reticencias, sensibilidades o bloqueos, y las mayorías ajustadas requerirán argumentación adicional. Si una decisión queda bloqueada, se creará una comisión con representantes de cada postura para buscar un punto medio; en la siguiente asamblea la propuesta se someterá directamente a votación por la mayoría que corresponda. Podrá evaluarse la urgencia de cada asunto para decidir si se aplaza o se resuelve en el momento.",
+          "note": "Traslada casi literalmente el flujograma aprobado en la Reunión 5 (14-01-2025). Va en el RRI por ser operativo y revisable sin modificar los Estatutos."
+        },
+        {
+          "target": "rri",
+          "heading": "Comisiones de trabajo",
+          "text": "La cooperativa se organiza en comisiones de trabajo (entre otras, Convivencia, Economía, Forma Jurídica, Arquitectura y Comunicación). Las comisiones estudian los asuntos de su ámbito, elaboran propuestas y facilitan información a las personas socias, pero no sustituyen a los órganos sociales: la decisión vinculante corresponde a la Asamblea general o, en su ámbito, al Consejo Rector. Cada comisión trasladará sus avances a la Asamblea.",
+          "note": "Coherente con el art. 22 de la Ley 4/2002 (las comisiones son cauce de información, no órgano decisorio) y con el art. 29.4 (no pueden confundirse con los órganos sociales)."
+        }
+      ],
+      "openDecisions": [
+        "¿Qué materias concretas se reservan a la Asamblea y cuáles se delegan en el Consejo Rector para el día a día?",
+        "¿Se exige una mayoría cualificada propia (75 %) y para qué lista cerrada de decisiones importantes?",
+        "¿El Consejo Rector tendrá 3 miembros o se opta por Administrador único al ser menos de 10 socios?",
+        "¿Se lleva el proceso de consenso y bloqueo al RRI (recomendado) o se menciona también en los Estatutos?",
+        "¿Se revisa el estatus sin voto del socio B para no dejarlo fuera de decisiones que le afectan?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas del grupo. Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
+  "suggestedClause": {
+    "text": "La Asamblea general es el órgano supremo de decisión y el Consejo Rector el de gestión y representación. Cada persona socia con derecho de voto tiene un voto. Los acuerdos se adoptan por mayoría simple de los votos válidos, salvo las materias que exigen dos tercios conforme a la Ley 4/2002; para las decisiones de especial trascendencia podrá exigirse una mayoría cualificada que no superará las cuatro quintas partes de los votos. El proceso de consenso, la gestión de bloqueos y el trabajo de las comisiones se desarrollarán en el Reglamento de Régimen Interno.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

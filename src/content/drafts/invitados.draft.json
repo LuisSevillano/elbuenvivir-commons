@@ -7,9 +7,9 @@
     "Conviene valorar una regla mínima sobre invitados, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre familiares, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre terceras personas, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Cesión de derechos a familiares, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre 3. Si la Cooperativa realizara operaciones con terceras personas prescindiendo de lo anteriormente, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre 4. Los ingresos obtenidos de operaciones con terceras personas se destinarán en un 10%, a dotar el, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre Operaciones con terceras personas, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre sección, contrastando las referencias automáticas del research pack.",
     "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
   ],
   "legalBasis": [],
@@ -23,12 +23,12 @@
   ],
   "risks": [
     "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
-    "Rigidez: una regla estatutaria puede ser más difícil de adaptar que una regla de RRI.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
     "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
-    "Conflictos potenciales: conviene revisar si el tema puede generar desacuerdos prácticos aunque no aparezcan expresamente."
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
   ],
   "governancePlacement": {
-    "recommendedPrimaryLocation": "mixed",
+    "recommendedPrimaryLocation": "estatutos",
     "rationale": [
       "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
       "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
@@ -69,17 +69,17 @@
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
-      "topicSlug": "uso_espacios_comunes",
-      "relationship": "complements",
-      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
-    },
-    {
       "topicSlug": "toma_decisiones",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
       "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "derechos_y_obligaciones",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     }
@@ -95,106 +95,66 @@
     "generated": true,
     "curated": false,
     "sourceResearchPack": "src/content/research-packs/invitados.md",
-    "evidenceCount": 14,
+    "evidenceCount": 7,
     "highConfidenceEvidence": 2,
-    "mediumConfidenceEvidence": 3,
-    "lowConfidenceEvidence": 9,
+    "mediumConfidenceEvidence": 1,
+    "lowConfidenceEvidence": 4,
     "evidence": [
       {
-        "documentSlug": "docs-rri-rri-vallecas2homes",
-        "documentTitle": "Rri Vallecas2homes",
-        "documentType": "rri",
-        "articleOrSection": "Artículo 27. Cesión de derechos a familiares.",
+        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
+        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "3. Si la Cooperativa realizara operaciones con terceras personas prescindiendo de lo anteriormente",
         "confidence": "high",
-        "excerpt": "Artículo 27. Cesión de derechos a familiares."
+        "excerpt": "3. Si la Cooperativa realizara operaciones con terceras personas prescindiendo de lo anteriormente previsto, cualquier persona socia expectante o, en su defecto, incluida en el listado de personas solicitantes de vivienda o locales en régim..."
+      },
+      {
+        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
+        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "4. Los ingresos obtenidos de operaciones con terceras personas se destinarán en un 10%, a dotar el",
+        "confidence": "high",
+        "excerpt": "4. Los ingresos obtenidos de operaciones con terceras personas se destinarán en un 10%, a dotar el Fondo de Reserva Obligatorio (F.R.O) y el resto a alguna/s de las siguientes finalidades: - A disminuir el precio de las viviendas o locales..."
       },
       {
         "documentSlug": "docs-otros-modelo-estatutos-viviendas",
         "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
         "documentType": "otro",
         "articleOrSection": "Artículo 43.- Operaciones con terceras personas",
-        "confidence": "high",
-        "excerpt": "Artículo 43.- Operaciones con terceras personas 1. De conformidad con lo dispuesto en el artículo 91 del Reglamento, la cooperativa podrá realizar operaciones con terceras personas respecto de las construcciones complementarias a aquellas q..."
+        "confidence": "medium",
+        "excerpt": "Artículo 43.- Operaciones con terceras personas"
       },
       {
-        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-        "documentTitle": "Las GuíAs De Sostre CíVic",
-        "documentType": "guia",
-        "articleOrSection": "Documento completo",
-        "confidence": "medium",
-        "excerpt": "Las guías de Sostre Cívic sobre vivienda cooperativa en cesión de uso ahora también en castellano Sostre Cívic, una cooperativa que es referencia a nivel estatal en la promoción de las viviendas cooperativas en cesión de uso, ha publicado e..."
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+        "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
+        "documentType": "ley",
+        "articleOrSection": "3. A los efectos de esta norma, se entenderá por familiares próximos a aquellos que",
+        "confidence": "low",
+        "excerpt": "3. A los efectos de esta norma, se entenderá por familiares próximos a aquellos que podrían ejercer influencia en, o ser influidos por, esa persona en sus decisiones relacionadas con la empresa. Entre ellos se incluirán:"
       },
       {
-        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-        "documentTitle": "Las GuíAs De Sostre CíVic",
-        "documentType": "guia",
-        "articleOrSection": "Título original: La construcció i la cura dels grups",
-        "confidence": "medium",
-        "excerpt": "Título original: La construcció i la cura dels grups La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento..."
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "c) Revocación de los cargos sociales antes mencionados.",
+        "confidence": "low",
+        "excerpt": "c) Revocación de los cargos sociales antes mencionados. Ar\u001aculo 29.- Impugnación de acuerdos de la Asamblea General. 1.- Los acuerdos de la Asamblea General que sean contrarios a la Ley, que se opongan a estos estatutos o lesionen, en bene,..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "c) Revocación de los cargos sociales antes mencionados.",
+        "confidence": "low",
+        "excerpt": "c) Revocación de los cargos sociales antes mencionados. Arơculo 32.- Impugnación de acuerdos de la Asamblea General. 1.- Los acuerdos de la Asamblea General que sean contrarios a la Ley, que se opongan a estos estatutos o lesionen, en benef..."
       },
       {
         "documentSlug": "docs-rri-rri-vallecas2homes",
         "documentTitle": "Rri Vallecas2homes",
         "documentType": "rri",
         "articleOrSection": "Artículo 27. Cesión de derechos a familiares.",
-        "confidence": "medium",
+        "confidence": "low",
         "excerpt": "Artículo 27. Cesión de derechos a familiares."
-      },
-      {
-        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-        "documentTitle": "Las GuíAs De Sostre CíVic",
-        "documentType": "guia",
-        "articleOrSection": "Título original: Cures en la convivència de persones grans",
-        "confidence": "low",
-        "excerpt": "Título original: Cures en la convivència de persones grans La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el f..."
-      },
-      {
-        "documentSlug": "docs-rri-informe-cooperativas-cesion-de-uso",
-        "documentTitle": "Informe Cooperativas Cesion De Uso",
-        "documentType": "rri",
-        "articleOrSection": "Documento completo",
-        "confidence": "low",
-        "excerpt": "E X P E R I E N C I A S , M O D E L O S Y P R O P U E S T A S P A R A E L F O M E N T O D E C O O P E R A T I V A S D E V I V I E N D A S E N C E S I Ó N D E D E R E C H O D E U S O D I C I E M B R E , 2 0 2 0 C O N C E J A L Í A D E U R B..."
-      },
-      {
-        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-        "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 2. Obligatoriedad del Plan.",
-        "confidence": "low",
-        "excerpt": "Artículo 2. Obligatoriedad del Plan. El Plan General de Contabilidad será de aplicación obligatoria para todas las empresas, cualquiera que sea su forma jurídica, individual o societaria, sin perjuicio de aquellas empresas que puedan aplica..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-entrepatios",
-        "documentTitle": "Estatutos Entrepatios",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 6. Personas que pueden ser socias. Las/los colaboradoras/es.",
-        "confidence": "low",
-        "excerpt": "Artículo 6. Personas que pueden ser socias. Las/los colaboradoras/es. 1. Podrán pertenecer a la Cooperativa las personas físicas o naturales mayores de edad que necesiten alojamiento para sí y los familiares que con ellas convivan. 2. La pe..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-entrepatios",
-        "documentTitle": "Estatutos Entrepatios",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 11. Trasmisión de derechos.",
-        "confidence": "low",
-        "excerpt": "Artículo 11. Trasmisión de derechos. 1. La transmisión de aportaciones tanto obligatorias como voluntarias se regirá por lo establecido en el artículo 31 de estos Estatutos. 2. La transmisión de la totalidad de las aportaciones a otra perso..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-tejiendovida-asociacion",
-        "documentTitle": "Estatutos Tejiendovida Asociacion",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 14º.- Sesiones.",
-        "confidence": "low",
-        "excerpt": "Artículo 14º.- Sesiones. 1. La Junta Directiva celebrará sesión cuando lo determine el Presidente/a o a petición de la mitad de sus miembros. Quedará constituida cuando asista la mitad más uno de sus miembros y para que sus acuerdos sean vá..."
-      },
-      {
-        "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-        "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-        "documentType": "guia",
-        "articleOrSection": "Documento completo",
-        "confidence": "low",
-        "excerpt": "GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR -- 1 of 62 -- DIRECCIÓN ELABORACIÓN JURÍDICA FGC ADCVOCATS, SCCL Cristina R. Grau López como autora con la colaboración de Ainhoa Domínguez Peña. COLABORA Diciemb..."
       }
     ]
   }

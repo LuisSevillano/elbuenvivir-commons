@@ -1,0 +1,195 @@
+{
+  "slug": "reservas_estancias_pernoctas",
+  "title": "Reservas, estancias y pernoctas",
+  "shortDescription": "Cómo organizar el uso compartido de la casa vacacional: reserva de fechas, turnos, prioridad del Socio A frente al B, cuota de uso diaria diferenciada y límites de estancia. Es materia principalmente de Reglamento de Régimen Interno, revisable por la Asamblea.",
+  "category": "uso_espacios",
+  "minimumContents": [
+    "Describir el sistema de reserva de fechas y turnos de uso de la casa (cómo se pide una fecha, con qué antelación y con qué herramienta).",
+    "Fijar la prioridad de reserva del Socio A y el momento en que el Socio B puede elegir fechas.",
+    "Definir cómo se resuelven solapamientos y coincidencias entre personas socias con derecho de prioridad.",
+    "Recoger la cuota de uso diaria diferenciada ya aprobada (socios/mantenedores 0,5 €/día; no mantenedores 7 €/día; invitados 14 €/día adultos y 5 € menores) y su carácter revisable.",
+    "Establecer, si el grupo lo decide, límites de estancia por persona o por temporada para repartir el uso.",
+    "Regular el uso por personas invitadas: plazas, responsabilidad de la persona anfitriona y si computan en los límites del socio."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿Cómo se reserva una fecha (antelación mínima, plazo de apertura del calendario, herramienta común) y cómo se resuelven los solapamientos entre Socios A?",
+    "¿En qué se traduce en la práctica la \"prioridad\" del Socio A: una ventana de reserva anticipada, un derecho de preferencia o un criterio de desempate cuando coinciden peticiones?",
+    "¿Se fijan límites de estancia (máximo de noches por temporada, tope en temporada alta) para que la prioridad de A no deje sin uso a los B?",
+    "¿Se mantiene la cuota de uso aprobada en la Reunión 21 (0,5 / 7 / 14 €) y cada cuánto se revisa? ¿Se admite alguna franja gratuita, como la idea de 5 noches al año?",
+    "¿Qué régimen tienen las personas invitadas: número máximo de plazas, quién responde de ellas y si sus noches cuentan dentro de los límites del socio anfitrión?"
+  ],
+  "risks": [
+    "Una prioridad amplia del Socio A sin límites de estancia puede vaciar de uso a los Socios B en temporada alta y reproducir la sensación de socio de segunda que ya se advierte en la estructura A/B.",
+    "Fijar en los Estatutos los importes concretos de la cuota de uso los vuelve rígidos; el grupo ya los aprobó como \"revisables periódicamente\", así que encajan mejor en el RRI.",
+    "Una cuota de uso simbólica para socios (0,5 €) frente a 7-14 € para el resto puede percibirse como agravio o no cubrir el desgaste real; el propio grupo lo dejó como punto pendiente (valorar diferencias de uso).",
+    "Sin reglas claras de reserva y desempate, las coincidencias de fechas entre amigos pueden convertirse en conflictos de convivencia, justo lo que el proyecto quiere evitar."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "rri",
+    "rationale": [
+      "El sistema de reserva, los turnos, los importes de la cuota de uso y los límites de estancia son operativos y cambiantes: el propio grupo los aprobó como revisables, y la Ley 4/2002 CyL atribuye a la Asamblea la aprobación y modificación del RRI (art. 31), lo que permite ajustarlos sin tocar los Estatutos.",
+      "Solo el marco básico —que existe un derecho de uso de las personas socias y que la prioridad de reserva se vincula a la clase de socio (A/B)— conviene anclarlo en Estatutos, porque afecta a la condición de persona socia y a sus derechos."
+    ],
+    "shouldBeInStatutes": [
+      "Reconocimiento del derecho de las personas socias a usar y disfrutar de la casa y sus espacios.",
+      "Principio de que la prioridad de reserva corresponde al Socio A y su desarrollo se remite al Reglamento de Régimen Interno.",
+      "Remisión expresa al RRI para las normas concretas de uso, reserva y cuota de uso."
+    ],
+    "shouldBeInRRI": [
+      "Procedimiento de reserva de fechas y turnos (antelación, apertura del calendario, herramienta).",
+      "Reglas de prioridad del Socio A y de desempate en solapamientos.",
+      "Importes y tramos de la cuota de uso diaria y su periodicidad de revisión.",
+      "Límites de estancia por persona o temporada, si se aprueban.",
+      "Régimen de personas invitadas: plazas, responsabilidad y cómputo."
+    ],
+    "canBeDeferredInitially": [
+      "El detalle fino del calendario, las franjas de temporada alta/baja y los formularios de reserva pueden concretarse una vez la casa esté en uso."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Fijar en Estatutos importes o plazos concretos obliga a una modificación estatutaria (con mayoría reforzada e inscripción registral) cada vez que el grupo quiera ajustarlos."
+    ],
+    "risksIfPlacedInRRI": [
+      "Dejar solo en el RRI la prioridad del Socio A, sin anclaje estatutario, debilitaría un criterio que diferencia derechos entre clases de socios y podría ser impugnable."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "depends_on",
+      "explanation": "La prioridad de reserva y la cuota de uso diferenciada derivan directamente de la distinción entre Socio A y Socio B."
+    },
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "relationship": "complements",
+      "explanation": "La reserva de fechas convive con las normas de uso de los espacios comunes de la casa."
+    },
+    {
+      "topicSlug": "invitados",
+      "relationship": "complements",
+      "explanation": "El régimen de personas invitadas fija su cuota de uso (14 € adultos, 5 € menores) y su encaje en las reservas del socio anfitrión."
+    }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "El Buen Vivir será una cooperativa de consumidores y usuarios de Castilla y León, regida por la Ley 4/2002. Esta Ley define el objeto de estas cooperativas de forma muy amplia —suministrar bienes y servicios para el uso de los socios y de quienes conviven con ellos (art. 123)— pero no regula cómo se reparte en el tiempo el uso de un inmueble compartido. Ese detalle queda casi por completo en manos del grupo.",
+        "La única guía concreta la ofrece, por analogía, el régimen de las cooperativas de viviendas: cuando la cooperativa retiene la propiedad del inmueble, son los Estatutos (y, por remisión, el Reglamento de Régimen Interno) los que \"establecerán las normas a que ha de ajustarse tanto su uso y disfrute por los socios como los demás derechos y obligaciones\" (art. 118). Además, la aprobación y modificación del RRI corresponde a la Asamblea General (art. 31), lo que confirma que el sistema de reservas y la cuota de uso pueden diseñarse y revisarse sin rango estatutario. El límite es que los derechos del socio solo pueden restringirse por vía sancionadora o por medidas cautelares estatutarias (art. 22)."
+      ],
+      "requirements": [
+        { "aspect": "Objeto de la cooperativa de usuarios", "law": "Ley 4/2002 CyL, art. 123", "requirement": "Suministrar bienes/servicios para el uso o consumo de los socios y de quienes conviven con ellos.", "margin": "El uso vacacional compartido encaja; la organización concreta del uso es libre." },
+        { "aspect": "Normas de uso y disfrute", "law": "Ley 4/2002 CyL, art. 118.3", "requirement": "Si la cooperativa retiene la propiedad, los Estatutos establecen las normas de uso y disfrute por los socios.", "margin": "Amplia libertad para diseñar reservas, turnos, prioridades y límites; puede remitirse al RRI." },
+        { "aspect": "Derechos del socio", "law": "Ley 4/2002 CyL, art. 22", "requirement": "El socio puede ejercitar todos los derechos legal o estatutariamente reconocidos, incluido participar en las actividades de la cooperativa; solo se restringen por sanción o medida cautelar estatutaria.", "margin": "La prioridad de A sobre B debe tener base estatutaria para ser legítima." },
+        { "aspect": "Aprobación y revisión del RRI", "law": "Ley 4/2002 CyL, art. 31", "requirement": "La aprobación o modificación del Reglamento de Régimen Interno es competencia de la Asamblea General.", "margin": "Permite ajustar cuota de uso, turnos y límites por acuerdo asambleario, sin modificar Estatutos." },
+        { "aspect": "Igualdad política / diferenciación de uso", "law": "Ley 4/2002 CyL, art. 22 y 123", "requirement": "La condición de socio conlleva derecho de uso; la Ley no impide diferenciar el uso económico ni la prioridad, si se justifica y se recoge.", "margin": "Podéis diferenciar prioridad y cuota entre A y B; conviene motivarlo y anclarlo." }
+      ],
+      "citations": [
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 118.3 (uso y disfrute cuando la cooperativa retiene la propiedad)",
+          "excerpt": "La propiedad o el uso y disfrute de las viviendas y locales podrán ser adjudicados o cedidos a los socios mediante cualquier título admitido en derecho. Cuando la cooperativa retenga la propiedad de las viviendas o locales, los Estatutos establecerán las normas a que ha de ajustarse tanto su uso y disfrute por los socios como los demás derechos y obligaciones de estos y de la cooperativa..."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 123.1 (objeto de las cooperativas de consumidores y usuarios)",
+          "excerpt": "Se consideran cooperativas de consumidores y usuarios aquellas que tienen como objeto social el suministro de bienes muebles o inmuebles y/o servicios, productos, actividades o funciones para su adquisición, uso o consumo por los socios y de quienes con ellos conviven, así como la defensa, información y promoción generales de los derechos de los consumidores y usuarios."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 31 (competencia de la Asamblea sobre el RRI)",
+          "excerpt": "Modificación de Estatutos, excepto lo previsto en el artículo 58 de esta ley y aprobación o modificación, en su caso, del Reglamento de Régimen Interno de la cooperativa."
+        }
+      ]
+    },
+    "comparison": {
+      "intro": "Las cooperativas del corpus son en su mayoría de residencia permanente, donde cada socio tiene una vivienda fija asignada en cesión de uso: no necesitan reservar fechas ni turnarse. Por eso ninguna tiene un sistema de reserva y prioridad como el que necesita El Buen Vivir; lo que sí muestran es un patrón claro sobre dónde viven las normas de uso.",
+      "columns": [
+        { "key": "modelo", "label": "Modelo de uso" },
+        { "key": "donde", "label": "Dónde se regula el uso" },
+        { "key": "asignacion", "label": "Asignación / prioridad" },
+        { "key": "invitados", "label": "Invitados / terceros" }
+      ],
+      "rows": [
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": { "modelo": "Vivienda fija cedida en uso exclusivo por socia", "donde": "Estatutos remiten a un RRI aprobado por la Asamblea", "asignacion": "Una vivienda por socia; sin turnos ni prioridad", "invitados": "No lo detallan los estatutos" },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Artículo 62 — Normas para el uso y disfrute de las viviendas",
+          "excerpt": "La Cooperativa asignará a cada persona socia, en régimen de cesión de uso, la utilización y disfrute exclusivos de una vivienda de las que conste el edificio o conjunto residencial de que sea propietaria, mediante cualquier título admitido en derecho. A fin de regular el funcionamiento del edificio o conjunto residencial, las normas de uso de las viviendas de que conste, el régimen de prestación de los servicios comunes (limpieza, lavandería, etc.) y demás detalles que se consideren necesarios para la mejor administración del inmueble y sus instalaciones, la Asamblea General, por mayoría de las personas socias presentes o representadas, aprobará un Reglamento de Régimen Interior."
+        },
+        {
+          "project": "Los Nidales (Madrid)",
+          "cells": { "modelo": "Vivienda o apartamento fijo por socio", "donde": "RRI aprobado por la Asamblea", "asignacion": "Asignación exclusiva; sin rotación", "invitados": "No lo detallan los estatutos" },
+          "documentSlug": "docs-estatutos-estatutos-losnidales",
+          "articleOrSection": "Artículo 60 — Normas para el uso y disfrute de las viviendas o apartamentos",
+          "excerpt": "La Cooperativa asignará a cada socio/a, en régimen de cesión de uso, la utilización y disfrute exclusivos de una vivienda o apartamento de los que conste el edificio o conjunto residencial de que sea propietaria. A fin de regular el funcionamiento del edificio o conjunto residencial, las normas de uso de las viviendas o apartamentos de que conste, el régimen de prestación de los servicios comunes (limpieza, comedor, lavandería, etc…) y demás detalles que se consideren necesarios para la mejor administración del inmueble y sus instalaciones, la Asamblea General, por mayoría de los/as socios/as presentes o representados/as, aprobará un Reglamento de Régimen Interior."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": { "modelo": "Uso indefinido de espacio privado + partes comunes", "donde": "RRI delimita usos y sus normas", "asignacion": "Espacio privado fijo por socia", "invitados": "No lo detallan los estatutos" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Cláusula 7.3 — Reglamento de Régimen Interno y usos",
+          "excerpt": "El reglamento de Régimen Interno debe especificar la delimitación de los elementos de uso común, de uso común restringido y de uso privativo del conjunto del edificio de viviendas cooperativas. Asimismo, debe recoger las normas de mantenimiento, conservación y mejora ordinarias y extraordinarias de los elementos de uso común y de uso privativo del conjunto del edificio y de las viviendas cooperativas, y las de correcto funcionamiento de los servicios e instalaciones de uso común y de uso privativo."
+        },
+        {
+          "project": "Los Girasoles / El Ciempiés (Madrid)",
+          "cells": { "modelo": "Vivienda fija; el derecho de uso incluye los comunes", "donde": "Normas de uso de los comunes en el RRI", "asignacion": "Uso de equipamientos comunes reglado", "invitados": "No lo detallan los estatutos" },
+          "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+          "articleOrSection": "Artículo 7.4 — El derecho de uso cooperativo",
+          "excerpt": "El derecho de uso de una vivienda de la cooperativa y de sus instalaciones complementarias comporta también el derecho de uso de los espacios y equipamientos comunitarios, de acuerdo con las normas de uso que se establezcan en el Reglamento de Régimen Interno."
+        },
+        {
+          "project": "Axuntase (Asturias) — RRI",
+          "cells": { "modelo": "Vivienda fija; regula convivientes e invitados", "donde": "Reglamento de Régimen Interno", "asignacion": "—", "invitados": "Define la figura de residente temporal/invitada, con deberes pero sin derechos autónomos" },
+          "documentSlug": "docs-rri-rri-axuntase",
+          "articleOrSection": "Reglamento de Régimen Interno — Residentes temporales e invitadas",
+          "excerpt": "Se considerará residente temporal o invitada, aquella persona que conviva temporalmente con un socio o socia, sin figurar como acompañante en el documento de adhesión de la persona socia. Dichas personas deberán respetar, igual que las personas socias, las normas de convivencia del complejo."
+        }
+      ],
+      "note": "Patrón claro: aunque cada proyecto asigna una vivienda fija, todos delegan las normas de uso concretas al RRI que aprueba la Asamblea, y las personas invitadas se definen con deberes pero sin derechos de uso propios. El Buen Vivir puede seguir ese patrón (marco en Estatutos, detalle en RRI) e inventar el sistema de reserva/turnos que ninguno necesita, por ser la primera casa del corpus de uso vacacional rotativo."
+    },
+    "proposal": {
+      "rationale": [
+        "El proyecto se define como una vivienda vacacional compartida con \"un sistema rotativo y cooperativo de uso y disfrute del inmueble\" y espacios habitacionales no fijos: no hay vivienda asignada por socio, sino fechas y turnos que hay que repartir.",
+        "El grupo ya decidió (Reuniones 19-21, 2026) que el Socio A tiene prioridad de reserva y el Socio B elige fechas después, y aprobó una cuota de uso diaria diferenciada y \"revisable periódicamente\": esto pide un marco estable en Estatutos y un desarrollo ágil en el RRI.",
+        "Como la propia acta dejó pendiente \"cómo valorar diferencias de uso entre personas socias\", conviene dejar los importes y los límites en el RRI para poder ajustarlos sin reformar Estatutos.",
+        "Los valores de horizontalidad y buen trato aconsejan reglas de reserva transparentes y algún límite de estancia, para que la prioridad del Socio A no vacíe de uso a los B."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Derecho de uso y prioridad de reserva",
+          "text": "Las personas socias tienen derecho a usar y disfrutar de la casa y de sus espacios conforme a las normas que apruebe la Asamblea General en el Reglamento de Régimen Interno. La prioridad en la reserva de fechas corresponde a las personas socias de tipo A; las personas de tipo B podrán elegir fechas una vez ejercida aquella prioridad, en los términos que desarrolle el Reglamento. El Reglamento fijará el procedimiento de reserva, los turnos, la cuota de uso y los eventuales límites de estancia.",
+          "note": "Ancla en Estatutos solo el marco y la prioridad (art. 118.3 y 22 Ley 4/2002 CyL), remitiendo el detalle al RRI para poder revisarlo (art. 31)."
+        },
+        {
+          "target": "rri",
+          "heading": "Sistema de reserva de fechas y turnos",
+          "text": "El calendario de uso se abre con [X] meses de antelación. Durante los primeros [X] días, solo las personas socias de tipo A pueden reservar fechas (ventana de prioridad); transcurrido ese plazo, las personas de tipo B pueden reservar las fechas libres. Cuando dos o más personas socias de tipo A soliciten la misma fecha, se resolverá por [rotación / turno / sorteo / reparto de temporada alta], procurando que nadie acumule las mismas fechas señaladas en años consecutivos. Las reservas se registran en [herramienta común: calendario compartido]. La persona que reserva es responsable de comunicar bajas con antelación para liberar la fecha.",
+          "note": "Los corchetes son las decisiones que el grupo debe votar. Ninguna cooperativa del corpus tiene este sistema, por ser todas de residencia permanente."
+        },
+        {
+          "target": "rri",
+          "heading": "Cuota de uso diaria y personas invitadas",
+          "text": "Toda persona que pernocte abona una cuota de uso diaria, aprobada por la Asamblea y revisable periódicamente. Importes vigentes (Reunión 21, 2026): personas socias y no socias que pagan mantenimiento, 0,5 €/día (incluidos sus hijos e hijas); personas adultas que no pagan mantenimiento, 7 €/día (menores, 2,5 €/día); personas invitadas sin vínculo directo, 14 €/día las adultas y 5 €/día los menores. [Opcional: se reconocen [5] noches al año sin cuota para las personas socias.] Cada persona invitada debe ir vinculada a una persona socia anfitriona, que responde de su estancia y del respeto a las normas de convivencia; el número de plazas para invitados y su cómputo dentro de los límites del socio se fijan en [este Reglamento].",
+          "note": "Recoge textualmente los importes aprobados. La franja gratuita entre corchetes es una idea planteada (5 noches/año) aún no aprobada."
+        }
+      ],
+      "openDecisions": [
+        "¿Con cuánta antelación se abre el calendario y cuántos días dura la ventana de prioridad del Socio A?",
+        "¿Cómo se desempata cuando varios Socios A piden la misma fecha (rotación, sorteo, reparto de temporada alta)?",
+        "¿Se fijan límites de estancia por persona o por temporada, sobre todo en temporada alta?",
+        "¿Se mantienen los importes 0,5 / 7 / 14 € y se añade alguna franja gratuita (idea de 5 noches/año)?",
+        "¿Cuántas plazas de invitados se permiten y sus noches cuentan dentro de los límites del socio anfitrión?"
+      ],
+      "disclaimer": "Borrador de trabajo generado a partir de la Ley 4/2002 CyL, los estatutos y RRI de otras cooperativas y las actas del grupo (Reuniones 19-21, 2026). Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
+  "suggestedClause": {
+    "text": "Las personas socias tienen derecho a usar y disfrutar de la casa conforme a las normas que apruebe la Asamblea General en el Reglamento de Régimen Interno. La prioridad en la reserva de fechas corresponde a las personas socias de tipo A; las de tipo B eligen fechas tras ellas. El Reglamento fijará el procedimiento de reserva, los turnos, la cuota de uso diaria y los límites de estancia, que serán revisables por la Asamblea.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

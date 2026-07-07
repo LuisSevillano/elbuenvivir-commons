@@ -1,6 +1,6 @@
 {
   "topicSlug": "baja_socio",
-  "generatedAt": "2026-05-14T09:24:02.848Z",
+  "generatedAt": "2026-07-07T07:30:01.737Z",
   "decisionQuestions": [
     {
       "id": "exit_process",
@@ -28,10 +28,9 @@
             "grupos pequeños con baja rotación"
           ],
           "detectedInProjects": [
-            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-            "Estatutos Elciempies",
-            "Estatutos Los Girasoles",
-            "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4"
+            "Estatutos Laseronda.Org",
+            "MOD ESTATUTOS COOP VIVIENDAS",
+            "Estatutos Senior Cohousing Huelva"
           ],
           "evidenceLevel": "medium"
         },
@@ -54,13 +53,11 @@
             "proyectos con derecho de uso asociado"
           ],
           "detectedInProjects": [
-            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-            "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
-            "Estatutos Elciempies",
-            "Estatutos Los Girasoles",
-            "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4"
+            "Rri Vallecas2homes",
+            "Estatutos Senior Cohousing Huelva",
+            "Estatutos Pepu"
           ],
-          "evidenceLevel": "high"
+          "evidenceLevel": "medium"
         }
       ],
       "commonTradeoffs": [
@@ -77,11 +74,11 @@
         "baja_socio-exit_process-5"
       ],
       "relatedProjects": [
-        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
-        "Estatutos Elciempies",
-        "Estatutos Los Girasoles",
-        "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4"
+        "Estatutos Laseronda.Org",
+        "Rri Vallecas2homes",
+        "MOD ESTATUTOS COOP VIVIENDAS",
+        "Estatutos Senior Cohousing Huelva",
+        "Estatutos Pepu"
       ],
       "suggestedPlacement": {
         "statutes": [
@@ -118,10 +115,8 @@
             "grupos pequeños con baja rotación"
           ],
           "detectedInProjects": [
-            "Otras Leyes, Decretos, Modificaciones",
-            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-            "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
-            "Estatutos Los Girasoles"
+            "Estatutos Laseronda.Org",
+            "Estatutos Elciempies"
           ],
           "evidenceLevel": "medium"
         },
@@ -144,10 +139,10 @@
             "proyectos con aportaciones significativas"
           ],
           "detectedInProjects": [
-            "Otras Leyes, Decretos, Modificaciones",
-            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-            "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
-            "Estatutos Los Girasoles"
+            "Estatutos Tarocohousing",
+            "Estatutos Los Girasoles",
+            "Estatutos Elciempies",
+            "Estatutos Laseronda.Org"
           ],
           "evidenceLevel": "high"
         }
@@ -166,10 +161,10 @@
         "baja_socio-exit_money-5"
       ],
       "relatedProjects": [
-        "Otras Leyes, Decretos, Modificaciones",
-        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-        "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
-        "Estatutos Los Girasoles"
+        "Estatutos Tarocohousing",
+        "Estatutos Los Girasoles",
+        "Estatutos Elciempies",
+        "Estatutos Laseronda.Org"
       ],
       "suggestedPlacement": {
         "statutes": [
@@ -211,153 +206,148 @@
     ]
   },
   "relevantProjects": [
-    "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-    "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
-    "Estatutos Elciempies",
+    "Estatutos Laseronda.Org",
+    "Rri Vallecas2homes",
+    "MOD ESTATUTOS COOP VIVIENDAS",
+    "Estatutos Senior Cohousing Huelva",
+    "Estatutos Pepu",
+    "Estatutos Tarocohousing",
     "Estatutos Los Girasoles",
-    "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
-    "Otras Leyes, Decretos, Modificaciones"
+    "Estatutos Elciempies"
   ],
   "extracts": [
     {
       "id": "baja_socio-exit_process-1",
-      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "excerpt": "GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR -- 1 of 62 -- DIRECCIÓN ELABORACIÓN JURÍDICA FGC ADCVOCATS, SCCL Cristina R. Grau López como autora con la colaboración de Ainhoa Domínguez Peña. COLABORA Diciembre 2024 Confederación Española de Cooperativas de Consumidores y Usuarios – HISPACOOP Quintana, 1 - 2º B ● 28008 Madrid Tel. 91 593 09 35 www.hispacoop.com La información publicada en este documento es exclusivamente a título informativo y no constituye una recomendación. HISPACO...",
+      "documentSlug": "docs-estatutos-estatutos-laseronda-org",
+      "documentTitle": "Estatutos Laseronda.Org",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_laseronda.org.pdf",
+      "articleOrSection": "1. Baja voluntaria",
+      "excerpt": "1. Baja voluntaria El socio puede darse de baja voluntariamente en la Cooperativa., respetando el compromiso de permanencia establecido para ello, deberá el interesado en causar baja remitir con seis meses de antelación preaviso por escrito al órgano de administración. El incumplimiento del plazo de preaviso dará lugar a la calificación de la baja como no justificada y a la correspondiente indemnización de daños y perjuicios, y, además, la fecha de la baja a efectos del cómputo del plazo para el reembolso al socio...",
+      "matchedConcepts": [
+        "baja voluntaria"
+      ],
+      "score": 30
+    },
+    {
+      "id": "baja_socio-exit_process-2",
+      "documentSlug": "docs-rri-rri-vallecas2homes",
+      "documentTitle": "Rri Vallecas2homes",
+      "documentType": "rri",
+      "sourcePath": "docs/rri/rri_vallecas2homes.pdf",
+      "articleOrSection": "Artículo 25. Procedimiento para cubrir las bajas.",
+      "excerpt": "Artículo 25. Procedimiento para cubrir las bajas. 1.- En el caso en que la baja a cubrir se haya producido con anterioridad a la adjudicación provisional de vivienda y anejos, la misma se cubrirá de la siguiente manera: 1º Se llamará a la primera persona de la Lista de Espera de la Cooperativa si la hubiese, dándole la opción de adherirse a la Cooperativa con el orden que por antigüedad le correspondiese como nuevo socio. 2º Si no hubiese Lista de Espera, se le dará la opción al cooperativista saliente para que pre...",
+      "matchedConcepts": [
+        "sustitución o lista de espera"
+      ],
+      "score": 26
+    },
+    {
+      "id": "baja_socio-exit_process-3",
+      "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
+      "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
+      "documentType": "otro",
+      "sourcePath": "docs/otros/MOD_ESTATUTOS_COOP_VIVIENDAS.pdf",
+      "articleOrSection": "ARTÍCULO 13.- BAJA VOLUNTARIA JUSTIFICADA",
+      "excerpt": "ARTÍCULO 13.- BAJA VOLUNTARIA JUSTIFICADA Se considerará justificada la baja voluntaria de un socio en los casos siguientes:",
+      "matchedConcepts": [
+        "baja voluntaria"
+      ],
+      "score": 24
+    },
+    {
+      "id": "baja_socio-exit_process-4",
+      "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+      "documentTitle": "Estatutos Senior Cohousing Huelva",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_senior_cohousing_huelva.pdf",
+      "articleOrSection": "15.2. Admisión y Baja.",
+      "excerpt": "15.2. Admisión y Baja. a. El régimen de admisión y baja en la condición de persona inversora es igual al de las personas socias, regulado en los artículos 7, 13 y 14 de estos estatutos con las especificaciones que establezca la Asamblea General o el Consejo Rector. b. El socio o socia que cause baja justificada podrá adquirir la condición de inversor o inversora transformando su aportación obligatoria en voluntaria en lo que exceda, en su caso, de la aportación inicial al capital social estatutariamente establecido...",
       "matchedConcepts": [
         "baja voluntaria",
         "sustitución o lista de espera"
       ],
-      "score": 88
+      "score": 23
     },
     {
-      "id": "baja_socio-exit_process-2",
-      "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
-      "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
-      "documentType": "rri",
-      "sourcePath": "docs/rri/EJEMPLO_DE_REGLAMENTO_DE_REGIMEN_INTERNO_PARA_VIVIENDAS_COOPERATIVAS_EN_CESION_DE_USO.pdf",
-      "articleOrSection": "Artículo 3: Requisitos de Admisión",
-      "excerpt": "Artículo 3: Requisitos de Admisión 1. Requisitos para adquirir la condición de socio/a a) Los aspirantes a la cooperativa deben estar inscritos en el registro de solicitantes de vivienda, cumpliendo los requisitos establecidos por la legislación local. b) Ser residente empadronado en la localidad donde se desarrolla el proyecto. c) Demostrar recursos económicos limitados y la ausencia de propiedad inmobiliaria. d) Compromiso con los principios de convivencia y participación comunitaria. e) No se producirá ningún ti...",
+      "id": "baja_socio-exit_process-5",
+      "documentSlug": "docs-estatutos-estatutos-pepu",
+      "documentTitle": "Estatutos Pepu",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_pepu.pdf",
+      "articleOrSection": "e) La nueva persona socia asume el compromiso de no darse de baja voluntariamente, sin",
+      "excerpt": "e) La nueva persona socia asume el compromiso de no darse de baja voluntariamente, sin justa causa, hasta el final del ejercicio económico en que quiera causar baja o bien hasta que haya transcurrido tres años desde su admisión. Una vez cumplido el plazo de permanencia inicial a que se refiere el párrafo anterior, se aplicarán automáticamente sucesivos periodos de permanencia obligatoria hasta el final de cada ejercicio económico, salvo que la persona comunique su decisión de causar baja con una antelación mínima d...",
       "matchedConcepts": [
         "sustitución o lista de espera"
       ],
-      "score": 87
+      "score": 21
     },
     {
-      "id": "baja_socio-exit_process-3",
+      "id": "baja_socio-exit_money-1",
+      "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+      "documentTitle": "Estatutos Tarocohousing",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_tarocohousing.pdf",
+      "articleOrSection": "Artículo 46.- Reembolso de las aportaciones.",
+      "excerpt": "Artículo 46.- Reembolso de las aportaciones. 1.- Las personas socias o sus causahabientes tendrán derecho al reembolso de sus aportaciones obligatorias y voluntarias al capital social en caso de baja de la cooperativa. La liquidación de estas aportaciones se hará según el Balance de cierre del ejercicio en el que se produzca la baja, con las deducciones señaladas en los siguientes apartados. 2.- Del valor acreditado de las aportaciones se deducirán las pérdidas imputables a las personas socias reflejadas en el Bala...",
+      "matchedConcepts": [
+        "reembolso de aportaciones"
+      ],
+      "score": 45
+    },
+    {
+      "id": "baja_socio-exit_money-2",
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "documentTitle": "Estatutos Los Girasoles",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "articleOrSection": "4. La transmisión a favor de un tercero no socio/a por acto “morƟs causa”, queda",
+      "excerpt": "4. La transmisión a favor de un tercero no socio/a por acto “morƟs causa”, queda supeditada a que la persona aspirante a socio/a de vivienda cumpla los requisitos establecidos para la admisión de personas socias de vivienda en estos estatutos. Para aplicar el Ɵempo de permanencia se tendrá en cuenta la anƟgüedad de la persona socia de vivienda transmitente, contada a parƟr de la fecha de su ingreso como tal. Arơculo 49.- Reembolso de las aportaciones. 1.- Las personas socias o sus causahabientes tendrán derecho al...",
+      "matchedConcepts": [
+        "reembolso de aportaciones"
+      ],
+      "score": 44
+    },
+    {
+      "id": "baja_socio-exit_money-3",
       "documentSlug": "docs-estatutos-estatutos-elciempies",
       "documentTitle": "Estatutos Elciempies",
       "documentType": "estatutos",
       "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
-      "articleOrSection": "CAPITULO II",
-      "excerpt": "CAPITULO II DE LAS PERSONAS SOCIAS Ar\u001aculo 9.- Clases de personas socias.  Personas socias de vivienda.- Son aquellas personas Esicas que \u000eenen plenos derechos y obligaciones recogidos en estos estatutos respecto de la vivienda o, en su caso, local, así como los elementos comunes. También puede ser socio/a de vivienda las siguientes personas jurídicas: los entes públicos y las en\u000edades sin ánimo de lucro, que precisen alojamiento para aquellas personas que, dependientes de ellos, tengan que residir, por razón de s...",
-      "matchedConcepts": [
-        "baja voluntaria",
-        "sustitución o lista de espera"
-      ],
-      "score": 79
-    },
-    {
-      "id": "baja_socio-exit_process-4",
-      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
-      "documentTitle": "Estatutos Los Girasoles",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
-      "articleOrSection": "CAPITULO II",
-      "excerpt": "CAPITULO II DE LAS PERSONAS SOCIAS Arơculo 11.- Clases de personas socias.  Personas socias de vivienda.- Son aquellas personas İsicas que Ɵenen plenos derechos y obligaciones recogidos en estos estatutos respecto de la vivienda o, en su caso, local, así como los elementos comunes. 7 -- 7 of 46 -- También puede ser socio/a de vivienda las siguientes personas jurídicas: los entes públicos y las enƟdades sin ánimo de lucro, que precisen alojamiento para aquellas personas que, dependientes de ellos, tengan que residi...",
-      "matchedConcepts": [
-        "baja voluntaria",
-        "sustitución o lista de espera"
-      ],
-      "score": 79
-    },
-    {
-      "id": "baja_socio-exit_process-5",
-      "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
-      "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
-      "articleOrSection": "título constitutivo es precisamente el ingreso como socio en la cooperativa. Y que, por tanto, debe",
-      "excerpt": "título constitutivo es precisamente el ingreso como socio en la cooperativa. Y que, por tanto, debe regularse en los estatutos sociales de la cooperativa, ante la ausencia de normas legales que le den contenido. En los apartados que siguen, ofrecemos algunas pautas de cómo regularlo. c) El contenido y el alcance del derecho de uso Hemos dicho en el apartado anterior que el derecho de uso en las cooperativas de cohousing es un derecho específico, indisolublemente ligado a la condición de socio cooperativo. Este dere...",
-      "matchedConcepts": [
-        "baja voluntaria",
-        "sustitución o lista de espera"
-      ],
-      "score": 55
-    },
-    {
-      "id": "baja_socio-exit_money-1",
-      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
-      "documentTitle": "BOE A 2010 20034 Orden+EHA+3360 2010",
-      "documentType": "ley",
-      "projectName": "Otras Leyes, Decretos, Modificaciones",
-      "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2010-20034_Orden+EHA+3360_2010.pdf",
-      "articleOrSection": "Artículo 2. \tÁmbito de aplicación.",
-      "excerpt": "Artículo 2. Ámbito de aplicación. 1. Las presentes Normas serán de aplicación obligatoria para las sociedades cooperativas. En todo lo no modificado específicamente en estas Normas, será de aplicación el Plan General de Contabilidad, en los términos previstos en el Real Decreto 1514/2007, de 16 de noviembre, así como las adaptaciones sectoriales y las Resoluciones del Instituto de Contabilidad y Auditoría de Cuentas aprobadas al amparo de las disposiciones finales primera y tercera, respectivamente, del citado Real...",
-      "matchedConcepts": [
-        "baja voluntaria",
-        "reembolso de aportaciones"
-      ],
-      "score": 331
-    },
-    {
-      "id": "baja_socio-exit_money-2",
-      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
-      "documentType": "ley",
-      "projectName": "Otras Leyes, Decretos, Modificaciones",
-      "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2007-19884-consolidado_RD+1514_2007.pdf",
-      "articleOrSection": "artículo 84 del Texto Refundido de la Ley de Sociedades Anónimas.",
-      "excerpt": "artículo 84 del Texto Refundido de la Ley de Sociedades Anónimas. Con carácter general, el contenido y movimiento de las cuentas citadas de cuatro cifras es el siguiente: 1140. Reservas para acciones o participaciones de la sociedad dominante Las constituidas obligatoriamente en caso de adquisición de acciones o participaciones de la sociedad dominante y en tanto éstas no sean enajenadas (artículo 79.3.a del Texto Refundido de la Ley de Sociedades Anónimas y artículo 40.bis de la Ley de Sociedades de Responsabilida...",
+      "articleOrSection": "4 La transmisión a favor de un tercero no socio/a por acto “mor\u000es causa”, queda",
+      "excerpt": "4 La transmisión a favor de un tercero no socio/a por acto “mor\u000es causa”, queda supeditada a que la persona aspirante a socio/a de vivienda cumpla los requisitos establecidos para la admisión de personas socias de vivienda en estos estatutos. Para aplicar el \u000eempo de permanencia se tendrá en cuenta la an\u000egüedad de la persona socia de vivienda transmitente, contada a par\u000er de la fecha de su ingreso como tal. Ar\u001aculo 46.- Reembolso de las aportaciones. 1.- Las personas socias o sus causahabientes tendrán derecho al r...",
       "matchedConcepts": [
         "reembolso de aportaciones"
       ],
-      "score": 326
-    },
-    {
-      "id": "baja_socio-exit_money-3",
-      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "excerpt": "GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR -- 1 of 62 -- DIRECCIÓN ELABORACIÓN JURÍDICA FGC ADCVOCATS, SCCL Cristina R. Grau López como autora con la colaboración de Ainhoa Domínguez Peña. COLABORA Diciembre 2024 Confederación Española de Cooperativas de Consumidores y Usuarios – HISPACOOP Quintana, 1 - 2º B ● 28008 Madrid Tel. 91 593 09 35 www.hispacoop.com La información publicada en este documento es exclusivamente a título informativo y no constituye una recomendación. HISPACO...",
-      "matchedConcepts": [
-        "baja voluntaria",
-        "reembolso de aportaciones"
-      ],
-      "score": 250
+      "score": 41
     },
     {
       "id": "baja_socio-exit_money-4",
-      "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
-      "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
-      "articleOrSection": "Documento completo",
-      "excerpt": "COHOUSING SENIOR Y COOPERATIVISMO DE CONSUMO -- 1 of 54 -- Diciembre 2018 Madrid -- 2 of 54 -- Índice 1. Introducción _____________________________________5 2. Definición de un proyecto de cohousing senior _________6 3. Aspectos urbanísticos a considerar __________________ 10 4. Aspectos societarios de la cooperativa _______________ 14 5. Algunos aspectos fiscales a tener en cuenta __________39 6. La gobernanza y la gestión _______________________ 43 -- 3 of 54 -- 4 COHOUSING SENIOR Y COOPERATIVISMO DE CONSUMO -- 4...",
+      "documentSlug": "docs-estatutos-estatutos-laseronda-org",
+      "documentTitle": "Estatutos Laseronda.Org",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_laseronda.org.pdf",
+      "articleOrSection": "1. Baja voluntaria",
+      "excerpt": "1. Baja voluntaria El socio puede darse de baja voluntariamente en la Cooperativa., respetando el compromiso de permanencia establecido para ello, deberá el interesado en causar baja remitir con seis meses de antelación preaviso por escrito al órgano de administración. El incumplimiento del plazo de preaviso dará lugar a la calificación de la baja como no justificada y a la correspondiente indemnización de daños y perjuicios, y, además, la fecha de la baja a efectos del cómputo del plazo para el reembolso al socio...",
       "matchedConcepts": [
         "baja voluntaria",
         "reembolso de aportaciones"
       ],
-      "score": 109
+      "score": 41
     },
     {
       "id": "baja_socio-exit_money-5",
-      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
-      "documentTitle": "Estatutos Los Girasoles",
+      "documentSlug": "docs-estatutos-estatutos-elciempies",
+      "documentTitle": "Estatutos Elciempies",
       "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
       "articleOrSection": "CAPÍTULO IV",
-      "excerpt": "CAPÍTULO IV RÉGIMEN ECONÓMICO DE LA COOPERATIVA Arơculo 39.- Responsabilidad de la cooperaƟva y de las personas socias. La cooperaƟva responderá de las deudas contraídas con todo su patrimonio presente y futuro. La responsabilidad de la persona socia por las deudas sociales estará limitada a las aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito, estén o no desembolsadas en su totalidad. No obstante, en caso de baja o expulsión, la persona socia responderá personalmente por la...",
+      "excerpt": "CAPÍTULO IV RÉGIMEN ECONÓMICO DE LA COOPERATIVA Ar\u001aculo 36.- Responsabilidad de la coopera3va y de las personas socias. La coopera\u000eva responderá de las deudas contraídas con todo su patrimonio presente y futuro. 33 -- 33 of 48 -- La responsabilidad de la persona socia por las deudas sociales estará limitada a las aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito, estén o no desembolsadas en su totalidad. No obstante, en caso de baja o expulsión, la persona socia responderá pe...",
       "matchedConcepts": [
         "baja voluntaria",
         "reembolso de aportaciones"
       ],
-      "score": 100
+      "score": 34
     }
   ],
   "limits": []

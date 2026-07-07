@@ -1,0 +1,204 @@
+{
+  "slug": "disolucion",
+  "title": "Disolución",
+  "shortDescription": "Cómo se disuelve y liquida una cooperativa de usuarios de Castilla y León: causas de disolución, proceso de liquidación y destino del patrimonio, con el detalle clave de que el Fondo de Reserva Obligatorio es irrepartible y el haber sobrante no puede repartirse entre socios.",
+  "category": "ciclo_vida",
+  "minimumContents": [
+    "Enumerar las causas de disolución (acuerdo de la Asamblea, cumplimiento del plazo, imposibilidad del objeto, reducción de socios o capital, fusión/escisión, concurso).",
+    "Fijar la mayoría para acordar la disolución (dos tercios) y el deber del Consejo Rector de convocar la Asamblea cuando concurra causa.",
+    "Regular la apertura de la liquidación, el nombramiento de liquidadores (número impar, entre socios) y sus funciones.",
+    "Establecer el orden de adjudicación del haber social: primero deudas, luego Fondo de Educación y Promoción, reintegro de aportaciones al capital y, por último, el haber líquido sobrante.",
+    "Aclarar el carácter irrepartible del Fondo de Reserva Obligatorio, incluso en caso de disolución.",
+    "Designar la cooperativa o entidad a la que se destinará el haber líquido sobrante, ya que la ley no permite repartirlo entre los socios."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿Cómo se encaja el 'plan B' aprobado en la Reunión 20 (vender la casa, que cada socio recupere su inversión y repartir el resto a partes iguales) con el artículo 94, que NO permite repartir el haber sobrante entre los socios?",
+    "¿Qué parte de la aportación de cada socio (cuota umbral de hasta 10.000 €) es capital social reintegrable en la liquidación y qué parte alimenta fondos irrepartibles (cuotas de ingreso, deducciones)?",
+    "¿A qué cooperativa o entidad de la economía social se destinará el haber líquido sobrante, tal y como exige el artículo 94.2.d?",
+    "¿Se fija un plazo de duración de la cooperativa o se deja indefinida (afecta a las causas de disolución)?",
+    "¿Se regula en Estatutos el proceso de venta del inmueble en liquidación o se remite el detalle operativo al RRI?"
+  ],
+  "risks": [
+    "El 'plan B' aprobado en la Reunión 20 (repartir el sobrante de la venta a partes iguales entre socios) choca frontalmente con el destino legal del haber sobrante: el art. 94 lo reserva a otra cooperativa o al Fondo de Fomento del Cooperativismo, no a los socios.",
+    "El Fondo de Reserva Obligatorio, que se nutre de las cuotas de ingreso y de las deducciones por baja, es irrepartible: confiar en él como 'ahorro recuperable' de la casa sería un error.",
+    "Presentar la casa como un 'fondo de ahorros' recuperable puede desdibujar el carácter antiespeculativo y de usuarios del proyecto, y generar expectativas económicas que la forma cooperativa no puede cumplir.",
+    "No designar en Estatutos la entidad destinataria del haber sobrante deja esa decisión al azar de una Asamblea futura o, en su defecto, a la Administración autonómica.",
+    "Copiar cláusulas de cooperativas de otras comunidades (Canarias, Madrid, Cataluña) sin ajustarlas al art. 94 de la Ley 4/2002 de CyL podría invalidar la previsión."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "La disolución es una materia esencialmente estatutaria: las causas de disolución, la mayoría exigida y el destino del patrimonio afectan a la existencia misma de la sociedad y a derechos económicos, y buena parte es derecho imperativo (arts. 90, 91 y 94). El núcleo se queda en Estatutos.",
+      "Solo lo operativo del proceso de liquidación —el procedimiento concreto de enajenación del inmueble, el calendario de cierre y el acompañamiento del grupo— se remite al RRI, que la propia ley (art. 93.c) deja a lo que acuerde la Asamblea."
+    ],
+    "shouldBeInStatutes": [
+      "Causas de disolución (incluidas las estatutarias, si se añaden) y mayoría de dos tercios.",
+      "Apertura de la liquidación y nombramiento de liquidadores.",
+      "Orden de adjudicación del haber social conforme al art. 94.",
+      "Designación de la cooperativa o entidad destinataria del haber líquido sobrante.",
+      "Carácter irrepartible del Fondo de Reserva Obligatorio."
+    ],
+    "shouldBeInRRI": [
+      "Protocolo operativo de la venta del inmueble en liquidación.",
+      "Acompañamiento del proceso por las comisiones (Economía, Convivencia).",
+      "Calendario de cierre, comunicación a socios y coordinación con acreedores."
+    ],
+    "canBeDeferredInitially": [
+      "Detalle fino del proceso de enajenación y valoración del inmueble."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Fijar en Estatutos un procedimiento de venta muy detallado lo vuelve rígido y difícil de ajustar a las circunstancias del momento."
+    ],
+    "risksIfPlacedInRRI": [
+      "Dejar el destino del haber social o la mayoría de disolución solo en el RRI sería contrario a la ley y jurídicamente inseguro."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "El reembolso de aportaciones en la baja individual y en la liquidación colectiva siguen lógicas distintas pero conectadas."
+    },
+    {
+      "topicSlug": "reembolso_aportaciones",
+      "relationship": "depends_on",
+      "explanation": "Lo que cada socio recupera al disolverse depende de qué parte de su aportación es capital social reintegrable."
+    },
+    {
+      "topicSlug": "fondos_sociales",
+      "relationship": "depends_on",
+      "explanation": "El carácter irrepartible del Fondo de Reserva Obligatorio condiciona el destino del patrimonio en la disolución."
+    }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "En una cooperativa de usuarios de Castilla y León rige la Ley 4/2002. Su Capítulo IX regula la disolución (cómo y por qué se acaba la cooperativa) y la liquidación (cómo se reparte lo que queda). Buena parte es derecho imperativo: podéis añadir causas estatutarias de disolución y designar el destino del haber sobrante, pero no podéis cambiar el orden de adjudicación ni convertir en repartible lo que la ley declara irrepartible.",
+        "La clave para El Buen Vivir es el destino del patrimonio. Tras pagar deudas, la ley reintegra a los socios sus aportaciones al capital social —eso permite que cada socio recupere su inversión—, pero el haber líquido sobrante (por ejemplo, la plusvalía de una casa que se ha revalorizado) NO se reparte entre los socios: se destina a otra cooperativa o entidad de la economía social. Además, el Fondo de Reserva Obligatorio es irrepartible. Aquí aparece la tensión con el 'plan B' del grupo."
+      ],
+      "requirements": [
+        { "aspect": "Causas de disolución", "law": "Ley 4/2002 CyL, art. 90.1", "requirement": "Se disuelve por cumplimiento del plazo estatutario, acuerdo de la Asamblea (2/3), paralización de la actividad dos años, reducción de socios o capital bajo el mínimo, realización o imposibilidad del objeto, fusión/escisión, u otra causa legal o estatutaria.", "margin": "Podéis añadir causas propias (p. ej. un plazo de duración) y concretar la imposibilidad del objeto." },
+        { "aspect": "Acuerdo y convocatoria", "law": "Ley 4/2002 CyL, art. 90.2", "requirement": "Ante una causa de disolución, el Consejo Rector convoca la Asamblea en un mes; si no se logra el acuerdo, cualquier interesado puede pedir la disolución judicial.", "margin": "Sin margen sobre el deber de convocar." },
+        { "aspect": "Liquidadores", "law": "Ley 4/2002 CyL, art. 91", "requirement": "Disuelta la sociedad se abre la liquidación; la Asamblea elige liquidadores en número impar, entre los socios, en votación secreta. La cooperativa conserva personalidad jurídica y añade 'en liquidación' a su nombre.", "margin": "Elegís el número (impar) de liquidadores." },
+        { "aspect": "Enajenación del patrimonio", "law": "Ley 4/2002 CyL, art. 93.c", "requirement": "Corresponde a los liquidadores enajenar los bienes sociales mediante el proceso que acuerde la Asamblea general.", "margin": "La Asamblea decide cómo se vende la casa." },
+        { "aspect": "Adjudicación del haber social", "law": "Ley 4/2002 CyL, art. 94.2", "requirement": "Tras pagar deudas: (a) el Fondo de Educación y Promoción a una entidad cooperativa; (b) reintegro a los socios de sus aportaciones al capital; (c) reservas voluntarias solo si son repartibles; (d) el haber líquido sobrante a una cooperativa o entidad designada, NO a los socios.", "margin": "Designáis la entidad destinataria del sobrante y decidís si las reservas voluntarias son repartibles." },
+        { "aspect": "Fondo de Reserva Obligatorio", "law": "Ley 4/2002 CyL, art. 71", "requirement": "Es irrepartible entre los socios. Se nutre, entre otros, de las cuotas de ingreso y de las deducciones sobre aportaciones de quienes causan baja.", "margin": "Sin margen: no puede repartirse ni siquiera en la disolución." }
+      ],
+      "citations": [
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 90.1 (causas de disolución)",
+          "excerpt": "La sociedad cooperativa se disolverá: a) Por el cumplimiento del plazo fijado en los Estatutos. b) Por acuerdo de la Asamblea general adoptado por mayoría de los dos tercios de los socios presentes y representados. c) Por la paralización de los órganos sociales o de la actividad cooperativizada durante dos años, sin causa justificada, de tal modo que imposibilite su funcionamiento. d) Por la reducción del número de socios que dé como resultado un número inferior al legalmente establecido o del capital social mínimo legal o estatutario, sin que se restablezcan en el plazo de un año. e) Por la realización del objeto social o la imposibilidad de su cumplimiento. f) Por fusión, absorción o escisión total. g) Por cualquier otra causa establecida en la Ley o en los Estatutos."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 94.2 (adjudicación del Haber social)",
+          "excerpt": "Satisfechas dichas deudas, el resto del Haber social, sin perjuicio de lo pactado en la financiación subordinada, se adjudicará por el siguiente orden: a) El importe del Fondo de Educación y Promoción se pondrá a disposición de la asociación de cooperativas a la que se integre la cooperativa... b) Se reintegrará a los socios el importe de las aportaciones al capital social que tuvieran acreditadas... c) Se reintegrará a los socios su participación en los Fondos de Reserva Voluntarios que tengan carácter repartible por disposición estatutaria o por acuerdo de la Asamblea general... d) El Haber líquido sobrante, si lo hubiere, se pondrá a disposición de una asociación de cooperativas o sociedad cooperativa que figure expresamente recogida en los Estatutos o que se designe por acuerdo de la Asamblea general."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 71 (Fondo de Reserva Obligatorio irrepartible)",
+          "excerpt": "El Fondo de Reserva Obligatorio, destinado a la consolidación, desarrollo y garantía de la cooperativa, es irrepartible entre los socios y al mismo se destinarán necesariamente: a) El porcentaje de los excedentes netos que establezca la Asamblea general... b) Las deducciones de las aportaciones al capital social, respecto de las efectuadas por los socios que causen baja... c) Cuotas de ingreso de los socios."
+        }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo regulan la disolución y el destino del patrimonio otras cooperativas del corpus. Casi todas remiten a su ley autonómica y coinciden en que los fondos obligatorios son irrepartibles y el sobrante no va a los socios.",
+      "columns": [
+        { "key": "acuerdo", "label": "Acuerdo de disolución" },
+        { "key": "liquidadores", "label": "Liquidadores" },
+        { "key": "sobrante", "label": "Destino del haber sobrante" },
+        { "key": "fondos", "label": "Fondos irrepartibles" }
+      ],
+      "rows": [
+        {
+          "project": "Pepu / Pequeño Pueblo (CyL)",
+          "cells": { "acuerdo": "2/3 de la Asamblea", "liquidadores": "3, entre socios, voto secreto", "sobrante": "Remite al art. 94 de la Ley 4/2002", "fondos": "FRO irrepartible (ley)" },
+          "documentSlug": "docs-estatutos-estatutos-pepu",
+          "articleOrSection": "Artículo 58 y 60 — Causas de disolución y adjudicación del haber social",
+          "excerpt": "La Sociedad cooperativa se disolverá por acuerdo de la Asamblea General, por mayoría de los dos tercios de las personas socias presentes y representadas, así como por cualquiera de las demás causas establecidas en el artículo 90 de la Ley de Cooperativas. [...] En la adjudicación del haber social se seguirán las normas previstas en el artículo 94 de la Ley de Cooperativas."
+        },
+        {
+          "project": "El Ciempiés (Canarias)",
+          "cells": { "acuerdo": "2/3 de la Asamblea", "liquidadores": "3, entre socios, voto secreto", "sobrante": "A los fines del Fondo de Educación y Promoción", "fondos": "FRO y FEP irrepartibles" },
+          "documentSlug": "docs-estatutos-estatutos-elciempies",
+          "articleOrSection": "Artículo 63 — Adjudicación del haber social",
+          "excerpt": "Satisfechas las deudas, el resto del haber social, se adjudicará por el siguiente orden: a) Se reintegrará a las personas socias el importe de las aportaciones al capital social que tuvieran acreditadas, una vez deducidas las pérdidas correspondientes a ejercicios anteriores, actualizados en su caso. b) Las Reservas Voluntarias y el Fondo de Educación y Promoción, si los hubiere, se pondrán a disposición de la sociedad cooperativa o entidad federativa que se designe por acuerdo de la Asamblea General. c) El líquido sobrante, si lo hubiere, se destinará a los mismos fines que el Fondo de Educación y Promoción."
+        },
+        {
+          "project": "Tarocohousing (Canarias)",
+          "cells": { "acuerdo": "2/3 de la Asamblea", "liquidadores": "3, entre socios, voto secreto", "sobrante": "A la cooperativa o federación designada en Estatutos", "fondos": "FRO y F. Formación irrepartibles" },
+          "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+          "articleOrSection": "Artículo 63 — Adjudicación del haber social",
+          "excerpt": "b) Se reintegrará a los socios el importe de las aportaciones al capital social que tuvieran acreditadas, una vez abonados o deducidos los beneficios o pérdidas correspondientes a ejercicios anteriores, actualizados en su caso... c) Se reintegrará a los socios su participación en los fondos de reserva voluntarios que tengan carácter repartible por disposición estatutaria o por acuerdo de la Asamblea General... d) El haber líquido sobrante, si lo hubiere, se pondrá a disposición de la sociedad cooperativa o entidad federativa que figure expresamente recogida en los Estatutos o que se designe por acuerdo de Asamblea General."
+        },
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": { "acuerdo": "Según ley autonómica", "liquidadores": "Nombrados por la Asamblea", "sobrante": "A los fines de la Reserva de educación y promoción", "fondos": "Reserva obligatoria irrepartible" },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Artículo 72 — Adjudicación del haber social",
+          "excerpt": "No se podrá adjudicar ni repartir el haber social hasta que no se hayan satisfecho íntegramente las deudas sociales... Una vez satisfechas o garantizadas las deudas anteriores, el resto del haber social se adjudicará según el siguiente orden: a) El importe correspondiente a la Reserva de educación y promoción cooperativa se pondrá a disposición de la entidad pública o privada elegida... b) Se reintegrarán a los socios sus aportaciones al capital una vez liquidadas y actualizadas... d) El activo sobrante, si lo hubiere, se destinará a los mismos fines que la Reserva de educación y promoción cooperativa."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": { "acuerdo": "2/3 de la Asamblea", "liquidadores": "Número impar, entre socios", "sobrante": "A fines cooperativos (modelo antiespeculativo)", "fondos": "Fondos voluntarios irrepartibles" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 51 — Disolución y liquidación",
+          "excerpt": "La disolución de la Cooperativa deberá aprobar por la Asamblea General, con el voto favorable de dos terceras partes de los asistentes, presentes y representados. Son causas de disolución de la Cooperativa: a) La finalización del objeto social o la imposibilidad de realizarlo. b) La voluntad de las socias y socios. c) La reducción del número de socias y socios por debajo del mínimo legalmente necesario... f) El concurso o la quiebra. g) Cualquier otra causa establecida en la Ley."
+        },
+        {
+          "project": "Los Nidales (Madrid)",
+          "cells": { "acuerdo": "Según ley autonómica", "liquidadores": "Nombrados por la Asamblea", "sobrante": "A fines cooperativos", "fondos": "Reserva obligatoria irrepartible incluso en disolución" },
+          "documentSlug": "docs-estatutos-estatutos-losnidales",
+          "articleOrSection": "Reserva obligatoria (irrepartibilidad)",
+          "excerpt": "La Reserva obligatoria se destinará a la consolidación, desarrollo y garantía de la Cooperativa, y es irrepartible entre los/as socios/as, incluso en el caso de disolución de la misma."
+        }
+      ],
+      "note": "Patrón unánime: los socios recuperan sus aportaciones al capital, pero el haber sobrante (la plusvalía) se destina a otra cooperativa o a fines cooperativos, nunca se reparte entre los socios; y los fondos obligatorios son irrepartibles incluso en la disolución. Pepu, la referencia de CyL, se limita a remitir al art. 94 de la Ley 4/2002."
+    },
+    "proposal": {
+      "rationale": [
+        "El Buen Vivir es cooperativa de usuarios y antiespeculativa: la casa es de la cooperativa, no un activo privado revalorizable de los socios. Esto encaja con el destino legal del patrimonio, que impide repartir el sobrante.",
+        "El 'plan B' aprobado en la Reunión 20 tiene dos partes: (1) que cada socio recupere su inversión —compatible con el art. 94.b si esa aportación se estructura como capital social reintegrable— y (2) repartir el resto a partes iguales entre todos —incompatible con el art. 94.2.d, que reserva el haber sobrante a otra cooperativa o al Fondo de Fomento.",
+        "Conviene separar en Estatutos lo que la ley reintegra (aportaciones al capital) de lo que no puede repartirse (haber sobrante y Fondo de Reserva Obligatorio), para no generar expectativas económicas que la forma cooperativa no puede cumplir.",
+        "Como el destino del sobrante debe designarse en Estatutos, el grupo puede elegir una cooperativa o entidad afín a sus valores (ecofeminismo, decrecimiento, economía social) en lugar de dejarlo a la Administración."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Causas de disolución",
+          "text": "La cooperativa se disolverá por acuerdo de la Asamblea General adoptado por mayoría de dos tercios de los socios presentes y representados, y por las demás causas previstas en el artículo 90 de la Ley 4/2002 de Cooperativas de Castilla y León [y, en su caso, por el cumplimiento del plazo de duración fijado en el artículo X de estos Estatutos]. Cuando concurra una causa de disolución, el Consejo Rector convocará la Asamblea en el plazo de un mes.",
+          "note": "Sigue el art. 90 Ley 4/2002 CyL. Los corchetes marcan la decisión sobre si se fija un plazo de duración como causa añadida."
+        },
+        {
+          "target": "estatutos",
+          "heading": "Liquidación y adjudicación del haber social",
+          "text": "Disuelta la cooperativa se abrirá el período de liquidación, salvo en los supuestos de fusión, absorción o escisión. La Asamblea General elegirá [tres] liquidadores, en número impar, de entre los socios y en votación secreta. Los liquidadores enajenarán el inmueble y demás bienes sociales por el procedimiento que acuerde la Asamblea general, en los términos que desarrolle el Reglamento de Régimen Interno. Satisfechas las deudas, el haber social se adjudicará conforme al artículo 94 de la Ley 4/2002 CyL: se destinará el Fondo de Educación y Promoción a la entidad que corresponda, se reintegrará a cada socio el importe de sus aportaciones al capital social acreditadas y, en su caso, las reservas voluntarias que estos Estatutos declaren repartibles. El Fondo de Reserva Obligatorio es irrepartible entre los socios. El haber líquido sobrante, si lo hubiere, se pondrá a disposición de [nombre de la cooperativa o entidad de la economía social designada].",
+          "note": "Núcleo imperativo en Estatutos (causas, mayoría de 2/3, orden del art. 94, irrepartibilidad del FRO y designación del destinatario del sobrante). Solo se remite al RRI lo operativo del procedimiento de enajenación, que el art. 93.c deja a lo que acuerde la Asamblea."
+        },
+        {
+          "target": "rri",
+          "heading": "Protocolo de liquidación y venta del inmueble",
+          "text": "La Comisión de Economía preparará, para la Asamblea que acuerde la liquidación, una valoración del inmueble y una propuesta de procedimiento de venta transparente. La Comisión de Convivencia acompañará el proceso y la comunicación a los socios. El Reglamento fijará el calendario de cierre, la coordinación con los acreedores y los plazos de comunicación a las personas socias. Antes del reparto se saldarán deudas, se liquidarán cuotas pendientes y se informará a cada socio del importe de sus aportaciones al capital reintegrable, distinguiéndolo con claridad de los fondos irrepartibles.",
+          "note": "Desarrollo operativo del proceso de liquidación (valoración, procedimiento de venta, calendario, acompañamiento y comunicación): revisable por la Asamblea sin modificar los Estatutos."
+        }
+      ],
+      "openDecisions": [
+        "¿Cómo se reconcilia el 'plan B' (repartir el sobrante de la venta a partes iguales) con la prohibición del art. 94.2.d de repartir el haber sobrante entre socios? Es la decisión jurídica central de este tema.",
+        "¿Qué parte de la cuota umbral (hasta 10.000 €) se contabiliza como aportación al capital social reintegrable y qué parte como cuota de ingreso (que va al FRO irrepartible)?",
+        "¿A qué cooperativa o entidad de la economía social se destina el haber sobrante?",
+        "¿Se fija un plazo de duración de la cooperativa como causa de disolución o se deja indefinida?",
+        "¿Se declaran repartibles las reservas voluntarias (única vía legal para devolver a socios algo más que sus aportaciones al capital)?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas del grupo. Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
+  "suggestedClause": {
+    "text": "La cooperativa se disolverá por acuerdo de la Asamblea General por mayoría de dos tercios y por las demás causas del artículo 90 de la Ley 4/2002 CyL. En la liquidación, satisfechas las deudas, se reintegrará a cada socio el importe de sus aportaciones al capital social; el Fondo de Reserva Obligatorio es irrepartible y el haber líquido sobrante se pondrá a disposición de la entidad de la economía social que designen estos Estatutos, sin que pueda repartirse entre los socios.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación, en especial el encaje del 'plan B' del grupo con el destino legal del patrimonio.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

@@ -7,9 +7,9 @@
     "Conviene valorar una regla mínima sobre lista de espera, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre sustitucion, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre incorporacion, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre : Requisitos de Admisión, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Procedimiento de admisión, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Clases de personas socias. Personas Usuarias, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre g) Publicidad de la Lista de Espera: La lista de espera estará disponible para la, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre h) Comunicación con los Socios en Lista de Espera: Los socios en la lista de espera, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre i) Duración de la Permanencia en la Lista de Espera: Los socios en lista de espera, contrastando las referencias automáticas del research pack.",
     "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
   ],
   "legalBasis": [],
@@ -69,17 +69,17 @@
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
-      "topicSlug": "uso_espacios_comunes",
-      "relationship": "complements",
-      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
-    },
-    {
       "topicSlug": "toma_decisiones",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
       "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "admision_socio",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     }
@@ -96,32 +96,72 @@
     "curated": false,
     "sourceResearchPack": "src/content/research-packs/lista_espera.md",
     "evidenceCount": 18,
-    "highConfidenceEvidence": 8,
+    "highConfidenceEvidence": 7,
     "mediumConfidenceEvidence": 5,
-    "lowConfidenceEvidence": 5,
+    "lowConfidenceEvidence": 6,
     "evidence": [
       {
         "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
         "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
         "documentType": "rri",
-        "articleOrSection": "Artículo 3: Requisitos de Admisión",
+        "articleOrSection": "g) Publicidad de la Lista de Espera: La lista de espera estará disponible para la",
         "confidence": "high",
-        "excerpt": "Artículo 3: Requisitos de Admisión 1. Requisitos para adquirir la condición de socio/a a) Los aspirantes a la cooperativa deben estar inscritos en el registro de solicitantes de vivienda, cumpliendo los requisitos establecidos por la legisl..."
+        "excerpt": "g) Publicidad de la Lista de Espera: La lista de espera estará disponible para la revisión de todos los socios en la sede de la cooperativa y, opcionalmente, en formato digital. La información personal se tratará con confidencialidad."
+      },
+      {
+        "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+        "documentType": "rri",
+        "articleOrSection": "h) Comunicación con los Socios en Lista de Espera: Los socios en la lista de espera",
+        "confidence": "high",
+        "excerpt": "h) Comunicación con los Socios en Lista de Espera: Los socios en la lista de espera serán informados periódicamente sobre su posición en la misma y sobre cualquier cambio relevante en el proceso de adjudicación de viviendas."
+      },
+      {
+        "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+        "documentType": "rri",
+        "articleOrSection": "i) Duración de la Permanencia en la Lista de Espera: Los socios en lista de espera",
+        "confidence": "high",
+        "excerpt": "i) Duración de la Permanencia en la Lista de Espera: Los socios en lista de espera mantendrán su posición por un periodo determinado, tras el cual deberán confirmar su interés continuado o actualizar su información para mantenerse en la lis..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "a) Permanecer en la lista de espera hasta el momento en que puedan acceder a la",
+        "confidence": "high",
+        "excerpt": "a) Permanecer en la lista de espera hasta el momento en que puedan acceder a la condición de persona socia de vivienda o bien hasta que dejen de cumplir alguno de los requisitos previstos en estos estatutos para poder ser persona socia de v..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "a) Permanecer en la lista de espera hasta el momento en que puedan acceder a la",
+        "confidence": "high",
+        "excerpt": "a) Permanecer en la lista de espera hasta el momento en que puedan acceder a la condición de persona socia de vivienda o bien hasta que dejen de cumplir alguno de los requisitos previstos en estos estatutos para poder ser persona socia de v..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-losnidales",
         "documentTitle": "Estatutos Losnidales",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 8.- Procedimiento de admisión.",
+        "articleOrSection": "c) Estar inscrito en la Lista de Espera, que habrá de constituir la Cooperativa, para lo que se",
         "confidence": "high",
-        "excerpt": "Artículo 8.- Procedimiento de admisión. 1. La persona interesada deberá presentar su solicitud de ingreso, o de inclusión en la Lista de Espera, por escrito al órgano de administración, con justificación de la situación que le da derecho co..."
+        "excerpt": "c) Estar inscrito en la Lista de Espera, que habrá de constituir la Cooperativa, para lo que se requerirá: a. Aceptación de los estatutos, y normas de funcionamiento interno de la cooperativa, si las hubiere. b. Aceptación expresa de forma..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "8. Para llevar a cabo la admisión de nuevos socios/as o inscripciones en la lista de espera se podrá",
+        "confidence": "high",
+        "excerpt": "8. Para llevar a cabo la admisión de nuevos socios/as o inscripciones en la lista de espera se podrá designar un comité asesor de calificación, cuyas funciones exclusivas son las de asesorar al consejo rector en los procesos de admisión y p..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-tarocohousing",
         "documentTitle": "Estatutos Tarocohousing",
         "documentType": "estatutos",
         "articleOrSection": "Artículo 9.- Clases de personas socias. Personas Usuarias.",
-        "confidence": "high",
+        "confidence": "medium",
         "excerpt": "Artículo 9.- Clases de personas socias. Personas Usuarias."
       },
       {
@@ -129,7 +169,7 @@
         "documentTitle": "Rri Vallecas2homes",
         "documentType": "rri",
         "articleOrSection": "Artículo 25. Procedimiento para cubrir las bajas.",
-        "confidence": "high",
+        "confidence": "medium",
         "excerpt": "Artículo 25. Procedimiento para cubrir las bajas."
       },
       {
@@ -137,64 +177,24 @@
         "documentTitle": "Rri Axuntase",
         "documentType": "rri",
         "articleOrSection": "Artículo 4.- Las personas acompañantes (artículo añadido 18 junio 2024)",
-        "confidence": "high",
+        "confidence": "medium",
         "excerpt": "Artículo 4.- Las personas acompañantes (artículo añadido 18 junio 2024) - Se entiende por persona acompañante aquella que convive de forma habitual y continuada con una persona socia, compartiendo con ella la ocupación de la vivienda. Es im..."
       },
       {
-        "documentSlug": "docs-estatutos-estatutos-elciempies",
-        "documentTitle": "Estatutos Elciempies",
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
         "documentType": "estatutos",
-        "articleOrSection": "CAPITULO II",
-        "confidence": "high",
-        "excerpt": "CAPITULO II DE LAS PERSONAS SOCIAS Ar\u001aculo 9.- Clases de personas socias.  Personas socias de vivienda.- Son aquellas personas Esicas que \u000eenen plenos derechos y obligaciones recogidos en estos estatutos respecto de la vivienda o, en su ca..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
-        "documentTitle": "Estatutos Los Girasoles",
-        "documentType": "estatutos",
-        "articleOrSection": "CAPITULO II",
-        "confidence": "high",
-        "excerpt": "CAPITULO II DE LAS PERSONAS SOCIAS Arơculo 11.- Clases de personas socias.  Personas socias de vivienda.- Son aquellas personas İsicas que Ɵenen plenos derechos y obligaciones recogidos en estos estatutos respecto de la vivienda o, en su c..."
-      },
-      {
-        "documentSlug": "docs-rri-rri-vallecas2homes",
-        "documentTitle": "Rri Vallecas2homes",
-        "documentType": "rri",
-        "articleOrSection": "Artículo 9. Procedimiento de incorporación como socio.",
-        "confidence": "high",
-        "excerpt": "Artículo 9. Procedimiento de incorporación como socio. a. El solicitante entregará en la sede social de la cooperativa, debidamente cumplimentado el documento denominado SOLICITUD de ADMISIÓN/PREINSCRIPCIÓN, al que adjuntará copia del justi..."
+        "articleOrSection": "e) Resto de interesados/as, por fecha de inscripción en la Lista de Espera",
+        "confidence": "medium",
+        "excerpt": "e) Resto de interesados/as, por fecha de inscripción en la Lista de Espera"
       },
       {
         "documentSlug": "docs-estatutos-estatutos-tarocohousing",
         "documentTitle": "Estatutos Tarocohousing",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 45.- Transmisión de las aportaciones.",
+        "articleOrSection": "D) Las personas que formen parte de la lista de espera",
         "confidence": "medium",
-        "excerpt": "Artículo 45.- Transmisión de las aportaciones."
-      },
-      {
-        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
-        "documentTitle": "BOE A 2010 20034 Orden+EHA+3360 2010",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 2. Ámbito de aplicación.",
-        "confidence": "medium",
-        "excerpt": "Artículo 2. Ámbito de aplicación. 1. Las presentes Normas serán de aplicación obligatoria para las sociedades cooperativas. En todo lo no modificado específicamente en estas Normas, será de aplicación el Plan General de Contabilidad, en los..."
-      },
-      {
-        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-        "documentTitle": "Las GuíAs De Sostre CíVic",
-        "documentType": "guia",
-        "articleOrSection": "Documento completo",
-        "confidence": "medium",
-        "excerpt": "Las guías de Sostre Cívic sobre vivienda cooperativa en cesión de uso ahora también en castellano Sostre Cívic, una cooperativa que es referencia a nivel estatal en la promoción de las viviendas cooperativas en cesión de uso, ha publicado e..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
-        "documentTitle": "Estatutos Senior Cohousing Huelva",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 39. Aplicación de resultados positivos e Imputación de pérdidas",
-        "confidence": "medium",
-        "excerpt": "Artículo 39. Aplicación de resultados positivos e Imputación de pérdidas 39.1. El destino de los resultados positivos se acordará por la Asamblea General al cierre de cada ejercicio, conforme a lo establecido en el artículo 68 de la LSCA, y..."
+        "excerpt": "D) Las personas que formen parte de la lista de espera"
       }
     ]
   }

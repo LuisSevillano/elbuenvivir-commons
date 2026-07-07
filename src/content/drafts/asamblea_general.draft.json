@@ -79,7 +79,7 @@
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
-      "topicSlug": "derechos_y_obligaciones",
+      "topicSlug": "admision_socio",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     }
@@ -109,36 +109,12 @@
         "excerpt": "Artículo 34. Asamblea General. Convocatoria de la Asamblea General ordinaria y extraordinaria La Asamblea General, ordinaria o extraordinaria, debe ser convocada por el Consejo Rector mediante un anuncio en el domicilio social y, además, me..."
       },
       {
-        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
-        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
-        "documentType": "otro",
-        "articleOrSection": "Artículo 21.- Convocatoria de la Asamblea General",
-        "confidence": "high",
-        "excerpt": "Artículo 21.- Convocatoria de la Asamblea General 1. La Asamblea General ordinaria deberá convocarse por el órgano de administración dentro de los seis meses siguientes al cierre de cada ejercicio económico. Transcurrido dicho plazo sin que..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
-        "documentTitle": "Estatutos Senior Cohousing Huelva",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 19.- Convocatoria de la Asamblea General",
-        "confidence": "high",
-        "excerpt": "Artículo 19.- Convocatoria de la Asamblea General 19.1. La Asamblea General Ordinaria deberá convocarse por el Consejo Rector dentro de los seis meses siguientes al cierre de cada ejercicio económico. Transcurrido dicho plazo sin que se efe..."
-      },
-      {
         "documentSlug": "docs-estatutos-estatutos-axuntase",
         "documentTitle": "Estatutos Axuntase",
         "documentType": "estatutos",
         "articleOrSection": "Artículo 21.- Convocatoria de la Asamblea General",
         "confidence": "high",
         "excerpt": "Artículo 21.- Convocatoria de la Asamblea General 1.- La Asamblea General ordinaria deberá convocarse por el Consejo Rector dentro de los seis meses siguientes al cierre de cada ejercicio económico. Transcurrido dicho plazo sin que se efect..."
-      },
-      {
-        "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
-        "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
-        "documentType": "otro",
-        "articleOrSection": "ARTÍCULO 22.- CONVOCATORIA DE LA ASAMBLEA GENERAL.",
-        "confidence": "high",
-        "excerpt": "ARTÍCULO 22.- CONVOCATORIA DE LA ASAMBLEA GENERAL. 1. La Asamblea General ordinaria deberá ser convocada por el Consejo Rector dentro de los seis meses siguientes a la fecha de cierre del ejercicio económico. Si transcurre dicho plazo sin q..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-tarocohousing",
@@ -149,20 +125,20 @@
         "excerpt": "Artículo 24.- Convocatoria de la Asamblea General"
       },
       {
-        "documentSlug": "docs-leyes-normativa-autonomica",
-        "documentTitle": "Normativa Autonomica",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 32. Clases de Asamblea general y convocatoria.",
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "c) La Asamblea General tendrá carácter de universal, cuando estando presentes o",
         "confidence": "high",
-        "excerpt": "Artículo 32. Clases de Asamblea general y convocatoria. 1. Las Asambleas generales pueden ser ordinarias o extraordinarias. La Asamblea ordinaria se reunirá necesariamente una vez al año, dentro de los seis meses siguientes al cierre del ej..."
+        "excerpt": "c) La Asamblea General tendrá carácter de universal, cuando estando presentes o representadas la totalidad de las personas socias, de forma espontánea o mediante convocatoria no formal, decidan cons\u000etuirse en asamblea, aprobando y ,rmando t..."
       },
       {
-        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
-        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
-        "documentType": "otro",
-        "articleOrSection": "Artículo 22.- Constitución y funcionamiento de la Asamblea General",
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "c) La Asamblea General tendrá carácter de universal, cuando estando presentes o",
         "confidence": "high",
-        "excerpt": "Artículo 22.- Constitución y funcionamiento de la Asamblea General 1. Las reuniones, salvo que tenga carácter de universal, se celebrarán en localidad del domicilio social de la Cooperativa; pero podrán también celebrarse en cualquier otro..."
+        "excerpt": "c) La Asamblea General tendrá carácter de universal, cuando estando presentes o representadas la totalidad de las personas socias, de forma espontánea o mediante convocatoria no formal, decidan consƟtuirse en asamblea, aprobando y firmando..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-tarocohousing",
@@ -173,28 +149,52 @@
         "excerpt": "Artículo 25.- Constitución y funcionamiento de la Asamblea General"
       },
       {
-        "documentSlug": "docs-leyes-normativa-autonomica",
-        "documentTitle": "Normativa Autonomica",
+        "documentSlug": "docs-estatutos-estatutos-axuntase",
+        "documentTitle": "Estatutos Axuntase",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 22.- Constitución y funcionamiento de la Asamblea General",
+        "confidence": "high",
+        "excerpt": "Artículo 22.- Constitución y funcionamiento de la Asamblea General 1.- Las reuniones tendrán lugar, de ordinario salvo que tenga carácter de universal, en el domicilio social, pero podrán también celebrarse en cualquier otro lugar que deter..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "2. La persona socia podrá hacerse representar en la Asamblea General por otra persona",
+        "confidence": "high",
+        "excerpt": "2. La persona socia podrá hacerse representar en la Asamblea General por otra persona socia, que no podrá representar a más de dos, o bien por el cónyuge o pareja de hecho, ascendiente o descendientes; la representación debe conferirse por..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "2. La persona socia podrá hacerse representar en la Asamblea General por otra persona",
+        "confidence": "high",
+        "excerpt": "2. La persona socia podrá hacerse representar en la Asamblea General por otra persona socia, que no podrá representar a más de dos, o bien por el cónyuge o pareja de hecho, ascendiente o descendientes; la representación debe conferirse por..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-estatal",
+        "documentTitle": "Normativa Estatal",
         "documentType": "ley",
-        "articleOrSection": "Artículo 81. Convocatoria de Asamblea general para la fusión.",
+        "articleOrSection": "1. La Asamblea General quedará válidamente constituida en primera convocatoria,",
         "confidence": "high",
-        "excerpt": "Artículo 81. Convocatoria de Asamblea general para la fusión. Al publicar la convocatoria de la Asamblea general que tenga por objeto aprobar la fusión, deberá ponerse a disposición de los socios, en el domicilio social, los siguientes docu..."
+        "excerpt": "1. La Asamblea General quedará válidamente constituida en primera convocatoria, cuando estén presentes o representados más de la mitad de los votos sociales y, en segunda convocatoria, al menos, un diez por ciento de los votos o cien votos..."
       },
       {
-        "documentSlug": "docs-estatutos-estatutos-losnidales",
-        "documentTitle": "Estatutos Losnidales",
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 37.- Composición y competencias de la Asamblea General.",
+        "articleOrSection": "Artículo 16.- Concepto, composición y competencias de la Asamblea General.",
         "confidence": "high",
-        "excerpt": "Artículo 37.- Composición y competencias de la Asamblea General. 1. La Asamblea General de la Cooperativa es el órgano supremo de la expresión de la voluntad social, constituida para deliberar y adoptar acuerdos por mayoría en las materias..."
+        "excerpt": "Artículo 16.- Concepto, composición y competencias de la Asamblea General. 1.- La Asamblea General de la Cooperativa es el órgano supremo de la expresión de la voluntad social, constituida por las personas asociadas debidamente convocados p..."
       },
       {
-        "documentSlug": "docs-estatutos-estatutos-entrepatios",
-        "documentTitle": "Estatutos Entrepatios",
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 40. Composición y competencias de la Asamblea General.",
+        "articleOrSection": "Artículo 16.- Concepto, composición y competencias de la Asamblea General.",
         "confidence": "high",
-        "excerpt": "Artículo 40. Composición y competencias de la Asamblea General. 1. La Asamblea General de la Cooperativa es el órgano supremo de la expresión de la voluntad social, constituida para deliberar y adoptar acuerdos por mayoría en las materias p..."
+        "excerpt": "Artículo 16.- Concepto, composición y competencias de la Asamblea General. 1.- La Asamblea General de la Cooperativa es el órgano supremo de la expresión de la voluntad social, constituida por las personas asociadas debidamente convocados p..."
       }
     ]
   }

@@ -1,0 +1,153 @@
+{
+  "slug": "clases_de_socios",
+  "title": "Clases de personas socias",
+  "shortDescription": "Qué tipos de socio tendrá la cooperativa de usuarios de El Buen Vivir (Socio A / Socio B) y cómo encajan legalmente sus derechos de voz, voto y uso.",
+  "category": "socios",
+  "minimumContents": [
+    "Definir las clases de socios y sus derechos y obligaciones.",
+    "Aclarar quién tiene voz y quién voto en la Asamblea.",
+    "Encajar legalmente el Socio B (uso habitual sin voto) dentro de la Ley 4/2002.",
+    "Regular la conversión de Socio B a Socio A.",
+    "Distinguir socio usuario de socio colaborador y de socio expectante (lista de espera)."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿El Socio B tendrá voto o no? De ello depende su encaje legal, porque quien usa la casa realiza actividad cooperativizada.",
+    "¿Se unifica la nomenclatura de las actas (Socio A / B) con la de los borradores jurídicos (individuales / familiares / acompañantes / colaboradoras)?",
+    "¿Se usa la figura de socio colaborador (art. 26) solo para quien aporta sin usar la casa (apoyos, lista de espera)?",
+    "Si se crean figuras del art. 26, respetar el tope legal del 33 % de votos."
+  ],
+  "risks": [
+    "Definir un Socio B con uso habitual pero sin voto es jurídicamente frágil: la ley reserva el 'sin voto' a figuras que NO realizan actividad cooperativizada (art. 26).",
+    "Mantener dos nomenclaturas (actas vs borradores) generará confusión en la redacción final.",
+    "Copiar clases de cooperativas de viviendas (socio de vivienda/consumo) sin adaptarlas a una cooperativa de usuarios."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "Las clases de socios y sus derechos básicos (voz, voto, uso) afectan a la condición de socio: rango estatutario obligatorio."
+    ],
+    "shouldBeInStatutes": [
+      "Enumeración de las clases de socios y su derecho básico de voz y voto (reservado, arts. 13/26/35.6).",
+      "Quién tiene voto y los topes legales de voto de figuras no ordinarias (33 %).",
+      "Remisión al RRI del procedimiento de conversión entre clases y de la prioridad de reserva."
+    ],
+    "shouldBeInRRI": [
+      "Prioridad práctica de reserva de fechas y turnos de uso entre clases.",
+      "Procedimiento operativo de conversión de Socio B a Socio A (solicitud, pagos, elevación a la Asamblea).",
+      "Requisitos operativos y documentación de la conversión."
+    ],
+    "canBeDeferredInitially": []
+  },
+  "relatedTopics": [
+    { "topicSlug": "admision_socio", "relationship": "depends_on", "explanation": "La clase de socio determina los requisitos de admisión." },
+    { "topicSlug": "aportaciones_obligatorias", "relationship": "complements", "explanation": "El Socio A aporta cuota umbral; el Socio B no." },
+    { "topicSlug": "lista_espera", "relationship": "complements", "explanation": "La figura de socio expectante alimenta la lista de espera." }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "El Buen Vivir es una cooperativa de usuarios de Castilla y León (Ley 4/2002). Los Estatutos deben fijar las clases de socios, sus requisitos y derechos (contenido estatutario obligatorio). La clase base es el socio ordinario (usuario que realiza la actividad cooperativizada, con voz y voto).",
+        "La ley permite además otras clases —colaborador, de servicios, inactivo, temporal (arts. 25-28)— que los Estatutos PUEDEN prever, pero con límites imperativos si se admiten. Aviso clave: la ley no usa las etiquetas 'Socio A/B'; son terminología vuestra."
+      ],
+      "requirements": [
+        { "aspect": "Clases de socios en estatutos", "law": "Ley 4/2002 CyL (contenido estatutario)", "requirement": "Deben constar las clases de socios, requisitos y procedimiento de admisión y baja.", "margin": "Definís qué clases y sus derechos." },
+        { "aspect": "Socio colaborador", "law": "Ley 4/2002 CyL, art. 26", "requirement": "Opcional; aporta capital pero NO puede realizar actividad cooperativizada.", "margin": "Podéis preverlo o no." },
+        { "aspect": "Tope de voto de figuras no ordinarias", "law": "Ley 4/2002 CyL, art. 35.6", "requirement": "Colaboradores, de servicios, inactivos y temporales: ≤ 33 % de los votos de la Asamblea.", "margin": "—" },
+        { "aspect": "Tope de aportaciones de esas figuras", "law": "Ley 4/2002 CyL, art. 59.5", "requirement": "Sus aportaciones no superan el 45 % del capital social.", "margin": "—" },
+        { "aspect": "Socio temporal", "law": "Ley 4/2002 CyL, art. 28", "requirement": "Vínculo de duración determinada; ≤ 25 % de los socios indefinidos.", "margin": "Podéis usarlo o no." }
+      ],
+      "citations": [
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 26 (socio colaborador)", "excerpt": "Las sociedades cooperativas podrán incorporar, si lo prevén sus Estatutos, socios colaboradores, que efectúen aportación al capital y que no podrán realizar actividad cooperativizada. [...] Los Estatutos fijarán los límites específicos, en cuanto a aportaciones y número de votos, teniendo como límites máximos los establecidos en los artículos 59 y 35.6 respectivamente." },
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 35.6 (tope de voto)", "excerpt": "La suma de votos de los socios colaboradores, de servicios, inactivos y temporales no podrá superar el 33 por 100 de los votos totales presentes o representados en la Asamblea General." }
+      ]
+    },
+    "comparison": {
+      "intro": "Casi todas las cooperativas de covivienda distinguen socio pleno + colaborador + expectante. Son de viviendas/consumo; El Buen Vivir es de usuarios, pero el esquema es orientativo.",
+      "columns": [
+        { "key": "clases", "label": "Clases que distingue" },
+        { "key": "voto", "label": "Figura sin actividad / voto" },
+        { "key": "expectante", "label": "Figura de lista de espera" }
+      ],
+      "rows": [
+        {
+          "project": "Tarocohousing",
+          "cells": { "clases": "Vivienda · Consumo · Colaboradora · Expectante", "voto": "Colaboradora: sin actividad cooperativizada", "expectante": "Sí (expectante)" },
+          "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+          "articleOrSection": "Artículo 9 — Clases de personas socias",
+          "excerpt": "Personas socias de vivienda: tienen plenos derechos y obligaciones respecto de la vivienda. Personas socias de consumo: respecto al uso o consumo de bienes y servicios, a excepción de la vivienda. Personas socias colaboradoras: sin participar en la actividad cooperativizada, contribuyen a los fines mediante aportaciones económicas o prestaciones; podrán formar parte de la lista de espera. Personas socias expectantes: la cooperativa podrá generar una lista de espera para el acceso a las viviendas."
+        },
+        {
+          "project": "El Ciempiés",
+          "cells": { "clases": "Vivienda · Consumo · Colaboradora · Expectante", "voto": "Colaboradora sin actividad", "expectante": "Sí; expectantes no en Consejo Rector" },
+          "documentSlug": "docs-estatutos-estatutos-elciempies",
+          "articleOrSection": "Artículo 9 — Clases de personas socias",
+          "excerpt": "Distingue socias de vivienda, de consumo, colaboradoras y expectantes; añade que las personas socias expectantes no podrán formar parte del Consejo Rector."
+        },
+        {
+          "project": "La Borda",
+          "cells": { "clases": "Usuario (derecho de uso) · Colaborador · Expectante", "voto": "Colaborador: voto ponderado con límite legal", "expectante": "Sí (expectante)" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 5 — Clases de socios",
+          "excerpt": "Socias y socios colaboradores: personas que colaboran en el objeto de la Cooperativa sin participar de la actividad cooperativizada; la Asamblea acuerda su incorporación y la ponderación de los votos que le corresponda dentro del límite legal. Socias y socios expectantes: se inscriben en la lista de personas socias expectantes con voluntad de ser destinatarias de un derecho de uso."
+        },
+        {
+          "project": "La Seronda",
+          "cells": { "clases": "Usuario · Colaborador", "voto": "Colaborador: voto ponderado si supera 25 %", "expectante": "—" },
+          "documentSlug": "docs-estatutos-estatutos-laseronda-org",
+          "articleOrSection": "Artículo 10 — Socios colaboradores",
+          "excerpt": "Los socios colaboradores no podrán ser simultáneamente socios usuarios. El socio colaborador tendrá derecho de voto. Si la suma de los votos de los socios colaboradores superase el 25 por ciento del total de votos presentes y representados, el valor del voto de cada socio colaborador se ponderará proporcionalmente."
+        },
+        {
+          "project": "Senior Cohousing Huelva",
+          "cells": { "clases": "Residentes · Expectantes · Inactivos", "voto": "Inactivos: figura de excedencia", "expectante": "Sí (en espera, con prioridad de entrada)" },
+          "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+          "articleOrSection": "Artículo 6 — Tipos de socios",
+          "excerpt": "Hay diferentes tipos de socios consumidores y usuarios: Residentes, Expectantes e Inactivos. Personas Socias Residentes: residen habitualmente en la Unidad Habitacional realizando la actividad cooperativizada. Personas Expectantes o en Espera: se incorporan a un listado con un criterio de prioridad de entrada."
+        }
+      ],
+      "note": "Patrón común: socio pleno (usuario) + colaborador (aporta sin usar) + expectante (lista de espera). El voto del colaborador se pondera y tiene tope legal. Ninguna crea un 'socio de uso habitual sin voto': eso es propio de El Buen Vivir y es el punto delicado."
+    },
+    "proposal": {
+      "rationale": [
+        "El grupo aprobó (Reuniones 19 y 20, 2026) el perfil de Socio A (participa en la compra, voz y voto, prioridad de reserva, cuota umbral) y Socio B (uso habitual, paga mantenimiento, voz pero sin voto, sin prioridad, vinculado a un Socio A, convertible a A por acuerdo de la Asamblea).",
+        "Punto delicado a resolver con revisión jurídica: en una cooperativa de usuarios, usar la casa ES actividad cooperativizada, y la ley reserva el 'sin voto' a figuras que NO la realizan (colaborador, art. 26). Un Socio B con uso habitual y sin voto no encaja limpiamente ahí.",
+        "Además, la nomenclatura de las actas (A/B) no coincide con la de los borradores jurídicos (individuales / familiares / acompañantes / colaboradoras); conviene unificarla antes de redactar los estatutos definitivos."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Clases de personas socias",
+          "text": "La cooperativa está formada por personas socias usuarias, que realizan la actividad cooperativizada (uso de la vivienda y espacios comunes) y tienen plenos derechos, incluidos voz y voto en la Asamblea General. Los Estatutos podrán prever personas socias colaboradoras, que aportan al capital o prestan servicios sin realizar la actividad cooperativizada, y personas socias expectantes, inscritas en la lista de espera para acceder al uso. La suma de votos de las clases distintas de la de socio usuario no superará el 33 % de los votos de la Asamblea. La prioridad práctica de reserva entre clases y el procedimiento de conversión entre clases se regularán en los términos que desarrolle el Reglamento de Régimen Interno.",
+          "note": "Núcleo estatutario reservado (arts. 13, 26 y 35.6 Ley 4/2002): enumeración de clases y su derecho básico de voz/voto y topes de voto. El 'Socio A' del grupo = socio usuario de pleno derecho. El desarrollo operativo se remite al RRI."
+        },
+        {
+          "target": "estatutos",
+          "heading": "Persona socia de uso habitual (Socio B) — a validar jurídicamente",
+          "text": "[OPCIÓN A DECIDIR] La cooperativa podrá admitir personas socias de uso habitual, vinculadas a una persona socia usuaria, que hacen uso regular de la vivienda pagando la cuota de mantenimiento y de uso, sin participar en la compra ni tener prioridad de calendario. Su régimen de voto y su encaje legal (socio usuario de pleno derecho con voto, o figura limitada) deberá confirmarse en la revisión jurídica. Su conversión en persona socia usuaria (Socio A) se hará en los términos y con el procedimiento que desarrolle el Reglamento de Régimen Interno.",
+          "note": "AVISO: esta figura es el punto frágil. La CLASE de socio es reservada (rango estatutario); solo su régimen de voto necesita validación jurídica. Alternativas a valorar con jurista: (a) Socio B como socio usuario pleno CON voto; (b) reservar 'colaborador' solo para quien aporta sin usar; (c) socio temporal (art. 28) para vínculos de duración determinada. El procedimiento operativo de conversión se traslada al RRI."
+        },
+        {
+          "target": "rri",
+          "heading": "Conversión de Socio B a Socio A y prioridad de reserva",
+          "text": "El Reglamento de Régimen Interno regulará: el procedimiento operativo de conversión de persona socia de uso habitual (Socio B) en persona socia usuaria (Socio A) —solicitud, pago de la cantidad inicial, compromiso de la cuota umbral y elevación a la Asamblea General—; y la prioridad práctica de reserva de fechas y turnos de uso entre las distintas clases de socias, respetando la prioridad de calendario reconocida a la persona socia usuaria.",
+          "note": "Desarrollo operativo revisable por la Asamblea sin modificar los Estatutos (art. 31 Ley 4/2002)."
+        }
+      ],
+      "openDecisions": [
+        "¿El Socio B tiene voto o no? (determina su encaje legal).",
+        "Unificar la nomenclatura: ¿Socio A/B o individuales/familiares/acompañantes/colaboradoras?",
+        "¿Se usa 'socio colaborador' (art. 26) para quien aporta sin usar la casa y para la lista de espera?",
+        "Si se crean figuras del art. 26, fijar la ponderación de voto respetando el tope del 33 %."
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas del grupo. La figura de Socio B necesita revisión jurídica específica antes de aprobarse."
+    }
+  },
+  "suggestedClause": {
+    "text": "La cooperativa está integrada por personas socias usuarias, con plenos derechos de voz y voto. Los Estatutos podrán prever personas socias colaboradoras y expectantes conforme a la Ley 4/2002. El régimen de las personas socias de uso habitual vinculadas se determinará conforme a lo que resulte de la revisión jurídica.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente, en especial la figura de socio de uso habitual.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

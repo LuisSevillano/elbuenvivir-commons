@@ -1,0 +1,33 @@
+{
+  "slug": "admision_socio",
+  "status": "reviewed",
+  "editorialSummary": [
+    "La entrada de nuevas personas socias se rige por el art. 19 de la Ley 4/2002: requisitos en estatutos, resolución del Consejo Rector en un máximo de 3 meses y silencio desestimatorio.",
+    "Vuestro borrador deja el plazo sin fijar y los requisitos aún copian una cooperativa de viviendas; conviene adaptarlos al modelo de usuarios y al valor de adhesión a la visión del proyecto."
+  ],
+  "decisionQuestions": [],
+  "supportedFindings": [],
+  "unsupportedClaims": [],
+  "recommendationsForBuenVivir": [],
+  "statutesVsRRI": {
+    "statutes": [
+      "Requisitos de admisión y respeto a igualdad y no discriminación.",
+      "Órgano competente, plazo de resolución y recurso."
+    ],
+    "rri": [
+      "Acompañamiento de la entrada por la Comisión de Convivencia.",
+      "Criterio de prioridad de la lista de espera y conversión B→A."
+    ],
+    "notes": [
+      "El plazo de resolución debe fijarse dentro del máximo legal de tres meses."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: art. 19 (admisión de nuevos socios).",
+    "docs-estatutos-estatutos-la-borda: Artículo 6, admisión.",
+    "docs-estatutos-estatutos-entrepatios: Artículo 8, procedimiento de admisión."
+  ],
+  "referencesToAvoid": [
+    "No mantener el plazo 'xxx días' del borrador: la ley obliga a un máximo de tres meses."
+  ]
+}

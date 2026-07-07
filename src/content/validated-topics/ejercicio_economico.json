@@ -1,0 +1,107 @@
+{
+  "slug": "ejercicio_economico",
+  "status": "reviewed",
+  "editorialSummary": [
+    "El ejercicio económico, las cuentas anuales y los fondos sociales obligatorios son contenido estatutario mínimo de cualquier cooperativa de Castilla y León: no son opcionales, aunque el proyecto sea pequeño y sin ánimo de lucro.",
+    "La Ley 4/2002 obliga a cerrar el ejercicio (por defecto con el año natural), a formular y aprobar cuentas cada año y a mantener un Fondo de Reserva Obligatorio y un Fondo de Educación y Promoción, ambos irrepartibles.",
+    "El punto clave para El Buen Vivir es declararse sin ánimo de lucro y reinvertir los resultados, entendiendo que 'sin lucro' no exime de contabilidad, cuentas anuales ni fondos obligatorios."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "fiscal_year_close",
+      "question": "¿El ejercicio coincidirá con el año natural (cierre a 31 de diciembre) o se elegirá otra fecha?",
+      "recommendationsForBuenVivir": [
+        "Coincidir con el año natural simplifica la gestoría y el calendario de la Asamblea; es lo que hace la mayoría de las cooperativas revisadas."
+      ]
+    },
+    {
+      "id": "no_profit_declaration",
+      "question": "¿Se hace constar expresamente la ausencia de ánimo de lucro y la reinversión de los resultados positivos?",
+      "recommendationsForBuenVivir": [
+        "Es coherente con el carácter antiespeculativo del proyecto y permite crear una reserva estatutaria irrepartible para reinvertir en la casa, pero debe declararse de forma expresa en los Estatutos."
+      ]
+    },
+    {
+      "id": "funds_percentages",
+      "question": "¿Qué porcentajes de excedentes se destinan al FRO y al FEP y a qué se dedica el resto?",
+      "recommendationsForBuenVivir": [
+        "Basta con respetar los mínimos legales (20 % al FRO y 5 % al FEP) y destinar el resto a reserva irrepartible; no conviene copiar los porcentajes catalanes (30 % / 10 %), que responden a otra ley."
+      ]
+    },
+    {
+      "id": "accounts_control",
+      "question": "¿Cómo se controlan y aprueban las cuentas si la cooperativa no está obligada a auditoría?",
+      "recommendationsForBuenVivir": [
+        "Prever personas Interventoras que censuren las cuentas antes de la Asamblea y apoyar la transparencia en la Comisión de Economía."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "fiscal_year",
+      "statement": "La duración del ejercicio económico y su coincidencia con el año natural aparecen de forma estándar en estatutos y en la ley.",
+      "summary": "Es contenido estatutario obligatorio; el margen práctico se reduce a fijar la fecha de cierre."
+    },
+    {
+      "id": "annual_accounts",
+      "statement": "La formulación de cuentas en tres meses y su aprobación por la Asamblea es un patrón común y una obligación legal.",
+      "summary": "Afecta a la validez de los acuerdos económicos y al depósito registral: debe estar en Estatutos."
+    },
+    {
+      "id": "mandatory_funds",
+      "statement": "El Fondo de Reserva Obligatorio y el Fondo de Educación y Promoción son obligatorios e irrepartibles y se dotan con un porcentaje de los excedentes.",
+      "summary": "En CyL el mínimo es 20 % al FRO y 5 % al FEP; otras leyes autonómicas fijan porcentajes distintos."
+    },
+    {
+      "id": "no_profit_reinvestment",
+      "statement": "Las cooperativas sin ánimo de lucro no reparten excedentes y los reinvierten mediante una reserva estatutaria irrepartible.",
+      "summary": "Encaja con el carácter antiespeculativo de El Buen Vivir y aparece expresamente en varios estatutos del corpus."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "ejercicio_economico-no-accounting",
+      "statement": "Al no tener ánimo de lucro ni generar beneficio, la cooperativa puede simplificar u omitir las cuentas anuales y los fondos obligatorios.",
+      "reason": "La documentación y la ley muestran lo contrario: la contabilidad completa, las cuentas anuales, su depósito y los fondos obligatorios son exigibles con independencia de que haya o no beneficio."
+    },
+    {
+      "claimId": "ejercicio_economico-catalan-percentages",
+      "statement": "Deben destinarse el 30 % al FRO y el 10 % al FEP.",
+      "reason": "Esos porcentajes corresponden a la ley catalana (La Borda, Blanxart); en Castilla y León los mínimos son el 20 % y el 5 %."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Fijar en Estatutos la fecha de cierre (preferiblemente 31 de diciembre) y la obligación de formular y aprobar cuentas anuales.",
+    "Declarar expresamente la ausencia de ánimo de lucro y crear una reserva estatutaria irrepartible para reinvertir los resultados en la casa.",
+    "Respetar los mínimos legales de dotación al FRO (20 %) y al FEP (5 %) y decidir el destino del resto.",
+    "Entender que la cuota umbral es capital social, no excedente: no se dota a estos fondos.",
+    "Apoyar la transparencia económica en la Comisión de Economía y en un informe anual comprensible para las personas socias."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Duración y fecha de cierre del ejercicio económico.",
+      "Formulación y aprobación anual de las cuentas y órgano competente.",
+      "Existencia e irrepartibilidad del FRO y del FEP y porcentajes de dotación.",
+      "Declaración de ausencia de ánimo de lucro y destino de los excedentes."
+    ],
+    "rri": [
+      "Actividades concretas financiadas con el FEP cada ejercicio.",
+      "Calendario interno de cierre contable y de convocatoria de la Asamblea de cuentas.",
+      "Forma de rendir cuentas e informar económicamente a las personas socias."
+    ],
+    "notes": [
+      "La revisión jurídica debe confirmar los porcentajes de fondos, la censura de cuentas por Interventores y los plazos de depósito registral."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, arts. 71, 72, 73, 74 y 77.",
+    "docs-estatutos-estatutos-laseronda-org: Artículo 41 sobre ejercicio económico y cuentas anuales.",
+    "docs-estatutos-estatutos-senior-cohousing-huelva: Artículo 38 sobre ejercicio económico.",
+    "docs-estatutos-estatutos-tarocohousing: Artículos 52 y 54 sobre ejercicio y aplicación de excedentes.",
+    "docs-estatutos-estatutos-elciempies: Artículo 8 ter sobre cooperativa sin ánimo de lucro."
+  ],
+  "referencesToAvoid": [
+    "No aplicar los porcentajes de FRO/FEP de estatutos catalanes (La Borda, Blanxart, Cancarner): se rigen por la Ley 12/2015 de Cataluña, no por la Ley 4/2002 de CyL.",
+    "No presentar la ausencia de ánimo de lucro como exención de obligaciones contables, de cuentas anuales o de fondos obligatorios."
+  ]
+}

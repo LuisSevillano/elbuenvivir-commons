@@ -74,6 +74,67 @@ export interface ProjectReference extends SourceRef {
   tags: string[];
 }
 
+export interface LegalRequirementRow {
+  aspect: string;
+  law: string;
+  requirement: string;
+  margin?: string;
+}
+
+export interface DossierCitation {
+  documentSlug: string;
+  label: string;
+  excerpt: string;
+}
+
+export interface ComparisonColumn {
+  key: string;
+  label: string;
+}
+
+export interface ComparisonRow {
+  project: string;
+  cells: Record<string, string>;
+  note?: string;
+  /** Verbatim clause text from the project's estatutos/RRI, so it can be read directly. */
+  excerpt?: string;
+  /** Article or section the excerpt comes from, e.g. "Artículo 13 — Baja obligatoria". */
+  articleOrSection?: string;
+  /** Document slug to link to the full source document (e.g. docs-estatutos-estatutos-axuntase). */
+  documentSlug?: string;
+}
+
+export interface ProposalArticle {
+  target: 'estatutos' | 'rri';
+  heading: string;
+  text: string;
+  note?: string;
+}
+
+/**
+ * Structured "at a glance" dossier for a topic: what the law requires,
+ * how other cooperatives resolved it, and a tailored drafting proposal.
+ */
+export interface TopicDossier {
+  legal: {
+    intro: string[];
+    requirements: LegalRequirementRow[];
+    citations?: DossierCitation[];
+  };
+  comparison: {
+    intro?: string;
+    columns: ComparisonColumn[];
+    rows: ComparisonRow[];
+    note?: string;
+  };
+  proposal: {
+    rationale: string[];
+    articles: ProposalArticle[];
+    openDecisions: string[];
+    disclaimer: string;
+  };
+}
+
 export interface GovernanceTopic {
   slug: string;
   title: string;
@@ -84,6 +145,7 @@ export interface GovernanceTopic {
   projectReferences: ProjectReference[];
   decisionsForBuenVivir: string[];
   risks: string[];
+  dossier?: TopicDossier;
   governancePlacement: {
     recommendedPrimaryLocation: 'estatutos' | 'rri' | 'mixed' | 'case_by_case';
     rationale: string[];

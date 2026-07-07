@@ -1,60 +1,62 @@
 {
   "slug": "uso_espacios_comunes",
-  "generatedAt": "2026-05-14T09:24:12.571Z",
+  "generatedAt": "2026-07-07T07:29:53.125Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/uso_espacios_comunes.md",
     "referencesCount": 18,
     "documents": [
-      "Docs-estatutos-estatutos-entrepatios",
-      "Docs-estatutos-estatutos-la-borda",
-      "Docs-estatutos-estatutos-losnidales",
-      "Docs-estatutos-estatutos-tarocohousing",
-      "Docs-guias-las-guias-de-sostre-civic",
-      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "Docs-rri-informe-cooperativas-cesion-de-uso",
-      "Docs-rri-rri-axuntase",
-      "Docs-rri-rri-vallecas2homes"
+      "docs-estatutos-estatutos-axuntase",
+      "docs-estatutos-estatutos-elciempies",
+      "docs-estatutos-estatutos-entrepatios",
+      "docs-estatutos-estatutos-la-borda",
+      "docs-estatutos-estatutos-los-girasoles",
+      "docs-estatutos-estatutos-losnidales",
+      "docs-estatutos-estatutos-tarocohousing",
+      "docs-guias-las-guias-de-sostre-civic",
+      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+      "docs-rri-informe-cooperativas-cesion-de-uso"
     ]
   },
   "summary": {
     "overview": [
-      "Los extractos más claros relacionan este tema con conflictos y mediación, espacios comunes, mantenimiento y cuidados del espacio.",
-      "Aparecen ejemplos en varios proyectos, entre ellos Las GuíAs De Sostre CíVic, Estatutos Entrepatios, Rri Axuntase, Estatutos Losnidales.",
-      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados."
+      "Los extractos más claros relacionan este tema con espacios comunes, mantenimiento y cuidados del espacio, conflictos y mediación.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Losnidales, Estatutos Tarocohousing, Informe Cooperativas Cesion De Uso, Las GuíAs De Sostre CíVic.",
+      "El uso de espacios comunes suele regularse mediante reglas prácticas de reserva, cuidado y prioridad de usos."
     ],
     "commonPatterns": [
-      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados.",
       "El uso de espacios comunes suele regularse mediante reglas prácticas de reserva, cuidado y prioridad de usos.",
       "Las reglas de mantenimiento suelen concretar responsabilidades de cuidado, limpieza u obras.",
-      "Cuando aparecen menores o animales, suelen tratarse como casos de convivencia práctica y cuidado de espacios."
+      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados.",
+      "Las visitas e invitados suelen conectarse con reservas, pernoctas, uso de espacios y convivencia."
     ],
     "majorDifferences": [
       "Las diferencias prácticas dependen de si el proyecto prioriza reglas estables, procedimientos internos o soluciones caso por caso."
     ],
     "commonRisks": [
-      "Sin un cauce claro, desacuerdos pequeños pueden convertirse en conflictos societarios.",
       "La falta de criterios puede generar conflictos entre uso individual, uso comunitario e invitados.",
       "Si las tareas comunes no se reparten con claridad, pueden concentrarse cargas invisibles.",
-      "No preverlos puede trasladar conflictos cotidianos a decisiones improvisadas."
+      "Sin un cauce claro, desacuerdos pequeños pueden convertirse en conflictos societarios.",
+      "Si no hay criterios, puede tensionarse el equilibrio entre hospitalidad, intimidad y disponibilidad de espacios."
     ],
     "commonTradeoffs": [
-      "Autonomía comunitaria vs necesidad de procedimiento claro",
-      "Uso flexible del espacio vs prevención de conflictos de convivencia",
-      "Uso flexible de espacios vs prevención de conflictos cotidianos"
+      "uso flexible del espacio vs prevención de conflictos de convivencia",
+      "autonomía comunitaria vs necesidad de procedimiento claro",
+      "uso flexible de espacios vs prevención de conflictos cotidianos"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Principios de convivencia y posibilidad de mediación o régimen disciplinario",
-      "Principio general de uso compartido y respeto a acuerdos comunitarios",
-      "Obligación general de contribuir al cuidado y conservación",
-      "Principio general de convivencia y cuidado"
+      "principio general de uso compartido y respeto a acuerdos comunitarios",
+      "obligación general de contribuir al cuidado y conservación",
+      "principios de convivencia y posibilidad de mediación o régimen disciplinario",
+      "principio general de compatibilidad entre uso privado, convivencia y espacios comunes"
     ],
     "usuallyInRRI": [
-      "Pasos de mediación, tiempos de respuesta y personas de referencia",
-      "Reservas, horarios, prioridades, limpieza y criterios de uso cotidiano",
-      "Turnos, avisos, criterios de obras y gestión de incidencias",
-      "Reglas prácticas, responsabilidades y usos compatibles"
+      "reservas, horarios, prioridades, limpieza y criterios de uso cotidiano",
+      "turnos, avisos, criterios de obras y gestión de incidencias",
+      "pasos de mediación, tiempos de respuesta y personas de referencia",
+      "avisos, límites de pernocta, reservas y responsabilidades de la persona anfitriona"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -68,79 +70,81 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "Decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria"
+      "decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
+      "decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "Decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria"
+      "decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
+      "decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
     ],
     "pointsToDecideSoon": [
-      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "Decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
-      "Decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida",
-      "Decidir qué casos necesitan regla previa y cuáles pueden resolverse caso por caso",
+      "decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
+      "decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida",
+      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados",
       "Decidir qué usos requieren reserva, aviso previo o prioridad comunitaria."
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Autonomía comunitaria vs necesidad de procedimiento claro",
-    "Uso flexible del espacio vs prevención de conflictos de convivencia"
+    "uso flexible del espacio vs prevención de conflictos de convivencia",
+    "autonomía comunitaria vs necesidad de procedimiento claro"
   ],
   "notableProjects": [
     {
-      "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aparece en relación con conflictos y mediación, espacios comunes, mantenimiento y cuidados del espacio.",
+      "projectName": "Estatutos Elciempies",
+      "notableBecause": "Aparece en relación con espacios comunes, mantenimiento y cuidados del espacio.",
       "references": [
-        "Estatutos Entrepatios - Artículo 19. Reservas sociales",
-        "Estatutos Entrepatios - Artículo 19. Reservas sociales ............................................................................................................................. 23",
-        "Estatutos Entrepatios - Artículo 2. Objeto"
-      ]
-    },
-    {
-      "projectName": "Las GuíAs De Sostre CíVic",
-      "notableBecause": "Aparece en relación con conflictos y mediación, mantenimiento y cuidados del espacio.",
-      "references": [
-        "Las GuíAs De Sostre CíVic - Título original: La construcció i la cura dels grups",
-        "Las GuíAs De Sostre CíVic - Título original: Transformem l’entorn",
-        "Las GuíAs De Sostre CíVic - Título original: Cures en la convivència de persones grans"
-      ]
-    },
-    {
-      "projectName": "Estatutos Tarocohousing",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
-      "references": [
-        "Estatutos Tarocohousing - Artículo 5.- Objeto Social",
-        "Estatutos Tarocohousing - Artículo 6.- Actividades"
+        "Estatutos Elciempies - c) Para las personas socias de vivienda que exista vivienda vacante en ese momento.",
+        "Estatutos Elciempies - e) No podrán desarrollar ac\u000evidades en competencia con las que desarrolle la",
+        "Estatutos Elciempies - b) Las Reservas Voluntarias y el Fondo de Educación y Promoción, si los hubiere, se"
       ]
     },
     {
       "projectName": "Otras Leyes, Decretos, Modificaciones",
       "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
-        "BOE A 2007 19884 Consolidado RD+1514 2007 - capítulo IV del Texto Refundido de la Ley de Sociedades Anónimas y de la Ley de",
-        "BOE A 2007 19884 Consolidado RD+1514 2007 - artículo 42 del Código de Comercio, incluso cuando la sociedad dominante esté domiciliada"
+        "BOE A 2007 19884 Consolidado RD+1514 2007 - 11. RESERVAS Y OTROS INSTRUMENTOS DE PATRIMONIO",
+        "BOE A 2007 19884 Consolidado RD+1514 2007 - 11. RESERVAS Y OTROS INSTRUMENTOS DE PATRIMONIO NETO",
+        "BOE A 2010 20034 Orden+EHA+3360 2010 - 2. Las reservas procedentes de beneficios generados en ejercicios anteriores o"
       ]
     },
     {
-      "projectName": "Estatutos La Borda",
-      "notableBecause": "Aparece en relación con espacios comunes, mantenimiento y cuidados del espacio.",
+      "projectName": "Estatutos Entrepatios",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
-        "Estatutos La Borda - Artículo 2. Finalidades y objeto"
+        "Estatutos Entrepatios - a) A las Reservas especiales que se hayan constituido. Cumplidos los fines",
+        "Estatutos Entrepatios - Artículo 19. Reservas sociales"
       ]
     },
     {
       "projectName": "Estatutos Losnidales",
-      "notableBecause": "Aparece en relación con conflictos y mediación, espacios comunes.",
+      "notableBecause": "Aparece en relación con espacios comunes.",
       "references": [
-        "Estatutos Losnidales - Artículo 2.- Objeto o actividad económica."
+        "Estatutos Losnidales - 5. Utilizar la unidad residencial asignada, así como los servicios y espacios comunes que habilitará",
+        "Estatutos Losnidales - 1. A las Reservas especiales que se hayan constituido. Cumplidos los fines para los que se"
+      ]
+    },
+    {
+      "projectName": "Estatutos Tarocohousing",
+      "notableBecause": "Aparece en relación con espacios comunes, mantenimiento y cuidados del espacio, conflictos y mediación.",
+      "references": [
+        "Estatutos Tarocohousing - a) Al uso y disfrute de las viviendas, espacios anexos a las viviendas y zonas comunes que",
+        "Estatutos Tarocohousing - n) Satisfacer el resarcimiento de los daños y perjuicios en los elementos de uso común del"
+      ]
+    },
+    {
+      "projectName": "Las GuíAs De Sostre CíVic",
+      "notableBecause": "Aparece en relación con espacios comunes, invitados y pernoctas.",
+      "references": [
+        "Las GuíAs De Sostre CíVic - 92 metros cuadrados, y dispone de amplios espacios comunes: azotea,",
+        "Las GuíAs De Sostre CíVic - 2. Se dispone de espacios comunes que pueden ser empleados"
       ]
     }
   ],

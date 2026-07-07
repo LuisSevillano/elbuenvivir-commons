@@ -1,0 +1,202 @@
+{
+  "slug": "conflictos_y_mediacion",
+  "title": "Conflictos y mediación",
+  "shortDescription": "Cómo resolver los conflictos internos de la cooperativa por la vía del diálogo y la mediación, con la Comisión de Convivencia como órgano mediador, antes de recurrir a cualquier sanción o expulsión.",
+  "category": "convivencia",
+  "minimumContents": [
+    "Afirmar el compromiso de resolver los conflictos por el diálogo y la mediación, coherente con el buen trato y la horizontalidad.",
+    "Designar a la Comisión de Convivencia y Resolución de Conflictos como órgano mediador interno.",
+    "Definir un procedimiento de mediación escalonado: diálogo directo, mediación de la Comisión y, solo si fracasa, vía disciplinaria o Asamblea.",
+    "Dejar claro que la mediación es la vía PREVIA y preferente a cualquier expediente sancionador o de expulsión.",
+    "Respetar el mínimo legal del régimen disciplinario (tipificación de faltas, audiencia previa, competencia del Consejo Rector y recursos), que la mediación no puede sustituir.",
+    "Prever apoyo o asesoramiento externo en mediación cuando el conflicto lo requiera."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿La mediación previa es obligatoria antes de iniciar un expediente sancionador, o solo recomendada?",
+    "¿Quién compone la mesa de mediación cuando la Comisión de Convivencia es parte del conflicto o está implicada personalmente?",
+    "¿Se recurre a mediación externa profesional cuando el conflicto no se resuelve internamente, y quién paga ese servicio?",
+    "¿Qué asuntos NO son mediables y pasan directamente a la vía disciplinaria (faltas muy graves, seguridad de las personas)?",
+    "¿La mediación va en Estatutos (como principio) y en RRI (el procedimiento), o solo en el RRI?"
+  ],
+  "risks": [
+    "Confiar todo a la mediación sin tipificar faltas ni fijar procedimiento sancionador incumpliría el contenido estatutario obligatorio (art. 13.i Ley 4/2002 CyL).",
+    "Presentar la mediación como sustituto de las garantías legales (audiencia previa, recurso) es ilegal: la mediación complementa, no reemplaza, al régimen disciplinario.",
+    "En un grupo pequeño de amigos, que la Comisión de Convivencia sea a la vez mediadora y parte puede contaminar el proceso; hace falta prever la abstención o un tercero.",
+    "Dejar la carga emocional de mediar siempre en las mismas personas (con frecuencia mujeres) contradice el valor ecofeminista del proyecto.",
+    "No fijar plazos ni cierre de la mediación puede enquistar el conflicto en lugar de resolverlo."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "El compromiso con la resolución dialogada de conflictos y la existencia de un órgano mediador pueden anclarse en Estatutos como principio, con desarrollo mínimo.",
+      "El procedimiento concreto de mediación (fases, plazos, composición de la mesa, uso de apoyo externo) es operativo y revisable: encaja mejor en el RRI.",
+      "El régimen disciplinario (tipificación de faltas, procedimiento sancionador y expulsión) es contenido estatutario obligatorio y debe convivir con la mediación como vía previa."
+    ],
+    "shouldBeInStatutes": [
+      "Principio de resolución de conflictos por el diálogo y la mediación.",
+      "Previsión de comisiones o del órgano de resolución de conflictos (Comisión de Convivencia).",
+      "Régimen disciplinario mínimo: tipificación de faltas, procedimiento sancionador con audiencia previa, competencia del Consejo Rector y recursos, y expulsión solo por falta muy grave."
+    ],
+    "shouldBeInRRI": [
+      "Procedimiento de mediación escalonado y sus plazos.",
+      "Composición de la mesa de mediación y regla de abstención cuando haya conflicto de interés.",
+      "Criterios para recurrir a mediación externa y asuntos no mediables.",
+      "Articulación entre la mediación (vía previa) y el inicio del expediente sancionador."
+    ],
+    "canBeDeferredInitially": [
+      "Protocolos finos de acompañamiento emocional y formularios de solicitud de mediación."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Fijar en Estatutos plazos y detalles del procedimiento de mediación los vuelve rígidos y difíciles de ajustar con la experiencia."
+    ],
+    "risksIfPlacedInRRI": [
+      "Dejar el régimen disciplinario y las garantías básicas solo en el RRI incumpliría el contenido estatutario obligatorio."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "regimen_disciplinario",
+      "relationship": "limits",
+      "explanation": "La mediación es la vía previa; si fracasa o el asunto es muy grave, se abre el procedimiento sancionador con sus garantías legales."
+    },
+    {
+      "topicSlug": "comisiones",
+      "relationship": "operationalizes",
+      "explanation": "La Comisión de Convivencia y Resolución de Conflictos es el órgano que instrumenta la mediación."
+    },
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Un conflicto no resuelto puede desembocar en expulsión o en una salida acompañada; la mediación busca evitar que llegue ahí."
+    },
+    {
+      "topicSlug": "toma_de_decisiones",
+      "relationship": "complements",
+      "explanation": "Muchos conflictos nacen de desacuerdos en la toma de decisiones horizontal; la mediación ayuda a reconducirlos."
+    }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "La Ley 4/2002 de Cooperativas de Castilla y León no regula la mediación entre socios, pero sí obliga a que los Estatutos incluyan las \"normas de disciplina social\": la tipificación de faltas y sanciones, el procedimiento sancionador y la pérdida de la condición de socio (art. 13.i). Es decir, el régimen disciplinario es contenido estatutario obligatorio, mientras que la mediación es una vía voluntaria que podéis añadir y que la ley ni exige ni prohíbe.",
+        "El margen es amplio: podéis establecer la mediación como fase previa y preferente a cualquier sanción, siempre que no sustituya las garantías imperativas del expediente sancionador. Esas garantías (faltas previamente tipificadas, audiencia previa, competencia indelegable del Consejo Rector, recurso ante el Comité de Recursos o la Asamblea, y expulsión solo por falta muy grave) marcan el suelo que la mediación complementa, nunca reemplaza."
+      ],
+      "requirements": [
+        { "aspect": "Disciplina social en Estatutos", "law": "Ley 4/2002 CyL, art. 13.i", "requirement": "Los Estatutos deben incluir normas de disciplina social: tipificación de faltas y sanciones, procedimiento sancionador y pérdida de la condición de socio.", "margin": "La mediación previa es opcional y la añadís vosotros." },
+        { "aspect": "Tipificación de faltas", "law": "Ley 4/2002 CyL, art. 24.1", "requirement": "Solo se puede sancionar por faltas previamente tipificadas en los Estatutos, clasificadas en leves, graves y muy graves.", "margin": "Definís el catálogo de faltas." },
+        { "aspect": "Prescripción de las faltas", "law": "Ley 4/2002 CyL, art. 24.2", "requirement": "Prescriben: leves a los 2 meses, graves a los 4 y muy graves a los 6, desde que se cometen.", "margin": "Sin margen sobre los plazos." },
+        { "aspect": "Procedimiento y audiencia previa", "law": "Ley 4/2002 CyL, art. 24.3", "requirement": "La facultad sancionadora es competencia indelegable del Consejo Rector; es preceptiva la audiencia previa; el acuerdo se recurre ante el Comité de Recursos o la Asamblea.", "margin": "Fijáis el procedimiento respetando estas reglas." },
+        { "aspect": "Expulsión", "law": "Ley 4/2002 CyL, art. 24.5", "requirement": "La expulsión procede únicamente por falta muy grave y es impugnable en los mismos plazos y términos.", "margin": "Definís qué conductas son falta muy grave." },
+        { "aspect": "Mediación previa", "law": "Ley 4/2002 CyL (no regulada)", "requirement": "La ley no regula la mediación entre socios; cabe preverla como fase voluntaria previa a la vía disciplinaria.", "margin": "Libertad para diseñarla, sin vaciar las garantías legales." }
+      ],
+      "citations": [
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 13.i (contenido estatutario: disciplina social)",
+          "excerpt": "i) Normas de disciplina social. Tipificación de las faltas y sanciones. Procedimiento sancionador y pérdida de la condición de socio."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 24.1 y 24.3 (faltas y procedimiento)",
+          "excerpt": "Los socios sólo podrán ser sancionados por las faltas previamente tipificadas en los Estatutos, que se clasificarán en faltas leves, graves y muy graves. [...] Los Estatutos establecerán los procedimientos sancionadores y los recursos que procedan, respetando las siguientes normas: a) La facultad sancionadora es competencia indelegable del Consejo Rector... b) En todos los supuestos es preceptiva la audiencia previa de los interesados, y sus alegaciones deberán realizarse por escrito en los casos de faltas graves o muy graves. c) El acuerdo de sanción podrá ser impugnado ante el Comité de Recursos y en su defecto ante la Asamblea General."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 24.5 (expulsión)",
+          "excerpt": "La expulsión del socio procederá únicamente por falta muy grave y podrá ser impugnada en los mismos plazos y términos previstos en el número 3 de este artículo."
+        }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo abordan otras cooperativas la resolución de conflictos y la mediación. La mayoría son de viviendas o cesión de uso; sirven de referencia teniendo en cuenta que El Buen Vivir es de usuarios.",
+      "columns": [
+        { "key": "organo", "label": "Órgano mediador" },
+        { "key": "via_previa", "label": "Mediación como vía previa" },
+        { "key": "escalado", "label": "Escalado si no hay acuerdo" },
+        { "key": "ubicacion", "label": "Dónde se regula" }
+      ],
+      "rows": [
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": { "organo": "Comisiones de resolución de conflictos", "via_previa": "Sí, con apoyo/asesoramiento en mediación", "escalado": "Otros métodos de resolución", "ubicacion": "Estatutos (art. 54)" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 54 — Resolución de conflictos",
+          "excerpt": "La Cooperativa se compromete a buscar los mecanismos más adecuados en todo momento por una resolución responsable y comprometida de los conflictos que puedan darse tanto entre las personas socias de la cooperativa, sean estas constituyentes de una misma unidad de convivencia o no, como aquellos que puedan ocurrir entre personas socias con la Cooperativa o de ésta con terceros. Podrá nombrar comisiones de resolución de conflictos, que podrán contar con el apoyo o asesoramiento necesario en cuanto a la mediación en conflictos u otros métodos para su resolución."
+        },
+        {
+          "project": "RRI modelo cesión de uso (Vañó)",
+          "cells": { "organo": "Comisión de Convivencia / órgano mediador", "via_previa": "Sí: negociación y mediación primero", "escalado": "Arbitraje → Federación → Asamblea Extraordinaria", "ubicacion": "RRI (arts. 11 y 12)" },
+          "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+          "articleOrSection": "Artículo 12 — Resolución de Conflictos",
+          "excerpt": "En caso de surgir desacuerdos, disputas o conflictos entre las/os socias/os... se establece el siguiente procedimiento para su resolución: 1. Negociación y Mediación: Las partes involucradas deberán realizar esfuerzos de buena fe para resolver el conflicto a través de negociaciones directas y, en caso de ser necesario, mediante el uso de servicios de mediación. La mediación puede ser llevada a cabo por un mediador externo imparcial o por un órgano mediador interno designado por la Asamblea General. 2. Arbitraje: Si las negociaciones y la mediación no logran resolver el conflicto, las partes acuerdan someterse a un proceso de arbitraje."
+        },
+        {
+          "project": "Axuntase (Asturias) — RRI",
+          "cells": { "organo": "Consejo Rector dirime; Asamblea decide", "via_previa": "Reclamación interna previa", "escalado": "Consejo Rector → Asamblea General por mayoría", "ubicacion": "RRI (normas de convivencia)" },
+          "documentSlug": "docs-rri-rri-axuntase",
+          "articleOrSection": "Capítulo V — Normas de convivencia (art. 12.5)",
+          "excerpt": "Para el supuesto de que los animales pudieran suponer un conflicto con la salud y/o convivencia entre los usuarios del cohousing, se elevará reclamación al Consejo Rector, quien dirimirá la controversia, pudiendo la persona que se entienda perjudicada solicitar consulta a la asamblea general, quien decidirá por mayoría de votos presentes de forma definitiva."
+        },
+        {
+          "project": "Tarocohousing (Canarias)",
+          "cells": { "organo": "Consejo Rector (vía disciplinaria)", "via_previa": "Carta de compromiso de convivencia", "escalado": "Falta grave/muy grave → sanción", "ubicacion": "Estatutos (faltas)" },
+          "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+          "articleOrSection": "Faltas muy graves (alteración de la convivencia)",
+          "excerpt": "El incumplimiento de las obligaciones establecidas en el artículo 14, sobre todo el causar problemas de alteración de la convivencia o no respetar los principios de la cooperativa y la carta de compromiso."
+        },
+        {
+          "project": "Pequeño Pueblo / Pepu (Castilla y León)",
+          "cells": { "organo": "Consejo Rector (expediente)", "via_previa": "No explícita; audiencia previa", "escalado": "Expediente → Asamblea (recurso)", "ubicacion": "Estatutos (régimen disciplinario)" },
+          "documentSlug": "docs-estatutos-estatutos-pepu",
+          "articleOrSection": "Baja por exclusión — procedimiento y efectos",
+          "excerpt": "La exclusión de la persona socia de la sociedad cooperativa sólo podrá ser acordada por falta muy grave, tipificada en estos Estatutos, en su artículo 15, mediante expediente instruido al efecto por el Consejo Rector, con audiencia previa de la persona interesada. En todo caso, la persona socia afectada por la exclusión no podrá votar sobre este asunto ni formará parte de cualquier órgano social que tuviera competencia al efecto."
+        }
+      ],
+      "note": "Dos lógicas conviven: una preventiva y dialogada (La Borda y el modelo de cesión de uso, con comisiones de mediación como vía previa) y otra disciplinaria (Tarocohousing y Pepu, en CyL, donde el conflicto grave se resuelve por expediente sancionador). El modelo más completo (RRI de cesión de uso) encadena mediación → arbitraje → federación → Asamblea, dejando el expediente como último recurso."
+    },
+    "proposal": {
+      "rationale": [
+        "El buen trato es el centro declarado del proyecto y el grupo se organiza de forma horizontal y sin jerarquías: la resolución dialogada de los conflictos es coherente con esos valores.",
+        "El Buen Vivir ya tiene una Comisión de Convivencia y Resolución de Conflictos activa, orientada a prevenir y mediar \"antes de que los conflictos escalen\" (documento 5W de la comisión); tiene sentido reconocerla como órgano mediador.",
+        "La Hoja de Ruta atribuye expresamente al RRI la \"gestión de conflictos\", lo que confirma que el procedimiento de mediación debe desarrollarse ahí, con anclaje estatutario mínimo.",
+        "La propia comisión advierte que la carga emocional de mediar no debe recaer siempre en las mismas personas (a menudo mujeres): un procedimiento claro y compartido protege ese valor ecofeminista."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Resolución de conflictos y régimen disciplinario",
+          "text": "La cooperativa se compromete a resolver los conflictos internos por la vía del diálogo y la mediación. Con esta finalidad podrá constituir una Comisión de Convivencia y Resolución de Conflictos que actúe como órgano mediador. La mediación es la vía previa y preferente; solo cuando resulte inviable o el asunto revista especial gravedad se acudirá al régimen disciplinario. Los socios únicamente podrán ser sancionados por faltas previamente tipificadas en estos Estatutos, clasificadas en leves, graves y muy graves; el procedimiento sancionador es competencia indelegable del Consejo Rector, requiere audiencia previa de la persona interesada y su acuerdo es recurrible ante [el Comité de Recursos y, en su defecto,] la Asamblea General. La expulsión solo procederá por falta muy grave.",
+          "note": "Combina el principio de mediación con el mínimo imperativo del art. 24 Ley 4/2002 CyL. El catálogo concreto de faltas y sanciones debe desarrollarse en el tema de régimen disciplinario."
+        },
+        {
+          "target": "rri",
+          "heading": "Procedimiento de mediación",
+          "text": "Ante un conflicto entre personas socias, o entre una persona socia y la cooperativa, se seguirá este itinerario: (1) diálogo directo de buena fe entre las partes; (2) si no hay acuerdo, cualquiera de las partes podrá solicitar la mediación de la Comisión de Convivencia y Resolución de Conflictos, que convocará una o varias sesiones en un plazo de [15] días y buscará una solución consensuada; (3) cuando el conflicto lo requiera o afecte a miembros de la propia Comisión, se recurrirá a una persona mediadora externa e imparcial; (4) si la mediación no prospera en el plazo de [dos meses], o si los hechos pudieran constituir falta grave o muy grave, el asunto pasará al Consejo Rector para, en su caso, iniciar el procedimiento sancionador con todas sus garantías. La persona de la Comisión implicada personalmente en un conflicto se abstendrá de mediar en él.",
+          "note": "Plazos y composición van en corchetes por decidir. La regla de abstención evita que la Comisión sea juez y parte en un grupo pequeño."
+        },
+        {
+          "target": "rri",
+          "heading": "Asuntos no mediables y cuidado del proceso",
+          "text": "No serán objeto de mediación las conductas que pongan en riesgo la seguridad o la integridad de las personas, que se tratarán directamente por la vía disciplinaria. La cooperativa velará por que la tarea de mediación y cuidado emocional se reparta y rote, y no recaiga siempre en las mismas personas. Todo proceso de mediación es confidencial y se orienta a restaurar la convivencia, no a sancionar.",
+          "note": "Recoge los límites de la mediación y el valor ecofeminista de repartir la carga de cuidados que la propia comisión señala."
+        }
+      ],
+      "openDecisions": [
+        "¿La mediación previa será obligatoria antes de cualquier expediente sancionador, o solo recomendada?",
+        "¿Qué plazos tendrá la mediación (convocatoria y cierre) y cuándo se declara agotada?",
+        "¿Se recurre a mediación externa profesional y quién asume su coste?",
+        "¿Qué conductas se consideran no mediables y pasan directamente a la vía disciplinaria?",
+        "¿Cómo se compone la mesa de mediación y qué regla de abstención se aplica cuando la Comisión es parte?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos y RRI de otras cooperativas y las actas y documentos de comisión del grupo. Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
+  "suggestedClause": {
+    "text": "La cooperativa resolverá sus conflictos internos por la vía del diálogo y la mediación, para lo que podrá servirse de la Comisión de Convivencia y Resolución de Conflictos como órgano mediador. La mediación es la vía previa y preferente a cualquier sanción; solo cuando resulte inviable o el asunto revista especial gravedad se acudirá al régimen disciplinario, con las garantías que exige la Ley 4/2002 CyL. La expulsión solo procederá por falta muy grave.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación, en especial la articulación con el régimen disciplinario.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

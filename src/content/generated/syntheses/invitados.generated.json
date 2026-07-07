@@ -1,131 +1,103 @@
 {
   "slug": "invitados",
-  "generatedAt": "2026-05-14T09:24:12.535Z",
+  "generatedAt": "2026-07-07T07:29:53.093Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/invitados.md",
-    "referencesCount": 6,
+    "referencesCount": 7,
     "documents": [
-      "Docs-estatutos-estatutos-entrepatios",
-      "Docs-estatutos-estatutos-senior-cohousing-huelva",
-      "Docs-estatutos-estatutos-tejiendovida-asociacion",
-      "Docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "Docs-guias-las-guias-de-sostre-civic",
-      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "Docs-otros-modelo-estatutos-viviendas",
-      "Docs-rri-informe-cooperativas-cesion-de-uso",
-      "Docs-rri-rri-vallecas2homes"
+      "docs-estatutos-estatutos-elciempies",
+      "docs-estatutos-estatutos-los-girasoles",
+      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+      "docs-otros-modelo-estatutos-viviendas",
+      "docs-rri-rri-vallecas2homes"
     ]
   },
   "summary": {
     "overview": [
-      "Los extractos más claros relacionan este tema con espacios comunes, invitados y pernoctas.",
-      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Senior Cohousing Huelva, Estatutos Tejiendovida Asociacion.",
-      "El uso de espacios comunes suele regularse mediante reglas prácticas de reserva, cuidado y prioridad de usos."
+      "No se han detectado suficientes extractos claros sobre personas invitadas.",
+      "Conviene revisar manualmente los documentos antes de convertir esta cuestión en una cláusula."
     ],
     "commonPatterns": [
-      "El uso de espacios comunes suele regularse mediante reglas prácticas de reserva, cuidado y prioridad de usos.",
-      "Las visitas e invitados suelen conectarse con reservas, pernoctas, uso de espacios y convivencia."
+      "No se han detectado suficientes extractos claros sobre personas invitadas."
     ],
     "majorDifferences": [
-      "Las diferencias prácticas dependen de si el proyecto prioriza reglas estables, procedimientos internos o soluciones caso por caso."
+      "No hay base suficiente para comparar soluciones prácticas entre proyectos."
     ],
     "commonRisks": [
-      "La falta de criterios puede generar conflictos entre uso individual, uso comunitario e invitados.",
-      "Si no hay criterios, puede tensionarse el equilibrio entre hospitalidad, intimidad y disponibilidad de espacios."
+      "El principal riesgo es regular con una base documental demasiado débil."
     ],
     "commonTradeoffs": [
-      "Uso flexible del espacio vs prevención de conflictos de convivencia"
+      "Conviene mantener abierto el equilibrio entre seguridad jurídica y aprendizaje progresivo."
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Principio general de uso compartido y respeto a acuerdos comunitarios",
-      "Principio general de compatibilidad entre uso privado, convivencia y espacios comunes"
+      "Solo conviene llevar a Estatutos principios o derechos básicos si se confirman en revisión jurídica."
     ],
     "usuallyInRRI": [
-      "Reservas, horarios, prioridades, limpieza y criterios de uso cotidiano",
-      "Avisos, límites de pernocta, reservas y responsabilidades de la persona anfitriona"
+      "Los detalles operativos deberían esperar a contar con ejemplos más claros o acuerdos internos."
     ],
     "mixedApproaches": [
-      "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
+      "No se detecta un enfoque mixto claro con la información disponible."
     ],
     "notes": [
-      "No conviene llevar a Estatutos detalles que el grupo necesite aprender o ajustar con la práctica.",
-      "La revisión jurídica debe confirmar qué materias exigen rango estatutario."
+      "Evitar sobrerregular sin evidencia suficiente.",
+      "Separar principios estables de prácticas que puedan aprenderse con el uso."
     ]
   },
   "recommendationsForBuenVivir": {
     "minimalApproach": [
-      "Fijar solo principios y efectos básicos que necesiten estabilidad.",
-      "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
-      "Decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados"
+      "Mantener una redacción mínima y prudente hasta revisar más documentos."
     ],
     "flexibleApproach": [
-      "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
-      "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
-      "Decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados"
+      "Dejar los detalles operativos para acuerdos revisables."
     ],
     "pointsToDecideSoon": [
-      "Decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
-      "Decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados"
+      "Qué decisión concreta necesita seguridad desde el inicio."
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "Detalles procedimentales o formularios internos."
     ]
   },
   "detectedTensions": [
-    "Uso flexible del espacio vs prevención de conflictos de convivencia"
+    "Información limitada: conviene evitar conclusiones fuertes hasta revisar más extractos."
   ],
   "notableProjects": [
-    {
-      "projectName": "Las GuíAs De Sostre CíVic",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
-      "references": [
-        "Las GuíAs De Sostre CíVic - Documento completo",
-        "Las GuíAs De Sostre CíVic - Título original: La construcció i la cura dels grups",
-        "Las GuíAs De Sostre CíVic - Título original: Cures en la convivència de persones grans"
-      ]
-    },
-    {
-      "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
-      "references": [
-        "Estatutos Entrepatios - Artículo 6. Personas que pueden ser socias. Las/los colaboradoras/es.",
-        "Estatutos Entrepatios - Artículo 11. Trasmisión de derechos."
-      ]
-    },
     {
       "projectName": "MODELO ESTATUTOS VIVIENDAS",
       "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
-        "MODELO ESTATUTOS VIVIENDAS - Artículo 43.- Operaciones con terceras personas",
-        "MODELO ESTATUTOS VIVIENDAS - sección."
+        "MODELO ESTATUTOS VIVIENDAS - 3. Si la Cooperativa realizara operaciones con terceras personas prescindiendo de lo anteriormente",
+        "MODELO ESTATUTOS VIVIENDAS - 4. Los ingresos obtenidos de operaciones con terceras personas se destinarán en un 10%, a dotar el",
+        "MODELO ESTATUTOS VIVIENDAS - Artículo 43.- Operaciones con terceras personas"
+      ]
+    },
+    {
+      "projectName": "Estatutos Elciempies",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "references": [
+        "Estatutos Elciempies - c) Revocación de los cargos sociales antes mencionados."
+      ]
+    },
+    {
+      "projectName": "Estatutos Los Girasoles",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "references": [
+        "Estatutos Los Girasoles - c) Revocación de los cargos sociales antes mencionados."
+      ]
+    },
+    {
+      "projectName": "Otras Leyes, Decretos, Modificaciones",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "references": [
+        "BOE A 2007 19884 Consolidado RD+1514 2007 - 3. A los efectos de esta norma, se entenderá por familiares próximos a aquellos que"
       ]
     },
     {
       "projectName": "Rri Vallecas2homes",
       "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
-        "Rri Vallecas2homes - Artículo 27. Cesión de derechos a familiares.",
         "Rri Vallecas2homes - Artículo 27. Cesión de derechos a familiares."
-      ]
-    },
-    {
-      "projectName": "Estatutos Senior Cohousing Huelva",
-      "notableBecause": "Aparece en relación con espacios comunes.",
-      "references": [
-        "Estatutos Senior Cohousing Huelva - Artículo 2. Objeto Social"
-      ]
-    },
-    {
-      "projectName": "Estatutos Tejiendovida Asociacion",
-      "notableBecause": "Aparece en relación con invitados y pernoctas.",
-      "references": [
-        "Estatutos Tejiendovida Asociacion - Artículo 14º.- Sesiones."
       ]
     }
   ],

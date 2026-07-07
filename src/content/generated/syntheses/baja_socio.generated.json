@@ -1,72 +1,71 @@
 {
   "slug": "baja_socio",
-  "generatedAt": "2026-05-14T09:24:12.456Z",
+  "generatedAt": "2026-07-07T07:29:53.038Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/baja_socio.md",
     "referencesCount": 18,
     "documents": [
-      "Docs-estatutos-estatutos-axuntase",
-      "Docs-estatutos-estatutos-entrepatios",
-      "Docs-estatutos-estatutos-laseronda-org",
-      "Docs-estatutos-estatutos-losnidales",
-      "Docs-estatutos-estatutos-pepu",
-      "Docs-estatutos-estatutos-pequenopueblo",
-      "Docs-estatutos-estatutos-senior-cohousing-huelva",
-      "Docs-estatutos-estatutos-tarocohousing",
-      "Docs-leyes-normativa-autonomica",
-      "Docs-leyes-normativa-estatal",
-      "Docs-otros-mod-estatutos-coop-viviendas",
-      "Docs-otros-modelo-estatutos-viviendas"
+      "docs-estatutos-estatutos-axuntase",
+      "docs-estatutos-estatutos-elciempies",
+      "docs-estatutos-estatutos-entrepatios",
+      "docs-estatutos-estatutos-laseronda-org",
+      "docs-estatutos-estatutos-los-girasoles",
+      "docs-estatutos-estatutos-losnidales",
+      "docs-estatutos-estatutos-pepu",
+      "docs-estatutos-estatutos-pequenopueblo",
+      "docs-estatutos-estatutos-tarocohousing",
+      "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "docs-leyes-normativa-estatal",
+      "docs-otros-modelo-estatutos-viviendas"
     ]
   },
   "summary": {
     "overview": [
       "Los extractos más claros relacionan este tema con baja o salida de una persona socia, derechos y obligaciones, reembolso.",
-      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Pepu, Estatutos Pequenopueblo, Estatutos Tarocohousing, Estatutos Axuntase.",
+      "Aparecen ejemplos en varios proyectos, entre ellos GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4, Estatutos Pepu, Estatutos Pequenopueblo, Estatutos Tarocohousing.",
       "Varios proyectos distinguen tipos de baja o pérdida de condición de persona socia."
     ],
     "commonPatterns": [
       "Varios proyectos distinguen tipos de baja o pérdida de condición de persona socia.",
       "Los textos suelen combinar derechos de participación e información con obligaciones económicas y de convivencia.",
       "La devolución de aportaciones aparece vinculada al reembolso y, en algunos casos, a deducciones o plazos.",
-      "Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones.",
-      "La aportación obligatoria aparece como una condición económica básica de pertenencia o participación.",
+      "Cuando aparece expulsión, suele vincularse a incumplimientos graves y a un procedimiento con garantías.",
+      "Algunos documentos prevén efectos específicos cuando la pérdida de condición deriva de fallecimiento.",
       "La salida aparece conectada con el reembolso de aportaciones y con efectos económicos que conviene fijar con claridad."
     ],
     "majorDifferences": [
       "La diferencia práctica suele estar entre una salida libre con preaviso y una salida condicionada por incumplimientos, sustitución o efectos económicos.",
-      "La diferencia práctica suele estar entre devolución inmediata, devolución condicionada por liquidez y devolución vinculada a nueva incorporación.",
-      "Algunos textos parecen tratarla como capital social estable y otros la conectan con cuotas, financiación o derechos de uso."
+      "La diferencia práctica suele estar entre devolución inmediata, devolución condicionada por liquidez y devolución vinculada a nueva incorporación."
     ],
     "commonRisks": [
       "Una salida mal regulada puede tensionar la liquidez, el uso de espacios y la continuidad del grupo.",
       "Una lista amplia pero poco operativa puede dificultar distinguir obligaciones esenciales de prácticas cotidianas.",
       "Un reembolso inmediato puede tensionar la caja; un reembolso indefinido puede generar inseguridad para quien sale.",
-      "Si no se aclaran los criterios de entrada, puede aparecer discrecionalidad o conflicto sobre quién puede incorporarse.",
-      "Si la aportación se vincula a poder, uso o permanencia sin límites claros, puede generar desigualdad interna."
+      "Sin garantías mínimas, el régimen disciplinario puede convertirse en una fuente de impugnación o conflicto interno.",
+      "Si no se prevé este caso, pueden aparecer tensiones entre derechos económicos, convivencia y expectativas familiares."
     ],
     "commonTradeoffs": [
-      "Salida flexible vs estabilidad económica del proyecto",
-      "Derecho de salida vs estabilidad financiera del proyecto",
-      "Igualdad formal vs aportaciones económicas desiguales"
+      "salida flexible vs estabilidad económica del proyecto",
+      "derecho de salida vs estabilidad financiera del proyecto"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Causas y clases de baja",
-      "Efectos económicos básicos",
-      "Derecho de reembolso",
-      "Criterios generales de deducción y plazos",
-      "Causas y clases de baja, pérdida de condición de socia y efectos económicos básicos",
-      "Derechos y obligaciones esenciales de las personas socias"
+      "causas y clases de baja",
+      "efectos económicos básicos",
+      "derecho de reembolso",
+      "criterios generales de deducción y plazos",
+      "causas y clases de baja, pérdida de condición de socia y efectos económicos básicos",
+      "derechos y obligaciones esenciales de las personas socias"
     ],
     "usuallyInRRI": [
-      "Procedimiento interno de solicitud o comunicación de baja",
-      "Acompañamiento de la salida",
-      "Gestión de sustitución o lista de espera",
-      "Reglas prácticas de entrega de llaves y cierre de uso",
-      "Procedimiento interno de comunicación, acompañamiento de salida y cierre de usos o llaves",
-      "Pautas cotidianas para hacer efectivos esos derechos y deberes"
+      "procedimiento interno de solicitud o comunicación de baja",
+      "acompañamiento de la salida",
+      "gestión de sustitución o lista de espera",
+      "reglas prácticas de entrega de llaves y cierre de uso",
+      "procedimiento interno de comunicación, acompañamiento de salida y cierre de usos o llaves",
+      "pautas cotidianas para hacer efectivos esos derechos y deberes"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -80,74 +79,72 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
-      "Separar obligaciones esenciales de compromisos prácticos revisables"
+      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
+      "separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
-      "Separar obligaciones esenciales de compromisos prácticos revisables"
+      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
+      "separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "pointsToDecideSoon": [
-      "Decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
-      "Separar obligaciones esenciales de compromisos prácticos revisables",
-      "Decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
-      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
+      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
+      "separar obligaciones esenciales de compromisos prácticos revisables",
+      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "decidir qué conflictos deben pasar por mediación antes de convertirse en sanción",
+      "decidir cómo se coordinan herederos, continuidad del proyecto y uso de espacios",
       "Decidir cómo se devuelve dinero si no hay liquidez suficiente en el momento de la baja."
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Salida flexible vs estabilidad económica del proyecto",
-    "Derecho de salida vs estabilidad financiera del proyecto",
-    "Igualdad formal vs aportaciones económicas desiguales"
+    "salida flexible vs estabilidad económica del proyecto",
+    "derecho de salida vs estabilidad financiera del proyecto"
   ],
   "notableProjects": [
     {
-      "projectName": "Normativa Autonomica",
-      "notableBecause": "Aparece en relación con baja o salida de una persona socia, derechos y obligaciones, reembolso.",
+      "projectName": "Estatutos Entrepatios",
+      "notableBecause": "Aparece en relación con baja o salida de una persona socia, derechos y obligaciones.",
       "references": [
-        "Normativa Autonomica - Artículo 105. Baja obligatoria por causas económicas, técnicas, organizativas, de",
-        "Normativa Autonomica - Artículo 21. Baja obligatoria del socio.",
-        "Normativa Autonomica - Artículo 20. Baja voluntaria."
+        "Estatutos Entrepatios - 1. La persona socia causará baja obligatoria en la Cooperativa cuando",
+        "Estatutos Entrepatios - 3. En el caso de que una persona socia quiera darse de baja voluntaria en la"
       ]
     },
     {
-      "projectName": "Estatutos Senior Cohousing Huelva",
-      "notableBecause": "Aparece en relación con baja o salida de una persona socia, derechos y obligaciones.",
+      "projectName": "Estatutos Laseronda.Org",
+      "notableBecause": "Aparece en relación con baja o salida de una persona socia, derechos y obligaciones, reembolso.",
       "references": [
-        "Estatutos Senior Cohousing Huelva - Artículo 14. Causas y efectos de la baja obligatoria",
-        "Estatutos Senior Cohousing Huelva - Artículo 13. Causas y efectos de la baja voluntaria"
+        "Estatutos Laseronda.Org - 1. Baja voluntaria",
+        "Estatutos Laseronda.Org - 2. Baja Obligatoria"
       ]
     },
     {
       "projectName": "Estatutos Tarocohousing",
-      "notableBecause": "Aparece en relación con baja o salida de una persona socia.",
+      "notableBecause": "Aparece en relación con baja o salida de una persona socia, reembolso.",
       "references": [
         "Estatutos Tarocohousing - Artículo 16.- Baja obligatoria",
-        "Estatutos Tarocohousing - Artículo 15.- Baja voluntaria"
+        "Estatutos Tarocohousing - i) A adquirir la condición de socio/a colaborador/a si causara baja voluntaria justificada o baja"
       ]
     },
     {
-      "projectName": "MOD ESTATUTOS COOP VIVIENDAS",
+      "projectName": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+      "notableBecause": "Aparece en relación con baja o salida de una persona socia, reembolso, expulsión o sanción.",
+      "references": [
+        "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4 - a) Clases de baja: baja voluntaria y baja obligatoria. Baja justificada e injustificada",
+        "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4 - i) Las clases de socios, los requisitos para su admisión, los supuestos de baja voluntaria y de baja"
+      ]
+    },
+    {
+      "projectName": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
       "notableBecause": "Aparece en relación con baja o salida de una persona socia, derechos y obligaciones, reembolso.",
       "references": [
-        "MOD ESTATUTOS COOP VIVIENDAS - ARTÍCULO 12.- BAJA VOLUNTARIA.",
-        "MOD ESTATUTOS COOP VIVIENDAS - ARTÍCULO 14.- BAJA OBLIGATORIA."
-      ]
-    },
-    {
-      "projectName": "MODELO ESTATUTOS VIVIENDAS",
-      "notableBecause": "Aparece en relación con baja o salida de una persona socia, derechos y obligaciones, financiación.",
-      "references": [
-        "MODELO ESTATUTOS VIVIENDAS - Artículo 15.- Causas y efectos de la baja obligatoria",
-        "MODELO ESTATUTOS VIVIENDAS - Artículo 14.- Causas y efectos de la baja voluntaria"
+        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024 - 2.4.2. La baja obligatoria.",
+        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024 - f) Derecho a la baja voluntaria y a recibir el reembolso de sus aportaciones al capital social."
       ]
     },
     {

@@ -7,9 +7,9 @@
     "Conviene valorar una regla mínima sobre reembolso, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre devolucion de aportaciones, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre liquidacion, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Reembolso, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre d) El Consejo Rector podrá aplazar el reembolso de la liquidación en el plazo que, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre Reembolso de las aportaciones, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre El capital social. Aportaciones iniciales dinerarias y no, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre b) aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por, contrastando las referencias automáticas del research pack.",
     "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
   ],
   "legalBasis": [],
@@ -24,7 +24,7 @@
   "risks": [
     "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
     "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
-    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Tradeoffs: conviene equilibrar seguridad jurídica interna, claridad comunitaria y capacidad de aprendizaje.",
     "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
   ],
   "governancePlacement": {
@@ -96,25 +96,17 @@
     "curated": false,
     "sourceResearchPack": "src/content/research-packs/reembolso_aportaciones.md",
     "evidenceCount": 18,
-    "highConfidenceEvidence": 18,
-    "mediumConfidenceEvidence": 0,
+    "highConfidenceEvidence": 2,
+    "mediumConfidenceEvidence": 16,
     "lowConfidenceEvidence": 0,
     "evidence": [
       {
         "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
         "documentTitle": "Estatutos Senior Cohousing Huelva",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 36. Reembolso",
+        "articleOrSection": "d) El Consejo Rector podrá aplazar el reembolso de la liquidación en el plazo que",
         "confidence": "high",
-        "excerpt": "Artículo 36. Reembolso 36.1. En los supuestos de pérdida de la condición de persona socia o inversora, éstos o sus derechohabientes, tienen derecho a exigir el reembolso de sus aportaciones integrantes del capital social, cuyo valor será el..."
-      },
-      {
-        "documentSlug": "docs-leyes-normativa-estatal",
-        "documentTitle": "Normativa Estatal",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 51. Reembolso de las aportaciones.",
-        "confidence": "high",
-        "excerpt": "Artículo 51. Reembolso de las aportaciones. 1. Los estatutos regularán el reembolso de las aportaciones al capital social en caso de baja en la cooperativa. La liquidación de estas aportaciones se hará según el balance de cierre del ejercic..."
+        "excerpt": "d) El Consejo Rector podrá aplazar el reembolso de la liquidación en el plazo que señalen los estatutos sociales, que no podrá superar los límites fijados en el artículo 60.4 de la LSCA, a partir de la fecha de baja. El reembolso de la liqu..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-tarocohousing",
@@ -125,27 +117,11 @@
         "excerpt": "Artículo 46.- Reembolso de las aportaciones."
       },
       {
-        "documentSlug": "docs-leyes-normativa-autonomica",
-        "documentTitle": "Normativa Autonomica",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 66. Reembolso de las aportaciones.",
-        "confidence": "high",
-        "excerpt": "Artículo 66. Reembolso de las aportaciones. 1. Los Estatutos sociales regularán el reembolso de las aportaciones al capital en caso de baja en la cooperativa, de acuerdo con las normas fijadas en este artículo. La liquidación BOLETÍN OFICIA..."
-      },
-      {
-        "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
-        "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
-        "documentType": "otro",
-        "articleOrSection": "ARTÍCULO 52.- REEMBOLSO DE LAS APORTACIONES.67",
-        "confidence": "high",
-        "excerpt": "ARTÍCULO 52.- REEMBOLSO DE LAS APORTACIONES.67 1. Los socios tendrán derecho al reembolso de sus aportaciones al capital social en caso de baja en la cooperativa. La liquidación de estas aportaciones se hará según el balance de cierre del e..."
-      },
-      {
         "documentSlug": "docs-estatutos-estatutos-pepu",
         "documentTitle": "Estatutos Pepu",
         "documentType": "estatutos",
         "articleOrSection": "Artículo 45.- Liquidación y reembolso de las aportaciones.",
-        "confidence": "high",
+        "confidence": "medium",
         "excerpt": "Artículo 45.- Liquidación y reembolso de las aportaciones. En cuanto al reembolso de las aportaciones y de las cantidades para financiar la vivienda, y la responsabilidad de los socios que causen baja en la Cooperativa, se estará a lo estab..."
       },
       {
@@ -153,48 +129,72 @@
         "documentTitle": "Estatutos Pequenopueblo",
         "documentType": "estatutos",
         "articleOrSection": "Artículo 45.- Liquidación y reembolso de las aportaciones.",
-        "confidence": "high",
+        "confidence": "medium",
         "excerpt": "Artículo 45.- Liquidación y reembolso de las aportaciones. En cuanto al reembolso de las aportaciones y de las cantidades para financiar la vivienda, y la responsabilidad de los socios que causen baja en la Cooperativa, se estará a lo estab..."
       },
       {
-        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
-        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
-        "documentType": "otro",
-        "articleOrSection": "Artículo 37.- Reembolso",
-        "confidence": "high",
-        "excerpt": "Artículo 37.- Reembolso 1.- En los supuestos de pérdida de la condición de persona socia o inversora, éstos o sus derechohabientes, tienen derecho a exigir el reembolso de sus aportaciones integrantes del capital social, cuyo valor será el..."
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "b) aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por",
+        "confidence": "medium",
+        "excerpt": "b) aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por el Consejo Rector. Del total de las aportaciones obligatorias y voluntarias suscritas por cada socio/a, un 5% de las mismas, hasta un máximo de 5.000 €..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-pepu",
         "documentTitle": "Estatutos Pepu",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 14.- Efectos económicos de las bajas.",
-        "confidence": "high",
-        "excerpt": "Artículo 14.- Efectos económicos de las bajas. 1.- La persona que causa baja en la Cooperativa o sus causahabientes tienen derecho a exigir el reembolso de sus participaciones sociales, tanto el actualizado de las obligatorias como el de la..."
+        "articleOrSection": "Artículo 59.- Liquidación.",
+        "confidence": "medium",
+        "excerpt": "Artículo 59.- Liquidación. 1.- Cumplidas las formalidades legales sobre la disolución de la Cooperativa se abre el período de liquidación, excepto en los supuestos de fusión, absorción o escisión. La Cooperativa disuelta conservará su perso..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
         "documentTitle": "Estatutos Pequenopueblo",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 14.- Efectos económicos de las bajas.",
-        "confidence": "high",
-        "excerpt": "Artículo 14.- Efectos económicos de las bajas. 1.- La persona que causa baja en la Cooperativa o sus causahabientes tienen derecho a exigir el reembolso de sus participaciones sociales, tanto el actualizado de las obligatorias como el de la..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-axuntase",
-        "documentTitle": "Estatutos Axuntase",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 37.- Reembolso de las aportaciones obligatorias o voluntarias",
-        "confidence": "high",
-        "excerpt": "Artículo 37.- Reembolso de las aportaciones obligatorias o voluntarias 1.- La liquidación de las aportaciones al capital social obligatorias o voluntarias se hará según el balance de cierre del ejercicio en el que se produzca la baja, con l..."
+        "articleOrSection": "Artículo 59.- Liquidación.",
+        "confidence": "medium",
+        "excerpt": "Artículo 59.- Liquidación. 1.- Cumplidas las formalidades legales sobre la disolución de la Cooperativa se abre el período de liquidación, excepto en los supuestos de fusión, absorción o escisión. La Cooperativa disuelta conservará su perso..."
       },
       {
         "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2011-18204-ley-6-2011",
         "documentTitle": "BOE A 2011 18204 Ley+6 2011",
         "documentType": "ley",
-        "articleOrSection": "artículo 20.4 o, en su caso, el que establezcan los Estatutos.",
-        "confidence": "high",
-        "excerpt": "artículo 20.4 o, en su caso, el que establezcan los Estatutos. 3. En el caso de baja no justificada por incumplimiento del período de permanencia mínimo, a que se hace referencia en el artículo 20.2 de la presente Ley, se podrá establecer u..."
+        "articleOrSection": "b) Aportaciones cuyo reembolso en caso de baja pueda ser rehusado",
+        "confidence": "medium",
+        "excerpt": "b) Aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por el Consejo Rector. La transformación obligatoria de las aportaciones con derecho de reembolso en caso de baja en aportaciones cuyo reembolso pueda ser..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "documentType": "guia",
+        "articleOrSection": "a) El reembolso de las aportaciones a capital social.",
+        "confidence": "medium",
+        "excerpt": "a) El reembolso de las aportaciones a capital social. Como hemos dicho anteriormente, los estatutos sociales deben regular si este derecho del socio al reembolso de sus aportaciones al capital es incuestionable o si se reserva a la cooperat..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+        "documentType": "guia",
+        "articleOrSection": "c) El reembolso del capital.",
+        "confidence": "medium",
+        "excerpt": "c) El reembolso del capital. El derecho de reembolso del capital social en caso de baja se puede configurar como un derecho incondicional del socio, o bien puede estar sujeto a la voluntad del Consejo Rector que podrá decidir de manera inco..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+        "documentType": "guia",
+        "articleOrSection": "3.7. Reembolso de las participaciones.",
+        "confidence": "medium",
+        "excerpt": "3.7. Reembolso de las participaciones. Como se ha explicado, el régimen de reembolso en caso de baja de la persona socia debe regularse en los estatutos de la cooperativa y, para que el capital sea considerado patrimonio social (fondo propi..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+        "documentType": "guia",
+        "articleOrSection": "6.2. Liquidación.",
+        "confidence": "medium",
+        "excerpt": "6.2. Liquidación. Una vez que se ha disuelto la cooperativa, se debe proceder a su liquidación. Es posible prever en los estatutos a quién corresponde realizar la liquidación. Si no se prevé en los estatutos será la asamblea general la enca..."
       }
     ]
   }

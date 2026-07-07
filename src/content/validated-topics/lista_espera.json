@@ -1,0 +1,100 @@
+{
+  "slug": "lista_espera",
+  "status": "reviewed",
+  "editorialSummary": [
+    "La lista de espera es el mecanismo que permite volver a cubrir una plaza cuando alguien deja la cooperativa, y conecta tres asuntos: quién puede entrar, con qué prioridad y qué pasa con el dinero de quien sale.",
+    "La documentación revisada permite trabajar el tema con seguridad: varias cooperativas regulan la figura de persona socia expectante, casi siempre ordenada por antigüedad de inscripción.",
+    "Para El Buen Vivir el punto clave es doble: al ser grupo de amigos, la entrada no debería ser automática, y la cobertura de la plaza puede servir para desbloquear el reembolso diferido de la cuota umbral."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "priority_criteria",
+      "question": "¿Qué criterio de prioridad ordena la lista de espera?",
+      "recommendationsForBuenVivir": [
+        "La antigüedad de inscripción es el criterio más común y objetivo, pero un grupo de amigos puede querer añadir afinidad o equilibrio; conviene decidir si esos criterios pesan y cómo se ponderan."
+      ]
+    },
+    {
+      "id": "entry_decision",
+      "question": "¿La entrada desde la lista es automática o la aprueba la Asamblea?",
+      "recommendationsForBuenVivir": [
+        "Un acceso puramente automático choca con la decisión por afinidad propia de un grupo pequeño; combinar orden objetivo con aprobación de la Asamblea suele ser más coherente."
+      ]
+    },
+    {
+      "id": "refund_link",
+      "question": "¿La cobertura de la plaza condiciona el reembolso de la cuota umbral?",
+      "recommendationsForBuenVivir": [
+        "Ligar el reembolso a que entre una persona nueva protege la caja, pero conviene fijar un tope temporal para no dejar indefinidamente sin cobrar a quien sale."
+      ]
+    },
+    {
+      "id": "expectant_contribution",
+      "question": "¿Quien está en la lista realiza alguna aportación mientras espera?",
+      "recommendationsForBuenVivir": [
+        "Algunas cooperativas piden una cuota simbólica o un título de expectante; hay que decidir si eso encaja con un proyecto pequeño y antiespeculativo."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "expectant_figure",
+      "statement": "La figura de persona socia expectante y la lista de espera aparecen con claridad en varios estatutos y en la propia ley cooperativa.",
+      "summary": "No es una invención: es una clase de socio reconocida, aunque su regulación fina se remite habitualmente al RRI."
+    },
+    {
+      "id": "seniority_order",
+      "statement": "El criterio más extendido para ordenar la lista es la antigüedad de inscripción.",
+      "summary": "Es objetivo y no discriminatorio; algunas cooperativas lo complementan con criterios sociales (franja etaria, contingente especial)."
+    },
+    {
+      "id": "vacancy_feeds_list",
+      "statement": "Cuando una persona causa baja, su plaza (derecho de uso) revierte a la cooperativa y se ofrece a las personas expectantes.",
+      "summary": "La baja y la lista de espera son dos caras del mismo proceso de rotación de plazas."
+    },
+    {
+      "id": "deferred_refund",
+      "statement": "El reembolso de aportaciones puede diferirse dentro de un plazo máximo legal de cinco años.",
+      "summary": "Esto permite ligar el ritmo del reembolso a la entrada efectiva de una nueva persona socia que cubra la plaza."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "lista_espera-automatic",
+      "statement": "La persona con más antigüedad en la lista entra automáticamente al quedar una plaza libre.",
+      "reason": "La documentación muestra que la antigüedad ordena la lista, pero la admisión efectiva depende del procedimiento de cada cooperativa y, en varias, de un acuerdo del órgano competente; no es un automatismo general."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Definir en los Estatutos la figura de persona socia expectante y remitir el funcionamiento fino de la lista al RRI.",
+    "Elegir un criterio de prioridad objetivo (antigüedad) y decidir de forma explícita si se añaden criterios de afinidad o equilibrio.",
+    "Aclarar quién decide la entrada efectiva desde la lista, coherente con el carácter de grupo de amigos.",
+    "Vincular con prudencia la cobertura de la plaza y el reembolso diferido de la cuota umbral, con un tope temporal claro.",
+    "Prever la preferencia, si se desea, de los miembros de la unidad de convivencia o de los Socios B para ocupar una plaza libre."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Existencia y definición de la persona socia expectante y de la lista de espera.",
+      "Criterio general de prioridad de acceso y órgano que admite la entrada.",
+      "Relación entre la cobertura de la plaza vacante y el reembolso diferido de la cuota umbral."
+    ],
+    "rri": [
+      "Procedimiento de inscripción y actualización de datos en la lista.",
+      "Criterios sociales de prioridad y su ponderación.",
+      "Gestión de la lista por comisiones y aportación de la persona expectante mientras espera."
+    ],
+    "notes": [
+      "La revisión jurídica debe confirmar la adaptación de la figura de socio expectante (regulada en la ley para cooperativas de viviendas) a una cooperativa de usuarios, y ajustar plazos de reembolso."
+    ]
+  },
+  "referencesToUse": [
+    "docs-estatutos-estatutos-tarocohousing: Artículo 7.5 y 9 sobre lista de espera, expectantes y cobertura de la plaza vacante.",
+    "docs-estatutos-estatutos-la-borda: Artículo 5.4 sobre socios expectantes y orden por antigüedad.",
+    "docs-estatutos-estatutos-senior-cohousing-huelva: Artículo 6.2 sobre personas expectantes y criterio de prioridad de entrada.",
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, arts. 19 (admisión), 121 (socio expectante) y 66 (reembolso)."
+  ],
+  "referencesToAvoid": [
+    "No presentar la entrada desde la lista como un automatismo por antigüedad sin acuerdo del órgano competente.",
+    "No trasladar sin filtro los contingentes y franjas etarias de cooperativas de viviendas seniors a una casa rural de uso vacacional compartido."
+  ]
+}

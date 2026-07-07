@@ -1,0 +1,156 @@
+{
+  "slug": "desigualdad_aportaciones",
+  "title": "Aportaciones iniciales desiguales",
+  "shortDescription": "Cómo tratar que cada Socio A aporte una cantidad distinta a la cuota umbral (10.000 €) según su capacidad, manteniendo una persona = un voto, y cómo devolver el exceso aportado por encima del umbral (propuesta de retorno 5%/4%/3% de la Comisión de Economía).",
+  "category": "economico",
+  "minimumContents": [
+    "Fijar una aportación obligatoria mínima al capital para adquirir la condición de socio, separada del umbral orientativo de 10.000 €.",
+    "Dejar por escrito que aportar más no da más voto ni más prioridad: una persona = un voto.",
+    "Definir la naturaleza del exceso aportado por encima del umbral (capital voluntario, préstamo o financiación que no integra capital) y su régimen de devolución.",
+    "Regular el retorno del exceso (la Comisión de Economía propone tramos 5% / 4% / 3% anual) y de qué bolsa se paga.",
+    "Regular qué pasa con la aportación y con el exceso cuando una persona se da de baja."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿La aportación obligatoria mínima para ser socio (art. 60) se fija baja e igual para todos, y el resto hasta 10.000 € es voluntario y flexible? Así se sostiene una persona = un voto sin excluir a quien aporta menos.",
+    "¿Se aprueba la tabla de retorno de la Comisión de Economía (5% hasta 2.000 € de exceso, 4% entre 2.000 y 5.000 €, 3% por encima) o se ajusta?",
+    "¿El exceso sobre 10.000 € es aportación voluntaria al capital (retorno = intereses, con el límite del art. 63) o financiación que no integra capital / préstamo (retorno pactado por contrato)? El encaje legal del 'retorno garantizado' depende de esta elección.",
+    "¿De qué bolsa se paga el retorno: solo de la cuota umbral, o también de mantenimiento? Y si el precio de la casa supera el capital reunido, ¿se sube el umbral (p. ej. 15.000 €) o se imputa la diferencia a mantenimiento? (planteado en Reunión 21).",
+    "Al causar baja una persona, ¿se le devuelve la cuota umbral aportada y el exceso pendiente de retorno, y con qué plazos y deducciones?"
+  ],
+  "risks": [
+    "Prometer un 'retorno garantizado' fijo sobre el capital choca con el art. 63.2: la remuneración del capital no puede superar los resultados positivos del ejercicio. Un porcentaje asegurado encaja mejor como préstamo/financiación que no integra capital que como interés de aportación voluntaria.",
+    "Si las aportaciones desiguales se contabilizan como capital, ninguna persona puede superar un tercio del capital social (art. 59.5): una aportación muy alta podría rebasar ese tope.",
+    "Confundir capacidad de aportar con poder: aunque una persona aporte más, la ley mantiene un voto por socio (art. 35.1) en una cooperativa de usuarios; conviene decirlo expresamente para evitar autoridad informal.",
+    "Dejar el retorno y la salida sin regular hasta que haya un caso real: es donde la desigualdad económica genera más conflicto (baja, herencia, nueva incorporación).",
+    "El Fondo de Distribución y Equilibrio (FDE) propuesto necesita contabilidad propia y normas de prioridad (primero gastos comunes, luego retornos) o generará tensiones en años de baja liquidez."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "La aportación obligatoria mínima, la naturaleza de las aportaciones y el principio de un voto por socio son contenido estatutario.",
+      "El umbral orientativo, la tabla de retorno, el calendario de pagos y la gestión del FDE son operativos, revisables, y encajan mejor en el RRI (así lo pidió el grupo en Reunión 20: 'flexible, revisable, orientativo, reglamento de régimen interno y no estatutos')."
+    ],
+    "shouldBeInStatutes": [
+      "Aportación obligatoria mínima al capital para adquirir la condición de socio y su desembolso.",
+      "Principio de una persona = un voto, con independencia de lo aportado.",
+      "Naturaleza de las aportaciones voluntarias y régimen general de reembolso en caso de baja."
+    ],
+    "shouldBeInRRI": [
+      "Umbral orientativo de 10.000 € y su flexibilidad por socio (cantidades y plazos).",
+      "Tabla de retorno del exceso (5% / 4% / 3%) y funcionamiento del Fondo de Distribución y Equilibrio.",
+      "Calendario de aportaciones, seguimiento de compromisos y tratamiento de dificultades de pago."
+    ],
+    "canBeDeferredInitially": [
+      "El detalle fino del retorno (prorrateo en años de baja liquidez) puede afinarse una vez conocido el precio real de la casa."
+    ]
+  },
+  "relatedTopics": [
+    { "topicSlug": "aportaciones_obligatorias", "relationship": "depends_on", "explanation": "La aportación obligatoria mínima marca el suelo común; el umbral y el exceso se construyen encima." },
+    { "topicSlug": "clases_de_socios", "relationship": "complements", "explanation": "Solo el Socio A aporta a la cuota umbral; el reparto desigual afecta a esta clase." },
+    { "topicSlug": "baja_socio", "relationship": "complements", "explanation": "El reembolso de la aportación y del exceso se activa al causar baja." }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "El Buen Vivir es una cooperativa de usuarios de Castilla y León (Ley 4/2002). La ley exige fijar en los Estatutos una aportación obligatoria mínima al capital para ser socio (art. 60) y permite que esa cantidad sea distinta por socio en proporción al compromiso o uso, además de admitir aportaciones voluntarias (art. 62). Es decir, la ley SÍ deja margen para que las personas aporten cantidades distintas.",
+        "Dos límites imperativos marcan el terreno. Primero, el voto: con carácter general cada socio tiene un voto (art. 35.1) y en una cooperativa de usuarios no cabe voto plural ligado al capital, así que aportar más no da más voto. Segundo, la remuneración del capital: los intereses o retornos que se repartan no pueden superar los resultados positivos del ejercicio (art. 63.2), lo que hace jurídicamente frágil prometer un 'retorno garantizado' fijo si el exceso se contabiliza como capital."
+      ],
+      "requirements": [
+        { "aspect": "Un voto por socio", "law": "Ley 4/2002 CyL, art. 35.1", "requirement": "Con carácter general, cada socio tiene un voto en la Asamblea.", "margin": "Aportar más NO puede traducirse en más voto en una cooperativa de usuarios." },
+        { "aspect": "Aportación obligatoria mínima diferenciada", "law": "Ley 4/2002 CyL, art. 60.1", "requirement": "Los Estatutos fijan la aportación obligatoria mínima, que puede ser diferente por socio en proporción al compromiso o uso.", "margin": "Permite un suelo común bajo y que el resto hacia el umbral sea flexible." },
+        { "aspect": "Aportaciones voluntarias", "law": "Ley 4/2002 CyL, art. 62.1", "requirement": "La Asamblea puede admitir aportaciones voluntarias, fijando cuantía global máxima, retribución, condiciones y plazo.", "margin": "Vía para canalizar el exceso sobre el umbral." },
+        { "aspect": "Tope de participación en el capital", "law": "Ley 4/2002 CyL, art. 59.5", "requirement": "La aportación de cada socio no puede exceder de un tercio del capital social.", "margin": "Solo aplica a lo contabilizado como capital, no a préstamos o financiación externa al capital." },
+        { "aspect": "Límite a la remuneración del capital", "law": "Ley 4/2002 CyL, art. 63", "requirement": "Los intereses y retornos del capital no pueden superar los resultados positivos del ejercicio.", "margin": "Un retorno fijo garantizado encaja mejor como préstamo/financiación que no integra capital." },
+        { "aspect": "Reembolso en caso de baja", "law": "Ley 4/2002 CyL, art. 66", "requirement": "Los Estatutos regulan el reembolso; plazo máximo 5 años, deducciones máximas 20-30% según el tipo de baja.", "margin": "Podéis fijar plazos y deducciones dentro de esos topes." }
+      ],
+      "citations": [
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 35.1 (derecho de voto)", "excerpt": "En las Asambleas, con carácter general, cada socio tendrá un voto." },
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 60.1 (aportación obligatoria diferenciada)", "excerpt": "Los Estatutos fijarán la aportación obligatoria mínima al capital social para adquirir y mantener la condición de socio, que podrá ser diferente para las distintas clases de socios o para cada socio en proporción al compromiso o uso potencial que cada uno de ellos asuma en la actividad cooperativizada o en las secciones correspondientes, debiendo desembolsar, al menos, un 25 por 100 de su cuantía en el momento de la suscripción y el resto en la forma y plazos previstos en los Estatutos, sin que pueda exceder de cuatro años." },
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 63.2 (límite de la remuneración)", "excerpt": "Si la Asamblea General acuerda devengar intereses para las aportaciones al capital social o repartir retornos, las aportaciones previstas en el artículo 59.1 de los socios que hayan causado baja en la cooperativa y cuyo reembolso haya sido rehusado por el Consejo Rector, tendrán preferencia para percibir la remuneración que se establezca en los estatutos, sin que el importe total de las remuneraciones al capital social pueda ser superior a los resultados positivos del ejercicio." }
+      ]
+    },
+    "comparison": {
+      "intro": "Casi ninguna cooperativa promete un 'retorno garantizado' del exceso: lo habitual es separar aportación obligatoria de voluntaria y remunerar solo la voluntaria dentro de los límites legales.",
+      "columns": [
+        { "key": "obligatoria", "label": "Aportación obligatoria" },
+        { "key": "voluntaria", "label": "Aportaciones voluntarias / exceso" },
+        { "key": "remuneracion", "label": "Remuneración / retorno" }
+      ],
+      "rows": [
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": { "obligatoria": "Título de 100 €; capital mínimo 3.400 €", "voluntaria": "Reguladas en el RRI; reembolso puede rehusarse", "remuneracion": "Las obligatorias NO se remuneran; las voluntarias SÍ pueden remunerarse" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 23 — Aportaciones al capital social",
+          "excerpt": "Las aportaciones obligatorias al capital social no se remuneran ni dan ningún tipo de interés, sin perjuicio de que se puedan actualizar. Las aportaciones voluntarias sí pueden ser remuneradas, siguiendo lo establecido en el artículo 25 de los presentes Estatutos."
+        },
+        {
+          "project": "Senior Cohousing Huelva (Andalucía)",
+          "cells": { "obligatoria": "Aportación inicial 5.000 € por socio residente", "voluntaria": "Opcionales; las acuerda la Asamblea o el órgano de administración", "remuneracion": "Interés determinado en el acuerdo de admisión (art. 34)" },
+          "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+          "articleOrSection": "Artículo 33.2 — Aportaciones Voluntarias",
+          "excerpt": "Tanto la Asamblea General como el órgano de administración podrán acordar la admisión de aportaciones voluntarias de socios, fijando la cuantía global máxima, el plazo de suscripción, que no podrá exceder de seis meses, y la determinación de su tipo de interés conforme a lo previsto para la remuneración de las aportaciones en el artículo 34."
+        },
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": { "obligatoria": "Reembolso actualizado en caso de baja", "voluntaria": "Reembolso según el acuerdo que las emitió", "remuneracion": "Sin deducciones de baja sobre las voluntarias; se compensan deudas" },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Artículo 15.4 — Consecuencias de la baja",
+          "excerpt": "Las aportaciones voluntarias se reembolsarán en las condiciones que determine el acuerdo que aprobó su emisión o transformación, y su cuantía será determinada con efectos al cierre del ejercicio social en el curso del cual hubiere nacido el derecho al reembolso, no siéndoles aplicables en ningún caso las deducciones establecidas para las aportaciones obligatorias en el número 2 de este artículo, si bien serán objeto de compensación, en su caso, las deudas pendientes más intereses indemnizatorios, y los daños y perjuicios producidos a la Cooperativa."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": { "obligatoria": "Retorno del capital puede rehusarse por acuerdo de 2/3", "voluntaria": "Devolución de voluntarias puede rehusarse en cualquier caso", "remuneracion": "Cabe pactar el regreso entre las partes" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 23.8 — Reembolso",
+          "excerpt": "En Consejo Rector, según mandato de la Asamblea General para la mayoría de los dos tercios, puede desestimar el retorno de las aportaciones al capital social en caso de baja de la persona socia o la devolución de sus aportaciones voluntarias en cualquier caso, sin perjuicio de que se pueda pactar su regreso por acuerdo entre las partes."
+        }
+      ],
+      "note": "Patrón común: la aportación obligatoria mínima es baja e igual, y la desigualdad se canaliza como aportación voluntaria, que sí puede remunerarse pero dentro de los límites de la ley. Ninguna promete un retorno fijo asegurado como el que plantea la Comisión de Economía; ese punto es propio de El Buen Vivir y el más delicado jurídicamente."
+    },
+    "proposal": {
+      "rationale": [
+        "El grupo aprobó (Guía de votación de capacidad económica, dic-2025) que NO habrá aportación mínima obligatoria y fijó 10.000 € como umbral de referencia colectivo. En las Reuniones 19-21 (2026) confirmó el modelo económico 7 con umbral orientativo de 10.000 € y cifra mínima orientativa de 3.000 €, 'ambos flexibles por socio', y dejó expresamente estos números para el RRI, no para los Estatutos ('flexible, revisable, orientativo').",
+        "Para sostener una persona = un voto pese a aportar distinto, conviene fijar en Estatutos una aportación obligatoria mínima baja e igual para todos (art. 60) y tratar todo lo que va por encima como aportación voluntaria o financiación al proyecto. El voto no depende del capital (art. 35.1), así que la desigualdad económica no altera la igualdad política si se dice expresamente.",
+        "La Comisión de Economía (documento 'Modelo de financiación colaborativo') propone devolver el exceso sobre 10.000 € con un retorno anual por tramos: 5% hasta 2.000 € de exceso, 4% entre 2.000 y 5.000 €, 3% por encima, hasta recuperar el 100%, gestionado por un Fondo de Distribución y Equilibrio (FDE) y con prorrateo en años de baja liquidez sin anular el derecho.",
+        "Aviso a resolver con jurista: un 'retorno garantizado' fijo choca con el art. 63.2 (la remuneración del capital no puede superar los resultados positivos del ejercicio). Encaja mejor tratar el exceso como préstamo o financiación que no integra el capital social, remunerado por contrato, que como interés de aportación voluntaria."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Aportación obligatoria mínima e igualdad de voto",
+          "text": "La aportación obligatoria mínima al capital social para adquirir y mantener la condición de persona socia usuaria será de [cantidad baja e igual, p. ej. 3.000 €], desembolsada en la forma y plazos que fijen los Estatutos. Cada persona socia podrá realizar aportaciones voluntarias por encima de ese mínimo, hasta el umbral de referencia que acuerde la cooperativa. En ningún caso la cuantía aportada alterará los derechos políticos: cada persona socia tendrá un voto en la Asamblea General, con independencia de lo que haya aportado. El importe del umbral de referencia, su flexibilidad y el régimen de retorno del exceso se fijarán en los términos y con el procedimiento que desarrolle el Reglamento de Régimen Interno.",
+          "note": "Fija el suelo común reservado (art. 60) y blinda una persona = un voto (art. 35.1), ambos contenido estatutario. El umbral concreto, su flexibilidad y el retorno del exceso se remiten al RRI por ser orientativos y revisables sin pasar por escritura y registro."
+        },
+        {
+          "target": "rri",
+          "heading": "Umbral orientativo y aportaciones flexibles",
+          "text": "La cooperativa establece un umbral de referencia de 10.000 € por persona socia usuaria para la compra de la casa, orientativo y no obligatorio. Cada persona decidirá la cantidad y el ritmo con que se aproxima a ese umbral según su capacidad económica, mediante una cuota de convergencia adaptada a su situación. La diferencia entre personas en el camino hacia el umbral no genera diferencias de voto, de prioridad de reserva ni de trato en la comunidad.",
+          "note": "Recoge lo aprobado en dic-2025 y Reuniones 19-21. Al ser flexible y revisable, va en el RRI."
+        },
+        {
+          "target": "rri",
+          "heading": "Retorno del exceso sobre el umbral",
+          "text": "Quien aporte por encima del umbral de 10.000 € tendrá derecho a la devolución del exceso mediante un retorno anual por tramos: [5%] del exceso hasta 2.000 €, [4%] del exceso entre 2.000 y 5.000 € y [3%] del exceso superior a 5.000 €, hasta recuperar el 100%. El retorno se abona desde el ejercicio siguiente al ingreso, con cargo al Fondo de Distribución y Equilibrio. Si en algún ejercicio no hay liquidez suficiente, los pagos se prorratearán entre las personas con derecho, sin que ello anule el derecho al retorno completo. La naturaleza jurídica del exceso (aportación voluntaria al capital o financiación que no integra capital) se determinará conforme a la revisión jurídica.",
+          "note": "AVISO: es el punto frágil. Como interés de aportación voluntaria, el retorno no puede superar los resultados positivos del ejercicio (art. 63.2), lo que contradice un porcentaje 'garantizado'. Valorar con jurista tratarlo como préstamo/financiación que no integra capital (con contrato de préstamo participativo)."
+        }
+      ],
+      "openDecisions": [
+        "¿Se fija la aportación obligatoria mínima baja e igual (p. ej. 3.000 €) y el resto hasta 10.000 € como voluntario?",
+        "¿Se aprueban los porcentajes de retorno 5% / 4% / 3% propuestos por la Comisión de Economía o se ajustan?",
+        "¿El exceso sobre el umbral es capital voluntario o préstamo/financiación que no integra capital? (determina si el 'retorno garantizado' es legal).",
+        "¿De qué bolsa se paga el retorno y qué se hace si el precio de la casa supera el capital reunido: subir el umbral (p. ej. 15.000 €) o imputar la diferencia a mantenimiento? (Reunión 21).",
+        "Al causar baja, ¿se devuelve la cuota umbral y el exceso pendiente? ¿Con qué plazos y deducciones dentro de los topes del art. 66?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas del grupo. Debe revisarse jurídicamente antes de aprobarse, en especial el encaje del retorno garantizado."
+    }
+  },
+  "suggestedClause": {
+    "text": "La aportación obligatoria mínima para ser persona socia usuaria será de [cantidad] e igual para todas; las aportaciones por encima de ese mínimo, hasta el umbral de referencia, serán voluntarias. La cuantía aportada no altera los derechos políticos: cada persona socia tiene un voto. La devolución del exceso sobre el umbral y su retorno se regularán en el Reglamento de Régimen Interno conforme a la revisión jurídica.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente, en especial el retorno garantizado del exceso y su encaje en el art. 63.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

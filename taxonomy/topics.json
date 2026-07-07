@@ -233,6 +233,22 @@
     "title": "Normas de convivencia",
     "category": "convivencia",
     "status": "merged",
-    "mergedInto": "conflictos_y_mediacion"
+    "mergedInto": "convivencia"
+  },
+  {
+    "slug": "identidad_juridica",
+    "title": "Identidad jurídica: denominación, objeto, domicilio y duración",
+    "category": "identidad_juridica",
+    "status": "active",
+    "aliases": ["objeto social", "domicilio social", "denominacion", "duracion"],
+    "keywords": ["denominacion", "objeto social", "domicilio", "ambito territorial", "duracion", "identidad juridica"]
+  },
+  {
+    "slug": "ejercicio_economico",
+    "title": "Ejercicio económico, cuentas y fondos obligatorios",
+    "category": "economico",
+    "status": "active",
+    "aliases": ["cuentas anuales", "fondos sociales", "excedentes"],
+    "keywords": ["ejercicio economico", "cuentas anuales", "fondo de reserva obligatorio", "fondo de educacion y promocion", "excedentes", "resultados"]
   }
 ]

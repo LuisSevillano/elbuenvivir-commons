@@ -1,0 +1,180 @@
+{
+  "slug": "asamblea_general",
+  "title": "Asamblea General",
+  "shortDescription": "La Asamblea General como órgano soberano de El Buen Vivir: cómo se convoca, cuándo queda válidamente constituida, qué puede decidir en exclusiva, con qué mayorías y quién vota (Socio A) o solo tiene voz (Socio B).",
+  "category": "gobernanza",
+  "minimumContents": [
+    "Definir la Asamblea General como órgano supremo y qué acuerdos vinculan a todas las personas socias.",
+    "Fijar las clases de asamblea (ordinaria y extraordinaria) y la asamblea universal.",
+    "Regular la convocatoria: quién convoca, plazos, forma de aviso y orden del día.",
+    "Establecer el quórum de constitución en primera y segunda convocatoria.",
+    "Enumerar las competencias exclusivas e indelegables de la Asamblea.",
+    "Definir el régimen de voto (Socio A vota; Socio B con voz sin voto) y las mayorías (simple, reforzada de dos tercios).",
+    "Decidir el papel del consenso como método de trabajo previo a la votación."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿Se recoge el consenso como método ordinario de decisión, con la votación por mayoría legal como respaldo cuando no se alcance el acuerdo?",
+    "¿Qué plazo y forma de convocatoria se fija (la ley exige al menos 15 días; se puede usar convocatoria electrónica)?",
+    "¿Se prevé expresamente la asamblea universal para el grupo pequeño (todas presentes, sin convocatoria formal, por unanimidad)?",
+    "¿Se elevan algunas mayorías por encima del mínimo legal (por ejemplo dos tercios para admitir o convertir socios), sin pasar de las cuatro quintas partes que permite la ley?",
+    "¿Se confirma que el Socio B asiste con voz y sin voto, sabiendo que ese estatus es jurídicamente frágil si usa la casa (ver clases_de_socios)?"
+  ],
+  "risks": [
+    "Dar por hecho el 'Socio B sin voto': la Ley 4/2002 reserva el voto ponderado o limitado a figuras que NO realizan la actividad cooperativizada, y usar la casa ES actividad cooperativizada.",
+    "Confundir el consenso (método de trabajo) con la validez legal del acuerdo: la ley exige poder computar una mayoría, así que el consenso debe tener siempre una regla de votación de respaldo.",
+    "Adoptar acuerdos sobre asuntos que no constan en el orden del día: la ley los declara nulos salvo excepciones tasadas.",
+    "Olvidar que las materias del art. 31 son competencia necesaria e indelegable de la Asamblea y no pueden trasladarse a comisiones ni al Consejo Rector."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "El núcleo del régimen de la Asamblea (naturaleza de órgano supremo, competencias exclusivas del art. 31, plazo mínimo de convocatoria, quórum legal, quién vota y las mayorías legales) es contenido estatutario obligatorio y no puede rebajarse.",
+      "Todo el desarrollo (método de deliberación y consenso, facilitación, canales de convocatoria, orden del día operativo, asambleas telemáticas y detalle del acta) no está reservado: los Estatutos lo remiten al RRI, que la Asamblea revisa por sí sola sin escritura ni registro."
+    ],
+    "shouldBeInStatutes": [
+      "Naturaleza de la Asamblea como órgano supremo y carácter vinculante de sus acuerdos.",
+      "Clases de asamblea, plazo mínimo de convocatoria (15 días) y quórum legal de constitución.",
+      "Competencias exclusivas e indelegables (art. 31).",
+      "Régimen de voto (quién vota) y mayorías legales simple y reforzada (con el techo de 4/5), más una remisión al RRI para su desarrollo."
+    ],
+    "shouldBeInRRI": [
+      "Método de deliberación y búsqueda de consenso (rondas, facilitación rotativa, tiempos de reflexión entre asambleas).",
+      "Canales concretos de convocatoria y de reparto del orden del día.",
+      "Uso de asambleas telemáticas o mixtas y detalle operativo del acta."
+    ],
+    "canBeDeferredInitially": [
+      "Protocolo detallado de facilitación y dinamización de las asambleas."
+    ]
+  },
+  "relatedTopics": [
+    { "topicSlug": "clases_de_socios", "relationship": "depends_on", "explanation": "Quién vota en la Asamblea depende de la clase de socio: Socio A vota, Socio B tiene voz sin voto." },
+    { "topicSlug": "admision_socio", "relationship": "complements", "explanation": "La admisión definitiva y la conversión de Socio B a A son acuerdos de la Asamblea." },
+    { "topicSlug": "expulsion_socio", "relationship": "complements", "explanation": "La Asamblea resuelve los recursos contra sanciones y expulsiones." }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "En Castilla y León (Ley 4/2002) la Asamblea General es el órgano supremo de expresión de la voluntad social: a ella se convoca a todas las personas socias y sus acuerdos, adoptados conforme a la ley y a los Estatutos, obligan incluso a las disidentes y a las ausentes. Los Estatutos deben regular su convocatoria, constitución, competencias, voto y mayorías, porque es contenido estatutario obligatorio.",
+        "La ley deja, sin embargo, un margen amplio: fija mínimos (plazo de convocatoria de 15 días, quórum de la mitad de los votos en primera convocatoria, mayoría simple para lo ordinario y dos tercios para lo reforzado) y permite a los Estatutos endurecerlos hasta las cuatro quintas partes. Sobre esa base cabe construir una cultura de consenso: la ley no impide buscar el acuerdo por asentimiento, siempre que exista una regla de votación de respaldo que permita computar una mayoría cuando el consenso no se alcance."
+      ],
+      "requirements": [
+        { "aspect": "Naturaleza y fuerza de los acuerdos", "law": "Ley 4/2002 CyL, art. 30", "requirement": "La Asamblea es el órgano supremo; sus acuerdos obligan a todas las personas socias, incluidas disidentes y ausentes.", "margin": "No es disponible: es la base del carácter soberano de la Asamblea." },
+        { "aspect": "Competencias exclusivas", "law": "Ley 4/2002 CyL, art. 31", "requirement": "Ciertos actos exigen necesariamente acuerdo de la Asamblea (nombramientos, cuentas, nuevas aportaciones, modificación de estatutos y RRI, fusión/disolución, recursos).", "margin": "Podéis añadir competencias, no restar las legales." },
+        { "aspect": "Clases y convocatoria", "law": "Ley 4/2002 CyL, art. 32", "requirement": "Ordinaria (anual, en los 6 meses siguientes al cierre) y extraordinaria; convocatoria del Consejo Rector con 15 días de antelación mínima y orden del día claro; cabe medio electrónico.", "margin": "Fijáis la forma de aviso; podéis ampliar el plazo." },
+        { "aspect": "Asamblea universal", "law": "Ley 4/2002 CyL, art. 33.2", "requirement": "Sin convocatoria si están presentes todas las personas socias y aceptan por unanimidad celebrarla y su orden del día; firman todas el acta.", "margin": "Muy útil para un grupo pequeño." },
+        { "aspect": "Quórum de constitución", "law": "Ley 4/2002 CyL, art. 34.1", "requirement": "Primera convocatoria: más de la mitad de los votos sociales; segunda: al menos el 10 % o cien votos.", "margin": "Podéis exigir quórum superior en segunda convocatoria." },
+        { "aspect": "Derecho de voto", "law": "Ley 4/2002 CyL, art. 35.1", "requirement": "Con carácter general, cada socio tiene un voto.", "margin": "El 'un socio, un voto' encaja con el modelo horizontal del grupo." },
+        { "aspect": "Mayorías", "law": "Ley 4/2002 CyL, art. 37", "requirement": "Regla general: mayoría simple de los votos válidos (sin contar blancos ni abstenciones). Modificación de estatutos, nuevas aportaciones obligatorias, fusión o disolución: dos tercios. Los Estatutos pueden exigir mayorías superiores, hasta las cuatro quintas partes.", "margin": "Podéis reforzar mayorías dentro de ese techo." }
+      ],
+      "citations": [
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 30 (Asamblea general)", "excerpt": "La Asamblea general de la cooperativa es el órgano supremo de expresión de la voluntad social, a la que serán convocados todos los socios. Sus acuerdos son obligatorios para la totalidad de los socios, siempre que se hayan adoptado conforme a las Leyes y los Estatutos sin perjuicio del derecho de impugnación que asiste a los socios en la presente Ley." },
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 34.1 (quórum de constitución)", "excerpt": "La Asamblea general quedará válidamente constituida, en primera convocatoria, cuando estén presentes o representados más de la mitad de los votos sociales y, en segunda convocatoria, cuando lo estén al menos un 10 por 100 de los votos sociales o cien votos sociales." },
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 37.1 y 37.3 (mayorías)", "excerpt": "La Asamblea general adoptará los acuerdos por mayoría simple del número de votos emitidos válidamente por los socios presentes y representados, no siendo computables, en ningún caso, a estos efectos los votos en blanco ni las abstenciones. [...] Los Estatutos podrán exigir mayorías superiores a las establecidas en los apartados anteriores, sin que, en ningún caso, rebasen las cuatro quintas partes de los votos válidamente emitidos." }
+      ]
+    },
+    "comparison": {
+      "intro": "Las cooperativas de covivienda copian el esqueleto legal (órgano supremo, ordinaria/extraordinaria, quórum de la mitad, dos tercios para lo reforzado) y algunas dejan asomar el consenso: la votación es el último recurso cuando no hay asentimiento unánime.",
+      "columns": [
+        { "key": "clases", "label": "Clases y quórum" },
+        { "key": "mayorias", "label": "Mayorías" },
+        { "key": "consenso", "label": "Consenso / voz sin voto" }
+      ],
+      "rows": [
+        {
+          "project": "Tarocohousing (Canarias)",
+          "cells": {
+            "clases": "Ordinaria (anual) y extraordinaria; universal por unanimidad. Quórum: mitad más una en 1.ª, 10 % en 2.ª",
+            "mayorias": "Más de la mitad de votos presentes; dos tercios para estatutos, fusión, disolución y expulsiones",
+            "consenso": "Valor estatutario de 'búsqueda de consenso'; personas no socias con voz y sin voto"
+          },
+          "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+          "articleOrSection": "Artículo 28 — Adopción de acuerdos",
+          "excerpt": "La Asamblea General adoptará los acuerdos por más de la mitad de los votos presentes y/o representados, no siendo computables a estos efectos los votos en blanco ni las abstenciones; no existe el voto dirimente de la Presidencia. [...] Será necesaria la mayoría de los dos tercios de los votos presentes y representados, para adoptar acuerdos de modificación de Estatutos, fusión, escisión, disolución, reactivación de la cooperativa, adhesión o baja de un grupo cooperativo, para resolver los expedientes de expulsión que le sean sometidos a su consideración, así como en los demás supuestos en los que lo establezca la Ley."
+        },
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": {
+            "clases": "Ordinaria y extraordinaria; universal. Quórum: más de la mitad en 1.ª, 10 % o cincuenta socios en 2.ª",
+            "mayorias": "Más de la mitad de votos; mayorías reforzadas de dos tercios (modificación de estatutos, fusión, nuevas aportaciones)",
+            "consenso": "Se vota solo cuando no hay asentimiento unánime a la propuesta de la Mesa"
+          },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Artículo 45 — Adopción de acuerdos",
+          "excerpt": "El Presidente dará por suficientemente debatido cada asunto del orden del día y, cuando no haya asentimiento unánime a la propuesta de acuerdo hecha por la Mesa, o siempre que algún socio lo solicite, someterá el tema a votación. [...] La Asamblea General adoptará los acuerdos por más de la mitad de los votos presentes y representados, salvo que la LCCM o estos Estatutos establezcan mayorías reforzadas, que no podrán sobrepasar los dos tercios de los votos presentes y representados."
+        },
+        {
+          "project": "Áxuntase (Asturias)",
+          "cells": {
+            "clases": "Ordinaria (anual, 6 meses tras cierre) y extraordinaria; universal por convocatoria no formal",
+            "mayorias": "Solo acuerdos obligatorios en materias que la ley no reserve a otro órgano; competencias exclusivas indelegables",
+            "consenso": "—"
+          },
+          "documentSlug": "docs-estatutos-estatutos-axuntase",
+          "articleOrSection": "Artículo 19 — Asamblea General. Concepto y Clases",
+          "excerpt": "La Asamblea General, constituida por las personas socias de la Cooperativa, es el órgano supremo de expresión de la voluntad social en las materias cuyo conocimiento le atribuye la LPAC y estos Estatutos. Las personas socias, incluso las disidentes y las no asistentes, quedan sometidas a los acuerdos de la Asamblea General, siempre que se hayan adoptado de conformidad con el ordenamiento jurídico y estos Estatutos sociales."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": {
+            "clases": "Asamblea como órgano de decisión de los derechos de uso y las aportaciones",
+            "mayorias": "Dos tercios para acordar condiciones del derecho de uso y desestimar el retorno de aportaciones",
+            "consenso": "Socios expectantes y colaboradores con participación limitada"
+          },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 23 — Capital social (acuerdos reforzados)",
+          "excerpt": "En Consejo Rector, según mandato de la Asamblea General para la mayoría de los dos tercios, puede desestimar el retorno de las aportaciones al capital social."
+        }
+      ],
+      "note": "Patrón común: órgano supremo, quórum de la mitad en primera convocatoria y dos tercios para lo estructural. La diferencia útil para El Buen Vivir es Entrepatios: la votación aparece solo cuando falla el asentimiento unánime, justo el modelo de 'consenso con mayoría de respaldo'."
+    },
+    "proposal": {
+      "rationale": [
+        "El grupo se define como horizontal, sin jerarquías, y en el Documento de visión declara querer 'encontrar el consenso para proceder en todos los ámbitos'. La Asamblea es donde se materializa esa cultura: conviene que los Estatutos digan que se busca el consenso y que la votación por mayoría es el respaldo cuando no se alcanza.",
+        "El grupo ya funciona en asambleas periódicas con dinámica de 'proposición y votación' y de reflexión entre asambleas (Reuniones 19-21, 2026): la propuesta solo formaliza lo que ya hacen.",
+        "El 'un socio, un voto' del art. 35.1 encaja de lleno con el carácter antiespeculativo y horizontal del proyecto. Para el grupo pequeño, la asamblea universal (art. 33.2) evita formalismos cuando están todas presentes.",
+        "Aviso: las actas confirman que hay 'socios con voz y voto' y personas que disfrutan del proyecto sin voto (Socio B). Ese diseño es frágil porque quien usa la casa realiza actividad cooperativizada; debe resolverse junto con el tema clases_de_socios y revisión jurídica."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Asamblea General: naturaleza, clases y convocatoria",
+          "text": "La Asamblea General, integrada por todas las personas socias, es el órgano supremo de expresión de la voluntad social; sus acuerdos, adoptados conforme a la ley y a estos Estatutos, obligan a todas las personas socias, incluidas las ausentes y disidentes. Se reunirá con carácter ordinario al menos una vez al año, dentro de los seis meses siguientes al cierre del ejercicio, y con carácter extraordinario cuando la convoque el Consejo Rector o lo solicite [porcentaje] de las personas socias. La convocatoria se hará con al menos quince días de antelación, expresando con claridad el orden del día, lugar, día y hora. Cuando estén presentes todas las personas socias y acepten por unanimidad celebrarla, la Asamblea tendrá carácter de universal sin necesidad de convocatoria previa. El medio concreto de convocatoria, la preparación y el reparto del orden del día se regularán en el Reglamento de Régimen Interno.",
+          "note": "Recoge arts. 30, 32 y 33.2 (naturaleza, clases, plazo mínimo y asamblea universal, reservados a Estatutos). El medio concreto de aviso y la operativa del orden del día se remiten al RRI para poder ajustarlos sin modificar los Estatutos."
+        },
+        {
+          "target": "estatutos",
+          "heading": "Constitución, voto y mayorías",
+          "text": "La Asamblea quedará válidamente constituida, en primera convocatoria, cuando estén presentes o representadas más de la mitad de las personas socias con derecho a voto y, en segunda, cuando lo esté al menos el [10 %]. Cada persona socia usuaria (Socio A) tiene un voto; las personas socias vinculadas de uso habitual (Socio B) asisten con voz y sin voto [pendiente de confirmación jurídica]. Los acuerdos se adoptan por mayoría simple de los votos válidamente emitidos, sin computar blancos ni abstenciones. Requerirán mayoría de dos tercios la modificación de Estatutos y del Reglamento de Régimen Interno, la exigencia de nuevas aportaciones obligatorias, la admisión o conversión de personas socias, la fusión, escisión, transformación o disolución, y [otros acuerdos que el grupo decida reforzar], sin superar en ningún caso las cuatro quintas partes de los votos válidos. El método de búsqueda de consenso previo a la votación se desarrollará en el Reglamento de Régimen Interno.",
+          "note": "Recoge arts. 34.1, 35.1 y 37 (quórum, un voto y mayorías legales, incluido el techo de 4/5): reserva estatutaria. La cultura de consenso, por ser método de trabajo revisable, se remite al RRI. El 'sin voto' del Socio B debe validarse con jurista (ver clases_de_socios)."
+        },
+        {
+          "target": "rri",
+          "heading": "Método de deliberación y búsqueda de consenso",
+          "text": "Las asambleas se preparan con antelación compartiendo el orden del día y la documentación necesaria para decidir. Cada asunto se debate en rondas que garanticen que todas las voces sean escuchadas, con apoyo de la Comisión de Convivencia en la facilitación, que será rotativa entre las personas socias. Se buscará el acuerdo por consenso; si un asunto no está maduro, podrá aplazarse para su reflexión hasta la siguiente asamblea. Solo cuando el consenso no sea posible se someterá el punto a votación conforme a las mayorías previstas en los Estatutos.",
+          "note": "Traslada al RRI la cultura de decisión ya practicada por el grupo, sin rigidizarla en estatutos."
+        },
+        {
+          "target": "rri",
+          "heading": "Convocatoria, orden del día y actas",
+          "text": "La convocatoria ordinaria y extraordinaria se cursará por [correo electrónico y/o mensajería del grupo], garantizando su recepción por todas las personas socias con la antelación mínima legal. El orden del día se elaborará recogiendo las propuestas de las comisiones y de cualquier persona socia, y se difundirá junto con la documentación de apoyo. Las asambleas podrán celebrarse de forma presencial, telemática o mixta. De cada sesión se levantará acta, que se pondrá a disposición de las personas socias y se aprobará según el procedimiento que fije el propio Reglamento.",
+          "note": "Detalle operativo de convocatoria, telemática y actas no reservado a Estatutos; la Asamblea puede modificarlo por sí sola."
+        }
+      ],
+      "openDecisions": [
+        "¿Se fija el consenso como método ordinario con la mayoría legal como respaldo?",
+        "¿Qué porcentaje de socios puede pedir una asamblea extraordinaria y qué medio de convocatoria se usa?",
+        "¿Qué acuerdos, además de los legales, se elevan a mayoría de dos tercios (o superior, hasta 4/5)?",
+        "¿Se confirma el Socio B con voz y sin voto pese al riesgo legal, o se le reconoce voto como socio usuario?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas del grupo. Debe revisarse jurídicamente antes de aprobarse, en especial la ausencia de voto del Socio B."
+    }
+  },
+  "suggestedClause": {
+    "text": "La Asamblea General, integrada por todas las personas socias, es el órgano supremo de expresión de la voluntad social. Cada persona socia usuaria tiene un voto. Los acuerdos se adoptan por mayoría simple de los votos válidamente emitidos, salvo las materias que la ley o estos Estatutos reserven a mayoría reforzada de dos tercios (sin superar las cuatro quintas partes). El método de búsqueda de consenso y la operativa de convocatoria y actas se desarrollarán en el Reglamento de Régimen Interno.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente, en especial el régimen de voz sin voto del Socio B y las mayorías reforzadas.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

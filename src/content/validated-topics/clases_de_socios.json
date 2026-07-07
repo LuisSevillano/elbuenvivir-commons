@@ -1,0 +1,33 @@
+{
+  "slug": "clases_de_socios",
+  "status": "reviewed",
+  "editorialSummary": [
+    "El Buen Vivir distingue Socio A (participa en la compra, con voz y voto) y Socio B (uso habitual, sin voto, vinculado a un A).",
+    "La clave es encajar legalmente esa distinción: la Ley 4/2002 reserva el 'sin voto' a figuras que no usan la casa, así que el Socio B necesita una decisión y revisión jurídica específica."
+  ],
+  "decisionQuestions": [],
+  "supportedFindings": [],
+  "unsupportedClaims": [],
+  "recommendationsForBuenVivir": [],
+  "statutesVsRRI": {
+    "statutes": [
+      "Enumeración de clases de socios y sus derechos (voz, voto, uso).",
+      "Topes legales de voto de figuras no ordinarias."
+    ],
+    "rri": [
+      "Prioridad práctica de reserva entre clases.",
+      "Procedimiento de conversión de Socio B a Socio A."
+    ],
+    "notes": [
+      "La figura de Socio B (uso habitual sin voto) requiere revisión jurídica antes de aprobarse."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: arts. 25-28 (otras clases de socios) y art. 35.6 (tope de voto).",
+    "docs-estatutos-estatutos-tarocohousing: Artículo 9, clases de personas socias.",
+    "docs-estatutos-estatutos-la-borda: Artículo 5, socios colaboradores y expectantes."
+  ],
+  "referencesToAvoid": [
+    "No asimilar el Socio B a 'socio colaborador' sin resolver que el colaborador no puede realizar actividad cooperativizada (art. 26)."
+  ]
+}

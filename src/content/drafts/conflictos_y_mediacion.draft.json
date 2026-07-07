@@ -7,9 +7,9 @@
     "Conviene valorar una regla mínima sobre conflicto, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre mediacion, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre facilitacion, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Resolución de Conflictos, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Título (xx minutos), contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Título original: Transformem l’entorn, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre 2. Arbitraje: Si las negociaciones y la mediación no logran resolver el conflicto, las, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre 1. Negociación y Mediación: Las partes involucradas deberán realizar esfuerzos de, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Conflicto de intereses y responsabilidad, contrastando las referencias automáticas del research pack.",
     "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
   ],
   "legalBasis": [],
@@ -28,7 +28,7 @@
     "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
   ],
   "governancePlacement": {
-    "recommendedPrimaryLocation": "mixed",
+    "recommendedPrimaryLocation": "estatutos",
     "rationale": [
       "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
       "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
@@ -59,7 +59,7 @@
   },
   "relatedTopics": [
     {
-      "topicSlug": "uso_espacios_comunes",
+      "topicSlug": "baja_socio",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
@@ -74,12 +74,12 @@
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
-      "topicSlug": "clases_de_socios",
+      "topicSlug": "admision_socio",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
-      "topicSlug": "derechos_y_obligaciones",
+      "topicSlug": "clases_de_socios",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     }
@@ -95,81 +95,33 @@
     "generated": true,
     "curated": false,
     "sourceResearchPack": "src/content/research-packs/conflictos_y_mediacion.md",
-    "evidenceCount": 18,
-    "highConfidenceEvidence": 3,
-    "mediumConfidenceEvidence": 7,
+    "evidenceCount": 10,
+    "highConfidenceEvidence": 0,
+    "mediumConfidenceEvidence": 2,
     "lowConfidenceEvidence": 8,
     "evidence": [
       {
         "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
         "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
         "documentType": "rri",
-        "articleOrSection": "Artículo 12. Resolución de Conflictos",
-        "confidence": "high",
-        "excerpt": "Artículo 12. Resolución de Conflictos En caso de surgir desacuerdos, disputas o conflictos entre las/os socias/os, entre las/os socias/os y el Consejo Rector, o en cualquier otro ámbito de la cooperativa, se establece el siguiente procedimi..."
-      },
-      {
-        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-        "documentTitle": "Las GuíAs De Sostre CíVic",
-        "documentType": "guia",
-        "articleOrSection": "Título (xx minutos)",
-        "confidence": "high",
-        "excerpt": "Título (xx minutos)"
-      },
-      {
-        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-        "documentTitle": "Las GuíAs De Sostre CíVic",
-        "documentType": "guia",
-        "articleOrSection": "Título original: Transformem l’entorn",
-        "confidence": "high",
-        "excerpt": "Título original: Transformem l’entorn La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercoo..."
-      },
-      {
-        "documentSlug": "docs-leyes-normativa-autonomica",
-        "documentTitle": "Normativa Autonomica",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 49. Conflicto de intereses con la cooperativa.",
+        "articleOrSection": "2. Arbitraje: Si las negociaciones y la mediación no logran resolver el conflicto, las",
         "confidence": "medium",
-        "excerpt": "Artículo 49. Conflicto de intereses con la cooperativa. 1. Será preciso el previo acuerdo de la Asamblea general cuando la cooperativa hubiera de contraer obligaciones con cualquier Consejero, Interventor, Apoderado, órgano de dirección o c..."
+        "excerpt": "2. Arbitraje: Si las negociaciones y la mediación no logran resolver el conflicto, las partes acuerdan someterse a un proceso de arbitraje. El arbitraje será conducido de acuerdo con las normas y procedimientos establecidos por [nombre de l..."
       },
       {
-        "documentSlug": "docs-leyes-normativa-estatal",
-        "documentTitle": "Normativa Estatal",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 42. Conflicto de intereses con la cooperativa.",
-        "confidence": "medium",
-        "excerpt": "Artículo 42. Conflicto de intereses con la cooperativa. 1. Será preciso el previo acuerdo de la Asamblea General, cuando la cooperativa hubiera de obligarse con cualquier consejero, interventor o con uno de sus parientes hasta el segundo gr..."
-      },
-      {
-        "documentSlug": "docs-rri-rri-vallecas2homes",
-        "documentTitle": "Rri Vallecas2homes",
+        "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
         "documentType": "rri",
-        "articleOrSection": "Artículo 34 Federación de la Cooperativa",
+        "articleOrSection": "1. Negociación y Mediación: Las partes involucradas deberán realizar esfuerzos de",
         "confidence": "medium",
-        "excerpt": "Artículo 34 Federación de la Cooperativa Disposición Final ____________________________________________________ -- 4 of 14 -- ENSANCHE DE VALLECAS 2 HOMES, S.COOP. MAD. P á g i n a 5 | 14"
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-entrepatios",
-        "documentTitle": "Estatutos Entrepatios",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 60. Conflicto de intereses.",
-        "confidence": "medium",
-        "excerpt": "Artículo 60. Conflicto de intereses. 1. Será preciso la previa autorización de la Asamblea General cuando la Cooperativa hubiera de obligarse con cualquier miembro del órgano de administración, o el Interventor, o con uno de los parientes d..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-losnidales",
-        "documentTitle": "Estatutos Losnidales",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 58.- Conflicto de intereses.",
-        "confidence": "medium",
-        "excerpt": "Artículo 58.- Conflicto de intereses. 1. Será preciso la previa autorización de la Asamblea General cuando la Cooperativa hubiera de obligarse con cualquier miembro del órgano de administración, el/la Interventor/a, el/la directora/a, en su..."
+        "excerpt": "1. Negociación y Mediación: Las partes involucradas deberán realizar esfuerzos de buena fe para resolver el conflicto a través de negociaciones directas y, en caso de ser necesario, mediante el uso de servicios de mediación. La mediación pu..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-pepu",
         "documentTitle": "Estatutos Pepu",
         "documentType": "estatutos",
         "articleOrSection": "Artículo 35.- Conflicto de intereses y responsabilidad.",
-        "confidence": "medium",
+        "confidence": "low",
         "excerpt": "Artículo 35.- Conflicto de intereses y responsabilidad. En cuanto al conflicto de intereses con la cooperativa y en lo relativo a la acción de responsabilidad contra cualquier miembro del Consejo Rector o intervención se estará a lo estable..."
       },
       {
@@ -177,24 +129,56 @@
         "documentTitle": "Estatutos Pequenopueblo",
         "documentType": "estatutos",
         "articleOrSection": "Artículo 35.- Conflicto de intereses y responsabilidad.",
-        "confidence": "medium",
+        "confidence": "low",
         "excerpt": "Artículo 35.- Conflicto de intereses y responsabilidad. En cuanto al conflicto de intereses con la cooperativa y en lo relativo a la acción de responsabilidad contra cualquier miembro del Consejo Rector o intervención se estará a lo estable..."
+      },
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "9.1. Qué son los conflictos",
+        "confidence": "low",
+        "excerpt": "9.1. Qué son los conflictos El conflicto es un proceso natural en todos los grupos y un fenómeno necesario para la vida humana, que puede ser un factor positivo en el cambio y en las relaciones, o destructivo, según la forma de regularlo. T..."
+      },
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "9.2. Las condiciones para",
+        "confidence": "low",
+        "excerpt": "9.2. Las condiciones para abordar conflictos La condición primera e indispensable para abordar un conflicto es estar abiertas al conflicto, la voluntad real de acercarnos y empatizar con la otra persona o parte del conflicto. Hay muy buenas..."
+      },
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "CONSTRUIMOS VIVIENDA COOPERATIVA",
+        "confidence": "low",
+        "excerpt": "CONSTRUIMOS VIVIENDA COOPERATIVA El objetivo de esta guía es describir las características básicas del cooperativismo de vivienda en cesión de uso, para que las personas interesadas en este modelo como opción para poner en marcha un nuevo p..."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2014-9959-ley-5-2014",
+        "documentTitle": "BOE A 2014 9959 Ley+5 2014",
+        "documentType": "ley",
+        "articleOrSection": "f) Actuar como órgano de mediación en los conflictos colectivos que se",
+        "confidence": "low",
+        "excerpt": "f) Actuar como órgano de mediación en los conflictos colectivos que se susciten entre las Corporaciones Locales y los funcionarios de Policía a su servicio, cuando lo solicite al menos una de las partes."
       },
       {
         "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
         "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
         "documentType": "guia",
-        "articleOrSection": "título constitutivo es precisamente el ingreso como socio en la cooperativa. Y que, por tanto, debe",
+        "articleOrSection": "q) La cláusula de sometimiento a la conciliación previa, a la mediación y al arbitraje cooperativo,",
         "confidence": "low",
-        "excerpt": "título constitutivo es precisamente el ingreso como socio en la cooperativa. Y que, por tanto, debe regularse en los estatutos sociales de la cooperativa, ante la ausencia de normas legales que le den contenido. En los apartados que siguen,..."
+        "excerpt": "q) La cláusula de sometimiento a la conciliación previa, a la mediación y al arbitraje cooperativo, regulados en la respectiva. Las clases de socios Teniendo en cuenta que el establecimiento de la tipología de socios y su regulación es uno..."
       },
       {
-        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-        "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
-        "documentType": "ley",
-        "articleOrSection": "artículo 84 del Texto Refundido de la Ley de Sociedades Anónimas.",
+        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "documentType": "guia",
+        "articleOrSection": "COHOUSING SENIOR Y COOPERATIVISMO DE CONSUMO",
         "confidence": "low",
-        "excerpt": "artículo 84 del Texto Refundido de la Ley de Sociedades Anónimas. Con carácter general, el contenido y movimiento de las cuentas citadas de cuatro cifras es el siguiente: 1140. Reservas para acciones o participaciones de la sociedad dominan..."
+        "excerpt": "COHOUSING SENIOR Y COOPERATIVISMO DE CONSUMO -- 4 of 54 -- 5"
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-13T16:26:31.522Z",
+  "generatedAt": "2026-07-07T07:30:05.412Z",
   "sources": {
-    "referencesCount": 280,
+    "referencesCount": 314,
     "documentsCount": 36,
     "projectsDetected": 1
   },
@@ -9,22 +9,28 @@
     {
       "projectName": "Otras Leyes, Decretos, Modificaciones",
       "topics": [
+        "admision_socio",
+        "aportaciones_obligatorias",
+        "clases_de_socios",
+        "conflictos_y_mediacion",
+        "desigualdad_aportaciones",
         "disolucion",
+        "invitados",
         "lista_espera",
-        "mantenimiento",
+        "reembolso_aportaciones",
         "reservas_estancias_pernoctas",
         "uso_espacios_comunes"
       ],
-      "topicCount": 5,
+      "topicCount": 11,
       "documentTypes": [
         "ley"
       ],
       "jurisdictions": [],
       "regulatoryTone": "Sin datos suficientes",
       "characteristics": [
-        "Incluye consideraciones de cuidado"
+        "Regula reembolso de aportaciones"
       ],
-      "notes": "Aparece en 5 temas. Enfoque general detectado."
+      "notes": "Aparece en 11 temas. Enfoque general detectado."
     }
   ]
 }

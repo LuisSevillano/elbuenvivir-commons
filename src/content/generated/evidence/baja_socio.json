@@ -1,6 +1,6 @@
 {
   "topicSlug": "baja_socio",
-  "generatedAt": "2026-05-14T09:23:30.772Z",
+  "generatedAt": "2026-07-07T07:29:54.731Z",
   "claims": [
     {
       "id": "baja_socio-voluntary_exit",
@@ -8,16 +8,16 @@
       "evidenceType": "explicit",
       "confidence": "high",
       "supportingReferences": [
+        "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
         "docs-estatutos-estatutos-pepu",
         "docs-estatutos-estatutos-pequenopueblo",
         "docs-estatutos-estatutos-axuntase",
-        "docs-estatutos-estatutos-senior-cohousing-huelva",
-        "docs-otros-modelo-estatutos-viviendas",
-        "docs-leyes-normativa-autonomica",
-        "docs-leyes-normativa-estatal",
-        "docs-estatutos-estatutos-entrepatios"
+        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-laseronda-org"
       ],
-      "explanation": "Se ha detectado explícitamente en 12 proyecto(s) con 17 referencia(s) directa(s)."
+      "explanation": "Se ha detectado explícitamente en 13 proyecto(s) con 17 referencia(s) directa(s)."
     },
     {
       "id": "baja_socio-notice_period",
@@ -25,16 +25,16 @@
       "evidenceType": "explicit",
       "confidence": "high",
       "supportingReferences": [
+        "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
         "docs-estatutos-estatutos-pepu",
         "docs-estatutos-estatutos-pequenopueblo",
         "docs-estatutos-estatutos-axuntase",
-        "docs-estatutos-estatutos-senior-cohousing-huelva",
-        "docs-otros-modelo-estatutos-viviendas",
-        "docs-leyes-normativa-autonomica",
-        "docs-leyes-normativa-estatal",
-        "docs-estatutos-estatutos-entrepatios"
+        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-laseronda-org"
       ],
-      "explanation": "Se ha detectado explícitamente en 11 proyecto(s) con 16 referencia(s) directa(s)."
+      "explanation": "Se ha detectado explícitamente en 13 proyecto(s) con 17 referencia(s) directa(s)."
     },
     {
       "id": "baja_socio-reimbursement_terms",
@@ -42,16 +42,16 @@
       "evidenceType": "explicit",
       "confidence": "high",
       "supportingReferences": [
+        "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
         "docs-estatutos-estatutos-pepu",
         "docs-estatutos-estatutos-pequenopueblo",
         "docs-estatutos-estatutos-axuntase",
-        "docs-estatutos-estatutos-senior-cohousing-huelva",
-        "docs-otros-modelo-estatutos-viviendas",
-        "docs-leyes-normativa-autonomica",
-        "docs-leyes-normativa-estatal",
-        "docs-estatutos-estatutos-entrepatios"
+        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-laseronda-org"
       ],
-      "explanation": "Se ha detectado explícitamente en 11 proyecto(s) con 16 referencia(s) directa(s)."
+      "explanation": "Se ha detectado explícitamente en 13 proyecto(s) con 17 referencia(s) directa(s)."
     },
     {
       "id": "baja_socio-replacement",
@@ -59,16 +59,16 @@
       "evidenceType": "inferred",
       "confidence": "medium",
       "supportingReferences": [
+        "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
         "docs-estatutos-estatutos-pepu",
         "docs-estatutos-estatutos-pequenopueblo",
         "docs-estatutos-estatutos-axuntase",
-        "docs-estatutos-estatutos-senior-cohousing-huelva",
-        "docs-otros-modelo-estatutos-viviendas",
-        "docs-leyes-normativa-autonomica",
-        "docs-leyes-normativa-estatal",
-        "docs-estatutos-estatutos-entrepatios"
+        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-laseronda-org"
       ],
-      "explanation": "Parece inferirse en 11 proyecto(s), aunque sin mención explícita y directa."
+      "explanation": "Parece inferirse en 13 proyecto(s), aunque sin mención explícita y directa."
     },
     {
       "id": "baja_socio-exit_transition",
@@ -76,16 +76,16 @@
       "evidenceType": "explicit",
       "confidence": "high",
       "supportingReferences": [
+        "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
         "docs-estatutos-estatutos-pepu",
         "docs-estatutos-estatutos-pequenopueblo",
         "docs-estatutos-estatutos-axuntase",
-        "docs-estatutos-estatutos-senior-cohousing-huelva",
-        "docs-otros-modelo-estatutos-viviendas",
-        "docs-leyes-normativa-autonomica",
-        "docs-leyes-normativa-estatal",
-        "docs-estatutos-estatutos-entrepatios"
+        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-laseronda-org"
       ],
-      "explanation": "Se ha detectado explícitamente en 11 proyecto(s) con 16 referencia(s) directa(s)."
+      "explanation": "Se ha detectado explícitamente en 13 proyecto(s) con 17 referencia(s) directa(s)."
     }
   ],
   "conflictingApproaches": [],
@@ -102,122 +102,32 @@
   },
   "extracts": [
     {
-      "id": "baja_socio-voluntary_exit-docs-estatutos-estatutos-pepu-16",
+      "id": "baja_socio-voluntary_exit-docs-guias-guia-introduccion-al-cohousing-senior-2019-4-130",
       "claimId": "baja_socio-voluntary_exit",
-      "documentSlug": "docs-estatutos-estatutos-pepu",
-      "documentTitle": "Estatutos Pepu",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_pepu.pdf",
-      "articleOrSection": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos.",
-      "snippet": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos. La persona socia podrá causar baja en la Cooperativa de las formas y de acuerdo con los procedimientos que a continuación se establecen. En el momento en que la baja sea efectiva automáticamente quedará resuelta la cesión de uso de la vivienda que tenga asignada, debiendo entregar inmediatamente su posesión a la Cooperativa. A) Baja voluntaria 1.- La persona socia podrá solicitar voluntariamente su baja en cualquier momento, mediante escrito dirigido al Consejo Rector y observando el plazo de preaviso de al menos seis meses de COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firm...",
-      "score": 28,
-      "relevanceFactors": {
-        "explicit": true,
-        "headingRelevant": false,
-        "contextualCooccurrence": false,
-        "topicDensity": true,
-        "conceptProximity": true
-      }
-    },
-    {
-      "id": "baja_socio-voluntary_exit-docs-estatutos-estatutos-pequenopueblo-16",
-      "claimId": "baja_socio-voluntary_exit",
-      "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
-      "documentTitle": "Estatutos Pequenopueblo",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_pequenopueblo.pdf",
-      "articleOrSection": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos.",
-      "snippet": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos. La persona socia podrá causar baja en la Cooperativa de las formas y de acuerdo con los procedimientos que a continuación se establecen. En el momento en que la baja sea efectiva automáticamente quedará resuelta la cesión de uso de la vivienda que tenga asignada, debiendo entregar inmediatamente su posesión a la Cooperativa. A) Baja voluntaria 1.- La persona socia podrá solicitar voluntariamente su baja en cualquier momento, mediante escrito dirigido al Consejo Rector y observando el plazo de preaviso de al menos seis meses de COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firm...",
-      "score": 28,
-      "relevanceFactors": {
-        "explicit": true,
-        "headingRelevant": false,
-        "contextualCooccurrence": false,
-        "topicDensity": true,
-        "conceptProximity": true
-      }
-    },
-    {
-      "id": "baja_socio-voluntary_exit-docs-estatutos-estatutos-axuntase-17",
-      "claimId": "baja_socio-voluntary_exit",
-      "documentSlug": "docs-estatutos-estatutos-axuntase",
-      "documentTitle": "Estatutos Axuntase",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_axuntase.pdf",
-      "articleOrSection": "Artículo 13.- Baja obligatoria",
-      "snippet": "Artículo 13.- Baja obligatoria 1.- Las personas socias causarán baja obligatoria cuando dejen de reunir los requisitos exigidos para ostentar tal cualidad y previa apertura de expediente, de acuerdo con lo previsto en la Ley de Cooperativas y en estos Estatutos. La enfermedad sobrevenida no será causa de incumplimiento de los requisitos para seguir siendo socio/a residente. 2.- La baja obligatoria será acordada por el Consejo Rector, previa audiencia de la interesado/a y familiar directo o tutor/a .En cualquier caso, la notificación al socio/a y familiar directo o tutor/a de la apertura del expediente de baja obligatoria se formulará mediante escrito motivado, en el que se concederá al socio/a el preceptivo trámite de audiencia, a fin de que en el plazo de los 15 días hábiles siguientes al...",
-      "score": 3,
+      "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
+      "articleOrSection": "a) Clases de baja: baja voluntaria y baja obligatoria. Baja justificada e injustificada",
+      "snippet": "a) Clases de baja: baja voluntaria y baja obligatoria. Baja justificada e injustificada También en virtud del “principio de puerta abierta” los socios pueden causar baja voluntariamente de la cooperativa, si bien los estatutos sociales pueden imponer al socio un plazo de preaviso o un período mínimo de permanencia. Si no se ha previsto en los estatutos sociales, el socio podrá causar baja de la cooperativa en cualquier momento. Téngase en cuenta que cada ley autonómica establece unos máximos, tanto para el preaviso, como para la permanencia mínima, para evitar que los estatutos contemplen unos plazos injustificadamente dilatados, que hagan en la práctica inoperante el derecho de baja del socio.",
+      "score": 11,
       "relevanceFactors": {
         "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": false,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
-    },
-    {
-      "id": "baja_socio-notice_period-docs-estatutos-estatutos-pepu-16",
-      "claimId": "baja_socio-notice_period",
-      "documentSlug": "docs-estatutos-estatutos-pepu",
-      "documentTitle": "Estatutos Pepu",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_pepu.pdf",
-      "articleOrSection": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos.",
-      "snippet": "...ariamente su baja en cualquier momento, mediante escrito dirigido al Consejo Rector y observando el plazo de preaviso de al menos seis meses de COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL Acceda a la página web: https://www.ae.jcyl.es/verDocumentos/ver?idDOE=13I9OHPLELLK8 para visualizar el documento -- 10 of 49 -- ESTATUTOS DE LA ENTIDAD “PEQUEÑO PUEBLO” S. COOP. Marzo-2022 Página 11 de 49 antelación a la finalización del plazo de permanencia obligatoria establecido en el artículo 8, letra e) de los presentes Estatutos. El incumplimiento de este plazo de preaviso podrá dar lugar a exigir a...",
-      "score": 46,
-      "relevanceFactors": {
-        "explicit": true,
-        "headingRelevant": false,
+        "headingRelevant": true,
         "contextualCooccurrence": true,
-        "topicDensity": true,
-        "conceptProximity": true
-      }
-    },
-    {
-      "id": "baja_socio-notice_period-docs-estatutos-estatutos-pequenopueblo-16",
-      "claimId": "baja_socio-notice_period",
-      "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
-      "documentTitle": "Estatutos Pequenopueblo",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_pequenopueblo.pdf",
-      "articleOrSection": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos.",
-      "snippet": "...ariamente su baja en cualquier momento, mediante escrito dirigido al Consejo Rector y observando el plazo de preaviso de al menos seis meses de COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL Acceda a la página web: https://www.ae.jcyl.es/verDocumentos/ver?idDOE=13I9OHPLELLK8 para visualizar el documento -- 10 of 49 -- ESTATUTOS DE LA ENTIDAD “PEQUEÑO PUEBLO” S. COOP. Marzo-2022 Página 11 de 49 antelación a la finalización del plazo de permanencia obligatoria establecido en el artículo 8, letra e) de los presentes Estatutos. El incumplimiento de este plazo de preaviso podrá dar lugar a exigir a...",
-      "score": 46,
-      "relevanceFactors": {
-        "explicit": true,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": true,
-        "conceptProximity": true
-      }
-    },
-    {
-      "id": "baja_socio-notice_period-docs-estatutos-estatutos-axuntase-17",
-      "claimId": "baja_socio-notice_period",
-      "documentSlug": "docs-estatutos-estatutos-axuntase",
-      "documentTitle": "Estatutos Axuntase",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_axuntase.pdf",
-      "articleOrSection": "Artículo 13.- Baja obligatoria",
-      "snippet": "...motivado, en el que se concederá al socio/a el preceptivo trámite de audiencia, a fin de que en el plazo de los 15 días hábiles siguientes al de la notificación del inicio del expediente, formule las alegaciones que estime oportunas. 3.- Si el socio/a estuviese disconforme con el acuerdo del Consejo Rector sobre la calificación y efectos de su baja obligatoria, podrá recurrir, en el plazo de un mes desde su notificación, ante la Asamblea General, que resolverá en la primera reunión que celebre, mediante votación secreta, y en el supuesto de no hacerlo, el recurso se entenderá estimado. En todo caso, la resolución del recurso podrá ser impugnada ante la jurisdicción competente en el plazo de un mes desde su notificación, de conformidad con lo establecido en los artículos 57 y 58 de la Ley...",
-      "score": 13,
-      "relevanceFactors": {
-        "explicit": true,
-        "headingRelevant": false,
-        "contextualCooccurrence": false,
         "topicDensity": false,
         "conceptProximity": true
       }
     },
     {
-      "id": "baja_socio-reimbursement_terms-docs-estatutos-estatutos-pepu-16",
-      "claimId": "baja_socio-reimbursement_terms",
+      "id": "baja_socio-voluntary_exit-docs-estatutos-estatutos-pepu-60",
+      "claimId": "baja_socio-voluntary_exit",
       "documentSlug": "docs-estatutos-estatutos-pepu",
       "documentTitle": "Estatutos Pepu",
       "documentType": "estatutos",
       "sourcePath": "docs/estatutos/estatutos_pepu.pdf",
-      "articleOrSection": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos.",
-      "snippet": "...perativos en los términos en que venía obligado y, en su caso, el Consejo Rector podrá acordar unas deducciones del vente por ciento sobre la cuantía de sus participaciones obligatorias, tal y como se refleja en el tercer punto del artículo 14. 2. a) de estos estatutos. 2.- La calificación y determinación de los efectos de la baja será competencia del Consejo Rector, que deberá formalizarla en el plazo máximo de tres meses desde la recepción de la solicitud mediante escrito motivado, que habrá de ser comunicado a la persona interesada. Transcurrido dicho plazo sin resolución expresa se entenderá calificada la baja voluntaria como justificada. 3.- Se considerará como baja voluntaria no justificada: a) Cuando la persona socia incumpla el plazo de preaviso establecido en el número 1 anterior,...",
+      "articleOrSection": "B) Baja obligatoria",
+      "snippet": "B) Baja obligatoria COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL -- 11 of 49 -- ESTATUTOS DE LA ENTIDAD “PEQUEÑO PUEBLO” S. COOP. Marzo-2022 Página 12 de 49 1.- La persona socia causará baja obligatoria en la Cooperativa cuando pierda los requisitos exigidos por la Ley o por estos Estatutos para formar parte de la misma. Dicha baja se considerará justificada, salvo que la pérdida de los citados requisitos sea consecuencia del deliberado propósito de la persona socia de incumplir o eludir sus obligaciones con la Cooperativa o de beneficiarse indebidamente con su baja obligatoria, en cuyo caso...",
       "score": 4,
       "relevanceFactors": {
         "explicit": false,
@@ -228,14 +138,14 @@
       }
     },
     {
-      "id": "baja_socio-reimbursement_terms-docs-estatutos-estatutos-pequenopueblo-16",
-      "claimId": "baja_socio-reimbursement_terms",
+      "id": "baja_socio-voluntary_exit-docs-estatutos-estatutos-pequenopueblo-60",
+      "claimId": "baja_socio-voluntary_exit",
       "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
       "documentTitle": "Estatutos Pequenopueblo",
       "documentType": "estatutos",
       "sourcePath": "docs/estatutos/estatutos_pequenopueblo.pdf",
-      "articleOrSection": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos.",
-      "snippet": "...perativos en los términos en que venía obligado y, en su caso, el Consejo Rector podrá acordar unas deducciones del vente por ciento sobre la cuantía de sus participaciones obligatorias, tal y como se refleja en el tercer punto del artículo 14. 2. a) de estos estatutos. 2.- La calificación y determinación de los efectos de la baja será competencia del Consejo Rector, que deberá formalizarla en el plazo máximo de tres meses desde la recepción de la solicitud mediante escrito motivado, que habrá de ser comunicado a la persona interesada. Transcurrido dicho plazo sin resolución expresa se entenderá calificada la baja voluntaria como justificada. 3.- Se considerará como baja voluntaria no justificada: a) Cuando la persona socia incumpla el plazo de preaviso establecido en el número 1 anterior,...",
+      "articleOrSection": "B) Baja obligatoria",
+      "snippet": "B) Baja obligatoria COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL -- 11 of 49 -- ESTATUTOS DE LA ENTIDAD “PEQUEÑO PUEBLO” S. COOP. Marzo-2022 Página 12 de 49 1.- La persona socia causará baja obligatoria en la Cooperativa cuando pierda los requisitos exigidos por la Ley o por estos Estatutos para formar parte de la misma. Dicha baja se considerará justificada, salvo que la pérdida de los citados requisitos sea consecuencia del deliberado propósito de la persona socia de incumplir o eludir sus obligaciones con la Cooperativa o de beneficiarse indebidamente con su baja obligatoria, en cuyo caso...",
       "score": 4,
       "relevanceFactors": {
         "explicit": false,
@@ -246,14 +156,68 @@
       }
     },
     {
-      "id": "baja_socio-reimbursement_terms-docs-estatutos-estatutos-axuntase-17",
+      "id": "baja_socio-notice_period-docs-guias-guia-introduccion-al-cohousing-senior-2019-4-130",
+      "claimId": "baja_socio-notice_period",
+      "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
+      "articleOrSection": "a) Clases de baja: baja voluntaria y baja obligatoria. Baja justificada e injustificada",
+      "snippet": "...r baja voluntariamente de la cooperativa, si bien los estatutos sociales pueden imponer al socio un plazo de preaviso o un período mínimo de permanencia. Si no se ha previsto en los estatutos sociales, el socio podrá causar baja de la cooperativa en cualquier momento. Téngase en cuenta que cada ley autonómica establece unos máximos, tanto para el preaviso, como para la permanencia mínima, para evitar que los estatutos contemplen unos plazos injustificadamente dilatados, que hagan en la práctica inoperante el derecho de baja del socio.",
+      "score": 9,
+      "relevanceFactors": {
+        "explicit": true,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "baja_socio-notice_period-docs-estatutos-estatutos-pepu-60",
+      "claimId": "baja_socio-notice_period",
+      "documentSlug": "docs-estatutos-estatutos-pepu",
+      "documentTitle": "Estatutos Pepu",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_pepu.pdf",
+      "articleOrSection": "B) Baja obligatoria",
+      "snippet": "...hasta que sea notificada la ratificación de la baja por la Asamblea General, o haya transcurrido el plazo para recurrir ante dicho órgano sin haberlo hecho. La persona socia conservará su derecho de voto en la Asamblea General mientras el acuerdo no sea ejecutivo.",
+      "score": 5,
+      "relevanceFactors": {
+        "explicit": true,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "baja_socio-notice_period-docs-estatutos-estatutos-pequenopueblo-60",
+      "claimId": "baja_socio-notice_period",
+      "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+      "documentTitle": "Estatutos Pequenopueblo",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_pequenopueblo.pdf",
+      "articleOrSection": "B) Baja obligatoria",
+      "snippet": "...hasta que sea notificada la ratificación de la baja por la Asamblea General, o haya transcurrido el plazo para recurrir ante dicho órgano sin haberlo hecho. La persona socia conservará su derecho de voto en la Asamblea General mientras el acuerdo no sea ejecutivo.",
+      "score": 5,
+      "relevanceFactors": {
+        "explicit": true,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "baja_socio-reimbursement_terms-docs-guias-guia-introduccion-al-cohousing-senior-2019-4-130",
       "claimId": "baja_socio-reimbursement_terms",
-      "documentSlug": "docs-estatutos-estatutos-axuntase",
-      "documentTitle": "Estatutos Axuntase",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_axuntase.pdf",
-      "articleOrSection": "Artículo 13.- Baja obligatoria",
-      "snippet": "Artículo 13.- Baja obligatoria 1.- Las personas socias causarán baja obligatoria cuando dejen de reunir los requisitos exigidos para ostentar tal cualidad y previa apertura de expediente, de acuerdo con lo previsto en la Ley de Cooperativas y en estos Estatutos. La enfermedad sobrevenida no será causa de incumplimiento de los requisitos para seguir siendo socio/a residente. 2.- La baja obligatoria será acordada por el Consejo Rector, previa audiencia de la interesado/a y familiar directo o tutor/a .En cualquier caso, la notificación al socio/a y familiar directo o tutor/a de la apertura del expediente de baja obligatoria se formulará mediante escrito motivado, en el que se concederá al socio/a el preceptivo trámite de audiencia, a fin de que en el plazo de los 15 días hábiles siguientes al...",
+      "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
+      "articleOrSection": "a) Clases de baja: baja voluntaria y baja obligatoria. Baja justificada e injustificada",
+      "snippet": "a) Clases de baja: baja voluntaria y baja obligatoria. Baja justificada e injustificada También en virtud del “principio de puerta abierta” los socios pueden causar baja voluntariamente de la cooperativa, si bien los estatutos sociales pueden imponer al socio un plazo de preaviso o un período mínimo de permanencia. Si no se ha previsto en los estatutos sociales, el socio podrá causar baja de la cooperativa en cualquier momento. Téngase en cuenta que cada ley autonómica establece unos máximos, tanto para el preaviso, como para la permanencia mínima, para evitar que los estatutos contemplen unos plazos injustificadamente dilatados, que hagan en la práctica inoperante el derecho de baja del socio.",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -264,14 +228,68 @@
       }
     },
     {
-      "id": "baja_socio-replacement-docs-estatutos-estatutos-pepu-16",
+      "id": "baja_socio-reimbursement_terms-docs-estatutos-estatutos-pepu-60",
+      "claimId": "baja_socio-reimbursement_terms",
+      "documentSlug": "docs-estatutos-estatutos-pepu",
+      "documentTitle": "Estatutos Pepu",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_pepu.pdf",
+      "articleOrSection": "B) Baja obligatoria",
+      "snippet": "B) Baja obligatoria COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL -- 11 of 49 -- ESTATUTOS DE LA ENTIDAD “PEQUEÑO PUEBLO” S. COOP. Marzo-2022 Página 12 de 49 1.- La persona socia causará baja obligatoria en la Cooperativa cuando pierda los requisitos exigidos por la Ley o por estos Estatutos para formar parte de la misma. Dicha baja se considerará justificada, salvo que la pérdida de los citados requisitos sea consecuencia del deliberado propósito de la persona socia de incumplir o eludir sus obligaciones con la Cooperativa o de beneficiarse indebidamente con su baja obligatoria, en cuyo caso...",
+      "score": 3,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "baja_socio-reimbursement_terms-docs-estatutos-estatutos-pequenopueblo-60",
+      "claimId": "baja_socio-reimbursement_terms",
+      "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+      "documentTitle": "Estatutos Pequenopueblo",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_pequenopueblo.pdf",
+      "articleOrSection": "B) Baja obligatoria",
+      "snippet": "B) Baja obligatoria COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL -- 11 of 49 -- ESTATUTOS DE LA ENTIDAD “PEQUEÑO PUEBLO” S. COOP. Marzo-2022 Página 12 de 49 1.- La persona socia causará baja obligatoria en la Cooperativa cuando pierda los requisitos exigidos por la Ley o por estos Estatutos para formar parte de la misma. Dicha baja se considerará justificada, salvo que la pérdida de los citados requisitos sea consecuencia del deliberado propósito de la persona socia de incumplir o eludir sus obligaciones con la Cooperativa o de beneficiarse indebidamente con su baja obligatoria, en cuyo caso...",
+      "score": 3,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "baja_socio-replacement-docs-guias-guia-introduccion-al-cohousing-senior-2019-4-130",
+      "claimId": "baja_socio-replacement",
+      "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
+      "articleOrSection": "a) Clases de baja: baja voluntaria y baja obligatoria. Baja justificada e injustificada",
+      "snippet": "a) Clases de baja: baja voluntaria y baja obligatoria. Baja justificada e injustificada También en virtud del “principio de puerta abierta” los socios pueden causar baja voluntariamente de la cooperativa, si bien los estatutos sociales pueden imponer al socio un plazo de preaviso o un período mínimo de permanencia. Si no se ha previsto en los estatutos sociales, el socio podrá causar baja de la cooperativa en cualquier momento. Téngase en cuenta que cada ley autonómica establece unos máximos, tanto para el preaviso, como para la permanencia mínima, para evitar que los estatutos contemplen unos plazos injustificadamente dilatados, que hagan en la práctica inoperante el derecho de baja del socio.",
+      "score": 3,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "baja_socio-replacement-docs-estatutos-estatutos-pepu-60",
       "claimId": "baja_socio-replacement",
       "documentSlug": "docs-estatutos-estatutos-pepu",
       "documentTitle": "Estatutos Pepu",
       "documentType": "estatutos",
       "sourcePath": "docs/estatutos/estatutos_pepu.pdf",
-      "articleOrSection": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos.",
-      "snippet": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos. La persona socia podrá causar baja en la Cooperativa de las formas y de acuerdo con los procedimientos que a continuación se establecen. En el momento en que la baja sea efectiva automáticamente quedará resuelta la cesión de uso de la vivienda que tenga asignada, debiendo entregar inmediatamente su posesión a la Cooperativa. A) Baja voluntaria 1.- La persona socia podrá solicitar voluntariamente su baja en cualquier momento, mediante escrito dirigido al Consejo Rector y observando el plazo de preaviso de al menos seis meses de COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firm...",
+      "articleOrSection": "B) Baja obligatoria",
+      "snippet": "B) Baja obligatoria COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL -- 11 of 49 -- ESTATUTOS DE LA ENTIDAD “PEQUEÑO PUEBLO” S. COOP. Marzo-2022 Página 12 de 49 1.- La persona socia causará baja obligatoria en la Cooperativa cuando pierda los requisitos exigidos por la Ley o por estos Estatutos para formar parte de la misma. Dicha baja se considerará justificada, salvo que la pérdida de los citados requisitos sea consecuencia del deliberado propósito de la persona socia de incumplir o eludir sus obligaciones con la Cooperativa o de beneficiarse indebidamente con su baja obligatoria, en cuyo caso...",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -282,14 +300,14 @@
       }
     },
     {
-      "id": "baja_socio-replacement-docs-estatutos-estatutos-pequenopueblo-16",
+      "id": "baja_socio-replacement-docs-estatutos-estatutos-pequenopueblo-60",
       "claimId": "baja_socio-replacement",
       "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
       "documentTitle": "Estatutos Pequenopueblo",
       "documentType": "estatutos",
       "sourcePath": "docs/estatutos/estatutos_pequenopueblo.pdf",
-      "articleOrSection": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos.",
-      "snippet": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos. La persona socia podrá causar baja en la Cooperativa de las formas y de acuerdo con los procedimientos que a continuación se establecen. En el momento en que la baja sea efectiva automáticamente quedará resuelta la cesión de uso de la vivienda que tenga asignada, debiendo entregar inmediatamente su posesión a la Cooperativa. A) Baja voluntaria 1.- La persona socia podrá solicitar voluntariamente su baja en cualquier momento, mediante escrito dirigido al Consejo Rector y observando el plazo de preaviso de al menos seis meses de COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firm...",
+      "articleOrSection": "B) Baja obligatoria",
+      "snippet": "B) Baja obligatoria COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL -- 11 of 49 -- ESTATUTOS DE LA ENTIDAD “PEQUEÑO PUEBLO” S. COOP. Marzo-2022 Página 12 de 49 1.- La persona socia causará baja obligatoria en la Cooperativa cuando pierda los requisitos exigidos por la Ley o por estos Estatutos para formar parte de la misma. Dicha baja se considerará justificada, salvo que la pérdida de los citados requisitos sea consecuencia del deliberado propósito de la persona socia de incumplir o eludir sus obligaciones con la Cooperativa o de beneficiarse indebidamente con su baja obligatoria, en cuyo caso...",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -300,14 +318,14 @@
       }
     },
     {
-      "id": "baja_socio-replacement-docs-estatutos-estatutos-axuntase-17",
-      "claimId": "baja_socio-replacement",
-      "documentSlug": "docs-estatutos-estatutos-axuntase",
-      "documentTitle": "Estatutos Axuntase",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_axuntase.pdf",
-      "articleOrSection": "Artículo 13.- Baja obligatoria",
-      "snippet": "Artículo 13.- Baja obligatoria 1.- Las personas socias causarán baja obligatoria cuando dejen de reunir los requisitos exigidos para ostentar tal cualidad y previa apertura de expediente, de acuerdo con lo previsto en la Ley de Cooperativas y en estos Estatutos. La enfermedad sobrevenida no será causa de incumplimiento de los requisitos para seguir siendo socio/a residente. 2.- La baja obligatoria será acordada por el Consejo Rector, previa audiencia de la interesado/a y familiar directo o tutor/a .En cualquier caso, la notificación al socio/a y familiar directo o tutor/a de la apertura del expediente de baja obligatoria se formulará mediante escrito motivado, en el que se concederá al socio/a el preceptivo trámite de audiencia, a fin de que en el plazo de los 15 días hábiles siguientes al...",
+      "id": "baja_socio-exit_transition-docs-guias-guia-introduccion-al-cohousing-senior-2019-4-130",
+      "claimId": "baja_socio-exit_transition",
+      "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
+      "articleOrSection": "a) Clases de baja: baja voluntaria y baja obligatoria. Baja justificada e injustificada",
+      "snippet": "a) Clases de baja: baja voluntaria y baja obligatoria. Baja justificada e injustificada También en virtud del “principio de puerta abierta” los socios pueden causar baja voluntariamente de la cooperativa, si bien los estatutos sociales pueden imponer al socio un plazo de preaviso o un período mínimo de permanencia. Si no se ha previsto en los estatutos sociales, el socio podrá causar baja de la cooperativa en cualquier momento. Téngase en cuenta que cada ley autonómica establece unos máximos, tanto para el preaviso, como para la permanencia mínima, para evitar que los estatutos contemplen unos plazos injustificadamente dilatados, que hagan en la práctica inoperante el derecho de baja del socio.",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -318,17 +336,17 @@
       }
     },
     {
-      "id": "baja_socio-exit_transition-docs-estatutos-estatutos-pepu-16",
+      "id": "baja_socio-exit_transition-docs-estatutos-estatutos-pepu-60",
       "claimId": "baja_socio-exit_transition",
       "documentSlug": "docs-estatutos-estatutos-pepu",
       "documentTitle": "Estatutos Pepu",
       "documentType": "estatutos",
       "sourcePath": "docs/estatutos/estatutos_pepu.pdf",
-      "articleOrSection": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos.",
-      "snippet": "...establecen. En el momento en que la baja sea efectiva automáticamente quedará resuelta la cesión de uso de la vivienda que tenga asignada, debiendo entregar inmediatamente su posesión a la Cooperativa. A) Baja voluntaria 1.- La persona socia podrá solicitar voluntariamente su baja en cualquier momento, mediante escrito dirigido al Consejo Rector y observando el plazo de preaviso de al menos seis meses de COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL Acceda a la página web: https://www.ae.jcyl.es/verDocumentos/ver?idDOE=13I9OHPLELLK8 para visualizar el documento -- 10 of 49 -- ESTATUTOS DE LA E...",
-      "score": 5,
+      "articleOrSection": "B) Baja obligatoria",
+      "snippet": "B) Baja obligatoria COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL -- 11 of 49 -- ESTATUTOS DE LA ENTIDAD “PEQUEÑO PUEBLO” S. COOP. Marzo-2022 Página 12 de 49 1.- La persona socia causará baja obligatoria en la Cooperativa cuando pierda los requisitos exigidos por la Ley o por estos Estatutos para formar parte de la misma. Dicha baja se considerará justificada, salvo que la pérdida de los citados requisitos sea consecuencia del deliberado propósito de la persona socia de incumplir o eludir sus obligaciones con la Cooperativa o de beneficiarse indebidamente con su baja obligatoria, en cuyo caso...",
+      "score": 3,
       "relevanceFactors": {
-        "explicit": true,
+        "explicit": false,
         "headingRelevant": false,
         "contextualCooccurrence": false,
         "topicDensity": false,
@@ -336,32 +354,14 @@
       }
     },
     {
-      "id": "baja_socio-exit_transition-docs-estatutos-estatutos-pequenopueblo-16",
+      "id": "baja_socio-exit_transition-docs-estatutos-estatutos-pequenopueblo-60",
       "claimId": "baja_socio-exit_transition",
       "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
       "documentTitle": "Estatutos Pequenopueblo",
       "documentType": "estatutos",
       "sourcePath": "docs/estatutos/estatutos_pequenopueblo.pdf",
-      "articleOrSection": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos.",
-      "snippet": "...establecen. En el momento en que la baja sea efectiva automáticamente quedará resuelta la cesión de uso de la vivienda que tenga asignada, debiendo entregar inmediatamente su posesión a la Cooperativa. A) Baja voluntaria 1.- La persona socia podrá solicitar voluntariamente su baja en cualquier momento, mediante escrito dirigido al Consejo Rector y observando el plazo de preaviso de al menos seis meses de COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL Acceda a la página web: https://www.ae.jcyl.es/verDocumentos/ver?idDOE=13I9OHPLELLK8 para visualizar el documento -- 10 of 49 -- ESTATUTOS DE LA E...",
-      "score": 5,
-      "relevanceFactors": {
-        "explicit": true,
-        "headingRelevant": false,
-        "contextualCooccurrence": false,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
-    },
-    {
-      "id": "baja_socio-exit_transition-docs-estatutos-estatutos-axuntase-17",
-      "claimId": "baja_socio-exit_transition",
-      "documentSlug": "docs-estatutos-estatutos-axuntase",
-      "documentTitle": "Estatutos Axuntase",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_axuntase.pdf",
-      "articleOrSection": "Artículo 13.- Baja obligatoria",
-      "snippet": "Artículo 13.- Baja obligatoria 1.- Las personas socias causarán baja obligatoria cuando dejen de reunir los requisitos exigidos para ostentar tal cualidad y previa apertura de expediente, de acuerdo con lo previsto en la Ley de Cooperativas y en estos Estatutos. La enfermedad sobrevenida no será causa de incumplimiento de los requisitos para seguir siendo socio/a residente. 2.- La baja obligatoria será acordada por el Consejo Rector, previa audiencia de la interesado/a y familiar directo o tutor/a .En cualquier caso, la notificación al socio/a y familiar directo o tutor/a de la apertura del expediente de baja obligatoria se formulará mediante escrito motivado, en el que se concederá al socio/a el preceptivo trámite de audiencia, a fin de que en el plazo de los 15 días hábiles siguientes al...",
+      "articleOrSection": "B) Baja obligatoria",
+      "snippet": "B) Baja obligatoria COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL -- 11 of 49 -- ESTATUTOS DE LA ENTIDAD “PEQUEÑO PUEBLO” S. COOP. Marzo-2022 Página 12 de 49 1.- La persona socia causará baja obligatoria en la Cooperativa cuando pierda los requisitos exigidos por la Ley o por estos Estatutos para formar parte de la misma. Dicha baja se considerará justificada, salvo que la pérdida de los citados requisitos sea consecuencia del deliberado propósito de la persona socia de incumplir o eludir sus obligaciones con la Cooperativa o de beneficiarse indebidamente con su baja obligatoria, en cuyo caso...",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -372,6 +372,6 @@
       }
     }
   ],
-  "nonSubstantiveFiltered": 0,
+  "nonSubstantiveFiltered": 3,
   "evidenceHealth": "strong"
 }

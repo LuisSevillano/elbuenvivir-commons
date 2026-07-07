@@ -1,0 +1,158 @@
+{
+  "slug": "admision_socio",
+  "title": "Admisión de personas socias",
+  "shortDescription": "Requisitos y procedimiento para que entre una nueva persona socia en la cooperativa de usuarios de El Buen Vivir, conforme a la Ley 4/2002 de CyL.",
+  "category": "socios",
+  "minimumContents": [
+    "Fijar los requisitos de admisión (respetando igualdad y no discriminación).",
+    "Regular el procedimiento: solicitud, órgano que decide y plazo.",
+    "Fijar el plazo de resolución del Consejo Rector (máximo 3 meses en CyL).",
+    "Prever el recurso de la persona denegada.",
+    "Conectar la admisión con la lista de espera y con las clases de socio (A/B)."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Fijar el plazo de resolución del Consejo Rector (vuestro borrador lo deja en 'xxx días'; la ley obliga a ≤ 3 meses).",
+    "Concretar los requisitos de admisión de Socio A y de Socio B (hoy copiados de una cooperativa de viviendas).",
+    "¿El silencio será desestimatorio (como marca la ley CyL) o preferís otra vía?",
+    "Definir el criterio de prioridad de la lista de espera y el proceso de conversión de Socio B a Socio A.",
+    "Decidir la estrategia de apertura a nuevos miembros (pendiente en las Reuniones 20 y 21)."
+  ],
+  "risks": [
+    "Dejar el plazo del Consejo Rector sin fijar es contrario a la exigencia legal de resolver en un máximo de tres meses.",
+    "Requisitos demasiado laxos pueden diluir la cohesión del grupo; demasiado cerrados, bloquear el reenganche de amistades.",
+    "No distinguir admisión de Socio A y Socio B genera confusión sobre aportaciones y derechos."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "Requisitos, órgano competente y plazos afectan a la condición de socio: rango estatutario.",
+      "El acompañamiento de entrada y la gestión de la lista de espera son operativos: RRI."
+    ],
+    "shouldBeInStatutes": [
+      "Requisitos de admisión y respeto a igualdad y no discriminación (art. 19.1, reservado).",
+      "Marco imperativo: órgano competente (Consejo Rector), plazo máximo legal y silencio desestimatorio.",
+      "Recurso de la persona denegada e impugnación del acuerdo.",
+      "Remisión al RRI del desarrollo del procedimiento."
+    ],
+    "shouldBeInRRI": [
+      "Tramitación detallada: modelo de solicitud, documentación, plazo interno de resolución y publicidad interna.",
+      "Distinción operativa entre admisión de Socio A y de Socio B.",
+      "Acompañamiento de la entrada por la Comisión de Convivencia.",
+      "Criterio de prioridad de la lista de espera.",
+      "Proceso operativo de conversión de Socio B a Socio A."
+    ],
+    "canBeDeferredInitially": []
+  },
+  "relatedTopics": [
+    { "topicSlug": "clases_de_socios", "relationship": "depends_on", "explanation": "Los requisitos dependen de si se admite un Socio A o B." },
+    { "topicSlug": "aportaciones_obligatorias", "relationship": "depends_on", "explanation": "Admitir implica desembolsar la aportación obligatoria mínima." },
+    { "topicSlug": "lista_espera", "relationship": "complements", "explanation": "La lista de espera ordena las admisiones." }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "La Ley 4/2002 CyL regula la admisión en su artículo 19. Los Estatutos fijan los requisitos, pero el procedimiento tiene límites imperativos.",
+        "Punto crítico para vuestro borrador: la ley obliga a que el Consejo Rector resuelva en un máximo de tres meses, y el silencio equivale a denegación. Vuestro borrador de estatutos deja ese plazo sin rellenar ('xxx días')."
+      ],
+      "requirements": [
+        { "aspect": "Requisitos de admisión", "law": "Ley 4/2002 CyL, art. 19.1", "requirement": "Los fijan los Estatutos, respetando igualdad y no discriminación.", "margin": "Definís los requisitos." },
+        { "aspect": "Desembolso al entrar", "law": "Ley 4/2002 CyL, art. 19.2 y 60", "requirement": "Desembolsar la aportación obligatoria mínima y suscribir el resto.", "margin": "Fijáis la cuantía." },
+        { "aspect": "Plazo de resolución", "law": "Ley 4/2002 CyL, art. 19.3", "requirement": "El Consejo Rector resuelve en ≤ 3 meses; el silencio deniega; la resolución debe ser motivada.", "margin": "Podéis reducir el plazo." },
+        { "aspect": "Recurso de la persona denegada", "law": "Ley 4/2002 CyL, art. 19.4", "requirement": "15 días hábiles ante Comité de Recursos o Asamblea General.", "margin": "—" },
+        { "aspect": "Impugnación de la admisión", "law": "Ley 4/2002 CyL, art. 19.5 y 19.7", "requirement": "El 10 % de votos (o 2 votos si hay menos de 10 socios); suspende el ingreso hasta resolver.", "margin": "—" }
+      ],
+      "citations": [
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 19.3 (plazo y silencio)", "excerpt": "La solicitud de admisión se formulará mediante escrito dirigido al Consejo Rector quien resolverá en un plazo no superior a tres meses [...]. Transcurrido el plazo de resolución, sin haber recaído ésta, se considerará como desestimada la solicitud. La resolución correspondiente habrá de ser motivada." },
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 19.4 (recurso)", "excerpt": "Denegada la admisión el solicitante podrá recurrir en el plazo de quince días hábiles a contar desde la fecha de notificación del acuerdo denegatorio ante el Comité de Recursos si lo hubiere o ante la primera Asamblea General que se celebre." }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo regulan la admisión otras cooperativas. Fíjate en el sentido del silencio (denegatorio vs positivo) y en los requisitos de encaje en el proyecto.",
+      "columns": [
+        { "key": "organo", "label": "Órgano que admite" },
+        { "key": "plazo", "label": "Plazo de resolución" },
+        { "key": "silencio", "label": "Sentido del silencio" }
+      ],
+      "rows": [
+        {
+          "project": "Axuntase (Asturias)",
+          "cells": { "organo": "Consejo Rector (casos excepcionales a Asamblea)", "plazo": "El que fija la ley", "silencio": "Según ley" },
+          "documentSlug": "docs-estatutos-estatutos-axuntase",
+          "articleOrSection": "Artículo 7 — Adquisición de la condición de socio/a",
+          "excerpt": "Para adquirir la condición de socio/a será necesario: a) Solicitar su admisión por escrito dirigido al Consejo Rector [...] g) Aceptar el contenido de los Estatutos Sociales y el Reglamento de Régimen Interior. h) Que exista plaza disponible de alojamiento [...]. El Consejo Rector podrá atender de forma excepcional [...] solicitudes que deberán ser sometidas a la primera Asamblea General."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": { "organo": "Consejo Rector", "plazo": "2 meses", "silencio": "Denegatorio" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 6 — Admisión",
+          "excerpt": "Requisitos: estar de acuerdo con los objetivos del proyecto y con las normas de convivencia; no haber causado baja de otra Cooperativa de vivienda por expulsión o baja injustificada. La decisión corresponde al Consejo Rector, mediante resolución motivada notificada por escrito dentro del plazo de dos meses. A falta de respuesta se entiende que la solicitud es denegada."
+        },
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": { "organo": "Órgano de administración", "plazo": "45 días", "silencio": "Positivo (admisión aprobada)" },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Artículo 8 — Procedimiento de admisión",
+          "excerpt": "El órgano de administración, en el plazo máximo de cuarenta y cinco días desde la recepción de la solicitud, decidirá y comunicará por escrito el acuerdo de admisión o denegatorio. Transcurrido dicho plazo sin resolución expresa, se entenderá aprobada la admisión. La adquisición de la condición de socia/o quedará en suspenso hasta que transcurra el plazo para recurrir."
+        },
+        {
+          "project": "Senior Cohousing Huelva",
+          "cells": { "organo": "Consejo Rector (delegable en Comisión)", "plazo": "3 meses", "silencio": "Positivo" },
+          "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+          "articleOrSection": "Artículo 7 — Admisión",
+          "excerpt": "Los acuerdos sobre la admisión corresponderán al Consejo Rector que, en el plazo de tres meses, deberá resolverla. Transcurrido el plazo sin notificación, se entenderá aceptada. Esta facultad de admisión podrá ser delegada por el Consejo Rector en una Comisión Ejecutiva."
+        }
+      ],
+      "note": "El sentido del silencio varía: la Ley 4/2002 CyL (y La Borda) lo hacen denegatorio; Entrepatios, El Ciempiés y S.C. Huelva lo hacen positivo. Un requisito recurrente y alineado con vuestros valores: aceptar la visión del proyecto y el RRI, no solo pagar."
+    },
+    "proposal": {
+      "rationale": [
+        "El grupo aprobó el perfil de Socio B (uso regular, vinculado a un Socio A) en las Reuniones 19 y 20 (2026), pero los requisitos y el procedimiento de admisión siguen apoyados en un texto copiado de cooperativas de viviendas.",
+        "Vuestro borrador de estatutos deja el plazo de resolución del Consejo Rector en 'xxx días': hay que fijarlo dentro del máximo legal de 3 meses.",
+        "Coherente con vuestros valores (amistad, buen trato, no especulación), el filtro de entrada debería medir la adhesión a la visión del proyecto, no solo la capacidad económica."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Requisitos de admisión",
+          "text": "Podrá adquirir la condición de persona socia quien: sea mayor de edad; comparta la visión y los valores del proyecto y acepte los Estatutos y el Reglamento de Régimen Interno; suscriba la aportación obligatoria mínima al capital social; y, en el caso de la persona socia usuaria de pleno derecho, asuma el compromiso de la cuota umbral. No podrá ser admitida quien haya causado baja de otra cooperativa por expulsión o baja injustificada. El desarrollo del procedimiento se hará en los términos que fije el Reglamento de Régimen Interno.",
+          "note": "Requisitos de admisión: contenido reservado a Estatutos (art. 19.1 Ley 4/2002), adaptado a cooperativa de usuarios y al valor de adhesión a la visión."
+        },
+        {
+          "target": "estatutos",
+          "heading": "Procedimiento de admisión (marco legal)",
+          "text": "La solicitud de admisión se dirigirá por escrito al Consejo Rector, órgano competente para resolverla de forma motivada dentro del plazo máximo de tres meses que fija la ley. Transcurrido el plazo sin resolución, la solicitud se entenderá desestimada. La persona denegada podrá recurrir en quince días hábiles ante la Asamblea General y el acuerdo de admisión podrá impugnarse conforme a la ley. Los plazos internos, la tramitación detallada y la publicidad interna del acuerdo se regularán en los términos que desarrolle el Reglamento de Régimen Interno.",
+          "note": "Se deja en Estatutos solo el marco imperativo de la Ley 4/2002 CyL (órgano competente, plazo máximo, silencio desestimatorio y recurso). El plazo interno más corto y el detalle procedimental pasan al RRI."
+        },
+        {
+          "target": "rri",
+          "heading": "Tramitación detallada de la admisión",
+          "text": "El Reglamento de Régimen Interno concretará: el modelo de solicitud y la documentación exigible; el plazo interno de resolución del Consejo Rector, que se fija en dos (2) meses dentro del máximo legal de tres; las fases de la tramitación y la publicidad interna del acuerdo de admisión; y la distinción operativa entre la admisión de persona socia usuaria (Socio A) y de uso habitual (Socio B) en cuanto a aportaciones y compromisos.",
+          "note": "Detalle procedimental no reservado, revisable por la Asamblea sin modificar los Estatutos (art. 31 Ley 4/2002)."
+        },
+        {
+          "target": "rri",
+          "heading": "Acompañamiento, conversión y lista de espera",
+          "text": "La Comisión de Convivencia acompañará la entrada de las nuevas personas socias. La incorporación seguirá el orden de la lista de espera conforme al criterio de prioridad que acuerde el grupo. La conversión de Socio B a Socio A requerirá el pago de la cantidad inicial y el compromiso de alcanzar la cuota umbral, previa aceptación de la Asamblea General. El detalle del criterio de prioridad de la lista de espera se coordina con el reglamento de la lista de espera.",
+          "note": "Acompañamiento, conversión B→A operativa y criterios de la lista de espera: materia de RRI."
+        }
+      ],
+      "openDecisions": [
+        "Fijar el plazo de resolución del Consejo Rector (dentro del máximo legal de 3 meses).",
+        "Concretar los requisitos de admisión de Socio A y de Socio B.",
+        "¿Mantener el silencio desestimatorio legal o justificar otra vía?",
+        "Definir el criterio de prioridad de la lista de espera.",
+        "Cerrar la estrategia de apertura a nuevos miembros (pendiente Reuniones 20-21)."
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas del grupo. Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
+  "suggestedClause": {
+    "text": "La solicitud de admisión se dirigirá por escrito al Consejo Rector, que resolverá motivadamente en el plazo máximo de dos meses. Transcurrido sin resolución, se entenderá desestimada. La persona denegada podrá recurrir en quince días hábiles ante la Asamblea General. Serán requisitos compartir la visión del proyecto, aceptar los Estatutos y el RRI y suscribir la aportación obligatoria mínima.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

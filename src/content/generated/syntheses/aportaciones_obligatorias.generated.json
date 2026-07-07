@@ -1,38 +1,36 @@
 {
   "slug": "aportaciones_obligatorias",
-  "generatedAt": "2026-05-14T09:24:12.432Z",
+  "generatedAt": "2026-07-07T07:29:53.021Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/aportaciones_obligatorias.md",
     "referencesCount": 18,
     "documents": [
-      "Docs-estatutos-estatutos-axuntase",
-      "Docs-estatutos-estatutos-blanxart",
-      "Docs-estatutos-estatutos-cancarner",
-      "Docs-estatutos-estatutos-elciempies",
-      "Docs-estatutos-estatutos-entrepatios",
-      "Docs-estatutos-estatutos-la-borda",
-      "Docs-estatutos-estatutos-laseronda-org",
-      "Docs-estatutos-estatutos-losnidales",
-      "Docs-estatutos-estatutos-senior-cohousing-huelva",
-      "Docs-estatutos-estatutos-tarocohousing",
-      "Docs-leyes-normativa-autonomica",
-      "Docs-leyes-normativa-estatal",
-      "Docs-otros-modelo-estatutos-viviendas",
-      "Docs-rri-rri-axuntase"
+      "docs-estatutos-estatutos-axuntase",
+      "docs-estatutos-estatutos-elciempies",
+      "docs-estatutos-estatutos-entrepatios",
+      "docs-estatutos-estatutos-los-girasoles",
+      "docs-estatutos-estatutos-pepu",
+      "docs-estatutos-estatutos-senior-cohousing-huelva",
+      "docs-estatutos-estatutos-tarocohousing",
+      "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "docs-leyes-normativa-autonomica",
+      "docs-leyes-normativa-estatal",
+      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+      "docs-rri-rri-axuntase"
     ]
   },
   "summary": {
     "overview": [
-      "Los extractos más claros relacionan este tema con aportación obligatoria, aportación voluntaria, derechos y obligaciones.",
-      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Laseronda.Org, Rri Axuntase, Estatutos Entrepatios, Estatutos Losnidales.",
+      "Los extractos más claros relacionan este tema con aportación obligatoria, derechos y obligaciones, reembolso.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Senior Cohousing Huelva, GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4, Estatutos Elciempies, Rri Axuntase.",
       "La aportación obligatoria aparece como una condición económica básica de pertenencia o participación."
     ],
     "commonPatterns": [
       "La aportación obligatoria aparece como una condición económica básica de pertenencia o participación.",
-      "Las aportaciones voluntarias aparecen como instrumento de financiación adicional diferenciado de la obligación básica.",
       "Los textos suelen combinar derechos de participación e información con obligaciones económicas y de convivencia.",
-      "Las cuotas suelen aparecer como mecanismo periódico para sostener gastos comunes o funcionamiento ordinario.",
-      "La devolución de aportaciones aparece vinculada al reembolso y, en algunos casos, a deducciones o plazos."
+      "La devolución de aportaciones aparece vinculada al reembolso y, en algunos casos, a deducciones o plazos.",
+      "Las aportaciones voluntarias aparecen como instrumento de financiación adicional diferenciado de la obligación básica.",
+      "Las cuotas suelen aparecer como mecanismo periódico para sostener gastos comunes o funcionamiento ordinario."
     ],
     "majorDifferences": [
       "Algunos textos parecen tratarla como capital social estable y otros la conectan con cuotas, financiación o derechos de uso.",
@@ -40,33 +38,33 @@
     ],
     "commonRisks": [
       "Si la aportación se vincula a poder, uso o permanencia sin límites claros, puede generar desigualdad interna.",
-      "Pueden generar expectativas de retorno o influencia si no se separan claramente de los derechos políticos.",
       "Una lista amplia pero poco operativa puede dificultar distinguir obligaciones esenciales de prácticas cotidianas.",
-      "Si cuotas y aportaciones se mezclan, puede ser difícil distinguir inversión, gasto y retorno.",
-      "Un reembolso inmediato puede tensionar la caja; un reembolso indefinido puede generar inseguridad para quien sale."
+      "Un reembolso inmediato puede tensionar la caja; un reembolso indefinido puede generar inseguridad para quien sale.",
+      "Pueden generar expectativas de retorno o influencia si no se separan claramente de los derechos políticos.",
+      "Si cuotas y aportaciones se mezclan, puede ser difícil distinguir inversión, gasto y retorno."
     ],
     "commonTradeoffs": [
-      "Igualdad formal vs aportaciones económicas desiguales",
-      "Derecho de salida vs estabilidad financiera del proyecto",
-      "Igualdad cooperativa vs necesidades reales de financiación"
+      "igualdad formal vs aportaciones económicas desiguales",
+      "derecho de salida vs estabilidad financiera del proyecto",
+      "igualdad cooperativa vs necesidades reales de financiación"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Importe o criterio de cálculo de la aportación obligatoria",
-      "Naturaleza de la aportación y derechos que no puede alterar",
-      "Criterios de devolución o actualización",
-      "Importe, naturaleza, exigibilidad y criterios básicos de devolución de aportaciones obligatorias",
-      "Marco general para aportaciones voluntarias y ausencia de privilegios políticos",
-      "Derechos y obligaciones esenciales de las personas socias"
+      "importe o criterio de cálculo de la aportación obligatoria",
+      "naturaleza de la aportación y derechos que no puede alterar",
+      "criterios de devolución o actualización",
+      "importe, naturaleza, exigibilidad y criterios básicos de devolución de aportaciones obligatorias",
+      "derechos y obligaciones esenciales de las personas socias",
+      "derecho de reembolso, criterios generales de deducción y plazos máximos"
     ],
     "usuallyInRRI": [
-      "Calendario de pagos",
-      "Gestión interna de retrasos o fraccionamientos",
-      "Comunicación presupuestaria al grupo",
-      "Calendario de pagos, comunicación interna y gestión de incidencias de pago",
-      "Canales de propuesta, registro y seguimiento interno",
-      "Pautas cotidianas para hacer efectivos esos derechos y deberes"
+      "calendario de pagos",
+      "gestión interna de retrasos o fraccionamientos",
+      "comunicación presupuestaria al grupo",
+      "calendario de pagos, comunicación interna y gestión de incidencias de pago",
+      "pautas cotidianas para hacer efectivos esos derechos y deberes",
+      "calendario interno de pagos, documentación y seguimiento del acuerdo de devolución"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -80,64 +78,66 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
-      "Decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa"
+      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
+      "separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
-      "Decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa"
+      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
+      "separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "pointsToDecideSoon": [
-      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
-      "Decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa",
-      "Separar obligaciones esenciales de compromisos prácticos revisables",
-      "Separar claramente aportación al capital, cuotas de gasto y pagos por uso",
-      "Decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
+      "separar obligaciones esenciales de compromisos prácticos revisables",
+      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa",
+      "separar claramente aportación al capital, cuotas de gasto y pagos por uso",
       "Decidir si habrá aportaciones desiguales y cómo se evita que generen privilegios."
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Igualdad formal vs aportaciones económicas desiguales",
-    "Derecho de salida vs estabilidad financiera del proyecto"
+    "igualdad formal vs aportaciones económicas desiguales",
+    "derecho de salida vs estabilidad financiera del proyecto"
   ],
   "notableProjects": [
     {
-      "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aparece en relación con aportación obligatoria, aportación voluntaria, derechos y obligaciones.",
+      "projectName": "Normativa Autonomica",
+      "notableBecause": "Aparece en relación con aportación obligatoria, reembolso, transmisión de derechos.",
       "references": [
-        "Estatutos Entrepatios - Artículo 18. Capital social. Aportaciones iniciales dinerarias y no",
-        "Estatutos Entrepatios - Artículo 30. Financiaciones que no integran el capital social."
-      ]
-    },
-    {
-      "projectName": "Estatutos Laseronda.Org",
-      "notableBecause": "Aparece en relación con aportación obligatoria, aportación voluntaria, derechos y obligaciones.",
-      "references": [
-        "Estatutos Laseronda.Org - ARTÍCULO 38.- APORTACIONES OBLIGATORIAS",
-        "Estatutos Laseronda.Org - artículo 35 de estos Estatutos, que fueran las equivalentes realizadas por el resto de socios."
-      ]
-    },
-    {
-      "projectName": "Estatutos Losnidales",
-      "notableBecause": "Aparece en relación con aportación obligatoria, aportación voluntaria, financiación.",
-      "references": [
-        "Estatutos Losnidales - Artículo 17.- El capital social. Aportaciones iniciales dinerarias y no dinerarias;",
-        "Estatutos Losnidales - Artículo 23.- Financiaciones que no integran el capital social."
+        "Normativa Autonomica - k) Aportación obligatoria mínima al capital social, forma de acreditación y plazo de",
+        "Normativa Autonomica - 1. Los Estatutos fijarán la aportación obligatoria mínima al capital social para adquirir y",
+        "Normativa Autonomica - 1. Los Estatutos fijarán la aportación obligatoria mínima al capital social para ser socio,"
       ]
     },
     {
       "projectName": "Normativa Estatal",
-      "notableBecause": "Aparece en relación con aportación obligatoria, aportación voluntaria, cuotas.",
+      "notableBecause": "Aparece en relación con aportación obligatoria, reembolso.",
       "references": [
-        "Normativa Estatal - Artículo 46. Aportaciones obligatorias.",
-        "Normativa Estatal - Artículo 52. Aportaciones que no forman parte del capital social."
+        "Normativa Estatal - g) La aportación obligatoria mínima al capital social para ser socio, forma y plazos de",
+        "Normativa Estatal - 8. Si como consecuencia del reembolso de las aportaciones al capital social o de las",
+        "Normativa Estatal - 1. Los Estatutos fijarán la aportación obligatoria mínima al capital social para ser socio,"
+      ]
+    },
+    {
+      "projectName": "Estatutos Entrepatios",
+      "notableBecause": "Aparece en relación con aportación obligatoria, derechos y obligaciones, reembolso.",
+      "references": [
+        "Estatutos Entrepatios - 3. El capital social no podrá reducirse por debajo del capital social mínimo",
+        "Estatutos Entrepatios - Artículo 30. Financiaciones que no integran el capital social."
+      ]
+    },
+    {
+      "projectName": "Estatutos Senior Cohousing Huelva",
+      "notableBecause": "Aparece en relación con aportación obligatoria, derechos y obligaciones, transmisión de derechos.",
+      "references": [
+        "Estatutos Senior Cohousing Huelva - 7 En las sociedades cooperativas el capital social tendrá una doble acepción: el capital social contable, que es el resultante de las",
+        "Estatutos Senior Cohousing Huelva - 33.1.1. La aportación obligatoria constitutiva, o aportación inicial al Capital Social,"
       ]
     },
     {
@@ -148,10 +148,10 @@
       ]
     },
     {
-      "projectName": "Estatutos Blanxart",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "projectName": "Estatutos Elciempies",
+      "notableBecause": "Aparece en relación con aportación obligatoria, derechos y obligaciones, reembolso.",
       "references": [
-        "Estatutos Blanxart - Article 23. Capital social"
+        "Estatutos Elciempies - CAPÍTULO IV"
       ]
     }
   ],

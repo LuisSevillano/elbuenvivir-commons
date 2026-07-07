@@ -11,7 +11,7 @@ Metadata:
 
 ## Descripción breve
 
-Disolución es un tema planificado de la categoría ciclo_vida. Este dossier reúne referencias automáticas asociadas a sus keywords: disolucion, liquidacion, destino del inmueble.
+Disolución es un tema planificado de la categoría ciclo_vida. Este dossier reúne referencias automáticas asociadas a sus keywords: disolucion, liquidacion, destino del inmueble, destino del patrimonio, fondos, fondo de reserva.
 
 Este dossier contiene extractos automáticos para análisis posterior. No contiene resúmenes jurídicos ni conclusiones generadas.
 
@@ -21,130 +21,24 @@ Este dossier contiene extractos automáticos para análisis posterior. No contie
 - Qué documentos o proyectos concentran más referencias automáticas sobre este tema?
 - Qué diferencias aparecen entre tipos de documento, jurisdicciones o proyectos?
 - Qué referencias parecen útiles para revisión humana y cuáles pueden ser ruido heurístico?
-- Las keywords (disolucion, liquidacion, destino del inmueble) aparecen en contexto sustantivo o solo incidental?
+- Los aliases (liquidacion de la cooperativa, cierre del proyecto, extincion de la cooperativa) apuntan a las mismas reglas que las keywords principales?
+- Las keywords (disolucion, liquidacion, destino del inmueble, destino del patrimonio, fondos) aparecen en contexto sustantivo o solo incidental?
 
 ## Referencias agrupadas por proyecto/documento
 
-## MODELO ESTATUTOS VIVIENDAS
+## Estatutos La Borda
 
 ### Referencia 1
 
-- Documento: MODELO ESTATUTOS VIVIENDAS
-- Slug documento: `docs-otros-modelo-estatutos-viviendas`
-- Tipo: otro
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 46.- Disolución
-- Ruta fuente: `docs/otros/MODELO ESTATUTOS  VIVIENDAS.pdf`
-- Confidence: high
-- Score: 106
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 46.- Disolución
-1. Son causas de disolución de la sociedad cooperativa:
-a) El cumplimiento del plazo fijado, en su caso.
-b) La conclusión de su objeto o la imposibilidad de realizar la actividad cooperativizada.
-c) La ausencia de actividad cooperativizada principal o su realización instrumental o accesoria, en
-ambos casos, durante dos años consecutivos.
-d) El acuerdo de la Asamblea General conforme a lo dispuesto en el artículo 33 LSCA.
-e) La reducción del número de personas socias por debajo del mínimo legalmente necesario para
-constituir la sociedad cooperativa por un periodo superior a doce meses.
-f) La reducción del patrimonio contable hasta quedar por debajo del capital social estatutario, a
-no ser que, en el plazo de doce meses, se proceda a su reajuste, y siempre que no deba
-solicitarse la declaración de concurso.
-g) La fusión, y la escisión, en su caso.
-h) La apertura de la fase de liquidación en el concurso de la sociedad, conforme a lo dispuesto en
-la legislación concursal.
-i) La inactividad de alguno de los órganos sociales necesarios durante dos años consecutivos.
-j) No haber iniciado la actividad cooperativizada dentro del año siguiente desde la inscripción de
-la sociedad en el Registro de Cooperativas Andaluzas.
-k) Cualquier otra causa establecida en la ley.
-2.- Cuando concurra una causa de disolución, salvo la prevista en las letras d), g) y h) del apartado
-anterior, el órgano de administración deberá, en el término de 30 días, convocar Asamblea General para
-
--- 25 of 27 --
-
-26
-que adopte el acuerdo de disolución.
-Con este fin, cualquier persona socia, o en su caso, inversora, podrá requerir al órgano de administración
-para que convoque la Asamblea General, si a su juicio existe alguna de las mencionadas causas de
-disolución. La Asamblea General
-
-[Extracto truncado automáticamente]
-```
-
----
-
-## Normativa Autonomica
-
-### Referencia 2
-
-- Documento: Normativa Autonomica
-- Slug documento: `docs-leyes-normativa-autonomica`
-- Tipo: ley
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 90. Disolución.
-- Ruta fuente: `docs/leyes/normativa_autonomica.pdf`
-- Confidence: high
-- Score: 94
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 90. Disolución.
-1. La sociedad cooperativa se disolverá:
-a) Por el cumplimiento del plazo fijado en los Estatutos.
-b) Por acuerdo de la Asamblea general adoptado por mayoría de los dos tercios de los
-socios presentes y representados.
-c) Por la paralización de los órganos sociales o de la actividad cooperativizada durante
-dos años, sin causa justificada, de tal modo que imposibilite su funcionamiento.
-d) Por la reducción del número de socios que dé como resultado un número inferior al
-legalmente establecido o del capital social mínimo legal o estatutario, sin que se
-restablezcan en el plazo de un año.
-e) Por la realización del objeto social o la imposibilidad de su cumplimiento.
-f) Por fusión, absorción o escisión total.
-g) Por cualquier otra causa establecida en la Ley o en los Estatutos.
-2. Cuando concurra causa de disolución, salvo en los supuestos previstos en las letras b)
-y f) del apartado 1, la Asamblea general deberá ser convocada por el Consejo Rector, en el
-plazo de un mes desde que se haya constatado la existencia de la causa de disolución, para
-que se adopte el acuerdo.
-Si no se convocara la Asamblea o ésta no lograra el acuerdo de disolución, cualquier
-interesado podrá solicitar la disolución judicial de la cooperativa.
-3. El acuerdo de disolución elevado a escritura pública o, en su caso, la resolución
-judicial o administrativa deberá inscribirse en el Registro de Sociedades Cooperativas y
-publicarse en uno de los diarios de mayor circulación de la provincia del domicilio social.
-4. En el supuesto que el acuerdo de disolución haya sido adoptado por la Asamblea
-General conforme al supuesto de la letra b) del apartado 1 de este artículo y habiendo
-cesado la causa que lo motivó, la sociedad en liquidación podrá ser reactivada, siempre que
-no hubiera c
-
-[Extracto truncado automáticamente]
-```
-
----
-
-## Estatutos Entrepatios
-
-### Referencia 3
-
-- Documento: Estatutos Entrepatios
-- Slug documento: `docs-estatutos-estatutos-entrepatios`
+- Documento: Estatutos La Borda
+- Slug documento: `docs-estatutos-estatutos-la-borda`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 66. Acuerdo de disolución.
-- Ruta fuente: `docs/estatutos/estatutos_entrepatios.pdf`
+- Sección/artículo: Artículo 34. Asamblea General. Convocatoria de la Asamblea General ordinaria
+- Ruta fuente: `docs/estatutos/estatutos_la_borda.pdf`
 - Confidence: high
-- Score: 90
+- Score: 70
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -152,34 +46,143 @@ no hubiera c
 Extracto relevante:
 
 ```text
-Artículo 66. Acuerdo de disolución.
-1. Cuando concurra cualquiera de las causas previstas en el artículo anterior,
-a excepción de las indicadas en los apartados h) y j) del mismo, el órgano
-de administración deberá convocar, en el plazo de treinta días, Asamblea
-General para que adopte el acuerdo de disolución. Con este fin, cualquier
-socio podrá requerir al órgano de administración para que convoque la
-Asamblea General, si a su juicio existen algunas de las mencionadas causas
-de disolución.
-2. El acuerdo de disolución, que deberá formalizarse en escritura pública,
-será adoptado por la Asamblea General por más de la mitad de los votos
-presentes y representados, salvo en los supuestos recogidos en los apartados
-h) y j) del artículo anterior, en que será necesaria una mayoría de dos tercios
-de los votos presentes y representados, y podrá impugnarse mediante el
-procedimiento a que se refiere el artículo titulado Impugnación de acuerdos
-de la Asamblea General de estos Estatutos.
-3. Si la Asamblea no fuera convocada, no se celebrara o no adoptara el
-acuerdo de disolución o el que fuere necesario para la remoción de la
-causa de disolución, cualquier interesado podrá solicitar la disolución de la
-Cooperativa ante el Juez de Primera Instancia del domicilio social de la
-misma.
-4. El órgano de administración está obligado a solicitar la disolución judicial
-de la Cooperativa cuando el acuerdo social fuese contrario a la disolución o
-no pudiera ser logrado. La solicitud de disolución habrá de formularse en el
-plazo de dos meses a contar desde la fecha prevista para la celebración de
-la Asamblea, cuando ésta no se haya constituido, o desde el día de la
-Asamblea, cuando el acuerdo hubiera sido contrario a la disolución o no se
-hubiera adoptado.
-5. El incumplimiento de la obligación d
+Artículo 34. Asamblea General. Convocatoria de la Asamblea General ordinaria
+y extraordinaria
+La Asamblea General, ordinaria o extraordinaria, debe ser convocada por el
+Consejo Rector mediante un anuncio en el domicilio social y, además,
+mediante un escrito a cada uno de las socias y socios, que también se puede
+hacer por medios telemáticos. La notificación se hará con una antelación
+mínima de 15 días y máxima de 30 respecto a la fecha de celebración.
+La Cooperativa podrá tener una web corporativa a los efectos de publicidad y
+comunicación, tal como establece la Ley 12/2015, de 9 de julio, de
+Cooperativas de Cataluña.
+Tanto la creación como la supresión de la web corporativa deberá ser acordada
+por la Asamblea General de la Cooperativa. Asimismo, en la convocatoria de la
+Asamblea General, la creación o supresión de la web corporativa deben figurar
+expresamente en
+el orden del día de la reunión. No obstante lo anterior, la modificación y el
+traslado de la web de la cooperativa son competencia del Consejo Rector de la
+En caso de que la cooperativa tenga web corporativa, podrá llevar a cabo las
+comunicaciones entre la cooperativa y sus socias y socios, incluida la remisión
+de documentos, solicitudes e información, por medios electrónicos, siempre
+que la socia o el socio haya aceptado, mediante el consentimiento expreso, las
+comunicaciones por medios electrónicos.
+Para llevar a cabo las comunicaciones, la Cooperativa deberá habilitar, a través
+de la web corporativa, el correspondiente dispositivo de contacto, que permita
+acreditar de forma fehaciente la fecha de la recepción y el contenido de los
+mensajes electrónicos intercambiados entre la Cooperativa y las sus socias y
+socios, respetando la legislación aplicable en materia de protección de datos de
+carácter personal.
+Sin
+
+[Extracto truncado automáticamente]
+```
+
+---
+
+## Estatutos Elciempies
+
+### Referencia 2
+
+- Documento: Estatutos Elciempies
+- Slug documento: `docs-estatutos-estatutos-elciempies`
+- Tipo: estatutos
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: b) Las sanciones económicas que, por vía disciplinaria, imponga la cooperava a
+- Ruta fuente: `docs/estatutos/estatutos_elciempies.pdf`
+- Confidence: high
+- Score: 65
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+b) Las sanciones económicas que, por vía disciplinaria, imponga la cooperava a
+sus socios/as.
+5.- El Fondo de Educación y Promoción es inembargable e irreparble entre las
+personas socias, incluso en el caso de liquidación de la cooperava, y sus dotaciones
+deberán ,gurar en el pasivo del balance con separación de otras pardas.
+6.- El importe del referido Fondo que no se haya aplicado o compromedo deberá
+materializarse dentro del ejercicio económico siguiente a aquel en que se haya efectuado
+la dotación, en Cuentas de Ahorro, preferentemente, en cooperavas de crédito, en
+Htulos de Deuda Pública, o Htulos de Deuda Pública emidos por la Comunidad Autónoma
+de Canarias, cuyos rendimientos ,nancieros se aplicarán al mismo ,n. Dichos depósitos o
+Htulos no podrán ser pignorados ni afectados a préstamos o cuentas de crédito.
+Arculo 51.- Fondo de Reserva Voluntario de Solidaridad.
+1.- Se nutre con las candades acordadas por la Asamblea General, de los
+excedentes cooperavos, extracooperavos, y donaciones que la sociedad reciba para la
+,nalidad propia de este fondo, una vez sasfechos los impuestos exigibles. Este fondo
+42
+
+-- 42 of 48 --
+
+también se podrá nutrir de las aportaciones de las personas socias establecidas por la
+Asamblea General.
+2.- Este patrimonio colecvo creado voluntariamente por la cooperava, irá
+desnado a desarrollar el principio de la solidaridad económica, con la ,nalidad que en
+cada momento establezca la Asamblea General y en especial para atender las necesidades
+de las personas socias. Tendrá carácter de no reparble entre las personas socias. Su
+funcionamiento y ,nalidad se desarrollará en el Reglamento de Régimen Interno de la
+Arculo 52.- Ejercicio Económico.
+El ejercicio económico tendrá una duración de doce meses y se extenderá desde 1
+de en
+
+[Extracto truncado automáticamente]
+```
+
+---
+
+### Referencia 3
+
+- Documento: Estatutos Elciempies
+- Slug documento: `docs-estatutos-estatutos-elciempies`
+- Tipo: estatutos
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: c) La Asamblea General tendrá carácter de universal, cuando estando presentes o
+- Ruta fuente: `docs/estatutos/estatutos_elciempies.pdf`
+- Confidence: high
+- Score: 52
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+c) La Asamblea General tendrá carácter de universal, cuando estando presentes o
+representadas la totalidad de las personas socias, de forma espontánea o mediante
+convocatoria no formal, decidan constuirse en asamblea, aprobando y ,rmando todas el
+orden del día y la lista de asistentes.
+Arculo 23.- Competencias de la Asamblea General.
+1.- La Asamblea General ,jará la políca general de la cooperava y podrá debar sobre
+cualquier otro asunto de interés para la misma, siempre que conste en el orden del día,
+pero únicamente podrá tomar acuerdos obligatorios en materias que la Ley no considere
+competencia exclusiva de otro órgano social.
+2.- Será precepvo, bajo sanción de nulidad, el acuerdo de la Asamblea General para los
+siguientes actos:
+a Examen de la gesón social, aprobación de las cuentas anuales, del informe de
+gesón y de la distribución de excedentes o imputación de las pérdidas.
+b Nombramiento y revocación de las personas miembros del Consejo Rector, de las
+personas interventoras, liquidadoras y auditoras.
+23
+
+-- 23 of 48 --
+
+c Modi,cación de los estatutos y aprobación o modi,cación, en su caso, del
+Reglamento de Régimen Interno de la cooperava.
+d Aprobación de nuevas aportaciones obligatorias, admisión de aportaciones
+voluntarias, actualización del valor de las aportaciones al capital social, ,jación de
+las aportaciones de las nuevas personas socias, establecimiento de las cuotas de
+ingreso o periódicas, ,jar el interés para retribuir las aportaciones de las personas
+socias colaboradoras.
+e Fusión, escisión, transformación y disolución de la cooperava.
+f Toda decisión que suponga una modi,cación sustancial de la estructura
+económica, social, organizava o funcional de la cooperava.
+g Resolver los recursos sobre los expedientes de expulsión que le sean some
 
 [Extracto truncado automáticamente]
 ```
@@ -188,15 +191,15 @@ hubiera adoptado.
 
 ### Referencia 4
 
-- Documento: Estatutos Entrepatios
-- Slug documento: `docs-estatutos-estatutos-entrepatios`
+- Documento: Estatutos Elciempies
+- Slug documento: `docs-estatutos-estatutos-elciempies`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 69. Procedimiento de liquidación.
-- Ruta fuente: `docs/estatutos/estatutos_entrepatios.pdf`
+- Sección/artículo: 2. La persona socia podrá hacerse representar en la Asamblea General por otra persona
+- Ruta fuente: `docs/estatutos/estatutos_elciempies.pdf`
 - Confidence: high
-- Score: 58
+- Score: 49
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -204,55 +207,53 @@ hubiera adoptado.
 Extracto relevante:
 
 ```text
-Artículo 69. Procedimiento de liquidación.
-1. La Asamblea General que hubiera decidido la disolución o, en otro caso,
-la que deberá convocar sin demora el órgano de administración, elegirá de
-entre los socios, en votación secreta, y por el mayor número de votos tres
-Liquidador/es, el/los cual/es aceptará/n el cargo en la misma Asamblea y,
-asimismo, manifestará/n no estar afectado/s por ninguna de las
-incapacidades y prohibiciones para el ejercicio del mismo, contenidas en el
-artículo titulado Incompatibilidades, incapacidades y prohibiciones de estos
-Estatutos; en cuanto a las incompatibilidades, el cargo de Liquidador será
-incompatible con cualquier cargo social, vigente en el momento de la
-aceptación del Liquidador, y con los parientes de los mismos hasta el
-segundo grado de consanguinidad o de afinidad.
+2. La persona socia podrá hacerse representar en la Asamblea General por otra persona
+socia, que no podrá representar a más de dos, o bien por el cónyuge o pareja de hecho,
+ascendiente o descendientes; la representación debe conferirse por escrito y deberá ser
+acreditada por medio de cualquiera de los sistemas siguientes: poder notarial general o
+especial, por comparecencia ante la Secretaría de la cooperava, por escrito autógrafo de
+la persona otorgante de la representación o mediante impreso original que a tal efecto
+edite la propia cooperava. En cualquier caso, la delegación de voto será especial para
+cada Asamblea General que se celebre, no siendo válidas las delegaciones generales.
+Arculo 28.- Adopción de acuerdos.
+1.- La Asamblea General adoptará los acuerdos por más de la mitad de los votos presentes
+y/o representados, no siendo computables a estos efectos los votos en blanco ni las
+abstenciones; no existe el voto dirimente de la Presidencia. Para el cómputo de votos se
+tendrá en cuenta la clase de socio/a a la que le corresponde votar determinados puntos
+del orden del día.
+2.- Será necesaria la mayoría de los dos tercios de los votos presentes y representados,
+para adoptar acuerdos de modi,cación de estatutos, excepto para aquellas
+modi,caciones dónde los estatutos establezcan una mayoría cuali,cada mayor,
+realizándose dicha modi,cación según lo indicado en los mismos. Además será necesaria
+la mayoría de los dos tercios de los votos presentes y representados, para adoptar
+acuerdos de fusión, escisión, disolución, reacvación de la cooperava, adhesión o baja
+de un grupo cooperavo, para resolver los expedientes de expulsión que le sean
+27
 
--- 59 of 66 --
+-- 27 of 48 --
 
-- 60 -
-El cometido de los Liquidadores, de acuerdo con las funciones que se
-especifican en el siguiente artículo de estos Estatutos, consistirá en realizar
-cuantas operaciones sean precisas para la liquidación de la Cooperativa.
-2. Si transcurriera un mes desde la disolución de la Cooperativa sin que se
-hubiera efectuado la elección y aceptación de los Liquidadores, el órgano
-de administración deberá solicitar del Juez competente el nombramiento
-del/de los mismo/s, que podrá recaer en personas no socias. Si el órgano de
-administración no solicitara dicho nombramiento, cualquier socio podrá
-solicitarlo del Juez.
-3. En todo caso, el nombramiento del/de los Liquidador/es no surtirá efectos
-jurídicos hasta que se produzca la aceptación de los mismos, en cuyo
-momento, el órgano de administración cesará en sus funciones de gobierno,
-gestión y representación de la entidad, que se transmitirán a aquél/los,
-aunque deberá prestar su concurso para la práctica de
+somedos a su consideración, así como en los demás supuestos en los que lo establezca la
+Ley.
+3.- Será ne
 
 [Extracto truncado automáticamente]
 ```
 
 ---
 
-## Estatutos Losnidales
+## Estatutos Los Girasoles
 
 ### Referencia 5
 
-- Documento: Estatutos Losnidales
-- Slug documento: `docs-estatutos-estatutos-losnidales`
+- Documento: Estatutos Los Girasoles
+- Slug documento: `docs-estatutos-estatutos-los-girasoles`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Art. 64.- Acuerdo de disolución.
-- Ruta fuente: `docs/estatutos/estatutos_losnidales.pdf`
+- Sección/artículo: b) Las sanciones económicas que, por vía disciplinaria, imponga la cooperaƟva a
+- Ruta fuente: `docs/estatutos/estatutos_los_girasoles.pdf`
 - Confidence: high
-- Score: 90
+- Score: 65
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -260,32 +261,34 @@ aunque deberá prestar su concurso para la práctica de
 Extracto relevante:
 
 ```text
-Art. 64.- Acuerdo de disolución.
-1. Cuando concurra cualquiera de las causas previstas en el artículo anterior, a excepción de
-las indicadas en los apartados h) y j) del mismo, el órgano de administración deberá convocar,
-en el plazo de treinta días, Asamblea General para que adopte el acuerdo de disolución. Con
-este fin, cualquier socio/a podrá requerir al órgano de administración para que convoque la
-Asamblea General, si a su juicio existen algunas de las mencionadas causas de disolución.
-2. El acuerdo de disolución, que deberá formalizarse en escritura pública, será adoptado por la
-Asamblea General por más de la mitad de los votos presentes y representados, salvo en los
-47
+b) Las sanciones económicas que, por vía disciplinaria, imponga la cooperaƟva a
+sus socios/as.
+5.- El Fondo de Educación y Promoción es inembargable e irreparƟble entre las
+personas socias, incluso en el caso de liquidación de la cooperaƟva, y sus dotaciones
+deberán figurar en el pasivo del balance con separación de otras parƟdas.
+6.- El importe del referido Fondo que no se haya aplicado o compromeƟdo deberá
+materializarse dentro del ejercicio económico siguiente a aquel en que se haya efectuado
+la dotación, en Cuentas de Ahorro, preferentemente, en cooperaƟvas de crédito, en
+ơtulos de Deuda Pública, o ơtulos de Deuda Pública emiƟdos por la Comunidad Autónoma
+de Canarias, cuyos rendimientos financieros se aplicarán al mismo fin. Dichos depósitos o
+ơtulos no podrán ser pignorados ni afectados a préstamos o cuentas de crédito.
+Arơculo 54.- Fondo de Reserva Voluntario de Solidaridad.
+1.- Se nutre con las canƟdades acordadas por la Asamblea General, de los
+excedentes cooperaƟvos, extracooperaƟvos, y donaciones que la sociedad reciba para la
+finalidad propia de este fondo, una vez saƟsfechos los impuestos exigibles. Este fondo
+también se podrá nutrir de las aportaciones de las personas socias establecidas por la
+Asamblea General.
+41
 
--- 47 of 53 --
+-- 41 of 46 --
 
-ESTATUTOS LOS NIDALES ECOVIVIENDA S.COOP.MAD
-supuestos recogidos en los apartados h) y j) del artículo anterior, en que será necesaria una
-mayoría de tres cuartos de los votos presentes y representados, y podrá impugnarse mediante
-el procedimiento a que se refiere el artículo 45 de estos Estatutos.
-3. Si la Asamblea no fuera convocada, no se celebrara o no adoptara el acuerdo de disolución
-o el que fuere necesario para la remoción de la causa de disolución, cualquier interesado podrá
-solicitar la disolución de la Cooperativa ante el Juez de Primera Instancia del domicilio social de
-la misma.
-4. El órgano de administración está obligado a solicitar la disolución judicial de la Cooperativa
-cuando el acuerdo social fuese contrario a la disolución o no pudiera ser logrado. La solicitud
-de disolución habrá de formularse en el plazo de dos meses a contar desde la fecha prevista
-para la celebración de la Asamblea, cuando ésta no se haya constituido, o desde el día de la
-Asamblea, cuando el acuerdo hubiera sido contrario a la disolución o no se hubiera adoptado.
-5. El incumplimiento de la
+2.- Este patrimonio colecƟvo creado voluntariamente por la cooperaƟva, irá
+desƟnado a desarrollar el principio de la solidaridad económica, con la finalidad que en
+cada momento establezca la Asamblea General y en especial para atender las necesidades
+de las personas socias. Tendrá carácter de no reparƟble entre las personas socias. Su
+funcionamiento y finalidad se desarrollará en el Reglamento de Régimen Interno de la
+Arơculo 55.- Ejercicio Económico.
+El ejercicio económico tendrá una duración de doce meses y se extenderá desde 1
 
 [Extracto truncado automáticamente]
 ```
@@ -294,15 +297,15 @@ Asamblea, cuando el acuerdo hubiera sido contrario a la disolución o no se hubi
 
 ### Referencia 6
 
-- Documento: Estatutos Losnidales
-- Slug documento: `docs-estatutos-estatutos-losnidales`
+- Documento: Estatutos Los Girasoles
+- Slug documento: `docs-estatutos-estatutos-los-girasoles`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 67.- Procedimiento de liquidación.
-- Ruta fuente: `docs/estatutos/estatutos_losnidales.pdf`
+- Sección/artículo: c) La Asamblea General tendrá carácter de universal, cuando estando presentes o
+- Ruta fuente: `docs/estatutos/estatutos_los_girasoles.pdf`
 - Confidence: high
-- Score: 58
+- Score: 52
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -310,32 +313,33 @@ Asamblea, cuando el acuerdo hubiera sido contrario a la disolución o no se hubi
 Extracto relevante:
 
 ```text
-Artículo 67.- Procedimiento de liquidación.
-48
-
--- 48 of 53 --
-
-ESTATUTOS LOS NIDALES ECOVIVIENDA S.COOP.MAD
-1. La Asamblea General que hubiera decidido la disolución o, en otro caso, la que deberá
-convocar sin demora el órgano de administración, elegirá de entre los/as socios/as, en votación
-secreta, y por el mayor número de tres liquidador/a/es/as, el/a/los/as cual/es aceptará/n el
-cargo en la misma Asamblea y, asimismo, manifestará/n no estar afectado/a/s por ninguna de
-las incapacidades y prohibiciones para el ejercicio del mismo, contenidas en el artículo 56 de
-estos Estatutos; en cuanto a las incompatibilidades, el cargo de Liquidador será incompatible
-con cualquier cargo social, vigente en el momento de la aceptación del Liquidador, y con los
-parientes de los mismos hasta el segundo grado de consanguinidad o de afinidad.
-El cometido de los Liquidadores, de acuerdo con las funciones que se especifican en el artículo
-65 de estos Estatutos, consistirá en realizar cuantas operaciones sean precisas para la
-liquidación de la Cooperativa.
-2. Si transcurriera un mes desde la disolución de la Cooperativa sin que se hubiera efectuado la
-elección y aceptación de los/as Liquidadores/as, el órgano de administración deberá solicitar
-del Juez competente el nombramiento del/de los/as mismo/a/s, que podrá recacer en personas
-no socias. Si el órgano de administración no solicitara dicho nombramiento, cualquier socio
-podrá solicitarlo del Juez.
-3. En todo caso, el nombramiento del/de los Liquidador/es no surtirá efectos jurídicos hasta que
-se produzca la aceptación de los mismos, en cuyo momento, el órgano de administración
-cesará en sus funciones de gobierno, gestión y representación de la entidad, que se
-transmitirán a aquél/los, aunque deberá prestar su concurso para la práctica
+c) La Asamblea General tendrá carácter de universal, cuando estando presentes o
+representadas la totalidad de las personas socias, de forma espontánea o mediante
+convocatoria no formal, decidan consƟtuirse en asamblea, aprobando y firmando todas el
+orden del día y la lista de asistentes.
+Arơculo 26.- Competencias de la Asamblea General.
+1.- La Asamblea General fijará la políƟca general de la cooperaƟva y podrá debaƟr sobre
+cualquier otro asunto de interés para la misma, siempre que conste en el orden del día,
+pero únicamente podrá tomar acuerdos obligatorios en materias que la Ley no considere
+competencia exclusiva de otro órgano social.
+2.- Será precepƟvo, bajo sanción de nulidad, el acuerdo de la Asamblea General para los
+siguientes actos:
+a Examen de la gesƟón social, aprobación de las cuentas anuales, del informe de
+gesƟón y de la distribución de excedentes o imputación de las pérdidas.
+b Nombramiento y revocación de las personas miembros del Consejo Rector, de las
+personas interventoras, liquidadoras y auditoras.
+c Modificación de los estatutos y aprobación o modificación, en su caso, del
+Reglamento de Régimen Interno de la cooperaƟva.
+d Aprobación de nuevas aportaciones obligatorias, admisión de aportaciones
+voluntarias, actualización del valor de las aportaciones al capital social, fijación de
+las aportaciones de las nuevas personas socias, establecimiento de las cuotas de
+ingreso o periódicas, fijar el interés para retribuir las aportaciones de las personas
+socias colaboradoras.
+e Fusión, escisión, transformación y disolución de la cooperaƟva.
+f Toda decisión que suponga una modificación sustancial de la estructura
+económica, social, organizaƟva o funcional de la cooperaƟva.
+g Resolver los recursos sobre los expedientes de expulsión que le sean someƟdos a
+su con
 
 [Extracto truncado automáticamente]
 ```
@@ -344,15 +348,15 @@ transmitirán a aquél/los, aunque deberá prestar su concurso para la práctica
 
 ### Referencia 7
 
-- Documento: Estatutos Losnidales
-- Slug documento: `docs-estatutos-estatutos-losnidales`
+- Documento: Estatutos Los Girasoles
+- Slug documento: `docs-estatutos-estatutos-los-girasoles`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 63.- Causas de disolución.
-- Ruta fuente: `docs/estatutos/estatutos_losnidales.pdf`
+- Sección/artículo: 2. La persona socia podrá hacerse representar en la Asamblea General por otra persona
+- Ruta fuente: `docs/estatutos/estatutos_los_girasoles.pdf`
 - Confidence: high
-- Score: 54
+- Score: 49
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -360,194 +364,49 @@ transmitirán a aquél/los, aunque deberá prestar su concurso para la práctica
 Extracto relevante:
 
 ```text
-Artículo 63.- Causas de disolución.
-La Cooperativa quedará disuelta por las causas siguientes:
-a) 	Por la realización de su objeto social.
-b) 	Por la imposibilidad manifiesta de desarrollar la actividad cooperativizada.
-c) 	Por la paralización o inactividad de alguno de los órganos sociales necesarios durante
-dos años consecutivos.
-d) 	Por la paralización de la actividad cooperativizada durante dos años consecutivos, sin
-causa justificada.
-e) 	Por la reducción del número de socios/as por debajo del mínimo establecido por la
-LCCM para constituir una Cooperativa, sin que se restablezca en el plazo de un año.
-f) 	Por reducción del capital social desembolsado por debajo de mil ochocientos euros
-(1800 euros), si no se reconstituye en el plazo de un año.
-g) 	Por consecuencia de pérdidas que dejen reducido el patrimonio a una cantidad inferior a
-la mitad del capital social mínimo estatutario, a no ser que éste se aumente o reduzca en la
-medida suficiente.
-h) 	Por la fusión o escisión total de la Cooperativa.
-i) 	Por acuerdo de la Asamblea General, adoptado por la mayoría de tres cuartos de los
-votos presentes y representados.
-j) 	Por cualquier otra causa establecida en las disposiciones con rango legal o en estos
-Estatutos.
-Para poder plantear la disolución, el asunto debe figurar previamente en el Orden del Día de la
-asamblea
+2. La persona socia podrá hacerse representar en la Asamblea General por otra persona
+socia, que no podrá representar a más de dos, o bien por el cónyuge o pareja de hecho,
+ascendiente o descendientes; la representación debe conferirse por escrito y deberá ser
+acreditada por medio de cualquiera de los sistemas siguientes: poder notarial general o
+especial, por comparecencia ante la Secretaría de la cooperaƟva, por escrito autógrafo de
+la persona otorgante de la representación o mediante impreso original que a tal efecto
+edite la propia cooperaƟva. En cualquier caso, la delegación de voto será especial para
+cada Asamblea General que se celebre, no siendo válidas las delegaciones generales.
+Arơculo 31.- Adopción de acuerdos.
+1.- La Asamblea General adoptará los acuerdos por más de la mitad de los votos presentes
+y/o representados, no siendo computables a estos efectos los votos en blanco ni las
+abstenciones; no existe el voto dirimente de la Presidencia. Para el cómputo de votos se
+tendrá en cuenta la clase de socio/a a la que le corresponde votar determinados puntos
+del orden del día.
+2.- Será necesaria la mayoría de los dos tercios de los votos presentes y representados,
+para adoptar acuerdos de modificación de estatutos, excepto para aquellas
+modificaciones dónde los estatutos establezcan una mayoría cualificada mayor,
+realizándose dicha modificación según lo indicado en los mismos. Además será necesaria
+la mayoría de los dos tercios de los votos presentes y representados, para adoptar
+acuerdos de fusión, escisión, disolución, reacƟvación de la cooperaƟva, adhesión o baja
+de un grupo cooperaƟvo, para resolver los expedientes de expulsión que le sean
+someƟdos a su consideración, así como en los demás supuestos en los que lo establezca la
+Ley.
+3.- Será necesaria la mayor
+
+[Extracto truncado automáticamente]
 ```
 
 ---
 
-## Normativa Estatal
+## GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024
 
 ### Referencia 8
 
-- Documento: Normativa Estatal
-- Slug documento: `docs-leyes-normativa-estatal`
-- Tipo: ley
-- Jurisdicción: España
-- Proyecto: No disponible
-- Sección/artículo: Artículo 70. Disolución.
-- Ruta fuente: `docs/leyes/normativa_estatal.pdf`
-- Confidence: high
-- Score: 90
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 70. Disolución.
-1. La sociedad cooperativa se disolverá:
-a) Por el cumplimiento del plazo fijado en los Estatutos.
-b) Por acuerdo de la Asamblea General, adoptado por mayoría de los dos tercios de los
-socios presentes y representados.
-c) Por la paralización de los órganos sociales o de la actividad cooperativizada durante
-dos años, sin causa justificada, de tal modo que imposibilite su funcionamiento.
-d) Por la reducción del número de socios por debajo de los mínimos establecidos en la
-presente Ley o del capital social por debajo del mínimo establecido estatutariamente, sin que
-se restablezcan en el plazo de un año.
-e) Por la realización del objeto social o la imposibilidad de su cumplimiento.
-f) Por fusión, absorción o escisión total.
-g) Por cualquier otra causa establecida en la Ley o en los Estatutos.
-2. Transcurrido el término de duración de la sociedad, ésta se disolverá de pleno
-derecho, a no ser que con anterioridad hubiese sido expresamente prorrogada e inscrita la
-prórroga en el Registro de Sociedades Cooperativas.
-3. Cuando concurra cualquiera de los supuestos c), d), e) o g) del apartado 1, el Consejo
-Rector deberá convocar la Asamblea General, en el plazo de un mes desde que haya
-constatado su existencia, para la adopción del acuerdo de disolución. Cualquier socio podrá
-requerir al Consejo Rector para que efectúe aquella convocatoria si, a su juicio, existe causa
-legítima de disolución. Para la adopción del acuerdo será suficiente la mayoría simple de
-votos salvo que los Estatutos exigieran otra mayor.
-Si no se convocara la Asamblea o ésta no lograra el acuerdo de disolución, cualquier
-interesado podrá solicitar la disolución judicial de la cooperativa.
-4. El acuerdo de disolución elevado a escritura pública o, en su caso, la resolución
-judicial o a
-
-[Extracto truncado automáticamente]
-```
-
----
-
-## Estatutos Senior Cohousing Huelva
-
-### Referencia 9
-
-- Documento: Estatutos Senior Cohousing Huelva
-- Slug documento: `docs-estatutos-estatutos-senior-cohousing-huelva`
-- Tipo: estatutos
-- Jurisdicción: Andalucía
-- Proyecto: No disponible
-- Sección/artículo: Artículo 48. Disolución
-- Ruta fuente: `docs/estatutos/estatutos_senior_cohousing_huelva.pdf`
-- Confidence: high
-- Score: 85
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 48. Disolución
-48.1. Son causas de disolución de la sociedad cooperativa:
-a) El cumplimiento del plazo fijado en estos estatutos.
-b) La conclusión de su objeto o la imposibilidad de realizar la actividad
-cooperativizada.
-c) La ausencia de actividad cooperativizada principal o su realización instrumental o
-accesoria, en ambos casos, durante dos años consecutivos.
-d) El acuerdo de la Asamblea General conforme a lo dispuesto en el artículo 33 LSCA.
-e) La reducción del número de personas socias por debajo del mínimo legalmente
-necesario para constituir la sociedad cooperativa por un periodo superior a doce meses.
-f) La reducción del patrimonio contable hasta quedar por debajo del capital social
-estatutario, a no ser que, en el plazo de doce meses, se proceda a su reajuste, y siempre
-que no deba solicitarse la declaración de concurso.
-g) La fusión, y la escisión, en su caso.
-h) La apertura de la fase de liquidación en el concurso de la sociedad, conforme a lo
-dispuesto en la legislación concursal.
-i) La inactividad de alguno de los órganos sociales necesarios durante dos años
-consecutivos.
-j) No haber iniciado la actividad cooperativizada dentro del año siguiente desde la
-inscripción de la sociedad en el Registro de Cooperativas Andaluzas.
-k) Cualquier otra causa establecida en la ley.
-48.2. Cuando concurra una causa de disolución, salvo la prevista en las letras d), g) y h) del
-apartado anterior, el Consejo Rector deberá, en el término de 30 días, convocar Asamblea General
-para que adopte el acuerdo de disolución.
-
--- 43 of 45 --
-
-ESTATUTOS DE LA ENTIDAD “SENIOR COHOUSING HUELVA, S. COOP. AND.
-44
-Con este fin, cualquier persona socia, o en su caso, inversora, podrá requerir al Consejo
-Rector para que convoque la Asamblea General, si a su juicio existe alguna de las
-
-[Extracto truncado automáticamente]
-```
-
----
-
-### Referencia 10
-
-- Documento: Estatutos Senior Cohousing Huelva
-- Slug documento: `docs-estatutos-estatutos-senior-cohousing-huelva`
-- Tipo: estatutos
-- Jurisdicción: Andalucía
-- Proyecto: No disponible
-- Sección/artículo: artículo 24.2 de estos estatutos.
-- Ruta fuente: `docs/estatutos/estatutos_senior_cohousing_huelva.pdf`
-- Confidence: high
-- Score: 66
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-artículo 24.2 de estos estatutos.
-48.3. El Consejo Rector deberá y cualquier interesado podrá solicitar la disolución judicial de la
-cooperativa en los siguientes casos:
-a) Si la Asamblea General no fuere convocada.
-b) Si no se reuniese en el plazo establecido en los estatutos.
-c) Si no pudiese adoptar el acuerdo de disolución.
-d) Si adoptase un acuerdo contrario a declarar la disolución.
-48.4. El procedimiento de disolución se ajustará a lo establecido en el artículo 67 del
-Reglamento, debiendo publicarse el acuerdo de disolución o la resolución judicial, en su caso, en
-la sede electrónica de la Consejería competente en materia de sociedades cooperativas, en el
-plazo de 30 días a contar desde aquél en que se adoptó el acuerdo o se notificó la resolución.
-48.5. La sociedad cooperativa disuelta conservará su personalidad jurídica en tanto se realice la
-liquidación. Durante este período deberá añadirse a la denominación social la frase en liquidación.
-48.6. Sin perjuicio de lo previsto en los apartados anteriores, los acuerdos de disolución y
-liquidación podrán ser adoptados en una misma Asamblea, siempre que no existan personas
-acreedoras sociales o que el importe de su deuda haya sido debidamente garantizado. Para
-realizar ambos actos en una misma Asamblea se han de observar las formalidades establecidas
-en el artículo 67.6 del Reglamento.
-```
-
----
-
-## Estatutos La Borda
-
-### Referencia 11
-
-- Documento: Estatutos La Borda
-- Slug documento: `docs-estatutos-estatutos-la-borda`
-- Tipo: estatutos
+- Documento: GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024
+- Slug documento: `docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024`
+- Tipo: guia
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 51. Disolución y liquidación
-- Ruta fuente: `docs/estatutos/estatutos_la_borda.pdf`
+- Sección/artículo: LAS COOPERATIVAS DE COHOUSING SÉNIOR
+- Ruta fuente: `docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf`
 - Confidence: high
-- Score: 83
+- Score: 60
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -555,70 +414,22 @@ en el artículo 67.6 del Reglamento.
 Extracto relevante:
 
 ```text
-Artículo 51. Disolución y liquidación
-La disolución de la Cooperativa deberá aprobar por la Asamblea General, con
-el 	voto 	favorable 	de 	dos 	terceras 	partes 	de 	los 	asistentes, 	presentes 	y
-representados.
-Son causas de disolución de la Cooperativa:
-a) La finalización del objeto social o la imposibilidad de realizarlo.
-b) La voluntad de las socias y socios.
-c) 	La 	reducción 	del 	número 	de 	socias 	y 	socios 	por 	debajo 	del 	mínimo
-legalmente necesario para constituir la Cooperativa, si se mantiene durante
-más de un año.
-d) La reducción del capital social por debajo del mínimo legalmente establecido
-en la Ley o en estos Estatutos, si se mantiene durante más de 6 meses.
-e) La fusión y la escisión a que hace referencia la Ley.
-f) El concurso o la quiebra.
-g) Cualquier otra causa establecida en la Ley.
+LAS COOPERATIVAS DE COHOUSING SÉNIOR
 ```
 
 ---
 
 ## Otras Leyes, Decretos, Modificaciones
 
-### Referencia 12
+### Referencia 9
 
-- Documento: BOCYL D 05012005 1 Decreto+125 2004
-- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-05012005-1-decreto-125-2004`
+- Documento: BOE A 2010 20034 Orden+EHA+3360 2010
+- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010`
 - Tipo: ley
 - Jurisdicción: No disponible
 - Proyecto: Otras Leyes, Decretos, Modificaciones
-- Sección/artículo: Artículo 59.– Inscripción de la disolución.
-- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOCYL-D-05012005-1_Decreto+125_2004.pdf`
-- Confidence: high
-- Score: 72
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 59.– Inscripción de la disolución.
-1.– Transcurrido el plazo fijado en los estatutos sociales para la duración
-de la Sociedad Cooperativa, el encargado del registro extenderá, de oficio o
-a instancia de cualquier interesado, una nota al margen de la última inscrip-
-ción donde se recoja que la Sociedad Cooperativa ha quedado disuelta.
-2.– La inscripción de la disolución de sociedades cooperativas por cau-
-sas diferentes del plazo estatutario de duración se practicará en virtud de
-escritura pública que recoja el acuerdo de disolución, o bien, en virtud de
-sentencia judicial o resolución administrativa que lo acuerde.
-En los casos en los que la disolución se produzca por acuerdo social, éste
-deberá publicarse en uno de los diarios de mayor circulación de la provincia
-en la que la sociedad cooperativa tenga su domicilio social.
-```
-
----
-
-### Referencia 13
-
-- Documento: BOCYL D 05012005 1 Decreto+125 2004
-- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-05012005-1-decreto-125-2004`
-- Tipo: ley
-- Jurisdicción: No disponible
-- Proyecto: Otras Leyes, Decretos, Modificaciones
-- Sección/artículo: Artículo 60.– Contenido de la inscripción de disolución y, en su caso, de
-- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOCYL-D-05012005-1_Decreto+125_2004.pdf`
+- Sección/artículo: 13. Los aspectos contables del Fondo de Reserva Obligatorio y del Fondo de
+- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2010-20034_Orden+EHA+3360_2010.pdf`
 - Confidence: high
 - Score: 59
 - Review status: auto
@@ -628,33 +439,48 @@ en la que la sociedad cooperativa tenga su domicilio social.
 Extracto relevante:
 
 ```text
-Artículo 60.– Contenido de la inscripción de disolución y, en su caso, de
-la reactivación.
-1.– En la inscripción de la disolución de la Sociedad Cooperativa se hará
-constar, además de las circunstancias generales, la causa de disolución.
-2.– El acuerdo por parte de la Asamblea General de reactivación de la
-sociedad cooperativa deberá ser elevado a escritura pública, según lo
-establecido en el artículo 90.4 de la Ley de Cooperativas de la Comuni-
-dad de Castilla y León, en la cuál deberá constar expresamente la cir-
-cunstancia de no haberse comenzado a efectuar el reembolso de las apor-
-taciones a los socios.
+13. Los aspectos contables del Fondo de Reserva Obligatorio y del Fondo de
+Reembolso o Actualización se regulan en la Norma cuarta. Adicionalmente, en esta Norma
+se desarrolla el tratamiento contable del Fondo de Reserva Voluntario previsto en todas
+las leyes de cooperativas, en sintonía con las reservas voluntarias de las sociedades de
+capital, sin perjuicio del particular régimen de dotación y disponibilidad recogido en las
+citadas leyes.
+El Fondo de Reserva Obligatorio es una reserva legal impuesta por la normativa
+aplicable a las cooperativas que se caracteriza por estar destinado a la consolidación,
+garantía y desarrollo de aquéllas.
+El artículo 58.1 de la Ley 27/1999, de 16 de julio, de Cooperativas, establece la
+obligación de destinar a este Fondo un porcentaje de los excedentes contabilizados para
+la determinación del resultado cooperativo, una vez deducidas las pérdidas de cualquier
+naturaleza de ejercicios anteriores y antes de la consideración del Impuesto sobre
+Sociedades. Adicionalmente se destinarán necesariamente al Fondo de Reserva Obligatorio
+otros conceptos detallados en las distintas leyes de cooperativas, entre los que se incluyen:
+las cuotas de ingreso de los socios, las deducciones sobre las aportaciones obligatorias en
+caso de baja de los socios y los resultados de las operaciones que realicen en virtud de los
+acuerdos cooperativos regulados en el artículo 79.3 de la Ley 27/1999, de 16 de julio, de
+Cooperativas.
+Con carácter general, el Fondo de Reserva Obligatorio tiene carácter irrepartible entre
+los socios, por lo que su calificación es la de patrimonio neto. Sin embargo, en algunas
+legislaciones autonómicas como la andaluza y la murciana el Fondo es parcialmente
+repartible en caso de baja del socio cuando así lo prevén los estatutos, en cuyo c
+
+[Extracto truncado automáticamente]
 ```
 
 ---
 
 ## Estatutos Axuntase
 
-### Referencia 14
+### Referencia 10
 
 - Documento: Estatutos Axuntase
 - Slug documento: `docs-estatutos-estatutos-axuntase`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 47.- Causas de disolución
+- Sección/artículo: Artículo 21.- Convocatoria de la Asamblea General
 - Ruta fuente: `docs/estatutos/estatutos_axuntase.pdf`
 - Confidence: high
-- Score: 58
+- Score: 50
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -662,41 +488,47 @@ taciones a los socios.
 Extracto relevante:
 
 ```text
-Artículo 47.- Causas de disolución
-Son causas de disolución de la sociedad cooperativa:
-a) La imposibilidad sobrevenida de realizar la actividad cooperativizada.
+Artículo 21.- Convocatoria de la Asamblea General
+1.- La Asamblea General ordinaria deberá convocarse por el Consejo Rector dentro de
+los seis meses siguientes al cierre de cada ejercicio económico. Transcurrido dicho
+plazo sin que se efectúe, corresponderá al Consejo Rector proceder a la convocatoria
+de la Asamblea General en el plazo de quince días hábiles. Superados estos plazos sin
+que medie convocatoria, cualquier persona socia podrá solicitarla del órgano judicial
+competente.
+2.- La Asamblea General extraordinaria se convocará por el Consejo Rector por propia
+iniciativa, siempre que lo estime conveniente para los intereses sociales; asimismo,
+cuando lo soliciten al menos el diez por ciento de las personas socias, y también cuando
+lo solicite la Intervención.
+3.- La Asamblea General deberá celebrarse en el lapso que media entre los quince días
+y los dos meses desde su convocatoria, y se convocará conforme a la Ley y al art. 46
+LPAC, de forma que se notificará a cada persona socia por cualquier medio del que
+quede constancia de su recepción y contenido de la notificación. Asimismo, se publicará
+en cualquier medio de difusión electrónica o la página web, y/o tablón de anuncios de la
+Cooperativa, sustituyendo en su caso, la notificación personal, cuando haya sido
+previamente acordado por la Asamblea General.
+4.- La notificación y el anuncio expresarán, con la debida claridad y concreción, la
+denominación y domicilio de la Cooperativa, los asuntos incluidos en el orden del día, el
+lugar en que haya de celebrarse la reunión, así como el día y hora señalados para ello,
+tanto en primera como en segunda convocatoria, mediando entre ambas 30 minutos. La
+convocatoria deberá hacer constar la relación completa de información o documentación
+que guarde relación con los asuntos
 
--- 24 of 25 --
-
-- 24 -
-b) El acuerdo de la Asamblea General, adoptado por la mayoría de dos tercios de
-los votos presentes y representados.
-c) La reducción del número de personas socias por debajo del mínimo legalmente
-necesario para constituir la sociedad cooperativa por un periodo superior a doce
-meses.
-d) La reducción del capital social hasta quedar por debajo del capital social mínimo,
-a no ser que, en el plazo de doce meses, se proceda a su reajuste.
-e) La fusión, y la escisión, en su caso.
-f) La apertura de la fase de liquidación en el concurso de la sociedad, conforme a
-lo dispuesto en la legislación concursal vigente en cada momento.
-g) Cualquier otra causa establecida en la ley.
+[Extracto truncado automáticamente]
 ```
 
 ---
 
-## Estatutos Laseronda.Org
+### Referencia 11
 
-### Referencia 15
-
-- Documento: Estatutos Laseronda.Org
-- Slug documento: `docs-estatutos-estatutos-laseronda-org`
+- Documento: Estatutos Axuntase
+- Slug documento: `docs-estatutos-estatutos-axuntase`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: ARTÍCULO 52.- LIQUIDACIÓN
-- Ruta fuente: `docs/estatutos/estatutos_laseronda.org.pdf`
+- Sección/artículo: Artículo 22.- Constitución y funcionamiento de la Asamblea General
+- Ruta fuente: `docs/estatutos/estatutos_axuntase.pdf`
 - Confidence: high
-- Score: 58
+- Score: 45
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -704,36 +536,52 @@ g) Cualquier otra causa establecida en la ley.
 Extracto relevante:
 
 ```text
-ARTÍCULO 52.- LIQUIDACIÓN
-1. Cumplidas las formalidades legales sobre disolución de la Cooperativa, salvo en los
-supuestos de fusión o escisión, se abrirá el período de liquidación.
-La Asamblea General elegirá a las personas que se ocupen de la liquidación, en número de
-uno o tres. De no realizarse la designación por la Asamblea antes de que transcurra un mes
-desde la inscripción de la disolución en el Registro los administradores quedarán convertidos en
-liquidadores. En el caso de ser tres los liquidadores, éstos actuarán de forma colegiada y
-adoptarán los acuerdos por mayoría.
-Durante el período de liquidación, se mantendrán las convocatorias y reuniones de
-Asambleas Generales, que se convocarán por los Liquidadores, quienes las presidirán y darán
-cuenta de la marcha de la liquidación.
-2. La liquidación y extinción de la Cooperativa se ajustará a las normas establecidas en la Ley
-de Cooperativas.
+Artículo 22.- Constitución y funcionamiento de la Asamblea General
+1.- Las reuniones tendrán lugar, de ordinario salvo que tenga carácter de universal, en
+el domicilio social, pero podrán también celebrarse en cualquier otro lugar que determine
+el Consejo Rector, a propuesta de la Presidencia de la entidad, siempre que concurra
+causa justificada.
+2.- La Asamblea General quedará válidamente constituida cuando asistan, presentes o
+representadas, en primera convocatoria, al menos la mitad más una de las personas
+socias de la Cooperativa. En segunda convocatoria, quedará constituida cuando el
+número de personas asistentes y/o representadas sea el 25% de personas socias de la
+Cooperativa.
+3.- La Asamblea General estará presidida por la persona titular de la Presidencia del
+Consejo Rector o, en su defecto, por aquella que ostente la Vicepresidencia; como
+
+-- 12 of 25 --
+
+- 12 -
+Secretario/a actuará quien desempeñe dicho cargo en el Consejo Rector o quien lo
+sustituya de acuerdo con estos Estatutos. En defecto de estos cargos ejercerán la
+Presidencia y Secretaría de la Asamblea General quienes designe la propia Asamblea.
+4.- Las votaciones serán secretas cuando afecten a personas. Se adoptará también
+mediante votación secreta el acuerdo sobre cualquier punto del orden del día cuando
+así lo solicite un diez por ciento de las personas socias presentes o representadas.
+5.- Podrán asistir a la Asamblea General, con voz y sin voto, personas que, no siendo
+socias, hayan sido convocadas por el Consejo Rector, en particular asesores jurídicos
+o económicos de la cooperativa. En otro caso, la asistencia de cualquier otra persona
+cuya presencia esté justificada en relación con los puntos del orden del día, se hará
+previa propuesta del órgano de administración sin oposición por mayoría si
+
+[Extracto truncado automáticamente]
 ```
 
 ---
 
 ## Estatutos Tarocohousing
 
-### Referencia 16
+### Referencia 12
 
 - Documento: Estatutos Tarocohousing
 - Slug documento: `docs-estatutos-estatutos-tarocohousing`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 61.- Causas de disolución
+- Sección/artículo: Artículo 25.- Constitución y funcionamiento de la Asamblea General
 - Ruta fuente: `docs/estatutos/estatutos_tarocohousing.pdf`
 - Confidence: high
-- Score: 58
+- Score: 50
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -741,24 +589,144 @@ de Cooperativas.
 Extracto relevante:
 
 ```text
-Artículo 61.- Causas de disolución
+Artículo 25.- Constitución y funcionamiento de la Asamblea General
 ```
 
 ---
 
-## Estatutos Elciempies
+### Referencia 13
+
+- Documento: Estatutos Tarocohousing
+- Slug documento: `docs-estatutos-estatutos-tarocohousing`
+- Tipo: estatutos
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: Artículo 24.- Convocatoria de la Asamblea General
+- Ruta fuente: `docs/estatutos/estatutos_tarocohousing.pdf`
+- Confidence: high
+- Score: 45
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+Artículo 24.- Convocatoria de la Asamblea General
+```
+
+---
+
+## MODELO ESTATUTOS VIVIENDAS
+
+### Referencia 14
+
+- Documento: MODELO ESTATUTOS VIVIENDAS
+- Slug documento: `docs-otros-modelo-estatutos-viviendas`
+- Tipo: otro
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: a) Al Fondo de Reserva Obligatorio podrá imputarse el porcentaje que determine la Asamblea General,
+- Ruta fuente: `docs/otros/MODELO ESTATUTOS  VIVIENDAS.pdf`
+- Confidence: high
+- Score: 50
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+a) Al Fondo de Reserva Obligatorio podrá imputarse el porcentaje que determine la Asamblea General,
+sin que el mismo pueda exceder del cincuenta por ciento de las pérdidas. Si como consecuencia de dicha
+imputación, el Fondo quedase reducido a una cifra inferior a la mitad del capital estatutario, la sociedad
+deberá reponerlo de manera inmediata, con cargo al resultado positivo de futuros ejercicios
+económicos.
+```
+
+---
+
+## Normativa Autonomica
+
+### Referencia 15
+
+- Documento: Normativa Autonomica
+- Slug documento: `docs-leyes-normativa-autonomica`
+- Tipo: ley
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: 4. En el supuesto que el acuerdo de disolución haya sido adoptado por la Asamblea
+- Ruta fuente: `docs/leyes/normativa_autonomica.pdf`
+- Confidence: high
+- Score: 47
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+4. En el supuesto que el acuerdo de disolución haya sido adoptado por la Asamblea
+General conforme al supuesto de la letra b) del apartado 1 de este artículo y habiendo
+cesado la causa que lo motivó, la sociedad en liquidación podrá ser reactivada, siempre que
+no hubiera comenzado el reembolso de las aportaciones a los socios. El acuerdo de
+reactivación deberá ser adoptado por la Asamblea General por una mayoría de dos tercios
+de votos, presentes o representados, y no será eficaz hasta que no se eleve a escritura
+pública y se inscriba en el Registro de Sociedades Cooperativas.
+La misma regla se aplicará en el proceso concursal, cuando la sociedad concursada
+llegue a un convenio con los acreedores.
+```
+
+---
+
+## Estatutos Laseronda.Org
+
+### Referencia 16
+
+- Documento: Estatutos Laseronda.Org
+- Slug documento: `docs-estatutos-estatutos-laseronda-org`
+- Tipo: estatutos
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: ARTÍCULO 53.- ADJUDICACIÓN DEL HABER SOCIAL
+- Ruta fuente: `docs/estatutos/estatutos_laseronda.org.pdf`
+- Confidence: high
+- Score: 45
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+ARTÍCULO 53.- ADJUDICACIÓN DEL HABER SOCIAL
+No se podrá adjudicar ni repartir el haber social hasta que no se hayan satisfecho íntegramente
+laseronda.org Nosotros Nuestra casa Noticias Contacto Documen
+https://sites.google.com/view/laseronda/documentos/estatutos?authuser=0 33/37
+
+-- 33 of 37 --
+
+las deudas sociales, o se haya consignado su importe en una entidad de crédito del término
+municipal correspondiente al domicilio social, o se haya asegurado el pago de los créditos no
+vencidos.
+El resto del haber social se adjudicará por el siguiente orden:
+```
+
+---
+
+## Estatutos Pepu
 
 ### Referencia 17
 
-- Documento: Estatutos Elciempies
-- Slug documento: `docs-estatutos-estatutos-elciempies`
+- Documento: Estatutos Pepu
+- Slug documento: `docs-estatutos-estatutos-pepu`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: CAPÍTULO VII
-- Ruta fuente: `docs/estatutos/estatutos_elciempies.pdf`
+- Sección/artículo: Artículo 16.- Concepto, composición y competencias de la Asamblea General.
+- Ruta fuente: `docs/estatutos/estatutos_pepu.pdf`
 - Confidence: high
-- Score: 56
+- Score: 45
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -766,54 +734,33 @@ Artículo 61.- Causas de disolución
 Extracto relevante:
 
 ```text
-CAPÍTULO VII
-DISOLUCIÓN Y LIQUIDACIÓN DE LA COOPERATIVA
-Arculo 61.- Causas de disolución.
-Son causas de disolución de la sociedad cooperava:
-• 	La imposibilidad sobrevenida de realizar la acvidad cooperavizada.
- 	El acuerdo de la Asamblea General, adoptado por la mayoría de dos tercios de los
-votos presentes y representados.
- 	La reducción del número de personas socias por debajo del mínimo legalmente
-necesario para constuir la sociedad cooperava por un periodo superior a doce
-meses.
- 	La reducción del capital social hasta quedar por debajo del capital social mínimo, a
-no ser que, en el plazo de doce meses, se proceda a su reajuste.
- 	La fusión, y la escisión, en su caso.
- 	La apertura de la fase de liquidación en el concurso de la sociedad, conforme a lo
-dispuesto en la legislación concursal vigente en cada momento.
-Cualquier otra causa establecida en la Ley.
-Arculo 62.- Liquidación.
-Cumplidas las formalidades legales sobre disolución de la cooperava, salvo en los
-supuestos de fusión, absorción o escisión, se abrirá el periodo de liquidación.
-Los/as liquidadores/as, en número de tres, serán elegidos/as por la Asamblea General, de
-entre los socios/as, en votación secreta, por el mayor número de votos.
-La liquidación y exnción de la cooperava se ajustarán a lo establecido en la Ley.
-Arculo 63.- Adjudicación del haber social.
-Sasfechas las deudas, el resto del haber social, se adjudicará por el siguiente orden:
-a) Se reintegrará a las personas socias el importe de las aportaciones al capital social que
-tuvieran acreditadas, una vez deducidas las pérdidas correspondientes a ejercicios
-anteriores, actualizados en su caso.
-b) Las Reservas Voluntarias y el Fondo de Educación y Promoción, si los hubiere, se
-pondrán a disposición de la sociedad cooperava o en
-
-[Extracto truncado automáticamente]
+Artículo 16.- Concepto, composición y competencias de la Asamblea General.
+1.- La Asamblea General de la Cooperativa es el órgano supremo de la expresión de la voluntad
+social, constituida por las personas asociadas debidamente convocados para deliberar y decidir
+por la mayoría legal o estatutariamente establecida en las materias propias de su competencia.
+La Asamblea General fijará la política general de la Cooperativa pudiendo debatir sobre
+cualquier asunto de interés para la misma siempre que conste en el Orden del Día.
+2.- Los acuerdos de la Asamblea General, adoptados conforme a la ley y a los estatutos sociales,
+obligan a todos los socios, incluso a los ausentes y disidentes.
+3.- Corresponde en exclusiva a la Asamblea General, con carácter indelegable, la adopción de
+acuerdos sobre los siguientes asuntos:
 ```
 
 ---
 
-## Estatutos Los Girasoles
+## Estatutos Pequenopueblo
 
 ### Referencia 18
 
-- Documento: Estatutos Los Girasoles
-- Slug documento: `docs-estatutos-estatutos-los-girasoles`
+- Documento: Estatutos Pequenopueblo
+- Slug documento: `docs-estatutos-estatutos-pequenopueblo`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: CAPÍTULO VII
-- Ruta fuente: `docs/estatutos/estatutos_los_girasoles.pdf`
+- Sección/artículo: Artículo 16.- Concepto, composición y competencias de la Asamblea General.
+- Ruta fuente: `docs/estatutos/estatutos_pequenopueblo.pdf`
 - Confidence: high
-- Score: 56
+- Score: 45
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -821,41 +768,16 @@ pondrán a disposición de la sociedad cooperava o en
 Extracto relevante:
 
 ```text
-CAPÍTULO VII
-DISOLUCIÓN Y LIQUIDACIÓN DE LA COOPERATIVA
-Arơculo 64.- Causas de disolución.
-Son causas de disolución de la sociedad cooperaƟva:
- La imposibilidad sobrevenida de realizar la acƟvidad cooperaƟvizada.
- El acuerdo de la Asamblea General, adoptado por la mayoría de dos tercios de los
-votos presentes y representados.
-45
-
--- 45 of 46 --
-
- La reducción del número de personas socias por debajo del mínimo legalmente
-necesario para consƟtuir la sociedad cooperaƟva por un periodo superior a doce
-meses.
- La reducción del capital social hasta quedar por debajo del capital social mínimo, a
-no ser que, en el plazo de doce meses, se proceda a su reajuste.
- La fusión, y la escisión, en su caso.
- La apertura de la fase de liquidación en el concurso de la sociedad, conforme a lo
-dispuesto en la legislación concursal vigente en cada momento.
-Cualquier otra causa establecida en la Ley.
-Arơculo 65.- Liquidación.
-Cumplidas las formalidades legales sobre disolución de la cooperaƟva, salvo en los
-supuestos de fusión, absorción o escisión, se abrirá el periodo de liquidación.
-Los/as liquidadores/as, en número de tres, serán elegidos/as por la Asamblea General, de
-entre los socios/as, en votación secreta, por el mayor número de votos.
-La liquidación y exƟnción de la cooperaƟva se ajustarán a lo establecido en la Ley.
-Arơculo 66.- Adjudicación del haber social.
-SaƟsfechas las deudas, el resto del haber social, se adjudicará por el siguiente orden:
-a) Se reintegrará a las personas socias el importe de las aportaciones al capital social que
-tuvieran acreditadas, una vez deducidas las pérdidas correspondientes a ejercicios
-anteriores, actualizados en su caso.
-b) Las Reservas Voluntarias y el Fondo de Educación y Promoción, si los hubiere, se
-pondrán a disposición de la sociedad co
-
-[Extracto truncado automáticamente]
+Artículo 16.- Concepto, composición y competencias de la Asamblea General.
+1.- La Asamblea General de la Cooperativa es el órgano supremo de la expresión de la voluntad
+social, constituida por las personas asociadas debidamente convocados para deliberar y decidir
+por la mayoría legal o estatutariamente establecida en las materias propias de su competencia.
+La Asamblea General fijará la política general de la Cooperativa pudiendo debatir sobre
+cualquier asunto de interés para la misma siempre que conste en el Orden del Día.
+2.- Los acuerdos de la Asamblea General, adoptados conforme a la ley y a los estatutos sociales,
+obligan a todos los socios, incluso a los ausentes y disidentes.
+3.- Corresponde en exclusiva a la Asamblea General, con carácter indelegable, la adopción de
+acuerdos sobre los siguientes asuntos:
 ```
 
 ---

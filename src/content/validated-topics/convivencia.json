@@ -1,0 +1,103 @@
+{
+  "slug": "convivencia",
+  "status": "reviewed",
+  "editorialSummary": [
+    "La convivencia es el corazón de un proyecto de amigos que pone el buen trato 'como centro de todo': acordar cómo se cuida la casa y las relaciones importa tanto como la letra jurídica.",
+    "La Ley 4/2002 de Castilla y León apenas la regula, así que es materia esencialmente de Reglamento de Régimen Interno, que la Asamblea puede revisar sin reforma estatutaria.",
+    "La clave no es escribir muchas normas, sino pocas y claras (buen trato, cuidado, uso responsable de los espacios, reparto de tareas) y apoyarse en la Comisión de Convivencia, distinguiendo siempre convivencia de disciplina."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "valores_donde",
+      "question": "¿El buen trato y los valores de convivencia se enuncian en los Estatutos o solo en el RRI?",
+      "recommendationsForBuenVivir": [
+        "Un enunciado breve de valores en Estatutos da identidad y ancla; el desarrollo concreto conviene dejarlo al RRI, más fácil de revisar."
+      ]
+    },
+    {
+      "id": "normas_minimas",
+      "question": "¿Qué normas de uso de la casa se aprueban ya y cuáles esperan a conocer el inmueble?",
+      "recommendationsForBuenVivir": [
+        "Mejor pocas normas claras (silencios, limpieza, tareas comunes) que un reglamento exhaustivo que nadie cumplirá; el resto se concreta con la casa en la mano."
+      ]
+    },
+    {
+      "id": "comision_convivencia",
+      "question": "¿Cuál es el mandato y la composición de la Comisión de Convivencia?",
+      "recommendationsForBuenVivir": [
+        "Definir sus funciones (promover el buen trato, proponer y revisar normas, acompañar entradas y salidas, mediar) y cuidar que el trabajo emocional no recaiga siempre en las mismas personas."
+      ]
+    },
+    {
+      "id": "frontera_disciplina",
+      "question": "¿Dónde termina la convivencia y empieza la disciplina?",
+      "recommendationsForBuenVivir": [
+        "Mediar no es sancionar: solo cabe sancionar conductas tipificadas como falta en los Estatutos. Conviene separar acompañamiento de conflictos y procedimiento sancionador."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "rri_sede",
+      "statement": "La convivencia se regula sobre todo en el Reglamento de Régimen Interno.",
+      "summary": "La ley obliga a fijar derechos y deberes en Estatutos, pero deja la vida cotidiana a la autoorganización; el RRI lo aprueba y modifica la Asamblea (art. 31.f)."
+    },
+    {
+      "id": "valor_deber",
+      "statement": "Varios estatutos formulan el buen trato y el cuidado como valor o deber de la persona socia.",
+      "summary": "Tarocohousing y El Ciempiés hablan de solidaridad, co-cuidado y consideración; Entrepatios y La Borda obligan a respetar y aceptar las normas de convivencia."
+    },
+    {
+      "id": "comision",
+      "statement": "Los proyectos que más cuidan la convivencia crean una comisión dedicada y normas específicas en el RRI.",
+      "summary": "El ejemplo de RRI de cesión de uso y Axuntase incluyen normas de convivencia de obligado cumplimiento y, en un caso, una Comisión de Convivencia con mandato propio."
+    },
+    {
+      "id": "frontera",
+      "statement": "La convivencia y el régimen sancionador son materias distintas.",
+      "summary": "Solo se puede sancionar por faltas previamente tipificadas (art. 24); el buen trato es un acuerdo y un valor, no automáticamente una falta."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "convivencia-sancion-automatica",
+      "statement": "Incumplir el buen trato puede sancionarse directamente.",
+      "reason": "La documentación muestra que la sanción exige tipificar previamente la conducta como falta en los Estatutos; presentar la convivencia como sancionable por sí misma no tiene apoyo legal."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Enunciar el buen trato, el cuidado y la horizontalidad como valores en los Estatutos, con un deber genérico de convivencia, y remitir el desarrollo al RRI.",
+    "Redactar en el RRI pocas normas claras de uso responsable de la casa, revisables por la Asamblea a partir de la experiencia real.",
+    "Dar a la Comisión de Convivencia un mandato explícito de prevención, mediación y acompañamiento, sin potestad sancionadora.",
+    "Repartir de forma equitativa y rotativa las tareas de cuidado y el trabajo emocional, coherente con el ecofeminismo del proyecto.",
+    "Separar con claridad convivencia (acuerdos y buen trato) de disciplina (faltas tipificadas y sanciones)."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Enunciado de valores (buen trato, cuidado, horizontalidad) como principios.",
+      "Deber general de contribuir a la convivencia y al buen uso de los bienes comunes.",
+      "Remisión al RRI para el desarrollo de las normas de convivencia."
+    ],
+    "rri": [
+      "Normas concretas de uso responsable de la casa: descansos, limpieza, tareas, invitados, animales.",
+      "Reparto y corresponsabilidad de las tareas de cuidado y mantenimiento.",
+      "Composición, mandato y funcionamiento de la Comisión de Convivencia.",
+      "Cauces de prevención y mediación de conflictos previos a cualquier expediente disciplinario."
+    ],
+    "notes": [
+      "La revisión jurídica debe cuidar la frontera con la disciplina: la convivencia no sanciona; solo lo hace el régimen de faltas tipificadas del art. 24."
+    ]
+  },
+  "referencesToUse": [
+    "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso: deberes de convivencia y Comisión de Convivencia.",
+    "docs-rri-rri-axuntase: Capítulo V. Normas de convivencia, de obligado cumplimiento.",
+    "docs-estatutos-estatutos-tarocohousing: obligación de solidaridad y co-cuidado.",
+    "docs-estatutos-estatutos-entrepatios: deber de consideración y de respetar las normas de convivencia.",
+    "docs-estatutos-estatutos-la-borda: aceptación de las normas de convivencia como requisito de admisión.",
+    "docs-leyes-normativa-autonomica: arts. 13.h, 22.3.a, 23, 24 y 31.f de la Ley 4/2002 CyL."
+  ],
+  "referencesToAvoid": [
+    "No usar el régimen de faltas y sanciones de otros estatutos como si fuera parte de la convivencia: pertenece al tema de disciplina.",
+    "No copiar normas detalladas de uso (animales, tabaco, ruidos) de otros proyectos sin adaptarlas a una casa rural de uso vacacional compartido y a la casa concreta."
+  ]
+}

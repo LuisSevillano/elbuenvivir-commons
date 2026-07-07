@@ -1,0 +1,216 @@
+{
+  "slug": "ejercicio_economico",
+  "title": "Ejercicio económico, cuentas y fondos obligatorios",
+  "shortDescription": "Contenido estatutario obligatorio de una cooperativa de usuarios de Castilla y León: duración del ejercicio económico, cuentas anuales y su aprobación por la Asamblea, los fondos sociales obligatorios (Fondo de Reserva Obligatorio y Fondo de Educación y Promoción) y el destino de los excedentes.",
+  "category": "economico",
+  "minimumContents": [
+    "Fijar la duración del ejercicio económico (12 meses) y su fecha de cierre (por defecto, coincidente con el año natural: 31 de diciembre).",
+    "Regular la formulación de las cuentas anuales por el órgano de administración en el plazo legal y su aprobación por la Asamblea General.",
+    "Prever el Fondo de Reserva Obligatorio (FRO), irrepartible, y las partidas que se le destinan.",
+    "Prever el Fondo de Educación y Promoción (FEP), inembargable e irrepartible, y su finalidad.",
+    "Fijar el destino de los excedentes/resultados: porcentajes a fondos obligatorios y aplicación del resto.",
+    "Declarar, en su caso, la ausencia de ánimo de lucro y la reinversión de los resultados positivos en el proyecto."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿El ejercicio coincide con el año natural (cierre a 31 de diciembre) o se elige otra fecha de cierre?",
+    "¿Se hace constar expresamente en los Estatutos la ausencia de ánimo de lucro y la irrepartibilidad total de los excedentes?",
+    "¿Qué porcentajes se destinan al FRO y al FEP (mínimos legales del 20 % y 5 %, o más) y a qué se dedica el resto (reserva voluntaria irrepartible / mantenimiento y mejora de la casa)?",
+    "¿A qué se destinará en la práctica el FEP, coherente con los valores del grupo (formación interna, ecofeminismo, cuidados, difusión del cooperativismo)?",
+    "¿Se nombra a personas Interventoras que censuren las cuentas antes de la Asamblea, dado que una cooperativa pequeña difícilmente estará obligada a auditoría?"
+  ],
+  "risks": [
+    "Omitir en los Estatutos la fecha de cierre y los porcentajes de dotación a fondos obligatorios: son contenido obligatorio y su ausencia bloquea el depósito de cuentas.",
+    "Confundir 'sin ánimo de lucro' con 'sin obligaciones contables': la cooperativa sigue obligada a llevar contabilidad completa, formular cuentas anuales y depositarlas.",
+    "Tratar el FRO como dinero repartible entre socios: es irrepartible por ley, también en caso de baja o disolución.",
+    "Copiar porcentajes de FRO/FEP de cooperativas catalanas (30 % / 10 %): responden a otra ley; en CyL el mínimo es 20 % / 5 %.",
+    "No depositar las cuentas aprobadas en el plazo de un año desde el cierre: el Registro deja de practicar inscripciones a la cooperativa."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "La duración y cierre del ejercicio, la existencia de los fondos obligatorios y las normas de distribución de excedentes son contenido estatutario obligatorio en cooperativas de CyL.",
+      "El detalle operativo (a qué actividades concretas se dedica el FEP cada año, calendario interno de preparación de cuentas) es revisable y encaja mejor en el RRI o en acuerdos anuales de la Asamblea."
+    ],
+    "shouldBeInStatutes": [
+      "Duración del ejercicio económico y fecha de cierre.",
+      "Obligación de formular y aprobar cuentas anuales y órgano competente para aprobarlas (Asamblea General).",
+      "Existencia del FRO y del FEP y su carácter irrepartible.",
+      "Porcentajes de dotación a los fondos obligatorios y destino del resto de excedentes.",
+      "En su caso, declaración expresa de ausencia de ánimo de lucro."
+    ],
+    "shouldBeInRRI": [
+      "Actividades y proyectos concretos financiados con cargo al FEP cada ejercicio.",
+      "Calendario interno de cierre contable, preparación de cuentas y convocatoria de la Asamblea de aprobación.",
+      "Forma de rendir cuentas a las personas socias (informe económico anual, transparencia de la Comisión de Economía)."
+    ],
+    "canBeDeferredInitially": [
+      "Plan detallado de aplicación del FEP.",
+      "Creación de reservas o fondos voluntarios adicionales (fondo solidario interno)."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Detallar en Estatutos las actividades concretas del FEP obliga a modificar los Estatutos cada vez que cambian."
+    ],
+    "risksIfPlacedInRRI": [
+      "Dejar fuera de los Estatutos la fecha de cierre o los porcentajes de fondos obligatorios incumple el contenido estatutario mínimo y puede impedir la inscripción o el depósito de cuentas."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "El capital social aportado es la referencia para topes del FRO (triplicar el capital) y para la imputación de pérdidas."
+    },
+    {
+      "topicSlug": "reembolso_aportaciones",
+      "relationship": "complements",
+      "explanation": "Las deducciones sobre aportaciones de quien causa baja se destinan al FRO, que es irrepartible."
+    },
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "complements",
+      "explanation": "El retorno cooperativo y la imputación de resultados se calculan por actividad cooperativizada, que difiere entre socios A y B."
+    }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "En una cooperativa de usuarios de Castilla y León rige la Ley 4/2002. La ley impone un marco económico mínimo que los Estatutos deben recoger: la duración del ejercicio económico, la formulación y aprobación anual de las cuentas, y la existencia de dos fondos sociales obligatorios —el Fondo de Reserva Obligatorio (FRO) y el Fondo de Educación y Promoción (FEP)—, ambos irrepartibles entre las personas socias.",
+        "El margen del grupo está en la fecha de cierre (por defecto el año natural), en subir los porcentajes de dotación por encima de los mínimos (20 % al FRO y 5 % al FEP), en declararse sin ánimo de lucro para reinvertir todos los resultados positivos, y en decidir cómo se rinden cuentas internamente. Lo que no puede hacerse es suprimir los fondos, repartir el FRO ni dejar de depositar las cuentas aprobadas."
+      ],
+      "requirements": [
+        { "aspect": "Duración del ejercicio", "law": "Ley 4/2002 CyL, art. 73.1", "requirement": "Dura 12 meses y coincide con el año natural, salvo que los Estatutos dispongan otra cosa.", "margin": "Podéis elegir otra fecha de cierre; lo habitual es 31 de diciembre." },
+        { "aspect": "Formulación de cuentas", "law": "Ley 4/2002 CyL, art. 77.2", "requirement": "El Consejo Rector formula cuentas anuales, informe de gestión y propuesta de aplicación de excedentes en 3 meses desde el cierre.", "margin": "Sin margen sobre la obligación ni el plazo." },
+        { "aspect": "Aprobación por la Asamblea", "law": "Ley 4/2002 CyL, art. 44 y 47", "requirement": "La Asamblea General examina y aprueba las cuentas y la aplicación de excedentes; antes deben ser censuradas por los Interventores si no hay auditoría.", "margin": "Podéis nombrar Interventores; la aprobación es competencia indelegable de la Asamblea." },
+        { "aspect": "Fondo de Reserva Obligatorio", "law": "Ley 4/2002 CyL, art. 71", "requirement": "Irrepartible entre socios; se nutre de un porcentaje de excedentes, cuotas de ingreso y deducciones por baja.", "margin": "Sin margen: es obligatorio e irrepartible." },
+        { "aspect": "Fondo de Educación y Promoción", "law": "Ley 4/2002 CyL, art. 72", "requirement": "Inembargable e irrepartible; financia formación, difusión del cooperativismo y objetivos sociales, culturales o ambientales.", "margin": "Decidís las actividades concretas dentro de esos fines." },
+        { "aspect": "Aplicación de excedentes", "law": "Ley 4/2002 CyL, art. 74.1", "requirement": "Al menos el 20 % al FRO y el 5 % al FEP de los excedentes cooperativos netos.", "margin": "Podéis fijar porcentajes mayores y destinar el resto a reservas o reinversión." },
+        { "aspect": "Sin ánimo de lucro", "law": "Ley 4/2002 CyL, art. 73.5 y 124.5", "requirement": "Las cooperativas sin ánimo de lucro pueden crear una reserva estatutaria irrepartible para reinvertir los resultados positivos y no reparten beneficios entre socios.", "margin": "Debéis declararlo expresamente en Estatutos si queréis esa calificación." }
+      ],
+      "citations": [
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 73.1 (ejercicio económico)",
+          "excerpt": "El ejercicio económico tendrá una duración de doce meses, salvo en los casos de constitución, extinción o fusión de la sociedad, y coincidirá con el año natural, si los Estatutos no disponen lo contrario."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 71 (Fondo de Reserva Obligatorio)",
+          "excerpt": "El Fondo de Reserva Obligatorio, destinado a la consolidación, desarrollo y garantía de la cooperativa, es irrepartible entre los socios y al mismo se destinarán necesariamente: a) El porcentaje de los excedentes netos que establezca la Asamblea general, de acuerdo con lo fijado en esta Ley. b) Las deducciones de las aportaciones al capital social, respecto de las efectuadas por los socios que causen baja... c) Cuotas de ingreso de los socios."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 72 (Fondo de Educación y Promoción)",
+          "excerpt": "El Fondo de Educación y Promoción tiene por objeto la difusión y promoción del cooperativismo, la formación de los socios y trabajadores en técnicas cooperativas, económicas y profesionales, la atención de los objetivos de incidencia social, cultural o medio ambiental en el territorio... El Fondo de Educación y Promoción, que es inembargable e irrepartible entre los socios, se nutrirá de las siguientes aportaciones: a) El porcentaje de los excedentes netos que fijen los Estatutos... b) Las sanciones económicas que imponga la cooperativa a sus socios. c) Las subvenciones, donaciones y cualquier otro tipo de ayuda recibida de terceros..."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 74.1 (aplicación de excedentes)",
+          "excerpt": "De los excedentes contabilizados para la determinación del resultado cooperativo, una vez deducidas las pérdidas de cualquier naturaleza de ejercicios anteriores y antes de la consideración del Impuesto de Sociedades, se destinará, al menos, el 20 por ciento al Fondo de Reserva Obligatorio y el 5 por ciento al Fondo de Educación y Promoción. Cuando la cuantía del Fondo de Reserva Obligatorio triplique el capital social, la dotación a este Fondo podrá reducirse hasta el 10%, si así lo acuerda la Asamblea General."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 77.2 (formulación de cuentas anuales)",
+          "excerpt": "El Consejo Rector está obligado a formular, en un plazo máximo de tres meses, computados a partir de la fecha del cierre del ejercicio social, establecida estatutariamente, las cuentas anuales, el informe de gestión y una propuesta de aplicación de los excedentes disponibles o de imputación de pérdidas."
+        }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo regulan el ejercicio económico, los fondos obligatorios y el destino de excedentes otras cooperativas del corpus. Ojo: las catalanas se rigen por otra ley y sus porcentajes difieren.",
+      "columns": [
+        { "key": "cierre", "label": "Cierre del ejercicio" },
+        { "key": "fro", "label": "% al FRO" },
+        { "key": "fep", "label": "% al FEP" },
+        { "key": "lucro", "label": "Destino de excedentes" }
+      ],
+      "rows": [
+        {
+          "project": "La Seronda (Asturias)",
+          "cells": { "cierre": "31 de diciembre", "fro": "según acuerde la Asamblea", "fep": "según acuerde la Asamblea", "lucro": "sin ánimo de lucro; no se reparte" },
+          "documentSlug": "docs-estatutos-estatutos-laseronda-org",
+          "articleOrSection": "Artículo 41 — Ejercicio económico. Cuentas anuales",
+          "excerpt": "Anualmente y con referencia al día treinta y uno del mes de diciembre, quedará cerrado el ejercicio económico anual. En el plazo máximo de tres meses, contados a partir de la fecha del cierre del ejercicio social, el órgano de administración estará obligado a formular las cuentas anuales, el informe de gestión y una propuesta de aplicación de los excedentes disponibles o de imputación de pérdidas."
+        },
+        {
+          "project": "Senior Cohousing (Huelva)",
+          "cells": { "cierre": "año natural", "fro": "—", "fep": "—", "lucro": "sin ánimo de lucro" },
+          "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+          "articleOrSection": "Artículo 38 — Ejercicio económico",
+          "excerpt": "El ejercicio económico tendrá una duración de 12 meses, salvo en los casos de constitución, extinción o mutaciones estructurales de la sociedad cooperativa y coincidirá con el año natural. El órgano de administración deberá redactar, dentro de los tres meses siguientes al cierre de cada ejercicio económico, las cuentas anuales y demás documentos exigibles... así como la propuesta de distribución de resultados positivos o de imputación de pérdidas."
+        },
+        {
+          "project": "Tarocohousing (Canarias)",
+          "cells": { "cierre": "1 enero – 31 diciembre", "fro": "≥ 20 %", "fep": "≥ 5 %", "lucro": "no reparte excedentes" },
+          "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+          "articleOrSection": "Artículos 52 y 54 — Ejercicio económico y aplicación de excedentes",
+          "excerpt": "El ejercicio económico tendrá una duración de doce meses y se extenderá desde 1 de enero al 31 de diciembre. [...] De los excedentes contabilizados para la determinación del resultado cooperativo, una vez deducidas las pérdidas de cualquier naturaleza de ejercicios anteriores y antes de la consideración del Impuesto de Sociedades se destinará, al menos el 20% al Fondo de Reserva Obligatorio y el 5% al Fondo de Formación y Promoción. [...] La cooperativa no repartirá los excedentes cooperativos, ni los beneficios extraordinarios o extracooperativos entre sus socios/as."
+        },
+        {
+          "project": "Los Nidales",
+          "cells": { "cierre": "—", "fro": "≥ 20 %", "fep": "≥ 5 %", "lucro": "reservas / retorno" },
+          "documentSlug": "docs-estatutos-estatutos-losnidales",
+          "articleOrSection": "Artículo 28 — Distribución de beneficios y excedentes",
+          "excerpt": "Los excedentes del ejercicio económico procedentes de las operaciones con los/as socios/as, y antes de la consideración del Impuesto de Sociedades, serán disponibles y se destinarán a los siguientes fines: a) Como mínimo un 5% a la Reserva de educación y promoción cooperativa, y un 20% a la Reserva obligatoria, hasta que ésta alcance el triple del capital social al cierre del ejercicio. Una vez superada tal cifra, la Asamblea General podrá incrementar el porcentaje destinado a la Reserva de educación y promoción y reducir el correspondiente a la Reserva obligatoria, siempre que la suma de ambas sea, como mínimo, el 25% de los citados excedentes."
+        },
+        {
+          "project": "El Ciempiés (Canarias)",
+          "cells": { "cierre": "—", "fro": "—", "fep": "—", "lucro": "sin ánimo de lucro; a consolidación" },
+          "documentSlug": "docs-estatutos-estatutos-elciempies",
+          "articleOrSection": "Artículo 8 ter — Cooperativa sin ánimo de lucro",
+          "excerpt": "Esta cooperativa regirá su funcionamiento bajo las premisas exigidas para la calificación de entidad sin ánimo de lucro según la Ley, por lo que expresamente se determina: a) Que los excedentes o beneficios que puedan producirse en el ejercicio económico no podrán ser distribuidos entre sus personas socias, y se destinarán a la consolidación de la cooperativa y la creación de empleo. b) Que las aportaciones de las personas socias al capital social, tanto obligatorias como voluntarias, no podrán devengar un interés superior al interés legal del dinero."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": { "cierre": "—", "fro": "≥ 30 %", "fep": "≥ 10 %", "lucro": "sin ánimo de lucro; resto a reservas irrepartibles" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 27 — Aplicación de los excedentes",
+          "excerpt": "En la aplicación de los excedentes provenientes de la actividad de consumo y uso, contabilizados para la determinación del resultado cooperativo, una vez deducidas las pérdidas de cualquier naturaleza de ejercicios anteriores, y antes de la consideración del impuesto de sociedades, deben destinarse, al menos, los siguientes porcentajes: a) En el fondo de reserva obligatorio... se destinará, como mínimo, el 30% de los excedentes netos. b) En el fondo de educación y promoción cooperativa hay que destinar, como mínimo, el 10% de los excedentes netos de cada ejercicio."
+        }
+      ],
+      "note": "Patrón común: cierre a 31 de diciembre, formulación de cuentas en 3 meses y dotación obligatoria a FRO y FEP. La diferencia clave es el porcentaje: en CyL (y Canarias) el mínimo es 20 % / 5 %, mientras que las catalanas (La Borda, Blanxart) aplican 30 % / 10 % por su propia ley. Casi todas se declaran sin ánimo de lucro y no reparten excedentes."
+    },
+    "proposal": {
+      "rationale": [
+        "El Buen Vivir es una casa rural de uso vacacional compartido, antiespeculativa y sin ánimo de lucro: encaja declarar expresamente esa ausencia de lucro y reinvertir todos los resultados positivos en la casa y los fondos comunes, como ya recoge el material de la Comisión de Forma Jurídica.",
+        "La cooperativa apenas tendrá 'excedentes' en sentido empresarial: las cuotas cubren compra y mantenimiento, no generan beneficio. Aun así, la ley obliga a tener FRO y FEP y a dotarlos cuando haya resultado positivo.",
+        "Al ser un grupo pequeño, difícilmente estará obligada a auditoría: conviene prever personas Interventoras que revisen las cuentas antes de la Asamblea, y apoyarse en la Comisión de Economía para la transparencia interna.",
+        "Coincidir con el año natural (cierre a 31 de diciembre) simplifica la gestoría y el calendario de la Asamblea, como hace la mayoría de cooperativas del corpus."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Ejercicio económico y cuentas anuales",
+          "text": "El ejercicio económico tendrá una duración de doce meses y coincidirá con el año natural, quedando cerrado a 31 de diciembre, salvo en los ejercicios de constitución o extinción. Dentro de los tres meses siguientes al cierre, el Consejo Rector formulará las cuentas anuales, el informe de gestión y una propuesta de aplicación de los excedentes o de imputación de pérdidas. Las cuentas serán censuradas por las personas Interventoras y sometidas a la aprobación de la Asamblea General, que resolverá también sobre la aplicación de resultados. Las cuentas aprobadas se depositarán en el Registro de Sociedades Cooperativas de Castilla y León en el plazo de un mes desde su aprobación.",
+          "note": "Reproduce el mínimo imperativo de los arts. 73, 77 y 47 de la Ley 4/2002 CyL. Si no hay Interventores porque la estructura es muy pequeña, revisar con asesoría cómo cubrir la censura de cuentas."
+        },
+        {
+          "target": "estatutos",
+          "heading": "Ausencia de ánimo de lucro y fondos sociales obligatorios",
+          "text": "La cooperativa carece de ánimo de lucro: los excedentes o resultados positivos que puedan producirse no se repartirán entre las personas socias y se destinarán a la consolidación y mejora del proyecto y a los fondos previstos en estos Estatutos. Existirán un Fondo de Reserva Obligatorio, irrepartible entre las personas socias, y un Fondo de Educación y Promoción, inembargable e irrepartible. De los excedentes cooperativos netos se destinará al menos el [20] % al Fondo de Reserva Obligatorio y al menos el [5] % al Fondo de Educación y Promoción; el resto se aplicará, conforme acuerde la Asamblea General, a una reserva estatutaria irrepartible destinada a la reinversión en la casa y los servicios comunes. El Fondo de Reserva Obligatorio se nutrirá además de las cuotas de ingreso y de las deducciones practicadas sobre las aportaciones de quienes causen baja. Las actividades concretas financiadas con cargo al Fondo de Educación y Promoción y la forma de rendir cuentas se desarrollarán en los términos que fije el Reglamento de Régimen Interno.",
+          "note": "Los corchetes marcan los porcentajes a decidir (mínimos legales del art. 74.1). La existencia y el carácter irrepartible de los fondos, la duración del ejercicio y las reglas de aplicación de excedentes son contenido estatutario reservado (arts. 71-74): solo el detalle operativo (actividades del FEP, calendario, información) se remite al RRI. La reserva estatutaria irrepartible del art. 73.5 es la vía de las cooperativas sin ánimo de lucro para reinvertir el resto de resultados. La cuota umbral de 10.000 € es aportación al capital, no excedente: no se dota a estos fondos."
+        },
+        {
+          "target": "rri",
+          "heading": "Aplicación del Fondo de Educación y Promoción e información económica",
+          "text": "La Asamblea General aprobará cada año, a propuesta de la Comisión de Economía, las actividades concretas financiadas con cargo al Fondo de Educación y Promoción, orientadas a la formación interna del grupo, la difusión del cooperativismo y los cuidados y objetivos ecosociales del proyecto. La Comisión de Economía preparará el cierre contable, pondrá a disposición de las personas socias un informe económico anual comprensible y coordinará con la gestoría la formulación y el depósito de las cuentas.",
+          "note": "Detalle operativo revisable por la Asamblea sin modificar los Estatutos. El FEP puede financiar actividades coherentes con los valores del grupo dentro de los fines del art. 72."
+        }
+      ],
+      "openDecisions": [
+        "¿Cierre a 31 de diciembre (año natural) u otra fecha?",
+        "¿Se declara expresamente la ausencia de ánimo de lucro y la reserva estatutaria irrepartible del art. 73.5?",
+        "¿Porcentajes de dotación al FRO y al FEP: los mínimos (20 % / 5 %) o superiores?",
+        "¿A qué actividades concretas se destinará el FEP y quién las propone (Comisión de Economía / Convivencia)?",
+        "¿Se nombran personas Interventoras para censurar las cuentas, o se prevé auditoría voluntaria?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas del grupo. Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
+  "suggestedClause": {
+    "text": "El ejercicio económico coincidirá con el año natural, cerrando a 31 de diciembre. El Consejo Rector formulará las cuentas anuales dentro de los tres meses siguientes al cierre y la Asamblea General las aprobará junto con la aplicación de resultados. La cooperativa carece de ánimo de lucro: no reparte excedentes, que se destinan al Fondo de Reserva Obligatorio (al menos el 20 %), al Fondo de Educación y Promoción (al menos el 5 %) y a la reinversión en el proyecto, siendo todos estos fondos irrepartibles entre las personas socias.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

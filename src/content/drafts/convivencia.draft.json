@@ -1,0 +1,201 @@
+{
+  "slug": "convivencia",
+  "title": "Convivencia cotidiana",
+  "shortDescription": "Borrador generado automáticamente desde research pack sobre convivencia cotidiana; conviene valorar sus referencias antes de convertirlo en contenido curado.",
+  "category": "convivencia",
+  "minimumContents": [
+    "Conviene valorar una regla mínima sobre convivencia, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre vida comunitaria, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre cuidados, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre normas internas, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre responsabilidad, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre limpieza, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Conviene valorar si convivencia cotidiana debe formularse como principio, procedimiento o combinación de ambos.",
+    "Otros proyectos suelen reflejar parte del tema en Estatutos cuando afecta a derechos, obligaciones o estructura básica.",
+    "Una opción frecuente es desarrollar aspectos operativos en el RRI para conservar capacidad de adaptación.",
+    "Conviene decidir qué tradeoffs aceptar entre claridad, flexibilidad y facilidad de modificación.",
+    "Conviene marcar las partes que requieren revisión jurídica antes de convertir el borrador en contenido curado."
+  ],
+  "risks": [
+    "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
+    "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
+    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
+      "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
+      "La ubicación propuesta es automática y debe revisarse jurídicamente antes de incorporarse a contenido curado."
+    ],
+    "shouldBeInStatutes": [
+      "Principios mínimos y efectos básicos cuando el research pack los conecte con derechos u obligaciones de las personas socias.",
+      "Criterios generales que otros proyectos suelen tratar como marco estable.",
+      "Remisiones prudentes al RRI cuando el detalle operativo deba poder cambiar."
+    ],
+    "shouldBeInRRI": [
+      "Procedimientos internos y pasos de aplicación práctica.",
+      "Criterios operativos revisables por la comunidad.",
+      "Protocolos, formularios, calendarios o reglas de uso cotidiano si aparecen en las referencias."
+    ],
+    "canBeDeferredInitially": [
+      "Detalles no respaldados claramente por extractos del research pack.",
+      "Reglas que requieran contraste comunitario o jurídico adicional."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Una opción demasiado detallada puede producir rigidez y dificultar ajustes futuros.",
+      "Conviene evitar incorporar procedimientos operativos sin evidencia clara y revisión jurídica."
+    ],
+    "risksIfPlacedInRRI": [
+      "Una opción demasiado flexible puede dejar sin rango suficiente cuestiones esenciales.",
+      "Conviene no rebajar a RRI derechos u obligaciones básicas si el research pack apunta a estructura estatutaria."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "estatutos_vs_rri",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    }
+  ],
+  "suggestedClause": {
+    "text": "La cooperativa podrá regular convivencia cotidiana mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
+    "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
+    "status": "draft"
+  },
+  "status": "needs_legal_review",
+  "draftStatus": "generated_not_curated",
+  "generatedFrom": {
+    "generated": true,
+    "curated": false,
+    "sourceResearchPack": "src/content/research-packs/convivencia.md",
+    "evidenceCount": 18,
+    "highConfidenceEvidence": 1,
+    "mediumConfidenceEvidence": 14,
+    "lowConfidenceEvidence": 3,
+    "evidence": [
+      {
+        "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+        "documentType": "rri",
+        "articleOrSection": "d) Deber de Respetar las Normas de Convivencia: Los socios deben respetar las",
+        "confidence": "high",
+        "excerpt": "d) Deber de Respetar las Normas de Convivencia: Los socios deben respetar las normas de convivencia establecidas en el Reglamento, incluyendo el respeto a las áreas comunes, el buen uso de las instalaciones y la consideración hacia otros so..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+        "documentType": "guia",
+        "articleOrSection": "3.13. Responsabilidad de las personas socias.",
+        "confidence": "medium",
+        "excerpt": "3.13. Responsabilidad de las personas socias. La responsabilidad de las personas socias por las deudas sociales se encuentra limitada por sus aportaciones a capital social. Es decir, que de las deudas contraídas por la sociedad cooperativa..."
+      },
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "1. INTRODUCCIÓN: El trabajo de cuidados en una covivienda sénior",
+        "confidence": "medium",
+        "excerpt": "1. INTRODUCCIÓN: El trabajo de cuidados en una covivienda sénior hecho de que la mayoría de proyectos se desarrollen dentro del marco de la economía social, sino que son iniciativas que plantean una respuesta a la crisis de los cuidados en..."
+      },
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "3.3.4 La gestión comunitaria de los cuidados",
+        "confidence": "medium",
+        "excerpt": "3.3.4 La gestión comunitaria de los cuidados Una de las cuestiones que el grupo ha planteado en cuanto a la coordinación y gestión de los cuidados previstos para cada uno de los distintos escalones del proyecto es la constitución de un equi..."
+      },
+      {
+        "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
+        "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "ARTÍCULO 42.- RESPONSABILIDAD DE LOS SOCIOS. La responsabilidad de los socios",
+        "confidence": "medium",
+        "excerpt": "ARTÍCULO 42.- RESPONSABILIDAD DE LOS SOCIOS. La responsabilidad de los socios por las deudas sociales estará limitada a las aportaciones al capital social que hubieran suscrito, estén o no desembolsadas en su totalidad. No obstante, el soci..."
+      },
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "3. PREVIENDO LA CONTINUIDAD DE LOS CUIDADOS EN LA VEJEZ",
+        "confidence": "medium",
+        "excerpt": "3. PREVIENDO LA CONTINUIDAD DE LOS CUIDADOS EN LA VEJEZ también a partir de la mutualización de una serie de servicios de diferente tipología. Concretamente, desde el proyecto de Can 70 han decidido prever, entre otras cosas, la inclusión d..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "6. La coopera\u000eva podrá solicitar y recibir consideraciones, informes, cali,caciones y",
+        "confidence": "medium",
+        "excerpt": "6. La coopera\u000eva podrá solicitar y recibir consideraciones, informes, cali,caciones y demás menciones que ayuden a cumplir el objeto social de la misma. Estas menciones podrán referirse tanto a la totalidad de la coopera\u000eva como a una o var..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-la-borda",
+        "documentTitle": "Estatutos La Borda",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 54. Resolución de conflictos",
+        "confidence": "medium",
+        "excerpt": "Artículo 54. Resolución de conflictos La Cooperativa se compromete a buscar los mecanismos más adecuados en todo momento por una resolución responsable y comprometida de los conflictos que puedan darse tanto entre las personas socias de la..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "7. La cooperaƟva podrá solicitar y recibir consideraciones, informes, calificaciones y",
+        "confidence": "medium",
+        "excerpt": "7. La cooperaƟva podrá solicitar y recibir consideraciones, informes, calificaciones y demás menciones que ayuden a cumplir el objeto social de la misma. Estas menciones podrán referirse tanto a la totalidad de la cooperaƟva como a una o va..."
+      },
+      {
+        "documentSlug": "docs-rri-rri-axuntase",
+        "documentTitle": "Rri Axuntase",
+        "documentType": "rri",
+        "articleOrSection": "CAPÍTULO V. NORMAS DE CONVIVENCIA",
+        "confidence": "medium",
+        "excerpt": "CAPÍTULO V. NORMAS DE CONVIVENCIA -- 6 of 8 -- - 7 - AXUNTASE SDAD. COOPERATIVA ASTURIANA DE INICIATIVA SOCIAL REGLAMENTO DE RÉGIMEN INTERNO (actualización 18 junio 2024)"
+      },
+      {
+        "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
+        "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "ARTÍCULO 40.- RESPONSABILIDAD DE LOS MIEMBROS DEL",
+        "confidence": "medium",
+        "excerpt": "ARTÍCULO 40.- RESPONSABILIDAD DE LOS MIEMBROS DEL CONSEJO RECTOR E INTERVENTORES. La responsabilidad de los Consejeros e Interventores por daños causados, se regirá por lo dispuesto para los administradores de las sociedades anónimas, si bi..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "3. Son faltas muy graves:",
+        "confidence": "medium",
+        "excerpt": "3. Son faltas muy graves: a. Desarrollar una actuación perjudicial y grave a los intereses de la coopera\u000eva, que atente contra los intereses materiales o el pres\u000egio de la en\u000edad. b. Falsi,cación de documentos, ,rmas, sellos, marcas, claves..."
+      }
+    ]
+  }
+}

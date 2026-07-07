@@ -1,0 +1,113 @@
+{
+  "slug": "estatutos_vs_rri",
+  "status": "reviewed",
+  "editorialSummary": [
+    "No todo cabe en el mismo documento: la ley obliga a que ciertas materias vivan en los Estatutos y deja el resto para el Reglamento de Régimen Interno (RRI).",
+    "La diferencia clave es la rigidez: cambiar los Estatutos exige mayoría de dos tercios, escritura pública e inscripción registral; el RRI lo aprueba y revisa la Asamblea sin registro.",
+    "El criterio útil para El Buen Vivir: al estatuto lo estructural y los derechos de la persona socia; al RRI lo operativo y cuantitativo (cuotas, uso, convivencia), que cambiará con el tiempo."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "reparto_general",
+      "question": "¿Qué materias quiere el grupo blindar en Estatutos y cuáles prefiere revisar con agilidad en el RRI?",
+      "recommendationsForBuenVivir": [
+        "Conviene decidir esto pronto porque condiciona la redacción de todos los demás temas. La regla práctica: si es un derecho de la persona socia o algo estructural, va a Estatutos; si es un importe, un horario o un procedimiento, va al RRI."
+      ]
+    },
+    {
+      "id": "cuotas",
+      "question": "¿Los importes concretos de las cuotas de mantenimiento y de uso van al RRI en lugar de a los Estatutos?",
+      "recommendationsForBuenVivir": [
+        "Son números que cambiarán. Fijarlos en Estatutos obligaría a una reforma estatutaria (con escritura e inscripción) cada vez que se ajusten; el RRI permite actualizarlos en Asamblea."
+      ]
+    },
+    {
+      "id": "convivencia_vs_disciplina",
+      "question": "¿Cómo se separa lo que es convivencia (RRI) de lo que es régimen disciplinario (Estatutos)?",
+      "recommendationsForBuenVivir": [
+        "El régimen disciplinario (tipificar faltas y sanciones) es contenido estatutario obligatorio; las normas de buen trato y uso cotidiano encajan mejor en el RRI, más cercano al trabajo de la Comisión de Convivencia."
+      ]
+    },
+    {
+      "id": "momento_rri",
+      "question": "¿Se aprueba el RRI a la vez que los Estatutos o poco después de la constitución?",
+      "recommendationsForBuenVivir": [
+        "Dejar el RRI para más tarde es válido, pero conviene no posponerlo mucho: sin él quedan sin cobertura escrita justo las reglas más cotidianas (uso, convivencia, cuotas)."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "contenido_minimo",
+      "statement": "La ley fija un contenido mínimo obligatorio de los Estatutos (clases de socios, baja, disciplina, aportaciones, órganos).",
+      "summary": "Esas materias no pueden dejarse solo al RRI; el RRI únicamente las desarrolla.",
+      "references": ["docs-leyes-normativa-autonomica"]
+    },
+    {
+      "id": "rigidez_reforma",
+      "statement": "Modificar los Estatutos exige dos tercios de los votos, escritura pública e inscripción en el Registro de Sociedades Cooperativas.",
+      "summary": "Esa rigidez es la razón para no cargar los Estatutos de detalles cambiantes.",
+      "references": ["docs-leyes-normativa-autonomica"]
+    },
+    {
+      "id": "agilidad_rri",
+      "statement": "La aprobación y modificación del RRI es competencia de la Asamblea y no requiere inscripción registral.",
+      "summary": "El RRI es el lugar natural de lo operativo y revisable.",
+      "references": ["docs-leyes-normativa-autonomica"]
+    },
+    {
+      "id": "remision_practica",
+      "statement": "Varias cooperativas remiten al RRI el detalle operativo (normas de uso, lista de espera, normas electorales, fondos) manteniendo el marco en Estatutos.",
+      "summary": "El patrón habitual es: marco en Estatutos, desarrollo en RRI, mediante una cláusula de cierre o mandatos temáticos.",
+      "references": [
+        "docs-estatutos-estatutos-pepu",
+        "docs-estatutos-estatutos-la-borda",
+        "docs-estatutos-estatutos-tarocohousing",
+        "docs-estatutos-estatutos-axuntase",
+        "docs-estatutos-estatutos-entrepatios"
+      ]
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "estatutos_vs_rri-rri-obligatorio",
+      "statement": "Toda cooperativa está obligada a tener un Reglamento de Régimen Interno.",
+      "reason": "La ley trata el RRI como potestativo (\"si existiese\", \"si lo hubiere\"); es muy recomendable, pero no un requisito legal de constitución."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Adoptar un criterio explícito de reparto y aplicarlo tema a tema: estructural y derechos a Estatutos; operativo y cuantitativo al RRI.",
+    "Incluir en los Estatutos una cláusula de remisión al RRI que deje claro que este no puede contradecir la ley ni los Estatutos.",
+    "Llevar al RRI los importes de las cuotas y las normas de uso y convivencia, para poder revisarlos en Asamblea sin reforma estatutaria.",
+    "Mantener en Estatutos, por exigencia legal, las clases de socios, la baja, el reembolso de aportaciones y el régimen disciplinario.",
+    "Evitar regular la misma materia en los dos documentos para no generar contradicciones."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Contenido mínimo del art. 13: clase, objeto, capital mínimo, clases de socios, admisión y baja, derechos y deberes, disciplina social, órganos y aportaciones.",
+      "Reembolso de aportaciones y de la cuota umbral.",
+      "Cláusula de remisión al RRI y su límite (no contradecir ley ni Estatutos)."
+    ],
+    "rri": [
+      "Importes y tramos concretos de las cuotas de mantenimiento y de uso.",
+      "Normas de uso, convivencia, calendario y prioridad de reservas.",
+      "Procedimientos operativos: baja, lista de espera, funcionamiento de comisiones y fondos."
+    ],
+    "notes": [
+      "La revisión jurídica debe confirmar el reparto y asegurar que ninguna materia reservada por ley a los Estatutos quede solo en el RRI.",
+      "Recordar el aviso sobre el Socio B sin voto (art. 26): afecta a una materia estatutaria y está pendiente de revisión."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: Art. 13 (contenido obligatorio de los Estatutos).",
+    "docs-leyes-normativa-autonomica: Art. 37.2 y 57.1 (mayoría, escritura pública e inscripción para reformar Estatutos).",
+    "docs-leyes-normativa-autonomica: Art. 31.2.f (aprobación y modificación del RRI por la Asamblea).",
+    "docs-estatutos-estatutos-pepu: Artículo 65 (cláusula de desarrollo por RRI, proyecto de CyL).",
+    "docs-estatutos-estatutos-la-borda: Artículo 7.3 (mandato al RRI para delimitar y regular el uso).",
+    "docs-estatutos-estatutos-tarocohousing: lista de espera remitida al RRI."
+  ],
+  "referencesToAvoid": [
+    "No presentar el RRI como legalmente obligatorio: la ley lo trata como potestativo.",
+    "No copiar el reparto de una cooperativa de viviendas sin comprobar qué exige la Ley 4/2002 a rango estatutario para una cooperativa de usuarios."
+  ]
+}

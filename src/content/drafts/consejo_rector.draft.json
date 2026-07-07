@@ -7,9 +7,9 @@
     "Conviene valorar una regla mínima sobre consejo rector, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre administracion, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre representacion, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre El Consejo Rector. Naturaleza y competencias, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Composición del Consejo Rector. Funciones de los consejeros, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre 1 .- El Consejo Rector es el órgano colegiado de gobierno, gestión y representación de la, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre El Consejo Rector, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Funcionamiento del Consejo Rector, contrastando las referencias automáticas del research pack.",
     "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
   ],
   "legalBasis": [],
@@ -64,11 +64,6 @@
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
-      "topicSlug": "aportaciones_obligatorias",
-      "relationship": "complements",
-      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
-    },
-    {
       "topicSlug": "toma_decisiones",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
@@ -79,7 +74,12 @@
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
-      "topicSlug": "admision_socio",
+      "topicSlug": "expulsion_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "desigualdad_aportaciones",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     }
@@ -101,12 +101,20 @@
     "lowConfidenceEvidence": 0,
     "evidence": [
       {
-        "documentSlug": "docs-estatutos-estatutos-entrepatios",
-        "documentTitle": "Estatutos Entrepatios",
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 49. El Consejo Rector. Naturaleza y competencias.",
+        "articleOrSection": "1 .- El Consejo Rector es el órgano colegiado de gobierno, gestión y representación de la",
         "confidence": "high",
-        "excerpt": "Artículo 49. El Consejo Rector. Naturaleza y competencias. 1. El Consejo Rector es el órgano de gobierno, gestión y representación de la Cooperativa, a quien corresponde controlar y supervisar de forma directa y permanente la gestión de la..."
+        "excerpt": "1 .- El Consejo Rector es el órgano colegiado de gobierno, gestión y representación de la Cooperativa, a quien corresponde controlar y supervisar de forma directa y permanente la gestión de la misma. Ejercerá todas las funciones y facultade..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "1 .- El Consejo Rector es el órgano colegiado de gobierno, gestión y representación de la",
+        "confidence": "high",
+        "excerpt": "1 .- El Consejo Rector es el órgano colegiado de gobierno, gestión y representación de la Cooperativa, a quien corresponde controlar y supervisar de forma directa y permanente la gestión de la misma. Ejercerá todas las funciones y facultade..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-la-borda",
@@ -117,12 +125,36 @@
         "excerpt": "Artículo 38. El Consejo Rector El Consejo Rector es el órgano de representación y gobierno de la sociedad. Es competente para establecer las directrices generales de actuación, con subordinación a la política fijada por la Asamblea General...."
       },
       {
-        "documentSlug": "docs-estatutos-estatutos-axuntase",
-        "documentTitle": "Estatutos Axuntase",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 27.- El Consejo Rector: naturaleza y competencia",
+        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "documentType": "guia",
+        "articleOrSection": "2. El Consejo Rector",
         "confidence": "high",
-        "excerpt": "Artículo 27.- El Consejo Rector: naturaleza y competencia 1.- El Consejo Rector es el órgano de gobierno, gestión y representación de la sociedad cooperativa y está sujeto a la LPAC, a sus normas de desarrollo, a estos Estatutos y a las dir..."
+        "excerpt": "2. El Consejo Rector Otro de los órganos necesarios es el Consejo Rector, órgano colegial al cual le corresponden las funciones de administración, representación y gobierno de la cooperativa. Algunas leyes autonómicas no hablan únicamente d..."
+      },
+      {
+        "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+        "documentType": "rri",
+        "articleOrSection": "a) Composición del Consejo Rector: El Consejo Rector estará compuesto por socios",
+        "confidence": "high",
+        "excerpt": "a) Composición del Consejo Rector: El Consejo Rector estará compuesto por socios de la cooperativa, según lo dispuesto en los Estatutos. Además, se incorporará un miembro externo no socio, cuyas habilidades y experiencia se alineen con las..."
+      },
+      {
+        "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+        "documentType": "rri",
+        "articleOrSection": "g) Roles y Responsabilidades del Consejo Rector: El Consejo Rector, en conjunto",
+        "confidence": "high",
+        "excerpt": "g) Roles y Responsabilidades del Consejo Rector: El Consejo Rector, en conjunto con el miembro externo, tendrá la responsabilidad de tomar decisiones estratégicas, -- 7 of 12 -- supervisar la gestión de la cooperativa, y representar los int..."
+      },
+      {
+        "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+        "documentType": "rri",
+        "articleOrSection": "2. Responsabilidad del Consejo Rector: El Consejo Rector será responsable de",
+        "confidence": "high",
+        "excerpt": "2. Responsabilidad del Consejo Rector: El Consejo Rector será responsable de supervisar y autorizar los registros contables, así como de garantizar que se mantengan y presenten de manera precisa y oportuna."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-axuntase",
@@ -133,36 +165,20 @@
         "excerpt": "Artículo 29.- Organización, funcionamiento y mandato del Consejo Rector 1.- En caso de ausencia o enfermedad de la persona titular de la Presidencia o de la Secretaría del Consejo Rector, estas serán suplidas temporalmente, de forma respect..."
       },
       {
-        "documentSlug": "docs-estatutos-estatutos-losnidales",
-        "documentTitle": "Estatutos Losnidales",
+        "documentSlug": "docs-estatutos-estatutos-axuntase",
+        "documentTitle": "Estatutos Axuntase",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 46.- El Consejo Rector. Naturaleza y competencias.",
+        "articleOrSection": "Artículo 30.- Vacantes, renuncias y retribución del Consejo Rector",
         "confidence": "high",
-        "excerpt": "Artículo 46.- El Consejo Rector. Naturaleza y competencias. 1. El Consejo Rector es el órgano de gobierno, gestión y representación de la Cooperativa, a quien corresponde controlar y supervisar de forma directa y permanente la gestión de la..."
+        "excerpt": "Artículo 30.- Vacantes, renuncias y retribución del Consejo Rector 1.- Las vacantes que se produzcan en el Consejo Rector se cubrirán en la primera Asamblea General que se celebre. 2.- Si quedasen vacantes los cargos de la Presidencia y la..."
       },
       {
-        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
-        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 26. El Consejo Rector: naturaleza y competencia",
+        "articleOrSection": "Artículo 33.- Vacantes, renuncias y retribución del Consejo Rector",
         "confidence": "high",
-        "excerpt": "Artículo 26. El Consejo Rector: naturaleza y competencia 26.1. El Consejo Rector es el órgano de gobierno, gestión y representación de la sociedad cooperativa y está sujeto a la LSCA, a sus normas de desarrollo, a estos estatutos y a las di..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
-        "documentTitle": "Estatutos Senior Cohousing Huelva",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 28. Organización, funcionamiento y mandato del Consejo Rector",
-        "confidence": "high",
-        "excerpt": "Artículo 28. Organización, funcionamiento y mandato del Consejo Rector 28.1. El Consejo Rector elegirá de entre sus miembros a las personas titulares de la Presidencia, Vicepresidencia y Secretaría. 28.2. En caso de ausencia o enfermedad de..."
-      },
-      {
-        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
-        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
-        "documentType": "otro",
-        "articleOrSection": "Artículo 29.- El Consejo Rector: naturaleza y competencia",
-        "confidence": "high",
-        "excerpt": "Artículo 29.- El Consejo Rector: naturaleza y competencia 1.- El Consejo Rector es el órgano de gobierno, gestión y representación de la sociedad cooperativa y está sujeto a la LSCA, a sus normas de desarrollo, a estos estatutos y a las dir..."
+        "excerpt": "Artículo 33.- Vacantes, renuncias y retribución del Consejo Rector"
       },
       {
         "documentSlug": "docs-otros-modelo-estatutos-viviendas",
@@ -173,28 +189,12 @@
         "excerpt": "Artículo 31.- Organización, funcionamiento y mandato del Consejo Rector 1.- El Consejo Rector elegirá de entre sus miembros a las personas titulares de la Presidencia, Vicepresidencia y Secretaría. 2.- En caso de ausencia o enfermedad de la..."
       },
       {
-        "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
-        "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
-        "documentType": "otro",
-        "articleOrSection": "ARTÍCULO 31.- EL CONSEJO RECTOR NATURALEZA Y COMPETENCIA.",
-        "confidence": "high",
-        "excerpt": "ARTÍCULO 31.- EL CONSEJO RECTOR NATURALEZA Y COMPETENCIA. 1. El Consejo Rector es el órgano colegiado de gobierno al que corresponde la alta gestión, la supervisión de los directivos y la representación de la sociedad cooperativa, con sujec..."
-      },
-      {
         "documentSlug": "docs-otros-modelo-estatutos-viviendas",
         "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
         "documentType": "otro",
-        "articleOrSection": "Artículo 30.- Composición y elección del Consejo Rector",
+        "articleOrSection": "Artículo 32.- Vacantes y renuncias del Consejo Rector",
         "confidence": "high",
-        "excerpt": "Artículo 30.- Composición y elección del Consejo Rector 1.- El Consejo Rector estará formado por un mínimo de TRES y un máximo de DIEZ miembros. En todo caso formarán parte del Consejo Rector, la Presidencia, la Vicepresidencia y la Secreta..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
-        "documentTitle": "Estatutos Senior Cohousing Huelva",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 27. Composición y elección del Consejo Rector",
-        "confidence": "high",
-        "excerpt": "Artículo 27. Composición y elección del Consejo Rector 27.1. El Consejo Rector estará formado, por tres a ocho miembros con voz y voto, salvo el supuesto contemplado en el apartado siguiente para los inversores. De entre estos miembros, el..."
+        "excerpt": "Artículo 32.- Vacantes y renuncias del Consejo Rector 1.- Las vacantes que se produzcan en el Consejo Rector se cubrirán en la primera Asamblea General que se celebre, en los términos del artículo 38 del Reglamento. 2.- Si quedasen vacantes..."
       }
     ]
   }

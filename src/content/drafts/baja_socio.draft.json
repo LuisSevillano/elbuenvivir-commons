@@ -79,7 +79,7 @@
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
-      "topicSlug": "derechos_y_obligaciones",
+      "topicSlug": "clases_de_socios",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     }
@@ -101,20 +101,28 @@
     "lowConfidenceEvidence": 0,
     "evidence": [
       {
+        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "documentType": "guia",
+        "articleOrSection": "a) Clases de baja: baja voluntaria y baja obligatoria. Baja justificada e injustificada",
+        "confidence": "high",
+        "excerpt": "a) Clases de baja: baja voluntaria y baja obligatoria. Baja justificada e injustificada También en virtud del “principio de puerta abierta” los socios pueden causar baja voluntariamente de la cooperativa, si bien los estatutos sociales pued..."
+      },
+      {
         "documentSlug": "docs-estatutos-estatutos-pepu",
         "documentTitle": "Estatutos Pepu",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos.",
+        "articleOrSection": "B) Baja obligatoria",
         "confidence": "high",
-        "excerpt": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos. La persona socia podrá causar baja en la Cooperativa de las formas y de acuerdo con los procedimientos que a continuación se establecen. En el momento en que la baja..."
+        "excerpt": "B) Baja obligatoria COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firmado: SOLEDAD CONCEPCION HER..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
         "documentTitle": "Estatutos Pequenopueblo",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos.",
+        "articleOrSection": "B) Baja obligatoria",
         "confidence": "high",
-        "excerpt": "Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos. La persona socia podrá causar baja en la Cooperativa de las formas y de acuerdo con los procedimientos que a continuación se establecen. En el momento en que la baja..."
+        "excerpt": "B) Baja obligatoria COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51 Firmado: SOLEDAD CONCEPCION HER..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-tarocohousing",
@@ -133,68 +141,60 @@
         "excerpt": "Artículo 13.- Baja obligatoria 1.- Las personas socias causarán baja obligatoria cuando dejen de reunir los requisitos exigidos para ostentar tal cualidad y previa apertura de expediente, de acuerdo con lo previsto en la Ley de Cooperativas..."
       },
       {
-        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
-        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+        "documentType": "guia",
+        "articleOrSection": "2.4.2. La baja obligatoria.",
+        "confidence": "high",
+        "excerpt": "2.4.2. La baja obligatoria. Cuando la persona socia pierda los requisitos previstos en los estatutos para adquirir esta condición debe causar baja obligatoriamente. Recuérdese que en el caso de los cohousing sénior es usual poner una edad m..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "documentType": "guia",
+        "articleOrSection": "i) Las clases de socios, los requisitos para su admisión, los supuestos de baja voluntaria y de baja",
+        "confidence": "high",
+        "excerpt": "i) Las clases de socios, los requisitos para su admisión, los supuestos de baja voluntaria y de baja obligatoria, así como los casos en que la baja se calificará como justificada o como injustificada y, en el caso de no ser una norma obliga..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 14. Causas y efectos de la baja obligatoria",
+        "articleOrSection": "d) Otras causas prevista en la Ley.",
         "confidence": "high",
-        "excerpt": "Artículo 14. Causas y efectos de la baja obligatoria 14.1. Las personas socias causarán baja obligatoria cuando dejen de reunir los requisitos exigidos para ostentar tal cualidad, de acuerdo con lo previsto en la LSCA y en estos estatutos...."
+        "excerpt": "d) Otras causas prevista en la Ley. 3.- Si la baja entrañase el incumplimiento por el socio/a del compromiso de no darse de baja antes de transcurridos 5 años desde la fecha de ingreso, la baja se entenderá como no jus\u000e,cada y se le prac\u000eca..."
       },
       {
-        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
-        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
-        "documentType": "otro",
-        "articleOrSection": "Artículo 15.- Causas y efectos de la baja obligatoria",
-        "confidence": "high",
-        "excerpt": "Artículo 15.- Causas y efectos de la baja obligatoria 1. Las personas socias causarán baja obligatoria cuando dejen de reunir los requisitos exigidos para ostentar tal cualidad, de acuerdo con lo previsto en la LSCA y en estos estatutos. 2...."
-      },
-      {
-        "documentSlug": "docs-leyes-normativa-autonomica",
-        "documentTitle": "Normativa Autonomica",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 105. Baja obligatoria por causas económicas, técnicas, organizativas, de",
-        "confidence": "high",
-        "excerpt": "Artículo 105. Baja obligatoria por causas económicas, técnicas, organizativas, de producción o derivadas de fuerza mayor. 1. Cuando por causas económicas, técnicas, organizativas o de producción, o en el supuesto de fuerza mayor, para mante..."
-      },
-      {
-        "documentSlug": "docs-leyes-normativa-estatal",
-        "documentTitle": "Normativa Estatal",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 85. Baja obligatoria por causas económicas, técnicas, organizativas o de",
-        "confidence": "high",
-        "excerpt": "Artículo 85. Baja obligatoria por causas económicas, técnicas, organizativas o de producción. 1. Cuando, por causas económicas, técnicas, organizativas o de producción o en el supuesto de fuerza mayor, para mantener la viabilidad empresaria..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-entrepatios",
-        "documentTitle": "Estatutos Entrepatios",
+        "documentSlug": "docs-estatutos-estatutos-laseronda-org",
+        "documentTitle": "Estatutos Laseronda.Org",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 14. Baja de las personas socias. Clases, procedimientos y",
+        "articleOrSection": "1. Baja voluntaria",
         "confidence": "high",
-        "excerpt": "Artículo 14. Baja de las personas socias. Clases, procedimientos y efectos. Las personas socias podrá causar baja en la Cooperativa de las formas y de acuerdo con los procedimientos que a continuación se establecen. A) Baja voluntaria. 1. L..."
+        "excerpt": "1. Baja voluntaria El socio puede darse de baja voluntariamente en la Cooperativa., respetando el compromiso de permanencia establecido para ello, deberá el interesado en causar baja remitir con seis meses de antelación preaviso por escrito..."
       },
       {
-        "documentSlug": "docs-leyes-normativa-autonomica",
-        "documentTitle": "Normativa Autonomica",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 21. Baja obligatoria del socio.",
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "d) Otras causas prevista en la Ley.",
         "confidence": "high",
-        "excerpt": "Artículo 21. Baja obligatoria del socio. 1. Causarán baja obligatoria los socios que pierdan los requisitos exigidos para serlo según esta Ley o los Estatutos de la cooperativa. 2. La baja obligatoria será acordada, previa audiencia del int..."
+        "excerpt": "d) Otras causas prevista en la Ley. 3.- Si la baja entrañase el incumplimiento por el socio/a del compromiso de no darse de baja antes de transcurridos 5 años desde la fecha de ingreso, la baja se entenderá como no jusƟficada y se le pracƟc..."
       },
       {
-        "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
-        "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
-        "documentType": "otro",
-        "articleOrSection": "ARTÍCULO 12.- BAJA VOLUNTARIA.",
+        "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+        "documentType": "guia",
+        "articleOrSection": "f) Derecho a la baja voluntaria y a recibir el reembolso de sus aportaciones al capital social.",
         "confidence": "high",
-        "excerpt": "ARTÍCULO 12.- BAJA VOLUNTARIA. 1. El socio puede darse de baja voluntariamente en la cooperativa en cualquier momento, mediante preaviso por escrito al Consejo Rector que deberá enviar con .......... 19 de antelación. Hasta que transcurra e..."
+        "excerpt": "f) Derecho a la baja voluntaria y a recibir el reembolso de sus aportaciones al capital social. La persona socia tiene derecho a causar baja como tal en la cooperativa en cualquier momento, salvo que los estatutos sociales hayan previsto: a..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-tarocohousing",
         "documentTitle": "Estatutos Tarocohousing",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 15.- Baja voluntaria",
+        "articleOrSection": "i) A adquirir la condición de socio/a colaborador/a si causara baja voluntaria justificada o baja",
         "confidence": "high",
-        "excerpt": "Artículo 15.- Baja voluntaria"
+        "excerpt": "i) A adquirir la condición de socio/a colaborador/a si causara baja voluntaria justificada o baja obligatoria como socia de vivienda y/o consumo, utilizando el importe de su liquidación de las aportaciones al capital social como aportación..."
       }
     ]
   }

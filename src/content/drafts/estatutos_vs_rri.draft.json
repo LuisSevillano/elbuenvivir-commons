@@ -28,7 +28,7 @@
     "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
   ],
   "governancePlacement": {
-    "recommendedPrimaryLocation": "estatutos",
+    "recommendedPrimaryLocation": "mixed",
     "rationale": [
       "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
       "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
@@ -64,11 +64,6 @@
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
-      "topicSlug": "aportaciones_obligatorias",
-      "relationship": "complements",
-      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
-    },
-    {
       "topicSlug": "uso_espacios_comunes",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
@@ -79,7 +74,12 @@
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
-      "topicSlug": "clases_de_socios",
+      "topicSlug": "derechos_y_obligaciones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "expulsion_socio",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     }
@@ -101,6 +101,22 @@
     "lowConfidenceEvidence": 0,
     "evidence": [
       {
+        "documentSlug": "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
+        "documentTitle": "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
+        "documentType": "otro",
+        "articleOrSection": "5. S ENENT V IDAL , Mª J., «El Reglamento de Régimen Interno. RRI», VV. AA., LEXCOOP, [base de datos en",
+        "confidence": "high",
+        "excerpt": "5. S ENENT V IDAL , Mª J., «El Reglamento de Régimen Interno. RRI», VV. AA., LEXCOOP, [base de datos en línea], Valencia, FVECTA, 2001; actualización a Diciembre de 2003, http://www.fvecta.coop, [28/09/2005, 14:08]. -- 3 of 11 -- nización d..."
+      },
+      {
+        "documentSlug": "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
+        "documentTitle": "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
+        "documentType": "otro",
+        "articleOrSection": "EL REGLAMENTO DE RÉGIMEN INTERNO DE LA",
+        "confidence": "high",
+        "excerpt": "EL REGLAMENTO DE RÉGIMEN INTERNO DE LA COOPERATIVA: «INSTRUCCIONES DE USO» Profesora de Derecho Mercantil Universitat Jaume I, Castellón I. ANTECEDENTES A pesar de la escasa o nula mención que de él se hace en los textos legales cooperativo..."
+      },
+      {
         "documentSlug": "docs-rri-rri-vallecas2homes",
         "documentTitle": "Rri Vallecas2homes",
         "documentType": "rri",
@@ -109,20 +125,20 @@
         "excerpt": "Artículo 3. Modificación del Reglamento de Régimen Interno."
       },
       {
+        "documentSlug": "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
+        "documentTitle": "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
+        "documentType": "otro",
+        "articleOrSection": "13. De manera análoga a lo que algunas leyes cooperativas requieren para la propuesta de modificación",
+        "confidence": "high",
+        "excerpt": "13. De manera análoga a lo que algunas leyes cooperativas requieren para la propuesta de modificación de estatutos. -- 6 of 11 -- puede considerarse conveniente en algún caso, no se nos ocurre ninguno que recomiende la protocolización notar..."
+      },
+      {
         "documentSlug": "docs-rri-rri-vallecas2homes",
         "documentTitle": "Rri Vallecas2homes",
         "documentType": "rri",
         "articleOrSection": "Artículo 6. Aplicación del Reglamento de Régimen Interno en las Fases",
         "confidence": "high",
-        "excerpt": "Artículo 6. Aplicación del Reglamento de Régimen Interno en las Fases existentes. Acordada la aprobación del Reglamento de Régimen Interno o una modificación de éste, el acuerdo no será aplicable a los miembros de una fase o promoción, si d..."
-      },
-      {
-        "documentSlug": "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
-        "documentTitle": "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
-        "documentType": "otro",
-        "articleOrSection": "art. 34.1: “La convocatoria de la asamblea general tendrá que hacerse mediante anuncio destacado en el domi-",
-        "confidence": "high",
-        "excerpt": "art. 34.1: “La convocatoria de la asamblea general tendrá que hacerse mediante anuncio destacado en el domi- cilio social y en cada uno de los centros de trabajo, así como mediante carta remitida al domicilio del socio, o mediante cualquier..."
+        "excerpt": "Artículo 6. Aplicación del Reglamento de Régimen Interno en las Fases existentes."
       },
       {
         "documentSlug": "docs-rri-rri-vallecas2homes",
@@ -133,20 +149,36 @@
         "excerpt": "Artículo 1. Objeto del Reglamento de Régimen Interno."
       },
       {
-        "documentSlug": "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
-        "documentTitle": "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
-        "documentType": "otro",
-        "articleOrSection": "Documento completo",
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "e) No podrán desarrollar ac\u000evidades en competencia con las que desarrolle la",
         "confidence": "high",
-        "excerpt": "EL REGLAMENTO DE RÉGIMEN INTERNO DE LA COOPERATIVA: «INSTRUCCIONES DE USO» Mª José Senent Vidal Profesora de Derecho Mercantil Universitat Jaume I, Castellón I. ANTECEDENTES A pesar de la escasa o nula mención que de él se hace en los texto..."
+        "excerpt": "e) No podrán desarrollar ac\u000evidades en competencia con las que desarrolle la coopera\u000eva, salvo expresa autorización del Consejo Rector de la misma. 5.- Las personas socias expectantes ostentarán los mismos derechos y obligaciones que la per..."
       },
       {
-        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
-        "documentTitle": "Estatutos Tarocohousing",
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 14.- Obligaciones de las personas socias",
+        "articleOrSection": "e) No podrán desarrollar acƟvidades en competencia con las que desarrolle la",
         "confidence": "high",
-        "excerpt": "Artículo 14.- Obligaciones de las personas socias"
+        "excerpt": "e) No podrán desarrollar acƟvidades en competencia con las que desarrolle la cooperaƟva, salvo expresa autorización del Consejo Rector de la misma. 5.- Las personas socias expectantes ostentarán los mismos derechos y obligaciones que la per..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "documentType": "guia",
+        "articleOrSection": "d) Modificación de los estatutos y aprobación o modificación, en su caso, del Reglamento de régimen",
+        "confidence": "high",
+        "excerpt": "d) Modificación de los estatutos y aprobación o modificación, en su caso, del Reglamento de régimen interno de la cooperativa; los acuerdos que supongan una modificación sustancial, según los estatutos, de la estructura económica, social, o..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-la-borda",
+        "documentTitle": "Estatutos La Borda",
+        "documentType": "estatutos",
+        "articleOrSection": "7.3. El reglamento de Régimen Interno debe especificar la delimitación de los",
+        "confidence": "high",
+        "excerpt": "7.3. El reglamento de Régimen Interno debe especificar la delimitación de los elementos de uso común, de uso común restringido y de uso privativo del conjunto del edificio de viviendas cooperativas. Asimismo, debe recoger las normas de mant..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-pepu",
@@ -163,38 +195,6 @@
         "articleOrSection": "Artículo 65.- Los presentes estatutos se desarrollarán por un Reglamento de Régimen Interno.",
         "confidence": "high",
         "excerpt": "Artículo 65.- Los presentes estatutos se desarrollarán por un Reglamento de Régimen Interno. COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
-        "documentTitle": "Estatutos Tarocohousing",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 7.- Actividad cooperativizada.",
-        "confidence": "high",
-        "excerpt": "Artículo 7.- Actividad cooperativizada."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
-        "documentTitle": "Estatutos Los Girasoles",
-        "documentType": "estatutos",
-        "articleOrSection": "CAPITULO II",
-        "confidence": "high",
-        "excerpt": "CAPITULO II DE LAS PERSONAS SOCIAS Arơculo 11.- Clases de personas socias.  Personas socias de vivienda.- Son aquellas personas İsicas que Ɵenen plenos derechos y obligaciones recogidos en estos estatutos respecto de la vivienda o, en su c..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-elciempies",
-        "documentTitle": "Estatutos Elciempies",
-        "documentType": "estatutos",
-        "articleOrSection": "CAPITULO II",
-        "confidence": "high",
-        "excerpt": "CAPITULO II DE LAS PERSONAS SOCIAS Ar\u001aculo 9.- Clases de personas socias.  Personas socias de vivienda.- Son aquellas personas Esicas que \u000eenen plenos derechos y obligaciones recogidos en estos estatutos respecto de la vivienda o, en su ca..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
-        "documentTitle": "Estatutos Tarocohousing",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 9.- Clases de personas socias. Personas Usuarias.",
-        "confidence": "high",
-        "excerpt": "Artículo 9.- Clases de personas socias. Personas Usuarias."
       }
     ]
   }

@@ -1,0 +1,151 @@
+{
+  "slug": "reembolso_aportaciones",
+  "title": "Reembolso de aportaciones",
+  "shortDescription": "Cómo se devuelve la cuota umbral (10.000 €) y el capital aportado cuando una persona socia causa baja: plazos, deducciones y orden, conforme al art. 66 de la Ley 4/2002.",
+  "category": "economico",
+  "minimumContents": [
+    "Regular el reembolso de la cuota umbral y del capital al causar baja.",
+    "Fijar deducciones dentro del tope legal (≤ 20 % baja no justificada, ≤ 30 % expulsión).",
+    "Fijar el plazo de reembolso (≤ 5 años, ampliable a 10 excepcionalmente).",
+    "Distinguir el retorno del exceso sobre el umbral de la devolución de la cuota umbral.",
+    "Prever, si procede, que un nuevo socio asuma la plaza para acortar el plazo."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿Se devuelve íntegra la cuota umbral (10.000 €) al causar baja, o con deducción (dentro del tope legal)?",
+    "¿Naturaleza jurídica de la cuota umbral: aportación al capital (reembolsable, art. 66) o cuota (art. 69, no reintegrable)?",
+    "¿Plazo del reembolso diferido (la ley permite hasta 5 años; fijáis menos)?",
+    "¿Se acorta el plazo si entra una nueva persona socia que asume la plaza (art. 66.10)?",
+    "Condiciones del retorno del exceso sobre el umbral (propuesta de Economía: 5/4/3 % anual).",
+    "Encaje con el 'plan B' de venta de la casa aprobado en la Reunión 20."
+  ],
+  "risks": [
+    "Prometer devolución inmediata de las cuotas umbral puede descapitalizar la compra de la casa.",
+    "No distinguir el 'retorno del exceso' de la 'devolución de la cuota umbral' mezcla dos mecanismos distintos.",
+    "Articular la cuota umbral como 'cuota' (no reintegrable) o como 'aportación' cambia radicalmente los derechos de quien sale: hay que decidirlo con jurista."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "El porcentaje de deducción y el plazo máximo de reembolso son cifras reservadas al art. 66 (66.4/66.5): rango estatutario que no puede rebajarse.",
+      "El calendario concreto del reembolso diferido, los tramos de pago y la coordinación con la lista de espera son procedimiento revisable y encajan en el RRI, que la Asamblea cambia sin escritura ni registro."
+    ],
+    "shouldBeInStatutes": [
+      "Derecho de reembolso de la cuota umbral y del capital y base de cálculo (balance de cierre).",
+      "Porcentaje de deducción (dentro del tope legal 20 %/30 %) y plazo máximo de reembolso (art. 66.4/66.5).",
+      "Habilitación potestativa (art. 66.10) para que nuevas personas socias asuman las aportaciones cuyo reembolso se solicitó."
+    ],
+    "shouldBeInRRI": [
+      "Calendario operativo del reembolso diferido y tramos anuales de pago.",
+      "Mecánica del acortamiento del plazo por sustitución y coordinación con la lista de espera.",
+      "Condiciones prácticas del retorno del exceso sobre el umbral."
+    ],
+    "canBeDeferredInitially": []
+  },
+  "relatedTopics": [
+    { "topicSlug": "baja_socio", "relationship": "depends_on", "explanation": "La baja de un Socio A activa el reembolso de su cuota umbral." },
+    { "topicSlug": "aportaciones_obligatorias", "relationship": "depends_on", "explanation": "Cómo se articule la cuota umbral determina si es reembolsable." },
+    { "topicSlug": "lista_espera", "relationship": "complements", "explanation": "La entrada de una nueva persona socia puede desbloquear el reembolso diferido." }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "El reembolso de aportaciones al capital se regula en el artículo 66 de la Ley 4/2002 CyL, con topes imperativos. Si la cuota umbral se articula como aportación al capital, se reembolsa con estas reglas.",
+        "Puntos que la ley fija y no podéis rebajar: el cálculo según el balance de cierre del ejercicio de la baja, las deducciones máximas (20 %/30 %), el plazo máximo (5 años, ampliable a 10 excepcionalmente) y que el importe no se actualiza pero devenga el interés legal."
+      ],
+      "requirements": [
+        { "aspect": "Base de cálculo", "law": "Ley 4/2002 CyL, art. 66.1", "requirement": "Balance de cierre del ejercicio en que se produce la baja.", "margin": "—" },
+        { "aspect": "Deducción máxima", "law": "Ley 4/2002 CyL, art. 66.4", "requirement": "≤ 30 % (expulsión) y ≤ 20 % (baja no justificada); +10 puntos si además incumple la permanencia mínima.", "margin": "Fijáis el % concreto dentro del tope." },
+        { "aspect": "Plazo de reembolso", "law": "Ley 4/2002 CyL, art. 66.5-66.6", "requirement": "≤ 5 años; ampliable a 10 excepcionalmente por el Consejo Rector si peligra la estabilidad.", "margin": "Podéis fijar menos." },
+        { "aspect": "Actualización e interés", "law": "Ley 4/2002 CyL, art. 66.9", "requirement": "El importe no se actualiza, pero devenga el interés legal del dinero.", "margin": "—" },
+        { "aspect": "Cobertura por nuevos socios", "law": "Ley 4/2002 CyL, art. 66.10", "requirement": "Los Estatutos pueden prever que los nuevos socios asuman las aportaciones cuyo reembolso se solicitó, por orden de antigüedad.", "margin": "Potestativo: podéis preverlo." }
+      ],
+      "citations": [
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 66.4 (deducciones máximas)", "excerpt": "Los Estatutos fijarán el importe porcentual de las deducciones que como máximo sean aplicables a la cuantía del reembolso, que no podrán exceder del 30 por 100, en el caso de expulsión, ni del 20 por 100, en el caso de baja no justificada. En el supuesto de baja no justificada en el que además se incumpla el período de permanencia mínimo obligatorio, los Estatutos podrán establecer un incremento de esta deducción en 10 puntos porcentuales." },
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 66.5 (plazo)", "excerpt": "El plazo para hacer efectivo el reembolso no podrá exceder de cinco años a partir de la comunicación al socio del importe a retornar. En caso de fallecimiento del socio, el reembolso a los causahabientes no superará un año." }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo regulan el reembolso otras cooperativas. Dos ejes clave: el porcentaje de deducción y si el plazo se acorta cuando entra alguien nuevo.",
+      "columns": [
+        { "key": "deduccion", "label": "Deducción (baja / expulsión)" },
+        { "key": "plazo", "label": "Plazo máximo" },
+        { "key": "acorta", "label": "¿Se acorta si entra socio?" }
+      ],
+      "rows": [
+        {
+          "project": "Axuntase (Asturias)",
+          "cells": { "deduccion": "Hasta 15 % (proporcional)", "plazo": "5 años", "acorta": "—" },
+          "documentSlug": "docs-estatutos-estatutos-axuntase",
+          "articleOrSection": "Artículo 37 — Reembolso",
+          "excerpt": "En caso de baja no justificada se podrá establecer una deducción del 5 % sobre cada año o fracción que falte para cumplir el mínimo de 3 años de permanencia, con un máximo de deducción total del 15%. El plazo de reembolso no podrá exceder de cinco años a partir de la fecha de la baja; el interés legal se abonará anualmente junto con, al menos, una quinta parte de la cantidad a reembolsar."
+        },
+        {
+          "project": "Los Girasoles / El Ciempiés / Tarocohousing",
+          "cells": { "deduccion": "4 %/año pendiente", "plazo": "5 años", "acorta": "Sí, si entra nuevo socio" },
+          "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+          "articleOrSection": "Artículo 49 — Reembolso",
+          "excerpt": "Se podrá establecer una deducción del 4% sobre cada año o fracción que falte por cumplir. El plazo de reembolso no podrá exceder de cinco años a partir de la baja. El plazo de reembolso se acortará al mínimo necesario contablemente si antes ingresan nuevas personas socias que con sus aportaciones al capital social permitan hacer frente a los reembolsos de las personas socias salientes, por riguroso orden de antigüedad de la solicitud de reembolso."
+        },
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": { "deduccion": "20 % baja / 30 % expulsión", "plazo": "Escalonado: 5/3/1,5/1 años", "acorta": "Sí: reembolso al ser sustituido" },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Artículo 15 — Reembolso",
+          "excerpt": "Deducciones del 30 % en caso de baja por expulsión y del 20 % en caso de baja no justificada. Plazos máximos: cinco años en caso de expulsión; tres años en baja no justificada; dieciocho meses en baja justificada; un año en caso de defunción. Las aportaciones deberán reembolsarse en el momento en que la persona socia sea sustituida en sus derechos y obligaciones por otra persona socia."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": { "deduccion": "Hasta 20 % baja / hasta 30 % expulsión", "plazo": "Según ley catalana", "acorta": "—" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 15 — Reembolso",
+          "excerpt": "Del importe definitivo del reembolso se harán deducciones de hasta un 20% por baja no justificada y, en caso de baja por expulsión, el Consejo Rector puede aplicar una deducción de hasta el 30%, además de las deudas, responsabilidades y pérdidas no compensadas."
+        }
+      ],
+      "note": "La Ley 4/2002 CyL topa la deducción en 20/30 % y el plazo en 5 años. Axuntase es el más benévolo (15 %); Los Girasoles/El Ciempiés/Tarocohousing son los únicos que recogen expresamente el acortamiento del plazo si entra un socio nuevo — un mecanismo muy útil para proteger la caja sin castigar a quien sale."
+    },
+    "proposal": {
+      "rationale": [
+        "En una cooperativa de usuarios, la cuota umbral de 10.000 € (Socio A) es aportación al capital, y por tanto reembolsable con las reglas del art. 66. El Socio B no aporta umbral, así que su baja no genera reembolso de capital.",
+        "Hay que separar DOS mecanismos que las actas mezclan: (1) el RETORNO del exceso aportado por encima de 10.000 € —ya con propuesta de la Comisión de Economía (5/4/3 % anual)— y (2) la DEVOLUCIÓN de la cuota umbral al causar baja, que sigue SIN regla decidida (punto abierto de la Reunión 21).",
+        "Coherente con vuestro valor de salida ágil y con el blindaje de la compra: deducción baja/proporcional y reembolso diferido que se acorta si entra alguien nuevo."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Reembolso de la cuota umbral y del capital",
+          "text": "La persona socia que cause baja tendrá derecho al reembolso de su cuota umbral y demás aportaciones al capital, calculado según el balance de cierre del ejercicio de la baja. Si la baja es justificada no se practicará deducción; si es injustificada se aplicará una deducción del [4 %] por cada año que reste del período de referencia, con un máximo del [15 %], dentro de los límites legales (20 % baja no justificada, 30 % expulsión). El reembolso se abonará en un plazo máximo de [tres] años. Los Estatutos prevén que las nuevas personas socias puedan asumir la plaza y las aportaciones cuyo reembolso se haya solicitado, por orden de antigüedad de la solicitud, lo que permite acortar el plazo. La persona socia de uso habitual no genera derecho de reembolso de capital. El calendario operativo del reembolso diferido y su coordinación con la lista de espera se desarrollarán en los términos y con el procedimiento que fije el Reglamento de Régimen Interno.",
+          "note": "En Estatutos quedan solo las cifras reservadas por el art. 66: el porcentaje de deducción (dentro del tope 20 %/30 %) y el plazo máximo, más la habilitación potestativa del art. 66.10 para que nuevos socios asuman la plaza. El calendario concreto y la coordinación con la lista de espera se remiten al RRI. Corchetes: a votar."
+        },
+        {
+          "target": "rri",
+          "heading": "Calendario del reembolso diferido y coordinación con la lista de espera",
+          "text": "El reembolso diferido se abonará conforme a un calendario que fije, dentro del plazo máximo estatutario, los tramos anuales de pago y el interés legal aplicable. Cuando ingrese una nueva persona socia que asuma la plaza y la cuota umbral de quien causa baja, el plazo se acortará al mínimo necesario contablemente, por riguroso orden de antigüedad de las solicitudes de reembolso. La Comisión de Economía llevará este calendario y lo coordinará con la lista de espera de nuevas incorporaciones.",
+          "note": "Desarrolla el procedimiento operativo (calendario, tramos, orden de antigüedad, enlace con la lista de espera) que la ley no reserva a Estatutos; revisable por la Asamblea sin escritura ni registro."
+        },
+        {
+          "target": "rri",
+          "heading": "Retorno del exceso sobre el umbral",
+          "text": "Quien aporte por encima de la cuota umbral podrá solicitar el retorno del exceso conforme a las condiciones que apruebe la Asamblea (propuesta de la Comisión de Economía: 5 % anual hasta 2.000 € de exceso, 4 % entre 2.000 y 5.000 €, 3 % por encima). Si en algún ejercicio no hubiera liquidez suficiente, el retorno se difiere sin perder el derecho.",
+          "note": "Recoge la propuesta del documento 'Modelo de financiación colaborativo' de Economía. Es materia de RRI por ser condición práctica revisable, distinta de la devolución de la cuota umbral."
+        }
+      ],
+      "openDecisions": [
+        "¿Se devuelve íntegra la cuota umbral o con deducción? ¿Con qué tope?",
+        "Naturaleza jurídica de la cuota umbral: ¿aportación al capital (reembolsable) o cuota (art. 69, no reintegrable)?",
+        "Plazo del reembolso diferido (dentro del máximo legal de 5 años).",
+        "¿Se acorta el plazo si entra una nueva persona socia?",
+        "Fuente de fondos: ¿solo la bolsa de cuota umbral o también la de mantenimiento?",
+        "Encaje con el 'plan B' de venta de la casa (Reunión 20)."
+      ],
+      "disclaimer": "Borrador de trabajo a partir del art. 66 de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas y documentos de la Comisión de Economía. La devolución de la cuota umbral es un punto ABIERTO (Reunión 21): requiere decisión en asamblea y revisión jurídica."
+    }
+  },
+  "suggestedClause": {
+    "text": "La persona socia que cause baja tendrá derecho al reembolso de su cuota umbral y aportaciones al capital, según el balance de cierre del ejercicio. Sin deducción si la baja es justificada; deducción proporcional del [4 %] por año pendiente, con un máximo del [15 %], en un plazo máximo de [tres] años que se acortará si ingresa una nueva persona socia que asuma la plaza. La persona socia de uso habitual no genera reembolso de capital.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente; la devolución de la cuota umbral está pendiente de decisión en asamblea.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

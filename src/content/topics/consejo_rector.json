@@ -1,0 +1,201 @@
+{
+  "slug": "consejo_rector",
+  "title": "Consejo Rector",
+  "shortDescription": "El órgano de gobierno y administración de la cooperativa de usuarios de El Buen Vivir: composición, cargos, elección, duración del mandato y competencias, y si un grupo pequeño puede optar por administración simplificada (Consejo reducido o Administrador único).",
+  "category": "gobernanza",
+  "minimumContents": [
+    "Definir el órgano de administración: Consejo Rector o, si la cooperativa tiene menos de 10 socios, Administrador único.",
+    "Fijar la composición y el número de miembros del Consejo Rector (mínimo tres en el caso general).",
+    "Enumerar los cargos (presidencia, vicepresidencia, secretaría y, en su caso, vocalías) y sus funciones.",
+    "Regular la elección por la Asamblea General en votación secreta y por mayor número de votos.",
+    "Establecer la duración del mandato dentro de los límites legales (mínimo 2 años, máximo 6), la reelección y la posible renovación parcial.",
+    "Delimitar las competencias del órgano frente a las reservadas a la Asamblea General.",
+    "Prever cese, vacantes, quórum y régimen de adopción de acuerdos."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿Se opta por Consejo Rector reducido (mínimo legal de tres cargos) o por Administrador único, al ser un grupo de menos de 10 socios?",
+    "Si es Consejo Rector, ¿cuántos miembros y con qué cargos (presidencia, secretaría y una vocalía, o también vicepresidencia y tesorería)?",
+    "¿Qué duración de mandato se fija (2, 3 o 4 años) y se establece rotación obligatoria o límite de mandatos consecutivos para reforzar la horizontalidad?",
+    "¿Se hacen renovaciones parciales (por mitades) para dar continuidad, o renovación total en cada mandato?",
+    "¿Qué competencias del día a día se delegan en el órgano y cuáles se reservan a la Asamblea por consenso?",
+    "¿Cómo se articula el Consejo Rector con las comisiones ya existentes (Convivencia, Economía, Forma Jurídica, Arquitectura, Comunicación) para no duplicar funciones?"
+  ],
+  "risks": [
+    "Con menos de 10 socios amigos, un Consejo Rector con muchos cargos puede resultar burocrático y contradecir la horizontalidad; conviene el mínimo legal o el Administrador único.",
+    "La ley concentra la representación en la Presidencia (que lo es también de la cooperativa) y le da voto de calidad: choca con la idea de mediadores rotativos y decisión colectiva si no se matiza en el RRI.",
+    "El Administrador único simplifica, pero personaliza en una sola persona la gestión y la responsabilidad legal; hay que prever con cuidado su sustitución.",
+    "Fijar en estatutos un número de miembros mayor que el de personas dispuestas a asumir cargos obliga a modificar los estatutos más adelante.",
+    "Copiar consejos de siete cargos de cooperativas grandes de vivienda sería desproporcionado para el tamaño de El Buen Vivir."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "La elección entre Consejo Rector y Administrador único, la composición, los cargos, la elección, la duración del mandato y las competencias son contenido estatutario obligatorio (art. 13 j de la Ley 4/2002 CyL): exigen rango estatutario.",
+      "El funcionamiento interno cotidiano (rotación de facilitación, articulación con las comisiones, forma de las reuniones, calendario) es operativo y revisable: encaja mejor en el RRI, dentro del margen que deja la ley."
+    ],
+    "shouldBeInStatutes": [
+      "Órgano elegido: Consejo Rector o Administrador único (art. 54).",
+      "Composición, número de miembros y cargos del Consejo Rector.",
+      "Procedimiento de elección por la Asamblea General.",
+      "Duración del mandato, reelección y régimen de renovación.",
+      "Competencias del órgano y quórum y mayorías para sus acuerdos."
+    ],
+    "shouldBeInRRI": [
+      "Rotación de la facilitación o mediación de las reuniones.",
+      "Articulación del órgano con las comisiones de trabajo existentes.",
+      "Periodicidad y formato concreto de las reuniones (presencial o telemático).",
+      "Protocolo interno de toma de decisiones por consenso antes de acudir a la votación."
+    ],
+    "canBeDeferredInitially": [
+      "Reglas finas de reparto de tareas entre cargos y comisiones."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Detallar en estatutos la mecánica interna (facilitación rotativa, calendario) los vuelve rígidos y obliga a modificarlos por cambios menores."
+    ],
+    "risksIfPlacedInRRI": [
+      "Dejar fuera de los estatutos la composición, la elección o la duración del mandato incumpliría el contenido estatutario obligatorio (art. 13)."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "asamblea_general",
+      "relationship": "depends_on",
+      "explanation": "La Asamblea General elige y destituye al Consejo Rector o al Administrador único y fija la política general que este ejecuta."
+    },
+    {
+      "topicSlug": "comisiones",
+      "relationship": "complements",
+      "explanation": "En un grupo pequeño, las comisiones ya activas pueden asumir buena parte de la gestión que la ley atribuye al órgano de administración."
+    },
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "depends_on",
+      "explanation": "Solo las personas socias con voto (Socio A) pueden ser elegidas consejeras o administradoras."
+    }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "En una cooperativa de usuarios de Castilla y León (Ley 4/2002) los órganos son la Asamblea General, el Consejo Rector y la Intervención, y puede haber Comité de Recursos y otras figuras. El Consejo Rector es el órgano colegiado de gobierno al que corresponde la gestión y representación de la cooperativa, con sujeción a la ley, a los estatutos y a la política general que fije la Asamblea (art. 40).",
+        "La ley marca un mínimo imperativo pero deja margen para adaptarlo a un grupo pequeño: el Consejo Rector no puede tener menos de tres miembros en el caso general, pero las cooperativas de menos de 10 socios pueden optar en sus estatutos por un Administrador único (art. 54), una persona física socia que ejerce las funciones del Consejo. Los estatutos deben fijar composición, número, cargos, elección, duración del mandato y competencias."
+      ],
+      "requirements": [
+        { "aspect": "Contenido estatutario obligatorio", "law": "Ley 4/2002 CyL, art. 13 j", "requirement": "Los estatutos deben fijar la composición, el número y el período de duración del Consejo Rector e Interventores.", "margin": "Definís el número concreto, los cargos y la duración dentro de los topes legales." },
+        { "aspect": "Naturaleza y competencia", "law": "Ley 4/2002 CyL, art. 40", "requirement": "Órgano colegiado de gobierno con la gestión y representación; le corresponden todas las facultades no reservadas a otros órganos.", "margin": "Podéis reservar más asuntos a la Asamblea." },
+        { "aspect": "Composición", "law": "Ley 4/2002 CyL, art. 41", "requirement": "Mínimo tres miembros (presidente, vicepresidente y secretario); con tres socios, dos miembros sin vicepresidente. Vocales no socios: máx. 20 %.", "margin": "Elegís el número exacto por encima del mínimo." },
+        { "aspect": "Elección", "law": "Ley 4/2002 CyL, art. 42", "requirement": "Los consejeros los elige la Asamblea General en votación secreta y por mayor número de votos; las candidaturas no pueden ser cerradas.", "margin": "Podéis regular el proceso electoral en estatutos." },
+        { "aspect": "Duración del mandato", "law": "Ley 4/2002 CyL, art. 43", "requirement": "Mandato temporalmente limitado: nunca inferior a 2 años ni superior a 6; reelegibles. Renovación total, salvo que los estatutos prevean renovaciones parciales.", "margin": "Elegís la duración y si hay renovación parcial." },
+        { "aspect": "Administrador único", "law": "Ley 4/2002 CyL, art. 54", "requirement": "Las cooperativas con menos de 10 socios pueden optar en estatutos por un Administrador único (persona física socia); mandato de 2 a 6 años; los estatutos regulan su sustitución.", "margin": "Es una opción: Consejo Rector o Administrador único." },
+        { "aspect": "Funcionamiento y acuerdos", "law": "Ley 4/2002 CyL, art. 44", "requirement": "Quórum de más de la mitad de los componentes; cada consejero un voto; el voto del presidente dirime empates. Los consejeros no pueden hacerse representar.", "margin": "Fijáis periodicidad y reglas básicas de reunión." }
+      ],
+      "citations": [
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 41.1 (composición)",
+          "excerpt": "Los Estatutos establecerán la composición del Consejo Rector. El número de consejeros no podrá ser inferior a tres miembros, que ostentarán los cargos de presidente, vicepresidente y secretario. Cuando la cooperativa tenga tres socios, el Consejo Rector estará formado por dos miembros, no existiendo el cargo de vicepresidente."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 43.1 (duración del mandato)",
+          "excerpt": "El mandato de los Consejeros será temporalmente limitado, de conformidad con lo que se establezca en los Estatutos de la sociedad cooperativa, que, en todo caso, nunca será inferior a los dos años ni superior a seis, pudiendo ser reelegidos."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 54.1 y 54.2 (Administrador único)",
+          "excerpt": "Las cooperativas que cuenten con menos de 10 socios podrán optar en sus Estatutos por la figura del Administrador único, cargo que será asumido por una persona física en quien concurra la condición de socio. Su designación se efectuará, por votación secreta, por todos los miembros de la cooperativa... El mandato del Administrador único estará limitado en el tiempo, estableciéndose una duración mínima de dos años y máxima de seis, pudiendo ser reelegido."
+        }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo componen su órgano de administración otras cooperativas del corpus. Casi todas son de vivienda o cesión de uso; El Buen Vivir es de usuarios, pero el esquema de composición y mandato es orientativo. Ninguna optó por Administrador único, aunque la ley lo permite a grupos pequeños.",
+      "columns": [
+        { "key": "tamano", "label": "Nº de miembros" },
+        { "key": "cargos", "label": "Cargos" },
+        { "key": "eleccion", "label": "Elección" },
+        { "key": "duracion", "label": "Duración / renovación" }
+      ],
+      "rows": [
+        {
+          "project": "Pepu / Pequeño Pueblo (CyL)",
+          "cells": { "tamano": "5 miembros", "cargos": "Presidencia, Vicepresidencia, Secretaría, Tesorería, Vocal", "eleccion": "Asamblea, votación secreta, mayor nº de votos", "duracion": "4 años; renovación parcial por mitades cada 2 años" },
+          "documentSlug": "docs-estatutos-estatutos-pepu",
+          "articleOrSection": "Artículo 26 — Composición del Consejo Rector",
+          "excerpt": "El Consejo Rector estará formado por cinco miembros, elegidos por la Asamblea General de entre las personas socias, en votación secreta, y por el mayor número de votos válidamente emitidos, conforme al procedimiento electoral regulado en el artículo siguiente. Si se eligiera a una persona jurídica, ésta deberá designar la persona física que la represente en el Consejo. Los cargos serán los siguientes: Presidencia, Vicepresidencia, Secretaría, Tesorería, Vocal."
+        },
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": { "tamano": "3 titulares + 2 suplentes", "cargos": "Presidente, Secretario, Vocal", "eleccion": "Asamblea, votación secreta, mayor nº de votos", "duracion": "2 años; renovación total al final de cada mandato" },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Artículo 50 — Composición del Consejo Rector",
+          "excerpt": "El Consejo Rector se compone de tres miembros titulares y dos miembros suplentes, elegidos por la Asamblea General de entre los socios de la Cooperativa, en votación secreta, y por el mayor número de votos válidamente emitidos, conforme al procedimiento electoral regulado en el artículo siguiente. Los cargos elegidos serán: Presidente, Secretario y Vocal. Todos ellos serán designados por la Asamblea General."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": { "tamano": "9 (Presidencia, Secretaría, Tesorería y 6 vocales)", "cargos": "Reparto por tipologías de socia (uso, consumo, colaboración)", "eleccion": "Asamblea, votación secreta, con candidaturas", "duracion": "2 años; cargo obligatorio y gratuito" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 39 — Composición del Consejo Rector",
+          "excerpt": "El Consejo Rector se compone de: Presidencia, Secretaría, Tesorería y seis Vocales. Estos cargos deben ser ejercidos por personas diferentes. A fin de garantizar la representatividad de las diferentes tipologías de socias y socios, los cargos serán distribuidos de la siguiente manera: Seis representantes de las socias y socios habitantes destinatarios del derecho de uso... Dos representantes de las socias y socios consumidores y usuarios, Un representante de las socias y socios colaboradores."
+        },
+        {
+          "project": "Axuntase (Asturias)",
+          "cells": { "tamano": "7 miembros", "cargos": "Presidencia, Vicepresidencia, Secretaría, Tesorería y 3 vocalías", "eleccion": "Asamblea, votación secreta, mayor nº de votos", "duracion": "3 años, reelegibles (límite 9 años consecutivos)" },
+          "documentSlug": "docs-estatutos-estatutos-axuntase",
+          "articleOrSection": "Artículo 28 — Composición del Consejo Rector",
+          "excerpt": "El Consejo Rector estará compuesto por los siguientes miembros: Presidente/a, Vicepresidente/a, Secretario/a, Tesorero/a, Vocal 1°, Vocal 2° y Vocal 3°. Los cargos serán elegidos entre los miembros del Consejo Rector. Todos/as los/as miembros del Consejo Rector serán elegidos/as por la Asamblea General, en votación secreta por el mayor número de votos."
+        },
+        {
+          "project": "Senior Cohousing Huelva (Andalucía)",
+          "cells": { "tamano": "De 3 a 8 miembros", "cargos": "Presidencia, Vicepresidencia, Secretaría (nombrados por el propio Consejo)", "eleccion": "Asamblea entre socios Residentes; secretaría puede ser no socia", "duracion": "Renovación total; reelegibles" },
+          "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+          "articleOrSection": "Artículo 27 — Composición y elección del Consejo Rector",
+          "excerpt": "El Consejo Rector estará formado, por tres a ocho miembros con voz y voto, salvo el supuesto contemplado en el apartado siguiente para los inversores. De entre estos miembros, el propio Consejo nombrará a la Presidencia, la Vicepresidencia y la Secretaría."
+        }
+      ],
+      "note": "Patrón claro: a mayor tamaño del grupo, consejo más numeroso (5-9 cargos). Los proyectos más pequeños o pragmáticos se acercan al mínimo legal de tres (Entrepatios: 3 titulares + suplentes). La duración habitual es de 2 a 4 años; Pepu (CyL) introduce renovación parcial por mitades para dar continuidad. Ningún proyecto usó el Administrador único, opción legal reservada a cooperativas de menos de 10 socios."
+    },
+    "proposal": {
+      "rationale": [
+        "El Buen Vivir es un grupo pequeño de amigos (menos de 10 personas socias con voto previstas), horizontal y autogestionado: la ley le permite dos caminos, un Consejo Rector reducido al mínimo legal o un Administrador único (art. 54), y ambos encajan mejor que un consejo numeroso.",
+        "El borrador interno de estatutos ya apunta a un Consejo Rector de número impar, mínimo tres, con presidencia, secretaría y vocalías, mandato de tres años y reelección limitada a dos mandatos; las notas del grupo hablan de un \"Consejo Rector colectivo\" con responsabilidades compartidas y facilitación rotativa. Son ideas de trabajo (2024-2025), aún no decididas en acta.",
+        "Ya existen comisiones activas (Convivencia, Economía, Forma Jurídica, Arquitectura, Comunicación) que hacen buena parte de la gestión: el órgano de administración debería coordinarlas, no duplicarlas.",
+        "Cuidado con el punto delicado: la ley da a la Presidencia la representación legal y el voto de calidad, lo que tensiona con la horizontalidad. La rotación de cargos y la facilitación rotativa (en el RRI) ayudan a compensarlo sin incumplir la ley."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Órgano de administración: Consejo Rector reducido",
+          "text": "La administración, gestión y representación de la cooperativa corresponde al Consejo Rector, órgano colegiado elegido por la Asamblea General. Estará compuesto por [tres] miembros, que ejercerán los cargos de presidencia, secretaría y una vocalía. Los cargos se eligen por la Asamblea General en votación secreta y por mayor número de votos, entre las personas socias con derecho de voto que estén al corriente de sus obligaciones. El mandato durará [tres] años y podrá renovarse. Corresponden al Consejo Rector las facultades no reservadas por la ley o estos estatutos a la Asamblea General. El régimen interno de funcionamiento del Consejo, la facilitación de sus reuniones y las recomendaciones de rotación de cargos se desarrollarán en el Reglamento de Régimen Interno.",
+          "note": "Opción A: Consejo Rector al mínimo legal (art. 41). Composición, cargos, elección y duración del mandato son contenido estatutario obligatorio (art. 13 j); los corchetes son las decisiones a votar. El límite de mandatos y la facilitación rotativa, por ser operativos, se remiten al RRI."
+        },
+        {
+          "target": "estatutos",
+          "heading": "Alternativa: Administrador único (grupo de menos de 10 socios)",
+          "text": "[OPCIÓN A DECIDIR] Mientras la cooperativa cuente con menos de diez personas socias, la administración, gestión y representación podrá ejercerse por un Administrador único, persona física socia designada por la Asamblea General en votación secreta, con el voto favorable de al menos la mitad más uno de los votos presentes o representados. Su mandato durará [dos/tres] años, es reelegible, y ejercerá las funciones que la ley atribuye al Consejo Rector. Estos estatutos establecen el procedimiento de sustitución en caso de vacante, cese o dimisión: [describir].",
+          "note": "AVISO: art. 54 Ley 4/2002 CyL. Simplifica la gestión de un grupo pequeño, pero concentra la responsabilidad legal en una persona; obligatorio prever su sustitución. Debe revisarse jurídicamente antes de aprobarse."
+        },
+        {
+          "target": "rri",
+          "heading": "Funcionamiento interno, rotación y articulación con las comisiones",
+          "text": "La facilitación de las reuniones del órgano de administración y de la Asamblea será rotativa entre las personas socias, por períodos de [X] meses. Para favorecer la horizontalidad, se recomienda no encadenar más de [dos] mandatos consecutivos en el mismo cargo. El órgano de administración se reunirá con la periodicidad que fije este Reglamento, de forma presencial o telemática, y buscará el consenso antes de acudir a la votación. Las comisiones de trabajo (Convivencia, Economía, Forma Jurídica, Arquitectura, Comunicación) prepararán y ejecutarán las decisiones en su ámbito, coordinándose con el órgano de administración, que rinde cuentas periódicas a la Asamblea.",
+          "note": "Reglamento de funcionamiento interno: detalle operativo, límite de mandatos y facilitación rotativa, revisable por la Asamblea sin modificar los estatutos. Ayuda a compensar la concentración legal de funciones en la Presidencia o el Administrador único."
+        }
+      ],
+      "openDecisions": [
+        "¿Consejo Rector reducido (mínimo tres cargos) o Administrador único?",
+        "Si es Consejo Rector, ¿tres miembros (presidencia, secretaría, vocalía) o cinco (añadiendo vicepresidencia y tesorería)?",
+        "¿Duración del mandato: 2, 3 o 4 años? ¿Se fija límite de mandatos consecutivos?",
+        "¿Renovación total en cada mandato o renovación parcial por mitades (modelo Pepu)?",
+        "¿Qué competencias se reservan expresamente a la Asamblea General por consenso?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas y borradores del grupo. Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
+  "suggestedClause": {
+    "text": "La administración, gestión y representación de la cooperativa corresponde al Consejo Rector, elegido por la Asamblea General en votación secreta, compuesto por un mínimo de tres miembros con los cargos de presidencia, secretaría y vocalía, con un mandato de [tres] años y posibilidad de reelección. Al contar con menos de diez personas socias, la cooperativa podrá optar en su lugar por la figura del Administrador único conforme al artículo 54 de la Ley 4/2002 de Cooperativas de Castilla y León.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación, en especial la opción de Administrador único y la duración del mandato.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

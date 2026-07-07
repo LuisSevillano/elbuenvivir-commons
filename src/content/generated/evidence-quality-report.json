@@ -1,140 +1,54 @@
 {
-  "generatedAt": "2026-05-14T09:23:33.982Z",
+  "generatedAt": "2026-07-07T07:29:54.751Z",
   "summary": {
     "totalTopics": 6,
-    "totalDegradedClaims": 0,
-    "totalDiscardedSnippets": 33,
-    "strongTopics": 2,
-    "moderateTopics": 1,
-    "weakTopics": 2,
+    "totalDegradedClaims": 1,
+    "totalDiscardedSnippets": 6,
+    "strongTopics": 4,
+    "moderateTopics": 0,
+    "weakTopics": 1,
     "insufficientTopics": 1
   },
   "topics": [
     {
       "topicSlug": "invitados",
-      "degradedClaims": [],
+      "degradedClaims": [
+        {
+          "claimId": "invitados-guests_allowed",
+          "originalType": "inferred",
+          "newType": "weak_evidence",
+          "reason": [
+            "Ningún extracto contiene términos de invitados (invitado, visita, familiar, etc.)"
+          ],
+          "filteredExtracts": 0
+        }
+      ],
       "discardedSnippets": [
         {
-          "extractId": "invitados-guests_allowed-docs-otros-modelo-estatutos-viviendas-60",
+          "extractId": "invitados-guests_allowed-docs-otros-modelo-estatutos-viviendas-229",
           "claimId": "invitados-guests_allowed",
           "reason": "sin términos de invitados"
         },
         {
-          "extractId": "invitados-guests_allowed-docs-otros-modelo-estatutos-viviendas-62",
+          "extractId": "invitados-guests_allowed-docs-estatutos-estatutos-elciempies-102",
           "claimId": "invitados-guests_allowed",
           "reason": "sin términos de invitados"
         },
         {
-          "extractId": "invitados-notice-docs-estatutos-estatutos-elciempies-4",
-          "claimId": "invitados-notice",
-          "reason": "sin términos de invitados"
-        },
-        {
-          "extractId": "invitados-notice-docs-estatutos-estatutos-los-girasoles-4",
-          "claimId": "invitados-notice",
-          "reason": "sin términos de invitados"
-        },
-        {
-          "extractId": "invitados-guest_responsibility-docs-estatutos-estatutos-elciempies-4",
-          "claimId": "invitados-guest_responsibility",
-          "reason": "sin términos de invitados"
-        },
-        {
-          "extractId": "invitados-guest_responsibility-docs-estatutos-estatutos-los-girasoles-4",
-          "claimId": "invitados-guest_responsibility",
-          "reason": "sin términos de invitados"
-        },
-        {
-          "extractId": "invitados-guest_common_spaces-docs-estatutos-estatutos-elciempies-4",
-          "claimId": "invitados-guest_common_spaces",
-          "reason": "sin términos de invitados"
-        },
-        {
-          "extractId": "invitados-guest_common_spaces-docs-estatutos-estatutos-los-girasoles-4",
-          "claimId": "invitados-guest_common_spaces",
-          "reason": "sin términos de invitados"
-        },
-        {
-          "extractId": "invitados-guest_alone-docs-estatutos-estatutos-elciempies-4",
-          "claimId": "invitados-guest_alone",
-          "reason": "sin términos de invitados"
-        },
-        {
-          "extractId": "invitados-guest_alone-docs-estatutos-estatutos-los-girasoles-4",
-          "claimId": "invitados-guest_alone",
+          "extractId": "invitados-guests_allowed-docs-estatutos-estatutos-los-girasoles-107",
+          "claimId": "invitados-guests_allowed",
           "reason": "sin términos de invitados"
         }
       ],
-      "nonSubstantiveFiltered": 10,
-      "evidenceHealth": "weak"
+      "nonSubstantiveFiltered": 3,
+      "evidenceHealth": "insufficient"
     },
     {
       "topicSlug": "reservas_estancias_pernoctas",
       "degradedClaims": [],
-      "discardedSnippets": [
-        {
-          "extractId": "reservas_estancias_pernoctas-booking_system-docs-guias-las-guias-de-sostre-civic-6",
-          "claimId": "reservas_estancias_pernoctas-booking_system",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "reservas_estancias_pernoctas-booking_system-docs-estatutos-estatutos-losnidales-39",
-          "claimId": "reservas_estancias_pernoctas-booking_system",
-          "reason": "reserva en contexto económico"
-        },
-        {
-          "extractId": "reservas_estancias_pernoctas-booking_system-docs-estatutos-estatutos-entrepatios-115",
-          "claimId": "reservas_estancias_pernoctas-booking_system",
-          "reason": "reserva en contexto económico"
-        },
-        {
-          "extractId": "reservas_estancias_pernoctas-priority-docs-guias-las-guias-de-sostre-civic-11",
-          "claimId": "reservas_estancias_pernoctas-priority",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "reservas_estancias_pernoctas-priority-docs-guias-las-guias-de-sostre-civic-12",
-          "claimId": "reservas_estancias_pernoctas-priority",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "reservas_estancias_pernoctas-priority-docs-guias-las-guias-de-sostre-civic-6",
-          "claimId": "reservas_estancias_pernoctas-priority",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "reservas_estancias_pernoctas-saturation_rules-docs-guias-las-guias-de-sostre-civic-11",
-          "claimId": "reservas_estancias_pernoctas-saturation_rules",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "reservas_estancias_pernoctas-saturation_rules-docs-guias-las-guias-de-sostre-civic-12",
-          "claimId": "reservas_estancias_pernoctas-saturation_rules",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "reservas_estancias_pernoctas-saturation_rules-docs-guias-las-guias-de-sostre-civic-6",
-          "claimId": "reservas_estancias_pernoctas-saturation_rules",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "reservas_estancias_pernoctas-cancellation-docs-guias-las-guias-de-sostre-civic-11",
-          "claimId": "reservas_estancias_pernoctas-cancellation",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "reservas_estancias_pernoctas-cancellation-docs-guias-las-guias-de-sostre-civic-12",
-          "claimId": "reservas_estancias_pernoctas-cancellation",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "reservas_estancias_pernoctas-cancellation-docs-guias-las-guias-de-sostre-civic-6",
-          "claimId": "reservas_estancias_pernoctas-cancellation",
-          "reason": "contenido no sustantivo"
-        }
-      ],
-      "nonSubstantiveFiltered": 12,
-      "evidenceHealth": "insufficient"
+      "discardedSnippets": [],
+      "nonSubstantiveFiltered": 0,
+      "evidenceHealth": "weak"
     },
     {
       "topicSlug": "desigualdad_aportaciones",
@@ -146,80 +60,39 @@
     {
       "topicSlug": "baja_socio",
       "degradedClaims": [],
-      "discardedSnippets": [],
-      "nonSubstantiveFiltered": 0,
+      "discardedSnippets": [
+        {
+          "extractId": "baja_socio-notice_period-docs-guias-guia-introduccion-al-cohousing-senior-2019-4-130",
+          "claimId": "baja_socio-notice_period",
+          "reason": "sin términos de invitados"
+        },
+        {
+          "extractId": "baja_socio-notice_period-docs-estatutos-estatutos-pepu-60",
+          "claimId": "baja_socio-notice_period",
+          "reason": "sin términos de invitados"
+        },
+        {
+          "extractId": "baja_socio-notice_period-docs-estatutos-estatutos-pequenopueblo-60",
+          "claimId": "baja_socio-notice_period",
+          "reason": "sin términos de invitados"
+        }
+      ],
+      "nonSubstantiveFiltered": 3,
       "evidenceHealth": "strong"
     },
     {
       "topicSlug": "toma_decisiones",
       "degradedClaims": [],
-      "discardedSnippets": [
-        {
-          "extractId": "toma_decisiones-majority_rules-docs-guias-las-guias-de-sostre-civic-6",
-          "claimId": "toma_decisiones-majority_rules",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "toma_decisiones-consensus-docs-guias-las-guias-de-sostre-civic-6",
-          "claimId": "toma_decisiones-consensus",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "toma_decisiones-delegation-docs-guias-las-guias-de-sostre-civic-6",
-          "claimId": "toma_decisiones-delegation",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "toma_decisiones-protected_matters-docs-estatutos-estatutos-elciempies-4",
-          "claimId": "toma_decisiones-protected_matters",
-          "reason": "reserva en contexto económico"
-        },
-        {
-          "extractId": "toma_decisiones-protected_matters-docs-estatutos-estatutos-los-girasoles-4",
-          "claimId": "toma_decisiones-protected_matters",
-          "reason": "reserva en contexto económico"
-        },
-        {
-          "extractId": "toma_decisiones-protected_matters-docs-guias-las-guias-de-sostre-civic-6",
-          "claimId": "toma_decisiones-protected_matters",
-          "reason": "contenido no sustantivo"
-        }
-      ],
-      "nonSubstantiveFiltered": 6,
-      "evidenceHealth": "weak"
+      "discardedSnippets": [],
+      "nonSubstantiveFiltered": 0,
+      "evidenceHealth": "strong"
     },
     {
       "topicSlug": "uso_espacios_comunes",
       "degradedClaims": [],
-      "discardedSnippets": [
-        {
-          "extractId": "uso_espacios_comunes-common_space_rules-docs-guias-las-guias-de-sostre-civic-11",
-          "claimId": "uso_espacios_comunes-common_space_rules",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "uso_espacios_comunes-care_responsibility-docs-guias-las-guias-de-sostre-civic-11",
-          "claimId": "uso_espacios_comunes-care_responsibility",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "uso_espacios_comunes-space_booking-docs-guias-las-guias-de-sostre-civic-11",
-          "claimId": "uso_espacios_comunes-space_booking",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "uso_espacios_comunes-damage_liability-docs-guias-las-guias-de-sostre-civic-11",
-          "claimId": "uso_espacios_comunes-damage_liability",
-          "reason": "contenido no sustantivo"
-        },
-        {
-          "extractId": "uso_espacios_comunes-quiet_enjoyment-docs-guias-las-guias-de-sostre-civic-11",
-          "claimId": "uso_espacios_comunes-quiet_enjoyment",
-          "reason": "contenido no sustantivo"
-        }
-      ],
-      "nonSubstantiveFiltered": 5,
-      "evidenceHealth": "moderate"
+      "discardedSnippets": [],
+      "nonSubstantiveFiltered": 0,
+      "evidenceHealth": "strong"
     }
   ]
 }

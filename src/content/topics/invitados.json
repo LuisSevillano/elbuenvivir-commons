@@ -1,0 +1,198 @@
+{
+  "slug": "invitados",
+  "title": "Personas invitadas",
+  "shortDescription": "Cómo regular en una cooperativa de usuarios de Castilla y León quién puede llevar invitados a la casa, la cuota de uso de invitados ya aprobada (14 €/día adultos y 5 €/día menores sin relación directa), los límites de aforo y frecuencia y la responsabilidad de quien invita.",
+  "category": "uso_espacios",
+  "minimumContents": [
+    "Definir quién es persona invitada frente a persona socia y frente a conviviente habitual.",
+    "Aclarar quién puede invitar (Socio A y Socio B vinculado) y con qué aviso o reserva previa.",
+    "Fijar la cuota de uso de invitados ya aprobada en Reunión 21: 14 €/día adultos y 5 €/día menores sin relación directa.",
+    "Establecer límites de aforo total de la casa y de frecuencia o número de noches por invitado.",
+    "Definir la responsabilidad de la persona anfitriona por daños, limpieza, convivencia e incidencias.",
+    "Decidir si la persona invitada puede permanecer sin la persona anfitriona presente."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿Pueden invitar tanto el Socio A como el Socio B vinculado, o el Socio B necesita el visto bueno de su Socio A de referencia?",
+    "¿Debe estar siempre presente la persona anfitriona, o se admiten estancias de invitados sin socia presente y con qué condiciones?",
+    "¿Qué aforo máximo de la casa y qué frecuencia o número de noches por invitado y año se fija?",
+    "¿La cuota de invitados (14 € adultos / 5 € menores) se aplica desde el primer día o se integra en la regla del uso a partir del 10.º día que planteó la Guía de capacidad económica?",
+    "¿Se mantiene solo la tarifa de invitado 'sin relación directa' (amigues) o se regula también el trato a familiares y convivientes ocasionales?"
+  ],
+  "risks": [
+    "Permitir invitados sin habilitarlo en Estatutos puede chocar con el art. 123.2 de la Ley 4/2002 CyL, que exige que el uso por no socios esté previsto estatutariamente.",
+    "Una cuota o afluencia de invitados alta y continuada podría interpretarse como actividad de hospedaje con ánimo de lucro, contraria al carácter antiespeculativo del proyecto.",
+    "No fijar aforo ni frecuencia puede convertir el uso de invitados en una fuente de conflicto y desgaste de la casa entre un grupo pequeño de personas socias.",
+    "Dejar sin definir la responsabilidad de quien invita traslada a la comunidad los daños, la limpieza o las incidencias que cause una persona ajena.",
+    "Confundir a la persona invitada con la conviviente habitual (acompañante) puede generar expectativas de derechos de uso que no existen."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "La posibilidad de que personas no socias usen la casa afecta al objeto social y a las operaciones con terceros: la Ley 4/2002 CyL exige que esté prevista en Estatutos (arts. 3.1 y 123.2).",
+      "Las condiciones concretas (cuota diaria ya aprobada, aforo, frecuencia, aviso, presencia de la anfitriona, responsabilidad y limpieza) son operativas y revisables: encajan en el RRI."
+    ],
+    "shouldBeInStatutes": [
+      "Habilitación general para que personas invitadas de las socias usen la casa, sin fin lucrativo ni especulativo.",
+      "Remisión al RRI y a la Asamblea para fijar cuotas, aforo y condiciones de uso por terceros."
+    ],
+    "shouldBeInRRI": [
+      "Definición de persona invitada y quién puede invitar (Socio A y Socio B vinculado).",
+      "Cuota de uso de invitados aprobada (14 €/día adultos, 5 €/día menores sin relación directa) y su forma de cobro.",
+      "Aforo máximo, frecuencia o número de noches y sistema de aviso o reserva.",
+      "Responsabilidad de la persona anfitriona por daños, limpieza, convivencia e incidencias.",
+      "Regla sobre presencia obligatoria de la persona anfitriona y sus excepciones."
+    ],
+    "canBeDeferredInitially": [
+      "Protocolo fino de reserva, registro de invitados y hoja de incidencias."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Fijar en Estatutos la cuota diaria o el aforo los vuelve rígidos: son cifras que el grupo quiere revisar periódicamente."
+    ],
+    "risksIfPlacedInRRI": [
+      "No dejar en Estatutos ninguna habilitación para el uso por no socios debilitaría la cobertura legal del art. 123.2 frente a terceros."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "relationship": "complements",
+      "explanation": "El uso de la casa por invitados comparte aforo, calendario y cuidado con el uso de los espacios comunes por las personas socias."
+    },
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "depends_on",
+      "explanation": "Quién puede invitar y en qué condiciones depende de la distinción entre Socio A y Socio B vinculado ya aprobada por el grupo."
+    }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "El Buen Vivir será una cooperativa de consumidores y usuarios de Castilla y León, regida por la Ley 4/2002. Su objeto social es el uso o consumo de la casa por las personas socias \"y de quienes con ellos conviven\" (art. 123.1). La persona invitada puntual no es socia ni, por lo general, conviviente: su uso de la casa es una operación con una persona no socia.",
+        "La Ley permite ese uso, pero lo condiciona: las cooperativas de usuarios solo pueden suministrar bienes o servicios a personas no socias \"cuando así lo prevean sus Estatutos\" (art. 123.2), y las operaciones con terceros se hacen \"en los términos que establezcan sus Estatutos\" y con los límites legales (art. 3.1). Por eso la habilitación para llevar invitados conviene que conste en Estatutos, mientras que la cuota, el aforo y las condiciones se detallan en el RRI. La cuota de invitados ya está decidida por el grupo, no por la Ley."
+      ],
+      "requirements": [
+        { "aspect": "Objeto social y personas usuarias", "law": "Ley 4/2002 CyL, art. 123.1", "requirement": "El objeto es el uso o consumo de la casa por las personas socias y por quienes con ellas conviven.", "margin": "El uso por convivientes cabe en el objeto; el invitado puntual sin convivencia no encaja de forma automática y debe habilitarse aparte." },
+        { "aspect": "Uso por personas no socias", "law": "Ley 4/2002 CyL, art. 123.2", "requirement": "Solo se puede suministrar bienes o servicios a personas no socias cuando así lo prevean los Estatutos.", "margin": "Si queréis admitir invitados, conviene habilitarlo expresamente en Estatutos." },
+        { "aspect": "Operaciones con terceros", "law": "Ley 4/2002 CyL, art. 3.1", "requirement": "Las operaciones con terceros no socios se hacen en los términos que fijen los Estatutos y con los límites legales de cada clase.", "margin": "Vosotros fijáis los términos (aforo, frecuencia, tarifa); la Ley solo pone el marco." },
+        { "aspect": "Naturaleza del suministro a socios", "law": "Ley 4/2002 CyL, art. 123.3", "requirement": "La distribución de bienes y servicios a las socias no tiene condición de venta: se trata de consumo agrupado, no de actividad mercantil.", "margin": "La cuota de invitados debe leerse como recuperación de gastos, no como precio de un servicio de hospedaje lucrativo." },
+        { "aspect": "Cuota de uso de invitados", "law": "Sin regla legal específica", "requirement": "La Ley no fija importes; es materia de acuerdo interno y de RRI.", "margin": "Aprobada en Reunión 21: 14 €/día adultos y 5 €/día menores sin relación directa, revisable periódicamente." }
+      ],
+      "citations": [
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 123.1 y 123.2 (cooperativas de consumidores y usuarios)",
+          "excerpt": "Se consideran cooperativas de consumidores y usuarios aquellas que tienen como objeto social el suministro de bienes muebles o inmuebles y/o servicios, productos, actividades o funciones para su adquisición, uso o consumo por los socios y de quienes con ellos conviven... Las cooperativas de consumidores y usuarios podrán suministrar, dentro de su ámbito territorial de actuación, bienes o servicios a personas o entidades no socias cuando así lo prevean sus Estatutos."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 3.1 (operaciones con terceros)",
+          "excerpt": "Las sociedades cooperativas podrán realizar operaciones, actividades y servicios con terceros no socios en los términos que establezcan sus Estatutos, en las condiciones y con las limitaciones que establece la presente Ley para cada clase de cooperativa, así como otras Leyes sectoriales que les sean de aplicación."
+        }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo tratan otras cooperativas la presencia de personas no socias en la casa. Ninguna fija una cuota diaria de invitado como la que El Buen Vivir ya aprobó; sí ofrecen modelos de definición, aviso y responsabilidad.",
+      "columns": [
+        { "key": "figura", "label": "Figura del no socio" },
+        { "key": "requisito", "label": "Requisito / aviso" },
+        { "key": "economico", "label": "Aportación a gastos" },
+        { "key": "limite", "label": "Límite / condición" }
+      ],
+      "rows": [
+        {
+          "project": "Axuntase (Asturias)",
+          "cells": {
+            "figura": "Residente temporal o invitada / acompañante",
+            "requisito": "Respetar las normas de convivencia; la acompañante figura en el documento de adhesión",
+            "economico": "Las acompañantes contribuyen a los gastos comunes y a los servicios individualizados que reciban",
+            "limite": "Invitada = convivencia temporal sin figurar como acompañante"
+          },
+          "documentSlug": "docs-rri-rri-axuntase",
+          "articleOrSection": "Artículo 4 — Las personas acompañantes",
+          "excerpt": "Se considerará residente temporal o invitada, aquella persona que conviva temporalmente con un socio o socia, sin figurar como acompañante en el documento de adhesión de la persona socia. Dichas personas deberán respetar, igual que las personas socias, las normas de convivencia del complejo... Las personas acompañantes deben contribuir al pago de los gastos comunes y de los servicios individualizados que reciban."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": {
+            "figura": "Personas no socias que comparten temporalmente la vivienda",
+            "requisito": "La persona socia notifica por escrito al Consejo Rector los cambios",
+            "economico": "—",
+            "limite": "No pueden efectuarse con fines lucrativos ni especulativos"
+          },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Obligaciones de la persona socia (uso de la vivienda)",
+          "excerpt": "La persona socia destinataria del derecho de uso notificará los cambios de las personas no socias que compartan temporalmente la vivienda cooperativa, los cuales no se pueden efectuar en base a fines lucrativos o especulativas, así como su voluntad de conformar una UEC."
+        },
+        {
+          "project": "Pepu / Pequeño Pueblo (Castilla y León)",
+          "cells": {
+            "figura": "Acompañantes y terceros no socios",
+            "requisito": "Previsto en Estatutos como operaciones con terceros sobre el uso de las instalaciones",
+            "economico": "Reciben prestaciones y servicios del conjunto residencial",
+            "limite": "Condicionado a que haya plazas no ocupadas ni solicitadas por las socias"
+          },
+          "documentSlug": "docs-estatutos-estatutos-pepu",
+          "articleOrSection": "Objeto social (operaciones con terceros)",
+          "excerpt": "La Cooperativa podrá desarrollar libremente operaciones con terceros, personas o entidades no socias, sobre el uso y disfrute de las instalaciones y servicios del Conjunto Residencial sin mas límites que los previstos en la Ley de Cooperativas de Castilla y León para las distintas clases de cooperativas... Tales operaciones, que en ningún caso afectarán a la propiedad, estarán condicionadas a la existencia de apartamentos no ocupados ni solicitados por las personas socias."
+        },
+        {
+          "project": "El Ciempiés",
+          "cells": {
+            "figura": "Terceras personas no socias",
+            "requisito": "Obligación de la persona socia recogida en Estatutos",
+            "economico": "—",
+            "limite": "Prohíbe ceder a terceros los bienes y servicios de la cooperativa"
+          },
+          "documentSlug": "docs-estatutos-estatutos-elciempies",
+          "articleOrSection": "Obligaciones de las personas socias",
+          "excerpt": "No ceder a terceras personas, no socios/as, los bienes y servicios que la cooperativa proporciona a las personas socias."
+        }
+      ],
+      "note": "Dos patrones opuestos: reconocer al invitado con reglas de convivencia y aportación a gastos (Axuntase, Pepu), o prohibir ceder los servicios de la cooperativa a terceros (El Ciempiés). El Buen Vivir se sitúa en el primer patrón, pero añade algo propio: una cuota diaria de invitado ya aprobada."
+    },
+    "proposal": {
+      "rationale": [
+        "El Buen Vivir es cooperativa de usuarios: el art. 123.2 CyL exige que el uso por no socias esté previsto en Estatutos, así que la habilitación general para llevar invitados debe constar en Estatutos aunque el detalle vaya al RRI.",
+        "La cuota de invitados ya está decidida en Reunión 21 (14 €/día adultos y 5 €/día menores sin relación directa), coherente con el sistema de cuota de uso diaria diferenciada y con el valor antiespeculativo: cubrir gastos variables, no hacer hospedaje.",
+        "Es una casa vacacional de un grupo pequeño de amigos: tiene sentido permitir invitados con la persona socia como anfitriona responsable, cuidando aforo, convivencia y limpieza.",
+        "La Guía de votación de capacidad económica planteó la cuota de uso como vía de financiación interna y como forma de detectar uso desigual (aplicándola a partir del 10.º día de uso en el año); conviene decidir si los invitados entran en esa misma lógica o pagan desde el primer día."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Uso de la casa por personas invitadas",
+          "text": "Las personas socias podrán acoger en la casa a personas invitadas, sin finalidad lucrativa ni especulativa, en los términos que establezca el Reglamento de Régimen Interno y los acuerdos de la Asamblea. El uso por personas no socias se entiende como operación con terceros al amparo de la Ley 4/2002 de Cooperativas de Castilla y León y no genera derecho de uso ni condición de persona socia.",
+          "note": "Da cobertura estatutaria al art. 123.2 y 3.1 CyL (uso por no socios previsto en Estatutos) y remite el detalle al RRI, que es revisable."
+        },
+        {
+          "target": "rri",
+          "heading": "Personas invitadas: definición, cuota y responsabilidad",
+          "text": "Se entiende por persona invitada quien usa la casa acompañando a una persona socia sin convivir de forma habitual con ella. Podrán invitar las personas socias de tipo A y las de tipo B vinculadas a una socia A [según se decida]. La persona anfitriona deberá [avisar / reservar] con [X] días de antelación y será responsable de la convivencia, la limpieza, los daños y las incidencias que ocasione su invitada. Las personas invitadas sin relación directa abonarán una cuota de uso de catorce euros (14 €) por día las personas adultas y cinco euros (5 €) por día las menores, importes aprobados en Reunión 21 y revisables periódicamente por la Asamblea.",
+          "note": "Recoge la cuota ya aprobada. Los corchetes marcan lo que falta votar: quién puede invitar sin autorización, plazo de aviso y si se aplica una tarifa distinta a familiares o convivientes ocasionales."
+        },
+        {
+          "target": "rri",
+          "heading": "Aforo, frecuencia y presencia de la persona anfitriona",
+          "text": "El número de personas invitadas simultáneas no superará el aforo total de [X] plazas de la casa, dando siempre prioridad al uso por las personas socias. Cada persona invitada podrá pernoctar un máximo de [X] noches por [periodo]. La persona anfitriona [deberá estar presente durante toda la estancia de sus invitadas / podrá autorizar su estancia sin estar presente, asumiendo igualmente la responsabilidad]. La Comisión de Convivencia velará por el buen uso y podrá elevar a la Asamblea la revisión de estos límites.",
+          "note": "Aforo y frecuencia son operativos y revisables. La presencia de la anfitriona es una decisión abierta con dos opciones redactadas."
+        }
+      ],
+      "openDecisions": [
+        "¿Pueden invitar tanto el Socio A como el Socio B vinculado, o el Socio B necesita autorización de su Socio A de referencia?",
+        "¿Debe estar siempre presente la persona anfitriona o se admiten estancias de invitados sin socia presente?",
+        "¿Qué aforo máximo y qué frecuencia o número de noches por invitado se fija?",
+        "¿La cuota de invitados se cobra desde el primer día o se integra en la regla del uso a partir del 10.º día que planteó la Guía de capacidad económica?",
+        "¿Se regula solo la tarifa de invitado sin relación directa (14 € / 5 €) o también el trato a familiares y convivientes ocasionales?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos y reglamentos de otras cooperativas y las actas del grupo. Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
+  "suggestedClause": {
+    "text": "Las personas socias podrán acoger en la casa a personas invitadas, sin finalidad lucrativa ni especulativa, en los términos que establezca el Reglamento de Régimen Interno. Las personas invitadas sin relación directa abonarán la cuota de uso aprobada por la Asamblea (14 €/día las adultas y 5 €/día las menores). La persona anfitriona será responsable de la convivencia, la limpieza, los daños y las incidencias que ocasione su invitada. El uso por personas no socias no genera derecho de uso ni condición de persona socia.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

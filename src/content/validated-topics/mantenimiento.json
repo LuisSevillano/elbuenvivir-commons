@@ -1,0 +1,103 @@
+{
+  "slug": "mantenimiento",
+  "status": "reviewed",
+  "editorialSummary": [
+    "El mantenimiento de El Buen Vivir tiene dos caras: el dinero para sostener la casa y el trabajo comunitario para cuidarla.",
+    "El grupo ya aprobó (Reuniones 19-21) una cuota de mantenimiento por tramos (~40/60/80 €), que pagan tanto los socios A como los B de uso habitual, con la regla de que las familias con hijos no optan al tramo más bajo.",
+    "La clave no es discutir si hay cuota, sino fijar qué gastos cubre, separar el mantenimiento ordinario de las obras, y decidir si las jornadas de trabajo colectivo son un deber exigible o una aportación voluntaria."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "cuota_alcance",
+      "question": "¿Qué gastos cubre exactamente la cuota de mantenimiento y qué se paga aparte?",
+      "recommendationsForBuenVivir": [
+        "Conviene listar los gastos ordinarios (suministros, seguros, pequeñas reparaciones, impuestos) y separar la cuota de uso y las derramas para obras, para que nadie confunda mantenimiento con inversión en la compra."
+      ]
+    },
+    {
+      "id": "tramos",
+      "question": "¿Qué cuantías tendrán los tres tramos y con qué criterio se sitúa cada persona?",
+      "recommendationsForBuenVivir": [
+        "El propio grupo dejó los tramos como estimación revisable; conviene fijar las cuantías en el RRI y no en los Estatutos, y aclarar el criterio (capacidad económica) y la excepción de las familias con hijos."
+      ]
+    },
+    {
+      "id": "trabajo_comunitario",
+      "question": "¿Las jornadas de trabajo colectivo son una obligación exigible o una aportación voluntaria?",
+      "recommendationsForBuenVivir": [
+        "La ley permite exigir participación en la actividad, pero también liberar por causa justificada; decidir si se puede compensar económicamente evita sobrecargar siempre a las mismas personas."
+      ]
+    },
+    {
+      "id": "obras",
+      "question": "¿Cómo se financian las obras y mejoras extraordinarias?",
+      "recommendationsForBuenVivir": [
+        "Separar la bolsa de mantenimiento ordinario de la financiación de obras (derrama, cuadrilla o parte de la cuota umbral sobrante) protege la caja y da previsibilidad."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "cuotas_periodicas_legales",
+      "statement": "La ley autonómica permite establecer cuotas periódicas por Estatutos o Asamblea, que no integran el capital ni son reintegrables.",
+      "summary": "Da cobertura clara a la cuota de mantenimiento y confirma que lo pagado no se devuelve al causar baja."
+    },
+    {
+      "id": "cuota_uso_generalizada",
+      "statement": "Varias cooperativas cobran una cuota periódica ligada al uso para sostener mantenimiento, reparaciones e impuestos, y separan los servicios individualizados.",
+      "summary": "Entrepatios, La Borda, Tarocohousing y Vallecas 2 Homes ofrecen redacciones útiles como referencia."
+    },
+    {
+      "id": "trabajo_comunitario",
+      "statement": "El mantenimiento puede articularse como trabajo comunitario obligatorio mediante grupos de trabajo y tareas repartidas.",
+      "summary": "Axuntase es el ejemplo más cercano a las jornadas de trabajo colectivo previstas en la visión de El Buen Vivir."
+    },
+    {
+      "id": "aprobado_por_tramos",
+      "statement": "El grupo aprobó una cuota de mantenimiento por tramos (~40/60/80 €) que pagan socios A y B, con las familias con hijos fuera del tramo más bajo.",
+      "summary": "Es una decisión cerrada en actas (Reuniones 19-21), aunque las cuantías quedaron como estimación revisable."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "mantenimiento-cuantias-fijas",
+      "statement": "Los tramos de 40, 60 y 80 € son cuantías definitivas.",
+      "reason": "Las actas los presentan como estimación \"a determinar por el contexto y revisable\", pendiente de conocer los gastos reales; no deben presentarse como cifras cerradas."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Anclar en Estatutos solo la obligación de contribuir al mantenimiento y su naturaleza no reintegrable; dejar las cuantías de los tramos en el RRI.",
+    "Definir con claridad qué cubre la cuota de mantenimiento frente a la cuota de uso y a las obras extraordinarias.",
+    "Decidir el estatus del trabajo comunitario (obligatorio o voluntario) y si se admite compensación económica.",
+    "Prever una revisión periódica de los tramos por la Comisión de Economía y la Asamblea.",
+    "No mezclar la cuota de mantenimiento con la cuota umbral para evitar confusiones al causar baja."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Facultad de establecer cuotas periódicas de mantenimiento y su carácter no reintegrable.",
+      "Obligación de las personas usuarias (socios A y B) de contribuir a los gastos comunes.",
+      "Deber genérico de participar en el cuidado comunitario del inmueble y consecuencias del impago."
+    ],
+    "rri": [
+      "Cuantías de los tramos y criterio para situarse en cada uno.",
+      "Regla de las familias con hijos y sus excepciones.",
+      "Organización de las jornadas de trabajo colectivo y reparto de tareas.",
+      "Distinción entre mantenimiento ordinario y obras, y su financiación y revisión."
+    ],
+    "notes": [
+      "La revisión jurídica debe ajustar la vinculación del impago con el régimen disciplinario y confirmar el alcance exigible del trabajo comunitario."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, art. 69 (cuotas periódicas no reintegrables).",
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, art. 23.2 (obligación de participar y de cumplir cargas económicas).",
+    "docs-estatutos-estatutos-entrepatios: Artículo 22 sobre cuota de uso para mantenimiento, reparación e impuestos.",
+    "docs-estatutos-estatutos-tarocohousing: cuota de mantenimiento y cuota periódica proporcional de gastos.",
+    "docs-rri-rri-axuntase: Artículos 6-8 sobre grupos de trabajo y tareas comunitarias.",
+    "docs-rri-rri-vallecas2homes: Artículo 18 sobre cuota anual de mantenimiento y art. 21 sobre gastos comunes."
+  ],
+  "referencesToAvoid": [
+    "No presentar las cuantías de 40/60/80 € como cifras definitivas: las actas las dejan como estimación revisable.",
+    "No copiar cuotas de amortización de préstamo hipotecario de otras cooperativas: El Buen Vivir busca comprar sin descapitalizarse en reformas."
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "slug": "estatutos_vs_rri",
+  "title": "Estatutos frente a Reglamento de Régimen Interno",
+  "shortDescription": "Criterio transversal para decidir qué materias de El Buen Vivir van a los Estatutos (rango estatutario, difícil de cambiar, inscrito en el Registro) y cuáles al Reglamento de Régimen Interno (operativo, revisable por la Asamblea sin registro).",
+  "category": "legal",
+  "minimumContents": [
+    "Entender que los Estatutos tienen contenido mínimo obligatorio fijado por ley y que su modificación exige mayoría reforzada, escritura pública e inscripción registral.",
+    "Entender que el Reglamento de Régimen Interno (RRI) desarrolla los Estatutos, lo aprueba y modifica la Asamblea y no se inscribe en el Registro.",
+    "Fijar la jerarquía: el RRI no puede contradecir la Ley 4/2002 ni los Estatutos.",
+    "Aplicar un criterio de reparto: al estatuto lo estructural y los derechos de la persona socia; al RRI lo operativo y cambiante.",
+    "Aplicar ese criterio a los temas propios de El Buen Vivir: baja, cuotas y convivencia."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿Qué materias quiere el grupo blindar en Estatutos (más estables pero más caras de cambiar) y cuáles prefiere en el RRI (ágiles de revisar en Asamblea)?",
+    "En baja: ¿el derecho de baja y los criterios de reembolso de la cuota umbral van a Estatutos y el procedimiento de salida al RRI?",
+    "En cuotas: ¿los Estatutos fijan solo la aportación obligatoria mínima y el RRI regula los importes concretos de mantenimiento (~40/60/80 €) y uso (0,5/7/14 €), que cambiarán con el tiempo?",
+    "En convivencia: ¿las normas de uso y buen trato van al RRI, dejando en Estatutos solo el régimen disciplinario (faltas y sanciones), que la ley exige a rango estatutario?",
+    "¿Se aprueba el RRI a la vez que los Estatutos o se deja un primer RRI para poco después de la constitución?"
+  ],
+  "risks": [
+    "Meter en Estatutos detalles operativos (importes de cuotas, horarios, protocolos) obliga a escritura pública, 2/3 de votos e inscripción registral cada vez que se quiera ajustar un número.",
+    "Dejar en el RRI materias que la ley reserva a los Estatutos (clases de socios, baja, régimen disciplinario, reembolso de aportaciones) puede hacer esas reglas nulas o inoponibles.",
+    "Redactar un RRI que contradiga los Estatutos o la Ley 4/2002: la cláusula del RRI sería inaplicable.",
+    "Regular la misma materia en los dos documentos con distinta redacción genera contradicciones y litigios internos.",
+    "Posponer indefinidamente el RRI deja sin cobertura escrita justo lo más cotidiano (uso, convivencia, cuotas)."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "case_by_case",
+    "rationale": [
+      "Este tema no es una materia más: es la regla de reparto que se aplica a todas las demás. Por eso la ubicación se decide caso por caso.",
+      "La ley marca el suelo: hay un contenido que obligatoriamente es estatutario (art. 13) y un procedimiento de reforma reforzado (art. 57). Todo lo demás puede desarrollarse en el RRI.",
+      "El criterio rector es 'estatutos mínimos y de plantilla, RRI amplio y revisable': al estatuto solo el suelo legal reservado y redactado de forma genérica; al RRI todo lo operativo, cuantitativo y previsiblemente cambiante, para ganar agilidad y no depender del Registro."
+    ],
+    "shouldBeInStatutes": [
+      "Contenido mínimo del art. 13: denominación, clase, objeto social, ámbito, duración, capital social mínimo.",
+      "Clases de socios, admisión, baja voluntaria y obligatoria y sus causas justificadas o no.",
+      "Derechos y deberes de las personas socias y participación mínima en la actividad.",
+      "Régimen disciplinario del art. 24: tipificación de faltas y regla de que la expulsión solo procede por falta muy grave (no puede ir al RRI).",
+      "Régimen de las aportaciones al capital y su reembolso, incluido el porcentaje de deducción y el plazo máximo (art. 66.4 y 66.5).",
+      "Cifras reservadas de la baja voluntaria: preaviso (art. 20.1) y permanencia mínima (art. 20.2).",
+      "Órganos sociales y reglas básicas de decisión."
+    ],
+    "shouldBeInRRI": [
+      "Importes concretos y tramos de las cuotas de mantenimiento y de uso.",
+      "Normas de uso y convivencia, calendario y prioridad de reservas.",
+      "Procedimientos operativos: cómo se comunica una baja, cómo funciona la lista de espera, cómo actúan las comisiones.",
+      "Detalle del funcionamiento de fondos y del acompañamiento de conflictos."
+    ],
+    "canBeDeferredInitially": [
+      "Protocolos finos (formularios, checklists de entrada y salida) que pueden aprobarse en un RRI posterior a la constitución."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Cualquier ajuste posterior de un detalle operativo exigiría reforma estatutaria: 2/3 de votos, escritura pública e inscripción registral."
+    ],
+    "risksIfPlacedInRRI": [
+      "Materias reservadas por ley a los Estatutos (clases de socios, baja, disciplina, reembolso) quedarían sin rango suficiente y podrían ser impugnadas."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "operationalizes",
+      "explanation": "Ejemplo del reparto: el derecho de baja y el reembolso van a Estatutos; el procedimiento de salida, al RRI."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "operationalizes",
+      "explanation": "La aportación obligatoria mínima es estatutaria; los importes concretos de las cuotas de mantenimiento y uso pueden ir al RRI."
+    },
+    {
+      "topicSlug": "normas_de_convivencia",
+      "relationship": "operationalizes",
+      "explanation": "Las normas de uso y buen trato encajan en el RRI; el régimen disciplinario, en cambio, es estatutario."
+    },
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "limits",
+      "explanation": "Las clases de socios y sus derechos básicos son contenido estatutario obligatorio: no se pueden dejar solo al RRI."
+    },
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "relationship": "operationalizes",
+      "explanation": "La delimitación de espacios y las normas de uso son un caso típico de desarrollo en el RRI."
+    }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "En una cooperativa de usuarios de Castilla y León rige la Ley 4/2002. La ley obliga a que ciertas materias figuren en los Estatutos (art. 13): denominación y clase, objeto social, capital mínimo, clases de socios, admisión y baja, derechos y deberes, normas de disciplina social, órganos y régimen de aportaciones. Ese es el suelo estatutario: no puede vivir en el RRI.",
+        "Los Estatutos y el RRI tienen rango y rigidez distintos. Modificar los Estatutos exige mayoría de dos tercios, escritura pública e inscripción en el Registro de Sociedades Cooperativas (arts. 37.2 y 57). El RRI lo aprueba y modifica la propia Asamblea (art. 31.2.f) sin necesidad de escritura ni inscripción registral: solo debe comunicarse a las personas socias. Por eso el RRI es el lugar natural de lo operativo y cambiante, siempre que no contradiga la ley ni los Estatutos."
+      ],
+      "requirements": [
+        { "aspect": "Contenido mínimo obligatorio", "law": "Ley 4/2002 CyL, art. 13", "requirement": "Los Estatutos deben comprender, al menos, clase de cooperativa, objeto social, capital mínimo, clases de socios, admisión y baja, derechos y deberes, disciplina social, órganos y régimen de aportaciones.", "margin": "Esas materias no pueden dejarse solo al RRI; sí podéis desarrollarlas después en él." },
+        { "aspect": "Mayoría para reformar Estatutos", "law": "Ley 4/2002 CyL, art. 37.2", "requirement": "Toda modificación de Estatutos exige el voto favorable de dos tercios de los votos presentes o representados.", "margin": "Los Estatutos pueden exigir mayorías aún superiores (hasta 4/5)." },
+        { "aspect": "Formalidad de la reforma estatutaria", "law": "Ley 4/2002 CyL, art. 57.1", "requirement": "El acuerdo se eleva a escritura pública y se inscribe en el Registro de Sociedades Cooperativas, con informe previo y publicidad de los artículos a cambiar.", "margin": "Sin margen: es un trámite obligatorio y con coste." },
+        { "aspect": "Aprobación y reforma del RRI", "law": "Ley 4/2002 CyL, art. 31.2.f", "requirement": "La aprobación o modificación del Reglamento de Régimen Interno es competencia de la Asamblea general.", "margin": "El RRI no se inscribe en el Registro; se revisa con más agilidad que los Estatutos." },
+        { "aspect": "Publicidad del RRI", "law": "Ley 4/2002 CyL, art. 15", "requirement": "Las modificaciones de Estatutos se comunican a los socios tras inscribirse en el Registro; las del RRI, en el plazo de un mes desde que las acuerda la Asamblea.", "margin": "Confirma que el RRI surte efecto sin paso registral." },
+        { "aspect": "Jerarquía normativa", "law": "Ley 4/2002 CyL, art. 13.m y 31", "requirement": "El RRI desarrolla la ley y los Estatutos; no puede contradecirlos.", "margin": "Toda materia del RRI debe respetar lo dispuesto en Estatutos y en la Ley 4/2002." }
+      ],
+      "citations": [
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 13 (contenido de los Estatutos)",
+          "excerpt": "Los Estatutos de la cooperativa deberán comprender, al menos, los siguientes extremos: a) Denominación y clase de la sociedad cooperativa. b) Domicilio social. c) El ámbito territorial de actuación. d) Duración de la sociedad cooperativa. e) El objeto social... f) Capital social mínimo. g) Clases de socios, requisitos y procedimiento de admisión, baja voluntaria y obligatoria, así como las causas justificadoras o no de las mismas. h) Derechos y deberes de los socios... i) Normas de disciplina social. Tipificación de las faltas y sanciones. Procedimiento sancionador y pérdida de la condición de socio... k) Aportación obligatoria mínima al capital social... y régimen de reembolso... m) Cualquier otra exigencia impuesta por la presente ley."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 57.1 (reforma de Estatutos)",
+          "excerpt": "La modificación de los Estatutos debe ser acordada por la Asamblea general y exige la concurrencia de los siguientes requisitos... d) Que el acuerdo sea tomado por la Asamblea general por la mayoría de dos tercios presentes o representados. En todo caso, el acuerdo con el texto aprobado se elevará a escritura pública, que se inscribirá en el Registro de Sociedades Cooperativas."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 31.2.f (competencia de la Asamblea sobre el RRI)",
+          "excerpt": "En todo caso, su acuerdo es necesario en los siguientes actos:... f) Modificación de Estatutos, excepto lo previsto en el artículo 58 de esta ley y aprobación o modificación, en su caso, del Reglamento de Régimen Interno de la cooperativa."
+        }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo reparten otras cooperativas del corpus las materias entre Estatutos y RRI, y con qué técnica de remisión.",
+      "columns": [
+        { "key": "estatutos", "label": "Núcleo en Estatutos" },
+        { "key": "rri", "label": "Remite al RRI" },
+        { "key": "tecnica", "label": "Técnica de remisión" }
+      ],
+      "rows": [
+        {
+          "project": "Pequeño Pueblo / Pepu (CyL)",
+          "cells": {
+            "estatutos": "Objeto, clases de socios, baja, órganos, régimen económico",
+            "rri": "Desarrollo general de los Estatutos y detalle de las normas electorales",
+            "tecnica": "Cláusula de cierre: los Estatutos se desarrollan por un RRI"
+          },
+          "documentSlug": "docs-estatutos-estatutos-pepu",
+          "articleOrSection": "Artículo 65 — Desarrollo reglamentario",
+          "excerpt": "Los presentes estatutos se desarrollarán por un Reglamento de Régimen Interno."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": {
+            "estatutos": "Derecho de uso, obligaciones de conservación y abandono de la vivienda en baja",
+            "rri": "Delimitación de espacios comunes/privativos y normas de mantenimiento y uso",
+            "tecnica": "Mandato expreso: el RRI debe especificar el detalle de uso"
+          },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 7.3 — Régimen de uso",
+          "excerpt": "El reglamento de Régimen Interno debe especificar la delimitación de los elementos de uso común, de uso común restringido y de uso privativo del conjunto del edificio de viviendas cooperativas. Asimismo, debe recoger las normas de mantenimiento, conservación y mejora ordinarias y extraordinarias de los elementos de uso común y de uso privativo."
+        },
+        {
+          "project": "Tarocohousing",
+          "cells": {
+            "estatutos": "Objeto, condición de socio, existencia de lista de espera",
+            "rri": "Funcionamiento de la lista de espera, normas de uso y aforo",
+            "tecnica": "Remisión temática por materias operativas"
+          },
+          "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+          "articleOrSection": "Artículo 9 — Lista de espera",
+          "excerpt": "El funcionamiento de esta lista de espera será establecido en el Reglamento de Régimen Interno."
+        },
+        {
+          "project": "Axuntase (Asturias)",
+          "cells": {
+            "estatutos": "Régimen disciplinario, expulsión y fondos",
+            "rri": "Procedimiento e incidencias de la expulsión; funcionamiento del fondo de reserva",
+            "tecnica": "Remisión de la parte procedimental y de gestión"
+          },
+          "documentSlug": "docs-estatutos-estatutos-axuntase",
+          "articleOrSection": "Artículo 43 — Fondo de Reserva voluntario de solidaridad",
+          "excerpt": "Se constituye con base legal en el Artículo 98.2 de la LCPA un fondo de Reserva voluntario de solidaridad con la finalidad que en cada momento establezca la Asamblea General y en especial para atender las necesidades de sus socios/as... Su funcionamiento y finalidad se desarrollará en el Reglamento de Régimen Interno de la Cooperativa."
+        },
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": {
+            "estatutos": "Órganos, elección del Consejo Rector",
+            "rri": "Desarrollo y detalle de las normas electorales",
+            "tecnica": "RRI potestativo (\"si lo hubiere\") que desarrolla y detalla"
+          },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Consejo Rector — Normas electorales",
+          "excerpt": "El Reglamento de Régimen Interno, si lo hubiere, podrá desarrollar y detallar las normas electorales antedichas."
+        }
+      ],
+      "note": "Patrón común: los Estatutos fijan el marco (qué figuras y qué derechos existen) y remiten al RRI el cómo (procedimientos, delimitación de espacios, importes, funcionamiento de listas y fondos). La remisión se hace con una cláusula de cierre general o con mandatos temáticos concretos."
+    },
+    "proposal": {
+      "rationale": [
+        "El criterio rector de El Buen Vivir es 'estatutos mínimos y de plantilla, RRI amplio y revisable': los Estatutos recogen solo el suelo que la ley reserva a rango estatutario y se redactan de la forma más genérica posible, a modo de plantilla, remitiendo al Reglamento de Régimen Interno todo lo que la Ley 4/2002 permita desarrollar fuera de ellos.",
+        "La razón es de agilidad y de no depender del Registro: modificar los Estatutos exige mayoría de dos tercios, escritura pública e inscripción en el Registro de Sociedades Cooperativas (arts. 37.2 y 57), mientras que el RRI lo aprueba y modifica la propia Asamblea (art. 31.2.f) sin escritura ni paso registral. Cuanto más detalle viva en el RRI, más fácil le resulta al grupo revisar sus acuerdos sin reforma estatutaria.",
+        "El suelo legal que NO se puede mover al RRI: el contenido mínimo del art. 13 (denominación y clase, domicilio, ámbito, duración, objeto social, capital social mínimo, clases de socios y sus derechos básicos de voz y voto, admisión y baja, derechos y deberes, órganos y régimen de aportaciones y reembolso); el régimen disciplinario del art. 24, incluida la regla imperativa de que la expulsión solo procede por falta muy grave; y ciertas cifras reservadas: el preaviso de la baja voluntaria (art. 20.1), la permanencia mínima (art. 20.2) y el porcentaje de deducción del reembolso y su plazo máximo (art. 66.4 y 66.5).",
+        "Todo lo demás —importes y tramos de cuotas, normas de uso y convivencia, calendario y prioridad de reservas, listas de espera, comisiones, procedimientos y protocolos— es cuantitativo y cambiante: es materia natural del RRI, que se revisa en Asamblea sin depender del Registro."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Principio rector: Estatutos mínimos, RRI amplio y revisable",
+          "text": "Los presentes Estatutos regularán únicamente las materias que la Ley 4/2002 de Cooperativas de Castilla y León reserva a rango estatutario, y lo harán de forma genérica, a modo de plantilla, remitiendo su desarrollo al Reglamento de Régimen Interno en todo aquello que la ley permita. El Reglamento de Régimen Interno, aprobado y modificado por la Asamblea general, desarrollará con detalle las materias operativas y cuantitativas, sin poder contradecir la ley ni estos Estatutos, y sin requerir escritura pública ni inscripción registral.",
+          "note": "Fija el criterio rector transversal: suelo estatutario mínimo y de plantilla, desarrollo amplio y revisable en el RRI, para ganar agilidad y no depender del Registro. Cláusula de cierre inspirada en el art. 65 de Pepu/Pequeño Pueblo (CyL)."
+        },
+        {
+          "target": "estatutos",
+          "heading": "Suelo legal reservado a los Estatutos",
+          "text": "Se regularán necesariamente en estos Estatutos, sin poder relegarse al Reglamento: el contenido mínimo del artículo 13 (denominación y clase, domicilio, ámbito territorial, duración, objeto social, capital social mínimo, clases de personas socias [Socio A / Socio B] y sus derechos básicos de voz y voto, admisión y baja voluntaria y obligatoria y sus causas, derechos y deberes, órganos sociales y régimen de aportaciones y su reembolso); el régimen disciplinario del artículo 24, con la tipificación de faltas y la regla de que la expulsión solo procede por falta muy grave; el preaviso de la baja voluntaria (artículo 20.1) y la permanencia mínima (artículo 20.2); y el porcentaje de deducción sobre el reembolso y su plazo máximo (artículo 66.4 y 66.5). El Reglamento de Régimen Interno podrá desarrollar el detalle procedimental de estas materias sin alterar su contenido.",
+          "note": "Es el suelo legal inamovible. El art. 24 (expulsión solo por falta muy grave) y las cifras de preaviso, permanencia y deducción del reembolso están reservados a los Estatutos y no pueden vivir en el RRI. Aviso: el encaje del \"Socio B sin voto\" debe revisarse jurídicamente (art. 26 reserva ese estatus a quien no usa la casa)."
+        },
+        {
+          "target": "rri",
+          "heading": "Desarrollo amplio en el Reglamento de Régimen Interno",
+          "text": "El Reglamento de Régimen Interno concretará todo lo operativo y cuantitativo: los importes y tramos vigentes de la cuota de mantenimiento [~40/60/80 €] y de la cuota de uso [socios y mantenedores 0,5 €/día; no mantenedores 7 €/día; invitados 14 €/día adultos y 5 € menores]; las normas de convivencia, buen trato y uso de los espacios comunes; el calendario, los turnos y la prioridad de reservas entre Socio A y Socio B; el funcionamiento de la lista de espera y de las comisiones; y los procedimientos y protocolos de admisión, acompañamiento y comunicación de la baja. Su aprobación y modificación corresponde a la Asamblea general y no requiere escritura pública ni inscripción registral.",
+          "note": "Todo esto es operativo, cuantitativo y revisable; ubicarlo en el RRI evita una reforma estatutaria (2/3, escritura, registro) por cada ajuste de un importe o de un protocolo."
+        }
+      ],
+      "openDecisions": [
+        "¿Qué importes y tramos de cuotas se dejan expresamente en el RRI y qué mínimos, si alguno, se mencionan en Estatutos?",
+        "¿Se aprueba el RRI a la vez que los Estatutos o se acuerda un primer RRI poco después de la constitución?",
+        "¿La cláusula estatutaria de remisión será general (\"los Estatutos se desarrollarán por un RRI\") o con una lista de materias delegadas?",
+        "¿Qué mayoría interna se exige para modificar el RRI (la ley solo pide acuerdo de Asamblea) para que no sea demasiado fácil ni demasiado rígido?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas del grupo. Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
+  "suggestedClause": {
+    "text": "Los Estatutos regularán solo el suelo que la ley reserva a rango estatutario y de la forma más genérica posible, remitiendo al Reglamento de Régimen Interno todo lo que la Ley 4/2002 permita, para poder revisarlo en Asamblea sin escritura pública ni inscripción registral. Se reservan a los Estatutos el contenido mínimo del artículo 13 (clases de socios, admisión y baja, reembolso de aportaciones, órganos), el régimen disciplinario del artículo 24 (con la expulsión solo por falta muy grave) y las cifras reservadas de preaviso, permanencia mínima y deducción del reembolso; se remiten al Reglamento las normas de uso y convivencia, los importes de las cuotas y los procedimientos operativos.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

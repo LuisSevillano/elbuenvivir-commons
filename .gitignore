@@ -6,4 +6,5 @@ build
 .env.*
 !.env.example
 docs
+project-context
 .DS_Store

@@ -1,53 +1,43 @@
 {
   "slug": "conflictos_y_mediacion",
-  "generatedAt": "2026-05-14T09:24:12.464Z",
+  "generatedAt": "2026-07-07T07:29:53.048Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/conflictos_y_mediacion.md",
     "referencesCount": 10,
     "documents": [
-      "Docs-estatutos-estatutos-entrepatios",
-      "Docs-estatutos-estatutos-la-borda",
-      "Docs-estatutos-estatutos-losnidales",
-      "Docs-estatutos-estatutos-pepu",
-      "Docs-estatutos-estatutos-pequenopueblo",
-      "Docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
-      "Docs-guias-las-guias-de-sostre-civic",
-      "Docs-leyes-normativa-autonomica",
-      "Docs-leyes-normativa-estatal",
-      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "Docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
-      "Docs-rri-rri-vallecas2homes"
+      "docs-estatutos-estatutos-pepu",
+      "docs-estatutos-estatutos-pequenopueblo",
+      "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "docs-guias-las-guias-de-sostre-civic",
+      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2014-9959-ley-5-2014",
+      "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso"
     ]
   },
   "summary": {
     "overview": [
-      "Los extractos más claros relacionan este tema con conflictos y mediación, mantenimiento y cuidados del espacio.",
-      "Aparecen ejemplos en varios proyectos, entre ellos EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO, Las GuíAs De Sostre CíVic, Normativa Autonomica, Normativa Estatal.",
+      "Los extractos más claros relacionan este tema con conflictos y mediación.",
+      "Aparecen ejemplos en varios proyectos, entre ellos EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO, Estatutos Pepu, Estatutos Pequenopueblo, Las GuíAs De Sostre CíVic.",
       "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados."
     ],
     "commonPatterns": [
-      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados.",
-      "Las reglas de mantenimiento suelen concretar responsabilidades de cuidado, limpieza u obras."
+      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados."
     ],
     "majorDifferences": [
       "Las diferencias prácticas dependen de si el proyecto prioriza reglas estables, procedimientos internos o soluciones caso por caso."
     ],
     "commonRisks": [
-      "Sin un cauce claro, desacuerdos pequeños pueden convertirse en conflictos societarios.",
-      "Si las tareas comunes no se reparten con claridad, pueden concentrarse cargas invisibles."
+      "Sin un cauce claro, desacuerdos pequeños pueden convertirse en conflictos societarios."
     ],
     "commonTradeoffs": [
-      "Autonomía comunitaria vs necesidad de procedimiento claro"
+      "autonomía comunitaria vs necesidad de procedimiento claro"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Principios de convivencia y posibilidad de mediación o régimen disciplinario",
-      "Obligación general de contribuir al cuidado y conservación"
+      "principios de convivencia y posibilidad de mediación o régimen disciplinario"
     ],
     "usuallyInRRI": [
-      "Pasos de mediación, tiempos de respuesta y personas de referencia",
-      "Turnos, avisos, criterios de obras y gestión de incidencias"
+      "pasos de mediación, tiempos de respuesta y personas de referencia"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -61,75 +51,70 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "Decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
+      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "Decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
+      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito"
     ],
     "pointsToDecideSoon": [
-      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "Decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
+      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito"
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Autonomía comunitaria vs necesidad de procedimiento claro"
+    "autonomía comunitaria vs necesidad de procedimiento claro"
   ],
   "notableProjects": [
     {
       "projectName": "Las GuíAs De Sostre CíVic",
-      "notableBecause": "Aparece en relación con conflictos y mediación, mantenimiento y cuidados del espacio.",
-      "references": [
-        "Las GuíAs De Sostre CíVic - Título (xx minutos)",
-        "Las GuíAs De Sostre CíVic - Título original: Transformem l’entorn",
-        "Las GuíAs De Sostre CíVic - Título original: Cures en la convivència de persones grans"
-      ]
-    },
-    {
-      "projectName": "Estatutos Entrepatios",
       "notableBecause": "Aparece en relación con conflictos y mediación.",
       "references": [
-        "Estatutos Entrepatios - Artículo 60. Conflicto de intereses.",
-        "Estatutos Entrepatios - Artículo 60. Conflicto de intereses. ..................................................................................................................... 55"
-      ]
-    },
-    {
-      "projectName": "Estatutos Pepu",
-      "notableBecause": "Aparece en relación con conflictos y mediación.",
-      "references": [
-        "Estatutos Pepu - Artículo 35.- Conflicto de intereses y responsabilidad.",
-        "Estatutos Pepu - Art. 35 Conflicto de intereses y responsabilidad 33"
-      ]
-    },
-    {
-      "projectName": "Estatutos Pequenopueblo",
-      "notableBecause": "Aparece en relación con conflictos y mediación.",
-      "references": [
-        "Estatutos Pequenopueblo - Artículo 35.- Conflicto de intereses y responsabilidad.",
-        "Estatutos Pequenopueblo - Art. 35 Conflicto de intereses y responsabilidad 33"
-      ]
-    },
-    {
-      "projectName": "Normativa Estatal",
-      "notableBecause": "Aparece en relación con conflictos y mediación.",
-      "references": [
-        "Normativa Estatal - Artículo 42. Conflicto de intereses con la cooperativa.",
-        "Normativa Estatal - Artículo 42. Conflicto de intereses con la cooperativa. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28"
+        "Las GuíAs De Sostre CíVic - 9.1. Qué son los conflictos",
+        "Las GuíAs De Sostre CíVic - 9.2. Las condiciones para",
+        "Las GuíAs De Sostre CíVic - CONSTRUIMOS VIVIENDA COOPERATIVA"
       ]
     },
     {
       "projectName": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
       "notableBecause": "Aparece en relación con conflictos y mediación.",
       "references": [
-        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - Artículo 12. Resolución de Conflictos"
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - 2. Arbitraje: Si las negociaciones y la mediación no logran resolver el conflicto, las",
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - 1. Negociación y Mediación: Las partes involucradas deberán realizar esfuerzos de"
+      ]
+    },
+    {
+      "projectName": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+      "notableBecause": "Aparece en relación con conflictos y mediación.",
+      "references": [
+        "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4 - q) La cláusula de sometimiento a la conciliación previa, a la mediación y al arbitraje cooperativo,",
+        "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4 - COHOUSING SENIOR Y COOPERATIVISMO DE CONSUMO"
+      ]
+    },
+    {
+      "projectName": "Estatutos Pepu",
+      "notableBecause": "Aparece en relación con conflictos y mediación.",
+      "references": [
+        "Estatutos Pepu - Artículo 35.- Conflicto de intereses y responsabilidad."
+      ]
+    },
+    {
+      "projectName": "Estatutos Pequenopueblo",
+      "notableBecause": "Aparece en relación con conflictos y mediación.",
+      "references": [
+        "Estatutos Pequenopueblo - Artículo 35.- Conflicto de intereses y responsabilidad."
+      ]
+    },
+    {
+      "projectName": "Otras Leyes, Decretos, Modificaciones",
+      "notableBecause": "Aparece en relación con conflictos y mediación.",
+      "references": [
+        "BOE A 2014 9959 Ley+5 2014 - f) Actuar como órgano de mediación en los conflictos colectivos que se"
       ]
     }
   ],

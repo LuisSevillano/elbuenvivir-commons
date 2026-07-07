@@ -1,0 +1,184 @@
+{
+  "slug": "derechos_y_obligaciones",
+  "title": "Derechos y obligaciones",
+  "shortDescription": "Qué derechos (voto, información, uso de la vivienda, participación, retorno) y qué obligaciones (cuotas, participación en la actividad y en las tareas, respeto a las normas) tienen las personas socias de El Buen Vivir según la Ley 4/2002 CyL (arts. 22-23), y cómo encaja la distinción entre Socio A y Socio B.",
+  "category": "socios",
+  "minimumContents": [
+    "Enumerar los derechos de la persona socia (voto, información, uso, participación, retorno, baja).",
+    "Enumerar las obligaciones (pago de cuotas, participación en la actividad y en las tareas, asistencia a la Asamblea, respeto a las normas, secreto).",
+    "Aclarar qué derechos tiene el Socio A (voz y voto) y qué derechos tiene el Socio B (voz sin voto).",
+    "Fijar la cuantía mínima de participación en la actividad cooperativizada y en las tareas comunes.",
+    "Blindar los derechos irrenunciables (información y retorno no se suspenden ni por sanción).",
+    "Repartir entre Estatutos (catálogo de derechos y deberes) y RRI (detalle de tareas y turnos)."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿El Socio B tiene voto o solo voz? El derecho de voto es el núcleo del art. 22; negárselo a quien usa la casa es el punto jurídicamente frágil (art. 26 reserva el 'sin voto' a quien NO realiza actividad cooperativizada).",
+    "¿Cuál es la 'cuantía mínima obligatoria' de participación en la actividad (uso) que exige el art. 23.2.b, y cómo se concreta la participación en las tareas de mantenimiento y cuidado?",
+    "¿Qué obligaciones económicas son exigibles a cada tipo (cuota umbral solo al Socio A; mantenimiento y uso a A y B)?",
+    "¿Se recoge en Estatutos el retorno de aportaciones sobrantes de la compra, aún abierto en actas (Reunión 21)?",
+    "¿Qué se pone en Estatutos (catálogo de derechos y deberes) y qué se deja al RRI (turnos concretos de tareas, protocolo de información)?"
+  ],
+  "risks": [
+    "Un Socio B que usa la casa habitualmente y no vota choca con el art. 22 (voz y voto es un derecho del socio que realiza actividad) y con el art. 26 (el 'sin voto' es para quien NO la realiza): revisión jurídica obligada.",
+    "Suspender por sanción el derecho de información o el retorno sería nulo: el art. 24.4 los declara irrenunciables.",
+    "No fijar la cuantía mínima de participación en la actividad (art. 23.2.b) deja sin base la obligación de usar la casa y de colaborar en tareas.",
+    "Copiar catálogos de derechos de cooperativas de viviendas (uso indefinido, residencia habitual) sin adaptarlos al uso vacacional compartido de El Buen Vivir."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "El catálogo de derechos y obligaciones afecta a la condición de persona socia: es contenido estatutario y no puede vaciarse por debajo del mínimo legal (arts. 22-23).",
+      "El desarrollo operativo (turnos de tareas, protocolo de información, calendario de participación) es revisable y encaja mejor en el RRI."
+    ],
+    "shouldBeInStatutes": [
+      "Enumeración de derechos (voto, información, uso, participación, retorno, baja) y de obligaciones (cuotas, participación en la actividad, secreto, aceptar cargos, respeto a las normas).",
+      "Qué clase de socio vota (A) y cuál tiene voz sin voto (B), con su encaje legal.",
+      "La cuantía mínima obligatoria de participación en la actividad cooperativizada (art. 23.2.b).",
+      "El blindaje de los derechos irrenunciables de información y retorno frente a sanciones (art. 24.4)."
+    ],
+    "shouldBeInRRI": [
+      "Reparto concreto de tareas de mantenimiento y cuidado, turnos y calendario.",
+      "Procedimiento y plazos internos para ejercer el derecho de información.",
+      "Detalle de la participación en la vida comunitaria y en las comisiones."
+    ],
+    "canBeDeferredInitially": [
+      "Cuadrantes finos de tareas y formularios de solicitud de información."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Detallar en Estatutos turnos concretos de tareas los vuelve rígidos y obliga a modificar los Estatutos ante cada ajuste."
+    ],
+    "risksIfPlacedInRRI": [
+      "Dejar solo en el RRI el derecho de voto o el catálogo de deberes debilitaría derechos que la ley exige a rango estatutario."
+    ]
+  },
+  "relatedTopics": [
+    { "topicSlug": "clases_de_socios", "relationship": "depends_on", "explanation": "Los derechos de voto y uso dependen de si se es Socio A o Socio B." },
+    { "topicSlug": "baja_socio", "relationship": "complements", "explanation": "El derecho de baja voluntaria es uno de los derechos del art. 22 y su ejercicio libera de las obligaciones." },
+    { "topicSlug": "aportaciones_obligatorias", "relationship": "complements", "explanation": "Las obligaciones económicas (cuotas) son una de las obligaciones del art. 23." }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "El Buen Vivir es una cooperativa de usuarios de Castilla y León (Ley 4/2002). La ley fija en sus artículos 22 y 23 un catálogo de derechos y obligaciones de la persona socia que los Estatutos deben respetar: son un suelo, no un techo. Los Estatutos pueden añadir derechos y deberes (art. 22.2.j y 23.1), pero no rebajar los que la ley reconoce a quien realiza la actividad cooperativizada.",
+        "El derecho de voto (voz y voto en la Asamblea) y el derecho de información son el núcleo político del socio, y el art. 24.4 los blinda: ni la información ni el retorno pueden suspenderse como sanción. La obligación central es doble: participar en la actividad cooperativizada en la cuantía mínima que fijen los Estatutos (art. 23.2.b) y cumplir las obligaciones económicas (art. 23.2.e). Aquí aparece el punto delicado de El Buen Vivir: usar la casa ES la actividad cooperativizada, de modo que un Socio B usuario habitual encaja con dificultad en un régimen 'sin voto'."
+      ],
+      "requirements": [
+        { "aspect": "Catálogo de derechos", "law": "Ley 4/2002 CyL, art. 22.2", "requirement": "Derecho a ser elector y elegible; a voz y voto; a retorno; a devolución de aportaciones; a baja voluntaria; a formación; a participar en las actividades; a información.", "margin": "Los Estatutos pueden añadir derechos, no restar los legales." },
+        { "aspect": "Derecho de información", "law": "Ley 4/2002 CyL, art. 22.3", "requirement": "Copia de Estatutos y RRI; acceso al Libro de Actas; estado de su situación económica; documentación de las cuentas antes de la Asamblea; aclaraciones al Consejo Rector.", "margin": "Podéis ampliar cauces (comisiones, medios digitales); no reducir el mínimo." },
+        { "aspect": "Catálogo de obligaciones", "law": "Ley 4/2002 CyL, art. 23.2", "requirement": "Asistir a la Asamblea y cumplir sus acuerdos; participar en la actividad cooperativizada; guardar secreto; aceptar cargos salvo justa causa; cumplir las obligaciones económicas; no competencia.", "margin": "Definís tareas y deberes concretos por encima del mínimo." },
+        { "aspect": "Participación en la actividad", "law": "Ley 4/2002 CyL, art. 23.2.b", "requirement": "Participar en la actividad cooperativizada en la cuantía mínima obligatoria que fijen los Estatutos; el Consejo Rector puede liberar por causa justificada.", "margin": "Fijáis la cuantía mínima (uso de la casa, tareas comunes)." },
+        { "aspect": "Derechos irrenunciables", "law": "Ley 4/2002 CyL, art. 24.4", "requirement": "La suspensión de derechos por sanción no puede alcanzar al derecho de información, al retorno ni al devengo de intereses.", "margin": "Sin margen: son irrenunciables." },
+        { "aspect": "Voto de figuras sin actividad", "law": "Ley 4/2002 CyL, arts. 26 y 35.6", "requirement": "Solo las figuras que NO realizan actividad cooperativizada (colaborador) pueden carecer de voto o tenerlo ponderado, con tope del 33 %.", "margin": "Relevante para decidir el encaje del Socio B 'sin voto'." }
+      ],
+      "citations": [
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 22.2 (derechos de los socios)", "excerpt": "En especial tienen derecho: a) Ser elector y elegible para los cargos representativos de los órganos sociales... b) Participar libremente con voz y voto y con sujeción a las prescripciones estatutarias en los debates y acuerdos de la Asamblea general... d) Percibir el retorno cooperativo, en su caso. e) Actualización, devolución y transmisión de sus aportaciones al capital social, cuando proceda. f) Separarse de la sociedad, mediante el ejercicio del derecho a la baja voluntaria... h) Participar en las actividades empresariales y sociales de la cooperativa. i) Recibir la información necesaria para el ejercicio de sus derechos y el cumplimiento de sus obligaciones..." },
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 23.2 (obligaciones de los socios)", "excerpt": "En especial, los socios tendrán las siguientes obligaciones: a) Asistir a las reuniones de la Asamblea general y de los demás órganos sociales de los que formen parte, así como cumplir los acuerdos válidamente adoptados por los mismos. b) Participar en las actividades cooperativizadas que desarrolla la cooperativa para el cumplimiento de su fin social, en la cuantía mínima obligatoria establecida en los Estatutos. El Consejo Rector, cuando exista causa justificada, podrá liberar de dicha obligación al socio... c) Guardar secreto sobre aquellos asuntos y datos de la cooperativa cuya divulgación pueda perjudicar a los intereses sociales lícitos. d) Aceptar los cargos para los que fueren elegidos, salvo justa causa. e) Cumplir con las obligaciones económicas que le correspondan. f) No realizar actividades en competencia con las que sean objeto de la cooperativa, salvo autorización expresa del Consejo Rector." },
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 24.4 (derechos irrenunciables ante sanción)", "excerpt": "La sanción de suspender al socio en sus derechos, que no podrá alcanzar al derecho de información ni, en su caso, al de percibir retorno, ni al devengo de intereses por sus aportaciones al capital social, se aplicará sólo para el supuesto en que el socio esté al descubierto de sus obligaciones económicas o no participe en las actividades cooperativizadas en los términos establecidos estatutariamente." }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo enumeran otras cooperativas los derechos y deberes de sus socias. Casi todas son de viviendas o cesión de uso indefinido; El Buen Vivir es de uso vacacional compartido, así que el catálogo es orientativo.",
+      "columns": [
+        { "key": "voto", "label": "Voz/voto y figuras sin voto" },
+        { "key": "uso", "label": "Derecho de uso" },
+        { "key": "tareas", "label": "Obligación de participar (actividad/tareas)" },
+        { "key": "info", "label": "Derecho de información" }
+      ],
+      "rows": [
+        {
+          "project": "Pequeño Pueblo (Castilla y León)",
+          "cells": {
+            "voto": "Residentes: voz y voto (igualdad). Colaboradoras: voto ≤ 25 % del total; sin órganos de administración",
+            "uso": "Disfrutar de la vivienda asignada y de los servicios generales",
+            "tareas": "Participar en las actividades y servicios de la cooperativa sin discriminación",
+            "info": "Derecho de información conforme al art. 22 de la Ley CyL"
+          },
+          "documentSlug": "docs-estatutos-estatutos-pepu",
+          "articleOrSection": "Artículo 11 — Derechos de las personas socias",
+          "excerpt": "En especial, toda persona socia residente tiene derecho a: [...] Asistir, formular propuestas según la regulación estatutaria y participar con su voz y voto en la adopción de acuerdos por la Asamblea General... Participar en las actividades y servicios que desarrolla la Cooperativa, para el cumplimiento de su fin social, sin ninguna discriminación o restricción arbitraria... Disfrutar de la vivienda asignada por la Cooperativa y los servicios y prestaciones que la misma facilite con carácter general. [...] Las personas socias Colaboradoras tienen los mismos derechos con las siguientes excepciones: a) No pueden superar el 25% del total de los votos de la Asamblea General. b) No podrán formar parte de los órganos de administración de la cooperativa. [...] d) Por su propia tipología no pueden disfrutar de una vivienda."
+        },
+        {
+          "project": "La Seronda (Asturias)",
+          "cells": {
+            "voto": "Un socio, un voto; entre convivientes el voto se concede solo a uno",
+            "uso": "Ocupación efectiva del apartamento asignado, que puede compartir",
+            "tareas": "Participar en la actividad en la cuantía mínima fijada por la Asamblea; el órgano de administración puede liberar por causa justificada",
+            "info": "Información necesaria para ejercer derechos y cumplir obligaciones"
+          },
+          "documentSlug": "docs-estatutos-estatutos-laseronda-org",
+          "articleOrSection": "Artículos 11 y 12 — Obligaciones y derechos de los socios",
+          "excerpt": "Todo socio está obligado a [...] Participar en las actividades que constituyen el objeto de la cooperativa, cuanto menos en la cuantía mínima fijada por la Asamblea General atendiendo a las circunstancias de cada socio. El órgano de administración, cuando exista causa justificada, podrá liberar de dicha obligación al socio, en la cuantía que proceda, en función de las circunstancias que concurran. [...] Efectuar el desembolso de sus aportaciones al capital social en la forma y plazos establecidos, y cumplir el resto de obligaciones económicas... Todo socio tiene derecho a [...] Ser elector y elegible para los cargos de los órganos sociales... Recibir la información necesaria para el ejercicio de sus derechos y el cumplimiento de sus obligaciones en la forma establecida en la Ley y en estos Estatutos."
+        },
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": {
+            "voto": "Voz y voto; colaboradoras y personas socias excedentes: voz pero sin voto, sin Consejo Rector",
+            "uso": "Adjudicatarias del derecho de uso sobre la vivienda y elementos vinculados",
+            "tareas": "Conservar el edificio y la vivienda y participar en las actividades de mantenimiento",
+            "info": "Recibir información en los términos del artículo de Derecho de Información"
+          },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Artículos 9 y 10 — Obligaciones y derechos de las personas socias",
+          "excerpt": "Las personas socias estarán obligadas a: [...] Asistir a las reuniones de la Asamblea General... y acatar los acuerdos válidamente adoptados por los mismos... Conservar en buen estado el edificio y la vivienda cedida en uso y participar en las actividades de mantenimiento del edificio... Efectuar el desembolso de las aportaciones al capital social y resto de obligaciones económicas que les correspondan. [...] Las personas socias tendrán derecho a: Ser adjudicatarias del derecho de uso sobre la vivienda... Formular propuestas y participar con su voz y voto en la adopción de acuerdos por la Asamblea General... Las/os colaboradoras/es tendrán derecho de voz pero no de voto en la Asamblea General, y no podrán ser miembros del Consejo Rector de la Cooperativa."
+        },
+        {
+          "project": "Tarocohousing (Canarias)",
+          "cells": {
+            "voto": "Voz y voto todas las clases; colaboradoras con voto ≤ 10 % del total. El voto y la información no se suspenden ni por sanción",
+            "uso": "Socias de vivienda: uso y disfrute de vivienda y zonas comunes, extendido a convivientes",
+            "tareas": "Participar en la actividad cooperativizada y en la formación; contribuir a la solidaridad y al co-cuidado",
+            "info": "Información sobre la marcha de la cooperativa por medios digitales; derecho irrenunciable"
+          },
+          "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+          "articleOrSection": "Artículos 13 y 14 — Derechos y obligaciones de las personas socias",
+          "excerpt": "Los derechos de las personas socias, sea cual sea su clase, sólo se pueden suspender temporalmente como una modalidad de sanción, prevista en estos Estatutos, o de medida cautelar en un expediente sancionador. En ningún caso pueden quedar afectados el derecho de información, el derecho de voto en la asamblea general, ni los derechos que la ley exceptúe. [...] La persona socia de vivienda y la persona socia de consumo tendrán las siguientes obligaciones: Cumplir lo establecido en la Ley de Cooperativas, en estos Estatutos y en el Reglamento de Régimen Interno... Asistir personalmente o bajo representación a las Asambleas salvo causa justificada... Participar en la actividad cooperativizada... Cumplir con las obligaciones económicas que le correspondan... Guardar secreto sobre aquellos asuntos y datos de la cooperativa cuya divulgación pueda perjudicar los intereses legítimos de ésta... Contribuir con sus acciones a la solidaridad y al co-cuidado del resto de cooperativistas... Participar en las actividades de formación y promoción cooperativa."
+        }
+      ],
+      "note": "Patrón común: el catálogo de derechos (voto, uso, información, participación) y de deberes (asistencia, actividad, cuotas, secreto, cuidado) reproduce casi literalmente la ley. Ninguna crea un socio que USA la vivienda habitualmente y NO vota: el 'voz sin voto' se reserva a colaboradoras o excedentes que NO realizan la actividad. Ese es justamente el punto delicado del Socio B de El Buen Vivir."
+    },
+    "proposal": {
+      "rationale": [
+        "El Buen Vivir es cooperativa de usuarios con el principio '1 persona = 1 voto': el catálogo de derechos debe girar en torno al voto, la información, el uso de la casa y la participación, y el de deberes en torno a las cuotas y a la participación en la actividad y en las tareas de cuidado (valores de horizontalidad, autogestión y cuidado).",
+        "El grupo aprobó (Reuniones 19-21, 2026) que el Socio A tiene voz y voto y el Socio B usa la casa, paga mantenimiento y uso, y tiene voz pero sin voto. La propuesta recoge esos derechos y deberes, pero señala que el 'sin voto' del Socio B es el punto que debe validar el jurista, porque quien usa la casa realiza la actividad cooperativizada.",
+        "Las obligaciones económicas ya decididas (cuota umbral solo del Socio A; mantenimiento por tramos ~40/60/80 €; uso diario diferenciado) se remiten al artículo de cuotas; aquí basta con enunciar el deber genérico de cumplir las obligaciones económicas que correspondan a cada tipo.",
+        "El derecho de información y el retorno se blindan como irrenunciables (art. 24.4), coherente con la cultura de transparencia del grupo."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Derechos de las personas socias",
+          "text": "Las personas socias tienen derecho a: (a) ser electoras y elegibles para los cargos de los órganos de la cooperativa; (b) participar con voz y voto en la Asamblea General, conforme al principio de una persona, un voto; (c) usar y disfrutar de la vivienda y de los espacios comunes en los términos de estos Estatutos y del Reglamento de Régimen Interno; (d) recibir la información necesaria para el ejercicio de sus derechos y el cumplimiento de sus obligaciones, y sobre la marcha de la cooperativa; (e) percibir el retorno cooperativo y la devolución de sus aportaciones cuando proceda; (f) separarse mediante baja voluntaria; y (g) cualesquiera otros reconocidos por la Ley 4/2002 CyL, estos Estatutos y el Reglamento de Régimen Interno. La persona socia de tipo B tiene los mismos derechos [salvo el de voto, que se sustituye por voz — a validar jurídicamente]. El derecho de información y el retorno no podrán suspenderse en ningún caso como sanción. Los cauces y plazos concretos para ejercer el derecho de información se desarrollarán en el Reglamento de Régimen Interno.",
+          "note": "Contenido reservado: catálogo de derechos (art. 22) y blindaje de los irrenunciables (art. 24.4), que no pueden rebajarse en el RRI. El corchete sobre el voto del Socio B es el punto que exige revisión jurídica: si usa la casa, realiza actividad cooperativizada y le correspondería voto."
+        },
+        {
+          "target": "estatutos",
+          "heading": "Obligaciones de las personas socias",
+          "text": "Las personas socias están obligadas a: (a) asistir a la Asamblea General y a los órganos de que formen parte, y cumplir sus acuerdos válidamente adoptados; (b) participar en la actividad cooperativizada —el uso de la vivienda y de los espacios comunes— en la cuantía mínima que fijen estos Estatutos, pudiendo el Consejo Rector liberar de esta obligación por causa justificada; (c) participar en las tareas de mantenimiento, gestión y cuidado del espacio común según el reparto que acuerde la cooperativa; (d) cumplir las obligaciones económicas que correspondan a su tipo de socio (cuota umbral, en su caso, y cuotas de mantenimiento y de uso); (e) respetar estos Estatutos, el Reglamento de Régimen Interno y las normas de convivencia; y (f) guardar la debida reserva sobre los asuntos cuya divulgación pueda perjudicar a la cooperativa. El reparto concreto de las tareas de mantenimiento y cuidado y la concreción de la cuantía mínima de participación se desarrollarán en los términos que fije el Reglamento de Régimen Interno.",
+          "note": "Contenido reservado: catálogo de obligaciones (art. 23) y la existencia de una cuantía mínima de participación (art. 23.2.b). El reparto fino de tareas, turnos y calendario se traslada al RRI."
+        },
+        {
+          "target": "rri",
+          "heading": "Participación en tareas e información",
+          "text": "El Reglamento de Régimen Interno concretará: el reparto de tareas de mantenimiento, limpieza, gestión y cuidado, con turnos y calendario revisables por la Asamblea; los cauces y plazos para ejercer el derecho de información (documentación accesible, medios digitales, protocolo de solicitud al Consejo Rector); y la participación en las comisiones activas (Convivencia, Economía, Forma Jurídica, Arquitectura, Comunicación).",
+          "note": "Detalle operativo y revisable sin modificar los Estatutos."
+        }
+      ],
+      "openDecisions": [
+        "¿El Socio B tiene voto o solo voz? (determina su encaje legal en los arts. 22 y 26).",
+        "¿Cuál es la cuantía mínima de participación en la actividad (uso) que exige el art. 23.2.b?",
+        "¿Cómo se concreta la obligación de participar en las tareas y cuidados: turnos, horas, corresponsabilidad?",
+        "¿Se enuncia en Estatutos el derecho de retorno de aportaciones sobrantes, aún abierto en actas (Reunión 21)?",
+        "¿Qué mayorías se exigen para cada tipo de acuerdo (aún con interrogantes en el borrador de Estatutos)?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas del grupo. Debe revisarse jurídicamente antes de aprobarse, en especial el régimen de voto del Socio B."
+    }
+  },
+  "suggestedClause": {
+    "text": "Las personas socias tienen derecho a voz y voto en la Asamblea General (una persona, un voto), al uso de la vivienda y los espacios comunes, a la información sobre la marcha de la cooperativa, al retorno y a la baja voluntaria. Están obligadas a asistir a la Asamblea y cumplir sus acuerdos, a participar en la actividad cooperativizada y en las tareas comunes en la cuantía que fijen estos Estatutos y el Reglamento de Régimen Interno, a cumplir sus obligaciones económicas y a respetar las normas de convivencia. El derecho de información y el retorno no podrán suspenderse como sanción.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente, en especial el régimen de voto del Socio B.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

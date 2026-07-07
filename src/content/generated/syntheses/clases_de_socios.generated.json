@@ -1,21 +1,21 @@
 {
   "slug": "clases_de_socios",
-  "generatedAt": "2026-05-14T09:24:12.461Z",
+  "generatedAt": "2026-07-07T07:29:53.043Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/clases_de_socios.md",
-    "referencesCount": 6,
+    "referencesCount": 9,
     "documents": [
-      "Docs-estatutos-estatutos-laseronda-org",
-      "Docs-estatutos-estatutos-tarocohousing",
-      "Docs-leyes-normativa-autonomica",
-      "Docs-leyes-normativa-estatal",
-      "Docs-otros-mod-estatutos-coop-viviendas"
+      "docs-estatutos-estatutos-laseronda-org",
+      "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "docs-leyes-normativa-autonomica",
+      "docs-leyes-normativa-estatal",
+      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010"
     ]
   },
   "summary": {
     "overview": [
       "Los extractos más claros relacionan este tema con admisión de personas socias, baja o salida de una persona socia, derechos y obligaciones.",
-      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Laseronda.Org, Normativa Autonomica.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Laseronda.Org, GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4, Normativa Autonomica, Normativa Estatal.",
       "Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones."
     ],
     "commonPatterns": [
@@ -34,21 +34,21 @@
       "Sin garantías mínimas, el régimen disciplinario puede convertirse en una fuente de impugnación o conflicto interno."
     ],
     "commonTradeoffs": [
-      "Salida flexible vs estabilidad económica del proyecto"
+      "salida flexible vs estabilidad económica del proyecto"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Criterios básicos de admisión y derechos de las personas socias",
-      "Causas y clases de baja, pérdida de condición de socia y efectos económicos básicos",
-      "Derechos y obligaciones esenciales de las personas socias",
-      "Causas generales de expulsión, garantías y órgano competente"
+      "criterios básicos de admisión y derechos de las personas socias",
+      "causas y clases de baja, pérdida de condición de socia y efectos económicos básicos",
+      "derechos y obligaciones esenciales de las personas socias",
+      "causas generales de expulsión, garantías y órgano competente"
     ],
     "usuallyInRRI": [
-      "Pasos internos de solicitud, acompañamiento y documentación de la incorporación",
-      "Procedimiento interno de comunicación, acompañamiento de salida y cierre de usos o llaves",
-      "Pautas cotidianas para hacer efectivos esos derechos y deberes",
-      "Tramitación concreta, plazos de audiencia y mediación previa cuando proceda"
+      "pasos internos de solicitud, acompañamiento y documentación de la incorporación",
+      "procedimiento interno de comunicación, acompañamiento de salida y cierre de usos o llaves",
+      "pautas cotidianas para hacer efectivos esos derechos y deberes",
+      "tramitación concreta, plazos de audiencia y mediación previa cuando proceda"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -62,46 +62,47 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "Decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido"
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "Decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido"
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido"
     ],
     "pointsToDecideSoon": [
-      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "Decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
-      "Separar obligaciones esenciales de compromisos prácticos revisables",
-      "Decidir qué conflictos deben pasar por mediación antes de convertirse en sanción"
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
+      "separar obligaciones esenciales de compromisos prácticos revisables",
+      "decidir qué conflictos deben pasar por mediación antes de convertirse en sanción"
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Salida flexible vs estabilidad económica del proyecto"
+    "salida flexible vs estabilidad económica del proyecto"
   ],
   "notableProjects": [
     {
-      "projectName": "Normativa Autonomica",
-      "notableBecause": "Aparece en relación con admisión de personas socias, derechos y obligaciones.",
+      "projectName": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+      "notableBecause": "Aparece en relación con admisión de personas socias, baja o salida de una persona socia, derechos y obligaciones.",
       "references": [
-        "Normativa Autonomica - Artículo 26. Socio colaborador y socio de servicios.",
-        "Normativa Autonomica - Sección 3.ª Otras clases de socios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18",
-        "Normativa Autonomica - Sección 3.ª Otras clases de socios"
+        "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4 - i) Las clases de socios, los requisitos para su admisión, los supuestos de baja voluntaria y de baja",
+        "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4 - c) Socios colaboradores o asociados",
+        "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4 - q) La cláusula de sometimiento a la conciliación previa, a la mediación y al arbitraje cooperativo,"
       ]
     },
     {
-      "projectName": "Normativa Estatal",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "projectName": "Normativa Autonomica",
+      "notableBecause": "Aparece en relación con admisión de personas socias, baja o salida de una persona socia.",
       "references": [
-        "Normativa Estatal - Artículo 46. Aportaciones obligatorias.",
-        "Normativa Estatal - Artículo 52. Aportaciones que no forman parte del capital social."
+        "Normativa Autonomica - artículo 26 la competencia exclusiva en materia de cooperativas. Esta norma encontró un",
+        "Normativa Autonomica - Sección 3.ª Otras clases de socios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18",
+        "Normativa Autonomica - g) Clases de socios, requisitos y procedimiento de admisión, baja voluntaria y obligatoria,"
       ]
     },
     {
@@ -112,17 +113,17 @@
       ]
     },
     {
-      "projectName": "Estatutos Tarocohousing",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "projectName": "Normativa Estatal",
+      "notableBecause": "Aparece en relación con admisión de personas socias, baja o salida de una persona socia.",
       "references": [
-        "Estatutos Tarocohousing - Artículo 40.- Aportaciones de las nuevas personas socias"
+        "Normativa Estatal - j) Las clases de socios, requisitos para su admisión y baja voluntaria u obligatoria y"
       ]
     },
     {
-      "projectName": "MOD ESTATUTOS COOP VIVIENDAS",
+      "projectName": "Otras Leyes, Decretos, Modificaciones",
       "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
       "references": [
-        "MOD ESTATUTOS COOP VIVIENDAS - ARTÍCULO 46.- APORTACIONES DE LOS NUEVOS SOCIOS."
+        "BOE A 2010 20034 Orden+EHA+3360 2010 - c) La cuantía restante, en su caso, que será imputada a las distintas clases de socios"
       ]
     }
   ],

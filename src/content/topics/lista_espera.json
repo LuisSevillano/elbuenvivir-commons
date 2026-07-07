@@ -1,0 +1,222 @@
+{
+  "slug": "lista_espera",
+  "title": "Lista de espera",
+  "shortDescription": "Cómo regular la figura de las personas socias expectantes y la lista de espera para cubrir plazas en una cooperativa de usuarios de Castilla y León: criterio de prioridad de entrada, relación con la admisión y con la cobertura de la plaza cuando alguien causa baja (que puede desbloquear el reembolso diferido de la cuota umbral).",
+  "category": "socios",
+  "minimumContents": [
+    "Definir la figura de persona socia expectante y su inscripción en la lista de espera.",
+    "Fijar el criterio de prioridad de entrada (antigüedad de inscripción y/o criterios adicionales).",
+    "Conectar la lista de espera con el procedimiento de admisión (quién decide la entrada efectiva).",
+    "Regular qué ocurre con la plaza (derecho de uso) cuando una persona socia causa baja.",
+    "Aclarar la relación entre la cobertura de la plaza y el reembolso diferido de la cuota umbral.",
+    "Decidir si quien está en la lista realiza alguna aportación o cuota mientras espera."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿El criterio de prioridad es solo la antigüedad de inscripción, o se añaden criterios (afinidad con el grupo, equilibrio, vínculo con un Socio A)?",
+    "¿La entrada desde la lista es automática por orden, o requiere acuerdo de la Asamblea, coherente con un grupo pequeño de amigos?",
+    "¿Se condiciona el reembolso de la cuota umbral a que una persona de la lista asuma la plaza? ¿Con qué tope temporal (p. ej. 3 años, máximo 5 legal)?",
+    "¿Quien está en la lista de espera aporta algo (cuota simbólica de expectante) o no aporta nada hasta entrar?",
+    "¿Pueden los Socios B o los miembros de la unidad de convivencia tener preferencia para pasar a Socio A cuando queda una plaza libre?"
+  ],
+  "risks": [
+    "Una lista de espera puramente automática por antigüedad puede chocar con la naturaleza de grupo de amigos que decide la entrada por afinidad y valores.",
+    "Condicionar el reembolso de la cuota umbral a que entre alguien nuevo protege la caja, pero si no hay lista puede dejar a quien sale sin cobrar en un plazo razonable.",
+    "Copiar el modelo de cooperativas de viviendas (contingentes, franjas etarias) sin adaptarlo a una casa rural de uso vacacional compartido puede sobrecargar el reglamento.",
+    "Confundir socio expectante (candidato a entrar y usar la casa) con socio colaborador (aporta sin usar) genera figuras cruzadas y errores de encaje legal."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "La existencia de la figura de socio expectante, el criterio general de prioridad y el vínculo entre cobertura de plaza y reembolso afectan a la condición de socio y a un derecho económico: exigen rango estatutario.",
+      "El procedimiento concreto de inscripción, los criterios finos de prioridad y la gestión de la lista son operativos y revisables: encajan en el RRI."
+    ],
+    "shouldBeInStatutes": [
+      "Existencia y definición de la persona socia expectante y de la lista de espera.",
+      "Exigencia de que el acceso se rija por un criterio objetivo y no discriminatorio (el criterio concreto se remite al RRI).",
+      "Órgano competente para admitir la entrada desde la lista y exigencia de acuerdo de la Asamblea.",
+      "Relación entre la cobertura de la plaza vacante y el reembolso diferido de la cuota umbral (derecho económico reservado)."
+    ],
+    "shouldBeInRRI": [
+      "Procedimiento de inscripción y actualización de datos en la lista.",
+      "Criterios sociales de prioridad y su ponderación.",
+      "Gestión de la lista por la Comisión de Economía y la de Convivencia.",
+      "Aportación o cuota de la persona expectante mientras espera."
+    ],
+    "canBeDeferredInitially": [
+      "La lista de espera propiamente dicha, si al arranque todas las plazas están cubiertas por el grupo fundador; puede activarse cuando surja la primera vacante."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Fijar en estatutos criterios de prioridad detallados los vuelve rígidos y difíciles de ajustar a la realidad del grupo."
+    ],
+    "risksIfPlacedInRRI": [
+      "Dejar sin rango estatutario la relación entre cobertura de plaza y reembolso debilitaría un derecho económico esencial de quien causa baja."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "depends_on",
+      "explanation": "La baja de una persona socia libera la plaza (derecho de uso) que alimenta la lista de espera."
+    },
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "depends_on",
+      "explanation": "La persona socia expectante es una clase de socio que hay que definir en los Estatutos."
+    },
+    {
+      "topicSlug": "reembolso_aportaciones",
+      "relationship": "complements",
+      "explanation": "La entrada de una persona de la lista que asume la plaza y su cuota umbral puede desbloquear el reembolso diferido de quien salió."
+    },
+    {
+      "topicSlug": "admision_socio",
+      "relationship": "depends_on",
+      "explanation": "La incorporación efectiva desde la lista se rige por el procedimiento de admisión de nuevos socios."
+    }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "En una cooperativa de usuarios de Castilla y León (Ley 4/2002) la lista de espera no es obligatoria, pero la ley sí ofrece marco. Regula la admisión de nuevos socios (art. 19: requisitos estatutarios, resolución del Consejo Rector en tres meses y recurso) y, en el capítulo de cooperativas de viviendas, reconoce expresamente la figura del \"socio expectante\" con derecho de preferencia por orden de antigüedad (art. 121). Como El Buen Vivir es de usuarios y no de viviendas, esa figura sirve de referencia analógica: podéis crearla en vuestros Estatutos dentro del margen del art. 19.",
+        "La ley también condiciona el reembolso de aportaciones: los Estatutos regulan su plazo, que no puede exceder de cinco años (art. 66), y el Consejo Rector puede diferirlo o rehusarlo dentro de ciertos límites. Esto permite ligar la cobertura de la plaza vacante con el desbloqueo del reembolso de la cuota umbral de quien sale, siempre dentro de los topes legales."
+      ],
+      "requirements": [
+        { "aspect": "Admisión de nuevos socios", "law": "Ley 4/2002 CyL, art. 19", "requirement": "Los Estatutos fijan los requisitos; el Consejo Rector resuelve en máx. 3 meses; el silencio desestima; cabe recurso en 15 días.", "margin": "Definís requisitos y podéis exigir acuerdo de la Asamblea, respetando igualdad y no discriminación." },
+        { "aspect": "Figura de socio expectante", "law": "Ley 4/2002 CyL, art. 121 (coop. de viviendas)", "requirement": "La ley contempla al socio expectante con derecho de preferencia sobre la plaza por orden de antigüedad.", "margin": "Referencia analógica: como cooperativa de usuarios podéis adaptar la figura en vuestros Estatutos." },
+        { "aspect": "Criterio de prioridad", "law": "Ley 4/2002 CyL (contenido estatutario, art. 19)", "requirement": "El criterio de acceso debe ser objetivo y no discriminatorio.", "margin": "Elegís antigüedad de inscripción y/o criterios sociales añadidos." },
+        { "aspect": "Plazo de reembolso de aportaciones", "law": "Ley 4/2002 CyL, art. 66.5", "requirement": "El reembolso no puede exceder de cinco años desde la comunicación del importe.", "margin": "Dentro de ese tope podéis diferirlo y condicionarlo a que entre una nueva persona socia." },
+        { "aspect": "Reembolso rehusable / diferido", "law": "Ley 4/2002 CyL, art. 66", "requirement": "Los Estatutos regulan el reembolso; el cálculo se hace sobre el balance de cierre del ejercicio de la baja.", "margin": "Podéis vincular el ritmo del reembolso a la cobertura efectiva de la plaza." }
+      ],
+      "citations": [
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 19 (admisión de nuevos socios)",
+          "excerpt": "Los Estatutos de cada sociedad cooperativa establecerán los requisitos necesarios para la adquisición de la condición de nuevos socios, que en todo caso habrán de respetar los principios constitucionales de igualdad y no discriminación... La solicitud de admisión se formulará mediante escrito dirigido al Consejo Rector quien resolverá en un plazo no superior a tres meses a contar desde la recepción de la solicitud, sobre la admisión o no del peticionario. Transcurrido el plazo de resolución, sin haber recaído ésta, se considerará como desestimada la solicitud."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 121 (socio expectante en cooperativas de viviendas)",
+          "excerpt": "Transcurridos tres meses desde que el socio puso en conocimiento del Consejo Rector el propósito de transmitir sus derechos sobre la vivienda o local, sin que ningún socio expectante haga uso del derecho de preferencia para la adquisición de los mismos, el socio queda autorizado para transmitirlos, inter vivos, a terceros no socios."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 66.5 (plazo de reembolso)",
+          "excerpt": "El plazo para hacer efectivo el reembolso no podrá exceder de cinco años a partir de la comunicación al socio del importe a retornar."
+        }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo regulan la lista de espera y la figura de persona socia expectante otras cooperativas del corpus. Casi todas son de viviendas o de cesión de uso, por lo que sirven de referencia teniendo en cuenta que El Buen Vivir es de usuarios.",
+      "columns": [
+        { "key": "figura", "label": "Figura / nombre" },
+        { "key": "criterio", "label": "Criterio de prioridad" },
+        { "key": "aportacion", "label": "Aportación estando en espera" },
+        { "key": "cobertura", "label": "Al quedar plaza vacante" }
+      ],
+      "rows": [
+        {
+          "project": "Tarocohousing (Canarias)",
+          "cells": {
+            "figura": "Socio/a expectante; también la colaboradora que se apunta",
+            "criterio": "Riguroso orden de antigüedad de inscripción",
+            "aportacion": "Aportación mínima al capital + cuota de 50 € de expectante",
+            "cobertura": "Nuevo derecho de uso a expectantes por antigüedad; preferencia de la unidad de convivencia de quien sale"
+          },
+          "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+          "articleOrSection": "Artículo 7.5 — Cobertura de la plaza vacante",
+          "excerpt": "En el caso de las viviendas ya construidas, que por cualquier causa quede vacante su derecho de uso, se otorgará un nuevo derecho de uso a favor de las personas socias expectantes, por riguroso orden de antigüedad en su inscripción. No obstante, tendrán preferencia para acceder a este derecho de uso las personas beneficiarias o usuarias de la vivienda, por formar parte de la unidad de convivencia de la persona socia de vivienda saliente."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": {
+            "figura": "Socio/a expectante",
+            "criterio": "Antigüedad de inscripción; contingente general y especial (menores, diversidad funcional o enfermedad)",
+            "aportacion": "Título de expectante con valor de 100 €",
+            "cobertura": "Adjudicación del derecho de uso por antigüedad, según arts. 10 y 11"
+          },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 5.4 — Socias y socios expectantes",
+          "excerpt": "Socias y socios expectantes. Son aquellas que se inscriben en la lista de personas socias expectantes con voluntad de ser destinatarias de un derecho de uso de una vivienda cooperativo en el momento que esto sea posible. El Consejo Rector de la sociedad cooperativa se encarga de controlar, custodiar y actualizar la lista de personas socias expectantes, la que se clasifica en una del contingente general y otra del contingente especial formada por personas menores de edad así como aquellas con una diversidad funcional o enfermedad. Cada una de estas clasificaciones se ordenan por antigüedad de inscripción."
+        },
+        {
+          "project": "Senior Cohousing Huelva (Andalucía)",
+          "cells": {
+            "figura": "Persona expectante o en espera",
+            "criterio": "Prioridad de entrada: fecha de inscripción y franja etaria (detalle en RRI)",
+            "aportacion": "Mismos requisitos que la persona socia (art. 6.1)",
+            "cobertura": "Se incorpora del listado; preferencia sobre la transmisión de aportaciones"
+          },
+          "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+          "articleOrSection": "Artículo 6.2 — Personas Expectantes o en Espera",
+          "excerpt": "Debido al limitado número de unidades habitacionales de que dispone la cooperativa, y de la viabilidad futura que requiere el proyecto, se establece la figura de persona expectante o en espera, las cuales se irán incorporando a un listado con un criterio de prioridad de entrada que vendrá recogido en el Reglamento de Régimen Interior, en el que se tendrá en cuenta no solo la fecha de inscripción, sino también la franja etaria en la que se encuentra."
+        },
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": {
+            "figura": "Socio/a expectante",
+            "criterio": "—",
+            "aportacion": "—",
+            "cobertura": "La baja extingue el uso; la vivienda revierte y se pone a disposición de las personas expectantes"
+          },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Baja voluntaria y efectos sobre el uso",
+          "excerpt": "Producida la baja se extinguirá el derecho de la persona socia al uso de la vivienda, recuperando la Cooperativa la plena posesión de la misma, para ponerla a disposición de las personas socias expectantes, de las nuevas personas socias expectantes que sean admitidas o de terceros."
+        },
+        {
+          "project": "El Ciempiés",
+          "cells": {
+            "figura": "Socio/a expectante",
+            "criterio": "Antigüedad de inscripción",
+            "aportacion": "—",
+            "cobertura": "Acceso al uso; las personas expectantes no pueden formar parte del Consejo Rector"
+          }
+        }
+      ],
+      "note": "Patrón común: todas ordenan la lista por antigüedad de inscripción; algunas añaden criterios sociales (franja etaria, contingente especial para menores o personas con diversidad funcional). La plaza vacante que deja una baja alimenta directamente la lista de espera, y suele darse preferencia a la unidad de convivencia de quien sale."
+    },
+    "proposal": {
+      "rationale": [
+        "El Buen Vivir es cooperativa de usuarios: la plaza (derecho de uso) revierte a la cooperativa cuando alguien causa baja, y la lista de espera es el mecanismo natural para volver a cubrirla.",
+        "Con la estructura A/B ya aprobada, las personas expectantes serían candidatas a Socio A; conviene que la prioridad de entrada sea coherente con la prioridad de reserva reconocida al Socio A.",
+        "Vínculo económico clave (Reuniones 19-21, 2026): el reembolso de la cuota umbral (10.000 €) de quien sale puede diferirse hasta que una persona de la lista asuma la plaza y aporte su cuota umbral, protegiendo la caja sin descapitalizar la compra, y siempre dentro del máximo legal de cinco años.",
+        "Al ser un grupo pequeño de amigos que decide por afinidad y valores, la admisión desde la lista no debería ser puramente automática por antigüedad: conviene combinar un orden objetivo con la aprobación de la Asamblea."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Personas socias expectantes y lista de espera",
+          "text": "La cooperativa podrá llevar una lista de personas socias expectantes, formada por quienes desean acceder al uso de la casa y no pueden hacerlo por estar todas las plazas cubiertas. La inscripción se solicita por escrito al Consejo Rector, que resolverá en el plazo máximo de tres meses. El acceso a la plaza se regirá por un criterio objetivo y no discriminatorio. La incorporación efectiva como persona socia usuaria (Socio A) requerirá el acuerdo de la Asamblea General y el cumplimiento del procedimiento de admisión. El criterio concreto de prioridad y el funcionamiento detallado de la lista se regularán en los términos que fije el Reglamento de Régimen Interno.",
+          "note": "Se reserva a Estatutos solo la existencia de la figura de socio expectante, el órgano competente y la exigencia de acuerdo de la Asamblea (encaje seguro con el art. 19 Ley 4/2002). Los criterios concretos de prioridad se trasladan al RRI para poder ajustarlos con agilidad."
+        },
+        {
+          "target": "estatutos",
+          "heading": "Cobertura de la plaza vacante y reembolso diferido",
+          "text": "Cuando una persona socia cause baja, su plaza (derecho de uso y, en su caso, condición de Socio A) revertirá a la cooperativa y se ofrecerá a las personas de la lista de espera conforme al criterio de prioridad que desarrolle el Reglamento de Régimen Interno. La incorporación efectiva de una nueva persona socia A que aporte la cuota umbral desbloqueará y acelerará el reembolso de la cuota umbral de quien causó baja, que en todo caso se abonará dentro del plazo máximo de [tres] años, sin exceder los cinco años legales.",
+          "note": "Contenido reservado a Estatutos: el vínculo entre cobertura de la plaza y el reembolso de la cuota umbral es un derecho económico y su plazo máximo está limitado por el art. 66 Ley 4/2002. El corchete es la decisión que queda por votar. Los criterios de prioridad para ofrecer la plaza se remiten al RRI."
+        },
+        {
+          "target": "rri",
+          "heading": "Funcionamiento de la lista de espera",
+          "text": "La Comisión de Economía, junto con la de Convivencia, gestionará la lista de espera: registrará las inscripciones y su fecha, mantendrá los datos actualizados y comunicará las vacantes. El criterio de prioridad será la antigüedad de inscripción, complementada, si el grupo lo acuerda, con criterios de [afinidad, equilibrio del grupo o vínculo con un Socio A], y con preferencia, si así se decide, para los miembros de la unidad de convivencia de la persona socia saliente. Las personas expectantes tendrán la obligación de mantener sus datos actualizados y podrán abonar una cuota simbólica de expectante si así se decide. Cuando surja una vacante, se contactará por orden con las personas de la lista y se elevará su candidatura a la Asamblea.",
+          "note": "Detalle operativo revisable por la Asamblea sin modificar los Estatutos."
+        }
+      ],
+      "openDecisions": [
+        "¿El criterio de prioridad es solo la antigüedad de inscripción o se añaden criterios (afinidad, equilibrio, vínculo con un Socio A)?",
+        "¿La entrada desde la lista es automática por orden o requiere acuerdo de la Asamblea?",
+        "¿Se condiciona el reembolso de la cuota umbral a que una persona de la lista cubra la plaza, y con qué tope temporal?",
+        "¿Quien está en la lista aporta una cuota simbólica de expectante o no aporta nada hasta entrar?",
+        "¿Los Socios B o los miembros de la unidad de convivencia tienen preferencia para pasar a Socio A cuando queda plaza?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas del grupo. Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
+  "suggestedClause": {
+    "text": "La cooperativa podrá llevar una lista de personas socias expectantes, ordenada por antigüedad de inscripción, para cubrir las plazas que queden vacantes. La incorporación efectiva requerirá el acuerdo de la Asamblea General conforme al procedimiento de admisión. La entrada de una nueva persona socia que asuma la plaza y su cuota umbral podrá desbloquear el reembolso diferido de quien causó baja, dentro del plazo máximo legal.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

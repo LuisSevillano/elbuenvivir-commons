@@ -1,32 +1,26 @@
 {
   "topicSlug": "invitados",
-  "generatedAt": "2026-05-14T09:23:28.915Z",
+  "generatedAt": "2026-07-07T07:29:54.689Z",
   "claims": [
     {
       "id": "invitados-guests_allowed",
       "statement": "Las personas socias pueden invitar a terceros a las instalaciones",
-      "evidenceType": "inferred",
-      "confidence": "medium",
+      "evidenceType": "weak_evidence",
+      "confidence": "low",
       "supportingReferences": [
-        "docs-otros-modelo-estatutos-viviendas",
-        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
         "docs-otros-modelo-estatutos-viviendas",
         "docs-estatutos-estatutos-elciempies",
         "docs-estatutos-estatutos-los-girasoles"
       ],
-      "explanation": "Parece inferirse en 4 proyecto(s), aunque sin mención explícita y directa."
+      "explanation": "Solo 3 referencia(s) en 3 proyecto(s), y ninguna contiene evidencia suficiente."
     },
     {
       "id": "invitados-notice",
       "statement": "La persona socia debe avisar o solicitar autorización para invitar",
-      "evidenceType": "inferred",
-      "confidence": "medium",
-      "supportingReferences": [
-        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-        "docs-estatutos-estatutos-elciempies",
-        "docs-estatutos-estatutos-los-girasoles"
-      ],
-      "explanation": "Parece inferirse en 3 proyecto(s), aunque sin mención explícita y directa."
+      "evidenceType": "weak_evidence",
+      "confidence": "low",
+      "supportingReferences": [],
+      "explanation": "No se ha encontrado evidencia documental que respalde: \"La persona socia debe avisar o solicitar autorización para invitar\". Puede estar resolviéndose informalmente o no estar documentado en las fuentes analizadas."
     },
     {
       "id": "invitados-guest_limit",
@@ -39,62 +33,50 @@
     {
       "id": "invitados-guest_responsibility",
       "statement": "La persona socia es responsable de los daños causados por sus invitados",
-      "evidenceType": "inferred",
-      "confidence": "medium",
-      "supportingReferences": [
-        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-        "docs-estatutos-estatutos-elciempies",
-        "docs-estatutos-estatutos-los-girasoles"
-      ],
-      "explanation": "Parece inferirse en 3 proyecto(s), aunque sin mención explícita y directa."
+      "evidenceType": "weak_evidence",
+      "confidence": "low",
+      "supportingReferences": [],
+      "explanation": "No se ha encontrado evidencia documental que respalde: \"La persona socia es responsable de los daños causados por sus invitados\". Puede estar resolviéndose informalmente o no estar documentado en las fuentes analizadas."
     },
     {
       "id": "invitados-guest_common_spaces",
       "statement": "Las personas invitadas pueden usar espacios comunes",
-      "evidenceType": "inferred",
-      "confidence": "medium",
-      "supportingReferences": [
-        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-        "docs-estatutos-estatutos-elciempies",
-        "docs-estatutos-estatutos-los-girasoles"
-      ],
-      "explanation": "Parece inferirse en 3 proyecto(s), aunque sin mención explícita y directa."
+      "evidenceType": "weak_evidence",
+      "confidence": "low",
+      "supportingReferences": [],
+      "explanation": "No se ha encontrado evidencia documental que respalde: \"Las personas invitadas pueden usar espacios comunes\". Puede estar resolviéndose informalmente o no estar documentado en las fuentes analizadas."
     },
     {
       "id": "invitados-guest_alone",
       "statement": "Personas invitadas pueden estar sin la persona socia presente",
-      "evidenceType": "inferred",
-      "confidence": "medium",
-      "supportingReferences": [
-        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-        "docs-estatutos-estatutos-elciempies",
-        "docs-estatutos-estatutos-los-girasoles"
-      ],
-      "explanation": "Parece inferirse en 3 proyecto(s), aunque sin mención explícita y directa."
+      "evidenceType": "weak_evidence",
+      "confidence": "low",
+      "supportingReferences": [],
+      "explanation": "No se ha encontrado evidencia documental que respalde: \"Personas invitadas pueden estar sin la persona socia presente\". Puede estar resolviéndose informalmente o no estar documentado en las fuentes analizadas."
     }
   ],
   "conflictingApproaches": [],
   "evidenceSummary": {
     "totalClaims": 6,
     "explicitCount": 0,
-    "inferredCount": 5,
+    "inferredCount": 0,
     "recommendationCount": 0,
-    "weakEvidenceCount": 1,
+    "weakEvidenceCount": 6,
     "conflictingCount": 0,
     "highConfidenceCount": 0,
-    "mediumConfidenceCount": 5,
-    "lowConfidenceCount": 1
+    "mediumConfidenceCount": 0,
+    "lowConfidenceCount": 6
   },
   "extracts": [
     {
-      "id": "invitados-guests_allowed-docs-otros-modelo-estatutos-viviendas-60",
+      "id": "invitados-guests_allowed-docs-otros-modelo-estatutos-viviendas-229",
       "claimId": "invitados-guests_allowed",
       "documentSlug": "docs-otros-modelo-estatutos-viviendas",
       "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
       "documentType": "otro",
       "sourcePath": "docs/otros/MODELO ESTATUTOS  VIVIENDAS.pdf",
-      "articleOrSection": "Artículo 43.- Operaciones con terceras personas",
-      "snippet": "Artículo 43.- Operaciones con terceras personas 1. De conformidad con lo dispuesto en el artículo 91 del Reglamento, la cooperativa podrá realizar operaciones con terceras personas respecto de las construcciones complementarias a aquellas que constituyen el objeto social de esta cooperativa, que tendrán el carácter de actividad instrumental. -- 23 of 27 -- 24 2. La cooperativa podrá efectuar, tras cumplir con los ofrecimientos previstos en los apartados 2 y 3 del",
+      "articleOrSection": "3. Si la Cooperativa realizara operaciones con terceras personas prescindiendo de lo anteriormente",
+      "snippet": "3. Si la Cooperativa realizara operaciones con terceras personas prescindiendo de lo anteriormente previsto, cualquier persona socia expectante o, en su defecto, incluida en el listado de personas solicitantes de vivienda o locales en régimen cooperativo, podrá ejercitar el derecho de retracto, debiendo reembolsar a la persona compradora la cantidad desembolsada incrementada con la revalorización que haya experimentado, conforme al índice de precios al consumo, durante el período comprendido entre las fechas de los distintos desembolsos parciales y la fecha de la transmisión de los derechos sobre la vivienda o local, además de los gastos a que se refiere el apartado 2 del artículo 1518 del CC; si bien el reembolso a la persona compradora de los gastos referidos en el apartado 1 del aludido...",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -105,14 +87,14 @@
       }
     },
     {
-      "id": "invitados-guests_allowed-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-1",
+      "id": "invitados-guests_allowed-docs-estatutos-estatutos-elciempies-102",
       "claimId": "invitados-guests_allowed",
-      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "snippet": "GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR -- 1 of 62 -- DIRECCIÓN ELABORACIÓN JURÍDICA FGC ADCVOCATS, SCCL Cristina R. Grau López como autora con la colaboración de Ainhoa Domínguez Peña. COLABORA Diciembre 2024 Confederación Española de Cooperativas de Consumidores y Usuarios – HISPACOOP Quintana, 1 - 2º B ● 28008 Madrid Tel. 91 593 09 35 www.hispacoop.com La información publicada en este documento es exclusivamente a título informativo y no constituye una recomendación. HISPACOOP no se hace responable del uso que pueda darse a la información incluida. © HISPACOOP Todos los derechos reservados. Queda prohibida la reproducción total o parcial del material protegido por los derechos de propiedad intelectual, o su uso en cualquier forma, o por cualquier me...",
+      "documentSlug": "docs-estatutos-estatutos-elciempies",
+      "documentTitle": "Estatutos Elciempies",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
+      "articleOrSection": "c) Revocación de los cargos sociales antes mencionados.",
+      "snippet": "c) Revocación de los cargos sociales antes mencionados. Ar\u001aculo 29.- Impugnación de acuerdos de la Asamblea General. 1.- Los acuerdos de la Asamblea General que sean contrarios a la Ley, que se opongan a estos estatutos o lesionen, en bene,cio de una o varias personas socias o de terceras personas, los intereses de la coopera\u000eva, podrán ser impugnados según las normas y dentro de los plazos establecidos en la Ley. No procederá la impugnación de un acuerdo social que haya sido dejado sin efecto o sus\u000etuido válidamente por otro. 2.- Serán nulos los acuerdos contrarios a la Ley; los demás acuerdos serán anulables. 3.- La acción de impugnación de los acuerdos nulos caducará en el plazo de un año, con excepción de los acuerdos que, por su causa o contenido, resulten contrarios al orden público....",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -123,240 +105,24 @@
       }
     },
     {
-      "id": "invitados-guests_allowed-docs-otros-modelo-estatutos-viviendas-62",
+      "id": "invitados-guests_allowed-docs-estatutos-estatutos-los-girasoles-107",
       "claimId": "invitados-guests_allowed",
-      "documentSlug": "docs-otros-modelo-estatutos-viviendas",
-      "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
-      "documentType": "otro",
-      "sourcePath": "docs/otros/MODELO ESTATUTOS  VIVIENDAS.pdf",
-      "articleOrSection": "sección.",
-      "snippet": "sección. 3. Si la Cooperativa realizara operaciones con terceras personas prescindiendo de lo anteriormente previsto, cualquier persona socia expectante o, en su defecto, incluida en el listado de personas solicitantes de vivienda o locales en régimen cooperativo, podrá ejercitar el derecho de retracto, debiendo reembolsar a la persona compradora la cantidad desembolsada incrementada con la revalorización que haya experimentado, conforme al índice de precios al consumo, durante el período comprendido entre las fechas de los distintos desembolsos parciales y la fecha de la transmisión de los derechos sobre la vivienda o local, además de los gastos a que se refiere el apartado 2 del artículo 1518 del CC; si bien el reembolso a la persona compradora de los gastos referidos en el apartado 1 de...",
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "documentTitle": "Estatutos Los Girasoles",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "articleOrSection": "c) Revocación de los cargos sociales antes mencionados.",
+      "snippet": "c) Revocación de los cargos sociales antes mencionados. Arơculo 32.- Impugnación de acuerdos de la Asamblea General. 1.- Los acuerdos de la Asamblea General que sean contrarios a la Ley, que se opongan a estos estatutos o lesionen, en beneficio de una o varias personas socias o de terceras personas, los intereses de la cooperaƟva, podrán ser impugnados según las normas y dentro de los plazos establecidos en la Ley. No procederá la impugnación de un acuerdo social que haya sido dejado sin efecto o susƟtuido válidamente por otro. 2.- Serán nulos los acuerdos contrarios a la Ley; los demás acuerdos serán anulables. 3.- La acción de impugnación de los acuerdos nulos caducará en el plazo de un año, con excepción de los acuerdos que, por su causa o contenido, resulten contrarios al orden público...",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
         "headingRelevant": false,
         "contextualCooccurrence": false,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
-    },
-    {
-      "id": "invitados-notice-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-1",
-      "claimId": "invitados-notice",
-      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "snippet": "...us instalaciones, tanto de uso privativo, como de uso común, como los servicios de, agua, residuos, comunicación, movilidad, energía, incluyendo la producción, el consumo, el almacenaje, la acumulación, la venta, la prestación de servicios de eficiencia energética, servicios de recarga para vehículos eléctricos), así como los bienes y servicios para la personas socias, tales como los servicios de la provisión para el consumo de las personas socias y de quienes con ellas conviven habitualmente de los bienes y servicios que acuerde la asamblea general, tales como servicios de manutención, sanitarios, culturales, de formación, educativas y de recreo. La cooperativa puede adquirir los mencionados bienes y servicios a terceros o producirlos por sí misma. También constituye el objeto de la coope...",
-      "score": 13,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": false,
-        "conceptProximity": true
-      }
-    },
-    {
-      "id": "invitados-notice-docs-estatutos-estatutos-elciempies-4",
-      "claimId": "invitados-notice",
-      "documentSlug": "docs-estatutos-estatutos-elciempies",
-      "documentTitle": "Estatutos Elciempies",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "...cnico, informá\u000eco o telemá\u000eco, o cualquier otro que permitan las tecnologías de la información y la comunicación, siempre que se observen las garanHas requeridas por la legalidad vigente. Las reuniones se podrán celebrar además por videoconferencia atendiendo a los requisitos y normas establecidas en la Ley. 4.- El acta de cada sesión, ,rmada por los/as \u000etulares de la Presidencia y la Secretaría de este órgano, recogerá sucintamente el contenido de los debates, el texto de los acuerdos y el resultado de las votaciones. Las actas del Consejo Rector se recopilarán en el correspondiente Libro de Actas. 31 -- 31 of 48 -- 5.- El mandato del Consejo Rector tendrá una duración de tres años, ,nalizado el cual se renovará el Consejo Rector en su totalidad, sin perjuicio de que sus miembros puedan s...",
-      "score": 1,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
-    },
-    {
-      "id": "invitados-notice-docs-estatutos-estatutos-los-girasoles-4",
-      "claimId": "invitados-notice",
-      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
-      "documentTitle": "Estatutos Los Girasoles",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "...cnico, informáƟco o telemáƟco, o cualquier otro que permitan las tecnologías de la información y la comunicación, siempre que se observen las garanơas requeridas por la legalidad vigente. Las reuniones se podrán celebrar además por videoconferencia atendiendo a los requisitos y normas establecidas en la Ley. 4.- El acta de cada sesión, firmada por los/as Ɵtulares de la Presidencia y la Secretaría de este órgano, recogerá sucintamente el contenido de los debates, el texto de los acuerdos y el resultado de las votaciones. Las actas del Consejo Rector se recopilarán en el correspondiente Libro de Actas. 5.- El mandato del Consejo Rector tendrá una duración de tres años, finalizado el cual se renovará el Consejo Rector en su totalidad, sin perjuicio de que sus miembros puedan ser reelegidos/as...",
-      "score": 1,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
-    },
-    {
-      "id": "invitados-guest_responsibility-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-1",
-      "claimId": "invitados-guest_responsibility",
-      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "snippet": ".... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40 3.13. Responsabilidad de las personas socias. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40 -- 3 of 62 -- 4 ÍNDICE GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR 4. Capítulo IV. Los órganos sociales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42 4.1. Asamblea general. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42 4.1.1. Competencias. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42 4.1.2. Clases y formas de la asamblea general. . . . . . . . . . . . . . . . . . . . . . . . . 43 4.1.3. Convocatoria. . . . . . . . . . . . ....",
-      "score": 24,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": true,
-        "conceptProximity": true
-      }
-    },
-    {
-      "id": "invitados-guest_responsibility-docs-estatutos-estatutos-elciempies-4",
-      "claimId": "invitados-guest_responsibility",
-      "documentSlug": "docs-estatutos-estatutos-elciempies",
-      "documentTitle": "Estatutos Elciempies",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "...sión de personas aspirantes rechazadas por el Consejo Rector. i El ejercicio de la acción social de responsabilidad contra las personas miembros del Consejo Rector, las personas auditoras de cuentas, interventoras y liquidadoras. j Los derivados de una norma legal o de disposición estatutaria. k Designar, en su caso, a dos personas socias para ,rmar el acta de la asamblea. l Creación y supresión del si\u000eo web corpora\u000evo 3.- Es indelegable la competencia de la Asamblea General sobre los actos en que su acuerdo sea precep\u000evo en virtud de norma legal o estatutaria. Ar\u001aculo 24.- Convocatoria de la Asamblea General. 1.- La Asamblea General ordinaria deberá convocarse por el Consejo Rector dentro de los seis meses siguientes al cierre de cada ejercicio económico. Transcurrido dicho plazo sin que...",
-      "score": 4,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
-    },
-    {
-      "id": "invitados-guest_responsibility-docs-estatutos-estatutos-los-girasoles-4",
-      "claimId": "invitados-guest_responsibility",
-      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
-      "documentTitle": "Estatutos Los Girasoles",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "...sión de personas aspirantes rechazadas por el Consejo Rector. i El ejercicio de la acción social de responsabilidad contra las personas miembros del Consejo Rector, las personas auditoras de cuentas, interventoras y liquidadoras. j Los derivados de una norma legal o de disposición estatutaria. k Designar, en su caso, a dos personas socias para firmar el acta de la asamblea. l Creación y supresión del siƟo web corporaƟvo 3.- Es indelegable la competencia de la Asamblea General sobre los actos en que su acuerdo sea precepƟvo en virtud de norma legal o estatutaria. Arơculo 27.- Convocatoria de la Asamblea General. 1.- La Asamblea General ordinaria deberá convocarse por el Consejo Rector dentro de los seis meses siguientes al cierre de cada ejercicio económico. Transcurrido dicho plazo sin que...",
-      "score": 4,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
-    },
-    {
-      "id": "invitados-guest_common_spaces-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-1",
-      "claimId": "invitados-guest_common_spaces",
-      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "snippet": "...vamente a título informativo y no constituye una recomendación. HISPACOOP no se hace responable del uso que pueda darse a la información incluida. © HISPACOOP Todos los derechos reservados. Queda prohibida la reproducción total o parcial del material protegido por los derechos de propiedad intelectual, o su uso en cualquier forma, o por cualquier medio, ya sea electrónico o mecánico, incluyendo fotocopiado, grabación, transmisión o cualquier sistema de almacenamiento y recuperación de información, sin el permiso por escrito de HISPACOOP. -- 2 of 62 -- 3 ÍNDICE GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR ÍNDICE Introducción y metodología. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 1. Capítulo I. Disposiciones General...",
-      "score": 4,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
-    },
-    {
-      "id": "invitados-guest_common_spaces-docs-estatutos-estatutos-elciempies-4",
-      "claimId": "invitados-guest_common_spaces",
-      "documentSlug": "docs-estatutos-estatutos-elciempies",
-      "documentTitle": "Estatutos Elciempies",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "...estos estatutos. Las personas socias, cualquiera que sea su clase, y las personas bene,ciarias, incluso las disidentes y las no asistentes, quedan some\u000edas a los acuerdos de la Asamblea General, siempre que se hayan adoptado de conformidad con el ordenamiento jurídico y estos estatutos. 2.- Las Asambleas Generales pueden ser ordinarias y extraordinarias: a) La Asamblea General ordinaria, convocada por el Consejo Rector, \u000eene que reunirse anualmente, dentro de los seis meses siguientes al cierre del ejercicio económico anterior, para analizar la ges\u000eón social y aprobar, si procede, las cuentas anuales. Podrá decidir, además, sobre cualquier otro asunto incluido en su orden del día. b) Toda Asamblea General que no sea la prevista en el apartado anterior tendrá la consideración de extraordina...",
-      "score": 1,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
-    },
-    {
-      "id": "invitados-guest_common_spaces-docs-estatutos-estatutos-los-girasoles-4",
-      "claimId": "invitados-guest_common_spaces",
-      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
-      "documentTitle": "Estatutos Los Girasoles",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "...stos estatutos. Las personas socias, cualquiera que sea su clase, y las personas beneficiarias, incluso las disidentes y las no asistentes, quedan someƟdas a los acuerdos de la Asamblea General, siempre que se hayan adoptado de conformidad con el ordenamiento jurídico y estos estatutos. 2.- Las Asambleas Generales pueden ser ordinarias y extraordinarias: a) La Asamblea General ordinaria, convocada por el Consejo Rector, Ɵene que reunirse anualmente, dentro de los seis meses siguientes al cierre del ejercicio económico anterior, para analizar la gesƟón social y aprobar, si procede, las cuentas anuales. Podrá decidir, además, sobre cualquier otro asunto incluido en su orden del día. b) Toda Asamblea General que no sea la prevista en el apartado anterior tendrá la consideración de extraordina...",
-      "score": 1,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
-    },
-    {
-      "id": "invitados-guest_alone-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-1",
-      "claimId": "invitados-guest_alone",
-      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "snippet": "GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR -- 1 of 62 -- DIRECCIÓN ELABORACIÓN JURÍDICA FGC ADCVOCATS, SCCL Cristina R. Grau López como autora con la colaboración de Ainhoa Domínguez Peña. COLABORA Diciembre 2024 Confederación Española de Cooperativas de Consumidores y Usuarios – HISPACOOP Quintana, 1 - 2º B ● 28008 Madrid Tel. 91 593 09 35 www.hispacoop.com La información publicada en este documento es exclusivamente a título informativo y no constituye una recomendación. HISPACOOP no se hace responable del uso que pueda darse a la información incluida. © HISPACOOP Todos los derechos reservados. Queda prohibida la reproducción total o parcial del material protegido por los derechos de propiedad intelectual, o su uso en cualquier forma, o por cualquier me...",
-      "score": 34,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": true,
-        "conceptProximity": true
-      }
-    },
-    {
-      "id": "invitados-guest_alone-docs-estatutos-estatutos-elciempies-4",
-      "claimId": "invitados-guest_alone",
-      "documentSlug": "docs-estatutos-estatutos-elciempies",
-      "documentTitle": "Estatutos Elciempies",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "...onsideración de extraordinaria. c) La Asamblea General tendrá carácter de universal, cuando estando presentes o representadas la totalidad de las personas socias, de forma espontánea o mediante convocatoria no formal, decidan cons\u000etuirse en asamblea, aprobando y ,rmando todas el orden del día y la lista de asistentes. Ar\u001aculo 23.- Competencias de la Asamblea General. 1.- La Asamblea General ,jará la polí\u000eca general de la coopera\u000eva y podrá deba\u000er sobre cualquier otro asunto de interés para la misma, siempre que conste en el orden del día, pero únicamente podrá tomar acuerdos obligatorios en materias que la Ley no considere competencia exclusiva de otro órgano social. 2.- Será precep\u000evo, bajo sanción de nulidad, el acuerdo de la Asamblea General para los siguientes actos: a Examen de la ges...",
-      "score": 1,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
-    },
-    {
-      "id": "invitados-guest_alone-docs-estatutos-estatutos-los-girasoles-4",
-      "claimId": "invitados-guest_alone",
-      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
-      "documentTitle": "Estatutos Los Girasoles",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "...onsideración de extraordinaria. c) La Asamblea General tendrá carácter de universal, cuando estando presentes o representadas la totalidad de las personas socias, de forma espontánea o mediante convocatoria no formal, decidan consƟtuirse en asamblea, aprobando y firmando todas el orden del día y la lista de asistentes. Arơculo 26.- Competencias de la Asamblea General. 1.- La Asamblea General fijará la políƟca general de la cooperaƟva y podrá debaƟr sobre cualquier otro asunto de interés para la misma, siempre que conste en el orden del día, pero únicamente podrá tomar acuerdos obligatorios en materias que la Ley no considere competencia exclusiva de otro órgano social. 2.- Será precepƟvo, bajo sanción de nulidad, el acuerdo de la Asamblea General para los siguientes actos: a Examen de la g...",
-      "score": 1,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
         "topicDensity": false,
         "conceptProximity": false
       }
     }
   ],
-  "nonSubstantiveFiltered": 10,
-  "evidenceHealth": "weak"
+  "nonSubstantiveFiltered": 3,
+  "evidenceHealth": "insufficient"
 }

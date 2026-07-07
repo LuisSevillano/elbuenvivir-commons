@@ -1,0 +1,101 @@
+{
+  "slug": "derechos_y_obligaciones",
+  "status": "reviewed",
+  "editorialSummary": [
+    "Los derechos y obligaciones de las personas socias son el corazón de la relación con la cooperativa: voto, información, uso de la casa y participación, frente a cuotas, tareas y respeto a las normas.",
+    "La Ley 4/2002 CyL (arts. 22 y 23) fija un catálogo mínimo que los Estatutos deben respetar y pueden ampliar, pero no rebajar.",
+    "El punto delicado de El Buen Vivir es el Socio B: si usa la casa habitualmente, realiza la actividad cooperativizada, y negarle el voto choca con la lógica de la ley."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "socio_b_voto",
+      "question": "¿El Socio B tendrá voto o solo voz?",
+      "recommendationsForBuenVivir": [
+        "Es la decisión que más condiciona todo el catálogo: el voto es un derecho del socio que realiza la actividad (art. 22), y el 'sin voto' se reserva a quien no la realiza (art. 26). Conviene resolverlo con revisión jurídica antes de redactar los Estatutos."
+      ]
+    },
+    {
+      "id": "participacion_actividad",
+      "question": "¿Cuál es la cuantía mínima de participación en la actividad y cómo se concretan las tareas comunes?",
+      "recommendationsForBuenVivir": [
+        "El art. 23.2.b obliga a fijar una cuantía mínima de participación en la actividad cooperativizada; en una casa de uso vacacional compartido conviene definir qué significa 'usar' y cómo se reparten las tareas de cuidado y mantenimiento."
+      ]
+    },
+    {
+      "id": "obligaciones_economicas",
+      "question": "¿Qué obligaciones económicas se exigen a cada tipo de socio?",
+      "recommendationsForBuenVivir": [
+        "Basta con enunciar el deber genérico de cumplir las obligaciones económicas y remitir al artículo de cuotas: cuota umbral solo al Socio A; mantenimiento y uso a A y B."
+      ]
+    },
+    {
+      "id": "derechos_irrenunciables",
+      "question": "¿Cómo se protegen los derechos que no pueden suspenderse?",
+      "recommendationsForBuenVivir": [
+        "El art. 24.4 impide suspender el derecho de información y el retorno incluso como sanción; conviene dejarlo escrito para evitar dudas en conflictos."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "catalogo_legal",
+      "statement": "La ley y los estatutos revisados enumeran de forma clara los derechos (voto, información, uso, participación, retorno, baja) y las obligaciones (asistencia, actividad, cuotas, secreto, cargos) de la persona socia.",
+      "summary": "Es materia de rango estatutario: afecta a la condición de socio y no debe quedar solo en el RRI."
+    },
+    {
+      "id": "participacion_minima",
+      "statement": "Varios estatutos concretan la obligación de participar en la actividad en una cuantía mínima y permiten al órgano de administración liberar por causa justificada.",
+      "summary": "La Seronda reproduce casi literalmente el art. 23.2.b de la ley CyL."
+    },
+    {
+      "id": "voz_sin_voto",
+      "statement": "Cuando un estatuto reconoce 'voz sin voto', lo hace para figuras que NO realizan la actividad cooperativizada (colaboradoras, excedentes), no para quien usa la vivienda.",
+      "summary": "Refuerza el aviso jurídico sobre el Socio B usuario habitual sin voto."
+    },
+    {
+      "id": "tareas_cuidado",
+      "statement": "Los estatutos de covivienda incluyen deberes de conservación, mantenimiento y cuidado del espacio común y de la vida comunitaria.",
+      "summary": "Encaja con los valores de cuidado y autogestión de El Buen Vivir; el detalle de turnos va al RRI."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "derechos_y_obligaciones-socio_b_sin_voto_valido",
+      "statement": "El Socio B puede usar la casa habitualmente y carecer de voto sin problema legal.",
+      "reason": "Ninguna fuente respalda un socio usuario sin voto; la ley reserva el 'sin voto' a quien no realiza la actividad cooperativizada (art. 26). Debe validarse jurídicamente."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Redactar el catálogo de derechos y obligaciones en Estatutos siguiendo los arts. 22-23, y remitir el detalle de tareas e información al RRI.",
+    "Resolver con revisión jurídica el régimen de voto del Socio B antes de aprobar los Estatutos.",
+    "Fijar de forma explícita la cuantía mínima de participación en la actividad (uso) y la participación en tareas de cuidado.",
+    "Dejar escrito el carácter irrenunciable del derecho de información y del retorno frente a sanciones.",
+    "Remitir las obligaciones económicas concretas al artículo de cuotas para no duplicar cifras."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Catálogo de derechos (voto, información, uso, participación, retorno, baja) y de obligaciones (asistencia, actividad, cuotas, secreto, cargos, respeto a normas).",
+      "Régimen de voto de cada tipo de socio y su encaje legal.",
+      "Cuantía mínima de participación en la actividad y blindaje de los derechos irrenunciables."
+    ],
+    "rri": [
+      "Reparto de tareas de mantenimiento y cuidado, turnos y calendario.",
+      "Cauces y plazos internos para el derecho de información.",
+      "Participación en las comisiones y en la vida comunitaria."
+    ],
+    "notes": [
+      "La revisión jurídica debe confirmar el régimen de voto del Socio B y la concreción de la cuantía mínima de actividad."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, art. 22 (derechos), art. 23 (obligaciones), art. 24.4 (derechos irrenunciables).",
+    "docs-estatutos-estatutos-pepu: Artículo 11 sobre derechos de las personas socias (proyecto de CyL).",
+    "docs-estatutos-estatutos-laseronda-org: Artículos 11 y 12 sobre obligaciones y derechos, con la cuantía mínima de participación.",
+    "docs-estatutos-estatutos-entrepatios: Artículos 9 y 10, con la figura de voz sin voto para colaboradoras y excedentes.",
+    "docs-estatutos-estatutos-tarocohousing: Artículos 13 y 14, con el blindaje del voto y la información y el deber de co-cuidado."
+  ],
+  "referencesToAvoid": [
+    "No usar catálogos de cooperativas de viviendas (uso indefinido, residencia habitual) sin adaptarlos al uso vacacional compartido de El Buen Vivir.",
+    "No presentar el Socio B usuario habitual sin voto como una figura jurídicamente cerrada."
+  ]
+}

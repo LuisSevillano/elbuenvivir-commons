@@ -5,7 +5,7 @@ Metadata:
 - Topic slug: `conflictos_y_mediacion`
 - Categoría: convivencia
 - Estado taxonómico: planned
-- Referencias incluidas: 18
+- Referencias incluidas: 10
 - Máximo configurado: 20
 - Excluir low confidence: no
 
@@ -34,10 +34,10 @@ Este dossier contiene extractos automáticos para análisis posterior. No contie
 - Tipo: rri
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 12. Resolución de Conflictos
+- Sección/artículo: 2. Arbitraje: Si las negociaciones y la mediación no logran resolver el conflicto, las
 - Ruta fuente: `docs/rri/EJEMPLO_DE_REGLAMENTO_DE_REGIMEN_INTERNO_PARA_VIVIENDAS_COOPERATIVAS_EN_CESION_DE_USO.pdf`
-- Confidence: high
-- Score: 70
+- Confidence: medium
+- Score: 20
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -45,471 +45,47 @@ Este dossier contiene extractos automáticos para análisis posterior. No contie
 Extracto relevante:
 
 ```text
-Artículo 12. Resolución de Conflictos
-En caso de surgir desacuerdos, disputas o conflictos entre las/os socias/os, entre las/os
-socias/os y el Consejo Rector, o en cualquier otro ámbito de la cooperativa, se establece
-el siguiente procedimiento para su resolución:
-1. 	Negociación y Mediación: Las partes involucradas deberán realizar esfuerzos de
+2. Arbitraje: Si las negociaciones y la mediación no logran resolver el conflicto, las
+partes acuerdan someterse a un proceso de arbitraje. El arbitraje será conducido
+de acuerdo con las normas y procedimientos establecidos por [nombre de la
+institución arbitral o entidad competente]. Las decisiones del arbitraje serán
+vinculantes y definitivas para todas las partes.
+```
+
+---
+
+### Referencia 2
+
+- Documento: EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO
+- Slug documento: `docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso`
+- Tipo: rri
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: 1. Negociación y Mediación: Las partes involucradas deberán realizar esfuerzos de
+- Ruta fuente: `docs/rri/EJEMPLO_DE_REGLAMENTO_DE_REGIMEN_INTERNO_PARA_VIVIENDAS_COOPERATIVAS_EN_CESION_DE_USO.pdf`
+- Confidence: medium
+- Score: 16
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+1. Negociación y Mediación: Las partes involucradas deberán realizar esfuerzos de
 buena fe para resolver el conflicto a través de negociaciones directas y, en caso de
 ser necesario, mediante el uso de servicios de mediación. La mediación puede ser
 llevada a cabo por un mediador externo imparcial o por un órgano mediador
 interno designado por la Asamblea General.
 
 -- 11 of 12 --
-
-Mª José Vañó Vañó
-2. 	Arbitraje: Si las negociaciones y la mediación no logran resolver el conflicto, las
-partes acuerdan someterse a un proceso de arbitraje. El arbitraje será conducido
-de acuerdo con las normas y procedimientos establecidos por [nombre de la
-institución arbitral o entidad competente]. Las decisiones del arbitraje serán
-vinculantes y definitivas para todas las partes.
-3. 	Acceso a la Federación de Cooperativas: En el caso de que las partes no logren
-resolver el conflicto a través de mediación o arbitraje, se reserva el derecho de
-recurrir a la Federación de Cooperativas de Viviendas [nombre de la federación],
-la cual podrá ofrecer sus servicios de mediación y arbitraje de conformidad con
-sus reglamentos internos.
-4. 	Asamblea General Extraordinaria: En situaciones excepcionales o cuando los
-métodos anteriores no hayan sido efectivos, se podrá convocar a una Asamblea
-General Extraordinaria para que los/as socios/as participen activamente en la
-búsqueda de soluciones y tomen decisiones que contribuyan a la resolución del
-conflicto.
-```
-
----
-
-## Las GuíAs De Sostre CíVic
-
-### Referencia 2
-
-- Documento: Las GuíAs De Sostre CíVic
-- Slug documento: `docs-guias-las-guias-de-sostre-civic`
-- Tipo: guia
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Título (xx minutos)
-- Ruta fuente: `docs/guias/Las guías de Sostre Cívic.pdf`
-- Confidence: high
-- Score: 44
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Título (xx minutos)
-```
-
----
-
-### Referencia 3
-
-- Documento: Las GuíAs De Sostre CíVic
-- Slug documento: `docs-guias-las-guias-de-sostre-civic`
-- Tipo: guia
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Título original: Transformem l’entorn
-- Ruta fuente: `docs/guias/Las guías de Sostre Cívic.pdf`
-- Confidence: high
-- Score: 42
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Título original: Transformem l’entorn
-La traducción de esta guía se ha realizado en el marco del proyecto
-estratégico para la recuperación y transformación económica "Red estatal
-de Polos Cooperativos y de ESS para el fomento de la intercooperación y
-el fortalecimiento de sectores estratégicos de la vivienda cooperativa en
-cesión de uso y de las comunidades energéticas".
-El proyecto ha estado impulsado por
-y financiado por la Unión Europea - NextGenerationEU
-
--- 128 of 377 --
-
--- 129 of 377 --
-
-La construcción
-y el cuidado
-de los grupos
-CONSTRUIMOS VIVIENDA
-COOPERATIVA
-4
-
--- 130 of 377 --
-
-3
-ÍNDICE
-05 / 	1. PRESENTACIÓN DE LA GUÍA Y DECLARACIÓN DE INTENCIONES
-07 / 	2. CAMBIO DE PARADIGMA
-11 / 	3. QUÉ NECESITAMOS PARA EMPEZAR A CAMINAR
-12 / 	3.1. El grupo
-15 / 	4. QUIÉNES SOMOS Y QUÉ NOS UNE
-23 / 	5. CÓMO NOS ORGANIZAMOS
-24 / 	5.1. La asamblea y los grupos de trabajo
-28 / 	5.2. La preparación y facilitación de las reuniones y asambleas
-30 / 	5.3. La comunicación y la gestión de la información
-31 / 	5.4. La planificación, el calendario y la priorización
-32 / 	5.5. La visibilidad y corresponsabilidad de los cuidados
-35 / 	6. CÓMO TOMAMOS LAS DECISIONES
-39 / 	6.1. Quién decide qué
-41 / 	7. NO TODAS PARTICIPAMOS IGUAL
-43 / 	7.1. El poder y el empoderamiento en los grupos
-47 / 	8. CÓMO NOS QUEREMOS RELACIONAR
-51 / 	9. QUÉ HACEMOS CON LOS CONFLICTOS
-52 / 	9.1. Qué son los conflictos
-53 / 	9.2. Las condiciones para abordar conflictos
-54 / 	9.3. Algunas herramientas para prevenir los conflictos y abordarlos
-59 / 	10. CAMBIOS, DESPEDIDAS Y BIENVENIDAS
-65 / 	ANEXOS
-66 / 	Anexo 1: dinámicas
-78 / 	Anexo 2: materiales
-82 / 	Bibliografía y recursos
-
--- 131 of 377 --
-
-5
-1. PRESENTACIÓN DE LA
-GUÍA Y DECLARACIÓN
-DE INTENCIONES
-
--- 132 of 377 --
-
-6
-LA CONSTRUCCIÓN Y EL CUIDADO DE LOS GRUP
-
-[Extracto truncado automáticamente]
-```
-
----
-
-### Referencia 4
-
-- Documento: Las GuíAs De Sostre CíVic
-- Slug documento: `docs-guias-las-guias-de-sostre-civic`
-- Tipo: guia
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Título original: Cures en la convivència de persones grans
-- Ruta fuente: `docs/guias/Las guías de Sostre Cívic.pdf`
-- Confidence: low
-- Score: 9
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Título original: Cures en la convivència de persones grans
-La traducción de esta guía se ha realizado en el marco del proyecto
-estratégico para la recuperación y transformación económica "Red estatal
-de Polos Cooperativos y de ESS para el fomento de la intercooperación y
-el fortalecimiento de sectores estratégicos de la vivienda cooperativa en
-cesión de uso y de las comunidades energéticas".
-El proyecto ha estado impulsado por
-y financiado por la Unión Europea - NextGenerationEU
-
--- 287 of 377 --
-
-79
-
--- 288 of 377 --
-
-Experiencias
-internacionales
-CONSTRUIMOS VIVIENDA
-COOPERATIVA
-5
-
--- 289 of 377 --
-
-2
-EXPERIÈNCIES INTERNACIONALS D’HABITATGE COOPERATIU
-CONSTRUÏM HABITATGE COOPERATIU
-
--- 290 of 377 --
-
-3
-ÍNDICE
-5 / 	Introducción
-9 / 	Cooperativas de vivienda de usuarios
-URUGUAY
-21 / Coopératives d’habitation locative
-(Cooperativas de vivienda de alquiler)
-QUEBEC
-35 / Coopératives de construction et d’habitation
-(Cooperativas de construcción y de vivienda)
-SUIZA
-51 / Andelsbolig
-(Vivienda cooperativa)
-DINAMARCA
-63 / Sociétés coopératives d’habitants
-(Cooperativas de habitantes)
-FRANCIA
-77 / Mietshäuser Syndikat
-(Sindicato de viviendas de alquiler)
-ALEMANIA
-
--- 291 of 377 --
-
-5
-INTRODUCCIÓN
-
--- 292 of 377 --
-
-6
-EXPERIENCIAS INTERNACIONALES DE VIVIENDA COOPERATIVA
-CONSTRUIMOS VIVIENDA COOPERATIVA
-En 2004, la Fundación Jaume Bofill publicaba el
-estudio de un catalán residente en Dinamarca
-Andel: el model escandinau d’accés a
-l’habitatge (Andel: el modelo escandinavo de
-acceso a la vivienda). Este estudio inspirador
-fue clave para el nacimiento, el mismo año,
-de Sostre Cívic y el impulso para importar el
-modelo y adaptarlo a la realidad catalana.
-Quince años después ya hay experiencias en
-funcionamiento en Cataluña y es el momento
-de volver a mirar hacia fuera y aprender.
-Apr
-
-[Extracto truncado automáticamente]
-```
-
----
-
-## Normativa Autonomica
-
-### Referencia 5
-
-- Documento: Normativa Autonomica
-- Slug documento: `docs-leyes-normativa-autonomica`
-- Tipo: ley
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 49. Conflicto de intereses con la cooperativa.
-- Ruta fuente: `docs/leyes/normativa_autonomica.pdf`
-- Confidence: medium
-- Score: 20
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 49. Conflicto de intereses con la cooperativa.
-1. Será preciso el previo acuerdo de la Asamblea general cuando la cooperativa hubiera
-de contraer obligaciones con cualquier Consejero, Interventor, Apoderado, órgano de
-dirección o con uno de sus parientes, hasta el segundo grado de consanguinidad o afinidad,
-no pudiendo el socio incurso en esta situación de conflicto tomar parte en la correspondiente
-votación. La autorización de la Asamblea no será necesaria cuando se trate de las
-relaciones propias de la condición de socio.
-2. Los actos, contratos y operaciones realizadas sin la mencionada autorización serán
-anulables, aunque quedarán a salvo los derechos adquiridos de buena fe por terceros.
-BOLETÍN OFICIAL DEL ESTADO
-LEGISLACIÓN CONSOLIDADA
-Página 27
-
--- 27 of 71 --
-```
-
----
-
-## Normativa Estatal
-
-### Referencia 6
-
-- Documento: Normativa Estatal
-- Slug documento: `docs-leyes-normativa-estatal`
-- Tipo: ley
-- Jurisdicción: España
-- Proyecto: No disponible
-- Sección/artículo: Artículo 42. Conflicto de intereses con la cooperativa.
-- Ruta fuente: `docs/leyes/normativa_estatal.pdf`
-- Confidence: medium
-- Score: 20
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 42. Conflicto de intereses con la cooperativa.
-1. Será preciso el previo acuerdo de la Asamblea General, cuando la cooperativa hubiera
-de obligarse con cualquier consejero, interventor o con uno de sus parientes hasta el
-segundo grado de consanguinidad o afinidad, no pudiendo el socio incurso en esta situación
-de conflicto tomar parte en la correspondiente votación. La autorización de la Asamblea no
-será necesaria cuando se trate de las relaciones propias de la condición de socio.
-2. Los actos, contratos u operaciones realizados sin la mencionada autorización serán
-anulables, quedando a salvo los derechos adquiridos de buena fe por terceros.
-```
-
----
-
-### Referencia 7
-
-- Documento: Normativa Estatal
-- Slug documento: `docs-leyes-normativa-estatal`
-- Tipo: ley
-- Jurisdicción: España
-- Proyecto: No disponible
-- Sección/artículo: Artículo 42. Conflicto de intereses con la cooperativa. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
-- Ruta fuente: `docs/leyes/normativa_estatal.pdf`
-- Confidence: low
-- Score: 9
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 42. Conflicto de intereses con la cooperativa. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
-```
-
----
-
-## Rri Vallecas2homes
-
-### Referencia 8
-
-- Documento: Rri Vallecas2homes
-- Slug documento: `docs-rri-rri-vallecas2homes`
-- Tipo: rri
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 34 Federación de la Cooperativa
-- Ruta fuente: `docs/rri/rri_vallecas2homes.pdf`
-- Confidence: medium
-- Score: 18
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 34 	Federación de la Cooperativa
-Disposición Final
-____________________________________________________
-
--- 4 of 14 --
-
-ENSANCHE DE VALLECAS 2 HOMES, S.COOP. MAD.
-P á g i n a 5 | 14
-```
-
----
-
-## Estatutos Entrepatios
-
-### Referencia 9
-
-- Documento: Estatutos Entrepatios
-- Slug documento: `docs-estatutos-estatutos-entrepatios`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 60. Conflicto de intereses.
-- Ruta fuente: `docs/estatutos/estatutos_entrepatios.pdf`
-- Confidence: medium
-- Score: 16
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 60. Conflicto de intereses.
-1. Será preciso la previa autorización de la Asamblea General cuando la
-Cooperativa hubiera de obligarse con cualquier miembro del órgano de
-administración, o el Interventor, o con uno de los parientes de los mismos
-hasta el segundo grado de consanguinidad o afinidad. Esta autorización, sin
-embargo, no será necesaria cuando se trate de las relaciones propias de la
-condición de socio.
-Las personas en que concurra la situación de conflicto de intereses con la
-Cooperativa no tomarán parte en la votación correspondiente en la
-Asamblea General.
-2. Los actos, contratos u operaciones realizados sin la mencionada
-autorización serán anulables, quedando a salvo los derechos adquiridos de
-buena fe por terceros.
-```
-
----
-
-### Referencia 10
-
-- Documento: Estatutos Entrepatios
-- Slug documento: `docs-estatutos-estatutos-entrepatios`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 60. Conflicto de intereses. ..................................................................................................................... 55
-- Ruta fuente: `docs/estatutos/estatutos_entrepatios.pdf`
-- Confidence: low
-- Score: 9
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 60. Conflicto de intereses. ..................................................................................................................... 55
-```
-
----
-
-## Estatutos Losnidales
-
-### Referencia 11
-
-- Documento: Estatutos Losnidales
-- Slug documento: `docs-estatutos-estatutos-losnidales`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 58.- Conflicto de intereses.
-- Ruta fuente: `docs/estatutos/estatutos_losnidales.pdf`
-- Confidence: medium
-- Score: 16
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 58.- Conflicto de intereses.
-1. Será preciso la previa autorización de la Asamblea General cuando la Cooperativa hubiera
-de obligarse con cualquier miembro del órgano de administración, el/la Interventor/a, el/la
-directora/a, en su caso, o con uno de los parientes de los mismos hasta el segundo grado de
-consanguinidad o afinidad. Esta autorización, sin embargo, no será necesaria cuando se trate
-de las relaciones propias de la condición de socio.
-Las personas en que concurra la situación de conflicto de intereses con la Cooperativa no
-tomarán parte en la votación correspondiente en la Asamblea General.
-2. Los actos, contratos u operaciones realizados sin la mencionada autorización serán
-anulables, quedando a salvo los derechos adquiridos de buena fe por terceros.
-43
-
--- 43 of 53 --
-
-ESTATUTOS LOS NIDALES ECOVIVIENDA S.COOP.MAD
 ```
 
 ---
 
 ## Estatutos Pepu
 
-### Referencia 12
+### Referencia 3
 
 - Documento: Estatutos Pepu
 - Slug documento: `docs-estatutos-estatutos-pepu`
@@ -518,8 +94,8 @@ ESTATUTOS LOS NIDALES ECOVIVIENDA S.COOP.MAD
 - Proyecto: No disponible
 - Sección/artículo: Artículo 35.- Conflicto de intereses y responsabilidad.
 - Ruta fuente: `docs/estatutos/estatutos_pepu.pdf`
-- Confidence: medium
-- Score: 16
+- Confidence: low
+- Score: 12
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -531,36 +107,13 @@ Artículo 35.- Conflicto de intereses y responsabilidad.
 En cuanto al conflicto de intereses con la cooperativa y en lo relativo a la acción de
 responsabilidad contra cualquier miembro del Consejo Rector o intervención se estará a lo
 establecido en los artículos 49 y 51 de la Ley de Cooperativas.
-```
-
----
-
-### Referencia 13
-
-- Documento: Estatutos Pepu
-- Slug documento: `docs-estatutos-estatutos-pepu`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Art. 35 Conflicto de intereses y responsabilidad 33
-- Ruta fuente: `docs/estatutos/estatutos_pepu.pdf`
-- Confidence: low
-- Score: 9
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Art. 35 	Conflicto de intereses y responsabilidad 	33
 ```
 
 ---
 
 ## Estatutos Pequenopueblo
 
-### Referencia 14
+### Referencia 4
 
 - Documento: Estatutos Pequenopueblo
 - Slug documento: `docs-estatutos-estatutos-pequenopueblo`
@@ -569,8 +122,8 @@ Art. 35 	Conflicto de intereses y responsabilidad 	33
 - Proyecto: No disponible
 - Sección/artículo: Artículo 35.- Conflicto de intereses y responsabilidad.
 - Ruta fuente: `docs/estatutos/estatutos_pequenopueblo.pdf`
-- Confidence: medium
-- Score: 16
+- Confidence: low
+- Score: 12
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -586,42 +139,19 @@ establecido en los artículos 49 y 51 de la Ley de Cooperativas.
 
 ---
 
-### Referencia 15
+## Las GuíAs De Sostre CíVic
 
-- Documento: Estatutos Pequenopueblo
-- Slug documento: `docs-estatutos-estatutos-pequenopueblo`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Art. 35 Conflicto de intereses y responsabilidad 33
-- Ruta fuente: `docs/estatutos/estatutos_pequenopueblo.pdf`
-- Confidence: low
-- Score: 9
-- Review status: auto
+### Referencia 5
 
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Art. 35 	Conflicto de intereses y responsabilidad 	33
-```
-
----
-
-## GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4
-
-### Referencia 16
-
-- Documento: GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4
-- Slug documento: `docs-guias-guia-introduccion-al-cohousing-senior-2019-4`
+- Documento: Las GuíAs De Sostre CíVic
+- Slug documento: `docs-guias-las-guias-de-sostre-civic`
 - Tipo: guia
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: título constitutivo es precisamente el ingreso como socio en la cooperativa. Y que, por tanto, debe
-- Ruta fuente: `docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf`
+- Sección/artículo: 9.1. Qué son los conflictos
+- Ruta fuente: `docs/guias/Las guías de Sostre Cívic.pdf`
 - Confidence: low
-- Score: 11
+- Score: 12
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -629,48 +159,139 @@ Art. 35 	Conflicto de intereses y responsabilidad 	33
 Extracto relevante:
 
 ```text
-título constitutivo es precisamente el ingreso como socio en la cooperativa. Y que, por tanto, debe
-regularse en los estatutos sociales de la cooperativa, ante la ausencia de normas legales que le den
-contenido. En los apartados que siguen, ofrecemos algunas pautas de cómo regularlo.
-c) El contenido y el alcance del derecho de uso
-Hemos dicho en el apartado anterior que el derecho de uso en las cooperativas de cohousing es
-un derecho específico, indisolublemente ligado a la condición de socio cooperativo.
-Este derecho consiste en el disfrute privativo por parte del socio usuario de las viviendas o
-dependencias susceptibles de uso privativo y también comporta el derecho a usar y servirse de
-los elementos e instalaciones comunes.
-Los estatutos, no obstante, tendrán que delimitar en qué puede consistir el derecho de uso y
-disfrute por parte del socio, especificando el destino que puede dar a la vivienda o dependencia
-privativas que, por lo común, exclusivamente a residencia habitual y permanente del socio y de los
-miembros de su unidad familiar o de otras personas que con él convivan.
-
--- 34 of 54 --
-
-35
-Es usual que en las cooperativas de cohousing se identifiquen los miembros de la unidad familiar
-o de convivencia del socio, para evitar fraudes de ley en el propio uso de la vivienda o en los
-casos en que estas personas puedan sustituir al socio en el uso de las viviendas o dependencias
-privativas.
-Otro aspecto importante a regular en los estatutos, o en su caso, en el reglamento de régimen
-interno de la cooperativa, es el de si el socio podrá hacer libremente obras en la vivienda o
-dependencia privativa, si por el contrario necesita de la previa autorización de algún órgano social
-de la cooperativa, así como cuál pueda ser el alcance de estas obras, por ejemplo, si puede
+9.1. Qué son los conflictos
+El conflicto es un proceso natural en todos los grupos y un fenómeno
+necesario para la vida humana, que puede ser un factor positivo en el
+cambio y en las relaciones, o destructivo, según la forma de regularlo.
+Tiene su origen en la percepción de que las necesidades, intereses
+u objetivos propios son incompatibles o interferidos por las metas
+de otra persona o grupo. También comporta cargas emocionales al
+menos por una de las partes del conflicto.
+Lo que determina la existencia de un conflicto es que existan necesidades insatisfechas. Cuando esto ocurre, empieza a crecer un problema en el que es fácil que se entre en una escalada de reproches, mala
+comunicación, silencios. Esta creciente tensión en algunos casos puede dar lugar a la crisis, que es el punto álgido de tensión del conflicto.
+Puede que tengamos una percepción negativa del conflicto porque
+lo asociamos a la violencia: consideramos que existe el conflicto solo
+cuando estalla una crisis (posiciones polarizadas, emociones a flor de
+piel, prejuicios y estereotipos, poco tiempo, clima muy tenso, mala
+comunicación, cansancio). Identificar el conflicto con la crisis comporta que no analicemos la raíz del conflicto, sino que nos fijemos y actuemos solo en sus consecuencias. Por otro lado, supone un esfuerzo
+y emociones intensas; no hemos sido educadas en una cultura positiva del conflicto que nos facilite reconocerlo y transformarlo constructivamente, y en general tenemos una gran resistencia a los cambios.
+Si queremos vivir de forma diferente en las comunidades intencionales y los proyectos de vivienda cooperativa, una de las cosas que
+podemos hacer es entrenarnos en una cultura positiva del conflicto.
+Podemos vivir los conflictos como oportunidades para fortalecer a los
+grupos, poner la
 
 [Extracto truncado automáticamente]
 ```
 
 ---
 
+### Referencia 6
+
+- Documento: Las GuíAs De Sostre CíVic
+- Slug documento: `docs-guias-las-guias-de-sostre-civic`
+- Tipo: guia
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: 9.2. Las condiciones para
+- Ruta fuente: `docs/guias/Las guías de Sostre Cívic.pdf`
+- Confidence: low
+- Score: 12
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+9.2. Las condiciones para
+abordar conflictos
+La condición primera e indispensable para abordar un conflicto es
+estar abiertas al conflicto, la voluntad real de acercarnos y empatizar
+con la otra persona o parte del conflicto. Hay muy buenas técnicas
+que ayudan a gestionar la comunicación y las emociones, como la comunicación no violenta, pero sin la voluntad de tejer puentes comunicativos profundos y solucionar el problema con la otra parte es difícil
+que den frutos. Para abordar un conflicto, es necesario también el
+permiso de todas las involucradas, y disponer de un tiempo y espacio
+de seguridad para ello. A veces, da miedo abordar el conflicto, por si
+nos hacemos daño o si nuestra relación se resiente, pero no atender
+los conflictos conlleva seguramente consecuencias en el bienestar de
+las personas y los grupos.
+En segundo lugar, una persona es algo más que un punto de vista
+o actitud expresado en un momento determinado; y, a su vez, un
+mismo punto de vista puede estar representado por varias personas,
+con matices distintos. Entender los conflictos como una polarización
+entre roles (maneras de pensar, hacer, necesidades, deseos…) expresados por personas del grupo es diferente que entenderlos como
+una oposición entre personas con toda su diversidad y complejidad.
+Por tanto, implica comprender que la tensión la tenemos con una
+determinada posición que, incluso, en otros momentos quizás hemos
+llegado a oír o decir.
+Por otro lado, en un conflicto existen tantas percepciones o puntos de
+vista como personas implicadas. Es importante, pues, que cada parte
+exprese sus necesidades y escuche las de las demás. En ocasiones, en
+momentos de polarización, nos aferramos a nuestra percepción, y desde aquí cuesta escuchar y empatizar con otras personas y perspectivas
+de los hechos. R
+
+[Extracto truncado automáticamente]
+```
+
+---
+
+### Referencia 7
+
+- Documento: Las GuíAs De Sostre CíVic
+- Slug documento: `docs-guias-las-guias-de-sostre-civic`
+- Tipo: guia
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: CONSTRUIMOS VIVIENDA COOPERATIVA
+- Ruta fuente: `docs/guias/Las guías de Sostre Cívic.pdf`
+- Confidence: low
+- Score: 12
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+CONSTRUIMOS VIVIENDA COOPERATIVA
+El objetivo de esta guía es describir las características básicas del
+cooperativismo de vivienda en cesión de uso, para que las personas
+interesadas en este modelo como opción para poner en marcha un
+nuevo proyecto puedan ampliar sus conocimientos.
+La guía parte de la voluntad de Sostre Cívic de elaborar un documento que recoja la información que puede ser útil a cualquier persona
+interesada en este modelo, en definitiva, una guía útil para quien
+quiera vivir en una cooperativa de vivienda en cesión de uso.
+Además, esta guía se plantea como un primer número introductorio
+de una colección de guías temáticas en la que se profundizará en los
+aspectos más relevantes de los proyectos de vivienda cooperativa en
+cesión de uso.
+Marco general de la
+situación de la vivienda y
+necesidad de promover
+modelos alternativos
+Desde mediados del siglo xx hasta hoy, en Cataluña y en el Estado
+español, el sistema de provisión de vivienda se rige por el libre mercado, se orienta a la activación del sector de la construcción como dinamizador económico e impulsa la propiedad privada como régimen
+mayoritario de tenencia y la compra como modo de acceso.
+Compra. Es la forma de acceder a una vivienda más extendida en Catalunya, en donde un 74,3% de las viviendas son de propiedad y casi
+la mitad de estas (46%)1 tiene una hipoteca con pagos pendientes.
+Para acceder a ella, las futuras personas propietarias deben afrontar
+una gran inversión, lo que en general obliga a contraer un endeudamiento importante y, por tanto, excluye de la compra a la población
+con menos recursos económicos.
+```
+
+---
+
 ## Otras Leyes, Decretos, Modificaciones
 
-### Referencia 17
+### Referencia 8
 
-- Documento: BOE A 2007 19884 Consolidado RD+1514 2007
-- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007`
+- Documento: BOE A 2014 9959 Ley+5 2014
+- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2014-9959-ley-5-2014`
 - Tipo: ley
 - Jurisdicción: No disponible
 - Proyecto: Otras Leyes, Decretos, Modificaciones
-- Sección/artículo: artículo 84 del Texto Refundido de la Ley de Sociedades Anónimas.
-- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2007-19884-consolidado_RD+1514_2007.pdf`
+- Sección/artículo: f) Actuar como órgano de mediación en los conflictos colectivos que se
+- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2014-9959_Ley+5_2014.pdf`
 - Confidence: low
 - Score: 10
 - Review status: auto
@@ -680,57 +301,26 @@ de la cooperativa, así como cuál pueda ser el alcance de estas obras, por ejem
 Extracto relevante:
 
 ```text
-artículo 84 del Texto Refundido de la Ley de Sociedades Anónimas.
-Con carácter general, el contenido y movimiento de las cuentas citadas de cuatro cifras
-es el siguiente:
-1140. Reservas para acciones o participaciones de la sociedad dominante
-Las constituidas obligatoriamente en caso de adquisición de acciones o participaciones
-de la sociedad dominante y en tanto éstas no sean enajenadas (artículo 79.3.a del Texto
-Refundido de la Ley de Sociedades Anónimas y artículo 40.bis de la Ley de Sociedades de
-Responsabilidad Limitada). Esta cuenta también recogerá, con el debido desglose en
-cuentas de cinco cifras, las reservas que deban ser constituidas en caso de aceptación de
-las acciones de la sociedad dominante en garantía (artículo 80.1 del Texto Refundido de la
-Ley de Sociedades Anónimas). Mientras duren estas situaciones dichas reservas serán
-indisponibles.
-Su movimiento es el siguiente:
-a) Se abonará por el importe de adquisición de las acciones o participaciones de la
-sociedad dominante o por el importe a que ascienda la cantidad garantizada mediante sus
-acciones, con cargo a cualesquiera de las cuentas de reservas disponibles, o a la cuenta
-129.
-BOLETÍN OFICIAL DEL ESTADO
-LEGISLACIÓN CONSOLIDADA
-Página 168
-
--- 168 of 270 --
-
-b) Se cargará, por el mismo importe, cuando dichas acciones o participaciones se
-enajenen o cuando cese la garantía, con abono a la cuenta 113.
-1141. Reservas estatutarias
-Son las establecidas en los estatutos de la sociedad.
-Su movimiento es análogo al señalado para la cuenta 112.
-1142. Reserva por capital amortizado
-Nominal de las acciones o participaciones de la propia empresa adquiridas por ésta y
-amortizadas con cargo a beneficios o a reservas disponibles. También se incluirá el nominal
-de las acciones o participaciones de la propia empresa a
-
-[Extracto truncado automáticamente]
+f) Actuar como órgano de mediación en los conflictos colectivos que se
+susciten entre las Corporaciones Locales y los funcionarios de Policía a su servicio,
+cuando lo solicite al menos una de las partes.
 ```
 
 ---
 
-## Estatutos La Borda
+## GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4
 
-### Referencia 18
+### Referencia 9
 
-- Documento: Estatutos La Borda
-- Slug documento: `docs-estatutos-estatutos-la-borda`
-- Tipo: estatutos
+- Documento: GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4
+- Slug documento: `docs-guias-guia-introduccion-al-cohousing-senior-2019-4`
+- Tipo: guia
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 54. Resolución de conflictos
-- Ruta fuente: `docs/estatutos/estatutos_la_borda.pdf`
+- Sección/artículo: q) La cláusula de sometimiento a la conciliación previa, a la mediación y al arbitraje cooperativo,
+- Ruta fuente: `docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf`
 - Confidence: low
-- Score: 9
+- Score: 10
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -738,18 +328,45 @@ de las acciones o participaciones de la propia empresa a
 Extracto relevante:
 
 ```text
-Artículo 54. Resolución de conflictos
-La Cooperativa se compromete a buscar los mecanismos más adecuados en
-todo momento por una resolución responsable y comprometida de los conflictos
-que puedan darse tanto entre las personas socias de la cooperativa, sean
-estas constituyentes de una misma unidad de convivencia o no, como aquellos
-que puedan ocurrir entre personas socias con la Cooperativa o de ésta con
-terceros.
-Podrá nombrar comisiones de resolución de conflictos, que podrán contar con
-el apoyo o asesoramiento necesario en cuanto a la mediación en conflictos u
-otros métodos para su resolución.
+q) La cláusula de sometimiento a la conciliación previa, a la mediación y al arbitraje cooperativo,
+regulados en la respectiva.
+Las clases de socios
+Teniendo en cuenta que el establecimiento de la tipología de socios y su regulación es uno de los
+contenidos mínimos que exige la ley para los Estatutos de la cooperativa, será necesario conocer
+qué tipos de socios puede haber en un proyecto de cohousing. Para cada uno de ellos, será necesario
+establecer el régimen aplicable: sus derechos y obligaciones, los requisitos para su admisión y baja,
+etc.
+Así, los Estatutos Sociales de una cooperativa de cohousing pueden establecer que ésta tenga no
+solamente socios cooperativos, que desarrollan alguna actividad cooperativizada, sino también
+pueden contar con socios de trabajo, temporales, colaboradores o expectantes, entre otros.
+En esta guía, sólo trataremos las clases de socios más cercanas a la figura del cohousing senior:
+```
 
--- 31 of 32 --
+---
+
+### Referencia 10
+
+- Documento: GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4
+- Slug documento: `docs-guias-guia-introduccion-al-cohousing-senior-2019-4`
+- Tipo: guia
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: COHOUSING SENIOR Y COOPERATIVISMO DE CONSUMO
+- Ruta fuente: `docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf`
+- Confidence: low
+- Score: 10
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+COHOUSING SENIOR Y COOPERATIVISMO DE CONSUMO
+
+-- 4 of 54 --
+
+5
 ```
 
 ---

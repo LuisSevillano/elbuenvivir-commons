@@ -1,0 +1,224 @@
+{
+  "slug": "identidad_juridica",
+  "title": "Identidad jurídica: denominación, objeto, domicilio y duración",
+  "shortDescription": "Los datos de identidad que la Ley 4/2002 de Castilla y León obliga a fijar en los Estatutos: denominación con \"S. Coop.\", objeto social, domicilio, ámbito territorial y duración. Es la primera página estructural de los Estatutos de una cooperativa de usuarios como El Buen Vivir.",
+  "category": "identidad_juridica",
+  "minimumContents": [
+    "Denominación de la cooperativa, que debe incluir las palabras \"sociedad cooperativa\" o su abreviatura \"S. Coop.\" y ser exclusiva (certificación negativa previa).",
+    "Clase de cooperativa (aquí: de usuarios / consumidores y usuarios) y ley que la rige (Ley 4/2002 de CyL).",
+    "Objeto social: la actividad cooperativizada, redactada de forma que ampare la adquisición y el uso colectivo de la vivienda rural y las reformas necesarias.",
+    "Domicilio social, que debe estar en Castilla y León, y régimen para cambiarlo.",
+    "Ámbito territorial de actuación de la cooperativa.",
+    "Duración de la sociedad (indefinida o por plazo)."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿Se confirma la denominación \"El Buen Vivir S. Coop.\" y se ha comprobado su disponibilidad con la certificación negativa del Registro de Cooperativas de CyL?",
+    "¿El objeto social se formula como cooperativa de consumidores y usuarios (uso colectivo de un inmueble rural) dejando explícitas las reformas y el cambio de uso, tal como recomendó la Junta de CyL?",
+    "¿El domicilio social se fija ya en la dirección de la casa rural o se deja \"un lugar a determinar por la Asamblea\" hasta cerrar la compra?",
+    "¿La duración será indefinida (\"por tiempo ilimitado\") y se añade la cláusula de no disolución antes de 5 años que usan otros proyectos?",
+    "¿Se delega en el Consejo Rector el traslado de domicilio dentro del mismo municipio (art. 58), o se reserva toda modificación a la Asamblea?"
+  ],
+  "risks": [
+    "Un objeto social redactado como cooperativa de vivienda (promoción de viviendas) en vez de usuarios puede desencajar del modelo elegido y perder ventajas fiscales de la cooperativa de consumidores y usuarios.",
+    "Omitir en el objeto la adquisición de una casa ya construida y las reformas/cambio de uso puede dificultar la calificación registral: la funcionaria de la Junta pidió que quede muy claro.",
+    "Fijar en Estatutos un domicilio concreto antes de cerrar la compra obliga a modificar Estatutos si cambia la ubicación; dejarlo indeterminado puede complicar la inscripción.",
+    "Una denominación no verificada con certificación negativa puede coincidir con otra ya inscrita y bloquear la constitución.",
+    "Copiar literalmente el objeto de una cooperativa de vivienda de otra comunidad (Madrid, Cataluña) arrastra referencias a leyes autonómicas ajenas y a promoción inmobiliaria que no encajan con El Buen Vivir."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "estatutos",
+    "rationale": [
+      "La denominación, la clase, el objeto, el domicilio, el ámbito y la duración son contenido estatutario mínimo obligatorio por el art. 13 de la Ley 4/2002: no pueden vivir solo en el RRI.",
+      "Son datos que se inscriben en el Registro de Sociedades Cooperativas y que identifican a la cooperativa frente a terceros; su rango es necesariamente estatutario.",
+      "Solo los detalles operativos (dirección postal exacta, señalización, sede de reuniones) pueden concretarse fuera de los Estatutos."
+    ],
+    "shouldBeInStatutes": [
+      "Denominación con \"S. Coop.\" y clase de cooperativa (de usuarios).",
+      "Objeto social y actividad económica cooperativizada.",
+      "Domicilio social en Castilla y León y régimen para su cambio.",
+      "Ámbito territorial de actuación.",
+      "Duración de la sociedad."
+    ],
+    "shouldBeInRRI": [
+      "Dirección postal y de contacto operativa de la cooperativa.",
+      "Lugar habitual de celebración de asambleas y reuniones si difiere del domicilio.",
+      "Uso de la denominación e imagen en comunicaciones internas y externas."
+    ],
+    "canBeDeferredInitially": [
+      "Concreción de la dirección exacta del domicilio hasta que se formalice la compra del inmueble."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Fijar una dirección demasiado concreta antes de cerrar la compra obliga a modificar Estatutos si cambia."
+    ],
+    "risksIfPlacedInRRI": [
+      "Dejar el objeto o la clase de cooperativa fuera de los Estatutos haría inviable la inscripción y la calificación registral."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "complements",
+      "explanation": "La clase de cooperativa (de usuarios) fijada en el objeto condiciona qué clases de socios caben en la estructura A/B."
+    },
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "relationship": "develops",
+      "explanation": "El objeto social (uso colectivo de la vivienda rural) es el marco que después desarrolla el régimen de uso de los espacios."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "El objeto de adquisición del inmueble justifica el capital y las aportaciones que financian la compra."
+    }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "El Buen Vivir será una cooperativa de usuarios de Castilla y León, así que se rige por la Ley 4/2002. Su artículo 13 fija el contenido mínimo obligatorio de los Estatutos y encabeza la lista con los datos de identidad: denominación y clase, domicilio, ámbito territorial, duración y objeto social. Sin estos datos no hay Estatutos inscribibles.",
+        "La ley deja bastante margen en cómo se redactan, pero impone límites concretos: la denominación debe incluir \"sociedad cooperativa\" o \"S. Coop.\" y ser exclusiva (art. 1.3), previa certificación negativa (art. 9); el domicilio debe estar en el territorio de Castilla y León (art. 2); y el objeto debe corresponderse con la clase de cooperativa elegida. La duración puede ser indefinida y el traslado de domicilio dentro del mismo municipio puede delegarse en el Consejo Rector (art. 58)."
+      ],
+      "requirements": [
+        { "aspect": "Denominación", "law": "Ley 4/2002 CyL, art. 1.3", "requirement": "Debe incluir \"sociedad cooperativa\" o su abreviatura \"S. Coop.\"; es exclusiva.", "margin": "Elegís el nombre (El Buen Vivir); podéis añadir \"C. y L.\"." },
+        { "aspect": "Certificación negativa", "law": "Ley 4/2002 CyL, art. 9", "requirement": "Antes de crear la cooperativa hay que solicitar certificación negativa de la denominación al Registro.", "margin": "Sin margen: es un trámite previo obligatorio." },
+        { "aspect": "Objeto social", "law": "Ley 4/2002 CyL, art. 13.e", "requirement": "Los Estatutos fijan el objeto según la clase de cooperativa y su actividad empresarial.", "margin": "Redactáis el objeto; debe encajar con la clase de usuarios." },
+        { "aspect": "Domicilio social", "law": "Ley 4/2002 CyL, art. 2 y art. 13.b", "requirement": "Debe estar en Castilla y León, donde esté la dirección administrativa y empresarial.", "margin": "Elegís la localidad concreta dentro de CyL." },
+        { "aspect": "Ámbito territorial", "law": "Ley 4/2002 CyL, art. 13.c", "requirement": "Los Estatutos deben expresar el ámbito territorial de actuación.", "margin": "Podéis fijarlo en toda la Comunidad de CyL." },
+        { "aspect": "Duración", "law": "Ley 4/2002 CyL, art. 13.d", "requirement": "Los Estatutos deben fijar la duración de la sociedad.", "margin": "Podéis constituirla por tiempo indefinido." },
+        { "aspect": "Cambio de domicilio", "law": "Ley 4/2002 CyL, art. 58", "requirement": "Salvo pacto en contrario, el traslado dentro del mismo municipio lo puede acordar el Consejo Rector.", "margin": "Podéis pactar en contra y reservarlo a la Asamblea." }
+      ],
+      "citations": [
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 1.3 (denominación)",
+          "excerpt": "La denominación de la sociedad incluirá necesariamente las palabras «sociedad cooperativa» o su abreviatura «S. Coop.», pudiendo incorporar la expresión «castellano y leonesa» o abreviadamente «C. y L.». Esta denominación será exclusiva, y reglamentariamente podrán establecerse sus requisitos."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 2 (domicilio en CyL)",
+          "excerpt": "Las sociedades cooperativas tendrán su domicilio social en el territorio de la Comunidad de Castilla y León, dentro del cual deberá estar establecida la dirección administrativa y empresarial de la misma."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 13 (contenido mínimo de los Estatutos)",
+          "excerpt": "Los Estatutos de la cooperativa deberán comprender, al menos, los siguientes extremos: a) Denominación y clase de la sociedad cooperativa. b) Domicilio social. c) El ámbito territorial de actuación. d) Duración de la sociedad cooperativa. e) El objeto social que figura en la ley en función de cada clase de cooperativas y actividad empresarial."
+        }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo abren sus Estatutos otras cooperativas del corpus (artículos 1 a 5): denominación, objeto, ámbito/domicilio y duración. La mayoría son de vivienda o cesión de uso; sirven de modelo teniendo en cuenta que El Buen Vivir es de usuarios.",
+      "columns": [
+        { "key": "denominacion", "label": "Denominación y clase" },
+        { "key": "objeto", "label": "Objeto social" },
+        { "key": "ambito", "label": "Ámbito / domicilio" },
+        { "key": "duracion", "label": "Duración" }
+      ],
+      "rows": [
+        {
+          "project": "Pequeño Pueblo / Pepu (CyL)",
+          "cells": {
+            "denominacion": "\"Pequeño Pueblo S. Coop.\", integral de viviendas y de consumidores y usuarios, sin ánimo de lucro (Ley 4/2002 CyL).",
+            "objeto": "Procurar a sus socios viviendas e instalaciones complementarias y suministro de bienes y servicios; la cooperativa retiene la propiedad y cede el uso.",
+            "ambito": "Ámbito: Comunidad de Castilla y León. Domicilio: Arenas de San Pedro (Ávila).",
+            "duracion": "Por tiempo ilimitado."
+          },
+          "documentSlug": "docs-estatutos-estatutos-pepu",
+          "articleOrSection": "Artículo 1 — Denominación, régimen legal",
+          "excerpt": "Con la denominación Pequeño Pueblo S. Coop. se constituye una sociedad cooperativa de iniciativa social integral de viviendas y de consumidores y usuarios y sin ánimo de lucro dotada de plena personalidad jurídica, que se regirá por los presentes estatutos y la Ley 4/2002 de 11 de abril de cooperativas de Castilla y León..."
+        },
+        {
+          "project": "Axuntase (Asturias)",
+          "cells": {
+            "denominacion": "\"AXUNTASE Sociedad Cooperativa Asturiana de iniciativa social de consumidores y usuarios\" (Ley 4/2010 del Principado de Asturias).",
+            "objeto": "Cesión en uso y disfrute perpetuo de un complejo residencial de viviendas colaborativas adquirido o construido por la cooperativa, más servicios asistenciales.",
+            "ambito": "Ámbito: Principado de Asturias. Domicilio: Oviedo.",
+            "duracion": "Por tiempo ilimitado."
+          },
+          "documentSlug": "docs-estatutos-estatutos-axuntase",
+          "articleOrSection": "Artículo 4 — Objeto Social",
+          "excerpt": "El objeto social de esta Cooperativa de iniciativa social, es el siguiente: a) La cesión en uso y disfrute perpetuo a las personas socias de un complejo residencial de viviendas colaborativas, locales e instalaciones complementarias que serán adquiridos o promovida su construcción por la Cooperativa, quien además se encargará de promover la construcción, conservación, gestión y administración de las instalaciones y servicios que sean necesarios a los fines asistenciales de las/os socias/os de la Cooperativa."
+        },
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": {
+            "denominacion": "\"Entrepatios, S. Coop. Mad.\", Sociedad Cooperativa de Viviendas (Ley 4/1999 de la Comunidad de Madrid).",
+            "objeto": "Promoción de viviendas en régimen de cesión de uso para adjudicar su uso a las socias y socios; la propiedad recae en la cooperativa.",
+            "ambito": "Ámbito: municipios de la Comunidad de Madrid. Domicilio: Madrid.",
+            "duracion": "Por tiempo indefinido; no puede disolverse antes de 5 años."
+          },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Artículo 3 — Duración",
+          "excerpt": "La sociedad se constituye por tiempo indefinido y sus actividades comienzan en el momento de su constitución. La cooperativa no se puede disolver hasta que no haya transcurrido un mínimo de 5 años."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": {
+            "denominacion": "\"Viviendas la Borda, SCCL\", cooperativa mixta de personas consumidoras y usuarias y de vivienda en régimen de cesión de uso, sin ánimo de lucro (Ley 12/2015 de Cataluña).",
+            "objeto": "Promoción de viviendas para adjudicar su uso a las socias y socios, más su conservación y administración y la de los locales y servicios comunes.",
+            "ambito": "Domicilio: Barcelona; actividad principal en Cataluña (art. único de domicilio y ámbito).",
+            "duracion": "Por tiempo indefinido; no puede disolverse antes de 5 años desde la transmisión del derecho de uso."
+          },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 4 — Domicilio social y ámbito territorial",
+          "excerpt": "El domicilio social de la Cooperativa se establece en la calle de Riego 37, bajos 1ª, de Barcelona (08014), y se puede trasladar a otro lugar dentro del mismo término municipal por acuerdo del Consejo Rector. El cambio de domicilio fuera de este caso exige un acuerdo de la Asamblea General que modifique este precepto estatutario. La Cooperativa desarrolla principalmente su actividad cooperativizada en Cataluña."
+        },
+        {
+          "project": "Los Nidales (Madrid)",
+          "cells": {
+            "denominacion": "\"LOS NIDALDES ECOVIVIENDA S. COOP. MAD\", del tipo de Autoayuda Consumidora en la clase de Viviendas, sin ánimo de lucro (Ley de Cooperativas de Madrid).",
+            "objeto": "Facilitar condiciones de vida en comunidad y viviendas en régimen de cesión de uso, con servicios y cuidados de apoyo mutuo.",
+            "ambito": "Ámbito: municipios de la Comunidad de Madrid. Domicilio: Collado Mediano.",
+            "duracion": "Por tiempo ilimitado."
+          },
+          "documentSlug": "docs-estatutos-estatutos-losnidales",
+          "articleOrSection": "Artículo 1 — Denominación, régimen legal",
+          "excerpt": "Con la denominación de “LOS NIDALDES ECOVIVIENDA S. COOP. MAD”. se constituye una Sociedad Cooperativa del tipo de Autoayuda Consumidora en la clase de Viviendas sin ánimo de lucro, sujeta a los principios y disposiciones de la vigente Ley de Cooperativas de la Comunidad de Madrid, en lo sucesivo LCCM, con plena personalidad jurídica desde el momento de su inscripción."
+        }
+      ],
+      "note": "Patrón común: encabezar con denominación + clase + ley aplicable, objeto ligado a la cesión de uso, domicilio con delegación al Consejo Rector para traslados dentro del municipio y duración indefinida. Diferencia clave para El Buen Vivir: casi todas son de vivienda; Pepu (CyL) y Axuntase muestran cómo formular el objeto desde la óptica de consumidores y usuarios, más cercana a vuestro modelo."
+    },
+    "proposal": {
+      "rationale": [
+        "El grupo ya optó por la cooperativa de consumidores y usuarios (frente a la de vivienda) por menor carga fiscal y burocrática; el objeto social debe redactarse desde esa clase, no como promoción inmobiliaria.",
+        "La casa ya está construida y el modelo es de uso vacacional compartido: el objeto natural es la adquisición, mantenimiento y uso colectivo de un inmueble rural, tal como recoge el borrador interno de Estatutos de El Buen Vivir.",
+        "La Junta de CyL recomendó dejar muy explícito en los Estatutos que la cooperativa es de consumidores y usuarios y que ampara las reformas y el cambio de uso del inmueble, para no tener problemas de calificación registral.",
+        "El domicilio debe estar en CyL (art. 2) y la duración indefinida es coherente con un proyecto antiespeculativo y de largo plazo; conviene delegar en el Consejo Rector los traslados menores para no depender de la Asamblea por cada cambio."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Artículo 1 — Denominación y régimen legal",
+          "text": "Con la denominación \"El Buen Vivir S. Coop.\" se constituye una sociedad cooperativa de usuarios, sin ánimo de lucro, dotada de plena personalidad jurídica, que se regirá por los presentes Estatutos y por la Ley 4/2002, de 11 de abril, de Cooperativas de Castilla y León, y sus modificaciones, así como por las demás disposiciones legales que le sean de aplicación.",
+          "note": "La denominación debe incluir \"S. Coop.\" (art. 1.3) y comprobarse con certificación negativa (art. 9) antes de constituirse. Confirmad la clase exacta: \"de consumidores y usuarios\" es la fórmula que la Junta pidió dejar explícita."
+        },
+        {
+          "target": "estatutos",
+          "heading": "Artículo 2 — Objeto social",
+          "text": "El objeto social de la cooperativa es procurar a sus personas socias el uso y disfrute colectivo de un inmueble rural del que la cooperativa es titular, mediante su adquisición, mantenimiento, adecuación y gestión, así como el suministro de los bienes y servicios complementarios que hagan posible ese uso. A tal fin, la cooperativa podrá adquirir la propiedad, realizar las reformas, obras de adecuación y el cambio de uso que resulten necesarios [conforme a la normativa aplicable], conservar y administrar el inmueble y los elementos comunes, y organizar actividades culturales, medioambientales y recreativas coherentes con sus valores. La cooperativa retiene la propiedad del inmueble, cuyo uso se cede a las personas socias mientras mantengan tal condición.",
+          "note": "Redactado como cooperativa de usuarios (uso, no promoción de viviendas) y dejando explícitas reformas y cambio de uso, según la recomendación de la Junta de CyL. Los corchetes marcan la remisión legal a afinar jurídicamente."
+        },
+        {
+          "target": "estatutos",
+          "heading": "Artículos 3 a 5 — Domicilio, ámbito y duración",
+          "text": "Domicilio social: el domicilio social se establece en [localidad], Castilla y León, [dirección exacta a determinar por la Asamblea General al formalizarse la adquisición]. Su traslado dentro del mismo término municipal podrá acordarlo el Consejo Rector; cualquier otro cambio corresponde a la Asamblea General. Ámbito territorial: el ámbito de actuación de la cooperativa comprende la Comunidad Autónoma de Castilla y León. Duración: la cooperativa se constituye por tiempo indefinido [y no podrá disolverse antes de que transcurran cinco años desde su constitución]. La dirección postal y de contacto operativa, el lugar habitual de celebración de asambleas y reuniones cuando difiera del domicilio y el uso de la denominación e imagen en las comunicaciones se concretarán en los términos que desarrolle el Reglamento de Régimen Interno.",
+          "note": "El domicilio debe estar en CyL (art. 2); la delegación del traslado menor en el Consejo Rector sigue el art. 58. La cláusula de no disolución antes de 5 años es opcional y se toma de Entrepatios y La Borda. El núcleo de identidad es contenido estatutario reservado (art. 13): solo los detalles operativos se remiten al RRI."
+        }
+      ],
+      "openDecisions": [
+        "¿Denominación definitiva \"El Buen Vivir S. Coop.\" y disponibilidad confirmada con certificación negativa?",
+        "¿La clase será exactamente \"cooperativa de consumidores y usuarios\" y se deja el objeto explícito sobre reformas y cambio de uso?",
+        "¿Se fija ya el domicilio en la dirección de la casa o se deja pendiente de la Asamblea hasta cerrar la compra?",
+        "¿Duración indefinida con o sin cláusula de no disolución antes de 5 años?",
+        "¿Se delega en el Consejo Rector el traslado de domicilio dentro del municipio o se reserva todo a la Asamblea?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas y borradores del grupo. Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
+  "suggestedClause": {
+    "text": "Con la denominación \"El Buen Vivir S. Coop.\" se constituye una sociedad cooperativa de usuarios, sin ánimo de lucro, regida por la Ley 4/2002 de Cooperativas de Castilla y León. Su objeto social es procurar a las personas socias el uso y disfrute colectivo de un inmueble rural del que la cooperativa es titular, mediante su adquisición, adecuación, mantenimiento y gestión. Su domicilio radica en Castilla y León, su ámbito de actuación es dicha Comunidad Autónoma y se constituye por tiempo indefinido.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación, en especial la clase de cooperativa y la disponibilidad de la denominación.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

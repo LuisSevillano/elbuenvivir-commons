@@ -1,0 +1,109 @@
+{
+  "slug": "reservas_estancias_pernoctas",
+  "status": "reviewed",
+  "editorialSummary": [
+    "El Buen Vivir no reparte viviendas fijas, sino fechas de una casa vacacional compartida: el corazón del tema es cómo se reservan turnos y quién tiene prioridad.",
+    "El grupo ya decidió lo esencial en 2026: el Socio A tiene prioridad de reserva, el Socio B elige después, y hay una cuota de uso diaria diferenciada (0,5 € socios, 7 € no mantenedores, 14 € invitados), aprobada como revisable.",
+    "La ley da pocas pistas, así que casi todo es materia de Reglamento de Régimen Interno: conviene anclar en Estatutos solo el marco y la prioridad, y dejar importes, turnos y límites donde puedan ajustarse."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "booking_system",
+      "question": "¿Cómo se reserva una fecha y cómo se resuelven las coincidencias?",
+      "recommendationsForBuenVivir": [
+        "Definir la antelación de apertura del calendario, una herramienta común y un criterio de desempate (rotación, sorteo o reparto de temporada alta) para que la prioridad no dependa de quién madruga más."
+      ]
+    },
+    {
+      "id": "priority_meaning",
+      "question": "¿En qué se traduce la prioridad del Socio A frente al B?",
+      "recommendationsForBuenVivir": [
+        "Concretar si es una ventana de reserva anticipada o un derecho de preferencia, y anclar el principio en Estatutos porque diferencia derechos entre clases de socios."
+      ]
+    },
+    {
+      "id": "stay_limits",
+      "question": "¿Hacen falta límites de estancia para repartir el uso?",
+      "recommendationsForBuenVivir": [
+        "Valorar un tope de noches por temporada, sobre todo en temporada alta, para que la prioridad del Socio A no deje sin uso a los Socios B."
+      ]
+    },
+    {
+      "id": "use_fee_review",
+      "question": "¿Cómo se mantiene y revisa la cuota de uso diaria?",
+      "recommendationsForBuenVivir": [
+        "Mantener los importes en el RRI y fijar cada cuánto se revisan, tal como el grupo los aprobó (revisables periódicamente), sin llevarlos a Estatutos."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "law_delegates_use",
+      "statement": "La Ley 4/2002 CyL apenas regula el reparto del uso; cuando la cooperativa retiene la propiedad, son los Estatutos y el RRI los que fijan las normas de uso y disfrute (art. 118), y el RRI lo aprueba y modifica la Asamblea (art. 31).",
+      "summary": "Esto respalda tratar reservas, turnos y cuota de uso principalmente como materia de RRI revisable."
+    },
+    {
+      "id": "use_rules_in_rri",
+      "statement": "En todos los estatutos revisados (Entrepatios, Los Nidales, La Borda, Los Girasoles/El Ciempiés), las normas concretas de uso se remiten a un Reglamento de Régimen Interno aprobado por la Asamblea.",
+      "summary": "Patrón sólido: marco en Estatutos, detalle revisable en el RRI."
+    },
+    {
+      "id": "group_decisions",
+      "statement": "El grupo aprobó (Reuniones 19-21, 2026) la prioridad de reserva del Socio A, que el Socio B elige después, y una cuota de uso diaria diferenciada y revisable.",
+      "summary": "Son decisiones recientes y firmes que la redacción debe respetar como punto de partida."
+    },
+    {
+      "id": "guests_have_duties",
+      "statement": "El RRI de Axuntase define a las personas invitadas o residentes temporales con deberes de convivencia pero sin derechos de uso autónomos.",
+      "summary": "Referencia útil para regular a los invitados, que en El Buen Vivir además pagan cuota de uso (14 € adultos, 5 € menores)."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "reservas-turnos-corpus",
+      "statement": "Otras cooperativas ya usan un sistema de reserva de fechas y turnos como el de El Buen Vivir.",
+      "reason": "Las cooperativas del corpus son de residencia permanente con vivienda fija por socio; ninguna documenta un sistema de reserva rotativo, así que ese modelo no puede presentarse como copiado de ellas."
+    },
+    {
+      "claimId": "reservas-noches-gratis",
+      "statement": "Las personas socias disponen de 5 noches gratuitas al año.",
+      "reason": "Aparece solo como idea individual en documentos de trabajo de la Comisión de Economía, no como acuerdo aprobado en acta."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Anclar en Estatutos el derecho de uso y la prioridad de reserva del Socio A, y remitir el resto al RRI.",
+    "Desarrollar en el RRI el procedimiento de reserva, los turnos, el desempate y los importes de la cuota de uso, para poder revisarlos por acuerdo de la Asamblea.",
+    "Acordar reglas de desempate y algún límite de estancia que eviten que la prioridad del Socio A vacíe de uso a los Socios B en temporada alta.",
+    "Mantener los importes aprobados en la Reunión 21 (0,5 / 7 / 14 €) como cifras revisables y decidir su periodicidad de revisión.",
+    "Regular a las personas invitadas con una persona socia anfitriona responsable y aclarar si sus noches computan en los límites del socio."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Derecho de las personas socias a usar y disfrutar de la casa.",
+      "Prioridad de reserva del Socio A y remisión del desarrollo al RRI.",
+      "Remisión expresa al RRI para reservas, turnos, cuota de uso y límites de estancia."
+    ],
+    "rri": [
+      "Procedimiento de reserva de fechas y turnos, con antelación y herramienta.",
+      "Reglas de prioridad y de desempate en solapamientos.",
+      "Importes y tramos de la cuota de uso diaria y su revisión periódica.",
+      "Límites de estancia por persona o temporada, si se aprueban.",
+      "Régimen de personas invitadas: plazas, responsabilidad y cómputo."
+    ],
+    "notes": [
+      "La revisión jurídica debe confirmar que la prioridad del Socio A y la cuota diferenciada, al distinguir derechos por clase de socio, tienen anclaje estatutario suficiente."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, art. 118 (uso y disfrute cuando la cooperativa retiene la propiedad).",
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, art. 31 (competencia de la Asamblea sobre el RRI) y art. 22 (derechos del socio).",
+    "docs-estatutos-estatutos-entrepatios: Artículo 62 sobre normas de uso y remisión al RRI.",
+    "docs-estatutos-estatutos-losnidales: Artículo 60, con regulación equivalente del uso y remisión al RRI.",
+    "docs-estatutos-estatutos-la-borda: cláusula 7.3 sobre delimitación de usos en el RRI.",
+    "docs-rri-rri-axuntase: régimen de residentes temporales e invitadas."
+  ],
+  "referencesToAvoid": [
+    "No presentar el modelo de vivienda fija de otras cooperativas como si incluyera un sistema de reserva de fechas: El Buen Vivir es el caso distinto.",
+    "No tomar la idea de noches gratuitas ni importes de borradores antiguos de la Comisión de Economía como acuerdos: prevalecen los importes de la Reunión 21."
+  ]
+}

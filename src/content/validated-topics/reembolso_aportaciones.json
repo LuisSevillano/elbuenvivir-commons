@@ -1,0 +1,33 @@
+{
+  "slug": "reembolso_aportaciones",
+  "status": "reviewed",
+  "editorialSummary": [
+    "Cómo se devuelve la cuota umbral (10.000 €) al causar baja es un punto abierto de la Reunión 21 (07-07-2026).",
+    "Hay que separar el retorno del exceso sobre el umbral (ya con propuesta de Economía) de la devolución de la cuota umbral, y fijar deducción y plazo dentro de los topes legales (≤ 20/30 % y ≤ 5 años, art. 66)."
+  ],
+  "decisionQuestions": [],
+  "supportedFindings": [],
+  "unsupportedClaims": [],
+  "recommendationsForBuenVivir": [],
+  "statutesVsRRI": {
+    "statutes": [
+      "Derecho de reembolso de la cuota umbral y del capital.",
+      "Porcentaje de deducción (dentro del tope legal) y plazo de reembolso."
+    ],
+    "rri": [
+      "Calendario del reembolso diferido y coordinación con la lista de espera.",
+      "Condiciones del retorno del exceso sobre el umbral."
+    ],
+    "notes": [
+      "La devolución de la cuota umbral está pendiente de decisión en asamblea."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: art. 66 (reembolso de las aportaciones).",
+    "docs-estatutos-estatutos-los-girasoles: Artículo 49 (acortamiento del plazo si entra socio).",
+    "docs-estatutos-estatutos-axuntase: Artículo 37 (deducción máxima del 15 %)."
+  ],
+  "referencesToAvoid": [
+    "No prometer devolución inmediata de la cuota umbral: descapitalizaría la compra del inmueble."
+  ]
+}

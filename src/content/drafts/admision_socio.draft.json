@@ -8,8 +8,8 @@
     "Conviene valorar una regla mínima sobre nuevas personas socias, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre solicitud de ingreso, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre admision nuevos miembros, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Procedimiento de admisión, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Requisitos para ser socia y socio, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre 1. La persona interesada deberá presentar su solicitud de ingreso, o de inclusión en la Lista de, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre Aportaciones de las nuevas personas socias, contrastando las referencias automáticas del research pack.",
     "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
   ],
   "legalBasis": [],
@@ -79,7 +79,7 @@
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
-      "topicSlug": "derechos_y_obligaciones",
+      "topicSlug": "clases_de_socios",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     }
@@ -96,10 +96,34 @@
     "curated": false,
     "sourceResearchPack": "src/content/research-packs/admision_socio.md",
     "evidenceCount": 18,
-    "highConfidenceEvidence": 15,
-    "mediumConfidenceEvidence": 3,
+    "highConfidenceEvidence": 6,
+    "mediumConfidenceEvidence": 12,
     "lowConfidenceEvidence": 0,
     "evidence": [
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "1. La persona interesada deberá presentar su solicitud de ingreso, o de inclusión en la Lista de",
+        "confidence": "high",
+        "excerpt": "1. La persona interesada deberá presentar su solicitud de ingreso, o de inclusión en la Lista de Espera, por escrito al órgano de administración, con justificación de la situación que le da derecho conforme a estos Estatutos a formar parte..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 39.- Aportaciones de las nuevas personas socias.",
+        "confidence": "high",
+        "excerpt": "Artículo 39.- Aportaciones de las nuevas personas socias. Las personas socias que ingresen con posterioridad a la constitución de la Cooperativa deberán suscribir dos títulos de trescientos euros que constituyen la participación obligatoria..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 39.- Aportaciones de las nuevas personas socias.",
+        "confidence": "high",
+        "excerpt": "Artículo 39.- Aportaciones de las nuevas personas socias. Las personas socias que ingresen con posterioridad a la constitución de la Cooperativa deberán suscribir dos títulos de trescientos euros que constituyen la participación obligatoria..."
+      },
       {
         "documentSlug": "docs-estatutos-estatutos-entrepatios",
         "documentTitle": "Estatutos Entrepatios",
@@ -109,52 +133,12 @@
         "excerpt": "Artículo 8. Procedimiento de admisión. 1.- La persona interesada deberá presentar su solicitud de ingreso por escrito al Consejo Rector, con justificación de la situación que le da derecho conforme a estos Estatutos a formar parte de la Coo..."
       },
       {
-        "documentSlug": "docs-estatutos-estatutos-losnidales",
-        "documentTitle": "Estatutos Losnidales",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 8.- Procedimiento de admisión.",
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+        "documentTitle": "BOE A 2010 20034 Orden+EHA+3360 2010",
+        "documentType": "ley",
+        "articleOrSection": "a) Que las aportaciones obligatorias iniciales de las nuevas personas socias deban",
         "confidence": "high",
-        "excerpt": "Artículo 8.- Procedimiento de admisión. 1. La persona interesada deberá presentar su solicitud de ingreso, o de inclusión en la Lista de Espera, por escrito al órgano de administración, con justificación de la situación que le da derecho co..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-pepu",
-        "documentTitle": "Estatutos Pepu",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 39.- Aportaciones de las nuevas personas socias.",
-        "confidence": "high",
-        "excerpt": "Artículo 39.- Aportaciones de las nuevas personas socias. Las personas socias que ingresen con posterioridad a la constitución de la Cooperativa deberán suscribir dos títulos de trescientos euros que constituyen la participación obligatoria..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
-        "documentTitle": "Estatutos Pequenopueblo",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 39.- Aportaciones de las nuevas personas socias.",
-        "confidence": "high",
-        "excerpt": "Artículo 39.- Aportaciones de las nuevas personas socias. Las personas socias que ingresen con posterioridad a la constitución de la Cooperativa deberán suscribir dos títulos de trescientos euros que constituyen la participación obligatoria..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-pepu",
-        "documentTitle": "Estatutos Pepu",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 9.- Procedimiento de admisión.",
-        "confidence": "high",
-        "excerpt": "Artículo 9.- Procedimiento de admisión. Toda persona interesada en formar parte de la Cooperativa, deberá presentar la solicitud de admisión por escrito ante el Consejo Rector, con justificación de la situación que le da derecho a su preten..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
-        "documentTitle": "Estatutos Pequenopueblo",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 9.- Procedimiento de admisión.",
-        "confidence": "high",
-        "excerpt": "Artículo 9.- Procedimiento de admisión. Toda persona interesada en formar parte de la Cooperativa, deberá presentar la solicitud de admisión por escrito ante el Consejo Rector, con justificación de la situación que le da derecho a su preten..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
-        "documentTitle": "Estatutos Senior Cohousing Huelva",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 7. Admisión y adquisición de la condición de persona socia",
-        "confidence": "high",
-        "excerpt": "Artículo 7. Admisión y adquisición de la condición de persona socia 7.1. La persona interesada que pretenda ingresar en la cooperativa deberá formular la solicitud por escrito dirigida al Consejo Rector en la que conste la justificación de..."
+        "excerpt": "a) Que las aportaciones obligatorias iniciales de las nuevas personas socias deban efectuarse mediante la adquisición de las aportaciones cuyo reembolso hubiese sido rehusado por la cooperativa."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-tarocohousing",
@@ -165,36 +149,52 @@
         "excerpt": "Artículo 40.- Aportaciones de las nuevas personas socias"
       },
       {
-        "documentSlug": "docs-leyes-normativa-autonomica",
-        "documentTitle": "Normativa Autonomica",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 19. Admisión de nuevos socios.",
-        "confidence": "high",
-        "excerpt": "Artículo 19. Admisión de nuevos socios. 1. Los Estatutos de cada sociedad cooperativa establecerán los requisitos necesarios para la adquisición de la condición de nuevos socios, que en todo caso habrán de respetar los principios constituci..."
+        "documentSlug": "docs-estatutos-estatutos-pepu",
+        "documentTitle": "Estatutos Pepu",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 9.- Procedimiento de admisión.",
+        "confidence": "medium",
+        "excerpt": "Artículo 9.- Procedimiento de admisión. Toda persona interesada en formar parte de la Cooperativa, deberá presentar la solicitud de admisión por escrito ante el Consejo Rector, con justificación de la situación que le da derecho a su preten..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
+        "documentTitle": "Estatutos Pequenopueblo",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 9.- Procedimiento de admisión.",
+        "confidence": "medium",
+        "excerpt": "Artículo 9.- Procedimiento de admisión. Toda persona interesada en formar parte de la Cooperativa, deberá presentar la solicitud de admisión por escrito ante el Consejo Rector, con justificación de la situación que le da derecho a su preten..."
       },
       {
         "documentSlug": "docs-otros-modelo-estatutos-viviendas",
         "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
         "documentType": "otro",
         "articleOrSection": "Artículo 8.- Admisión",
-        "confidence": "high",
+        "confidence": "medium",
         "excerpt": "Artículo 8.- Admisión 1.- Para ingresar en la cooperativa la persona aspirante deberá formular la solicitud por escrito dirigida al órgano de administración en la que conste la justificación de la situación que le da derecho, conforme a est..."
-      },
-      {
-        "documentSlug": "docs-leyes-normativa-estatal",
-        "documentTitle": "Normativa Estatal",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 13. Admisión de nuevos socios.",
-        "confidence": "high",
-        "excerpt": "Artículo 13. Admisión de nuevos socios. 1. La solicitud para la adquisición de la condición de socio se formulará por escrito al Consejo Rector, que deberá resolver y comunicar su decisión en el plazo no superior a tres meses, a contar desd..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-tarocohousing",
         "documentTitle": "Estatutos Tarocohousing",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 12.- Procedimiento de admisión",
-        "confidence": "high",
-        "excerpt": "Artículo 12.- Procedimiento de admisión"
+        "articleOrSection": "g) La admisión de nuevas personas socias cumpliendo con el procedimiento previsto en el",
+        "confidence": "medium",
+        "excerpt": "g) La admisión de nuevas personas socias cumpliendo con el procedimiento previsto en el"
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "CAPÍTULO IV",
+        "confidence": "medium",
+        "excerpt": "CAPÍTULO IV RÉGIMEN ECONÓMICO DE LA COOPERATIVA Ar\u001aculo 36.- Responsabilidad de la coopera3va y de las personas socias. La coopera\u000eva responderá de las deudas contraídas con todo su patrimonio presente y futuro. 33 -- 33 of 48 -- La respons..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "CAPÍTULO IV",
+        "confidence": "medium",
+        "excerpt": "CAPÍTULO IV RÉGIMEN ECONÓMICO DE LA COOPERATIVA Arơculo 39.- Responsabilidad de la cooperaƟva y de las personas socias. La cooperaƟva responderá de las deudas contraídas con todo su patrimonio presente y futuro. La responsabilidad de la per..."
       }
     ]
   }

@@ -5,7 +5,7 @@ Metadata:
 - Topic slug: `clases_de_socios`
 - Categoría: socios
 - Estado taxonómico: planned
-- Referencias incluidas: 8
+- Referencias incluidas: 9
 - Máximo configurado: 20
 - Excluir low confidence: no
 
@@ -37,7 +37,7 @@ Este dossier contiene extractos automáticos para análisis posterior. No contie
 - Sección/artículo: ARTÍCULO 10.- SOCIOS COLABORADORES
 - Ruta fuente: `docs/estatutos/estatutos_laseronda.org.pdf`
 - Confidence: high
-- Score: 36
+- Score: 30
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -71,19 +71,19 @@ voluntarias cuyo plazo y condiciones de desembolso será el acordado en la últi
 
 ---
 
-## Normativa Autonomica
+## Otras Leyes, Decretos, Modificaciones
 
 ### Referencia 2
 
-- Documento: Normativa Autonomica
-- Slug documento: `docs-leyes-normativa-autonomica`
+- Documento: BOE A 2010 20034 Orden+EHA+3360 2010
+- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010`
 - Tipo: ley
 - Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 26. Socio colaborador y socio de servicios.
-- Ruta fuente: `docs/leyes/normativa_autonomica.pdf`
+- Proyecto: Otras Leyes, Decretos, Modificaciones
+- Sección/artículo: c) La cuantía restante, en su caso, que será imputada a las distintas clases de socios
+- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2010-20034_Orden+EHA+3360_2010.pdf`
 - Confidence: high
-- Score: 32
+- Score: 25
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -91,30 +91,172 @@ voluntarias cuyo plazo y condiciones de desembolso será el acordado en la últi
 Extracto relevante:
 
 ```text
-Artículo 26. Socio colaborador y socio de servicios.
-1. Las sociedades cooperativas podrán incorporar, si lo prevén sus Estatutos, socios
-colaboradores, que efectúen aportación al capital y que no podrán realizar actividad
-cooperativizada.
-2. Las sociedades cooperativas podrán disponer de socios de servicios, que sin realizar
-la actividad principal, podrán participar de otras actividades o servicios que preste la
-cooperativa. Estatutariamente se determinará el régimen de admisión y baja, así como los
-derechos y obligaciones de estos socios.
-3. Los socios colaboradores y los socios de servicios deberán desembolsar la aportación
-económica que determinen los Estatutos o fije en su defecto la Asamblea General, la cual
-fijará los criterios de participación ponderada de los mismos en los derechos y obligaciones
-socioeconómicas de la cooperativa, en especial el régimen de su derecho de separación, sin
-que se les pueda exigir nuevas aportaciones al capital social.
-4. Los Estatutos fijarán los límites específicos, en cuanto a aportaciones y número de
-votos, teniendo como límites máximos los establecidos en los artículos 59 y 35.6
-respectivamente de esta ley, así como las demás condiciones de integración de este tipo de
-socios en cada sociedad, y sus derechos y obligaciones económicas.
-5. El régimen de responsabilidad de los socios colaboradores y de servicios es el que se
-establece para los socios en el artículo 67 de esta ley.
+c) La cuantía restante, en su caso, que será imputada a las distintas clases de socios
+de la cooperativa de acuerdo con lo dispuesto en la ley, se aplicará de alguna de las
+formas siguientes, salvo que los estatutos prevean de forma expresa su compensación
+con cargo a futuros resultados positivos:
+Mediante su abono directo; a estos efectos, se podrán aplicar las aportaciones o cuotas
+recogidas en la partida «Otras aportaciones de socios» a que se refiere la letra b) del
 ```
 
 ---
 
+## GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4
+
 ### Referencia 3
+
+- Documento: GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4
+- Slug documento: `docs-guias-guia-introduccion-al-cohousing-senior-2019-4`
+- Tipo: guia
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: i) Las clases de socios, los requisitos para su admisión, los supuestos de baja voluntaria y de baja
+- Ruta fuente: `docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf`
+- Confidence: high
+- Score: 25
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+i) Las clases de socios, los requisitos para su admisión, los supuestos de baja voluntaria y de baja
+obligatoria, así como los casos en que la baja se calificará como justificada o como injustificada y,
+en el caso de no ser una norma obligatoria de la respectiva Ley cooperativa, las deducciones que
+se practicarán al socio en el capital social, si la baja se califica como injustificada o se trata de una
+baja por expulsión, así como el régimen de reembolso del capital.
+```
+
+---
+
+### Referencia 4
+
+- Documento: GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4
+- Slug documento: `docs-guias-guia-introduccion-al-cohousing-senior-2019-4`
+- Tipo: guia
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: c) Socios colaboradores o asociados
+- Ruta fuente: `docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf`
+- Confidence: medium
+- Score: 15
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+c) Socios colaboradores o asociados
+Una figura común en las cooperativas son los socios colaboradores o asociados, según denominación de cada ley autonómica. Su existencia deberá preverse en los Estatutos Sociales. Se tratará
+de personas físicas o jurídicas, de carácter público o privado, que, sin tener derecho a desarrollar la
+actividad cooperativizada principal –la residencia habitual y los servicios que presta la cooperativa-,
+podrán contribuir a la consecución de los fines sociales.
+La colaboración puede consistir en la participación en actividades de carácter auxiliar, secundario,
+accesorio o complementario a la actividad principal, o solo a la aportación de capital.
+Por ejemplo, si en los Estatutos se contemplara la figura del socio colaborador, los familiares de
+los socios cooperativos podrían contribuir a la realización o mejora del proyecto de cohousing
+bajo la forma de socio colaborador. Otro ejemplo podría producirse en el caso de que los servicios
+asistenciales sean prestados a la cooperativa de cohousing sénior por otra cooperativa –por
+ejemplo, una cooperativa de trabajo de trabadores sociales, limpiadoras, enfermeras…-, en régimen
+de arrendamiento de servicios; en tal caso, esta segunda cooperativa podría incorporarse como
+socia colaboradora o asociada de la cooperativa de cohousing sénior ya que con su actividad
+contribuye a conseguir los fines del proyecto de cohousing.
+El régimen de alta y baja, así como sus derechos y obligaciones, se determinará en los Estatutos.
+En todos los casos, deberán respetarse los límites que imponga la ley sectorial aplicable.
+Hay que insistir en que el socio colaborador o asociado no realiza actividad cooperativizada,
+sino que participa en actividades accesorias o complementarias a la actividad, por lo que nunca
+tendrían lo
+
+[Extracto truncado automáticamente]
+```
+
+---
+
+### Referencia 5
+
+- Documento: GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4
+- Slug documento: `docs-guias-guia-introduccion-al-cohousing-senior-2019-4`
+- Tipo: guia
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: q) La cláusula de sometimiento a la conciliación previa, a la mediación y al arbitraje cooperativo,
+- Ruta fuente: `docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf`
+- Confidence: low
+- Score: 10
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+q) La cláusula de sometimiento a la conciliación previa, a la mediación y al arbitraje cooperativo,
+regulados en la respectiva.
+Las clases de socios
+Teniendo en cuenta que el establecimiento de la tipología de socios y su regulación es uno de los
+contenidos mínimos que exige la ley para los Estatutos de la cooperativa, será necesario conocer
+qué tipos de socios puede haber en un proyecto de cohousing. Para cada uno de ellos, será necesario
+establecer el régimen aplicable: sus derechos y obligaciones, los requisitos para su admisión y baja,
+etc.
+Así, los Estatutos Sociales de una cooperativa de cohousing pueden establecer que ésta tenga no
+solamente socios cooperativos, que desarrollan alguna actividad cooperativizada, sino también
+pueden contar con socios de trabajo, temporales, colaboradores o expectantes, entre otros.
+En esta guía, sólo trataremos las clases de socios más cercanas a la figura del cohousing senior:
+```
+
+---
+
+## Normativa Autonomica
+
+### Referencia 6
+
+- Documento: Normativa Autonomica
+- Slug documento: `docs-leyes-normativa-autonomica`
+- Tipo: ley
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: artículo 26 la competencia exclusiva en materia de cooperativas. Esta norma encontró un
+- Ruta fuente: `docs/leyes/normativa_autonomica.pdf`
+- Confidence: medium
+- Score: 15
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+artículo 26 la competencia exclusiva en materia de cooperativas. Esta norma encontró un
+primer reflejo, en un orden práctico, en el Real Decreto 832/1995, de 30 de mayo, por el que
+se formalizó la transferencia de competencias en materia de cooperativas de la
+Administración del Estado a la Comunidad de Castilla y León. En la última reforma del
+Estatuto de la Comunidad de Castilla y León, se incorporó en el número 24 del párrafo 1.o
+del artículo 32 la competencia exclusiva en materia de cooperativas.
+La Comunidad de Castilla y León, al asumir las competencias atribuyó por el Decreto
+121/1995, de 11 de julio, la competencia en ese ámbito de actuación a la Consejería de
+Industria, Comercio y Turismo.
+En ese marco jurídico e institucional, surge la Ley de Cooperativas de Castilla y León
+con el objeto de alcanzar nuestras legítimas cuotas de autogobierno, configurándose como
+el instrumento necesario para la ordenación de esa manifestación empresarial, con gran
+arraigo en nuestra tierra. Esta norma, caracterizada por los principios de solidaridad y
+gestión democrática de las sociedades a las que trata de prestar acogida y apoyo, coincide
+en sus postulados inspiradores con los que sirven de base al movimiento cooperativo
+mundial, y asume la misión de prestar marcos de referencia a la autonomía de la voluntad de
+los socios, que es el verdadero cimiento de la cooperativa.
+Castilla y León, que conoce hoy la presencia de empresas cooperativas como vigorosa y
+dinámica fórmula societaria en los más diversos sectores de su estructura económica y
+social, incorpora a su instrumentación de dinamización y de máximo aprovechamiento de los
+recursos disponibles, la esencia de un espíritu solidario que ha pervivido en el tiempo en
+entidades e instituciones de los más diversos orígenes. Testi
+
+[Extracto truncado automáticamente]
+```
+
+---
+
+### Referencia 7
 
 - Documento: Normativa Autonomica
 - Slug documento: `docs-leyes-normativa-autonomica`
@@ -123,8 +265,8 @@ establece para los socios en el artículo 67 de esta ley.
 - Proyecto: No disponible
 - Sección/artículo: Sección 3.ª Otras clases de socios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
 - Ruta fuente: `docs/leyes/normativa_autonomica.pdf`
-- Confidence: high
-- Score: 25
+- Confidence: medium
+- Score: 14
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -137,17 +279,17 @@ Sección 3.ª Otras clases de socios . . . . . . . . . . . . . . . . . . . . . .
 
 ---
 
-### Referencia 4
+### Referencia 8
 
 - Documento: Normativa Autonomica
 - Slug documento: `docs-leyes-normativa-autonomica`
 - Tipo: ley
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Sección 3.ª Otras clases de socios
+- Sección/artículo: g) Clases de socios, requisitos y procedimiento de admisión, baja voluntaria y obligatoria,
 - Ruta fuente: `docs/leyes/normativa_autonomica.pdf`
-- Confidence: high
-- Score: 25
+- Confidence: medium
+- Score: 14
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -155,24 +297,25 @@ Sección 3.ª Otras clases de socios . . . . . . . . . . . . . . . . . . . . . .
 Extracto relevante:
 
 ```text
-Sección 3.ª Otras clases de socios
+g) Clases de socios, requisitos y procedimiento de admisión, baja voluntaria y obligatoria,
+así como las causas justificadoras o no de las mismas.
 ```
 
 ---
 
 ## Normativa Estatal
 
-### Referencia 5
+### Referencia 9
 
 - Documento: Normativa Estatal
 - Slug documento: `docs-leyes-normativa-estatal`
 - Tipo: ley
 - Jurisdicción: España
 - Proyecto: No disponible
-- Sección/artículo: Artículo 46. Aportaciones obligatorias.
+- Sección/artículo: j) Las clases de socios, requisitos para su admisión y baja voluntaria u obligatoria y
 - Ruta fuente: `docs/leyes/normativa_estatal.pdf`
-- Confidence: low
-- Score: 10
+- Confidence: medium
+- Score: 14
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -180,127 +323,8 @@ Sección 3.ª Otras clases de socios
 Extracto relevante:
 
 ```text
-Artículo 46. Aportaciones obligatorias.
-1. Los Estatutos fijarán la aportación obligatoria mínima al capital social para ser socio,
-que podrá ser diferente para las distintas clases de socios o para cada socio en proporción al
-compromiso o uso potencial que cada uno de ellos asuma de la actividad cooperativizada.
-2. La Asamblea General podrá acordar la exigencia de nuevas aportaciones obligatorias.
-El socio que tuviera desembolsadas aportaciones voluntarias podrá aplicarlas, en todo o en
-parte, a cubrir las nuevas aportaciones obligatorias acordadas por la Asamblea General. El
-socio disconforme con la exigencia de nuevas aportaciones al capital social podrá darse de
-baja, calificándose ésta como justificada.
-3. Las aportaciones obligatorias deberán desembolsarse, al menos, en un 25 por 100 en
-el momento de la suscripción y el resto en el plazo que se establezca por los Estatutos o por
-la Asamblea General.
-4. Si por la imputación de pérdidas de la cooperativa a los socios, la aportación al capital
-social de alguno de ellos quedara por debajo del importe fijado como aportación obligatoria
-mínima para mantener la condición de socio, el socio afectado deberá realizar la aportación
-BOLETÍN OFICIAL DEL ESTADO
-LEGISLACIÓN CONSOLIDADA
-Página 30
-
--- 30 of 67 --
-
-necesaria hasta alcanzar dicho importe, para lo cual será inmediatamente requerido por el
-Consejo Rector, el cual fijará el plazo para efectuar el desembolso, que no podrá ser inferior
-a dos meses ni superior a un año.
-5. El socio que no desembolse las aportaciones en los plazos previstos incurrirá en mora
-por el solo vencimiento del plazo y deberá abonar a la cooperativa el interés legal por la
-cantidad adeudada y resarcirla, en su caso, de los daños y perjuicios causados por la
-morosidad.
-6. El socio que incurra en mor
-
-[Extracto truncado automáticamente]
-```
-
----
-
-### Referencia 6
-
-- Documento: Normativa Estatal
-- Slug documento: `docs-leyes-normativa-estatal`
-- Tipo: ley
-- Jurisdicción: España
-- Proyecto: No disponible
-- Sección/artículo: Artículo 52. Aportaciones que no forman parte del capital social.
-- Ruta fuente: `docs/leyes/normativa_estatal.pdf`
-- Confidence: low
-- Score: 9
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 52. Aportaciones que no forman parte del capital social.
-1. Los Estatutos o la Asamblea General podrán establecer cuotas de ingresos y/o
-periódicas, que no integrarán el capital social ni serán reintegrables. Dichas cuotas podrán
-ser diferentes para las distintas clases de socios previstas en esta Ley, en función de la
-naturaleza física o jurídica de los mismos o, para cada socio, en proporción a su respectivo
-compromiso o uso potencial de actividad cooperativizada.
-2. El importe de las cuotas de ingreso de los nuevos socios, no podrá ser superior al 25
-por 100 del importe de la aportación obligatoria al capital social que se le exija para su
-ingreso en la cooperativa.
-3. Los bienes de cualquier tipo entregados por los socios para la gestión cooperativa y,
-en general, los pagos para la obtención de los servicios cooperativizados, no integran el
-capital social y están sujetos a las condiciones fijadas y contratadas con la sociedad
-cooperativa.
-```
-
----
-
-## Estatutos Tarocohousing
-
-### Referencia 7
-
-- Documento: Estatutos Tarocohousing
-- Slug documento: `docs-estatutos-estatutos-tarocohousing`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 40.- Aportaciones de las nuevas personas socias
-- Ruta fuente: `docs/estatutos/estatutos_tarocohousing.pdf`
-- Confidence: low
-- Score: 9
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 40.- Aportaciones de las nuevas personas socias
-```
-
----
-
-## MOD ESTATUTOS COOP VIVIENDAS
-
-### Referencia 8
-
-- Documento: MOD ESTATUTOS COOP VIVIENDAS
-- Slug documento: `docs-otros-mod-estatutos-coop-viviendas`
-- Tipo: otro
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: ARTÍCULO 46.- APORTACIONES DE LOS NUEVOS SOCIOS.
-- Ruta fuente: `docs/otros/MOD_ESTATUTOS_COOP_VIVIENDAS.pdf`
-- Confidence: low
-- Score: 9
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-ARTÍCULO 46.- APORTACIONES DE LOS NUEVOS SOCIOS.
-La Asamblea General fijará la aportación obligatoria al capital social que deberán
-efectuar los socios que se incorporen con posterioridad a la constitución de la cooperativa que
-podrá ser diferente para las distintas clases de socios. El importe no podrá superar el valor
-actualizado, según el índice general de precios al consumo, de las aportaciones obligatorias
-inicial y sucesivas, efectuadas por el socio de mayor antigüedad en la cooperativa.
+j) Las clases de socios, requisitos para su admisión y baja voluntaria u obligatoria y
+régimen aplicable.
 ```
 
 ---

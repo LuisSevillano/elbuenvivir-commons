@@ -1,6 +1,6 @@
 {
   "topicSlug": "desigualdad_aportaciones",
-  "generatedAt": "2026-05-14T09:23:59.806Z",
+  "generatedAt": "2026-07-07T07:30:01.008Z",
   "decisionQuestions": [
     {
       "id": "money_without_power",
@@ -29,11 +29,11 @@
             "grupos con capacidades económicas distintas"
           ],
           "detectedInProjects": [
-            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-            "Las GuíAs De Sostre CíVic",
-            "Otras Leyes, Decretos, Modificaciones",
             "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
-            "Normativa Estatal"
+            "Estatutos Elciempies",
+            "Estatutos Los Girasoles",
+            "Estatutos Tarocohousing",
+            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024"
           ],
           "evidenceLevel": "high"
         }
@@ -52,11 +52,11 @@
         "desigualdad_aportaciones-money_without_power-5"
       ],
       "relatedProjects": [
-        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-        "Las GuíAs De Sostre CíVic",
-        "Otras Leyes, Decretos, Modificaciones",
         "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
-        "Normativa Estatal"
+        "Estatutos Elciempies",
+        "Estatutos Los Girasoles",
+        "Estatutos Tarocohousing",
+        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024"
       ],
       "suggestedPlacement": {
         "statutes": [
@@ -93,8 +93,10 @@
             "grupos con financiación transitoria"
           ],
           "detectedInProjects": [
+            "Estatutos Elciempies",
+            "Estatutos Los Girasoles",
+            "Estatutos Tarocohousing",
             "Otras Leyes, Decretos, Modificaciones",
-            "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
             "Las GuíAs De Sostre CíVic"
           ],
           "evidenceLevel": "high"
@@ -114,8 +116,10 @@
         "desigualdad_aportaciones-financial_instruments-5"
       ],
       "relatedProjects": [
+        "Estatutos Elciempies",
+        "Estatutos Los Girasoles",
+        "Estatutos Tarocohousing",
         "Otras Leyes, Decretos, Modificaciones",
-        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
         "Las GuíAs De Sostre CíVic"
       ],
       "suggestedPlacement": {
@@ -155,140 +159,138 @@
     ]
   },
   "relevantProjects": [
-    "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-    "Las GuíAs De Sostre CíVic",
-    "Otras Leyes, Decretos, Modificaciones",
     "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
-    "Normativa Estatal"
+    "Estatutos Elciempies",
+    "Estatutos Los Girasoles",
+    "Estatutos Tarocohousing",
+    "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+    "Otras Leyes, Decretos, Modificaciones",
+    "Las GuíAs De Sostre CíVic"
   ],
   "extracts": [
     {
       "id": "desigualdad_aportaciones-money_without_power-1",
-      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "excerpt": ".... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31 3.2. Nuevas aportaciones obligatorias al capital social . . . . . . . . . . . . . . . . . . . . . . 34 3.3. Otras aportaciones obligatorias al capital social. . . . . . . . . . . . . . . . . . . . . . . 34 3.4. Las aportaciones voluntarias al capital social. . . . . . . . . . . . . . . . . . . . . . . . . . 35 3.5. La retribución de las aportaciones a capital social. . . . . . . . . . . . . . . . . . . . . 35...",
-      "matchedConcepts": [
-        "aportaciones desiguales",
-        "igualdad política"
-      ],
-      "score": 203
-    },
-    {
-      "id": "desigualdad_aportaciones-money_without_power-2",
-      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-      "documentTitle": "Las GuíAs De Sostre CíVic",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
-      "articleOrSection": "Título original: Cures en la convivència de persones grans",
-      "excerpt": "...nidamente, la participación y gestión democrática por parte de las personas -- 293 of 377 -- 7 Introducción habitantes, aportaciones económicas periódicas (parecidas a un alquiler) y a precio de coste, el traspaso del derecho de uso de la vivienda de forma no especulativa y, finalmente, la voluntad de replicabilidad y de aumentar la vivienda social y asequible. A pesar del título, la guía está basada sobre todo en la “práctica” cooperativa. Hay cooperativas poco transformadoras (son una prueba de ello los miles de...",
-      "matchedConcepts": [
-        "aportaciones desiguales",
-        "igualdad política"
-      ],
-      "score": 133
-    },
-    {
-      "id": "desigualdad_aportaciones-money_without_power-3",
-      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
-      "documentType": "ley",
-      "projectName": "Otras Leyes, Decretos, Modificaciones",
-      "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2007-19884-consolidado_RD+1514_2007.pdf",
-      "articleOrSection": "Artículo 2. Obligatoriedad del Plan.",
-      "excerpt": "...ontabilizar toda transacción o hecho económico. La segunda novedad es la ubicación del principio de prudencia en pie de igualdad con los restantes principios, lo que en ningún caso debe llevar a pensar que el modelo abandona la tutela de la solvencia patrimonial de la empresa frente a sus acreedores. Por el contrario, el registro de los riesgos deberá seguir realizándose desde la imparcialidad y objetividad exigida por el Plan de 1990 para el análisis de las obligaciones, de tal suerte que, con carácter general, no...",
-      "matchedConcepts": [
-        "aportaciones desiguales",
-        "igualdad política"
-      ],
-      "score": 109
-    },
-    {
-      "id": "desigualdad_aportaciones-money_without_power-4",
       "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
       "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
       "documentType": "guia",
       "sourcePath": "docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf",
-      "articleOrSection": "Documento completo",
-      "excerpt": "...os los valores son plenamente coincidentes con los valores cooperativos de autoayuda, autorresponsabilidad, democracia, igualdad, equidad y solidaridad. El desarrollo de un proyecto de cohousing senior no se puede resumir en una guía al uso donde encontrar las distintas respuestas a los diferentes problemas que se plantean. Tampoco pretendemos analizar los procesos que llevan a la creación de este tipo de iniciativas como el envejecimiento de la población, el envejecimiento activo, la autonomía de la persona, etc....",
+      "articleOrSection": "a) Derecho de voto.",
+      "excerpt": "a) Derecho de voto. El socio tiene derecho de participar en los órganos sociales. El primero de ellos es la asamblea general, donde el socio puede dar su opinión, ser oído en sus reuniones, pero también, y sobre todo, puede emitir su voto y contribuir a conformar la voluntad social, participando de forma activa en la toma de decisiones de la cooperativa. Para poder ejercer este derecho, el socio tiene que ser convocado a las reuniones de la asamblea o, en otro caso, esta se convocará de manera viciada y sus acuerdo...",
+      "matchedConcepts": [
+        "igualdad política"
+      ],
+      "score": 84
+    },
+    {
+      "id": "desigualdad_aportaciones-money_without_power-2",
+      "documentSlug": "docs-estatutos-estatutos-elciempies",
+      "documentTitle": "Estatutos Elciempies",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "excerpt": "...esente y futuro. 33 -- 33 of 48 -- La responsabilidad de la persona socia por las deudas sociales estará limitada a las aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito, estén o no desembolsadas en su totalidad. No obstante, en caso de baja o expulsión, la persona socia responderá personalmente por las deudas sociales, previa exclusión del haber social, durante cinco años desde la pérdida de su condición de socio/a, por las obligaciones contraídas por la coopera\u000eva con anter...",
       "matchedConcepts": [
         "aportaciones desiguales",
         "igualdad política"
       ],
-      "score": 106
+      "score": 49
+    },
+    {
+      "id": "desigualdad_aportaciones-money_without_power-3",
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "documentTitle": "Estatutos Los Girasoles",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "excerpt": "...o su patrimonio presente y futuro. La responsabilidad de la persona socia por las deudas sociales estará limitada a las aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito, estén o no desembolsadas en su totalidad. No obstante, en caso de baja o expulsión, la persona socia responderá personalmente por las deudas sociales, previa exclusión del haber social, durante cinco años desde la pérdida de su condición de socio/a, por las obligaciones contraídas por la cooperaƟva con anter...",
+      "matchedConcepts": [
+        "aportaciones desiguales",
+        "igualdad política"
+      ],
+      "score": 49
+    },
+    {
+      "id": "desigualdad_aportaciones-money_without_power-4",
+      "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+      "documentTitle": "Estatutos Tarocohousing",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_tarocohousing.pdf",
+      "articleOrSection": "Artículo 41.- Aportaciones Voluntarias",
+      "excerpt": "Artículo 41.- Aportaciones Voluntarias 1.- La Asamblea General, con el voto favorable de más de la mitad de los votos válidamente expresados por las personas socias presentes y/o representadas, no siendo computables a estos efectos los votos en blanco y las abstenciones, podrá acordar la admisión de aportaciones voluntarias al capital social de las personas socias de la cooperativa. El acuerdo expresará la cuantía global máxima y el tipo de interés que percibirán estas aportaciones, si procede, que no podrá ser sup...",
+      "matchedConcepts": [
+        "aportaciones desiguales",
+        "igualdad política"
+      ],
+      "score": 47
     },
     {
       "id": "desigualdad_aportaciones-money_without_power-5",
-      "documentSlug": "docs-leyes-normativa-estatal",
-      "documentTitle": "Normativa Estatal",
-      "documentType": "ley",
-      "sourcePath": "docs/leyes/normativa_estatal.pdf",
-      "articleOrSection": "Artículo 26. Derecho de voto.",
-      "excerpt": "Artículo 26. Derecho de voto. 1. En la Asamblea General cada socio tendrá un voto. 2. Sin perjuicio de lo dispuesto en el apartado anterior, en las cooperativas de primer grado, los Estatutos podrán establecer el derecho al voto plural ponderado, en proporción al volumen de la actividad cooperativizada, para los socios que sean cooperativas, sociedades controladas por éstas o entidades públicas. En estos supuestos los Estatutos fijarán con claridad los criterios de proporcionalidad, sin que el número de votos de un...",
-      "matchedConcepts": [
-        "igualdad política"
-      ],
-      "score": 69
-    },
-    {
-      "id": "desigualdad_aportaciones-financial_instruments-1",
-      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
-      "documentType": "ley",
-      "projectName": "Otras Leyes, Decretos, Modificaciones",
-      "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2007-19884-consolidado_RD+1514_2007.pdf",
-      "articleOrSection": "artículo 84 del Texto Refundido de la Ley de Sociedades Anónimas.",
-      "excerpt": "...bono a las cuentas del subgrupo 83. BOLETÍN OFICIAL DEL ESTADO LEGISLACIÓN CONSOLIDADA Página 169 -- 169 of 270 -- 118. Aportaciones de socios o propietarios Elementos patrimoniales entregados por los socios o propietarios de la empresa cuando actúen como tales, en virtud de operaciones no descritas en otras cuentas. Es decir, siempre que no constituyan contraprestación por la entrega de bienes o la prestación de servicios realizados por la empresa, ni tengan la naturaleza de pasivo. En particular, incluye las cant...",
-      "matchedConcepts": [
-        "aportaciones desiguales",
-        "derechos económicos diferenciados"
-      ],
-      "score": 583
-    },
-    {
-      "id": "desigualdad_aportaciones-financial_instruments-2",
-      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
-      "documentTitle": "BOE A 2010 20034 Orden+EHA+3360 2010",
-      "documentType": "ley",
-      "projectName": "Otras Leyes, Decretos, Modificaciones",
-      "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2010-20034_Orden+EHA+3360_2010.pdf",
-      "articleOrSection": "Artículo 2. \tÁmbito de aplicación.",
-      "excerpt": "...da. Entrada en vigor. La presente Orden entrará en vigor el 1 de enero de 2011 y será de aplicación para los ejercicios económicos que se inicien a partir de dicha fecha. Madrid, 21 de diciembre de 2010.–La Vicepresidenta Segunda del Gobierno y Ministra de Economía y Hacienda, Elena Salgado Méndez. NORMAS SOBRE LOS ASPECTOS CONTABLES DE LAS SOCIEDADES COOPERATIVAS INTRODUCCIÓN I 1. Las Normas sobre los aspectos contables de las sociedades cooperativas han sido elaboradas por un grupo de expertos que han desarrollad...",
-      "matchedConcepts": [
-        "derechos económicos diferenciados"
-      ],
-      "score": 446
-    },
-    {
-      "id": "desigualdad_aportaciones-financial_instruments-3",
-      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
-      "documentType": "ley",
-      "projectName": "Otras Leyes, Decretos, Modificaciones",
-      "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2007-19884-consolidado_RD+1514_2007.pdf",
-      "articleOrSection": "Artículo 2. Obligatoriedad del Plan.",
-      "excerpt": "...s pasados, para cuya extinción la empresa espera desprenderse de recursos que puedan producir beneficios o rendimientos económicos en el futuro. Esta definición unida a la prevalencia del fondo sobre la forma condicionará el registro de algunos instrumentos financieros, que deberán contabilizarse como pasivos cuando a priori, desde un punto de vista estrictamente jurídico, pudieran tener la apariencia de instrumentos de patrimonio. Otra novedad importante incluida en este apartado es la previsión de que determinado...",
-      "matchedConcepts": [
-        "aportaciones desiguales",
-        "derechos económicos diferenciados"
-      ],
-      "score": 370
-    },
-    {
-      "id": "desigualdad_aportaciones-financial_instruments-4",
       "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
       "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
       "documentType": "guia",
       "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "excerpt": "...recomendación. HISPACOOP no se hace responable del uso que pueda darse a la información incluida. © HISPACOOP Todos los derechos reservados. Queda prohibida la reproducción total o parcial del material protegido por los derechos de propiedad intelectual, o su uso en cualquier forma, o por cualquier medio, ya sea electrónico o mecánico, incluyendo fotocopiado, grabación, transmisión o cualquier sistema de almacenamiento y recuperación de información, sin el permiso por escrito de HISPACOOP. -- 2 of 62 -- 3 ÍNDICE GU...",
+      "articleOrSection": "LAS COOPERATIVAS DE COHOUSING SÉNIOR",
+      "excerpt": "LAS COOPERATIVAS DE COHOUSING SÉNIOR Una advertencia sobre el derecho de voto de las personas socias cuando se comparte la titularidad del derecho de uso: Como regla general, la persona socia no puede ser privada de su derecho de voto, salvo que este derecho haya sido suspendido, previa la tramitación de un expediente de disciplina social, como sanción o, si lo permite la respectiva Ley autonómica, como medida cautelar. En consecuencia, todas las personas socias tienen derecho de voto. Si el derecho de uso de la vi...",
+      "matchedConcepts": [
+        "igualdad política"
+      ],
+      "score": 44
+    },
+    {
+      "id": "desigualdad_aportaciones-financial_instruments-1",
+      "documentSlug": "docs-estatutos-estatutos-elciempies",
+      "documentTitle": "Estatutos Elciempies",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "excerpt": "...esente y futuro. 33 -- 33 of 48 -- La responsabilidad de la persona socia por las deudas sociales estará limitada a las aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito, estén o no desembolsadas en su totalidad. No obstante, en caso de baja o expulsión, la persona socia responderá personalmente por las deudas sociales, previa exclusión del haber social, durante cinco años desde la pérdida de su condición de socio/a, por las obligaciones contraídas por la coopera\u000eva con anter...",
       "matchedConcepts": [
         "aportaciones desiguales",
         "derechos económicos diferenciados"
       ],
-      "score": 332
+      "score": 88
+    },
+    {
+      "id": "desigualdad_aportaciones-financial_instruments-2",
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "documentTitle": "Estatutos Los Girasoles",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "excerpt": "...o su patrimonio presente y futuro. La responsabilidad de la persona socia por las deudas sociales estará limitada a las aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito, estén o no desembolsadas en su totalidad. No obstante, en caso de baja o expulsión, la persona socia responderá personalmente por las deudas sociales, previa exclusión del haber social, durante cinco años desde la pérdida de su condición de socio/a, por las obligaciones contraídas por la cooperaƟva con anter...",
+      "matchedConcepts": [
+        "aportaciones desiguales",
+        "derechos económicos diferenciados"
+      ],
+      "score": 88
+    },
+    {
+      "id": "desigualdad_aportaciones-financial_instruments-3",
+      "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+      "documentTitle": "Estatutos Tarocohousing",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_tarocohousing.pdf",
+      "articleOrSection": "Artículo 41.- Aportaciones Voluntarias",
+      "excerpt": "Artículo 41.- Aportaciones Voluntarias 1.- La Asamblea General, con el voto favorable de más de la mitad de los votos válidamente expresados por las personas socias presentes y/o representadas, no siendo computables a estos efectos los votos en blanco y las abstenciones, podrá acordar la admisión de aportaciones voluntarias al capital social de las personas socias de la cooperativa. El acuerdo expresará la cuantía global máxima y el tipo de interés que percibirán estas aportaciones, si procede, que no podrá ser sup...",
+      "matchedConcepts": [
+        "aportaciones desiguales",
+        "derechos económicos diferenciados"
+      ],
+      "score": 50
+    },
+    {
+      "id": "desigualdad_aportaciones-financial_instruments-4",
+      "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+      "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
+      "documentType": "ley",
+      "projectName": "Otras Leyes, Decretos, Modificaciones",
+      "sourcePath": "docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2007-19884-consolidado_RD+1514_2007.pdf",
+      "articleOrSection": "66. GASTOS FINANCIEROS",
+      "excerpt": "...s, así como en operaciones de «factoring» en las que la empresa retiene sustancialmente los riesgos y beneficios de los derechos de cobro. Se cargará por el importe de los intereses, con abono, generalmente, a la cuenta 5208 ó 5209. 666. Pérdidas en participaciones y valores representativos de deuda Pérdidas producidas por la baja, enajenación, o cancelación de valores representativos de deuda e instrumentos de patrimonio, excluidas las que deban registrarse en las cuentas 663 y 673. Se cargará por la pérdida produ...",
+      "matchedConcepts": [
+        "derechos económicos diferenciados"
+      ],
+      "score": 47
     },
     {
       "id": "desigualdad_aportaciones-financial_instruments-5",
@@ -296,13 +298,13 @@
       "documentTitle": "Las GuíAs De Sostre CíVic",
       "documentType": "guia",
       "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
-      "articleOrSection": "Título original: Cures en la convivència de persones grans",
-      "excerpt": "...nidamente, la participación y gestión democrática por parte de las personas -- 293 of 377 -- 7 Introducción habitantes, aportaciones económicas periódicas (parecidas a un alquiler) y a precio de coste, el traspaso del derecho de uso de la vivienda de forma no especulativa y, finalmente, la voluntad de replicabilidad y de aumentar la vivienda social y asequible. A pesar del título, la guía está basada sobre todo en la “práctica” cooperativa. Hay cooperativas poco transformadoras (son una prueba de ello los miles de...",
+      "articleOrSection": "SUIZA",
+      "excerpt": "SUIZA o subsidios de vivienda. Dos de los principales instrumentos de ayuda financiera son: • Centro de emisión MOUP (CCL): cooperativa creada por las federaciones suizas de MOUP (que agrupan a cooperativas, fundaciones, etc.) y la Oficina Federal de la Vivienda; recauda fondos en el mercado de capitales a través de préstamos a largo plazo y ofrece refinanciación parcial (una vez el edificio está construido) a través de préstamos con tipos de interés muy atractivos gracias a la existencia de una garantía federal (l...",
       "matchedConcepts": [
         "aportaciones desiguales",
         "derechos económicos diferenciados"
       ],
-      "score": 175
+      "score": 43
     }
   ],
   "limits": []

@@ -1,0 +1,94 @@
+{
+  "slug": "asamblea_general",
+  "status": "reviewed",
+  "editorialSummary": [
+    "La Asamblea General es el órgano soberano de la cooperativa: donde se decide de verdad y donde se hace real la horizontalidad que el grupo persigue.",
+    "La Ley 4/2002 de Castilla y León fija un marco claro (convocatoria con 15 días, quórum de la mitad, un socio un voto, mayoría simple y dos tercios para lo estructural) y deja margen para reforzar mayorías y para cuidar la forma de decidir.",
+    "La propuesta ajustada a El Buen Vivir es sencilla: buscar el consenso como método de trabajo y usar la votación por mayoría como red de seguridad cuando el acuerdo no llega."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "consenso_vs_mayoria",
+      "question": "¿Cómo se combina la búsqueda de consenso con la exigencia legal de poder computar mayorías?",
+      "recommendationsForBuenVivir": [
+        "Declarar el consenso como método ordinario en los Estatutos y en el RRI, pero dejar siempre una regla de votación de respaldo, porque la ley obliga a que todo acuerdo pueda adoptarse por mayoría."
+      ]
+    },
+    {
+      "id": "voto_socio_b",
+      "question": "¿El Socio B asiste con voz y sin voto o se le reconoce voto como socio usuario?",
+      "recommendationsForBuenVivir": [
+        "Resolverlo junto con el tema de clases de socios y con asesoría jurídica: quien usa la casa realiza actividad cooperativizada, y la ley reserva el 'sin voto' a figuras que no la realizan."
+      ]
+    },
+    {
+      "id": "mayorias_reforzadas",
+      "question": "¿Qué decisiones deben exigir una mayoría superior a la simple?",
+      "recommendationsForBuenVivir": [
+        "Reservar las materias estructurales (estatutos, RRI, nuevas aportaciones, admisión y conversión de socios, disolución) a dos tercios, sin superar las cuatro quintas partes que permite la ley."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "organo_supremo",
+      "statement": "La Asamblea General es el órgano supremo y sus acuerdos vinculan a todas las personas socias, incluidas ausentes y disidentes.",
+      "summary": "Es contenido estatutario obligatorio: naturaleza, competencias, convocatoria, quórum y mayorías deben constar en los Estatutos."
+    },
+    {
+      "id": "un_socio_un_voto",
+      "statement": "Con carácter general cada socio tiene un voto (art. 35.1), lo que encaja con el modelo horizontal y antiespeculativo del grupo.",
+      "summary": "El 'un socio, un voto' es el punto de partida legal y coincide con los valores del proyecto."
+    },
+    {
+      "id": "quorum_mayorias",
+      "statement": "La ley fija quórum (mitad en 1.ª, 10 % en 2.ª) y mayorías (simple para lo ordinario, dos tercios para lo estructural), y permite a los Estatutos reforzarlas hasta 4/5.",
+      "summary": "Hay un marco cerrado de mínimos con margen para endurecerlo, no para rebajarlo."
+    },
+    {
+      "id": "consenso_previo_voto",
+      "statement": "Algunas cooperativas (Entrepatios) solo votan cuando no hay asentimiento unánime a la propuesta, y otras (Tarocohousing) recogen el consenso como valor.",
+      "summary": "El modelo de 'consenso primero, votación de respaldo' ya existe en estatutos reales y es replicable."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "asamblea_general-socio_b_sin_voto",
+      "statement": "El Socio B puede usar la casa de forma habitual y quedar sin voto en la Asamblea sin más.",
+      "reason": "La Ley 4/2002 reserva la limitación de voto a figuras que no realizan la actividad cooperativizada; usar la casa sí lo es, así que el 'sin voto' del Socio B es una decisión que necesita revisión jurídica, no un hecho cerrado."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Redactar la Asamblea como órgano soberano y dejar en Estatutos lo estable (convocatoria, quórum, competencias, voto, mayorías).",
+    "Fijar el consenso como método en el RRI, con la votación por mayoría como respaldo.",
+    "Aprovechar la asamblea universal para las reuniones del grupo pequeño cuando estén todas presentes.",
+    "Reforzar a dos tercios las materias estructurales sin pasar de las cuatro quintas partes.",
+    "Cerrar el régimen de voto del Socio B junto con el tema de clases de socios y con asesoría jurídica."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Naturaleza de la Asamblea como órgano supremo y fuerza vinculante de sus acuerdos.",
+      "Clases de asamblea, convocatoria, plazos y quórum de constitución.",
+      "Competencias exclusivas e indelegables y régimen de voto.",
+      "Mayoría simple y mayorías reforzadas."
+    ],
+    "rri": [
+      "Método de deliberación y búsqueda de consenso, con facilitación de la Comisión de Convivencia.",
+      "Canales concretos de convocatoria y reparto del orden del día.",
+      "Uso de asambleas telemáticas o mixtas y detalle operativo del acta."
+    ],
+    "notes": [
+      "La revisión jurídica debe validar el 'sin voto' del Socio B y confirmar que las mayorías reforzadas no superan el techo legal de 4/5."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, arts. 30-39 (Asamblea General: naturaleza, competencias, convocatoria, quórum, voto, mayorías y acta).",
+    "docs-estatutos-estatutos-tarocohousing: Artículos 22-28 sobre concepto, competencias, convocatoria, constitución y adopción de acuerdos.",
+    "docs-estatutos-estatutos-entrepatios: Artículos 44-45 sobre constitución y adopción de acuerdos (votación solo si no hay asentimiento unánime).",
+    "docs-estatutos-estatutos-axuntase: Artículos 19-20 sobre concepto, clases y competencias de la Asamblea."
+  ],
+  "referencesToAvoid": [
+    "No copiar el régimen de voto ponderado de cooperativas agrarias o de segundo grado (arts. 35.3 y 35.4): no aplica a una cooperativa de usuarios con 'un socio, un voto'.",
+    "No presentar el 'Socio B sin voto' como solución consolidada sin revisión jurídica."
+  ]
+}

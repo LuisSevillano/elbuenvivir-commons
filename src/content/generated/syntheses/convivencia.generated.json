@@ -1,0 +1,143 @@
+{
+  "slug": "convivencia",
+  "generatedAt": "2026-07-07T07:29:53.057Z",
+  "generatedFrom": {
+    "researchPack": "src/content/research-packs/convivencia.md",
+    "referencesCount": 18,
+    "documents": [
+      "docs-estatutos-estatutos-elciempies",
+      "docs-estatutos-estatutos-entrepatios",
+      "docs-estatutos-estatutos-la-borda",
+      "docs-estatutos-estatutos-laseronda-org",
+      "docs-estatutos-estatutos-los-girasoles",
+      "docs-estatutos-estatutos-losnidales",
+      "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "docs-guias-las-guias-de-sostre-civic",
+      "docs-leyes-normativa-estatal",
+      "docs-otros-mod-estatutos-coop-viviendas",
+      "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+      "docs-rri-informe-cooperativas-cesion-de-uso",
+      "docs-rri-rri-axuntase"
+    ]
+  },
+  "summary": {
+    "overview": [
+      "Los extractos más claros relacionan este tema con conflictos y mediación, mantenimiento y cuidados del espacio.",
+      "Aparecen ejemplos en varios proyectos, entre ellos EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO, Estatutos La Borda, Rri Axuntase, Estatutos Elciempies.",
+      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados."
+    ],
+    "commonPatterns": [
+      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados.",
+      "Las reglas de mantenimiento suelen concretar responsabilidades de cuidado, limpieza u obras."
+    ],
+    "majorDifferences": [
+      "Las diferencias prácticas dependen de si el proyecto prioriza reglas estables, procedimientos internos o soluciones caso por caso."
+    ],
+    "commonRisks": [
+      "Sin un cauce claro, desacuerdos pequeños pueden convertirse en conflictos societarios.",
+      "Si las tareas comunes no se reparten con claridad, pueden concentrarse cargas invisibles."
+    ],
+    "commonTradeoffs": [
+      "autonomía comunitaria vs necesidad de procedimiento claro"
+    ]
+  },
+  "governancePlacement": {
+    "usuallyInStatutes": [
+      "principios de convivencia y posibilidad de mediación o régimen disciplinario",
+      "obligación general de contribuir al cuidado y conservación"
+    ],
+    "usuallyInRRI": [
+      "pasos de mediación, tiempos de respuesta y personas de referencia",
+      "turnos, avisos, criterios de obras y gestión de incidencias"
+    ],
+    "mixedApproaches": [
+      "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
+    ],
+    "notes": [
+      "No conviene llevar a Estatutos detalles que el grupo necesite aprender o ajustar con la práctica.",
+      "La revisión jurídica debe confirmar qué materias exigen rango estatutario."
+    ]
+  },
+  "recommendationsForBuenVivir": {
+    "minimalApproach": [
+      "Fijar solo principios y efectos básicos que necesiten estabilidad.",
+      "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
+      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
+    ],
+    "flexibleApproach": [
+      "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
+      "Mantener espacio para revisar la práctica tras los primeros usos reales.",
+      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
+    ],
+    "pointsToDecideSoon": [
+      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
+    ],
+    "pointsThatCanWait": [
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
+    ]
+  },
+  "detectedTensions": [
+    "autonomía comunitaria vs necesidad de procedimiento claro"
+  ],
+  "notableProjects": [
+    {
+      "projectName": "Las GuíAs De Sostre CíVic",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "references": [
+        "Las GuíAs De Sostre CíVic - 1. INTRODUCCIÓN: El trabajo de cuidados en una covivienda sénior",
+        "Las GuíAs De Sostre CíVic - 3.3.4 La gestión comunitaria de los cuidados",
+        "Las GuíAs De Sostre CíVic - 3. PREVIENDO LA CONTINUIDAD DE LOS CUIDADOS EN LA VEJEZ"
+      ]
+    },
+    {
+      "projectName": "Estatutos Elciempies",
+      "notableBecause": "Aparece en relación con mantenimiento y cuidados del espacio.",
+      "references": [
+        "Estatutos Elciempies - 6. La coopera\u000eva podrá solicitar y recibir consideraciones, informes, cali,caciones y",
+        "Estatutos Elciempies - 3. Son faltas muy graves:"
+      ]
+    },
+    {
+      "projectName": "Estatutos Los Girasoles",
+      "notableBecause": "Aparece en relación con mantenimiento y cuidados del espacio.",
+      "references": [
+        "Estatutos Los Girasoles - 7. La cooperaƟva podrá solicitar y recibir consideraciones, informes, calificaciones y",
+        "Estatutos Los Girasoles - 3. Son faltas muy graves:"
+      ]
+    },
+    {
+      "projectName": "MOD ESTATUTOS COOP VIVIENDAS",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "references": [
+        "MOD ESTATUTOS COOP VIVIENDAS - ARTÍCULO 42.- RESPONSABILIDAD DE LOS SOCIOS. La responsabilidad de los socios",
+        "MOD ESTATUTOS COOP VIVIENDAS - ARTÍCULO 40.- RESPONSABILIDAD DE LOS MIEMBROS DEL"
+      ]
+    },
+    {
+      "projectName": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+      "notableBecause": "Aparece en relación con conflictos y mediación.",
+      "references": [
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - d) Deber de Respetar las Normas de Convivencia: Los socios deben respetar las"
+      ]
+    },
+    {
+      "projectName": "Estatutos Entrepatios",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "references": [
+        "Estatutos Entrepatios - Artículo 17. Responsabilidad."
+      ]
+    }
+  ],
+  "legalWarnings": [
+    "Síntesis orientativa basada en extractos documentales detectados.",
+    "No sustituye asesoramiento jurídico profesional.",
+    "Debe contrastarse con los documentos originales antes de usarla en acuerdos o cláusulas."
+  ],
+  "generatedDisclaimer": "Síntesis basada en documentos analizados. Requiere contraste con las fuentes originales y revisión jurídica antes de su uso.",
+  "status": "needs_legal_review"
+}

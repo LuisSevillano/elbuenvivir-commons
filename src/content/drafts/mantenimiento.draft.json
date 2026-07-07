@@ -7,9 +7,9 @@
     "Conviene valorar una regla mínima sobre mantenimiento, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre limpieza, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre reparaciones, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Título original: La construcció i la cura dels grups, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Título original: Cures en la convivència de persones grans, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre El fondo especial de Mantenimiento y Conservación, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre c) Comisión de Obras y Mantenimiento: Encargada de coordinar y supervisar, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre 6. La coopera\u000eva podrá solicitar y recibir consideraciones, informes, cali,caciones y, contrastando las referencias automáticas del research pack.",
     "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
   ],
   "legalBasis": [],
@@ -23,7 +23,7 @@
   ],
   "risks": [
     "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
-    "Rigidez: una regla estatutaria puede ser más difícil de adaptar que una regla de RRI.",
+    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
     "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
     "Conflictos potenciales: conviene revisar si el tema puede generar desacuerdos prácticos aunque no aparezcan expresamente."
   ],
@@ -59,11 +59,6 @@
   },
   "relatedTopics": [
     {
-      "topicSlug": "baja_socio",
-      "relationship": "complements",
-      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
-    },
-    {
       "topicSlug": "aportaciones_obligatorias",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
@@ -82,6 +77,11 @@
       "topicSlug": "estatutos_vs_rri",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "derechos_y_obligaciones",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     }
   ],
   "suggestedClause": {
@@ -95,106 +95,106 @@
     "generated": true,
     "curated": false,
     "sourceResearchPack": "src/content/research-packs/mantenimiento.md",
-    "evidenceCount": 18,
-    "highConfidenceEvidence": 9,
-    "mediumConfidenceEvidence": 8,
-    "lowConfidenceEvidence": 1,
+    "evidenceCount": 14,
+    "highConfidenceEvidence": 0,
+    "mediumConfidenceEvidence": 2,
+    "lowConfidenceEvidence": 12,
     "evidence": [
-      {
-        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-        "documentTitle": "Las GuíAs De Sostre CíVic",
-        "documentType": "guia",
-        "articleOrSection": "Título original: La construcció i la cura dels grups",
-        "confidence": "high",
-        "excerpt": "Título original: La construcció i la cura dels grups La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento..."
-      },
       {
         "documentSlug": "docs-estatutos-estatutos-entrepatios",
         "documentTitle": "Estatutos Entrepatios",
         "documentType": "estatutos",
         "articleOrSection": "Artículo 26. El fondo especial de Mantenimiento y Conservación.",
-        "confidence": "high",
+        "confidence": "medium",
         "excerpt": "Artículo 26. El fondo especial de Mantenimiento y Conservación. Además de los fondos obligatorios descritos en los dos artículos anteriores, se creará un Fondo Especial de Mantenimiento y Conservación del edificio que tendrá el carácter de..."
       },
       {
-        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
-        "documentTitle": "Estatutos Los Girasoles",
-        "documentType": "estatutos",
-        "articleOrSection": "CAPITULO I",
-        "confidence": "high",
-        "excerpt": "CAPITULO I DENOMINACIÓN, DOMICILIO, ÁMBITO TERRITORIAL, PRINCIPIOS, OBJETO, FINALIDADES, ACTIVIDAD ECONÓMICA Y DURACIÓN. Arơculo 1.- Denominación. Con la denominación de COOPERATIVA DE VIVIENDAS COLABORATIVA LOS GIRASOLES, S. COOP. CAN. se..."
+        "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+        "documentType": "rri",
+        "articleOrSection": "c) Comisión de Obras y Mantenimiento: Encargada de coordinar y supervisar",
+        "confidence": "medium",
+        "excerpt": "c) Comisión de Obras y Mantenimiento: Encargada de coordinar y supervisar proyectos de construcción, reparaciones, y mantenimiento de las instalaciones comunes y áreas comunes. Asegura que las infraestructuras estén en buenas condiciones y..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-elciempies",
         "documentTitle": "Estatutos Elciempies",
         "documentType": "estatutos",
-        "articleOrSection": "CAPITULO I",
-        "confidence": "high",
-        "excerpt": "CAPITULO I DENOMINACIÓN, DOMICILIO, ÁMBITO TERRITORIAL, OBJETO, PRINCIPIOS, FINALIDADES, ACTIVIDAD ECONÓMICA Y DURACIÓN Ar\u001aculo 1.- Denominación. Con la denominación de COOPERATIVA DE VIVIENDA COLABORATIVA EL CIEMPIES, S. COOP. CAN. se cons..."
+        "articleOrSection": "6. La coopera\u000eva podrá solicitar y recibir consideraciones, informes, cali,caciones y",
+        "confidence": "low",
+        "excerpt": "6. La coopera\u000eva podrá solicitar y recibir consideraciones, informes, cali,caciones y demás menciones que ayuden a cumplir el objeto social de la misma. Estas menciones podrán referirse tanto a la totalidad de la coopera\u000eva como a una o var..."
       },
       {
-        "documentSlug": "docs-rri-informe-cooperativas-cesion-de-uso",
-        "documentTitle": "Informe Cooperativas Cesion De Uso",
-        "documentType": "rri",
-        "articleOrSection": "TÍTULO TERCERO.",
-        "confidence": "high",
-        "excerpt": "TÍTULO TERCERO. EJECUCIÓN DEL CONTRATO La ejecución de este contrato, tanto en cuanto a la ejecución de todas las obras y su financiación, como en cuanto a su conservación, mantenimiento, gestión y posterior explotación, se realizará a ries..."
+        "documentSlug": "docs-estatutos-estatutos-la-borda",
+        "documentTitle": "Estatutos La Borda",
+        "documentType": "estatutos",
+        "articleOrSection": "i) Hacerse cargo de todas aquellas obras de mantenimiento y conservación",
+        "confidence": "low",
+        "excerpt": "i) Hacerse cargo de todas aquellas obras de mantenimiento y conservación ordinarias y extraordinarias y las de mejora ordinarias que sean necesarias para la conservación en buen estado y la rehabilitación de los elementos de uso privativo d..."
       },
       {
-        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-        "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 2. Obligatoriedad del Plan.",
-        "confidence": "high",
-        "excerpt": "Artículo 2. Obligatoriedad del Plan. El Plan General de Contabilidad será de aplicación obligatoria para todas las empresas, cualquiera que sea su forma jurídica, individual o societaria, sin perjuicio de aquellas empresas que puedan aplica..."
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "7. La cooperaƟva podrá solicitar y recibir consideraciones, informes, calificaciones y",
+        "confidence": "low",
+        "excerpt": "7. La cooperaƟva podrá solicitar y recibir consideraciones, informes, calificaciones y demás menciones que ayuden a cumplir el objeto social de la misma. Estas menciones podrán referirse tanto a la totalidad de la cooperaƟva como a una o va..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-losnidales",
+        "documentTitle": "Estatutos Losnidales",
+        "documentType": "estatutos",
+        "articleOrSection": "b) Velar por el correcto mantenimiento del edificio y sus instalaciones, gestionando o",
+        "confidence": "low",
+        "excerpt": "b) Velar por el correcto mantenimiento del edificio y sus instalaciones, gestionando o ejecutando las reparaciones a que haya lugar, tanto en las viviendas o apartamentos de que conste como en los elementos comunes."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-la-borda",
+        "documentTitle": "Estatutos La Borda",
+        "documentType": "estatutos",
+        "articleOrSection": "e) Llevar a cabo la administración y garantizar el buen mantenimiento de los",
+        "confidence": "low",
+        "excerpt": "e) Llevar a cabo la administración y garantizar el buen mantenimiento de los edificios sobre los que la Cooperativa ejerce la titularidad, así como el cobro de amortizaciones, intereses y cuotas a sus socias y socios, para la prestación de..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "c) A que la cooperativa se haga cargo de todas aquellas obras de mantenimiento y mejoras",
+        "confidence": "low",
+        "excerpt": "c) A que la cooperativa se haga cargo de todas aquellas obras de mantenimiento y mejoras ordinarias y extraordinarias que sean necesarias para la conservación en buen estado y la rehabilitación tanto de los exteriores de la vivienda y sus e..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "documentType": "guia",
+        "articleOrSection": "b) Pago por los servicios de limpieza y atención domiciliaria, alimenticios, de ocio, cultura, deportivos,",
+        "confidence": "low",
+        "excerpt": "b) Pago por los servicios de limpieza y atención domiciliaria, alimenticios, de ocio, cultura, deportivos, asistenciales, médicos u otros prestados por la cooperativa. Tampoco se integran en el capital social los pagos que el socio efectúa..."
+      },
+      {
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "CONSTRUIMOS VIVIENDA COOPERATIVA",
+        "confidence": "low",
+        "excerpt": "CONSTRUIMOS VIVIENDA COOPERATIVA El objetivo de esta guía es describir las características básicas del cooperativismo de vivienda en cesión de uso, para que las personas interesadas en este modelo como opción para poner en marcha un nuevo p..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-tarocohousing",
         "documentTitle": "Estatutos Tarocohousing",
         "documentType": "estatutos",
         "articleOrSection": "Artículo 6.- Actividades",
-        "confidence": "high",
+        "confidence": "low",
         "excerpt": "Artículo 6.- Actividades"
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-la-borda",
-        "documentTitle": "Estatutos La Borda",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 7. Obligaciones de las socias y socios",
-        "confidence": "high",
-        "excerpt": "Artículo 7. Obligaciones de las socias y socios 7.1. Las socias y socios, sea cual sea su tipología, están obligados a: a) Hacer el desembolso de la aportación comprometida y cumplir las obligaciones económicas que les corresponda en virtud..."
-      },
-      {
-        "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-        "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-        "documentType": "guia",
-        "articleOrSection": "Documento completo",
-        "confidence": "high",
-        "excerpt": "GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR -- 1 of 62 -- DIRECCIÓN ELABORACIÓN JURÍDICA FGC ADCVOCATS, SCCL Cristina R. Grau López como autora con la colaboración de Ainhoa Domínguez Peña. COLABORA Diciemb..."
-      },
-      {
-        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
-        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
-        "documentType": "guia",
-        "articleOrSection": "Documento completo",
-        "confidence": "medium",
-        "excerpt": "COHOUSING SENIOR Y COOPERATIVISMO DE CONSUMO -- 1 of 54 -- Diciembre 2018 Madrid -- 2 of 54 -- Índice 1. Introducción _____________________________________5 2. Definición de un proyecto de cohousing senior _________6 3. Aspectos urbanístico..."
       },
       {
         "documentSlug": "docs-guias-las-guias-de-sostre-civic",
         "documentTitle": "Las GuíAs De Sostre CíVic",
         "documentType": "guia",
-        "articleOrSection": "Título original: Cures en la convivència de persones grans",
-        "confidence": "medium",
-        "excerpt": "Título original: Cures en la convivència de persones grans La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el f..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-entrepatios",
-        "documentTitle": "Estatutos Entrepatios",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 64. Derechos y obligaciones de la Cooperativa en relación con",
-        "confidence": "medium",
-        "excerpt": "Artículo 64. Derechos y obligaciones de la Cooperativa en relación con las viviendas cedidas a las personas socias. 1. La Cooperativa tendrá, en relación con las viviendas cedidas a las personas socias, los derechos que se derivan del artíc..."
+        "articleOrSection": "5. ECONOMÍA DE LOS CUIDADOS",
+        "confidence": "low",
+        "excerpt": "5. ECONOMÍA DE LOS CUIDADOS Una decisión importante es decidir qué tipología de proyecto se quiere construir: uno pensado para que las personas puedan vivir con calidad hasta el final de su vida en la covivienda sénior, o bien un proyecto n..."
       }
     ]
   }

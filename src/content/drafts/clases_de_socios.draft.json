@@ -8,8 +8,8 @@
     "Conviene valorar una regla mínima sobre socio colaborador, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre clases de socios, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre SOCIOS COLABORADORES, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Socio colaborador y socio de servicios, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Sección 3.ª Otras clases de socios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre c) La cuantía restante, en su caso, que será imputada a las distintas clases de socios, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre i) Las clases de socios, los requisitos para su admisión, los supuestos de baja voluntaria y de baja, contrastando las referencias automáticas del research pack.",
     "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
   ],
   "legalBasis": [],
@@ -69,17 +69,17 @@
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
-      "topicSlug": "toma_decisiones",
-      "relationship": "complements",
-      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
-    },
-    {
       "topicSlug": "estatutos_vs_rri",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
       "topicSlug": "admision_socio",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
+      "topicSlug": "derechos_y_obligaciones",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     }
@@ -95,10 +95,10 @@
     "generated": true,
     "curated": false,
     "sourceResearchPack": "src/content/research-packs/clases_de_socios.md",
-    "evidenceCount": 8,
-    "highConfidenceEvidence": 4,
-    "mediumConfidenceEvidence": 0,
-    "lowConfidenceEvidence": 4,
+    "evidenceCount": 9,
+    "highConfidenceEvidence": 3,
+    "mediumConfidenceEvidence": 5,
+    "lowConfidenceEvidence": 1,
     "evidence": [
       {
         "documentSlug": "docs-estatutos-estatutos-laseronda-org",
@@ -109,60 +109,68 @@
         "excerpt": "ARTÍCULO 10.- SOCIOS COLABORADORES Podrán integrarse en esta Cooperativa, en calidad de socios colaboradores, tanto las personas físicas como las jurídicas, que contribuyan a la consecución del fin social mediante la realización de aportaci..."
       },
       {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+        "documentTitle": "BOE A 2010 20034 Orden+EHA+3360 2010",
+        "documentType": "ley",
+        "articleOrSection": "c) La cuantía restante, en su caso, que será imputada a las distintas clases de socios",
+        "confidence": "high",
+        "excerpt": "c) La cuantía restante, en su caso, que será imputada a las distintas clases de socios de la cooperativa de acuerdo con lo dispuesto en la ley, se aplicará de alguna de las formas siguientes, salvo que los estatutos prevean de forma expresa..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "documentType": "guia",
+        "articleOrSection": "i) Las clases de socios, los requisitos para su admisión, los supuestos de baja voluntaria y de baja",
+        "confidence": "high",
+        "excerpt": "i) Las clases de socios, los requisitos para su admisión, los supuestos de baja voluntaria y de baja obligatoria, así como los casos en que la baja se calificará como justificada o como injustificada y, en el caso de no ser una norma obliga..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "documentType": "guia",
+        "articleOrSection": "c) Socios colaboradores o asociados",
+        "confidence": "medium",
+        "excerpt": "c) Socios colaboradores o asociados Una figura común en las cooperativas son los socios colaboradores o asociados, según denominación de cada ley autonómica. Su existencia deberá preverse en los Estatutos Sociales. Se tratará de personas fí..."
+      },
+      {
         "documentSlug": "docs-leyes-normativa-autonomica",
         "documentTitle": "Normativa Autonomica",
         "documentType": "ley",
-        "articleOrSection": "Artículo 26. Socio colaborador y socio de servicios.",
-        "confidence": "high",
-        "excerpt": "Artículo 26. Socio colaborador y socio de servicios. 1. Las sociedades cooperativas podrán incorporar, si lo prevén sus Estatutos, socios colaboradores, que efectúen aportación al capital y que no podrán realizar actividad cooperativizada...."
+        "articleOrSection": "artículo 26 la competencia exclusiva en materia de cooperativas. Esta norma encontró un",
+        "confidence": "medium",
+        "excerpt": "artículo 26 la competencia exclusiva en materia de cooperativas. Esta norma encontró un primer reflejo, en un orden práctico, en el Real Decreto 832/1995, de 30 de mayo, por el que se formalizó la transferencia de competencias en materia de..."
       },
       {
         "documentSlug": "docs-leyes-normativa-autonomica",
         "documentTitle": "Normativa Autonomica",
         "documentType": "ley",
         "articleOrSection": "Sección 3.ª Otras clases de socios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18",
-        "confidence": "high",
+        "confidence": "medium",
         "excerpt": "Sección 3.ª Otras clases de socios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18"
       },
       {
         "documentSlug": "docs-leyes-normativa-autonomica",
         "documentTitle": "Normativa Autonomica",
         "documentType": "ley",
-        "articleOrSection": "Sección 3.ª Otras clases de socios",
-        "confidence": "high",
-        "excerpt": "Sección 3.ª Otras clases de socios"
+        "articleOrSection": "g) Clases de socios, requisitos y procedimiento de admisión, baja voluntaria y obligatoria,",
+        "confidence": "medium",
+        "excerpt": "g) Clases de socios, requisitos y procedimiento de admisión, baja voluntaria y obligatoria, así como las causas justificadoras o no de las mismas."
       },
       {
         "documentSlug": "docs-leyes-normativa-estatal",
         "documentTitle": "Normativa Estatal",
         "documentType": "ley",
-        "articleOrSection": "Artículo 46. Aportaciones obligatorias.",
-        "confidence": "low",
-        "excerpt": "Artículo 46. Aportaciones obligatorias. 1. Los Estatutos fijarán la aportación obligatoria mínima al capital social para ser socio, que podrá ser diferente para las distintas clases de socios o para cada socio en proporción al compromiso o..."
+        "articleOrSection": "j) Las clases de socios, requisitos para su admisión y baja voluntaria u obligatoria y",
+        "confidence": "medium",
+        "excerpt": "j) Las clases de socios, requisitos para su admisión y baja voluntaria u obligatoria y régimen aplicable."
       },
       {
-        "documentSlug": "docs-leyes-normativa-estatal",
-        "documentTitle": "Normativa Estatal",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 52. Aportaciones que no forman parte del capital social.",
+        "documentSlug": "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+        "documentTitle": "GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4",
+        "documentType": "guia",
+        "articleOrSection": "q) La cláusula de sometimiento a la conciliación previa, a la mediación y al arbitraje cooperativo,",
         "confidence": "low",
-        "excerpt": "Artículo 52. Aportaciones que no forman parte del capital social. 1. Los Estatutos o la Asamblea General podrán establecer cuotas de ingresos y/o periódicas, que no integrarán el capital social ni serán reintegrables. Dichas cuotas podrán s..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
-        "documentTitle": "Estatutos Tarocohousing",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 40.- Aportaciones de las nuevas personas socias",
-        "confidence": "low",
-        "excerpt": "Artículo 40.- Aportaciones de las nuevas personas socias"
-      },
-      {
-        "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
-        "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
-        "documentType": "otro",
-        "articleOrSection": "ARTÍCULO 46.- APORTACIONES DE LOS NUEVOS SOCIOS.",
-        "confidence": "low",
-        "excerpt": "ARTÍCULO 46.- APORTACIONES DE LOS NUEVOS SOCIOS. La Asamblea General fijará la aportación obligatoria al capital social que deberán efectuar los socios que se incorporen con posterioridad a la constitución de la cooperativa que podrá ser di..."
+        "excerpt": "q) La cláusula de sometimiento a la conciliación previa, a la mediación y al arbitraje cooperativo, regulados en la respectiva. Las clases de socios Teniendo en cuenta que el establecimiento de la tipología de socios y su regulación es uno..."
       }
     ]
   }

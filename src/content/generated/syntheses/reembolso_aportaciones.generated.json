@@ -1,35 +1,36 @@
 {
   "slug": "reembolso_aportaciones",
-  "generatedAt": "2026-05-14T09:24:12.552Z",
+  "generatedAt": "2026-07-07T07:29:53.107Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/reembolso_aportaciones.md",
     "referencesCount": 18,
     "documents": [
-      "Docs-estatutos-estatutos-axuntase",
-      "Docs-estatutos-estatutos-entrepatios",
-      "Docs-estatutos-estatutos-losnidales",
-      "Docs-estatutos-estatutos-pepu",
-      "Docs-estatutos-estatutos-pequenopueblo",
-      "Docs-estatutos-estatutos-senior-cohousing-huelva",
-      "Docs-estatutos-estatutos-tarocohousing",
-      "Docs-leyes-normativa-autonomica",
-      "Docs-leyes-normativa-estatal",
-      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2011-18204-ley-6-2011",
-      "Docs-otros-mod-estatutos-coop-viviendas",
-      "Docs-otros-modelo-estatutos-viviendas"
+      "docs-estatutos-estatutos-elciempies",
+      "docs-estatutos-estatutos-entrepatios",
+      "docs-estatutos-estatutos-los-girasoles",
+      "docs-estatutos-estatutos-losnidales",
+      "docs-estatutos-estatutos-pepu",
+      "docs-estatutos-estatutos-pequenopueblo",
+      "docs-estatutos-estatutos-senior-cohousing-huelva",
+      "docs-estatutos-estatutos-tarocohousing",
+      "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "docs-leyes-normativa-autonomica",
+      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2011-18204-ley-6-2011",
+      "docs-otros-modelo-estatutos-viviendas"
     ]
   },
   "summary": {
     "overview": [
-      "Los extractos más claros relacionan este tema con reembolso, aportación obligatoria, financiación.",
-      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Senior Cohousing Huelva, Normativa Estatal, Estatutos Tarocohousing, Normativa Autonomica.",
+      "Los extractos más claros relacionan este tema con reembolso, aportación obligatoria, cuotas.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Senior Cohousing Huelva, Estatutos Tarocohousing, Estatutos Pepu, Estatutos Pequenopueblo.",
       "La devolución de aportaciones aparece vinculada al reembolso y, en algunos casos, a deducciones o plazos."
     ],
     "commonPatterns": [
       "La devolución de aportaciones aparece vinculada al reembolso y, en algunos casos, a deducciones o plazos.",
       "La aportación obligatoria aparece como una condición económica básica de pertenencia o participación.",
-      "Algunos textos conectan aportaciones y cuotas con necesidades de financiación del proyecto.",
-      "Las aportaciones voluntarias aparecen como instrumento de financiación adicional diferenciado de la obligación básica."
+      "Las cuotas suelen aparecer como mecanismo periódico para sostener gastos comunes o funcionamiento ordinario.",
+      "Algunos textos conectan aportaciones y cuotas con necesidades de financiación del proyecto."
     ],
     "majorDifferences": [
       "La diferencia práctica suele estar entre devolución inmediata, devolución condicionada por liquidez y devolución vinculada a nueva incorporación.",
@@ -38,26 +39,26 @@
     "commonRisks": [
       "Un reembolso inmediato puede tensionar la caja; un reembolso indefinido puede generar inseguridad para quien sale.",
       "Si la aportación se vincula a poder, uso o permanencia sin límites claros, puede generar desigualdad interna.",
-      "La financiación puede desplazar decisiones de convivencia si no se separan necesidades económicas y derechos de participación.",
-      "Pueden generar expectativas de retorno o influencia si no se separan claramente de los derechos políticos."
+      "Si cuotas y aportaciones se mezclan, puede ser difícil distinguir inversión, gasto y retorno.",
+      "La financiación puede desplazar decisiones de convivencia si no se separan necesidades económicas y derechos de participación."
     ],
     "commonTradeoffs": [
-      "Derecho de salida vs estabilidad financiera del proyecto",
-      "Igualdad formal vs aportaciones económicas desiguales"
+      "derecho de salida vs estabilidad financiera del proyecto",
+      "igualdad formal vs aportaciones económicas desiguales"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Derecho de reembolso, criterios generales de deducción y plazos máximos",
-      "Importe, naturaleza, exigibilidad y criterios básicos de devolución de aportaciones obligatorias",
-      "Principios generales de financiación y límites a privilegios económicos",
-      "Marco general para aportaciones voluntarias y ausencia de privilegios políticos"
+      "derecho de reembolso, criterios generales de deducción y plazos máximos",
+      "importe, naturaleza, exigibilidad y criterios básicos de devolución de aportaciones obligatorias",
+      "posibilidad general de cuotas y órgano que las aprueba",
+      "principios generales de financiación y límites a privilegios económicos"
     ],
     "usuallyInRRI": [
-      "Calendario interno de pagos, documentación y seguimiento del acuerdo de devolución",
-      "Calendario de pagos, comunicación interna y gestión de incidencias de pago",
-      "Seguimiento presupuestario y comunicación periódica al grupo",
-      "Canales de propuesta, registro y seguimiento interno"
+      "calendario interno de pagos, documentación y seguimiento del acuerdo de devolución",
+      "calendario de pagos, comunicación interna y gestión de incidencias de pago",
+      "periodicidad, forma de pago y gestión de retrasos",
+      "seguimiento presupuestario y comunicación periódica al grupo"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -71,62 +72,55 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
-      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
+      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
-      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
+      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios"
     ],
     "pointsToDecideSoon": [
-      "Decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
-      "Decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
-      "Decidir cómo se informará al grupo sobre necesidades financieras sin crear jerarquías internas",
-      "Decidir si habrá aportaciones voluntarias y cómo se documentarán sin alterar la igualdad cooperativa"
+      "decidir qué ocurre si no hay liquidez suficiente para devolver aportaciones en el momento de la baja",
+      "decidir si todas las personas aportan igual y cómo se evita que una diferencia económica genere privilegios",
+      "separar claramente aportación al capital, cuotas de gasto y pagos por uso",
+      "decidir cómo se informará al grupo sobre necesidades financieras sin crear jerarquías internas"
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Derecho de salida vs estabilidad financiera del proyecto",
-    "Igualdad formal vs aportaciones económicas desiguales"
+    "derecho de salida vs estabilidad financiera del proyecto",
+    "igualdad formal vs aportaciones económicas desiguales"
   ],
   "notableProjects": [
     {
-      "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aparece en relación con reembolso, aportación obligatoria.",
+      "projectName": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+      "notableBecause": "Aparece en relación con reembolso, financiación.",
       "references": [
-        "Estatutos Entrepatios - Artículo 15. Consecuencias de la baja.",
-        "Estatutos Entrepatios - Artículo 32. Reembolso de las aportaciones al Capital Social."
-      ]
-    },
-    {
-      "projectName": "Estatutos Losnidales",
-      "notableBecause": "Aparece en relación con reembolso, aportación obligatoria.",
-      "references": [
-        "Estatutos Losnidales - Artículo 14.- Consecuencias de la baja.",
-        "Estatutos Losnidales - Articulo 25.- Reembolso de las aportaciones y de las cantidades para financiar la unidad"
+        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024 - c) El reembolso del capital.",
+        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024 - 3.7. Reembolso de las participaciones.",
+        "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024 - 6.2. Liquidación."
       ]
     },
     {
       "projectName": "Estatutos Pepu",
-      "notableBecause": "Aparece en relación con reembolso, financiación.",
+      "notableBecause": "Aparece en relación con reembolso.",
       "references": [
         "Estatutos Pepu - Artículo 45.- Liquidación y reembolso de las aportaciones.",
-        "Estatutos Pepu - Artículo 14.- Efectos económicos de las bajas."
+        "Estatutos Pepu - Artículo 59.- Liquidación."
       ]
     },
     {
       "projectName": "Estatutos Pequenopueblo",
-      "notableBecause": "Aparece en relación con reembolso, financiación.",
+      "notableBecause": "Aparece en relación con reembolso.",
       "references": [
         "Estatutos Pequenopueblo - Artículo 45.- Liquidación y reembolso de las aportaciones.",
-        "Estatutos Pequenopueblo - Artículo 14.- Efectos económicos de las bajas."
+        "Estatutos Pequenopueblo - Artículo 59.- Liquidación."
       ]
     },
     {
@@ -134,15 +128,21 @@
       "notableBecause": "Aparece en relación con reembolso, aportación obligatoria.",
       "references": [
         "Estatutos Tarocohousing - Artículo 46.- Reembolso de las aportaciones.",
-        "Estatutos Tarocohousing - Artículo 37.- El capital social. Aportaciones iniciales dinerarias y no"
+        "Estatutos Tarocohousing - b) aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por"
       ]
     },
     {
-      "projectName": "Otras Leyes, Decretos, Modificaciones",
-      "notableBecause": "Aparece en relación con reembolso, aportación obligatoria.",
+      "projectName": "Estatutos Elciempies",
+      "notableBecause": "Aparece en relación con reembolso, aportación obligatoria, cuotas.",
       "references": [
-        "BOE A 2011 18204 Ley+6 2011 - artículo 20.4 o, en su caso, el que establezcan los Estatutos.",
-        "BOE A 2011 18204 Ley+6 2011 - Documento completo"
+        "Estatutos Elciempies - 4 La transmisión a favor de un tercero no socio/a por acto “mor\u000es causa”, queda"
+      ]
+    },
+    {
+      "projectName": "Estatutos Entrepatios",
+      "notableBecause": "Aparece en relación con reembolso.",
+      "references": [
+        "Estatutos Entrepatios - Artículo 68. Período de liquidación."
       ]
     }
   ],

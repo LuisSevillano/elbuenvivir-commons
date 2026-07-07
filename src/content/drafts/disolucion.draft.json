@@ -7,10 +7,10 @@
     "Conviene valorar una regla mínima sobre disolucion, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre liquidacion, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre destino del inmueble, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Disolución, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Acuerdo de disolución, contrastando las referencias automáticas del research pack.",
-    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable.",
-    "Mantener trazabilidad entre cada regla propuesta y las referencias automáticas revisadas."
+    "Conviene valorar una regla mínima sobre destino del patrimonio, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre fondos, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre fondo de reserva, contrastando las referencias automáticas del research pack.",
+    "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
   ],
   "legalBasis": [],
   "projectReferences": [],
@@ -101,100 +101,100 @@
     "lowConfidenceEvidence": 0,
     "evidence": [
       {
-        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
-        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
-        "documentType": "otro",
-        "articleOrSection": "Artículo 46.- Disolución",
-        "confidence": "high",
-        "excerpt": "Artículo 46.- Disolución 1. Son causas de disolución de la sociedad cooperativa: a) El cumplimiento del plazo fijado, en su caso. b) La conclusión de su objeto o la imposibilidad de realizar la actividad cooperativizada. c) La ausencia de a..."
-      },
-      {
-        "documentSlug": "docs-leyes-normativa-autonomica",
-        "documentTitle": "Normativa Autonomica",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 90. Disolución.",
-        "confidence": "high",
-        "excerpt": "Artículo 90. Disolución. 1. La sociedad cooperativa se disolverá: a) Por el cumplimiento del plazo fijado en los Estatutos. b) Por acuerdo de la Asamblea general adoptado por mayoría de los dos tercios de los socios presentes y representado..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-entrepatios",
-        "documentTitle": "Estatutos Entrepatios",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 66. Acuerdo de disolución.",
-        "confidence": "high",
-        "excerpt": "Artículo 66. Acuerdo de disolución. 1. Cuando concurra cualquiera de las causas previstas en el artículo anterior, a excepción de las indicadas en los apartados h) y j) del mismo, el órgano de administración deberá convocar, en el plazo de..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-losnidales",
-        "documentTitle": "Estatutos Losnidales",
-        "documentType": "estatutos",
-        "articleOrSection": "Art. 64.- Acuerdo de disolución.",
-        "confidence": "high",
-        "excerpt": "Art. 64.- Acuerdo de disolución. 1. Cuando concurra cualquiera de las causas previstas en el artículo anterior, a excepción de las indicadas en los apartados h) y j) del mismo, el órgano de administración deberá convocar, en el plazo de tre..."
-      },
-      {
-        "documentSlug": "docs-leyes-normativa-estatal",
-        "documentTitle": "Normativa Estatal",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 70. Disolución.",
-        "confidence": "high",
-        "excerpt": "Artículo 70. Disolución. 1. La sociedad cooperativa se disolverá: a) Por el cumplimiento del plazo fijado en los Estatutos. b) Por acuerdo de la Asamblea General, adoptado por mayoría de los dos tercios de los socios presentes y representad..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
-        "documentTitle": "Estatutos Senior Cohousing Huelva",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 48. Disolución",
-        "confidence": "high",
-        "excerpt": "Artículo 48. Disolución 48.1. Son causas de disolución de la sociedad cooperativa: a) El cumplimiento del plazo fijado en estos estatutos. b) La conclusión de su objeto o la imposibilidad de realizar la actividad cooperativizada. c) La ause..."
-      },
-      {
         "documentSlug": "docs-estatutos-estatutos-la-borda",
         "documentTitle": "Estatutos La Borda",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 51. Disolución y liquidación",
+        "articleOrSection": "Artículo 34. Asamblea General. Convocatoria de la Asamblea General ordinaria",
         "confidence": "high",
-        "excerpt": "Artículo 51. Disolución y liquidación La disolución de la Cooperativa deberá aprobar por la Asamblea General, con el voto favorable de dos terceras partes de los asistentes, presentes y representados. Son causas de disolución de la Cooperat..."
+        "excerpt": "Artículo 34. Asamblea General. Convocatoria de la Asamblea General ordinaria y extraordinaria La Asamblea General, ordinaria o extraordinaria, debe ser convocada por el Consejo Rector mediante un anuncio en el domicilio social y, además, me..."
       },
       {
-        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-05012005-1-decreto-125-2004",
-        "documentTitle": "BOCYL D 05012005 1 Decreto+125 2004",
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "b) Las sanciones económicas que, por vía disciplinaria, imponga la coopera\u000eva a",
+        "confidence": "high",
+        "excerpt": "b) Las sanciones económicas que, por vía disciplinaria, imponga la coopera\u000eva a sus socios/as. 5.- El Fondo de Educación y Promoción es inembargable e irrepar\u000eble entre las personas socias, incluso en el caso de liquidación de la coopera\u000eva..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "b) Las sanciones económicas que, por vía disciplinaria, imponga la cooperaƟva a",
+        "confidence": "high",
+        "excerpt": "b) Las sanciones económicas que, por vía disciplinaria, imponga la cooperaƟva a sus socios/as. 5.- El Fondo de Educación y Promoción es inembargable e irreparƟble entre las personas socias, incluso en el caso de liquidación de la cooperaƟva..."
+      },
+      {
+        "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+        "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+        "documentType": "guia",
+        "articleOrSection": "LAS COOPERATIVAS DE COHOUSING SÉNIOR",
+        "confidence": "high",
+        "excerpt": "LAS COOPERATIVAS DE COHOUSING SÉNIOR"
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+        "documentTitle": "BOE A 2010 20034 Orden+EHA+3360 2010",
         "documentType": "ley",
-        "articleOrSection": "Artículo 59.– Inscripción de la disolución.",
+        "articleOrSection": "13. Los aspectos contables del Fondo de Reserva Obligatorio y del Fondo de",
         "confidence": "high",
-        "excerpt": "Artículo 59.– Inscripción de la disolución. 1.– Transcurrido el plazo fijado en los estatutos sociales para la duración de la Sociedad Cooperativa, el encargado del registro extenderá, de oficio o a instancia de cualquier interesado, una no..."
+        "excerpt": "13. Los aspectos contables del Fondo de Reserva Obligatorio y del Fondo de Reembolso o Actualización se regulan en la Norma cuarta. Adicionalmente, en esta Norma se desarrolla el tratamiento contable del Fondo de Reserva Voluntario previsto..."
       },
       {
-        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
-        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
         "documentType": "estatutos",
-        "articleOrSection": "artículo 24.2 de estos estatutos.",
+        "articleOrSection": "c) La Asamblea General tendrá carácter de universal, cuando estando presentes o",
         "confidence": "high",
-        "excerpt": "artículo 24.2 de estos estatutos. 48.3. El Consejo Rector deberá y cualquier interesado podrá solicitar la disolución judicial de la cooperativa en los siguientes casos: a) Si la Asamblea General no fuere convocada. b) Si no se reuniese en..."
+        "excerpt": "c) La Asamblea General tendrá carácter de universal, cuando estando presentes o representadas la totalidad de las personas socias, de forma espontánea o mediante convocatoria no formal, decidan cons\u000etuirse en asamblea, aprobando y ,rmando t..."
       },
       {
-        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-05012005-1-decreto-125-2004",
-        "documentTitle": "BOCYL D 05012005 1 Decreto+125 2004",
-        "documentType": "ley",
-        "articleOrSection": "Artículo 60.– Contenido de la inscripción de disolución y, en su caso, de",
-        "confidence": "high",
-        "excerpt": "Artículo 60.– Contenido de la inscripción de disolución y, en su caso, de la reactivación. 1.– En la inscripción de la disolución de la Sociedad Cooperativa se hará constar, además de las circunstancias generales, la causa de disolución. 2...."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-entrepatios",
-        "documentTitle": "Estatutos Entrepatios",
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 69. Procedimiento de liquidación.",
+        "articleOrSection": "c) La Asamblea General tendrá carácter de universal, cuando estando presentes o",
         "confidence": "high",
-        "excerpt": "Artículo 69. Procedimiento de liquidación. 1. La Asamblea General que hubiera decidido la disolución o, en otro caso, la que deberá convocar sin demora el órgano de administración, elegirá de entre los socios, en votación secreta, y por el..."
+        "excerpt": "c) La Asamblea General tendrá carácter de universal, cuando estando presentes o representadas la totalidad de las personas socias, de forma espontánea o mediante convocatoria no formal, decidan consƟtuirse en asamblea, aprobando y firmando..."
       },
       {
-        "documentSlug": "docs-estatutos-estatutos-losnidales",
-        "documentTitle": "Estatutos Losnidales",
+        "documentSlug": "docs-estatutos-estatutos-axuntase",
+        "documentTitle": "Estatutos Axuntase",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 67.- Procedimiento de liquidación.",
+        "articleOrSection": "Artículo 21.- Convocatoria de la Asamblea General",
         "confidence": "high",
-        "excerpt": "Artículo 67.- Procedimiento de liquidación. 48 -- 48 of 53 -- ESTATUTOS LOS NIDALES ECOVIVIENDA S.COOP.MAD 1. La Asamblea General que hubiera decidido la disolución o, en otro caso, la que deberá convocar sin demora el órgano de administrac..."
+        "excerpt": "Artículo 21.- Convocatoria de la Asamblea General 1.- La Asamblea General ordinaria deberá convocarse por el Consejo Rector dentro de los seis meses siguientes al cierre de cada ejercicio económico. Transcurrido dicho plazo sin que se efect..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 25.- Constitución y funcionamiento de la Asamblea General",
+        "confidence": "high",
+        "excerpt": "Artículo 25.- Constitución y funcionamiento de la Asamblea General"
+      },
+      {
+        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
+        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "a) Al Fondo de Reserva Obligatorio podrá imputarse el porcentaje que determine la Asamblea General,",
+        "confidence": "high",
+        "excerpt": "a) Al Fondo de Reserva Obligatorio podrá imputarse el porcentaje que determine la Asamblea General, sin que el mismo pueda exceder del cincuenta por ciento de las pérdidas. Si como consecuencia de dicha imputación, el Fondo quedase reducido..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "2. La persona socia podrá hacerse representar en la Asamblea General por otra persona",
+        "confidence": "high",
+        "excerpt": "2. La persona socia podrá hacerse representar en la Asamblea General por otra persona socia, que no podrá representar a más de dos, o bien por el cónyuge o pareja de hecho, ascendiente o descendientes; la representación debe conferirse por..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "2. La persona socia podrá hacerse representar en la Asamblea General por otra persona",
+        "confidence": "high",
+        "excerpt": "2. La persona socia podrá hacerse representar en la Asamblea General por otra persona socia, que no podrá representar a más de dos, o bien por el cónyuge o pareja de hecho, ascendiente o descendientes; la representación debe conferirse por..."
       }
     ]
   }

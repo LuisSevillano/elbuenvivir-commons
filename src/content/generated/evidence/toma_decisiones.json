@@ -1,6 +1,6 @@
 {
   "topicSlug": "toma_decisiones",
-  "generatedAt": "2026-05-14T09:23:32.160Z",
+  "generatedAt": "2026-07-07T07:29:54.737Z",
   "claims": [
     {
       "id": "toma_decisiones-majority_rules",
@@ -8,33 +8,33 @@
       "evidenceType": "explicit",
       "confidence": "high",
       "supportingReferences": [
-        "docs-estatutos-estatutos-elciempies",
-        "docs-estatutos-estatutos-los-girasoles",
         "docs-guias-las-guias-de-sostre-civic",
-        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
         "docs-estatutos-estatutos-tejiendovida-asociacion",
-        "docs-estatutos-estatutos-entrepatios",
-        "docs-estatutos-estatutos-laseronda-org",
-        "docs-estatutos-estatutos-losnidales"
+        "docs-leyes-normativa-estatal",
+        "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "docs-leyes-normativa-autonomica",
+        "docs-otros-mod-estatutos-coop-viviendas"
       ],
-      "explanation": "Se ha detectado explícitamente en 16 proyecto(s) con 17 referencia(s) directa(s)."
+      "explanation": "Se ha detectado explícitamente en 11 proyecto(s) con 18 referencia(s) directa(s)."
     },
     {
       "id": "toma_decisiones-consensus",
       "statement": "Se busca consenso o unanimidad en decisiones relevantes",
-      "evidenceType": "explicit",
-      "confidence": "high",
+      "evidenceType": "inferred",
+      "confidence": "medium",
       "supportingReferences": [
-        "docs-estatutos-estatutos-elciempies",
-        "docs-estatutos-estatutos-los-girasoles",
         "docs-guias-las-guias-de-sostre-civic",
-        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
         "docs-estatutos-estatutos-tejiendovida-asociacion",
-        "docs-estatutos-estatutos-entrepatios",
-        "docs-estatutos-estatutos-laseronda-org",
-        "docs-estatutos-estatutos-losnidales"
+        "docs-leyes-normativa-estatal",
+        "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "docs-leyes-normativa-autonomica",
+        "docs-otros-mod-estatutos-coop-viviendas"
       ],
-      "explanation": "Se ha detectado explícitamente en 16 proyecto(s) con 17 referencia(s) directa(s)."
+      "explanation": "Parece inferirse en 11 proyecto(s), aunque sin mención explícita y directa."
     },
     {
       "id": "toma_decisiones-delegation",
@@ -42,16 +42,16 @@
       "evidenceType": "explicit",
       "confidence": "high",
       "supportingReferences": [
-        "docs-estatutos-estatutos-elciempies",
-        "docs-estatutos-estatutos-los-girasoles",
         "docs-guias-las-guias-de-sostre-civic",
-        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
         "docs-estatutos-estatutos-tejiendovida-asociacion",
-        "docs-estatutos-estatutos-entrepatios",
-        "docs-estatutos-estatutos-laseronda-org",
-        "docs-estatutos-estatutos-losnidales"
+        "docs-leyes-normativa-estatal",
+        "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "docs-leyes-normativa-autonomica",
+        "docs-otros-mod-estatutos-coop-viviendas"
       ],
-      "explanation": "Se ha detectado explícitamente en 16 proyecto(s) con 17 referencia(s) directa(s)."
+      "explanation": "Se ha detectado explícitamente en 11 proyecto(s) con 18 referencia(s) directa(s)."
     },
     {
       "id": "toma_decisiones-protected_matters",
@@ -59,94 +59,110 @@
       "evidenceType": "explicit",
       "confidence": "high",
       "supportingReferences": [
-        "docs-estatutos-estatutos-elciempies",
-        "docs-estatutos-estatutos-los-girasoles",
         "docs-guias-las-guias-de-sostre-civic",
-        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
         "docs-estatutos-estatutos-tejiendovida-asociacion",
-        "docs-estatutos-estatutos-entrepatios",
-        "docs-estatutos-estatutos-laseronda-org",
-        "docs-estatutos-estatutos-losnidales"
+        "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "docs-otros-mod-estatutos-coop-viviendas",
+        "docs-otros-modelo-estatutos-viviendas"
       ],
-      "explanation": "Se ha detectado explícitamente en 15 proyecto(s) con 16 referencia(s) directa(s)."
+      "explanation": "Se ha detectado explícitamente en 6 proyecto(s) con 6 referencia(s) directa(s)."
     }
   ],
   "conflictingApproaches": [],
   "evidenceSummary": {
     "totalClaims": 4,
-    "explicitCount": 4,
-    "inferredCount": 0,
+    "explicitCount": 3,
+    "inferredCount": 1,
     "recommendationCount": 0,
     "weakEvidenceCount": 0,
     "conflictingCount": 0,
-    "highConfidenceCount": 4,
-    "mediumConfidenceCount": 0,
+    "highConfidenceCount": 3,
+    "mediumConfidenceCount": 1,
     "lowConfidenceCount": 0
   },
   "extracts": [
     {
-      "id": "toma_decisiones-majority_rules-docs-estatutos-estatutos-elciempies-4",
-      "claimId": "toma_decisiones-majority_rules",
-      "documentSlug": "docs-estatutos-estatutos-elciempies",
-      "documentTitle": "Estatutos Elciempies",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "...residencia y Secretaría de la Asamblea General quienes designen la propia Asamblea General. 4.- Las votaciones serán secretas cuando afecten a personas. Se adoptará también mediante votación secreta el acuerdo sobre cualquier punto del orden del día cuando así lo solicite un diez por ciento de las personas socias presentes o representadas. 5.- Podrán asis\u000er a la Asamblea General, con voz y sin voto, personas que, no siendo socias, hayan sido convocadas por el Consejo Rector, en par\u000ecular asesores/as 25 -- 25 of 48 -- jurídicos/as o económicos/as de la coopera\u000eva. En otro caso, la asistencia de cualquier otra persona cuya presencia esté jus\u000e,cada en relación con los puntos del orden del día, se hará previa propuesta del Consejo Rector sin oposición por mayoría simple de los/as asistentes a...",
-      "score": 33,
-      "relevanceFactors": {
-        "explicit": true,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": true,
-        "conceptProximity": true
-      }
-    },
-    {
-      "id": "toma_decisiones-majority_rules-docs-estatutos-estatutos-los-girasoles-4",
-      "claimId": "toma_decisiones-majority_rules",
-      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
-      "documentTitle": "Estatutos Los Girasoles",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "...residencia y Secretaría de la Asamblea General quienes designen la propia Asamblea General. 4.- Las votaciones serán secretas cuando afecten a personas. Se adoptará también mediante votación secreta el acuerdo sobre cualquier punto del orden del día cuando así lo solicite un diez por ciento de las personas socias presentes o representadas. 5.- Podrán asisƟr a la Asamblea General, con voz y sin voto, personas que, no siendo socias, hayan sido convocadas por el Consejo Rector, en parƟcular asesores/as jurídicos/as o económicos/as de la cooperaƟva. En otro caso, la asistencia de cualquier otra persona cuya presencia esté jusƟficada en relación con los puntos del orden del día, se hará previa propuesta del Consejo Rector sin oposición por mayoría simple de los/as asistentes a la Asamblea Gener...",
-      "score": 34,
-      "relevanceFactors": {
-        "explicit": true,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": true,
-        "conceptProximity": true
-      }
-    },
-    {
-      "id": "toma_decisiones-majority_rules-docs-guias-las-guias-de-sostre-civic-6",
+      "id": "toma_decisiones-majority_rules-docs-guias-las-guias-de-sostre-civic-381",
       "claimId": "toma_decisiones-majority_rules",
       "documentSlug": "docs-guias-las-guias-de-sostre-civic",
       "documentTitle": "Las GuíAs De Sostre CíVic",
       "documentType": "guia",
       "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
-      "articleOrSection": "Título original: Transformem l’entorn",
-      "snippet": "...que todo el mundo conozca su lenguaje y paradigma, y se pueda llevar a cabo con eficacia. [6.2] La votación con mayoría cualificada: en este modelo, se necesitan muchos más votos a favor que en contra de la propuesta —el grupo debe definir dónde sitúa la mayoría amplia. Es útil cuando no existe una visión común muy trabajada, porque permite avanzar en la defi- nición del proyecto. También sirve para sondear y tener información del grupo en relación con un tema, o bien para temas en los que no se ha llegado a un consenso o no hay tiempo suficiente para consen- suar. Es más rápida que el consenso a la hora de tomar decisiones, pero menos efectiva para ponerlas en marcha porque pueden no te- ner el apoyo de todo el grupo. En este modelo, es importante decidir quién puede votar —cada unidad d...",
+      "articleOrSection": "6. Cómo tomamos las decisiones",
+      "snippet": "...que todo el mundo conozca su lenguaje y paradigma, y se pueda llevar a cabo con eficacia. [6.2] La votación con mayoría cualificada: en este modelo, se necesitan muchos más votos a favor que en contra de la propuesta —el grupo debe definir dónde sitúa la mayoría amplia. Es útil cuando no existe una visión común muy trabajada, porque permite avanzar en la definición del proyecto. También sirve para sondear y tener información del grupo en relación con un tema, o bien para temas en los que no se ha llegado a un consenso o no hay tiempo suficiente para consensuar. Es más rápida que el consenso a la hora de tomar decisiones, pero menos efectiva para ponerlas en marcha porque pueden no tener el apoyo de todo el grupo. En este modelo, es importante decidir quién puede votar —cada unidad de conv...",
+      "score": 7,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": true,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "toma_decisiones-majority_rules-docs-estatutos-estatutos-tejiendovida-asociacion-34",
+      "claimId": "toma_decisiones-majority_rules",
+      "documentSlug": "docs-estatutos-estatutos-tejiendovida-asociacion",
+      "documentTitle": "Estatutos Tejiendovida Asociacion",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_tejiendovida_asociacion.pdf",
+      "articleOrSection": "Artículo 9º.- Quórum de asistencia y votaciones.",
+      "snippet": "Artículo 9º.- Quórum de asistencia y votaciones. Las Asambleas Generales, tanto ordinarias como extraordinarias, quedarán válidamente constituidas cuando concurran a ella dos tercios de los asociados con derecho a voto. Será necesaria en todo caso la presencia del Presidente/a y Secretario/a, o de las personas que legalmente les sustituyan, que constituirán la mesa de la asamblea. Los acuerdos se tomarán por mayoría absoluta de las personas asistentes o representadas, es decir, cuando los votos afirmativos superen la mitad de éstas. Será necesario mayoría cualificada de las personas asistentes o representadas, que resultará cuando los votos afirmativos superen los dos tercios de éstas, para:",
+      "score": 16,
+      "relevanceFactors": {
+        "explicit": true,
+        "headingRelevant": true,
+        "contextualCooccurrence": true,
+        "topicDensity": true,
+        "conceptProximity": true
+      }
+    },
+    {
+      "id": "toma_decisiones-majority_rules-docs-leyes-normativa-estatal-344",
+      "claimId": "toma_decisiones-majority_rules",
+      "documentSlug": "docs-leyes-normativa-estatal",
+      "documentTitle": "Normativa Estatal",
+      "documentType": "ley",
+      "sourcePath": "docs/leyes/normativa_estatal.pdf",
+      "articleOrSection": "3. Las votaciones serán secretas en los supuestos previstos en la presente Ley o en los",
+      "snippet": "3. Las votaciones serán secretas en los supuestos previstos en la presente Ley o en los Estatutos, además de en aquéllos en que así lo aprueben, previa su votación a solicitud de cualquier socio, el diez por ciento de los votos sociales presentes y representados en la Los Estatutos podrán regular cautelas respecto al último supuesto, para evitar abusos; entre ellas la de que sólo pueda promoverse una petición de votación secreta en cada sesión asamblearia cuando, por el número de asistentes, la densidad del orden del día o por otra causa razonable, ello resulte lo más adecuado para el desarrollo de la reunión.",
       "score": 11,
       "relevanceFactors": {
         "explicit": false,
-        "headingRelevant": false,
+        "headingRelevant": true,
         "contextualCooccurrence": true,
         "topicDensity": false,
         "conceptProximity": true
       }
     },
     {
-      "id": "toma_decisiones-consensus-docs-estatutos-estatutos-elciempies-4",
+      "id": "toma_decisiones-consensus-docs-guias-las-guias-de-sostre-civic-381",
       "claimId": "toma_decisiones-consensus",
-      "documentSlug": "docs-estatutos-estatutos-elciempies",
-      "documentTitle": "Estatutos Elciempies",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "6. Cómo tomamos las decisiones",
+      "snippet": "...principios, y no es en ningún caso por interés personal. Existen unas condiciones que favorecen el consenso: de entrada, la voluntad de consensuar, la confianza en el proceso y en las personas del grupo y las ganas de conocer a fondo a las personas involucradas. Son importantes también los compromisos de repartir el poder y de abandonar intereses personales en pro de los valores del grupo y la visión colectiva. El consenso requiere participación activa y presencia de las personas del grupo, así como una buena preparación de la reunión, información transparente, tiempo suficiente, pocos temas y bien seleccionados y una facilitadora que vele por el proceso. Finalmente, es necesario que el grupo se haya formado en dinámicas de consenso, para que todo el mundo conozca su lenguaje y paradigma,...",
+      "score": 8,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": true,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "toma_decisiones-consensus-docs-estatutos-estatutos-tejiendovida-asociacion-34",
+      "claimId": "toma_decisiones-consensus",
+      "documentSlug": "docs-estatutos-estatutos-tejiendovida-asociacion",
+      "documentTitle": "Estatutos Tejiendovida Asociacion",
       "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "...ase, y las personas bene,ciarias, incluso las disidentes y las no asistentes, quedan some\u000edas a los acuerdos de la Asamblea General, siempre que se hayan adoptado de conformidad con el ordenamiento jurídico y estos estatutos. 2.- Las Asambleas Generales pueden ser ordinarias y extraordinarias: a) La Asamblea General ordinaria, convocada por el Consejo Rector, \u000eene que reunirse anualmente, dentro de los seis meses siguientes al cierre del ejercicio económico anterior, para analizar la ges\u000eón social y aprobar, si procede, las cuentas anuales. Podrá decidir, además, sobre cualquier otro asunto incluido en su orden del día. b) Toda Asamblea General que no sea la prevista en el apartado anterior tendrá la consideración de extraordinaria. c) La Asamblea General tendrá carácter de universal, cuan...",
+      "sourcePath": "docs/estatutos/estatutos_tejiendovida_asociacion.pdf",
+      "articleOrSection": "Artículo 9º.- Quórum de asistencia y votaciones.",
+      "snippet": "...io/a, o de las personas que legalmente les sustituyan, que constituirán la mesa de la asamblea. Los acuerdos se tomarán por mayoría absoluta de las personas asistentes o representadas, es decir, cuando los votos afirmativos superen la mitad de éstas. Será necesario mayoría cualificada de las personas asistentes o representadas, que resultará cuando los votos afirmativos superen los dos tercios de éstas, para:",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -157,14 +173,14 @@
       }
     },
     {
-      "id": "toma_decisiones-consensus-docs-estatutos-estatutos-los-girasoles-4",
+      "id": "toma_decisiones-consensus-docs-leyes-normativa-estatal-344",
       "claimId": "toma_decisiones-consensus",
-      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
-      "documentTitle": "Estatutos Los Girasoles",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "...se, y las personas beneficiarias, incluso las disidentes y las no asistentes, quedan someƟdas a los acuerdos de la Asamblea General, siempre que se hayan adoptado de conformidad con el ordenamiento jurídico y estos estatutos. 2.- Las Asambleas Generales pueden ser ordinarias y extraordinarias: a) La Asamblea General ordinaria, convocada por el Consejo Rector, Ɵene que reunirse anualmente, dentro de los seis meses siguientes al cierre del ejercicio económico anterior, para analizar la gesƟón social y aprobar, si procede, las cuentas anuales. Podrá decidir, además, sobre cualquier otro asunto incluido en su orden del día. b) Toda Asamblea General que no sea la prevista en el apartado anterior tendrá la consideración de extraordinaria. c) La Asamblea General tendrá carácter de universal, cuan...",
+      "documentSlug": "docs-leyes-normativa-estatal",
+      "documentTitle": "Normativa Estatal",
+      "documentType": "ley",
+      "sourcePath": "docs/leyes/normativa_estatal.pdf",
+      "articleOrSection": "3. Las votaciones serán secretas en los supuestos previstos en la presente Ley o en los",
+      "snippet": "3. Las votaciones serán secretas en los supuestos previstos en la presente Ley o en los Estatutos, además de en aquéllos en que así lo aprueben, previa su votación a solicitud de cualquier socio, el diez por ciento de los votos sociales presentes y representados en la Los Estatutos podrán regular cautelas respecto al último supuesto, para evitar abusos; entre ellas la de que sólo pueda promoverse una petición de votación secreta en cada sesión asamblearia cuando, por el número de asistentes, la densidad del orden del día o por otra causa razonable, ello resulte lo más adecuado para el desarrollo de la reunión.",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -175,68 +191,14 @@
       }
     },
     {
-      "id": "toma_decisiones-consensus-docs-guias-las-guias-de-sostre-civic-6",
-      "claimId": "toma_decisiones-consensus",
-      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-      "documentTitle": "Las GuíAs De Sostre CíVic",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
-      "articleOrSection": "Título original: Transformem l’entorn",
-      "snippet": "...n algún tema. • El apoyo técnico: si hay necesidad de apoyo técnico externo y en qué campos. Si hay acuerdo en este apoyo, en qué punto se encuen- tra el equipo técnico: está consolidado, está creándose, lo tienen de- finido o se está explorando el terreno. Una pregunta habitual que se hacen los grupos que quieren iniciar un proyecto de vivienda cooperativa hace referencia al número mínimo de unidades de convivencia conveniente para llevarlo a cabo. No existe una respuesta cerrada, porque depende de muchos factores y de cada proyecto. Sin embargo, apuntamos dos ideas. Por un lado, -- 140 of 377 -- que en la fase de definir el proyecto y en la búsqueda de patrimonio o suelo, con un grupo reducido se puede trabajar con agilidad y, más adelante, en su caso, ya habrá ocasión de ampliar la comu...",
-      "score": 5,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
-    },
-    {
-      "id": "toma_decisiones-delegation-docs-estatutos-estatutos-elciempies-4",
-      "claimId": "toma_decisiones-delegation",
-      "documentSlug": "docs-estatutos-estatutos-elciempies",
-      "documentTitle": "Estatutos Elciempies",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "CAPÍTULO III REPRESENTACIÓN Y GESTIÓN DE LA COOPERATIVA Ar\u001aculo 21.- Órganos Sociales. Los órganos de la coopera\u000eva para su dirección y administración son: La Asamblea General El Consejo Rector La Intervención Ar\u001aculo 22.- Asamblea General. Concepto y 3pos. 1.- La Asamblea General, cons\u000etuida por las personas socias de la coopera\u000eva, es el órgano supremo de expresión de la voluntad social en las materias cuyo conocimiento le atribuye la Ley y estos estatutos. Las personas socias, cualquiera que sea su clase, y las personas bene,ciarias, incluso las disidentes y las no asistentes, quedan some\u000edas a los acuerdos de la Asamblea General, siempre que se hayan adoptado de conformidad con el ordenamiento jurídico y estos estatutos. 2.- Las Asambleas Generales pueden ser ordinarias y extraordinari...",
-      "score": 315,
-      "relevanceFactors": {
-        "explicit": true,
-        "headingRelevant": false,
-        "contextualCooccurrence": false,
-        "topicDensity": true,
-        "conceptProximity": true
-      }
-    },
-    {
-      "id": "toma_decisiones-delegation-docs-estatutos-estatutos-los-girasoles-4",
-      "claimId": "toma_decisiones-delegation",
-      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
-      "documentTitle": "Estatutos Los Girasoles",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "CAPÍTULO III REPRESENTACIÓN Y GESTIÓN DE LA COOPERATIVA Arơculo 24.- Órganos Sociales. Los órganos de la cooperaƟva para su dirección y administración son: La Asamblea General El Consejo Rector La Intervención 22 -- 22 of 46 -- Arơculo 25.- Asamblea General. Concepto y Ɵpos. 1.- La Asamblea General, consƟtuida por las personas socias de la cooperaƟva, es el órgano supremo de expresión de la voluntad social en las materias cuyo conocimiento le atribuye la Ley y estos estatutos. Las personas socias, cualquiera que sea su clase, y las personas beneficiarias, incluso las disidentes y las no asistentes, quedan someƟdas a los acuerdos de la Asamblea General, siempre que se hayan adoptado de conformidad con el ordenamiento jurídico y estos estatutos. 2.- Las Asambleas Generales pueden ser ordinar...",
-      "score": 315,
-      "relevanceFactors": {
-        "explicit": true,
-        "headingRelevant": false,
-        "contextualCooccurrence": false,
-        "topicDensity": true,
-        "conceptProximity": true
-      }
-    },
-    {
-      "id": "toma_decisiones-delegation-docs-guias-las-guias-de-sostre-civic-6",
+      "id": "toma_decisiones-delegation-docs-guias-las-guias-de-sostre-civic-381",
       "claimId": "toma_decisiones-delegation",
       "documentSlug": "docs-guias-las-guias-de-sostre-civic",
       "documentTitle": "Las GuíAs De Sostre CíVic",
       "documentType": "guia",
       "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
-      "articleOrSection": "Título original: Transformem l’entorn",
-      "snippet": "Título original: Transformem l’entorn La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 128 of 377 -- -- 129 of 377 -- La construcción y el cuidado de los grupos CONSTRUIMOS VIVIENDA COOPERATIVA 4 -- 130 of 377 -- 3 ÍNDICE 05 / 1. PRESENTACIÓN DE LA GUÍA Y DECLARACIÓN DE INTENCIONES 07 / 2. CAMBIO DE PARADIGMA 11 / 3. QUÉ NECESITAMOS PARA EMPEZAR A CAMINAR 12 / 3.1. El grupo 15 / 4. QUIÉNES SOMOS Y QUÉ NOS UNE 23 / 5....",
+      "articleOrSection": "6. Cómo tomamos las decisiones",
+      "snippet": "6. Cómo tomamos las decisiones vulneraría algún elemento esencial del proyecto, la ética o la seguridad del grupo. Si alguien ejerce el derecho de veto, pues, es porque cree que pone en peligro la seguridad del grupo y sus principios, y no es en ningún caso por interés personal. Existen unas condiciones que favorecen el consenso: de entrada, la voluntad de consensuar, la confianza en el proceso y en las personas del grupo y las ganas de conocer a fondo a las personas involucradas. Son importantes también los compromisos de repartir el poder y de abandonar intereses personales en pro de los valores del grupo y la visión colectiva. El consenso requiere participación activa y presencia de las personas del grupo, así como una buena preparación de la reunión, información transparente, tiempo su...",
       "score": 4,
       "relevanceFactors": {
         "explicit": false,
@@ -247,14 +209,14 @@
       }
     },
     {
-      "id": "toma_decisiones-protected_matters-docs-estatutos-estatutos-elciempies-4",
-      "claimId": "toma_decisiones-protected_matters",
-      "documentSlug": "docs-estatutos-estatutos-elciempies",
-      "documentTitle": "Estatutos Elciempies",
+      "id": "toma_decisiones-delegation-docs-estatutos-estatutos-tejiendovida-asociacion-34",
+      "claimId": "toma_decisiones-delegation",
+      "documentSlug": "docs-estatutos-estatutos-tejiendovida-asociacion",
+      "documentTitle": "Estatutos Tejiendovida Asociacion",
       "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "CAPÍTULO III REPRESENTACIÓN Y GESTIÓN DE LA COOPERATIVA Ar\u001aculo 21.- Órganos Sociales. Los órganos de la coopera\u000eva para su dirección y administración son: La Asamblea General El Consejo Rector La Intervención Ar\u001aculo 22.- Asamblea General. Concepto y 3pos. 1.- La Asamblea General, cons\u000etuida por las personas socias de la coopera\u000eva, es el órgano supremo de expresión de la voluntad social en las materias cuyo conocimiento le atribuye la Ley y estos estatutos. Las personas socias, cualquiera que sea su clase, y las personas bene,ciarias, incluso las disidentes y las no asistentes, quedan some\u000edas a los acuerdos de la Asamblea General, siempre que se hayan adoptado de conformidad con el ordenamiento jurídico y estos estatutos. 2.- Las Asambleas Generales pueden ser ordinarias y extraordinari...",
+      "sourcePath": "docs/estatutos/estatutos_tejiendovida_asociacion.pdf",
+      "articleOrSection": "Artículo 9º.- Quórum de asistencia y votaciones.",
+      "snippet": "Artículo 9º.- Quórum de asistencia y votaciones. Las Asambleas Generales, tanto ordinarias como extraordinarias, quedarán válidamente constituidas cuando concurran a ella dos tercios de los asociados con derecho a voto. Será necesaria en todo caso la presencia del Presidente/a y Secretario/a, o de las personas que legalmente les sustituyan, que constituirán la mesa de la asamblea. Los acuerdos se tomarán por mayoría absoluta de las personas asistentes o representadas, es decir, cuando los votos afirmativos superen la mitad de éstas. Será necesario mayoría cualificada de las personas asistentes o representadas, que resultará cuando los votos afirmativos superen los dos tercios de éstas, para:",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -265,14 +227,68 @@
       }
     },
     {
-      "id": "toma_decisiones-protected_matters-docs-estatutos-estatutos-los-girasoles-4",
+      "id": "toma_decisiones-delegation-docs-leyes-normativa-estatal-344",
+      "claimId": "toma_decisiones-delegation",
+      "documentSlug": "docs-leyes-normativa-estatal",
+      "documentTitle": "Normativa Estatal",
+      "documentType": "ley",
+      "sourcePath": "docs/leyes/normativa_estatal.pdf",
+      "articleOrSection": "3. Las votaciones serán secretas en los supuestos previstos en la presente Ley o en los",
+      "snippet": "3. Las votaciones serán secretas en los supuestos previstos en la presente Ley o en los Estatutos, además de en aquéllos en que así lo aprueben, previa su votación a solicitud de cualquier socio, el diez por ciento de los votos sociales presentes y representados en la Los Estatutos podrán regular cautelas respecto al último supuesto, para evitar abusos; entre ellas la de que sólo pueda promoverse una petición de votación secreta en cada sesión asamblearia cuando, por el número de asistentes, la densidad del orden del día o por otra causa razonable, ello resulte lo más adecuado para el desarrollo de la reunión.",
+      "score": 3,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "toma_decisiones-protected_matters-docs-guias-las-guias-de-sostre-civic-381",
       "claimId": "toma_decisiones-protected_matters",
-      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
-      "documentTitle": "Estatutos Los Girasoles",
+      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+      "documentTitle": "Las GuíAs De Sostre CíVic",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
+      "articleOrSection": "6. Cómo tomamos las decisiones",
+      "snippet": "6. Cómo tomamos las decisiones vulneraría algún elemento esencial del proyecto, la ética o la seguridad del grupo. Si alguien ejerce el derecho de veto, pues, es porque cree que pone en peligro la seguridad del grupo y sus principios, y no es en ningún caso por interés personal. Existen unas condiciones que favorecen el consenso: de entrada, la voluntad de consensuar, la confianza en el proceso y en las personas del grupo y las ganas de conocer a fondo a las personas involucradas. Son importantes también los compromisos de repartir el poder y de abandonar intereses personales en pro de los valores del grupo y la visión colectiva. El consenso requiere participación activa y presencia de las personas del grupo, así como una buena preparación de la reunión, información transparente, tiempo su...",
+      "score": 4,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": true,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "toma_decisiones-protected_matters-docs-estatutos-estatutos-tejiendovida-asociacion-34",
+      "claimId": "toma_decisiones-protected_matters",
+      "documentSlug": "docs-estatutos-estatutos-tejiendovida-asociacion",
+      "documentTitle": "Estatutos Tejiendovida Asociacion",
       "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
-      "articleOrSection": "CAPÍTULO III",
-      "snippet": "CAPÍTULO III REPRESENTACIÓN Y GESTIÓN DE LA COOPERATIVA Arơculo 24.- Órganos Sociales. Los órganos de la cooperaƟva para su dirección y administración son: La Asamblea General El Consejo Rector La Intervención 22 -- 22 of 46 -- Arơculo 25.- Asamblea General. Concepto y Ɵpos. 1.- La Asamblea General, consƟtuida por las personas socias de la cooperaƟva, es el órgano supremo de expresión de la voluntad social en las materias cuyo conocimiento le atribuye la Ley y estos estatutos. Las personas socias, cualquiera que sea su clase, y las personas beneficiarias, incluso las disidentes y las no asistentes, quedan someƟdas a los acuerdos de la Asamblea General, siempre que se hayan adoptado de conformidad con el ordenamiento jurídico y estos estatutos. 2.- Las Asambleas Generales pueden ser ordinar...",
+      "sourcePath": "docs/estatutos/estatutos_tejiendovida_asociacion.pdf",
+      "articleOrSection": "Artículo 9º.- Quórum de asistencia y votaciones.",
+      "snippet": "Artículo 9º.- Quórum de asistencia y votaciones. Las Asambleas Generales, tanto ordinarias como extraordinarias, quedarán válidamente constituidas cuando concurran a ella dos tercios de los asociados con derecho a voto. Será necesaria en todo caso la presencia del Presidente/a y Secretario/a, o de las personas que legalmente les sustituyan, que constituirán la mesa de la asamblea. Los acuerdos se tomarán por mayoría absoluta de las personas asistentes o representadas, es decir, cuando los votos afirmativos superen la mitad de éstas. Será necesario mayoría cualificada de las personas asistentes o representadas, que resultará cuando los votos afirmativos superen los dos tercios de éstas, para:",
+      "score": 1,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": true,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "toma_decisiones-protected_matters-docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso-59",
+      "claimId": "toma_decisiones-protected_matters",
+      "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+      "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+      "documentType": "rri",
+      "sourcePath": "docs/rri/EJEMPLO_DE_REGLAMENTO_DE_REGIMEN_INTERNO_PARA_VIVIENDAS_COOPERATIVAS_EN_CESION_DE_USO.pdf",
+      "articleOrSection": "f) Mayoría Requerida para adoptar acuerdos: Los acuerdos en la Asamblea",
+      "snippet": "f) Mayoría Requerida para adoptar acuerdos: Los acuerdos en la Asamblea General se tomarán por mayoría simple, a menos que se especifique lo contrario -- 6 of 12 -- en los Estatutos. Decisiones excepcionales, como modificaciones a los Estatutos, requerirán una mayoría cualificada, también especificada en los Estatutos.",
       "score": 8,
       "relevanceFactors": {
         "explicit": true,
@@ -281,26 +297,8 @@
         "topicDensity": false,
         "conceptProximity": false
       }
-    },
-    {
-      "id": "toma_decisiones-protected_matters-docs-guias-las-guias-de-sostre-civic-6",
-      "claimId": "toma_decisiones-protected_matters",
-      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-      "documentTitle": "Las GuíAs De Sostre CíVic",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
-      "articleOrSection": "Título original: Transformem l’entorn",
-      "snippet": "Título original: Transformem l’entorn La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 128 of 377 -- -- 129 of 377 -- La construcción y el cuidado de los grupos CONSTRUIMOS VIVIENDA COOPERATIVA 4 -- 130 of 377 -- 3 ÍNDICE 05 / 1. PRESENTACIÓN DE LA GUÍA Y DECLARACIÓN DE INTENCIONES 07 / 2. CAMBIO DE PARADIGMA 11 / 3. QUÉ NECESITAMOS PARA EMPEZAR A CAMINAR 12 / 3.1. El grupo 15 / 4. QUIÉNES SOMOS Y QUÉ NOS UNE 23 / 5....",
-      "score": 5,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
     }
   ],
-  "nonSubstantiveFiltered": 6,
-  "evidenceHealth": "weak"
+  "nonSubstantiveFiltered": 0,
+  "evidenceHealth": "strong"
 }

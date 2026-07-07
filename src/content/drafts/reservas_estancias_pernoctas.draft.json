@@ -5,11 +5,11 @@
   "category": "uso_espacios",
   "minimumContents": [
     "Conviene valorar una regla mínima sobre reserva, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre reservas, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre estancia, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre estancias, contrastando las referencias automáticas del research pack.",
     "Conviene valorar una regla mínima sobre pernocta, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Article 33. Fons de reserva voluntaris: el Fons Col·lectiu d’Accés a l’Habitatge i el, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Article 32. Fons de reserva obligatori, contrastando las referencias automáticas del research pack.",
-    "Conviene valorar una regla mínima sobre Article 27. Aplicació dels excedents, contrastando las referencias automáticas del research pack.",
+    "Conviene valorar una regla mínima sobre pernoctas, contrastando las referencias automáticas del research pack.",
     "Distinguir qué debe quedar como principio estable y qué conviene dejar como procedimiento adaptable."
   ],
   "legalBasis": [],
@@ -85,7 +85,7 @@
     }
   ],
   "suggestedClause": {
-    "text": "La cooperativa podrá regular reservas, estancias y pernoctas mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. Los procedimientos operativos podrán desarrollarse en una norma interna revisable, si la cooperativa lo considera adecuado.",
+    "text": "La cooperativa podrá regular reservas, estancias y pernoctas mediante criterios mínimos aprobados por sus órganos competentes. Una opción frecuente es fijar en Estatutos los principios esenciales y remitir los detalles prácticos a normas internas. El Reglamento de Régimen Interno podrá desarrollar los procedimientos operativos, siempre que no contradiga los principios básicos aprobados.",
     "disclaimer": "Borrador generado automáticamente desde research pack. Revisar jurídicamente antes de usar o incorporar a contenido curado.",
     "status": "draft"
   },
@@ -96,105 +96,105 @@
     "curated": false,
     "sourceResearchPack": "src/content/research-packs/reservas_estancias_pernoctas.md",
     "evidenceCount": 18,
-    "highConfidenceEvidence": 4,
-    "mediumConfidenceEvidence": 9,
-    "lowConfidenceEvidence": 5,
+    "highConfidenceEvidence": 6,
+    "mediumConfidenceEvidence": 12,
+    "lowConfidenceEvidence": 0,
     "evidence": [
       {
-        "documentSlug": "docs-estatutos-estatutos-blanxart",
-        "documentTitle": "Estatutos Blanxart",
-        "documentType": "estatutos",
-        "articleOrSection": "Article 33. Fons de reserva voluntaris: el Fons Col·lectiu d’Accés a l’Habitatge i el",
+        "documentSlug": "docs-guias-las-guias-de-sostre-civic",
+        "documentTitle": "Las GuíAs De Sostre CíVic",
+        "documentType": "guia",
+        "articleOrSection": "92 metros cuadrados, y dispone de amplios espacios comunes: azotea,",
         "confidence": "high",
-        "excerpt": "Article 33. Fons de reserva voluntaris: el Fons Col·lectiu d’Accés a l’Habitatge i el Fons Mutual 33.1. La Cooperativa pot establir fons de reserva voluntaris, que en tot cas tindran la consideració de no repartibles, per donar compliment a..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-cancarner",
-        "documentTitle": "Estatutos Cancarner",
-        "documentType": "estatutos",
-        "articleOrSection": "Article 35. Fons de reserva voluntaris: el Fons Col·lectiu d'Accés a l'Habitatge i el Fons",
-        "confidence": "high",
-        "excerpt": "Article 35. Fons de reserva voluntaris: el Fons Col·lectiu d'Accés a l'Habitatge i el Fons Mutual. 35.1. La Cooperativa pot establir fons de reserva voluntaris, que en tot cas tindran la consideració d'irrepartibles, per donar compliment a..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-losnidales",
-        "documentTitle": "Estatutos Losnidales",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 32.- La Reserva de educación y promoción.",
-        "confidence": "high",
-        "excerpt": "Artículo 32.- La Reserva de educación y promoción. 1. La Reserva de educación y promoción se destinará a actividades que desarrollen algunos de los siguientes fines: a) La formación de los/as socios/as en los principios y valores cooperativ..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-entrepatios",
-        "documentTitle": "Estatutos Entrepatios",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 25. La Reserva de educación y promoción cooperativa.",
-        "confidence": "high",
-        "excerpt": "Artículo 25. La Reserva de educación y promoción cooperativa. 1. La Reserva de educación y promoción cooperativa se destina a: - La formación de las personas socias y los trabajadores/as en los principios y las técnicas cooperativas, empres..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-blanxart",
-        "documentTitle": "Estatutos Blanxart",
-        "documentType": "estatutos",
-        "articleOrSection": "Article 32. Fons de reserva obligatori",
-        "confidence": "medium",
-        "excerpt": "Article 32. Fons de reserva obligatori 32.1. El fons de reserva obligatori no es pot repartir entre els socis i sòcies, i té la finalitat de conso- lidar econòmicament la societat. 32.2. El fons de reserva obligatori és constituït per: a) L..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-cancarner",
-        "documentTitle": "Estatutos Cancarner",
-        "documentType": "estatutos",
-        "articleOrSection": "Article 34. El fons de reserva obligatori",
-        "confidence": "medium",
-        "excerpt": "Article 34. El fons de reserva obligatori 34.1 El fons de reserva obligatori no es pot repartir entre els socis i sòcies i té la finalitat de consolidar econòmicament la societat. 34.2. El fons de reserva obligatori és constituït per: a) L’..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-losnidales",
-        "documentTitle": "Estatutos Losnidales",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 30.- La Reserva obligatoria.",
-        "confidence": "medium",
-        "excerpt": "Artículo 30.- La Reserva obligatoria. La Reserva obligatoria se destinará a la consolidación, desarrollo y garantía de la Cooperativa, y es irrepartible entre los/as socios/as, incluso en el caso de disolución de la misma. Se destinarán obl..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-entrepatios",
-        "documentTitle": "Estatutos Entrepatios",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 24. La Reserva obligatoria.",
-        "confidence": "medium",
-        "excerpt": "Artículo 24. La Reserva obligatoria. 1. La Reserva obligatoria tiene la finalidad de consolidar y garantizar económicamente la sociedad Además de las funciones previstas en la ley, garantizará el pago del crédito hipotecario solicitado por..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-blanxart",
-        "documentTitle": "Estatutos Blanxart",
-        "documentType": "estatutos",
-        "articleOrSection": "Article 27. Aplicació dels excedents",
-        "confidence": "medium",
-        "excerpt": "Article 27. Aplicació dels excedents 27.1. De conformitat amb la Llei de cooperatives de Catalunya, la determinació dels resultats de l’exercici s’efectua d’acord amb la normativa comptable, atenent les deduccions específiques que es contem..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-cancarner",
-        "documentTitle": "Estatutos Cancarner",
-        "documentType": "estatutos",
-        "articleOrSection": "Article 29. Aplicació dels excedents i fons socials obligatoris.",
-        "confidence": "medium",
-        "excerpt": "Article 29. Aplicació dels excedents i fons socials obligatoris. En la determinació dels excedents s’han de tenir en compte, a més de les normes generals, les específiques previstes a l’article 124 de la Llei 12/2015, de 9 d juliol, de coop..."
+        "excerpt": "92 metros cuadrados, y dispone de amplios espacios comunes: azotea, lavandería, sala polivalente con cocina, biblioteca, cuatro habitaciones para invitados, jardín y huerto comunitario. Todo el edificio tiene la clasificación energética A,..."
       },
       {
         "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
         "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
         "documentType": "ley",
-        "articleOrSection": "capítulo IV del Texto Refundido de la Ley de Sociedades Anónimas y de la Ley de",
-        "confidence": "medium",
-        "excerpt": "capítulo IV del Texto Refundido de la Ley de Sociedades Anónimas y de la Ley de Sociedades de Responsabilidad Limitada). Figurarán en el patrimonio neto, con signo negativo. Su movimiento es el siguiente: a) Se cargará por el importe de la..."
+        "articleOrSection": "11. RESERVAS Y OTROS INSTRUMENTOS DE PATRIMONIO",
+        "confidence": "high",
+        "excerpt": "11. RESERVAS Y OTROS INSTRUMENTOS DE PATRIMONIO 110. Prima de emisión o asunción 111. Otros instrumentos de patrimonio neto 1110. Patrimonio neto por emisión de instrumentos financieros compuestos 1111. Resto de instrumentos de patrimonio n..."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+        "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
+        "documentType": "ley",
+        "articleOrSection": "11. RESERVAS Y OTROS INSTRUMENTOS DE PATRIMONIO NETO",
+        "confidence": "high",
+        "excerpt": "11. RESERVAS Y OTROS INSTRUMENTOS DE PATRIMONIO NETO 110. Prima de emisión o asunción 111. Otros instrumentos de patrimonio neto 1110. Patrimonio neto por emisión de instrumentos financieros compuestos 1111. Resto de instrumentos de patrimo..."
       },
       {
         "documentSlug": "docs-estatutos-estatutos-losnidales",
         "documentTitle": "Estatutos Losnidales",
         "documentType": "estatutos",
-        "articleOrSection": "Artículo 28.- Distribución de beneficios y excedentes.",
+        "articleOrSection": "5. Utilizar la unidad residencial asignada, así como los servicios y espacios comunes que habilitará",
+        "confidence": "high",
+        "excerpt": "5. Utilizar la unidad residencial asignada, así como los servicios y espacios comunes que habilitará la Cooperativa, con carácter vitalicio, en régimen de derecho de uso y habitación, sin perjuicio del derecho de baja o de los supuestos de..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+        "documentTitle": "Estatutos Tarocohousing",
+        "documentType": "estatutos",
+        "articleOrSection": "a) Al uso y disfrute de las viviendas, espacios anexos a las viviendas y zonas comunes que",
+        "confidence": "high",
+        "excerpt": "a) Al uso y disfrute de las viviendas, espacios anexos a las viviendas y zonas comunes que la cooperativa pone a disposición de las personas socias de vivienda. Este derecho se extiende además a las personas que habitualmente convivan con e..."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+        "documentTitle": "BOE A 2010 20034 Orden+EHA+3360 2010",
+        "documentType": "ley",
+        "articleOrSection": "13. Los aspectos contables del Fondo de Reserva Obligatorio y del Fondo de",
+        "confidence": "high",
+        "excerpt": "13. Los aspectos contables del Fondo de Reserva Obligatorio y del Fondo de Reembolso o Actualización se regulan en la Norma cuarta. Adicionalmente, en esta Norma se desarrolla el tratamiento contable del Fondo de Reserva Voluntario previsto..."
+      },
+      {
+        "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+        "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+        "documentType": "rri",
+        "articleOrSection": "10. Reserva de Fondos: Se establecerá y mantendrá una reserva de fondos",
         "confidence": "medium",
-        "excerpt": "Artículo 28.- Distribución de beneficios y excedentes. 1. Los beneficios extracooperativos y extraordinarios, una vez deducidas las pérdidas de igual procedencia de ejercicios anteriores, se destinarán a la Reserva obligatoria. 2. Los exced..."
+        "excerpt": "10. Reserva de Fondos: Se establecerá y mantendrá una reserva de fondos equivalente al menos al porcentaje especificado en el presupuesto anual para contingencias y futuros proyectos. Los cambios en esta reserva deberán ser aprobados por la..."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+        "documentTitle": "BOE A 2010 20034 Orden+EHA+3360 2010",
+        "documentType": "ley",
+        "articleOrSection": "1.1.4 Cuentas a emplear. A efectos del registro contable del «Fondo de Reserva",
+        "confidence": "medium",
+        "excerpt": "1.1.4 Cuentas a emplear. A efectos del registro contable del «Fondo de Reserva Obligatorio» calificado como fondos propios podrá emplearse la cuenta 112. «Fondo de Reserva Obligatorio», creada al efecto en el subgrupo 11. «Reservas» conteni..."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+        "documentTitle": "BOE A 2010 20034 Orden+EHA+3360 2010",
+        "documentType": "ley",
+        "articleOrSection": "1.3.4 Cuentas a emplear. A efectos del registro contable del fondo de reserva",
+        "confidence": "medium",
+        "excerpt": "1.3.4 Cuentas a emplear. A efectos del registro contable del fondo de reserva voluntario calificado como fondos propios podrá emplearse la cuenta 113 «Fondo de Reserva Voluntario», creada al efecto en el subgrupo 11 «Reservas» contenido en..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-elciempies",
+        "documentTitle": "Estatutos Elciempies",
+        "documentType": "estatutos",
+        "articleOrSection": "6. La coopera\u000eva podrá solicitar y recibir consideraciones, informes, cali,caciones y",
+        "confidence": "medium",
+        "excerpt": "6. La coopera\u000eva podrá solicitar y recibir consideraciones, informes, cali,caciones y demás menciones que ayuden a cumplir el objeto social de la misma. Estas menciones podrán referirse tanto a la totalidad de la coopera\u000eva como a una o var..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+        "documentTitle": "Estatutos Los Girasoles",
+        "documentType": "estatutos",
+        "articleOrSection": "7. La cooperaƟva podrá solicitar y recibir consideraciones, informes, calificaciones y",
+        "confidence": "medium",
+        "excerpt": "7. La cooperaƟva podrá solicitar y recibir consideraciones, informes, calificaciones y demás menciones que ayuden a cumplir el objeto social de la misma. Estas menciones podrán referirse tanto a la totalidad de la cooperaƟva como a una o va..."
+      },
+      {
+        "documentSlug": "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+        "documentTitle": "BOE A 2007 19884 Consolidado RD+1514 2007",
+        "documentType": "ley",
+        "articleOrSection": "b) Se cargará por la disposición que se haga de esta reserva.",
+        "confidence": "medium",
+        "excerpt": "b) Se cargará por la disposición que se haga de esta reserva. 113. Reservas voluntarias Son las constituidas libremente por la empresa. Su movimiento es análogo al señalado para la cuenta 112, sin perjuicio de lo indicado en los siguientes..."
       }
     ]
   }

@@ -1,36 +1,34 @@
 {
   "slug": "admision_socio",
-  "generatedAt": "2026-05-14T09:24:12.416Z",
+  "generatedAt": "2026-07-07T07:29:53.005Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/admision_socio.md",
     "referencesCount": 18,
     "documents": [
-      "Docs-estatutos-estatutos-axuntase",
-      "Docs-estatutos-estatutos-entrepatios",
-      "Docs-estatutos-estatutos-la-borda",
-      "Docs-estatutos-estatutos-losnidales",
-      "Docs-estatutos-estatutos-pepu",
-      "Docs-estatutos-estatutos-pequenopueblo",
-      "Docs-estatutos-estatutos-senior-cohousing-huelva",
-      "Docs-estatutos-estatutos-tarocohousing",
-      "Docs-leyes-normativa-autonomica",
-      "Docs-leyes-normativa-estatal",
-      "Docs-otros-modelo-estatutos-viviendas",
-      "Docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
-      "Docs-rri-rri-axuntase"
+      "docs-estatutos-estatutos-elciempies",
+      "docs-estatutos-estatutos-entrepatios",
+      "docs-estatutos-estatutos-los-girasoles",
+      "docs-estatutos-estatutos-losnidales",
+      "docs-estatutos-estatutos-pepu",
+      "docs-estatutos-estatutos-pequenopueblo",
+      "docs-estatutos-estatutos-tarocohousing",
+      "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+      "docs-otros-mod-estatutos-coop-viviendas",
+      "docs-otros-modelo-estatutos-viviendas",
+      "docs-rri-rri-axuntase"
     ]
   },
   "summary": {
     "overview": [
       "Los extractos más claros relacionan este tema con admisión de personas socias, derechos y obligaciones, expulsión o sanción.",
-      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Entrepatios, Estatutos Losnidales, Estatutos Pepu, Estatutos Pequenopueblo.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Losnidales, Estatutos Pepu, Estatutos Pequenopueblo, Estatutos Entrepatios.",
       "Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones."
     ],
     "commonPatterns": [
       "Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones.",
       "Los textos suelen combinar derechos de participación e información con obligaciones económicas y de convivencia.",
-      "Cuando aparece expulsión, suele vincularse a incumplimientos graves y a un procedimiento con garantías.",
-      "Algunos textos conectan la salida con transmisión de derechos o sustitución por otra persona."
+      "Cuando aparece expulsión, suele vincularse a incumplimientos graves y a un procedimiento con garantías."
     ],
     "majorDifferences": [
       "Las diferencias prácticas dependen de si el proyecto prioriza reglas estables, procedimientos internos o soluciones caso por caso."
@@ -38,25 +36,22 @@
     "commonRisks": [
       "Si no se aclaran los criterios de entrada, puede aparecer discrecionalidad o conflicto sobre quién puede incorporarse.",
       "Una lista amplia pero poco operativa puede dificultar distinguir obligaciones esenciales de prácticas cotidianas.",
-      "Sin garantías mínimas, el régimen disciplinario puede convertirse en una fuente de impugnación o conflicto interno.",
-      "Si la transmisión no se delimita, puede confundirse un derecho cooperativo con una compraventa privada."
+      "Sin garantías mínimas, el régimen disciplinario puede convertirse en una fuente de impugnación o conflicto interno."
     ],
     "commonTradeoffs": [
-      "Flexibilidad vs seguridad jurídica"
+      "flexibilidad vs seguridad jurídica"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Criterios básicos de admisión y derechos de las personas socias",
-      "Derechos y obligaciones esenciales de las personas socias",
-      "Causas generales de expulsión, garantías y órgano competente",
-      "Límites generales a la transmisión de derechos societarios o de uso"
+      "criterios básicos de admisión y derechos de las personas socias",
+      "derechos y obligaciones esenciales de las personas socias",
+      "causas generales de expulsión, garantías y órgano competente"
     ],
     "usuallyInRRI": [
-      "Pasos internos de solicitud, acompañamiento y documentación de la incorporación",
-      "Pautas cotidianas para hacer efectivos esos derechos y deberes",
-      "Tramitación concreta, plazos de audiencia y mediación previa cuando proceda",
-      "Pasos de comunicación y coordinación con lista de espera o personas candidatas"
+      "pasos internos de solicitud, acompañamiento y documentación de la incorporación",
+      "pautas cotidianas para hacer efectivos esos derechos y deberes",
+      "tramitación concreta, plazos de audiencia y mediación previa cuando proceda"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -70,29 +65,28 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "Separar obligaciones esenciales de compromisos prácticos revisables"
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "Separar obligaciones esenciales de compromisos prácticos revisables"
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "pointsToDecideSoon": [
-      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "Separar obligaciones esenciales de compromisos prácticos revisables",
-      "Decidir qué conflictos deben pasar por mediación antes de convertirse en sanción",
-      "Aclarar si la salida depende de encontrar sustituto o si la cooperativa gestiona directamente la entrada siguiente"
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "separar obligaciones esenciales de compromisos prácticos revisables",
+      "decidir qué conflictos deben pasar por mediación antes de convertirse en sanción"
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Flexibilidad vs seguridad jurídica"
+    "flexibilidad vs seguridad jurídica"
   ],
   "notableProjects": [
     {
@@ -100,16 +94,24 @@
       "notableBecause": "Aparece en relación con admisión de personas socias.",
       "references": [
         "Estatutos Tarocohousing - Artículo 40.- Aportaciones de las nuevas personas socias",
-        "Estatutos Tarocohousing - Artículo 12.- Procedimiento de admisión",
-        "Estatutos Tarocohousing - Artículo 40.- Aportaciones de las nuevas personas socias"
+        "Estatutos Tarocohousing - g) La admisión de nuevas personas socias cumpliendo con el procedimiento previsto en el",
+        "Estatutos Tarocohousing - d) Aprobación de nuevas aportaciones obligatorias, admisión de aportaciones voluntarias,"
       ]
     },
     {
-      "projectName": "Estatutos Losnidales",
-      "notableBecause": "Aparece en relación con admisión de personas socias.",
+      "projectName": "Estatutos Elciempies",
+      "notableBecause": "Aparece en relación con admisión de personas socias, derechos y obligaciones, expulsión o sanción.",
       "references": [
-        "Estatutos Losnidales - Artículo 8.- Procedimiento de admisión.",
-        "Estatutos Losnidales - Artículo 7.- Requisitos para ser socia y socio."
+        "Estatutos Elciempies - CAPÍTULO IV",
+        "Estatutos Elciempies - a) Ser admi\u000edo/a como persona socia, para lo que deberá solicitar su admisión por"
+      ]
+    },
+    {
+      "projectName": "Estatutos Los Girasoles",
+      "notableBecause": "Aparece en relación con admisión de personas socias, derechos y obligaciones, expulsión o sanción.",
+      "references": [
+        "Estatutos Los Girasoles - CAPÍTULO IV",
+        "Estatutos Los Girasoles - a) Ser admiƟdo/a como persona socia, para lo que deberá solicitar su admisión por"
       ]
     },
     {
@@ -129,17 +131,10 @@
       ]
     },
     {
-      "projectName": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+      "projectName": "Estatutos Entrepatios",
       "notableBecause": "Aparece en relación con admisión de personas socias, derechos y obligaciones.",
       "references": [
-        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - Artículo 3: Requisitos de Admisión"
-      ]
-    },
-    {
-      "projectName": "Estatutos Axuntase",
-      "notableBecause": "Aparece en relación con admisión de personas socias, transmisión de derechos.",
-      "references": [
-        "Estatutos Axuntase - Artículo 7.- Adquisición de la condición de socio/a. Procedimiento de admisión"
+        "Estatutos Entrepatios - Artículo 8. Procedimiento de admisión."
       ]
     }
   ],

@@ -1,74 +1,48 @@
 {
-  "generatedAt": "2026-05-13T15:01:34.375Z",
-  "durationMs": 32751,
+  "generatedAt": "2026-07-07T07:29:35.322Z",
+  "durationMs": 17369,
   "stages": [
     {
       "name": "ingest",
       "command": "npm run ingest",
       "success": true,
-      "durationMs": 838,
+      "durationMs": 3334,
       "warnings": []
     },
     {
       "name": "extract",
       "command": "npm run extract",
       "success": true,
-      "durationMs": 20084,
+      "durationMs": 8251,
       "warnings": []
     },
     {
       "name": "split",
       "command": "npm run split",
       "success": true,
-      "durationMs": 1327,
+      "durationMs": 787,
       "warnings": [
-        "docs-estatutos-estatutos-elciempies: Long section detected (42354 characters)",
-        "docs-estatutos-estatutos-los-girasoles: Long section detected (42014 characters)",
-        "docs-guias-guia-introduccion-al-cohousing-senior-2019-4: Few sections detected (2)",
-        "docs-guias-guia-introduccion-al-cohousing-senior-2019-4: Long section detected (91049 characters)",
-        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024: Few sections detected (1)",
-        "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024: Long section detected (185693 characters)",
-        "docs-guias-las-guias-de-sostre-civic: Long section detected (121283 characters)",
-        "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-10022005-1-resolucion-31-enero-2005: Few sections detected (1)",
-        "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-10102022-1-decreto-41-2022: Few sections detected (2)",
-        "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007: Long section detected (416303 characters)",
-        "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010: Long section detected (135599 characters)",
-        "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2011-18204-ley-6-2011: Few sections detected (2)",
-        "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa: Long section detected (30547 characters)",
-        "docs-rri-informe-cooperativas-cesion-de-uso: Long section detected (115792 characters)"
+        "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-10022005-1-resolucion-31-enero-2005: Few sections detected (2)"
       ]
     },
     {
       "name": "build:index",
       "command": "npm run build:index",
       "success": true,
-      "durationMs": 9311,
+      "durationMs": 4749,
       "warnings": []
     },
     {
       "name": "validate:content",
       "command": "npm run validate:content",
       "success": true,
-      "durationMs": 1186,
+      "durationMs": 247,
       "warnings": []
     }
   ],
   "success": true,
   "warnings": [
-    "docs-estatutos-estatutos-elciempies: Long section detected (42354 characters)",
-    "docs-estatutos-estatutos-los-girasoles: Long section detected (42014 characters)",
-    "docs-guias-guia-introduccion-al-cohousing-senior-2019-4: Few sections detected (2)",
-    "docs-guias-guia-introduccion-al-cohousing-senior-2019-4: Long section detected (91049 characters)",
-    "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024: Few sections detected (1)",
-    "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024: Long section detected (185693 characters)",
-    "docs-guias-las-guias-de-sostre-civic: Long section detected (121283 characters)",
-    "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-10022005-1-resolucion-31-enero-2005: Few sections detected (1)",
-    "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-10102022-1-decreto-41-2022: Few sections detected (2)",
-    "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007: Long section detected (416303 characters)",
-    "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010: Long section detected (135599 characters)",
-    "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2011-18204-ley-6-2011: Few sections detected (2)",
-    "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa: Long section detected (30547 characters)",
-    "docs-rri-informe-cooperativas-cesion-de-uso: Long section detected (115792 characters)"
+    "docs-leyes-otras-leyes-decretos-modificaciones-bocyl-d-10022005-1-resolucion-31-enero-2005: Few sections detected (2)"
   ],
   "summary": {
     "documents": {
@@ -78,14 +52,14 @@
       "needsReview": 36
     },
     "sections": {
-      "total": 2404,
-      "averageLength": 2074
+      "total": 12646,
+      "averageLength": 387
     },
     "references": {
-      "total": 280,
-      "highConfidence": 154,
-      "mediumConfidence": 73,
-      "lowConfidence": 53
+      "total": 314,
+      "highConfidence": 174,
+      "mediumConfidence": 84,
+      "lowConfidence": 56
     }
   }
 }

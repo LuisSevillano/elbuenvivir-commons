@@ -1,68 +1,192 @@
 {
   "slug": "uso_espacios_comunes",
   "title": "Uso de espacios comunes",
-  "shortDescription": "Criterios para ordenar el uso compartido de espacios, estancias, reservas y responsabilidades de cuidado.",
+  "shortDescription": "Cómo regular el derecho de uso de la casa y de los espacios comunes en una cooperativa de usuarios: uso rotativo, no propiedad; el derecho se extingue al causar baja. Prioridad de reserva del Socio A y cuota de uso ya aprobada.",
   "category": "uso_espacios",
   "minimumContents": [
-    "Definir qué espacios son comunes y qué usos principales tendrán.",
-    "Regular reservas, pernoctas, invitados y límites de ocupación.",
-    "Establecer criterios de prioridad y resolución de solapamientos.",
-    "Prever mantenimiento, limpieza y responsabilidad por daños.",
-    "Permitir adaptación futura si cambia el inmueble o los usos."
+    "Reconocer que el socio tiene un derecho de USO (no de propiedad) sobre la casa y los espacios comunes, y que la propiedad la retiene la cooperativa.",
+    "Definir qué espacios son comunes, qué habitaciones se comparten o rotan y qué servicios comunes hay (limpieza, mantenimiento, huerto, etc.).",
+    "Regular el calendario rotativo de uso, las reservas y los criterios de prioridad (Socio A antes que Socio B y que invitados).",
+    "Enlazar el uso con la cuota de uso diaria ya aprobada y con las normas para invitados y pernoctas.",
+    "Prever mantenimiento, limpieza, cuidado y responsabilidad por daños.",
+    "Aclarar que el derecho de uso se extingue al causar baja y revierte a la cooperativa.",
+    "Permitir adaptar las normas cuando se conozca el inmueble y su capacidad real."
   ],
   "legalBasis": [],
   "projectReferences": [],
   "decisionsForBuenVivir": [
-    "Decidir si habrá o no espacios privados asignados individualmente.",
-    "Definir cómo se reservarán estancias si no es primera vivienda.",
-    "Acordar límites para invitados, familiares y uso por terceras personas.",
-    "Evitar meter en Estatutos reglas operativas que cambiarán con la práctica."
+    "¿Habrá habitaciones asignadas por unidad de convivencia o serán rotativas y compartidas, como apunta la visión del proyecto?",
+    "¿Cómo será el calendario rotativo de reservas y con cuánta antelación reserva primero el Socio A frente al Socio B y a los invitados?",
+    "¿Qué límites de estancia, aforo y pernoctas se fijan para repartir un recurso escaso (5-8 unidades de convivencia rotando)?",
+    "¿Qué parte va a Estatutos (reconocimiento del derecho de uso y su extinción) y qué parte al RRI (calendario, reservas, limpieza)?",
+    "¿Cómo se articula la cuota de uso ya aprobada con el calendario: la reserva se confirma al abonar la cuota, se penaliza la no anulación, etc.?"
   ],
   "risks": [
-    "La ausencia de reglas mínimas puede generar conflictos de uso aunque exista confianza previa.",
-    "Sobrerregular antes de conocer el inmueble puede crear normas inútiles.",
-    "No distinguir uso ordinario, invitados y actividades abiertas puede generar inseguridad."
+    "Confundir uso con propiedad: en una cooperativa de usuarios el socio no es dueño de ninguna habitación; conviene decirlo con claridad para evitar expectativas y conflictos futuros.",
+    "La ausencia de un calendario y de reglas de prioridad claras puede generar conflictos de uso aunque exista confianza previa, sobre todo en fechas clave (verano, festivos).",
+    "Sobrerregular antes de conocer el inmueble y su aforo real puede crear normas inútiles o rígidas.",
+    "El estatus \"sin voto\" del Socio B es frágil (la ley reserva ese estatus a quien NO usa la casa): dar a la vez uso habitual y prioridad menor en el calendario debe revisarse jurídicamente.",
+    "No distinguir uso ordinario de socios, de acompañantes y de invitados puede generar inseguridad y agravios comparativos."
   ],
   "governancePlacement": {
-    "recommendedPrimaryLocation": "rri",
+    "recommendedPrimaryLocation": "mixed",
     "rationale": [
-      "El uso concreto de espacios comunes es operativo y necesitará ajustes frecuentes.",
-      "Los Estatutos pueden limitarse a reconocer el derecho de uso conforme a normas internas."
+      "La ley (art. 118.3 de la Ley 4/2002 CyL) obliga a que, cuando la cooperativa retiene la propiedad, sean los Estatutos los que fijen las normas de uso y disfrute: el reconocimiento del derecho de uso y su extinción son materia estatutaria.",
+      "El calendario rotativo, las reservas, los turnos, la limpieza y el uso concreto de cada espacio son operativos y cambiarán con la práctica: encajan mejor en el RRI, que es donde el grupo ya prevé regularlos."
     ],
     "shouldBeInStatutes": [
-      "Referencia general al derecho de uso conforme a acuerdos internos.",
-      "Límites esenciales vinculados a la condición de persona socia."
+      "Reconocimiento del derecho de uso (no de propiedad) sobre la casa y los espacios comunes conforme a las normas internas.",
+      "Retención de la propiedad por la cooperativa y remisión al RRI para el detalle del uso.",
+      "Extinción del derecho de uso al causar baja y reversión a la cooperativa.",
+      "Principio de que la prioridad de reserva se vincula a la clase de socio (tipo A), remitiendo sus criterios concretos al Reglamento de Régimen Interno."
     ],
     "shouldBeInRRI": [
-      "Sistema de reservas.",
-      "Normas de invitados y pernoctas.",
-      "Limpieza, mantenimiento y responsabilidades ordinarias."
+      "Calendario rotativo de uso y sistema de reservas.",
+      "Criterios de prioridad y resolución de solapamientos (Socio A, Socio B, invitados).",
+      "Cuota de uso diaria y su relación con la reserva.",
+      "Normas de invitados, pernoctas, aforo y límites de estancia.",
+      "Limpieza, mantenimiento, cuidado de los espacios y responsabilidad por daños."
     ],
     "canBeDeferredInitially": [
-      "Detalle exacto de reservas hasta conocer el inmueble y su capacidad real."
+      "Detalle fino del calendario y del aforo hasta conocer el inmueble y su capacidad real.",
+      "Protocolo de reservas (herramienta, plazos exactos, penalizaciones)."
     ],
     "risksIfPlacedInStatutes": [
-      "Rigidez excesiva para una práctica que probablemente cambiará con el uso."
+      "Fijar en Estatutos el calendario, los turnos o los importes de la cuota de uso los vuelve rígidos para una práctica que probablemente cambiará."
     ],
     "risksIfPlacedInRRI": [
-      "Si no hay ninguna base estatutaria, puede quedar poco claro el alcance del derecho de uso."
+      "Si no hay ninguna base estatutaria del derecho de uso, puede quedar poco claro su alcance y su extinción con la baja, que la ley remite a los Estatutos."
     ]
   },
   "relatedTopics": [
     {
       "topicSlug": "reservas_estancias_pernoctas",
       "relationship": "develops",
-      "explanation": "Las reservas concretan el uso compartido cuando no hay vivienda permanente."
+      "explanation": "El calendario y las reservas concretan el uso compartido cuando no hay vivienda permanente sino uso rotativo."
     },
     {
       "topicSlug": "invitados",
       "relationship": "complements",
-      "explanation": "El uso común requiere reglas específicas para personas invitadas."
+      "explanation": "El uso común requiere reglas específicas y cuota de uso diferenciada para personas invitadas."
+    },
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "depends_on",
+      "explanation": "La prioridad de reserva y la cuota de uso dependen de si se es Socio A, Socio B o invitado."
+    },
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "depends_on",
+      "explanation": "La baja extingue el derecho de uso de la casa y de los espacios comunes, que revierten a la cooperativa."
     }
   ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "El Buen Vivir será una cooperativa de usuarios en la que la propiedad de la casa la retiene la cooperativa y cada socio tiene un derecho de uso, no de propiedad. En Castilla y León esto se rige por la Ley 4/2002. Su artículo 118.3 es la pieza clave: cuando la cooperativa conserva la propiedad, son los Estatutos los que deben establecer las normas a las que se ajusta el uso y disfrute por los socios y los demás derechos y obligaciones de ambas partes.",
+        "La ley fija el marco (reconocer el derecho de uso y que su regulación tenga rango estatutario) pero deja un margen amplio para el detalle: turnos, calendario rotativo, prioridades, servicios comunes y su reparto pueden desarrollarse en el Reglamento de Régimen Interno. Es, por tanto, una materia mixta pero sobre todo de RRI."
+      ],
+      "requirements": [
+        { "aspect": "Objeto: espacios y servicios comunes", "law": "Ley 4/2002 CyL, art. 117.1", "requirement": "El objeto puede incluir procurar edificaciones e instalaciones complementarias para el uso, la conservación y administración de viviendas, elementos, zonas o edificaciones comunes y servicios complementarios.", "margin": "Definís qué espacios y servicios comunes tendrá la casa." },
+        { "aspect": "Retención de la propiedad y normas de uso", "law": "Ley 4/2002 CyL, art. 118.3", "requirement": "Si la cooperativa retiene la propiedad, los Estatutos establecerán las normas de uso y disfrute por los socios y sus derechos y obligaciones.", "margin": "El reconocimiento del uso va en Estatutos; el detalle operativo puede remitirse al RRI." },
+        { "aspect": "Título del uso", "law": "Ley 4/2002 CyL, art. 118.3", "requirement": "El uso y disfrute puede cederse a los socios mediante cualquier título admitido en derecho.", "margin": "Elegís el instrumento de cesión (contrato de adjudicación de uso, acuerdo interno, etc.)." },
+        { "aspect": "Cesión o permuta del uso", "law": "Ley 4/2002 CyL, art. 118.3", "requirement": "Los Estatutos pueden prever y regular la cesión o permuta del derecho de uso con socios de otras cooperativas de la misma modalidad.", "margin": "Opcional; podéis preverla o no." },
+        { "aspect": "Rango de la norma de uso", "law": "Ley 4/2002 CyL, art. 118.3", "requirement": "La regulación básica del uso tiene rango estatutario.", "margin": "El calendario, las reservas y la limpieza pueden ir al RRI, revisables por Asamblea." },
+        { "aspect": "Auditoría en promoción", "law": "Ley 4/2002 CyL, art. 120", "requirement": "Mientras haya viviendas en promoción, cuentas anuales sometidas a auditoría externa.", "margin": "Sin margen: obligación legal si hay promoción." }
+      ],
+      "citations": [
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 118.3 (uso y disfrute cuando la cooperativa retiene la propiedad)",
+          "excerpt": "La propiedad o el uso y disfrute de las viviendas y locales podrán ser adjudicados o cedidos a los socios mediante cualquier título admitido en derecho. Cuando la cooperativa retenga la propiedad de las viviendas o locales, los Estatutos establecerán las normas a que ha de ajustarse tanto su uso y disfrute por los socios como los demás derechos y obligaciones de estos y de la cooperativa, pudiendo prever y regular la posibilidad de cesión o permuta del derecho de uso y disfrute de la vivienda o local con socios de otras cooperativas de viviendas que tengan establecida la misma modalidad."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 117.1 (objeto: elementos, zonas y edificaciones comunes)",
+          "excerpt": "Las cooperativas de viviendas tienen por objeto procurar a sus socios para sí y para las personas que con ellas convivan, viviendas y/o locales. También podrán tener por objeto, incluso único, procurar edificaciones e instalaciones complementarias para el uso de viviendas y locales de los socios, la conservación y administración de las viviendas y locales, elementos, zonas o edificaciones comunes y la creación y suministros de servicios complementarios, así como la rehabilitación de viviendas, locales y edificaciones e instalaciones complementarias."
+        }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo regulan el uso de la vivienda y de los espacios comunes otras cooperativas de cesión de uso y covivienda. Casi todas son de residencia habitual y permanente; El Buen Vivir es un caso singular de uso vacacional rotativo, así que la referencia útil es el mecanismo (derecho de uso, remisión al RRI, extinción con la baja), no los detalles.",
+      "columns": [
+        { "key": "modelo", "label": "Modelo de uso" },
+        { "key": "comunes", "label": "Espacios / servicios comunes" },
+        { "key": "instrumento", "label": "Quién desarrolla el detalle" },
+        { "key": "extincion", "label": "Fin del derecho de uso" }
+      ],
+      "rows": [
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": { "modelo": "Cesión de uso exclusivo de la vivienda; residencia", "comunes": "Servicios comunes (limpieza, lavandería...) organizados por la cooperativa", "instrumento": "RRI aprobado por la Asamblea", "extincion": "Se extingue con la baja; revierte a la cooperativa" },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Artículo 62 — Normas para el uso y disfrute de las viviendas",
+          "excerpt": "La Cooperativa asignará a cada persona socia, en régimen de cesión de uso, la utilización y disfrute exclusivos de una vivienda de las que conste el edificio o conjunto residencial de que sea propietaria, mediante cualquier título admitido en derecho. A fin de regular el funcionamiento del edificio o conjunto residencial, las normas de uso de las viviendas de que conste, el régimen de prestación de los servicios comunes (limpieza, lavandería, etc.) y demás detalles que se consideren necesarios para la mejor administración del inmueble y sus instalaciones, la Asamblea General, por mayoría de las personas socias presentes o representadas, aprobará un Reglamento de Régimen Interior."
+        },
+        {
+          "project": "Los Nidales (Madrid)",
+          "cells": { "modelo": "Cesión de uso exclusivo; residencia", "comunes": "Servicios comunes (comedor, limpieza, lavandería) organizados por la cooperativa", "instrumento": "RRI aprobado por la Asamblea", "extincion": "Uso con carácter vitalicio; se extingue por baja" },
+          "documentSlug": "docs-estatutos-estatutos-losnidales",
+          "articleOrSection": "Artículo 60 — Normas para el uso y disfrute de las viviendas o apartamentos",
+          "excerpt": "La Cooperativa asignará a cada socio/a, en régimen de cesión de uso, la utilización y disfrute exclusivos de una vivienda o apartamento de los que conste el edificio o conjunto residencial de que sea propietaria. A fin de regular el funcionamiento del edificio o conjunto residencial, las normas de uso de las viviendas o apartamentos de que conste, el régimen de prestación de los servicios comunes (limpieza, comedor, lavandería, etc…) y demás detalles que se consideren necesarios para la mejor administración del inmueble y sus instalaciones, la Asamblea General, por mayoría de los/as socios/as presentes o representados/as, aprobará un Reglamento de Régimen Interior."
+        },
+        {
+          "project": "Los Girasoles (Canarias)",
+          "cells": { "modelo": "Derecho de uso personal e intransmisible sobre la vivienda", "comunes": "El uso de la vivienda comporta el de los espacios y equipamientos comunitarios", "instrumento": "RRI (normas de uso de los comunes)", "extincion": "Se extingue por baja o expulsión; retorna a la cooperativa" },
+          "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+          "articleOrSection": "Artículo 7 — El derecho de uso cooperativo",
+          "excerpt": "El derecho de uso de una vivienda de la cooperativa y de sus instalaciones complementarias comporta también el derecho de uso de los espacios y equipamientos comunitarios, de acuerdo con las normas de uso que se establezcan en el Reglamento de Régimen Interno. En el caso que una persona socia de vivienda cause baja en la cooperativa, por cualquier causa excepto por defunción, el derecho de uso retornará a la cooperativa."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": { "modelo": "Derecho de uso indefinido; residencia habitual y permanente", "comunes": "Espacios comunes que articulan la convivencia", "instrumento": "RRI para excepciones y compartición temporal", "extincion": "Uso indefinido, salvo baja/expulsión" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 7.2 — Obligaciones de las socias destinatarias del derecho de uso",
+          "excerpt": "Destinar la vivienda cooperativa única y exclusivamente a residencia habitual y permanente. En caso de locales cooperativos es necesario prestar su actividad con continuidad y regularidad, salvo en circunstancias excepcionales justificadas. No hacer uso simultáneamente de más de una vivienda cooperativo, exceptuando los casos contemplados en el reglamento de régimen interno."
+        }
+      ],
+      "note": "Patrón común: los Estatutos reconocen un derecho de uso (no de propiedad), remiten al RRI el detalle del funcionamiento y de los servicios comunes, y el derecho se extingue al causar baja. La gran diferencia es que estos proyectos asignan un uso exclusivo y permanente de cada vivienda; El Buen Vivir necesita, además, un calendario rotativo porque el uso es vacacional y compartido: eso no aparece en el corpus y hay que construirlo en el RRI."
+    },
+    "proposal": {
+      "rationale": [
+        "El Buen Vivir es cooperativa de usuarios: la propiedad es de la cooperativa y el socio tiene derecho de uso, no de propiedad; conviene decirlo con claridad en los Estatutos para no crear expectativas de \"habitación propia\".",
+        "La visión del grupo describe la casa como vivienda vacacional compartida, de uso rotativo y con espacios habitacionales no fijos, porque el presupuesto no da para una plaza fija por unidad de convivencia (se estima que rotarían 5-8 unidades): el calendario de reservas es el corazón de este tema.",
+        "En la Reunión 21 (07-07-2026) se aprobó que el Socio B paga mantenimiento, no tiene prioridad en el calendario y se vincula a un Socio A, y se aprobó una cuota de uso diaria inicial revisable: la prioridad del Socio A y la cuota de uso ya son decisiones tomadas que el RRI debe recoger.",
+        "La ley obliga a que la base del uso tenga rango estatutario (art. 118.3), pero permite dejar el calendario, los turnos y la limpieza al RRI, coherente con lo que el grupo ya viene diciendo (\"el grueso de las normas de funcionamiento en un RRI\")."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Derecho de uso de la casa y de los espacios comunes",
+          "text": "La propiedad de la vivienda y de sus espacios comunes corresponde a la cooperativa. Cada persona socia tiene un derecho de uso, no de propiedad, sobre la casa y sus espacios y equipamientos comunes, que ejercerá conforme a estos Estatutos, al Reglamento de Régimen Interno y a los acuerdos de la Asamblea. El derecho de uso es personal e intransmisible y se extingue al causar baja o ser expulsada la persona socia, revirtiendo a la cooperativa. El Reglamento de Régimen Interno desarrollará el calendario rotativo de uso, el sistema de reservas, los criterios de prioridad, el uso de los servicios comunes y el mantenimiento.",
+          "note": "Da rango estatutario a lo que la ley exige (art. 118.3 Ley 4/2002 CyL): reconocimiento del uso, no propiedad, y extinción con la baja. El detalle se remite al RRI."
+        },
+        {
+          "target": "rri",
+          "heading": "Calendario rotativo y reservas",
+          "text": "El uso de la casa se organizará mediante un calendario rotativo y accesible a todas las personas socias. Las reservas se abrirán por periodos y las realizará primero el Socio A, que tiene prioridad; a continuación el Socio B, vinculado a un Socio A; y por último las estancias de invitados. En las fechas de alta demanda (verano, festivos y [otras fechas clave]) se aplicarán reglas específicas para repartir el uso de forma equitativa entre las [5-8] unidades de convivencia que roten, con un límite de [X] días o [X] estancias por periodo. La reserva se confirmará conforme a las normas de la cuota de uso.",
+          "note": "Recoge la prioridad del Socio A y la ausencia de prioridad del Socio B, ambas aprobadas en la Reunión 21. Los corchetes son las decisiones que quedan por votar cuando se conozca la casa."
+        },
+        {
+          "target": "rri",
+          "heading": "Cuota de uso, servicios comunes y cuidado",
+          "text": "Quienes pernocten abonarán la cuota de uso diaria aprobada por la Asamblea, revisable periódicamente: personas adultas que pagan mantenimiento y sus hijas e hijos, 0,5 €/día; personas adultas que no pagan mantenimiento, 7 €/día, y sus hijas e hijos, 2,5 €/día; personas invitadas sin relación directa, 14 €/día las adultas y 5 €/día las menores. El uso de los espacios y servicios comunes se regirá por criterios de corresponsabilidad, cuidado y equidad: cada persona usuaria deja los espacios limpios y ordenados, participa en las tareas de mantenimiento acordadas y responde de los daños que cause por uso negligente.",
+          "note": "Transcribe la cuota de uso aprobada en la Reunión 21 (07-07-2026). Al ser importes, van al RRI para poder revisarse sin tocar los Estatutos."
+        }
+      ],
+      "openDecisions": [
+        "¿Habitaciones asignadas por unidad de convivencia o rotativas y compartidas?",
+        "¿Con cuánta antelación reserva el Socio A antes que el Socio B y que los invitados? ¿Cómo se resuelven los solapamientos en fechas clave?",
+        "¿Qué límites de días, estancias y aforo se fijan por periodo para repartir un recurso escaso?",
+        "¿La reserva se confirma al pagar la cuota de uso? ¿Hay penalización por anular tarde o por no presentarse?",
+        "¿El RRI que desarrolla el uso lo aprueban y modifican solo las personas socias (Socio A)?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas de cesión de uso y las actas del grupo (en especial la Reunión 21). Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
   "suggestedClause": {
-    "text": "El uso de los espacios comunes se regirá por criterios de corresponsabilidad, cuidado, equidad y respeto a los acuerdos adoptados por la cooperativa. El Reglamento de Régimen Interno desarrollará las normas de reserva, pernocta, invitados, mantenimiento y resolución de incidencias.",
-    "disclaimer": "Borrador de trabajo. Revisar jurídicamente.",
+    "text": "La propiedad de la vivienda y de sus espacios comunes corresponde a la cooperativa; cada persona socia tiene un derecho de uso, no de propiedad, que se extingue al causar baja. El uso se regirá por criterios de corresponsabilidad, cuidado y equidad, con prioridad de reserva de la persona socia de tipo A. El Reglamento de Régimen Interno desarrollará el calendario rotativo, las reservas, la cuota de uso, los servicios comunes, el mantenimiento y las normas de invitados.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación.",
     "status": "needs_legal_review"
   },
   "status": "needs_legal_review"

@@ -1,59 +1,55 @@
 {
   "slug": "lista_espera",
-  "generatedAt": "2026-05-14T09:24:12.544Z",
+  "generatedAt": "2026-07-07T07:29:53.098Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/lista_espera.md",
-    "referencesCount": 12,
+    "referencesCount": 18,
     "documents": [
-      "Docs-estatutos-estatutos-elciempies",
-      "Docs-estatutos-estatutos-la-borda",
-      "Docs-estatutos-estatutos-laseronda-org",
-      "Docs-estatutos-estatutos-los-girasoles",
-      "Docs-estatutos-estatutos-losnidales",
-      "Docs-estatutos-estatutos-senior-cohousing-huelva",
-      "Docs-estatutos-estatutos-tarocohousing",
-      "Docs-guias-las-guias-de-sostre-civic",
-      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
-      "Docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
-      "Docs-rri-informe-cooperativas-cesion-de-uso",
-      "Docs-rri-rri-axuntase",
-      "Docs-rri-rri-vallecas2homes"
+      "docs-estatutos-estatutos-elciempies",
+      "docs-estatutos-estatutos-laseronda-org",
+      "docs-estatutos-estatutos-los-girasoles",
+      "docs-estatutos-estatutos-losnidales",
+      "docs-estatutos-estatutos-pepu",
+      "docs-estatutos-estatutos-tarocohousing",
+      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+      "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+      "docs-rri-rri-axuntase",
+      "docs-rri-rri-vallecas2homes"
     ]
   },
   "summary": {
     "overview": [
-      "Los extractos más claros relacionan este tema con admisión de personas socias, derechos y obligaciones, transmisión de derechos.",
-      "Aparecen ejemplos en varios proyectos, entre ellos EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO, Estatutos Losnidales, Rri Vallecas2homes, Estatutos Senior Cohousing Huelva.",
+      "Los extractos más claros relacionan este tema con admisión de personas socias, derechos y obligaciones, baja o salida de una persona socia.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Losnidales, Estatutos Laseronda.Org, Estatutos Pepu, EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO.",
       "Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones."
     ],
     "commonPatterns": [
       "Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones.",
       "Los textos suelen combinar derechos de participación e información con obligaciones económicas y de convivencia.",
-      "Algunos textos conectan la salida con transmisión de derechos o sustitución por otra persona."
+      "Varios proyectos distinguen tipos de baja o pérdida de condición de persona socia."
     ],
     "majorDifferences": [
-      "Las diferencias prácticas dependen de si el proyecto prioriza reglas estables, procedimientos internos o soluciones caso por caso."
+      "La diferencia práctica suele estar entre una salida libre con preaviso y una salida condicionada por incumplimientos, sustitución o efectos económicos."
     ],
     "commonRisks": [
       "Si no se aclaran los criterios de entrada, puede aparecer discrecionalidad o conflicto sobre quién puede incorporarse.",
       "Una lista amplia pero poco operativa puede dificultar distinguir obligaciones esenciales de prácticas cotidianas.",
-      "Si la transmisión no se delimita, puede confundirse un derecho cooperativo con una compraventa privada."
+      "Una salida mal regulada puede tensionar la liquidez, el uso de espacios y la continuidad del grupo."
     ],
     "commonTradeoffs": [
-      "Flexibilidad vs seguridad jurídica"
+      "salida flexible vs estabilidad económica del proyecto"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Criterios básicos de admisión y derechos de las personas socias",
-      "Derechos y obligaciones esenciales de las personas socias",
-      "Límites generales a la transmisión de derechos societarios o de uso"
+      "criterios básicos de admisión y derechos de las personas socias",
+      "derechos y obligaciones esenciales de las personas socias",
+      "causas y clases de baja, pérdida de condición de socia y efectos económicos básicos"
     ],
     "usuallyInRRI": [
-      "Pasos internos de solicitud, acompañamiento y documentación de la incorporación",
-      "Pautas cotidianas para hacer efectivos esos derechos y deberes",
-      "Pasos de comunicación y coordinación con lista de espera o personas candidatas"
+      "pasos internos de solicitud, acompañamiento y documentación de la incorporación",
+      "pautas cotidianas para hacer efectivos esos derechos y deberes",
+      "procedimiento interno de comunicación, acompañamiento de salida y cierre de usos o llaves"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -67,75 +63,78 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "Separar obligaciones esenciales de compromisos prácticos revisables"
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "Separar obligaciones esenciales de compromisos prácticos revisables"
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "pointsToDecideSoon": [
-      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "Separar obligaciones esenciales de compromisos prácticos revisables",
-      "Aclarar si la salida depende de encontrar sustituto o si la cooperativa gestiona directamente la entrada siguiente"
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "separar obligaciones esenciales de compromisos prácticos revisables",
+      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido"
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Flexibilidad vs seguridad jurídica"
+    "salida flexible vs estabilidad económica del proyecto"
   ],
   "notableProjects": [
     {
-      "projectName": "Rri Vallecas2homes",
+      "projectName": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+      "notableBecause": "Aparece en relación con derechos y obligaciones.",
+      "references": [
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - g) Publicidad de la Lista de Espera: La lista de espera estará disponible para la",
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - h) Comunicación con los Socios en Lista de Espera: Los socios en la lista de espera",
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - i) Duración de la Permanencia en la Lista de Espera: Los socios en lista de espera"
+      ]
+    },
+    {
+      "projectName": "Estatutos Losnidales",
       "notableBecause": "Aparece en relación con admisión de personas socias.",
       "references": [
-        "Rri Vallecas2homes - Artículo 25. Procedimiento para cubrir las bajas.",
-        "Rri Vallecas2homes - Artículo 9. Procedimiento de incorporación como socio.",
-        "Rri Vallecas2homes - Articulo 9. Procedimiento de incorporación como socio."
-      ]
-    },
-    {
-      "projectName": "Estatutos Tarocohousing",
-      "notableBecause": "Aparece en relación con transmisión de derechos.",
-      "references": [
-        "Estatutos Tarocohousing - Artículo 9.- Clases de personas socias. Personas Usuarias.",
-        "Estatutos Tarocohousing - Artículo 45.- Transmisión de las aportaciones."
-      ]
-    },
-    {
-      "projectName": "Las GuíAs De Sostre CíVic",
-      "notableBecause": "Aparece en relación con transmisión de derechos.",
-      "references": [
-        "Las GuíAs De Sostre CíVic - Documento completo",
-        "Las GuíAs De Sostre CíVic - Título original: Cures en la convivència de persones grans"
-      ]
-    },
-    {
-      "projectName": "Otras Leyes, Decretos, Modificaciones",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
-      "references": [
-        "BOE A 2010 20034 Orden+EHA+3360 2010 - Artículo 2. Ámbito de aplicación.",
-        "BOE A 2007 19884 Consolidado RD+1514 2007 - Artículo 2. Obligatoriedad del Plan."
-      ]
-    },
-    {
-      "projectName": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
-      "notableBecause": "Aparece en relación con admisión de personas socias, derechos y obligaciones.",
-      "references": [
-        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - Artículo 3: Requisitos de Admisión"
+        "Estatutos Losnidales - c) Estar inscrito en la Lista de Espera, que habrá de constituir la Cooperativa, para lo que se",
+        "Estatutos Losnidales - 8. Para llevar a cabo la admisión de nuevos socios/as o inscripciones en la lista de espera se podrá",
+        "Estatutos Losnidales - e) Resto de interesados/as, por fecha de inscripción en la Lista de Espera"
       ]
     },
     {
       "projectName": "Estatutos Elciempies",
-      "notableBecause": "Aparece en relación con derechos y obligaciones.",
+      "notableBecause": "Aparece en relación con derechos y obligaciones, baja o salida de una persona socia.",
       "references": [
+        "Estatutos Elciempies - a) Permanecer en la lista de espera hasta el momento en que puedan acceder a la",
         "Estatutos Elciempies - CAPITULO II"
+      ]
+    },
+    {
+      "projectName": "Estatutos Laseronda.Org",
+      "notableBecause": "Aparece en relación con admisión de personas socias.",
+      "references": [
+        "Estatutos Laseronda.Org - 1 En los supuestos de incorporación a la Cooperativa de nuevos socios la Asamblea General",
+        "Estatutos Laseronda.Org - 1. En los supuestos de incorporación a la Cooperativa de nuevos socios, la Asamblea General"
+      ]
+    },
+    {
+      "projectName": "Estatutos Los Girasoles",
+      "notableBecause": "Aparece en relación con derechos y obligaciones, baja o salida de una persona socia.",
+      "references": [
+        "Estatutos Los Girasoles - a) Permanecer en la lista de espera hasta el momento en que puedan acceder a la",
+        "Estatutos Los Girasoles - CAPITULO II"
+      ]
+    },
+    {
+      "projectName": "Estatutos Tarocohousing",
+      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "references": [
+        "Estatutos Tarocohousing - Artículo 9.- Clases de personas socias. Personas Usuarias.",
+        "Estatutos Tarocohousing - D) Las personas que formen parte de la lista de espera"
       ]
     }
   ],

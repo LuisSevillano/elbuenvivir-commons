@@ -1,70 +1,202 @@
 {
   "slug": "baja_socio",
   "title": "Baja de una persona socia",
-  "shortDescription": "Criterios mínimos para regular la salida voluntaria u obligatoria de una persona socia y sus efectos económicos y de uso.",
+  "shortDescription": "Cómo regular la salida de una persona socia en una cooperativa de usuarios de Castilla y León: derecho de baja, efectos sobre el uso y devolución de la cuota umbral.",
   "category": "socios",
   "minimumContents": [
-    "Distinguir baja voluntaria, obligatoria y expulsión.",
-    "Definir preaviso razonable y forma de comunicación.",
-    "Regular la calificación de la baja y sus consecuencias.",
-    "Prever plazo y condiciones de reembolso de aportaciones.",
-    "Aclarar efectos sobre el derecho de uso del inmueble común.",
-    "Conectar la baja con lista de espera o incorporación de nuevas personas."
+    "Distinguir baja voluntaria, baja obligatoria y expulsión.",
+    "Fijar el preaviso (máximo 1 año en CyL) y si hay permanencia mínima (máximo 5 años).",
+    "Regular la calificación de la baja (justificada / injustificada) y sus efectos económicos.",
+    "Aclarar qué ocurre con la cuota umbral y el calendario de reembolso.",
+    "Aclarar la extinción del derecho de uso al causar baja.",
+    "Conectar la baja con la lista de espera y la cobertura de la plaza."
   ],
   "legalBasis": [],
   "projectReferences": [],
   "decisionsForBuenVivir": [
-    "Decidir si la salida debe tener un preaviso mínimo y qué excepciones admitir.",
-    "Determinar cómo se tratarán aportaciones iniciales desiguales al salir una persona.",
-    "Definir si la sustitución por una nueva persona condiciona el reembolso.",
-    "Separar lo esencial para Estatutos de los detalles operativos para el RRI."
+    "¿Se devuelve íntegra la cuota umbral (10.000 €) a quien causa baja, o con algún tope o deducción?",
+    "¿El reembolso se difiere hasta que otra persona socia asuma la plaza, para proteger la caja del proyecto?",
+    "¿Se exige preaviso de 3 o 6 meses? ¿Con qué excepciones (enfermedad, causa grave)?",
+    "¿Se establece permanencia mínima o se prioriza la salida ágil, coherente con la aportación mínima no obligatoria ya aprobada?",
+    "¿Qué diferencia práctica hay entre la baja de un socio A (con cuota umbral) y un socio B (sin ella)?"
   ],
   "risks": [
-    "Regular demasiado en Estatutos puede dificultar ajustes futuros.",
-    "No prever salidas puede generar tensiones económicas en un grupo pequeño.",
-    "Las aportaciones desiguales exigen una regla clara de liquidación y calendario."
+    "Un reembolso inmediato de las cuotas umbral puede descapitalizar la compra de la casa; un reembolso indefinido es injusto para quien sale.",
+    "No distinguir socios A y B al regular la baja puede generar reclamaciones económicas confusas.",
+    "Copiar deducciones del 30 % de otros proyectos sería incoherente con vuestro valor de facilitar la salida.",
+    "Mezclar el conflicto económico con la convivencia puede enquistar una salida que debería ser ordenada."
   ],
   "governancePlacement": {
     "recommendedPrimaryLocation": "mixed",
     "rationale": [
-      "Los derechos básicos de baja y reembolso deberían tener cobertura estatutaria.",
-      "Los procedimientos prácticos, plazos internos de aviso y acompañamiento pueden desarrollarse en el RRI."
+      "El derecho de baja, la calificación y los efectos económicos afectan a la condición de persona socia: exigen rango estatutario.",
+      "El procedimiento de comunicación, el acompañamiento y la coordinación con la lista de espera son operativos y revisables: encajan en el RRI."
     ],
     "shouldBeInStatutes": [
-      "Derecho de baja voluntaria.",
-      "Criterios generales de reembolso.",
-      "Consecuencias básicas de perder la condición de persona socia."
+      "Derecho de baja voluntaria y clases de baja.",
+      "Preaviso, permanencia mínima y calificación de la baja.",
+      "Criterios de reembolso de la cuota umbral, deducciones y plazos.",
+      "Extinción del derecho de uso al causar baja."
     ],
     "shouldBeInRRI": [
-      "Procedimiento interno de comunicación.",
-      "Calendario operativo de salida.",
-      "Acompañamiento para buscar persona sustituta si procede."
+      "Procedimiento de comunicación de la baja.",
+      "Acompañamiento de la salida por la Comisión de Convivencia.",
+      "Coordinación con la lista de espera para cubrir la plaza.",
+      "Calendario de transición, cierre de accesos y entrega de llaves."
     ],
     "canBeDeferredInitially": [
-      "Detalle fino de formularios, comunicaciones y protocolo de transición."
+      "Formularios y protocolo fino de transición."
     ],
     "risksIfPlacedInStatutes": [
-      "Convertir detalles prácticos en reglas rígidas difíciles de adaptar."
+      "Fijar en estatutos plazos operativos concretos los vuelve rígidos y difíciles de ajustar."
     ],
     "risksIfPlacedInRRI": [
-      "Dejar sin rango suficiente cuestiones económicas esenciales."
+      "Dejar sin rango estatutario la devolución de la cuota umbral debilitaría un derecho económico esencial."
     ]
   },
   "relatedTopics": [
     {
       "topicSlug": "reembolso_aportaciones",
       "relationship": "depends_on",
-      "explanation": "La baja requiere una regla económica de devolución o liquidación."
+      "explanation": "La baja de un socio A activa la devolución de su cuota umbral."
+    },
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "depends_on",
+      "explanation": "Los efectos de la baja difieren según sea socio A (con cuota umbral) o B."
     },
     {
       "topicSlug": "lista_espera",
       "relationship": "complements",
-      "explanation": "La entrada de nuevas personas puede facilitar la salida ordenada."
+      "explanation": "La entrada de una nueva persona socia puede desbloquear el reembolso diferido."
     }
   ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "En una cooperativa de usuarios de Castilla y León rige la Ley 4/2002. El principio de \"libre adhesión y baja voluntaria\" es estructural: no podéis vaciar el derecho de baja, aunque sí podéis fijar preaviso y permanencia dentro de los topes legales.",
+        "La Ley obliga a que los Estatutos regulen las clases de socios, el procedimiento de admisión y la baja voluntaria y obligatoria (contenido estatutario obligatorio). Lo que sigue es el mínimo imperativo y vuestro margen de decisión."
+      ],
+      "requirements": [
+        { "aspect": "Preaviso de baja voluntaria", "law": "Ley 4/2002 CyL, art. 20.1", "requirement": "El plazo lo fijan los Estatutos; no puede superar 1 año.", "margin": "Elegís el plazo concreto (p. ej. 3 meses)." },
+        { "aspect": "Calificación de la baja", "law": "Ley 4/2002 CyL, art. 20.1", "requirement": "El Consejo Rector la califica en máx. 3 meses; el silencio la hace justificada.", "margin": "Sin margen sobre el plazo." },
+        { "aspect": "Permanencia mínima", "law": "Ley 4/2002 CyL, art. 20.2", "requirement": "Si se exige, no puede superar 5 años desde la admisión.", "margin": "Podéis exigirla, reducirla o no ponerla." },
+        { "aspect": "Baja justificada por disconformidad", "law": "Ley 4/2002 CyL, art. 20.3", "requirement": "Derecho a baja justificada ante acuerdos gravemente onerosos; 1 mes para ejercerlo.", "margin": "Sin margen: es un derecho del socio." },
+        { "aspect": "Baja obligatoria", "law": "Ley 4/2002 CyL, art. 21", "requirement": "Por pérdida de requisitos; con audiencia previa; la acuerda el Consejo Rector.", "margin": "Definís qué requisitos hacen perder la condición." },
+        { "aspect": "Recurso", "law": "Ley 4/2002 CyL, art. 20.4", "requirement": "1 mes ante el Comité de Recursos o la Asamblea General.", "margin": "Sin margen sobre el plazo." }
+      ],
+      "citations": [
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 20.1 (baja voluntaria)",
+          "excerpt": "El socio podrá darse de baja voluntariamente en la cooperativa en cualquier momento, mediante preaviso por escrito al Consejo Rector. El plazo de preaviso, que fijarán los Estatutos, no podrá ser superior a un año... La calificación y efectos de la baja será competencia del Consejo Rector que deberá formalizarla en un plazo máximo de tres meses... Transcurrido dicho plazo sin resolución expresa se entenderá calificada la baja como justificada."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 20.2 (permanencia mínima)",
+          "excerpt": "Los Estatutos podrán exigir el compromiso del socio de no darse de baja voluntariamente... hasta que haya transcurrido, desde su admisión, el tiempo que fijen los Estatutos, que no podrá ser superior a cinco años."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 21 (baja obligatoria)",
+          "excerpt": "Causarán baja obligatoria los socios que pierdan los requisitos exigidos para serlo según esta Ley o los Estatutos... La baja obligatoria será acordada, previa audiencia del interesado, por el Consejo Rector."
+        }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo lo resuelven otras cooperativas del corpus. La mayoría son de viviendas o cesión de uso: útil como referencia, teniendo en cuenta que El Buen Vivir es de usuarios.",
+      "columns": [
+        { "key": "preaviso", "label": "Preaviso" },
+        { "key": "permanencia", "label": "Permanencia mín." },
+        { "key": "deduccion", "label": "Deducción si injustificada" },
+        { "key": "reembolso", "label": "Plazo reembolso" }
+      ],
+      "rows": [
+        {
+          "project": "Axuntase (Asturias)",
+          "cells": { "preaviso": "6 meses", "permanencia": "3 años", "deduccion": "hasta 15 %", "reembolso": "máx. 5 años" },
+          "documentSlug": "docs-estatutos-estatutos-axuntase",
+          "articleOrSection": "Baja: deducciones y reembolso",
+          "excerpt": "...el plazo de preaviso [...] de seis meses con un máximo de deducción total del 15%. El Consejo Rector tendrá un plazo de tres meses desde la aprobación de las cuentas del ejercicio en el que haya causado baja el/la socio/a para proceder a efectuar el cálculo del importe que corresponda retornar de sus aportaciones... El plazo de reembolso no podrá exceder de cinco años a partir de la fecha de la baja, expulsión, o resolución negativa del recurso presentado por el interesado/a."
+        },
+        {
+          "project": "Tarocohousing",
+          "cells": { "preaviso": "6 meses", "permanencia": "5 años", "deduccion": "4 %/año pendiente", "reembolso": "máx. 5 años" },
+          "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+          "articleOrSection": "Requisitos de la persona socia (permanencia mínima)",
+          "excerpt": "Comprometerse a no darse de baja voluntariamente, sin causa justificada, hasta transcurridos desde su admisión al menos cinco años."
+        },
+        {
+          "project": "El Ciempiés / Los Girasoles",
+          "cells": { "preaviso": "—", "permanencia": "5 años", "deduccion": "4 %/año pendiente", "reembolso": "máx. 5 años" },
+          "documentSlug": "docs-estatutos-estatutos-elciempies",
+          "articleOrSection": "Baja voluntaria (calificación)",
+          "excerpt": "Si la baja entrañase el incumplimiento por el socio/a del compromiso de no darse de baja antes de transcurridos 5 años desde la fecha de ingreso, la baja se entenderá como no justificada y se le practicarán las deducciones establecidas... El Consejo Rector deberá resolver motivadamente sobre la solicitud de baja voluntaria en un plazo de tres meses desde la recepción de la solicitud; si no se resolviera en dicho plazo se considerará que la baja ha sido justificada."
+        },
+        {
+          "project": "Pepu / Pequeño Pueblo (CyL)",
+          "cells": { "preaviso": "≥ 6 meses", "permanencia": "—", "deduccion": "30 %", "reembolso": "—" },
+          "documentSlug": "docs-estatutos-estatutos-pepu",
+          "articleOrSection": "Baja obligatoria",
+          "excerpt": "1.- La persona socia causará baja obligatoria en la Cooperativa cuando pierda los requisitos exigidos por la Ley o por estos Estatutos para formar parte de la misma. Dicha baja se considerará justificada, salvo que la pérdida de los citados requisitos sea consecuencia del deliberado propósito de la persona socia de incumplir o eludir sus obligaciones con la Cooperativa... 2.- La baja obligatoria será acordada, previa audiencia de la persona interesada, por el Consejo Rector."
+        },
+        {
+          "project": "La Seronda",
+          "cells": { "preaviso": "6 meses", "permanencia": "—", "deduccion": "30 %", "reembolso": "—" },
+          "documentSlug": "docs-estatutos-estatutos-laseronda-org",
+          "articleOrSection": "Baja voluntaria",
+          "excerpt": "El socio puede darse de baja voluntariamente en la Cooperativa, respetando el compromiso de permanencia establecido para ello; deberá el interesado en causar baja remitir con seis meses de antelación preaviso por escrito al órgano de administración. El incumplimiento del plazo de preaviso dará lugar a la calificación de la baja como no justificada y a la correspondiente indemnización de daños y perjuicios. Se considerará justificada la baja cuando el socio manifieste su disconformidad con la adopción de acuerdos por la asamblea general que impliquen obligaciones o cargas gravemente onerosas, no previstas en los estatutos."
+        },
+        {
+          "project": "Entrepatios",
+          "cells": { "preaviso": "—", "permanencia": "—", "deduccion": "hasta 30 %", "reembolso": "extingue el uso → socios expectantes" },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Baja voluntaria y efectos sobre el uso",
+          "excerpt": "En el caso de que una persona socia quiera darse de baja voluntaria en la Cooperativa... la Cooperativa considerará dicha baja como voluntaria, que será justificada si reúne los requisitos estatutarios previstos. Producida la baja se extinguirá el derecho de la persona socia al uso de la vivienda, recuperando la Cooperativa la plena posesión de la misma, para ponerla a disposición de las personas socias expectantes, de las nuevas personas socias expectantes que sean admitidas o de terceros."
+        }
+      ],
+      "note": "Dos modelos de penalización: fija y alta (30 %) frente a proporcional al tiempo que falta (4 %/año, más suave). Entrepatios vincula la baja con la lista de espera: la vivienda revierte a la cooperativa."
+    },
+    "proposal": {
+      "rationale": [
+        "El Buen Vivir es cooperativa de usuarios: la propiedad es de la cooperativa y el socio tiene derecho de uso, no de propiedad; la baja extingue ese uso.",
+        "El grupo eligió la cooperativa, entre otras razones, por la \"facilidad de salida de miembros\": conviene un preaviso corto y una deducción proporcional, no punitiva.",
+        "Ya está aprobado que la aportación mínima inicial no es obligatoria; sería coherente no exigir permanencia mínima obligatoria.",
+        "La estructura A/B ya decidida cambia el problema: lo que se reintegra al salir es la cuota umbral (10.000 €) del socio A; el socio B no aporta umbral, así que su baja no genera devolución de capital."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Baja voluntaria",
+          "text": "La persona socia podrá causar baja voluntaria en cualquier momento, mediante comunicación escrita al Consejo Rector con un preaviso de tres (3) meses. El Consejo Rector calificará la baja en el plazo máximo de tres meses; transcurrido dicho plazo sin resolución, se entenderá justificada. No se exige período mínimo de permanencia. La baja extingue el derecho de uso de la vivienda y de los espacios comunes, que revierten a la cooperativa. El procedimiento de comunicación y el acompañamiento de la salida se desarrollarán en los términos que fije el Reglamento de Régimen Interno.",
+          "note": "Contenido reservado a Estatutos: derecho de baja, preaviso (art. 20.1) y decisión sobre permanencia mínima (art. 20.2). Preaviso corto dentro del máximo legal de 1 año. Alternativa: permanencia de 2 años si el grupo prioriza estabilidad financiera para la compra."
+        },
+        {
+          "target": "estatutos",
+          "heading": "Efectos económicos de la baja (cuota umbral)",
+          "text": "A la persona socia de tipo A que cause baja se le reintegrará el importe de su cuota umbral aportado, al no tratarse de una aportación a fondo perdido. Si la baja es justificada no se practicará deducción; si es injustificada se aplicará una deducción proporcional del cuatro por ciento (4 %) por cada año que reste de un período de referencia de [X] años, con un máximo del [15] %. El reembolso se abonará en un plazo máximo de [tres] años desde la baja, sin exceder el máximo legal de cinco años, y se acortará si otra persona socia asume la plaza y su cuota umbral. La persona socia de tipo B, que no aporta cuota umbral, no genera derecho de reembolso de capital; cesan sus cuotas desde la fecha de baja. El calendario concreto del reembolso y su coordinación con la lista de espera se regularán en el Reglamento de Régimen Interno.",
+          "note": "Contenido reservado a Estatutos: el porcentaje de deducción y el plazo máximo de reembolso (art. 66.4/66.5 Ley 4/2002) no pueden delegarse al RRI. Los corchetes son decisiones que quedan por votar. Deducción proporcional (4 %/año) elegida frente al 30 % fijo por coherencia con el valor de salida ágil."
+        },
+        {
+          "target": "rri",
+          "heading": "Procedimiento de salida",
+          "text": "La comunicación de baja se dirigirá al Consejo Rector por escrito o formulario interno. La Comisión de Convivencia acompañará la salida. La Comisión de Economía coordinará con la lista de espera la cobertura de la plaza y el calendario del reembolso diferido. Antes de la fecha efectiva de baja se realizará el cierre de accesos, la entrega de llaves y la liquidación de cuotas pendientes.",
+          "note": "Detalle operativo y revisable por la Asamblea sin necesidad de modificar los Estatutos."
+        }
+      ],
+      "openDecisions": [
+        "¿Se reintegra íntegra la cuota umbral (10.000 €) o con algún tope?",
+        "¿Plazo del reembolso diferido (p. ej. 3 años) y se condiciona a que entre una nueva persona socia?",
+        "¿Preaviso de 3 o 6 meses? ¿Qué excepciones se admiten?",
+        "¿Se exige permanencia mínima o no?",
+        "¿Se exige algún requisito adicional para salir (dejar cuentas al día, etc.)?"
+      ],
+      "disclaimer": "Borrador de trabajo generado a partir de la ley, las guías, los estatutos de otras cooperativas y las decisiones del grupo (actas). Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
   "suggestedClause": {
-    "text": "La persona socia podrá causar baja voluntaria mediante comunicación escrita a la cooperativa con el preaviso que establezcan los Estatutos o, en su caso, el Reglamento de Régimen Interno. La liquidación de sus aportaciones se realizará conforme a la legislación aplicable y a las reglas económicas aprobadas por la cooperativa.",
-    "disclaimer": "Borrador de trabajo. Revisar jurídicamente.",
+    "text": "La persona socia podrá causar baja voluntaria en cualquier momento, mediante comunicación escrita al Consejo Rector con un preaviso de tres meses. La baja extingue el derecho de uso, que revierte a la cooperativa. Al socio de tipo A se le reintegrará su cuota umbral conforme a los criterios de deducción y plazo que fijen estos Estatutos y desarrolle el Reglamento de Régimen Interno.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación.",
     "status": "needs_legal_review"
   },
   "status": "needs_legal_review"

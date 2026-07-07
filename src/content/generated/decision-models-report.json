@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-14T09:24:11.058Z",
+  "generatedAt": "2026-07-07T07:30:03.947Z",
   "topics": [
     {
       "topicSlug": "invitados",
       "questions": 3,
       "questionsWithEvidence": 3,
       "extracts": 15,
-      "relevantProjects": 7,
+      "relevantProjects": 9,
       "limits": []
     },
     {
@@ -14,7 +14,7 @@
       "questions": 3,
       "questionsWithEvidence": 3,
       "extracts": 15,
-      "relevantProjects": 7,
+      "relevantProjects": 9,
       "limits": []
     },
     {
@@ -22,7 +22,7 @@
       "questions": 2,
       "questionsWithEvidence": 2,
       "extracts": 10,
-      "relevantProjects": 5,
+      "relevantProjects": 6,
       "limits": []
     },
     {
@@ -30,7 +30,7 @@
       "questions": 2,
       "questionsWithEvidence": 2,
       "extracts": 10,
-      "relevantProjects": 5,
+      "relevantProjects": 7,
       "limits": []
     },
     {
@@ -38,7 +38,7 @@
       "questions": 2,
       "questionsWithEvidence": 2,
       "extracts": 10,
-      "relevantProjects": 6,
+      "relevantProjects": 8,
       "limits": []
     },
     {
@@ -46,7 +46,7 @@
       "questions": 2,
       "questionsWithEvidence": 2,
       "extracts": 10,
-      "relevantProjects": 7,
+      "relevantProjects": 6,
       "limits": []
     },
     {
@@ -54,7 +54,7 @@
       "questions": 2,
       "questionsWithEvidence": 2,
       "extracts": 10,
-      "relevantProjects": 5,
+      "relevantProjects": 6,
       "limits": []
     },
     {
@@ -62,7 +62,7 @@
       "questions": 2,
       "questionsWithEvidence": 2,
       "extracts": 10,
-      "relevantProjects": 3,
+      "relevantProjects": 4,
       "limits": []
     }
   ]

@@ -1,0 +1,89 @@
+{
+  "slug": "disolucion",
+  "status": "reviewed",
+  "editorialSummary": [
+    "Disolver la cooperativa no es solo cerrar: es decidir qué se hace con la casa y con el dinero. La Ley 4/2002 de CyL fija causas de disolución, un proceso de liquidación y, sobre todo, un orden imperativo para repartir el patrimonio.",
+    "El punto crítico para El Buen Vivir: los socios recuperan sus aportaciones al capital, pero el haber sobrante (la plusvalía de la casa) no se reparte entre ellos y el Fondo de Reserva Obligatorio es irrepartible.",
+    "Esto entra en tensión con el 'plan B' aprobado en la Reunión 20 —vender la casa, recuperar cada uno su inversión y repartir el resto a partes iguales—, cuya segunda parte probablemente choca con el artículo 94."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "plan_b_vs_ley",
+      "question": "¿Cómo se encaja el 'plan B' (repartir el sobrante de la venta a partes iguales) con la prohibición legal de repartir el haber sobrante entre socios?",
+      "recommendationsForBuenVivir": [
+        "Es la decisión central. La recuperación de la inversión de cada socio es viable si se estructura como capital social reintegrable; el reparto del excedente entre socios no lo es bajo el art. 94, así que conviene consultarlo jurídicamente antes de comprometerlo en acta."
+      ]
+    },
+    {
+      "id": "que_es_capital",
+      "question": "¿Qué parte de la aportación de cada socio es capital reintegrable y qué parte alimenta fondos irrepartibles?",
+      "recommendationsForBuenVivir": [
+        "Distinguir capital social, cuotas de ingreso y cuotas de mantenimiento evita malentendidos sobre 'cuánto recupero si esto se acaba'."
+      ]
+    },
+    {
+      "id": "destino_sobrante",
+      "question": "¿A qué cooperativa o entidad se destinará el haber líquido sobrante?",
+      "recommendationsForBuenVivir": [
+        "La ley obliga a designarla en Estatutos o en Asamblea; elegir una entidad afín a los valores del grupo es preferible a dejarlo al Fondo de Fomento autonómico."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "causas_disolucion",
+      "statement": "La ley y los estatutos revisados coinciden en las causas de disolución y en la mayoría de dos tercios para acordarla.",
+      "summary": "Es materia estatutaria estable; conviene fijarla con claridad y decidir si se añade un plazo de duración."
+    },
+    {
+      "id": "orden_haber",
+      "statement": "El orden de adjudicación del haber social es imperativo: deudas, Fondo de Educación y Promoción, reintegro de aportaciones al capital y, por último, el sobrante.",
+      "summary": "Los socios recuperan su capital, pero no el excedente, que se destina a fines cooperativos."
+    },
+    {
+      "id": "fondos_irrepartibles",
+      "statement": "El Fondo de Reserva Obligatorio es irrepartible entre los socios, incluso en caso de disolución, en la ley y en todos los estatutos analizados.",
+      "summary": "No puede tratarse como un ahorro recuperable del grupo."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "disolucion-reparto-plusvalia",
+      "statement": "Tras vender la casa, el excedente sobre la inversión se reparte a partes iguales entre los socios.",
+      "reason": "El art. 94.2.d de la Ley 4/2002 CyL reserva el haber líquido sobrante a otra cooperativa o al Fondo de Fomento del Cooperativismo, no a los socios. Es una idea aprobada por el grupo (Reunión 20) que la forma cooperativa no permite tal cual y debe revisarse jurídicamente."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Llevar a revisión jurídica el 'plan B' antes de darlo por cerrado: separar la recuperación de la inversión (viable) del reparto del excedente (no viable como capital cooperativo).",
+    "Definir con precisión qué parte de la cuota umbral es capital social reintegrable y qué parte va a fondos irrepartibles.",
+    "Designar en Estatutos la entidad destinataria del haber sobrante.",
+    "No presentar la casa como un 'fondo de ahorros' recuperable: es incoherente con el carácter antiespeculativo y con la ley.",
+    "Regular las causas de disolución y el destino del patrimonio en Estatutos, dejando la operativa de venta para el RRI."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Causas de disolución y mayoría de dos tercios.",
+      "Apertura de liquidación y nombramiento de liquidadores.",
+      "Orden de adjudicación del haber social y designación de la entidad destinataria del sobrante.",
+      "Carácter irrepartible del Fondo de Reserva Obligatorio."
+    ],
+    "rri": [
+      "Protocolo de venta del inmueble y su valoración.",
+      "Acompañamiento del proceso por las comisiones y comunicación a socios.",
+      "Calendario de cierre y liquidación de cuotas pendientes."
+    ],
+    "notes": [
+      "La revisión jurídica debe confirmar el encaje del 'plan B' con el art. 94 y afinar la calificación de las aportaciones como capital reintegrable o fondo irrepartible."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, art. 90 (causas de disolución), art. 91-93 (liquidación), art. 94 (adjudicación del haber social) y art. 71 (Fondo de Reserva Obligatorio irrepartible).",
+    "docs-estatutos-estatutos-pepu: artículos 58 y 60, referencia de CyL que remite al art. 94 de la ley.",
+    "docs-estatutos-estatutos-elciempies: artículo 63 sobre orden de adjudicación del haber social.",
+    "docs-estatutos-estatutos-la-borda: artículo 51, modelo antiespeculativo con fondos irrepartibles."
+  ],
+  "referencesToAvoid": [
+    "No usar cláusulas de cooperativas de otras comunidades sin ajustarlas al art. 94 de la Ley 4/2002 de CyL.",
+    "No presentar el reparto del excedente de la venta entre socios como una opción viable sin revisión jurídica: contradice el destino legal del haber sobrante."
+  ]
+}

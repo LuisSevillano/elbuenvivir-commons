@@ -1,54 +1,47 @@
 {
   "slug": "mantenimiento",
-  "generatedAt": "2026-05-14T09:24:12.547Z",
+  "generatedAt": "2026-07-07T07:29:53.102Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/mantenimiento.md",
-    "referencesCount": 9,
+    "referencesCount": 14,
     "documents": [
-      "Docs-estatutos-estatutos-elciempies",
-      "Docs-estatutos-estatutos-entrepatios",
-      "Docs-estatutos-estatutos-la-borda",
-      "Docs-estatutos-estatutos-los-girasoles",
-      "Docs-estatutos-estatutos-losnidales",
-      "Docs-estatutos-estatutos-senior-cohousing-huelva",
-      "Docs-estatutos-estatutos-tarocohousing",
-      "Docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
-      "Docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "Docs-guias-las-guias-de-sostre-civic",
-      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "Docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
-      "Docs-rri-informe-cooperativas-cesion-de-uso"
+      "docs-estatutos-estatutos-elciempies",
+      "docs-estatutos-estatutos-entrepatios",
+      "docs-estatutos-estatutos-la-borda",
+      "docs-estatutos-estatutos-los-girasoles",
+      "docs-estatutos-estatutos-losnidales",
+      "docs-estatutos-estatutos-tarocohousing",
+      "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "docs-guias-las-guias-de-sostre-civic",
+      "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+      "docs-rri-informe-cooperativas-cesion-de-uso"
     ]
   },
   "summary": {
     "overview": [
-      "Los extractos más claros relacionan este tema con conflictos y mediación, mantenimiento y cuidados del espacio.",
-      "Aparecen ejemplos en varios proyectos, entre ellos Las GuíAs De Sostre CíVic, Estatutos Elciempies, GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4, Estatutos Senior Cohousing Huelva.",
-      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados."
+      "Los extractos más claros relacionan este tema con mantenimiento y cuidados del espacio.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Entrepatios, EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO, Estatutos Elciempies, Estatutos La Borda.",
+      "Las reglas de mantenimiento suelen concretar responsabilidades de cuidado, limpieza u obras."
     ],
     "commonPatterns": [
-      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados.",
       "Las reglas de mantenimiento suelen concretar responsabilidades de cuidado, limpieza u obras."
     ],
     "majorDifferences": [
       "Las diferencias prácticas dependen de si el proyecto prioriza reglas estables, procedimientos internos o soluciones caso por caso."
     ],
     "commonRisks": [
-      "Sin un cauce claro, desacuerdos pequeños pueden convertirse en conflictos societarios.",
       "Si las tareas comunes no se reparten con claridad, pueden concentrarse cargas invisibles."
     ],
     "commonTradeoffs": [
-      "Autonomía comunitaria vs necesidad de procedimiento claro"
+      "flexibilidad vs seguridad jurídica"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Principios de convivencia y posibilidad de mediación o régimen disciplinario",
-      "Obligación general de contribuir al cuidado y conservación"
+      "obligación general de contribuir al cuidado y conservación"
     ],
     "usuallyInRRI": [
-      "Pasos de mediación, tiempos de respuesta y personas de referencia",
-      "Turnos, avisos, criterios de obras y gestión de incidencias"
+      "turnos, avisos, criterios de obras y gestión de incidencias"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -62,74 +55,70 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "Decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
+      "decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "Decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
+      "decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
     ],
     "pointsToDecideSoon": [
-      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "Decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
+      "decidir cómo se reparten tareas y costes sin convertir cada detalle en norma rígida"
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Autonomía comunitaria vs necesidad de procedimiento claro"
+    "flexibilidad vs seguridad jurídica"
   ],
   "notableProjects": [
     {
-      "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aparece en relación con mantenimiento y cuidados del espacio.",
-      "references": [
-        "Estatutos Entrepatios - Artículo 26. El fondo especial de Mantenimiento y Conservación.",
-        "Estatutos Entrepatios - Artículo 64. Derechos y obligaciones de la Cooperativa en relación con",
-        "Estatutos Entrepatios - Artículo 26. El fondo especial de Mantenimiento y Conservación. .................................................................... 27"
-      ]
-    },
-    {
-      "projectName": "Estatutos Elciempies",
-      "notableBecause": "Aparece en relación con conflictos y mediación.",
-      "references": [
-        "Estatutos Elciempies - CAPITULO I",
-        "Estatutos Elciempies - CAPITULO II"
-      ]
-    },
-    {
-      "projectName": "Informe Cooperativas Cesion De Uso",
-      "notableBecause": "Aparece en relación con mantenimiento y cuidados del espacio.",
-      "references": [
-        "Informe Cooperativas Cesion De Uso - TÍTULO TERCERO.",
-        "Informe Cooperativas Cesion De Uso - Documento completo"
-      ]
-    },
-    {
       "projectName": "Las GuíAs De Sostre CíVic",
-      "notableBecause": "Aparece en relación con conflictos y mediación.",
+      "notableBecause": "Aparece en relación con mantenimiento y cuidados del espacio.",
       "references": [
-        "Las GuíAs De Sostre CíVic - Título original: La construcció i la cura dels grups",
-        "Las GuíAs De Sostre CíVic - Título original: Cures en la convivència de persones grans"
-      ]
-    },
-    {
-      "projectName": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
-      "references": [
-        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - Artículo 5: Órganos de Gobierno"
+        "Las GuíAs De Sostre CíVic - CONSTRUIMOS VIVIENDA COOPERATIVA",
+        "Las GuíAs De Sostre CíVic - 5. ECONOMÍA DE LOS CUIDADOS",
+        "Las GuíAs De Sostre CíVic - MODELO 2"
       ]
     },
     {
       "projectName": "Estatutos La Borda",
-      "notableBecause": "Aporta extractos útiles para comparar cómo se aborda esta cuestión.",
+      "notableBecause": "Aparece en relación con mantenimiento y cuidados del espacio.",
       "references": [
-        "Estatutos La Borda - Artículo 7. Obligaciones de las socias y socios"
+        "Estatutos La Borda - i) Hacerse cargo de todas aquellas obras de mantenimiento y conservación",
+        "Estatutos La Borda - e) Llevar a cabo la administración y garantizar el buen mantenimiento de los"
+      ]
+    },
+    {
+      "projectName": "Estatutos Tarocohousing",
+      "notableBecause": "Aparece en relación con mantenimiento y cuidados del espacio.",
+      "references": [
+        "Estatutos Tarocohousing - c) A que la cooperativa se haga cargo de todas aquellas obras de mantenimiento y mejoras",
+        "Estatutos Tarocohousing - Artículo 6.- Actividades"
+      ]
+    },
+    {
+      "projectName": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+      "notableBecause": "Aparece en relación con mantenimiento y cuidados del espacio.",
+      "references": [
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - c) Comisión de Obras y Mantenimiento: Encargada de coordinar y supervisar"
+      ]
+    },
+    {
+      "projectName": "Estatutos Elciempies",
+      "notableBecause": "Aparece en relación con mantenimiento y cuidados del espacio.",
+      "references": [
+        "Estatutos Elciempies - 6. La coopera\u000eva podrá solicitar y recibir consideraciones, informes, cali,caciones y"
+      ]
+    },
+    {
+      "projectName": "Estatutos Entrepatios",
+      "notableBecause": "Aparece en relación con mantenimiento y cuidados del espacio.",
+      "references": [
+        "Estatutos Entrepatios - Artículo 26. El fondo especial de Mantenimiento y Conservación."
       ]
     }
   ],

@@ -1,79 +1,78 @@
 {
   "slug": "expulsion_socio",
-  "generatedAt": "2026-05-14T09:24:12.532Z",
+  "generatedAt": "2026-07-07T07:29:53.087Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/expulsion_socio.md",
-    "referencesCount": 37,
+    "referencesCount": 38,
     "documents": [
-      "Docs-estatutos-estatutos-axuntase",
-      "Docs-estatutos-estatutos-entrepatios",
-      "Docs-estatutos-estatutos-laseronda-org",
-      "Docs-estatutos-estatutos-losnidales",
-      "Docs-estatutos-estatutos-pepu",
-      "Docs-estatutos-estatutos-pequenopueblo",
-      "Docs-estatutos-estatutos-senior-cohousing-huelva",
-      "Docs-estatutos-estatutos-tarocohousing",
-      "Docs-estatutos-estatutos-tejiendovida-asociacion",
-      "Docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
-      "Docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "Docs-guias-las-guias-de-sostre-civic",
-      "Docs-leyes-normativa-autonomica",
-      "Docs-leyes-normativa-estatal",
-      "Docs-otros-mod-estatutos-coop-viviendas",
-      "Docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso"
+      "docs-estatutos-estatutos-axuntase",
+      "docs-estatutos-estatutos-elciempies",
+      "docs-estatutos-estatutos-entrepatios",
+      "docs-estatutos-estatutos-la-borda",
+      "docs-estatutos-estatutos-laseronda-org",
+      "docs-estatutos-estatutos-los-girasoles",
+      "docs-estatutos-estatutos-losnidales",
+      "docs-estatutos-estatutos-pepu",
+      "docs-estatutos-estatutos-pequenopueblo",
+      "docs-estatutos-estatutos-tarocohousing",
+      "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "docs-guias-las-guias-de-sostre-civic",
+      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2014-9959-ley-5-2014",
+      "docs-otros-modelo-estatutos-viviendas",
+      "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso"
     ]
   },
   "summary": {
     "overview": [
-      "Los extractos más claros relacionan este tema con órgano competente para sancionar o resolver recursos, derechos y obligaciones, expulsión o sanción.",
-      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Axuntase, MOD ESTATUTOS COOP VIVIENDAS, Estatutos Losnidales, Estatutos Entrepatios.",
+      "Los extractos más claros relacionan este tema con órgano competente para sancionar o resolver recursos, derechos y obligaciones, admisión de personas socias.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Elciempies, Estatutos Los Girasoles, Estatutos Tarocohousing, Estatutos Axuntase.",
       "Los textos suelen vincular sanciones y expulsión a órganos formales como Consejo Rector o Asamblea.",
       "También se usa evidencia indirecta de temas relacionados (baja_socio, derechos_y_obligaciones, conflictos_y_mediacion) para completar la comparación sin inventar referencias directas."
     ],
     "commonPatterns": [
       "Los textos suelen vincular sanciones y expulsión a órganos formales como Consejo Rector o Asamblea.",
       "Los textos suelen combinar derechos de participación e información con obligaciones económicas y de convivencia.",
-      "Cuando aparece expulsión, suele vincularse a incumplimientos graves y a un procedimiento con garantías.",
       "Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones.",
-      "La expulsión aparece como último escalón de un régimen disciplinario que necesita faltas, audiencia, órgano competente y recurso.",
+      "Varios proyectos distinguen tipos de baja o pérdida de condición de persona socia.",
+      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados.",
       "La expulsión debe leerse junto con baja, derechos y obligaciones, conflictos y mediación: no es una regla aislada, sino el último escalón de incumplimientos graves."
     ],
     "majorDifferences": [
-      "La diferencia práctica suele estar entre regular solo causas de expulsión o describir también garantías y pasos del procedimiento.",
       "La diferencia práctica suele estar entre una salida libre con preaviso y una salida condicionada por incumplimientos, sustitución o efectos económicos.",
+      "La diferencia práctica suele estar entre regular solo causas de expulsión o describir también garantías y pasos del procedimiento.",
       "La diferencia práctica está entre enunciar causas de expulsión y regular un procedimiento con faltas, audiencia, decisión, recurso y posible mediación previa."
     ],
     "commonRisks": [
       "Si no se distingue quién instruye, quién decide y quién revisa, el procedimiento puede percibirse como arbitrario.",
       "Una lista amplia pero poco operativa puede dificultar distinguir obligaciones esenciales de prácticas cotidianas.",
-      "Sin garantías mínimas, el régimen disciplinario puede convertirse en una fuente de impugnación o conflicto interno.",
       "Si no se aclaran los criterios de entrada, puede aparecer discrecionalidad o conflicto sobre quién puede incorporarse.",
-      "Una expulsión sin audiencia, recurso o órgano claro puede generar impugnaciones y dañar la confianza interna.",
+      "Una salida mal regulada puede tensionar la liquidez, el uso de espacios y la continuidad del grupo.",
+      "Sin un cauce claro, desacuerdos pequeños pueden convertirse en conflictos societarios.",
       "Sin faltas concretas, audiencia, órgano competente y recurso, una expulsión puede parecer arbitraria e impugnable."
     ],
     "commonTradeoffs": [
-      "Protección del grupo vs garantías de la persona socia",
-      "Salida flexible vs estabilidad económica del proyecto",
-      "Autonomía comunitaria vs necesidad de procedimiento claro",
-      "Protección del proyecto común vs garantías de la persona socia"
+      "salida flexible vs estabilidad económica del proyecto",
+      "autonomía comunitaria vs necesidad de procedimiento claro",
+      "protección del grupo vs garantías de la persona socia",
+      "protección del proyecto común vs garantías de la persona socia"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Causas de expulsión y faltas muy graves",
-      "Órgano competente para acordar la expulsión",
-      "Audiencia de la persona afectada y recurso básico",
-      "Relación con derechos, obligaciones y pérdida de condición de socia",
-      "Competencias del órgano que acuerda la expulsión y vías de recurso",
-      "Derechos y obligaciones esenciales de las personas socias"
+      "causas de expulsión y faltas muy graves",
+      "órgano competente para acordar la expulsión",
+      "audiencia de la persona afectada y recurso básico",
+      "relación con derechos, obligaciones y pérdida de condición de socia",
+      "competencias del órgano que acuerda la expulsión y vías de recurso",
+      "derechos y obligaciones esenciales de las personas socias"
     ],
     "usuallyInRRI": [
-      "Mediación previa cuando proceda",
-      "Documentación del conflicto, plazos y comunicación interna",
-      "Acompañamiento de la persona afectada y del grupo",
-      "Pasos operativos posteriores si la expulsión se confirma",
-      "Circuito interno de comunicación, mediación y preparación documental",
-      "Pautas cotidianas para hacer efectivos esos derechos y deberes"
+      "mediación previa cuando proceda",
+      "documentación del conflicto, plazos y comunicación interna",
+      "acompañamiento de la persona afectada y del grupo",
+      "pasos operativos posteriores si la expulsión se confirma",
+      "circuito interno de comunicación, mediación y preparación documental",
+      "pautas cotidianas para hacer efectivos esos derechos y deberes"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -88,93 +87,91 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Decidir qué papel tendrá Consejo Rector, Asamblea y mediación antes de una expulsión",
-      "Separar obligaciones esenciales de compromisos prácticos revisables"
+      "decidir qué papel tendrá Consejo Rector, Asamblea y mediación antes de una expulsión",
+      "separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Decidir qué papel tendrá Consejo Rector, Asamblea y mediación antes de una expulsión",
-      "Separar obligaciones esenciales de compromisos prácticos revisables"
+      "decidir qué papel tendrá Consejo Rector, Asamblea y mediación antes de una expulsión",
+      "separar obligaciones esenciales de compromisos prácticos revisables"
     ],
     "pointsToDecideSoon": [
-      "Decidir qué papel tendrá Consejo Rector, Asamblea y mediación antes de una expulsión",
-      "Separar obligaciones esenciales de compromisos prácticos revisables",
-      "Decidir qué conflictos deben pasar por mediación antes de convertirse en sanción",
-      "Definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
-      "Decidir qué incumplimientos pueden llegar a expulsión y qué garantías mínimas tendrá la persona afectada",
+      "decidir qué papel tendrá Consejo Rector, Asamblea y mediación antes de una expulsión",
+      "separar obligaciones esenciales de compromisos prácticos revisables",
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
+      "decidir si la salida tendrá preaviso, sustitución acordada, lista de espera o reembolso diferido",
+      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
       "Decidir qué incumplimientos son leves, graves o muy graves y cuáles podrían justificar expulsión."
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Protección del grupo vs garantías de la persona socia",
-    "Salida flexible vs estabilidad económica del proyecto",
-    "Autonomía comunitaria vs necesidad de procedimiento claro",
-    "Convivencia protegida vs riesgo de sanción arbitraria"
+    "salida flexible vs estabilidad económica del proyecto",
+    "autonomía comunitaria vs necesidad de procedimiento claro",
+    "protección del grupo vs garantías de la persona socia",
+    "convivencia protegida vs riesgo de sanción arbitraria"
   ],
   "notableProjects": [
     {
-      "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aporta evidencia indirecta desde baja_socio, conflictos_y_mediacion.",
+      "projectName": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
+      "notableBecause": "Aporta evidencia indirecta desde conflictos_y_mediacion.",
       "references": [
-        "Estatutos Entrepatios - Artículo 16. Faltas y sanciones.",
-        "Estatutos Entrepatios - Artículo 14. Baja de las personas socias. Clases, procedimientos y",
-        "Estatutos Entrepatios - Artículo 14. Baja de las personas socias. Clases, procedimientos y (evidencia indirecta: baja_socio)",
-        "Estatutos Entrepatios - Artículo 60. Conflicto de intereses. (evidencia indirecta: conflictos_y_mediacion)"
-      ]
-    },
-    {
-      "projectName": "Estatutos Laseronda.Org",
-      "notableBecause": "Aporta evidencia indirecta desde baja_socio.",
-      "references": [
-        "Estatutos Laseronda.Org - ARTÍCULO 13.- NORMAS DE DISCIPLINA SOCIAL Y PROCEDIMIENTO SANCIONADOR:",
-        "Estatutos Laseronda.Org - ARTÍCULO 15.- SANCIONES",
-        "Estatutos Laseronda.Org - ARTÍCULO 9.- BAJA DE SOCIOS",
-        "Estatutos Laseronda.Org - ARTÍCULO 9.- BAJA DE SOCIOS (evidencia indirecta: baja_socio)"
-      ]
-    },
-    {
-      "projectName": "Estatutos Losnidales",
-      "notableBecause": "Aporta evidencia indirecta desde baja_socio, conflictos_y_mediacion.",
-      "references": [
-        "Estatutos Losnidales - Artículo 15.- Faltas y sanciones.",
-        "Estatutos Losnidales - Artículo 13.- Baja del socio o socia. Clases, procedimientos y efectos.",
-        "Estatutos Losnidales - Artículo 13.- Baja del socio o socia. Clases, procedimientos y efectos. (evidencia indirecta: baja_socio)",
-        "Estatutos Losnidales - Artículo 58.- Conflicto de intereses. (evidencia indirecta: conflictos_y_mediacion)"
-      ]
-    },
-    {
-      "projectName": "Estatutos Pepu",
-      "notableBecause": "Aporta evidencia indirecta desde baja_socio, derechos_y_obligaciones, conflictos_y_mediacion.",
-      "references": [
-        "Estatutos Pepu - Artículo 15.- Régimen disciplinario: Faltas y sanciones.",
-        "Estatutos Pepu - Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos. (evidencia indirecta: baja_socio)",
-        "Estatutos Pepu - Artículo 34.- Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de (evidencia indirecta: derechos_y_obligaciones)",
-        "Estatutos Pepu - Artículo 35.- Conflicto de intereses y responsabilidad. (evidencia indirecta: conflictos_y_mediacion)"
-      ]
-    },
-    {
-      "projectName": "Estatutos Pequenopueblo",
-      "notableBecause": "Aporta evidencia indirecta desde baja_socio, derechos_y_obligaciones, conflictos_y_mediacion.",
-      "references": [
-        "Estatutos Pequenopueblo - Artículo 15.- Régimen disciplinario: Faltas y sanciones.",
-        "Estatutos Pequenopueblo - Artículo 13.- Baja de la persona socia. Clases, procedimientos y efectos. (evidencia indirecta: baja_socio)",
-        "Estatutos Pequenopueblo - Artículo 34.- Deberes de diligencia, lealtad y secreto. Responsabilidad y separación de (evidencia indirecta: derechos_y_obligaciones)",
-        "Estatutos Pequenopueblo - Artículo 35.- Conflicto de intereses y responsabilidad. (evidencia indirecta: conflictos_y_mediacion)"
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - a) Composición del Consejo Rector: El Consejo Rector estará compuesto por socios",
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - g) Roles y Responsabilidades del Consejo Rector: El Consejo Rector, en conjunto",
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - 2. Responsabilidad del Consejo Rector: El Consejo Rector será responsable de",
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - 2. Arbitraje: Si las negociaciones y la mediación no logran resolver el conflicto, las (evidencia indirecta: conflictos_y_mediacion)",
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - 1. Negociación y Mediación: Las partes involucradas deberán realizar esfuerzos de (evidencia indirecta: conflictos_y_mediacion)"
       ]
     },
     {
       "projectName": "Estatutos Axuntase",
       "notableBecause": "Aporta evidencia indirecta desde baja_socio.",
       "references": [
-        "Estatutos Axuntase - Artículo 17.- Procedimiento de expulsión",
         "Estatutos Axuntase - Artículo 16.- Procedimiento sancionador",
+        "Estatutos Axuntase - Artículo 29.- Organización, funcionamiento y mandato del Consejo Rector",
+        "Estatutos Axuntase - Artículo 30.- Vacantes, renuncias y retribución del Consejo Rector",
         "Estatutos Axuntase - Artículo 13.- Baja obligatoria (evidencia indirecta: baja_socio)"
+      ]
+    },
+    {
+      "projectName": "Estatutos Elciempies",
+      "notableBecause": "Aporta evidencia indirecta desde baja_socio.",
+      "references": [
+        "Estatutos Elciempies - 3. Son faltas muy graves:",
+        "Estatutos Elciempies - d) Otras causas prevista en la Ley.",
+        "Estatutos Elciempies - d) Otras causas prevista en la Ley. (evidencia indirecta: baja_socio)"
+      ]
+    },
+    {
+      "projectName": "Estatutos Entrepatios",
+      "notableBecause": "Aporta evidencia indirecta desde baja_socio.",
+      "references": [
+        "Estatutos Entrepatios - D) Baja por expulsión, procedimiento y efectos.",
+        "Estatutos Entrepatios - 1. La persona socia causará baja obligatoria en la Cooperativa cuando (evidencia indirecta: baja_socio)",
+        "Estatutos Entrepatios - 3. En el caso de que una persona socia quiera darse de baja voluntaria en la (evidencia indirecta: baja_socio)"
+      ]
+    },
+    {
+      "projectName": "Estatutos Laseronda.Org",
+      "notableBecause": "Aporta evidencia indirecta desde baja_socio, derechos_y_obligaciones.",
+      "references": [
+        "Estatutos Laseronda.Org - 1. Baja voluntaria (evidencia indirecta: baja_socio)",
+        "Estatutos Laseronda.Org - 2. Baja Obligatoria (evidencia indirecta: baja_socio)",
+        "Estatutos Laseronda.Org - 10. Cumplir los demás deberes que resulten de preceptos legales, de estos Estatutos, en su (evidencia indirecta: derechos_y_obligaciones)"
+      ]
+    },
+    {
+      "projectName": "Estatutos Los Girasoles",
+      "notableBecause": "Aporta evidencia indirecta desde baja_socio.",
+      "references": [
+        "Estatutos Los Girasoles - 3. Son faltas muy graves:",
+        "Estatutos Los Girasoles - d) Otras causas prevista en la Ley.",
+        "Estatutos Los Girasoles - d) Otras causas prevista en la Ley. (evidencia indirecta: baja_socio)"
       ]
     }
   ],

@@ -23,12 +23,12 @@
   ],
   "risks": [
     "Sobre-regulación: no hay señal concluyente en el research pack, pero conviene revisar si el borrador introduce detalle excesivo.",
-    "Rigidez: no hay señal concluyente en el research pack, pero conviene diferenciar reglas estables y adaptables.",
+    "Rigidez: una regla estatutaria puede ser más difícil de adaptar que una regla de RRI.",
     "Tradeoffs: el research pack debe revisarse para identificar tensiones entre flexibilidad, control y claridad.",
-    "Conflictos potenciales: las reglas ambiguas o demasiado detalladas pueden generar interpretaciones divergentes."
+    "Conflictos potenciales: conviene revisar si el tema puede generar desacuerdos prácticos aunque no aparezcan expresamente."
   ],
   "governancePlacement": {
-    "recommendedPrimaryLocation": "estatutos",
+    "recommendedPrimaryLocation": "mixed",
     "rationale": [
       "Conviene valorar Estatutos para principios, derechos, obligaciones y efectos estructurales detectados en el research pack.",
       "Conviene valorar RRI para procedimientos, usos cotidianos, ajustes operativos y reglas que puedan necesitar adaptación.",
@@ -64,6 +64,11 @@
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
+    },
+    {
       "topicSlug": "estatutos_vs_rri",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
@@ -74,12 +79,7 @@
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     },
     {
-      "topicSlug": "asamblea_general",
-      "relationship": "complements",
-      "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
-    },
-    {
-      "topicSlug": "consejo_rector",
+      "topicSlug": "desigualdad_aportaciones",
       "relationship": "complements",
       "explanation": "Relación sugerida automáticamente porque el research pack contiene términos de ambos temas."
     }
@@ -96,105 +96,105 @@
     "curated": false,
     "sourceResearchPack": "src/content/research-packs/toma_decisiones.md",
     "evidenceCount": 18,
-    "highConfidenceEvidence": 10,
-    "mediumConfidenceEvidence": 8,
-    "lowConfidenceEvidence": 0,
+    "highConfidenceEvidence": 0,
+    "mediumConfidenceEvidence": 4,
+    "lowConfidenceEvidence": 14,
     "evidence": [
-      {
-        "documentSlug": "docs-estatutos-estatutos-tejiendovida-asociacion",
-        "documentTitle": "Estatutos Tejiendovida Asociacion",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 9º.- Quórum de asistencia y votaciones.",
-        "confidence": "high",
-        "excerpt": "Artículo 9º.- Quórum de asistencia y votaciones. Las Asambleas Generales, tanto ordinarias como extraordinarias, quedarán válidamente constituidas cuando concurran a ella dos tercios de los asociados con derecho a voto. Será necesaria en to..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-laseronda-org",
-        "documentTitle": "Estatutos Laseronda.Org",
-        "documentType": "estatutos",
-        "articleOrSection": "ARTÍCULO 22.- VOTACIONES EN LA ASAMBLEA GENERAL",
-        "confidence": "high",
-        "excerpt": "ARTÍCULO 22.- VOTACIONES EN LA ASAMBLEA GENERAL 1. Principios generales A cada socio le corresponde un voto. En los casos de representación, ejercitará asimismo el derecho de voto de su o sus representados. 2. Abstención en el voto El socio..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-pepu",
-        "documentTitle": "Estatutos Pepu",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 21.- Adopción de acuerdos.",
-        "confidence": "high",
-        "excerpt": "Artículo 21.- Adopción de acuerdos. Es valor destacado de esta cooperativa el intento de consenso en cualquier toma de decisiones, en caso de no ser posible, los acuerdos se tomarán de la siguiente forma: 1.- Serán nulos los acuerdos sobre..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-pequenopueblo",
-        "documentTitle": "Estatutos Pequenopueblo",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 21.- Adopción de acuerdos.",
-        "confidence": "high",
-        "excerpt": "Artículo 21.- Adopción de acuerdos. Es valor destacado de esta cooperativa el intento de consenso en cualquier toma de decisiones, en caso de no ser posible, los acuerdos se tomarán de la siguiente forma: 1.- Serán nulos los acuerdos sobre..."
-      },
       {
         "documentSlug": "docs-guias-las-guias-de-sostre-civic",
         "documentTitle": "Las GuíAs De Sostre CíVic",
         "documentType": "guia",
-        "articleOrSection": "Título original: Transformem l’entorn",
-        "confidence": "high",
-        "excerpt": "Título original: Transformem l’entorn La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercoo..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-entrepatios",
-        "documentTitle": "Estatutos Entrepatios",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 45. Adopción de acuerdos.",
-        "confidence": "high",
-        "excerpt": "Artículo 45. Adopción de acuerdos. 1. Para deliberar y tomar acuerdos sobre un asunto será indispensable que conste en el orden del día de la convocatoria o en el aprobado al inicio de la Asamblea General Universal, salvo cuando se trate de..."
-      },
-      {
-        "documentSlug": "docs-estatutos-estatutos-losnidales",
-        "documentTitle": "Estatutos Losnidales",
-        "documentType": "estatutos",
-        "articleOrSection": "Artículo 42.- Adopción de acuerdos.",
-        "confidence": "high",
-        "excerpt": "Artículo 42.- Adopción de acuerdos. 1. Para deliberar y tomar acuerdos sobre un asunto será indispensable que conste en el orden del día de la convocatoria o en el aprobado al inicio de la Asamblea General Universal, salvo cuando se trate d..."
+        "articleOrSection": "6. Cómo tomamos las decisiones",
+        "confidence": "medium",
+        "excerpt": "6. Cómo tomamos las decisiones vulneraría algún elemento esencial del proyecto, la ética o la seguridad del grupo. Si alguien ejerce el derecho de veto, pues, es porque cree que pone en peligro la seguridad del grupo y sus principios, y no..."
       },
       {
         "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
         "documentTitle": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
         "documentType": "rri",
-        "articleOrSection": "Artículo 5: Órganos de Gobierno",
-        "confidence": "high",
-        "excerpt": "Artículo 5: Órganos de Gobierno 1. Clases de órganos de gobierno a) La Asamblea General es el máximo órgano de decisión. b) El Consejo Rector será el responsable de la gestión diaria, velando por el cumplimiento de los objetivos y normativa..."
+        "articleOrSection": "f) Mayoría Requerida para adoptar acuerdos: Los acuerdos en la Asamblea",
+        "confidence": "medium",
+        "excerpt": "f) Mayoría Requerida para adoptar acuerdos: Los acuerdos en la Asamblea General se tomarán por mayoría simple, a menos que se especifique lo contrario -- 6 of 12 -- en los Estatutos. Decisiones excepcionales, como modificaciones a los Estat..."
       },
       {
-        "documentSlug": "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
-        "documentTitle": "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
-        "documentType": "otro",
-        "articleOrSection": "art. 33 Lcoop). En relación con ello, llama la atención esta única remisión, cuando",
-        "confidence": "high",
-        "excerpt": "art. 33 Lcoop). En relación con ello, llama la atención esta única remisión, cuando otros muchos aspectos del funcionamiento órganico podrían ser objeto de desarrollo: convocatorias de los órganos2, confección del orden del día, desa- rroll..."
+        "documentSlug": "docs-estatutos-estatutos-tejiendovida-asociacion",
+        "documentTitle": "Estatutos Tejiendovida Asociacion",
+        "documentType": "estatutos",
+        "articleOrSection": "Artículo 9º.- Quórum de asistencia y votaciones.",
+        "confidence": "medium",
+        "excerpt": "Artículo 9º.- Quórum de asistencia y votaciones. Las Asambleas Generales, tanto ordinarias como extraordinarias, quedarán válidamente constituidas cuando concurran a ella dos tercios de los asociados con derecho a voto. Será necesaria en to..."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-estatal",
+        "documentTitle": "Normativa Estatal",
+        "documentType": "ley",
+        "articleOrSection": "3. Las votaciones serán secretas en los supuestos previstos en la presente Ley o en los",
+        "confidence": "medium",
+        "excerpt": "3. Las votaciones serán secretas en los supuestos previstos en la presente Ley o en los Estatutos, además de en aquéllos en que así lo aprueben, previa su votación a solicitud de cualquier socio, el diez por ciento de los votos sociales pre..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentType": "estatutos",
+        "articleOrSection": "20.4. Las votaciones serán secretas cuando tengan por finalidad la exclusión de una persona",
+        "confidence": "low",
+        "excerpt": "20.4. Las votaciones serán secretas cuando tengan por finalidad la exclusión de una persona socia, la elección o revocación de los miembros de los órganos sociales, el acuerdo para ejercitar la acción de responsabilidad contra los miembros..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
+        "documentTitle": "Estatutos Senior Cohousing Huelva",
+        "documentType": "estatutos",
+        "articleOrSection": "24.1. Los acuerdos de la Asamblea General se adoptarán por mayoría simple de los votos",
+        "confidence": "low",
+        "excerpt": "24.1. Los acuerdos de la Asamblea General se adoptarán por mayoría simple de los votos válidamente emitidos, salvo que legalmente o en estos estatutos se establezca una mayoría cualificada."
       },
       {
         "documentSlug": "docs-otros-mod-estatutos-coop-viviendas",
         "documentTitle": "MOD ESTATUTOS COOP VIVIENDAS",
         "documentType": "otro",
-        "articleOrSection": "ARTÍCULO 24.- CONSTITUCIÓN Y FUNCIONAMIENTO DE LA ASAMBLEA.35",
-        "confidence": "high",
-        "excerpt": "ARTÍCULO 24.- CONSTITUCIÓN Y FUNCIONAMIENTO DE LA ASAMBLEA.35 1. La Asamblea General quedará válidamente constituida en primera convocatoria, cuando estén presentes o representados más de la mitad de los votos sociales y, en segunda convoca..."
+        "articleOrSection": "3. Las votaciones serán secretas cuando tengan por finalidad la elección o revocación de",
+        "confidence": "low",
+        "excerpt": "3. Las votaciones serán secretas cuando tengan por finalidad la elección o revocación de los miembros de los órganos sociales o el acuerdo para ejercitar la acción de responsabilidad contra los miembros de los órganos sociales, así como par..."
       },
       {
-        "documentSlug": "docs-estatutos-estatutos-elciempies",
-        "documentTitle": "Estatutos Elciempies",
-        "documentType": "estatutos",
-        "articleOrSection": "CAPÍTULO III",
-        "confidence": "medium",
-        "excerpt": "CAPÍTULO III REPRESENTACIÓN Y GESTIÓN DE LA COOPERATIVA Ar\u001aculo 21.- Órganos Sociales. Los órganos de la coopera\u000eva para su dirección y administración son: La Asamblea General El Consejo Rector La Intervención Ar\u001aculo 22.- Asamblea General...."
+        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
+        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "4. Las votaciones serán secretas cuando tengan por finalidad la exclusión de una persona socia, la",
+        "confidence": "low",
+        "excerpt": "4. Las votaciones serán secretas cuando tengan por finalidad la exclusión de una persona socia, la elección o revocación de los miembros de los órganos sociales, el acuerdo para ejercitar la acción de responsabilidad contra los miembros de..."
       },
       {
-        "documentSlug": "docs-estatutos-estatutos-los-girasoles",
-        "documentTitle": "Estatutos Los Girasoles",
+        "documentSlug": "docs-otros-modelo-estatutos-viviendas",
+        "documentTitle": "MODELO ESTATUTOS VIVIENDAS",
+        "documentType": "otro",
+        "articleOrSection": "1. Los acuerdos de la Asamblea General se adoptarán por mayoría simple de los votos válidamente",
+        "confidence": "low",
+        "excerpt": "1. Los acuerdos de la Asamblea General se adoptarán por mayoría simple de los votos válidamente emitidos, salvo que legalmente o en estos estatutos se establezca una mayoría cualificada."
+      },
+      {
+        "documentSlug": "docs-leyes-normativa-autonomica",
+        "documentTitle": "Normativa Autonomica",
+        "documentType": "ley",
+        "articleOrSection": "4. Las votaciones serán secretas cuando tengan por finalidad la elección o revocación de",
+        "confidence": "low",
+        "excerpt": "4. Las votaciones serán secretas cuando tengan por finalidad la elección o revocación de los miembros de los órganos sociales o el acuerdo para ejercitar la acción de responsabilidad contra los miembros de los órganos sociales, así como par..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
         "documentType": "estatutos",
-        "articleOrSection": "CAPÍTULO III",
-        "confidence": "medium",
-        "excerpt": "CAPÍTULO III REPRESENTACIÓN Y GESTIÓN DE LA COOPERATIVA Arơculo 24.- Órganos Sociales. Los órganos de la cooperaƟva para su dirección y administración son: La Asamblea General El Consejo Rector La Intervención 22 -- 22 of 46 -- Arơculo 25.-..."
+        "articleOrSection": "1. La Asamblea General, por una mayoría de dos tercios de los votos",
+        "confidence": "low",
+        "excerpt": "1. La Asamblea General, por una mayoría de dos tercios de los votos presentes y representados, podrá imponer en cualquier momento nuevas aportaciones obligatorias, señalando las condiciones de suscripción y plazos de desembolso. En este cas..."
+      },
+      {
+        "documentSlug": "docs-estatutos-estatutos-entrepatios",
+        "documentTitle": "Estatutos Entrepatios",
+        "documentType": "estatutos",
+        "articleOrSection": "a) Nombramiento y revocación, por votación secreta, del órgano de",
+        "confidence": "low",
+        "excerpt": "a) Nombramiento y revocación, por votación secreta, del órgano de administración, los Interventores y los liquidadores, así como el ejercicio de la acción de responsabilidad contra los mismos."
       }
     ]
   }

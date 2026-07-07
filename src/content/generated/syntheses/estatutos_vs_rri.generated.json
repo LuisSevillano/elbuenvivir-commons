@@ -1,71 +1,69 @@
 {
   "slug": "estatutos_vs_rri",
-  "generatedAt": "2026-05-14T09:24:12.516Z",
+  "generatedAt": "2026-07-07T07:29:53.078Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/estatutos_vs_rri.md",
     "referencesCount": 18,
     "documents": [
-      "Docs-estatutos-estatutos-elciempies",
-      "Docs-estatutos-estatutos-entrepatios",
-      "Docs-estatutos-estatutos-la-borda",
-      "Docs-estatutos-estatutos-los-girasoles",
-      "Docs-estatutos-estatutos-losnidales",
-      "Docs-estatutos-estatutos-pepu",
-      "Docs-estatutos-estatutos-pequenopueblo",
-      "Docs-estatutos-estatutos-senior-cohousing-huelva",
-      "Docs-estatutos-estatutos-tarocohousing",
-      "Docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
-      "Docs-rri-rri-axuntase",
-      "Docs-rri-rri-vallecas2homes"
+      "docs-estatutos-estatutos-elciempies",
+      "docs-estatutos-estatutos-la-borda",
+      "docs-estatutos-estatutos-los-girasoles",
+      "docs-estatutos-estatutos-pepu",
+      "docs-estatutos-estatutos-pequenopueblo",
+      "docs-estatutos-estatutos-tarocohousing",
+      "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "docs-leyes-normativa-autonomica",
+      "docs-leyes-normativa-estatal",
+      "docs-otros-articulo-el-reglamento-de-regimen-interno-de-la-cooperativa",
+      "docs-rri-rri-vallecas2homes"
     ]
   },
   "summary": {
     "overview": [
       "Los extractos más claros relacionan este tema con asamblea, consejo rector u órgano de gestión, derechos y obligaciones.",
-      "Aparecen ejemplos en varios proyectos, entre ellos Rri Vallecas2homes, Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA, Estatutos Elciempies, Estatutos Entrepatios.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA, Normativa Autonomica, Normativa Estatal, Estatutos Elciempies.",
       "La asamblea aparece como espacio principal de decisión, control y aprobación de cuestiones estructurales."
     ],
     "commonPatterns": [
       "La asamblea aparece como espacio principal de decisión, control y aprobación de cuestiones estructurales.",
       "El órgano de gestión suele concentrar representación, ejecución de acuerdos y administración ordinaria.",
       "Los textos suelen combinar derechos de participación e información con obligaciones económicas y de convivencia.",
-      "Las decisiones suelen combinar reglas de mayoría con mecanismos de participación, quorum o consenso según la importancia del asunto.",
-      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados."
+      "La modificación de Estatutos suele requerir más estabilidad que la adaptación del RRI.",
+      "Varios textos tratan la entrada de personas socias como un procedimiento que combina solicitud, aceptación y verificación de condiciones."
     ],
     "majorDifferences": [
-      "Algunos proyectos priorizan agilidad mediante mayorías; otros refuerzan consenso o unanimidad para decisiones sensibles.",
-      "La diferencia práctica suele estar entre una salida libre con preaviso y una salida condicionada por incumplimientos, sustitución o efectos económicos."
+      "Algunos proyectos priorizan agilidad mediante mayorías; otros refuerzan consenso o unanimidad para decisiones sensibles."
     ],
     "commonRisks": [
       "Si no se delimitan competencias y convocatoria, pueden aparecer bloqueos o decisiones poco trazables.",
       "Una delegación poco controlada puede alejar decisiones cotidianas del grupo.",
       "Una lista amplia pero poco operativa puede dificultar distinguir obligaciones esenciales de prácticas cotidianas.",
-      "La unanimidad puede proteger acuerdos importantes pero también generar bloqueo; mayorías simples pueden dejar minorías expuestas.",
-      "Sin un cauce claro, desacuerdos pequeños pueden convertirse en conflictos societarios."
+      "Si todo se lleva a Estatutos, cualquier aprendizaje posterior puede requerir reformas pesadas.",
+      "Si no se aclaran los criterios de entrada, puede aparecer discrecionalidad o conflicto sobre quién puede incorporarse."
     ],
     "commonTradeoffs": [
-      "Agilidad de gestión vs control colectivo",
-      "Consenso vs riesgo de bloqueo",
-      "Autonomía comunitaria vs necesidad de procedimiento claro",
-      "Seguridad jurídica vs capacidad de aprendizaje",
-      "Salida flexible vs estabilidad económica del proyecto",
+      "agilidad de gestión vs control colectivo",
+      "seguridad jurídica vs capacidad de aprendizaje",
+      "uso flexible del espacio vs prevención de conflictos de convivencia",
+      "consenso vs riesgo de bloqueo",
       "Estatutos mínimos vs sobrerregulación"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Competencias, convocatoria, quorum y mayorías esenciales",
-      "Composición, mandato, competencias y rendición de cuentas",
-      "Derechos y obligaciones esenciales de las personas socias",
-      "Quorum, mayorías reforzadas y decisiones que requieren protección especial",
-      "Principios de convivencia y posibilidad de mediación o régimen disciplinario"
+      "competencias, convocatoria, quorum y mayorías esenciales",
+      "composición, mandato, competencias y rendición de cuentas",
+      "derechos y obligaciones esenciales de las personas socias",
+      "materias estructurales y procedimiento de reforma estatutaria",
+      "criterios básicos de admisión y derechos de las personas socias"
     ],
     "usuallyInRRI": [
-      "Preparación de reuniones, dinámica interna, actas y seguimiento de acuerdos",
-      "Formas de coordinación, comunicación interna y preparación de acuerdos",
-      "Pautas cotidianas para hacer efectivos esos derechos y deberes",
-      "Facilitación, preparación de decisiones y mecanismos previos para evitar bloqueos",
-      "Pasos de mediación, tiempos de respuesta y personas de referencia"
+      "preparación de reuniones, dinámica interna, actas y seguimiento de acuerdos",
+      "formas de coordinación, comunicación interna y preparación de acuerdos",
+      "pautas cotidianas para hacer efectivos esos derechos y deberes",
+      "detalles revisables y procedimientos de actualización interna",
+      "pasos internos de solicitud, acompañamiento y documentación de la incorporación"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -79,49 +77,57 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
+      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
+      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas"
     ],
     "pointsToDecideSoon": [
-      "Decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
-      "Decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
-      "Separar obligaciones esenciales de compromisos prácticos revisables",
-      "Decidir qué materias requieren consenso, mayoría reforzada o mayoría ordinaria",
-      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "decidir qué decisiones pasan siempre por asamblea y cuáles pueden delegarse",
+      "decidir qué autonomía tendrá el órgano de gestión y cómo rendirá cuentas",
+      "separar obligaciones esenciales de compromisos prácticos revisables",
+      "decidir qué debe quedar estable y qué conviene poder ajustar con experiencia",
+      "definir qué criterios de entrada son imprescindibles y qué parte del proceso puede quedar como práctica revisable",
       "Separar qué debe quedar estable de qué puede aprenderse y actualizarse en RRI."
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Agilidad de gestión vs control colectivo",
-    "Consenso vs riesgo de bloqueo",
-    "Autonomía comunitaria vs necesidad de procedimiento claro",
-    "Seguridad jurídica vs capacidad de aprendizaje",
-    "Salida flexible vs estabilidad económica del proyecto"
+    "agilidad de gestión vs control colectivo",
+    "seguridad jurídica vs capacidad de aprendizaje",
+    "uso flexible del espacio vs prevención de conflictos de convivencia",
+    "consenso vs riesgo de bloqueo"
   ],
   "notableProjects": [
     {
-      "projectName": "Estatutos Tarocohousing",
-      "notableBecause": "Aparece en relación con derechos y obligaciones.",
+      "projectName": "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
+      "notableBecause": "Aparece en relación con asamblea, mayorías, consenso y bloqueo.",
       "references": [
-        "Estatutos Tarocohousing - Artículo 14.- Obligaciones de las personas socias",
-        "Estatutos Tarocohousing - Artículo 7.- Actividad cooperativizada.",
-        "Estatutos Tarocohousing - Artículo 9.- Clases de personas socias. Personas Usuarias."
+        "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA - 5. S ENENT V IDAL , Mª J., «El Reglamento de Régimen Interno. RRI», VV. AA., LEXCOOP, [base de datos en",
+        "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA - EL REGLAMENTO DE RÉGIMEN INTERNO DE LA",
+        "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA - 13. De manera análoga a lo que algunas leyes cooperativas requieren para la propuesta de modificación"
+      ]
+    },
+    {
+      "projectName": "Normativa Estatal",
+      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión, admisión de personas socias.",
+      "references": [
+        "Normativa Estatal - 1. Los Estatutos o el Reglamento de régimen interno, establecerán el régimen",
+        "Normativa Estatal - 1. Los Estatutos, el Reglamento de régimen interno o, en su defecto, la Asamblea",
+        "Normativa Estatal - 6. Los Estatutos, o el Reglamento de régimen interno, o en su defecto, la Asamblea"
       ]
     },
     {
       "projectName": "Rri Vallecas2homes",
-      "notableBecause": "Aparece en relación con asamblea, modificación de normas.",
+      "notableBecause": "Aparece en relación con modificación de normas.",
       "references": [
         "Rri Vallecas2homes - Artículo 3. Modificación del Reglamento de Régimen Interno.",
         "Rri Vallecas2homes - Artículo 6. Aplicación del Reglamento de Régimen Interno en las Fases",
@@ -129,33 +135,24 @@
       ]
     },
     {
-      "projectName": "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA",
-      "notableBecause": "Aparece en relación con asamblea, derechos y obligaciones, admisión de personas socias.",
-      "references": [
-        "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA - art. 34.1: “La convocatoria de la asamblea general tendrá que hacerse mediante anuncio destacado en el domi-",
-        "Articulo EL REGLAMENTO DE REGIMEN INTERNO DE LA COOPERATIVA - Documento completo"
-      ]
-    },
-    {
       "projectName": "Estatutos Elciempies",
-      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión, derechos y obligaciones.",
+      "notableBecause": "Aparece en relación con consejo rector u órgano de gestión, derechos y obligaciones.",
       "references": [
-        "Estatutos Elciempies - CAPITULO II",
-        "Estatutos Elciempies - CAPITULO I"
-      ]
-    },
-    {
-      "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión, mayorías, consenso y bloqueo.",
-      "references": [
-        "Estatutos Entrepatios - Artículo 74. Modificación de los Estatutos. Requisitos y modalidades."
+        "Estatutos Elciempies - e) No podrán desarrollar ac\u000evidades en competencia con las que desarrolle la"
       ]
     },
     {
       "projectName": "Estatutos La Borda",
-      "notableBecause": "Aparece en relación con asamblea, consejo rector u órgano de gestión, derechos y obligaciones.",
+      "notableBecause": "Aparece en relación con espacios comunes, mantenimiento y cuidados del espacio.",
       "references": [
-        "Estatutos La Borda - Artículo 7. Obligaciones de las socias y socios"
+        "Estatutos La Borda - 7.3. El reglamento de Régimen Interno debe especificar la delimitación de los"
+      ]
+    },
+    {
+      "projectName": "Estatutos Los Girasoles",
+      "notableBecause": "Aparece en relación con consejo rector u órgano de gestión, derechos y obligaciones.",
+      "references": [
+        "Estatutos Los Girasoles - e) No podrán desarrollar acƟvidades en competencia con las que desarrolle la"
       ]
     }
   ],

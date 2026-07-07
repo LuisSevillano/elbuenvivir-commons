@@ -1,0 +1,151 @@
+{
+  "slug": "expulsion_socio",
+  "title": "Expulsión de una persona socia",
+  "shortDescription": "Régimen disciplinario de la cooperativa: qué faltas se tipifican, qué garantías y cuándo cabe la expulsión, conforme al art. 24 de la Ley 4/2002 de CyL.",
+  "category": "disciplina",
+  "minimumContents": [
+    "Tipificar las faltas en Estatutos y clasificarlas en leves, graves y muy graves.",
+    "Reservar la expulsión únicamente a la falta muy grave.",
+    "Garantizar la audiencia previa y el derecho de recurso.",
+    "Atribuir la facultad sancionadora al Consejo Rector (indelegable).",
+    "Articular la mediación previa de la Comisión de Convivencia antes del expediente."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "Definir el catálogo concreto de faltas leves, graves y muy graves adaptado a una casa de uso compartido.",
+    "¿Se prevén multas económicas o solo suspensión y expulsión?",
+    "¿Se crea un Comité de Recursos o el recurso va directo a la Asamblea?",
+    "Cómo se articula la mediación de la Comisión de Convivencia antes de abrir expediente sancionador.",
+    "Incluir cláusula de protección: no expulsar por enfermedad o dependencia sobrevenida."
+  ],
+  "risks": [
+    "El régimen disciplinario está sin redactar: hoy solo hay una mención marco en el borrador y una Comisión de Convivencia orientada a mediación.",
+    "Sin garantías mínimas (audiencia, recurso), cualquier sanción sería impugnable.",
+    "Un régimen punitivo choca con vuestros valores de buen trato; conviene un enfoque restaurativo con la expulsión como último recurso."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "La tipificación de las faltas y que la expulsión solo proceda por falta muy grave son reserva estatutaria imperativa del art. 24: ese núcleo debe estar en los Estatutos y no puede trasladarse al RRI.",
+      "El resto (vía de mediación previa, instrucción, plazos y recurso) es desarrollo procedimental no reservado: los Estatutos lo remiten al RRI, que la Asamblea puede revisar sin acudir al registro."
+    ],
+    "shouldBeInStatutes": [
+      "Catálogo de faltas tipificadas (leves, graves y muy graves): reserva estatutaria del art. 24 que no puede ir al RRI.",
+      "Que la expulsión procede únicamente por falta muy grave (art. 24).",
+      "Atribución de la facultad sancionadora al Consejo Rector y garantías básicas de audiencia y recurso, con remisión expresa al RRI para su desarrollo.",
+      "Cláusula de protección: no expulsión por enfermedad o dependencia sobrevenida."
+    ],
+    "shouldBeInRRI": [
+      "Vía de mediación previa de la Comisión de Convivencia y acuerdos reparadores.",
+      "Procedimiento sancionador completo: instrucción, plazos de alegaciones y de resolución.",
+      "Régimen y plazos de recurso, prescripción y seguimiento de las sanciones."
+    ],
+    "canBeDeferredInitially": []
+  },
+  "relatedTopics": [
+    { "topicSlug": "conflictos_y_mediacion", "relationship": "complements", "explanation": "La mediación es la vía previa al régimen sancionador." },
+    { "topicSlug": "baja_socio", "relationship": "complements", "explanation": "La expulsión es una forma de pérdida de la condición de socio con efectos económicos." },
+    { "topicSlug": "reembolso_aportaciones", "relationship": "depends_on", "explanation": "La expulsión activa el reembolso con la deducción máxima legal." }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "El régimen disciplinario se regula en el artículo 24 de la Ley 4/2002 CyL (con el art. 21 para la baja obligatoria). Es una materia muy garantista: la ley impone reglas que no podéis rebajar.",
+        "Lo esencial: solo se sanciona por faltas previstas en los Estatutos; la expulsión procede únicamente por falta muy grave; y la facultad sancionadora es indelegable del Consejo Rector, siempre con audiencia previa."
+      ],
+      "requirements": [
+        { "aspect": "Tipificación de faltas", "law": "Ley 4/2002 CyL, art. 24.1", "requirement": "Solo se sanciona por faltas previstas en Estatutos, clasificadas en leves, graves y muy graves.", "margin": "Definís el catálogo de faltas." },
+        { "aspect": "Órgano sancionador", "law": "Ley 4/2002 CyL, art. 24.3.a", "requirement": "Facultad sancionadora indelegable del Consejo Rector.", "margin": "—" },
+        { "aspect": "Audiencia previa", "law": "Ley 4/2002 CyL, art. 24.3.b", "requirement": "Preceptiva siempre; alegaciones por escrito en faltas graves y muy graves.", "margin": "—" },
+        { "aspect": "Expulsión", "law": "Ley 4/2002 CyL, art. 24.5", "requirement": "Solo procede por falta muy grave.", "margin": "—" },
+        { "aspect": "Prescripción de faltas", "law": "Ley 4/2002 CyL, art. 24.2", "requirement": "Leves: 2 meses · graves: 4 meses · muy graves: 6 meses.", "margin": "—" },
+        { "aspect": "Recurso", "law": "Ley 4/2002 CyL, art. 24.3.c", "requirement": "Ante Comité de Recursos o Asamblea; si no se resuelve en plazo, se entiende estimado.", "margin": "Decidís si creáis Comité de Recursos." }
+      ],
+      "citations": [
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 24.1 (tipificación)", "excerpt": "Los socios sólo podrán ser sancionados por las faltas previamente tipificadas en los Estatutos, que se clasificarán en faltas leves, graves y muy graves." },
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 24.5 (expulsión)", "excerpt": "La expulsión del socio procederá únicamente por falta muy grave y podrá ser impugnada en los mismos plazos y términos previstos en el número 3 de este artículo." }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo estructuran el régimen disciplinario otras cooperativas. La expulsión siempre va en Estatutos (no en el RRI) y solo por falta muy grave.",
+      "columns": [
+        { "key": "sancion", "label": "Sanción de falta muy grave" },
+        { "key": "audiencia", "label": "Audiencia / alegaciones" },
+        { "key": "proteccion", "label": "Cláusula de protección" }
+      ],
+      "rows": [
+        {
+          "project": "Tarocohousing",
+          "cells": { "sancion": "Multa 301-600 € o expulsión (también de convivientes)", "audiencia": "15 días para alegaciones", "proteccion": "No reingreso tras expulsión" },
+          "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+          "articleOrSection": "Artículo 20 — Procedimiento de expulsión",
+          "excerpt": "La expulsión, que sólo podrá fundarse en causa muy grave prevista en estos Estatutos, será determinada por el Consejo Rector, a resultas del expediente instruido y con audiencia de la persona interesada, quien tendrá 15 días naturales para presentar alegaciones. El acuerdo motivado habrá de recaer en el plazo de tres meses. En el caso de expulsión de una persona socia de vivienda, las personas que habitualmente convivan con ella deberán abandonar igualmente la vivienda. La persona expulsada no podrá volver a formar parte de la cooperativa."
+        },
+        {
+          "project": "Axuntase (Asturias)",
+          "cells": { "sancion": "Expulsión por causa muy grave", "audiencia": "15 días naturales", "proteccion": "—" },
+          "documentSlug": "docs-estatutos-estatutos-axuntase",
+          "articleOrSection": "Artículos 14-17 — Régimen disciplinario",
+          "excerpt": "La facultad sancionadora es competencia indelegable del Consejo Rector. La expulsión, que sólo podrá fundarse en causa muy grave prevista en estos Estatutos, será determinada por el Consejo Rector, a resultas del expediente instruido y con audiencia del interesado/a, quien tendrá 15 días naturales para presentar el escrito de alegaciones."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": { "sancion": "Multa hasta 6.000 €, inhabilitación o expulsión", "audiencia": "2 semanas; resolución en 1 mes", "proteccion": "Tipifica la 'desconsideración' como falta" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículos 18-22 — Faltas y procedimiento",
+          "excerpt": "Las faltas muy graves se sancionan con: una multa de hasta 6.000 euros; la inhabilitación para ejercer cargos hasta cinco años; o la expulsión. Corresponde al Consejo Rector la potestad sancionadora, previa instrucción del expediente y audiencia del interesado en un plazo de dos semanas. Entre las faltas muy graves: comportarse con desconsideración en las relaciones con las otras socias y socios."
+        },
+        {
+          "project": "Los Girasoles / El Ciempiés",
+          "cells": { "sancion": "Expulsión por falta muy grave", "audiencia": "Según ley", "proteccion": "No expulsión por enfermedad o dependencia sobrevenida" },
+          "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+          "articleOrSection": "Derechos de la persona socia (cláusula de protección)",
+          "excerpt": "Derecho a no ser expulsado/a de la cooperativa por enfermedad, dependencia o incapacidad parcial o total sobrevenida con posterioridad a su ingreso."
+        }
+      ],
+      "note": "La cláusula de protección de Los Girasoles/El Ciempiés (no expulsar por enfermedad sobrevenida) encaja muy bien con vuestro valor de cuidado. La Borda tipifica la 'desconsideración', útil para una comunidad basada en el buen trato."
+    },
+    "proposal": {
+      "rationale": [
+        "El grupo no ha tratado el régimen disciplinario en ninguna asamblea de 2026: solo hay una mención marco en el borrador de estatutos y una Comisión de Convivencia orientada a la mediación y la prevención, no a sancionar.",
+        "Coherente con vuestros valores (buen trato, horizontalidad, familia elegida), conviene un enfoque restaurativo: la mediación de la Comisión de Convivencia como vía previa, y la expulsión como último recurso reservado por ley a la falta muy grave.",
+        "La ley exige tipificar las faltas en Estatutos con garantías; no se puede dejar todo al RRI."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Régimen disciplinario (núcleo estatutario)",
+          "text": "Las personas socias solo podrán ser sancionadas por las faltas tipificadas en estos Estatutos, clasificadas en leves, graves y muy graves. La facultad sancionadora corresponde de forma indelegable al Consejo Rector, previa audiencia de la persona interesada y con derecho de recurso. La expulsión procederá únicamente por falta muy grave. No procederá la expulsión por enfermedad, dependencia o incapacidad sobrevenida tras el ingreso. La instrucción del expediente, los plazos de alegaciones y de resolución, el régimen del recurso y la vía de mediación previa se desarrollarán en el Reglamento de Régimen Interno, respetando en todo caso las garantías imperativas de la Ley 4/2002.",
+          "note": "La tipificación de faltas (leves/graves/muy graves) y la reserva de la expulsión a la falta muy grave son reserva estatutaria del art. 24 y no pueden ir al RRI. El detalle del procedimiento sí se remite al Reglamento para poder ajustarlo sin modificar los Estatutos."
+        },
+        {
+          "target": "rri",
+          "heading": "Vía restaurativa previa (Comisión de Convivencia)",
+          "text": "Antes de la apertura de cualquier expediente sancionador, la Comisión de Convivencia ofrecerá un proceso de mediación basado en el diálogo, con el objetivo de alcanzar acuerdos reparadores. Solo si la mediación fracasa o la falta es muy grave se activará el procedimiento disciplinario ante el Consejo Rector.",
+          "note": "Alinea el andamiaje legal con vuestro enfoque de convivencia."
+        },
+        {
+          "target": "rri",
+          "heading": "Procedimiento sancionador: instrucción, plazos y recurso",
+          "text": "Instruido el expediente por la persona o comisión que designe el Consejo Rector, en las faltas graves y muy graves la persona interesada dispondrá de quince días para presentar alegaciones por escrito. El Consejo Rector resolverá de forma motivada dentro del plazo máximo previsto en la ley y su acuerdo podrá recurrirse ante la Asamblea General en el plazo de un mes (o ante el Comité de Recursos, si el grupo decide crearlo). Se respetarán los plazos de prescripción de las faltas fijados por la ley (leves 2 meses, graves 4 meses, muy graves 6 meses). Las sanciones serán objeto de seguimiento y, cuando proceda, de acuerdos reparadores.",
+          "note": "Desarrolla el detalle procedimental que la ley no reserva a los Estatutos; la Asamblea puede revisarlo sin modificar los Estatutos ni acudir al registro."
+        }
+      ],
+      "openDecisions": [
+        "Definir el catálogo concreto de faltas (impago reiterado de cuotas, uso abusivo, incumplimiento grave de convivencia, daños dolosos…).",
+        "¿Multas económicas, o solo suspensión y expulsión?",
+        "¿Crear un Comité de Recursos o recurrir directamente a la Asamblea?",
+        "Articular la relación entre la mediación (Convivencia) y el expediente (Consejo Rector).",
+        "Confirmar la cláusula de protección por enfermedad o dependencia."
+      ],
+      "disclaimer": "Borrador de trabajo a partir del art. 24 de la Ley 4/2002 CyL y los estatutos de otras cooperativas. El grupo aún no ha debatido este tema; requiere decisión en asamblea y revisión jurídica."
+    }
+  },
+  "suggestedClause": {
+    "text": "Las personas socias solo podrán ser sancionadas por faltas tipificadas en estos Estatutos (leves, graves y muy graves). La facultad sancionadora corresponde indelegablemente al Consejo Rector, con audiencia previa y derecho de recurso. La expulsión procederá únicamente por falta muy grave y no procederá por enfermedad o dependencia sobrevenida. El procedimiento, los plazos y la mediación previa se desarrollarán en el Reglamento de Régimen Interno.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente y debatir en asamblea antes de su aprobación.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

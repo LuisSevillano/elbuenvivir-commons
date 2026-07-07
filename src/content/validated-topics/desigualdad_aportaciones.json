@@ -2,100 +2,104 @@
   "slug": "desigualdad_aportaciones",
   "status": "reviewed",
   "editorialSummary": [
-    "Este tema es central para El Buen Vivir porque una diferencia económica inicial puede convertirse, si no se cuida, en una diferencia de poder, expectativa o prioridad de uso.",
-    "La documentación permite sostener una idea prudente: las aportaciones pueden tener efectos económicos distintos, pero no deberían traducirse automáticamente en más voto, más voz o más derecho de uso.",
-    "La parte difícil no está solo en permitir o no aportaciones desiguales, sino en explicar qué significan, cómo se documentan y cómo se devuelven si alguien sale.",
-    "Conviene hablarlo antes de redactar, porque muchas tensiones aparecen tarde: cuando entra una nueva persona, cuando alguien no puede aportar igual o cuando una socia sale y pide liquidación."
+    "El grupo ya decidió que cada Socio A aporte una cantidad distinta a la cuota umbral de 10.000 € según su capacidad (aportación flexible, no obligatoria, aprobada en diciembre de 2025 y confirmada en las Reuniones 19-21 de 2026).",
+    "El punto clave es que aportar más no puede convertirse en más poder: la Ley 4/2002 mantiene un voto por persona, así que la desigualdad económica no debería tocar el voto, la prioridad de reserva ni el trato en la comunidad.",
+    "La parte abierta y delicada es el RETORNO del dinero puesto por encima del umbral (la Comisión de Economía propone 5% / 4% / 3% anual): un retorno 'garantizado' fijo tiene un encaje jurídico frágil y conviene decidir su forma legal antes de aprobarlo."
   ],
   "decisionQuestions": [
     {
-      "id": "economic_difference",
-      "question": "¿Qué diferencias económicas son aceptables sin romper la igualdad cooperativa?",
+      "id": "minimum_and_flexible",
+      "question": "¿Cómo se sostiene la aportación flexible sin excluir a nadie ni romper la igualdad?",
       "recommendationsForBuenVivir": [
-        "El grupo debería distinguir entre capacidad de aportar, derechos políticos, derechos de uso y expectativas de devolución. Mezclarlos suele generar conflicto."
+        "Fijar en Estatutos una aportación obligatoria mínima baja e igual para todas (art. 60) y tratar todo lo que va por encima, hasta el umbral de 10.000 €, como aportación voluntaria y flexible."
       ]
     },
     {
-      "id": "political_rights",
-      "question": "¿Queda claro que aportar más no da más voto ni prioridad comunitaria?",
+      "id": "one_member_one_vote",
+      "question": "¿Queda claro que aportar más no da más voto ni más prioridad?",
       "recommendationsForBuenVivir": [
-        "Si se admiten aportaciones distintas, conviene decir expresamente qué no cambian: voto, participación, trato comunitario y acceso a decisiones."
+        "Dejar escrito que la cuantía aportada no altera los derechos políticos: cada persona socia tiene un voto (art. 35.1) y la misma prioridad de reserva y trato comunitario."
       ]
     },
     {
-      "id": "refund_and_exit",
-      "question": "¿Cómo se devuelve una aportación desigual si la persona sale?",
+      "id": "return_mechanism",
+      "question": "¿Cómo se devuelve el exceso aportado por encima del umbral?",
       "recommendationsForBuenVivir": [
-        "La salida es donde la desigualdad económica se vuelve más sensible. Conviene definir criterios de reembolso antes de que exista un caso concreto."
+        "Decidir si se aprueba la tabla 5% / 4% / 3% de la Comisión de Economía y, sobre todo, si el exceso es capital voluntario (retorno limitado por el art. 63) o préstamo/financiación que no integra capital (retorno pactado por contrato)."
       ]
     },
     {
-      "id": "future_members",
-      "question": "¿Qué ocurrirá con nuevas incorporaciones si el nivel económico inicial no es replicable?",
+      "id": "refund_on_exit",
+      "question": "¿Qué pasa con la aportación y el exceso si una persona se da de baja?",
       "recommendationsForBuenVivir": [
-        "Una regla pensada para el grupo fundador puede ser injusta o inviable para futuras entradas si no se revisa con anticipación."
+        "Definir antes de que haya un caso real si se devuelve la cuota umbral y el exceso pendiente, y con qué plazos y deducciones dentro de los topes del art. 66."
       ]
     }
   ],
   "supportedFindings": [
     {
+      "id": "flexible_contribution_allowed",
+      "statement": "La ley permite que la aportación obligatoria mínima sea diferente por socio en proporción al compromiso o uso, y admite aportaciones voluntarias.",
+      "summary": "El art. 60.1 y el art. 62 dan base legal a la aportación flexible ya aprobada por el grupo."
+    },
+    {
       "id": "one_member_one_vote",
-      "statement": "La igualdad política de las personas socias debe protegerse aunque existan diferencias económicas.",
-      "summary": "El principio una persona, un voto es el límite editorial más importante para no convertir aportación económica en poder interno."
+      "statement": "En una cooperativa de usuarios cada socio tiene un voto, con independencia del capital aportado.",
+      "summary": "El art. 35.1 protege la igualdad política; aportar más no puede traducirse en más voto."
     },
     {
-      "id": "economic_rights_separate",
-      "statement": "La documentación permite separar derechos económicos de derechos políticos.",
-      "summary": "Esto abre espacio para regular aportaciones distintas sin romper el funcionamiento democrático, siempre que se explique bien."
+      "id": "return_is_fragile",
+      "statement": "Un retorno fijo garantizado sobre el capital choca con el límite de que la remuneración no supere los resultados positivos del ejercicio.",
+      "summary": "El art. 63.2 hace frágil el 'retorno garantizado' si el exceso se contabiliza como capital; encaja mejor como préstamo o financiación que no integra capital."
     },
     {
-      "id": "refund_conditions",
-      "statement": "Las condiciones de reembolso necesitan una regla propia cuando hay aportaciones de distinta naturaleza o cuantía.",
-      "summary": "El conflicto no aparece al aportar, sino al salir, transmitir o actualizar derechos económicos."
+      "id": "voluntary_return_pattern",
+      "statement": "Otras cooperativas separan aportación obligatoria de voluntaria y remuneran solo la voluntaria dentro de los límites legales.",
+      "summary": "La Borda, Senior Cohousing Huelva y Entrepatios muestran el patrón: mínimo igual y bajo, exceso como voluntario con reembolso regulado."
     }
   ],
   "unsupportedClaims": [
     {
-      "claimId": "desigualdad_aportaciones-voluntary_contributions",
-      "statement": "Las aportaciones voluntarias adicionales están claramente permitidas y reguladas en todos los proyectos relevantes.",
-      "reason": "Hay referencias útiles sobre aportaciones voluntarias, pero parte del material aparece mezclado con índices, guías o contextos generales. No conviene convertirlo en afirmación universal."
+      "claimId": "desigualdad_aportaciones-guaranteed_return",
+      "statement": "El retorno del 5% / 4% / 3% está aprobado y es plenamente compatible con la ley.",
+      "reason": "Es una propuesta de la Comisión de Economía, no un acuerdo de Asamblea, y su encaje legal depende de si el exceso se trata como capital o como préstamo. No debe presentarse como decisión cerrada ni como algo garantizado sin revisión jurídica."
     },
     {
       "claimId": "desigualdad_aportaciones-unequal_effects",
       "statement": "Las aportaciones desiguales nunca alteran derechos de uso ni prioridad.",
-      "reason": "Es una orientación prudente, pero la documentación no permite afirmarla como regla cerrada para cualquier diseño cooperativo."
+      "reason": "Es la orientación prudente y coherente con los valores del grupo, pero la documentación no permite afirmarla como regla cerrada para cualquier diseño; hay que fijarla expresamente en los estatutos/RRI."
     }
   ],
   "recommendationsForBuenVivir": [
-    "Decidir por escrito qué consecuencias no tendrá aportar más: no más voto, no más prioridad automática y no más autoridad informal.",
-    "Separar aportaciones obligatorias, aportaciones voluntarias, préstamos, cuotas y pagos por uso con nombres distintos y efectos distintos.",
-    "Acordar qué ocurre si una persona no puede igualar la aportación inicial prevista por el grupo fundador.",
-    "Definir criterios de devolución antes de que haya una baja, para evitar que el conflicto económico llegue cuando la relación ya está deteriorada.",
-    "Revisar jurídicamente cualquier fórmula que vincule dinero, uso de vivienda o posición societaria."
+    "Fijar en Estatutos una aportación obligatoria mínima baja e igual y dejar el umbral de 10.000 € como referencia orientativa en el RRI (como pidió el grupo en la Reunión 20).",
+    "Escribir expresamente que aportar más no da más voto, ni más prioridad de reserva, ni más autoridad informal.",
+    "Antes de aprobar el retorno 5% / 4% / 3%, decidir con asesoría jurídica si el exceso es aportación voluntaria al capital o préstamo/financiación que no integra capital.",
+    "Aclarar de qué bolsa se paga el retorno y qué se hace si el precio de la casa supera el capital reunido (subir el umbral o imputar a mantenimiento, como se planteó en la Reunión 21).",
+    "Definir los criterios de reembolso de la aportación y del exceso en caso de baja antes de que exista un caso concreto."
   ],
   "statutesVsRRI": {
     "statutes": [
-      "Principio de igualdad política y una persona, un voto.",
-      "Naturaleza de las aportaciones y efectos económicos básicos.",
-      "Criterios generales de reembolso, transmisión y ausencia de privilegios políticos."
+      "Aportación obligatoria mínima al capital para ser socio y su desembolso.",
+      "Principio de una persona = un voto con independencia de lo aportado.",
+      "Naturaleza de las aportaciones voluntarias y régimen general de reembolso en caso de baja."
     ],
     "rri": [
-      "Calendario de pagos, comunicación interna y seguimiento de compromisos económicos.",
-      "Procedimiento para tratar dificultades de pago o aportaciones no homogéneas.",
-      "Pautas de transparencia para que el grupo entienda qué aporta cada concepto y qué derechos genera."
+      "Umbral orientativo de 10.000 € y su flexibilidad por socio (cantidades y plazos).",
+      "Tabla de retorno del exceso (5% / 4% / 3%) y funcionamiento del Fondo de Distribución y Equilibrio.",
+      "Calendario de aportaciones, seguimiento de compromisos y tratamiento de dificultades de pago."
     ],
     "notes": [
-      "Si la desigualdad económica afecta indirectamente al uso, la regla debe revisarse con asesoría jurídica antes de aprobarse."
+      "El retorno garantizado debe revisarse jurídicamente antes de aprobarse: como remuneración del capital no puede superar los resultados del ejercicio (art. 63.2)."
     ]
   },
   "referencesToUse": [
-    "docs-estatutos-estatutos-tarocohousing: regulación de capital social, aportaciones y reembolso rehusable.",
-    "docs-estatutos-estatutos-senior-cohousing-huelva: artículo sobre aportaciones obligatorias y voluntarias.",
-    "docs-estatutos-estatutos-entrepatios: capital social y financiaciones que no integran capital.",
-    "docs-leyes-normativa-estatal: marco general sobre capital social y aportaciones cooperativas."
+    "docs-leyes-normativa-autonomica: art. 35.1 (un voto por socio), art. 60.1 (aportación obligatoria diferenciada), art. 62 (aportaciones voluntarias), art. 63 (remuneración del capital), art. 66 (reembolso).",
+    "docs-estatutos-estatutos-la-borda: art. 23 (obligatorias no se remuneran, voluntarias sí) y art. 23.8 (reembolso rehusable).",
+    "docs-estatutos-estatutos-senior-cohousing-huelva: art. 33.2 (aportaciones voluntarias y su interés).",
+    "docs-estatutos-estatutos-entrepatios: art. 15 (reembolso de aportaciones obligatorias y voluntarias en la baja)."
   ],
   "referencesToAvoid": [
-    "No usar portadas, índices o fragmentos generales de guías como base para afirmar reglas concretas sobre igualdad política.",
-    "No presentar aportaciones voluntarias como solución sencilla sin definir devolución, documentación y límites de influencia."
+    "No presentar la tabla de retorno 5% / 4% / 3% como acuerdo cerrado: es propuesta de la Comisión de Economía, no acuerdo de Asamblea.",
+    "No usar portadas, índices ni guías generales como base para afirmar reglas concretas sobre igualdad política o retorno."
   ]
 }

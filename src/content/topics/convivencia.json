@@ -1,0 +1,209 @@
+{
+  "slug": "convivencia",
+  "title": "Convivencia y normas de convivencia",
+  "shortDescription": "Cómo acordar el buen trato, el cuidado y el uso responsable de una casa compartida en una cooperativa de usuarios de Castilla y León: normas de convivencia, corresponsabilidad y papel de la Comisión de Convivencia. Es materia esencialmente de Reglamento de Régimen Interno, porque la ley apenas la regula.",
+  "category": "convivencia",
+  "minimumContents": [
+    "Enunciar los valores que ordenan la convivencia: buen trato, cuidado, horizontalidad, corresponsabilidad.",
+    "Fijar deberes básicos de convivencia (respeto, uso responsable de los espacios y bienes comunes, participación en tareas).",
+    "Regular el uso cotidiano de la casa compartida: ruidos y descansos, limpieza, tareas comunes, animales, invitados.",
+    "Definir el papel de la Comisión de Convivencia: promover el buen trato, prevenir y acompañar conflictos, revisar las normas.",
+    "Separar la convivencia (acuerdos y buen trato) de la disciplina (faltas tipificadas y sanciones), que se rige por sus propias reglas.",
+    "Prever revisión periódica de las normas para adaptarlas a la vida real de la casa."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿El buen trato y los valores de convivencia se enuncian ya en los Estatutos (con fuerza identitaria) o solo en el RRI (más flexible)?",
+    "¿Qué normas mínimas de uso responsable de la casa se aprueban ahora y cuáles se difieren hasta conocer el inmueble?",
+    "¿La Comisión de Convivencia será permanente o rotativa, y con qué mandato exacto (mediar, proponer normas, acompañar entradas y salidas)?",
+    "¿Qué ocurre cuando alguien incumple una norma de convivencia: recordatorio y mediación, o se activa el procedimiento disciplinario? ¿Dónde está la frontera?",
+    "¿Cómo se reparten las tareas de cuidado y mantenimiento para no cargarlas siempre sobre las mismas personas?"
+  ],
+  "risks": [
+    "Dejar la convivencia solo como valores abstractos, sin acuerdos concretos de uso de la casa, genera conflictos incluso entre amigos.",
+    "Confundir convivencia con disciplina: sancionar el 'mal trato' sin haberlo tipificado como falta en los Estatutos es jurídicamente inválido (art. 24 Ley 4/2002 CyL).",
+    "Sobrerregular la vida cotidiana antes de conocer la casa produce normas inútiles que nadie cumple.",
+    "Que la gestión emocional y de conflictos recaiga siempre en las mismas personas (con frecuencia mujeres) contradice la horizontalidad y el ecofeminismo del grupo.",
+    "Meter en Estatutos reglas operativas de convivencia las vuelve rígidas: cada ajuste exigiría modificación estatutaria."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "rri",
+    "rationale": [
+      "La Ley 4/2002 apenas regula la convivencia: solo obliga a fijar en Estatutos los derechos y deberes de los socios (art. 13.h) y a que los acuerdos válidos se cumplan (art. 23). Todo lo demás es autoorganización.",
+      "El RRI es la sede natural de la convivencia: lo aprueba y modifica la Asamblea (art. 31.f) sin la rigidez de una reforma estatutaria, y puede ajustarse a medida que la casa se usa.",
+      "Conviene dejar en Estatutos solo el ancla de valores y el deber de buen trato, y desarrollar en el RRI las normas concretas y la Comisión de Convivencia."
+    ],
+    "shouldBeInStatutes": [
+      "Enunciado de los valores del proyecto (buen trato, cuidado, horizontalidad) como principios.",
+      "Deber general de contribuir a la convivencia y al buen uso de los espacios y bienes comunes.",
+      "Remisión al RRI para el desarrollo de las normas de convivencia."
+    ],
+    "shouldBeInRRI": [
+      "Normas concretas de uso responsable de la casa (ruidos y descansos, limpieza, tareas, animales, invitados).",
+      "Reparto y corresponsabilidad en las tareas de cuidado y mantenimiento.",
+      "Composición, mandato y funcionamiento de la Comisión de Convivencia.",
+      "Cauces de prevención y acompañamiento de conflictos previos a cualquier expediente disciplinario."
+    ],
+    "canBeDeferredInitially": [
+      "El detalle fino de las normas de uso cotidiano hasta conocer la casa y su capacidad real.",
+      "Protocolos de mediación escritos, que pueden madurar con la experiencia del grupo."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Fijar en Estatutos normas de uso cotidiano las vuelve rígidas y obliga a una reforma estatutaria para cualquier ajuste."
+    ],
+    "risksIfPlacedInRRI": [
+      "Si ni siquiera el valor del buen trato aparece en Estatutos, la identidad del proyecto queda sin ancla en la norma superior."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "relationship": "complements",
+      "explanation": "Las normas de convivencia ordenan el buen uso de los espacios comunes; el uso de espacios concreta esa convivencia en reservas y responsabilidades."
+    },
+    {
+      "topicSlug": "expulsion_socio",
+      "relationship": "limits",
+      "explanation": "El incumplimiento grave de la convivencia puede escalar a disciplina; pero solo se sanciona por faltas previamente tipificadas (art. 24), así que convivencia y régimen sancionador son cosas distintas."
+    },
+    {
+      "topicSlug": "baja_socio",
+      "relationship": "complements",
+      "explanation": "La Comisión de Convivencia acompaña las entradas y salidas de personas para que las transiciones sean cuidadas."
+    },
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "depends_on",
+      "explanation": "Los deberes de convivencia alcanzan tanto a socios A como B y a quienes conviven habitualmente con ellos e invitados."
+    }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "En una cooperativa de usuarios de Castilla y León rige la Ley 4/2002. Sobre convivencia la ley dice muy poco: obliga a que los Estatutos recojan los derechos y deberes de los socios (art. 13.h) y que los acuerdos válidamente adoptados se cumplan (art. 23), pero no regula la vida cotidiana de una casa compartida. Ese silencio es una buena noticia: la convivencia es campo casi libre para vuestra autoorganización.",
+        "La consecuencia práctica es que la convivencia es materia esencialmente de Reglamento de Régimen Interno. El RRI lo aprueba y modifica la Asamblea General (art. 31.f) con más agilidad que una reforma estatutaria, y cada persona socia debe recibir copia de Estatutos y RRI (art. 22.3.a). Cuidado con una frontera importante: reprochar o sancionar un mal comportamiento solo es válido si esa conducta está tipificada como falta en los Estatutos (art. 24); por eso la convivencia (acuerdos y buen trato) y la disciplina (faltas y sanciones) deben tratarse por separado."
+      ],
+      "requirements": [
+        { "aspect": "Derechos y deberes de los socios", "law": "Ley 4/2002 CyL, art. 13.h", "requirement": "Los Estatutos deben recoger los derechos y deberes de los socios.", "margin": "La formulación del buen trato y de los deberes de convivencia es vuestra; el detalle puede ir al RRI." },
+        { "aspect": "Cumplimiento de acuerdos", "law": "Ley 4/2002 CyL, art. 23.2.a", "requirement": "Los socios deben cumplir los acuerdos válidamente adoptados por los órganos sociales.", "margin": "Las normas de convivencia aprobadas en Asamblea obligan a todas las personas socias." },
+        { "aspect": "Sede del RRI", "law": "Ley 4/2002 CyL, art. 31.f", "requirement": "La aprobación y modificación del Reglamento de Régimen Interno es competencia de la Asamblea General.", "margin": "Podéis desarrollar toda la convivencia en el RRI y revisarla sin reforma estatutaria." },
+        { "aspect": "Conocimiento de las normas", "law": "Ley 4/2002 CyL, art. 22.3.a", "requirement": "Cada socio debe recibir copia de los Estatutos y, si existe, del RRI y sus modificaciones.", "margin": "Garantiza que las normas de convivencia sean conocidas y exigibles." },
+        { "aspect": "Frontera con la disciplina", "law": "Ley 4/2002 CyL, art. 24.1", "requirement": "Solo cabe sancionar por faltas previamente tipificadas en los Estatutos (leves, graves, muy graves).", "margin": "El buen trato es un valor y un acuerdo; para poder sancionar su incumplimiento habría que tipificarlo como falta (materia de disciplina)." },
+        { "aspect": "Vida cotidiana de la casa", "law": "Ley 4/2002 CyL (sin regulación específica)", "requirement": "La ley no regula ruidos, limpieza, tareas, invitados ni uso ordinario de espacios.", "margin": "Campo libre: lo acordáis en el RRI conforme a vuestros valores." }
+      ],
+      "citations": [
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 13.h (contenido de los Estatutos)",
+          "excerpt": "Derechos y deberes de los socios, indicando el compromiso o la participación mínima en las actividades de la cooperativa."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 23 (obligaciones de los socios)",
+          "excerpt": "1. Los socios están obligados a cumplir los deberes legales y estatutarios. 2. En especial, los socios tendrán las siguientes obligaciones: a) Asistir a las reuniones de la Asamblea general y de los demás órganos sociales de los que formen parte, así como cumplir los acuerdos válidamente adoptados por los mismos."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 31.f (competencia de la Asamblea sobre el RRI)",
+          "excerpt": "Modificación de Estatutos, excepto lo previsto en el artículo 58 de esta ley y aprobación o modificación, en su caso, del Reglamento de Régimen Interno de la cooperativa."
+        }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo tratan la convivencia otras cooperativas del corpus. El patrón es claro: los valores y un deber genérico van en Estatutos, y las normas concretas y la comisión, en el RRI.",
+      "columns": [
+        { "key": "instrumento", "label": "Dónde lo regula" },
+        { "key": "formula", "label": "Cómo lo formula" },
+        { "key": "organo", "label": "Órgano de convivencia" }
+      ],
+      "rows": [
+        {
+          "project": "Ejemplo RRI cesión de uso",
+          "cells": { "instrumento": "RRI", "formula": "Deber de contribuir a la convivencia pacífica y de respetar las normas de las áreas comunes", "organo": "Comisión de Convivencia con mandato propio" },
+          "documentSlug": "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+          "articleOrSection": "Deberes de los socios y Comités y Delegaciones",
+          "excerpt": "a) Deber de Contribuir a la Convivencia Pacífica: Los socios deben contribuir activamente a mantener un ambiente de convivencia pacífica y respetuosa en la cooperativa, promoviendo la colaboración y el diálogo. [...] d) Deber de Respetar las Normas de Convivencia: Los socios deben respetar las normas de convivencia establecidas en el Reglamento, incluyendo el respeto a las áreas comunes, el buen uso de las instalaciones y la consideración hacia otros socios. [...] a) Comisión de Convivencia: Encargada de promover un ambiente armonioso y colaborativo entre los residentes. Puede abordar temas relacionados con la convivencia, eventos comunitarios y programas que fomenten la interacción entre los miembros."
+        },
+        {
+          "project": "Axuntase (Asturias)",
+          "cells": { "instrumento": "RRI", "formula": "Capítulo específico de Normas de Convivencia, de obligado cumplimiento", "organo": "El Consejo Rector dirime; consulta a la Asamblea" },
+          "documentSlug": "docs-rri-rri-axuntase",
+          "articleOrSection": "Introducción y Capítulo V. Normas de convivencia",
+          "excerpt": "Las normas de este Reglamento serán de obligado cumplimiento por todas/os las/os socias/os de la Cooperativa. [...] Consideramos fundamental que los espacios comunes faciliten y estimulen la interacción social y la convivencia. [...] CAPÍTULO V. NORMAS DE CONVIVENCIA"
+        },
+        {
+          "project": "Tarocohousing (Canarias)",
+          "cells": { "instrumento": "Estatutos", "formula": "Obligación de solidaridad y co-cuidado como deber estatutario", "organo": "No específica" },
+          "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+          "articleOrSection": "Obligaciones de las personas socias",
+          "excerpt": "k) Contribuir con sus acciones a la solidaridad y al co-cuidado del resto de cooperativistas."
+        },
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": { "instrumento": "Estatutos", "formula": "Deber de consideración y de respetar las normas de convivencia de la comunidad", "organo": "No específica" },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Obligaciones de las personas socias",
+          "excerpt": "Comportarse con la debida consideración en sus relaciones con las demás personas socias, con los empleados de la Cooperativa o con los que en cada momento ostenten en la misma cargos de administración, de representación, y de fiscalización económico-contable y en especial respetar las normas de convivencia de la comunidad de usuarios del edificio."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": { "instrumento": "Estatutos", "formula": "Aceptar las normas de convivencia es requisito de admisión", "organo": "No específica" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Requisitos de admisión",
+          "excerpt": "b) Estar de acuerdo con los principales objetivos del proyecto y con las normas de convivencia que la Cooperativa establezca."
+        },
+        {
+          "project": "El Ciempiés (Madrid)",
+          "cells": { "instrumento": "Estatutos", "formula": "Valores de cuidado y buen trato; la falta de respeto se tipifica como falta", "organo": "No específica (Consejo Rector sanciona)" },
+          "documentSlug": "docs-estatutos-estatutos-elciempies",
+          "articleOrSection": "Principios y régimen de faltas",
+          "excerpt": "11 Responsabilidad en el cuidado personal que favorecerá la consideración y el cuidado de las personas socias y de quienes convivan habitualmente con ellas. [...] Son faltas leves: [...] b. La falta de respeto y consideración para con otras personas socias, personas que convivan habitualmente con ellas, trabajadores/as y personal voluntario de la cooperativa."
+        }
+      ],
+      "note": "Dos caminos complementarios: enunciar el buen trato y el cuidado como deber/valor en los Estatutos (Tarocohousing, Entrepatios, La Borda, El Ciempiés) y desarrollar las normas concretas y una Comisión de Convivencia en el RRI (ejemplo de cesión de uso, Axuntase). El Ciempiés muestra la frontera: para poder sancionar la falta de respeto, la tipifica como falta; eso ya es disciplina, no convivencia."
+    },
+    "proposal": {
+      "rationale": [
+        "El buen trato es, en palabras del propio grupo, 'el centro de todo'; junto al cuidado y la horizontalidad son los valores nucleares, así que merecen figurar como principio en los Estatutos.",
+        "El proyecto es una casa rural de uso vacacional compartido entre amigos: las normas deben ser pocas, claras y revisables, no un reglamento exhaustivo previo a conocer la casa. Por eso el grueso va al RRI.",
+        "El grupo ya tiene una Comisión de Convivencia activa cuyo mandato (regular la convivencia, prevenir y mediar conflictos, cuidado emocional, equidad en la participación) encaja de lleno como órgano de referencia en el RRI.",
+        "El ecofeminismo y la horizontalidad del proyecto aconsejan repartir explícitamente las tareas de cuidado para que no recaigan siempre sobre las mismas personas."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Convivencia y buen trato",
+          "text": "La convivencia en la cooperativa se rige por los valores de buen trato, cuidado mutuo, horizontalidad y corresponsabilidad. Es deber de toda persona socia, y de quienes convivan habitualmente con ella o la acompañen como invitados, contribuir a un ambiente de respeto y cuidado y hacer un uso responsable de los espacios y bienes comunes. El Reglamento de Régimen Interno desarrollará las normas de convivencia y el funcionamiento de la Comisión de Convivencia.",
+          "note": "Ancla de valores + deber genérico + remisión al RRI. Cumple el art. 13.h (derechos y deberes) sin fijar en Estatutos reglas que van a cambiar."
+        },
+        {
+          "target": "rri",
+          "heading": "Normas de convivencia y uso responsable de la casa",
+          "text": "Las presentes normas son de obligado cumplimiento para todas las personas socias y quienes las acompañen. Se orientan por el buen trato, el cuidado y la corresponsabilidad, e incluyen: (a) respeto a los descansos y a los tiempos comunes [horario de silencio a acordar]; (b) uso cuidadoso y limpieza de los espacios y bienes comunes tras su uso; (c) reparto equitativo y rotativo de las tareas de mantenimiento y cuidado de la casa; (d) régimen de invitados y de animales [a concretar]; (e) comunicación temprana y respetuosa de cualquier molestia o desacuerdo. La Asamblea revisará estas normas periódicamente a partir de la experiencia real de uso.",
+          "note": "Materia de RRI: aprobable y revisable por la Asamblea (art. 31.f). Los corchetes son decisiones que se pueden concretar al conocer la casa."
+        },
+        {
+          "target": "rri",
+          "heading": "Comisión de Convivencia",
+          "text": "La Comisión de Convivencia vela por el buen trato y el bienestar del grupo. Sus funciones son: promover un ambiente de cuidado y participación equitativa; proponer, difundir y revisar las normas de convivencia; acompañar las entradas y salidas de personas; y prevenir y mediar en los conflictos antes de que escalen, mediante la escucha activa y la búsqueda de acuerdos. La Comisión no tiene potestad sancionadora: cuando un conflicto no se resuelva por la vía del acompañamiento y pudiera constituir una falta tipificada, se estará al procedimiento disciplinario previsto en los Estatutos, competencia del Consejo Rector. Su composición será [permanente o rotativa] y cuidará de no cargar el trabajo emocional siempre sobre las mismas personas.",
+          "note": "Recoge el mandato ya definido por la comisión del grupo y marca la frontera con la disciplina (art. 24): mediar no es sancionar."
+        }
+      ],
+      "openDecisions": [
+        "¿El buen trato se enuncia como principio en los Estatutos o se deja íntegramente al RRI?",
+        "¿Qué normas mínimas de uso de la casa se aprueban ya (silencios, limpieza, tareas) y cuáles esperan a conocer el inmueble?",
+        "¿La Comisión de Convivencia es permanente o rotativa, y cómo se garantiza el reparto equitativo del trabajo emocional?",
+        "¿Dónde está la frontera entre un desacuerdo de convivencia (mediación) y una falta disciplinaria (sanción)? ¿Qué conductas tipificaríais como falta?",
+        "¿El régimen de invitados y de animales se regula aquí o en el tema de uso de espacios comunes?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos y RRI de otras cooperativas y las actas y documentos del grupo (visión y Comisión de Convivencia). Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
+  "suggestedClause": {
+    "text": "La convivencia en la cooperativa se rige por los valores de buen trato, cuidado mutuo, horizontalidad y corresponsabilidad. Toda persona socia, y quienes convivan habitualmente con ella o la acompañen, deben contribuir a un ambiente de respeto y hacer un uso responsable de los espacios y bienes comunes. El Reglamento de Régimen Interno desarrollará las normas de convivencia y el funcionamiento de la Comisión de Convivencia, que promueve el buen trato y media en los conflictos sin potestad sancionadora.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

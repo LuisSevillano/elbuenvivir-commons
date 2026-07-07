@@ -1,69 +1,162 @@
 {
   "slug": "aportaciones_obligatorias",
   "title": "Aportaciones obligatorias",
-  "shortDescription": "Reglas básicas sobre aportaciones iniciales o periódicas necesarias para sostener el proyecto común.",
+  "shortDescription": "Cómo articular el capital social de la cooperativa de usuarios de El Buen Vivir: la aportación obligatoria mínima que exige la ley frente a la cuota umbral orientativa de 10.000 €.",
   "category": "economico",
   "minimumContents": [
-    "Identificar qué aportaciones son obligatorias y cuándo nacen.",
-    "Distinguir aportaciones al capital, cuotas y gastos ordinarios.",
-    "Prever desembolsos, calendario y consecuencias del impago.",
-    "Regular cómo afectan las aportaciones desiguales a derechos económicos y de uso.",
-    "Coordinar aportaciones con baja, transmisión y entrada de nuevas personas."
+    "Fijar en Estatutos una aportación obligatoria mínima al capital (lo exige la ley).",
+    "Distinguirla de la cuota umbral orientativa de 10.000 € (que no es aportación mínima de acceso).",
+    "Respetar el capital social mínimo (3.000 €) y el desembolso mínimo del 25 %.",
+    "Respetar el límite de aportación por socio (un tercio del capital).",
+    "Diferenciar, si procede, la aportación de Socio A y Socio B."
   ],
   "legalBasis": [],
   "projectReferences": [],
   "decisionsForBuenVivir": [
-    "Decidir si todas las personas aportarán lo mismo o si habrá aportaciones iniciales desiguales.",
-    "Acordar qué parte cubre adquisición, qué parte gastos comunes y qué parte reservas.",
-    "Definir si la desigualdad económica genera o no diferencias de voto o uso.",
-    "Separar reglas económicas esenciales de detalles de calendario y gestión."
+    "¿Qué cuantía damos a la aportación obligatoria mínima legal en estatutos? (baja, como otras coops: 100-600 €).",
+    "Cerrar los tramos definitivos de la cuota de mantenimiento (40/60/80 €).",
+    "Decidir el retorno del exceso sobre el umbral (propuesta de Economía: 5/4/3 % anual).",
+    "¿Se sube el umbral a 15.000 € si no cubre la compra, o se imputa parte a mantenimiento?",
+    "¿La aportación obligatoria mínima será distinta para Socio A y Socio B?"
   ],
   "risks": [
-    "Confundir capital social, cuotas y gastos puede provocar malentendidos internos.",
-    "Las aportaciones desiguales sin regla clara pueden generar conflictos al salir alguien.",
-    "Un régimen económico demasiado complejo puede ser desproporcionado para un grupo pequeño."
+    "Confundir la aportación obligatoria mínima al capital (imperativa) con la cuota umbral (orientativa): son cosas distintas y ambas deben convivir.",
+    "No fijar ninguna aportación obligatoria mínima en estatutos sería contrario a la ley (art. 60.1).",
+    "Fijar tramos o cuantías en Estatutos los vuelve rígidos; mejor dejarlos al RRI/acuerdos revisables."
   ],
   "governancePlacement": {
     "recommendedPrimaryLocation": "mixed",
     "rationale": [
-      "La existencia y régimen básico de aportaciones debe estar en Estatutos cuando sea estructural.",
-      "Los calendarios, cuotas operativas y ajustes periódicos pueden regularse con más flexibilidad en el RRI o acuerdos de asamblea."
+      "La aportación obligatoria mínima, el capital mínimo y los límites son materia estatutaria imperativa.",
+      "Los tramos de cuotas y su gestión práctica, al ser revisables, encajan en el RRI/acuerdos de Asamblea."
     ],
     "shouldBeInStatutes": [
-      "Capital social mínimo si procede.",
-      "Régimen general de aportaciones obligatorias.",
-      "Criterios básicos de reembolso o liquidación."
+      "Aportación obligatoria mínima al capital y desembolso inicial mínimo (cifras reservadas por arts. 4/59/60).",
+      "Capital social mínimo (3.000 €) y límite de aportación por socio (un tercio del capital).",
+      "Naturaleza de la cuota umbral como aportación reembolsable al capital, con remisión al RRI de su importe y desarrollo."
     ],
     "shouldBeInRRI": [
-      "Calendarios de pago.",
-      "Procedimiento de comunicación de gastos.",
-      "Reglas operativas de cuotas periódicas."
+      "Importe orientativo de la cuota umbral (10.000 €), su flexibilidad y el calendario de aportación.",
+      "Tramos e importes de la cuota de mantenimiento y criterio de elección por capacidad.",
+      "Cuota de uso diaria diferenciada y cuota de invitados.",
+      "Condiciones del retorno del exceso sobre el umbral."
     ],
-    "canBeDeferredInitially": [
-      "Detalle de presupuestos anuales futuros mientras no exista inmueble concreto."
-    ],
-    "risksIfPlacedInStatutes": [
-      "Bloquear ajustes económicos ordinarios que podrían cambiar cada año."
-    ],
-    "risksIfPlacedInRRI": [
-      "Dejar sin protección suficiente obligaciones económicas centrales."
-    ]
+    "canBeDeferredInitially": []
   },
   "relatedTopics": [
-    {
-      "topicSlug": "desigualdad_aportaciones",
-      "relationship": "develops",
-      "explanation": "El caso de El Buen Vivir exige tratar específicamente aportaciones iniciales desiguales."
-    },
-    {
-      "topicSlug": "reembolso_aportaciones",
-      "relationship": "depends_on",
-      "explanation": "Toda aportación obligatoria debe conectarse con su eventual devolución."
-    }
+    { "topicSlug": "reembolso_aportaciones", "relationship": "depends_on", "explanation": "La devolución de la cuota umbral depende de cómo se articule como aportación." },
+    { "topicSlug": "desigualdad_aportaciones", "relationship": "complements", "explanation": "Las aportaciones desiguales al umbral generan la cuestión del retorno." },
+    { "topicSlug": "clases_de_socios", "relationship": "depends_on", "explanation": "Socio A aporta cuota umbral; Socio B no." }
   ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "En una cooperativa de usuarios de Castilla y León (Ley 4/2002), el capital social se forma con las aportaciones de los socios. La ley EXIGE que los Estatutos fijen una aportación obligatoria mínima al capital para adquirir y mantener la condición de socio (art. 60.1).",
+        "Matiz decisivo para vuestro modelo: lo que aprobasteis como 'aportación mínima inicial NO obligatoria' (los 3.000 € orientativos / el umbral de 10.000 €) NO es lo mismo que esa aportación obligatoria mínima legal. La ley obliga a poner ALGUNA cifra obligatoria (puede ser baja, 100-600 € como otras coops); vuestro umbral puede seguir siendo orientativo y flexible. Ambas conviven."
+      ],
+      "requirements": [
+        { "aspect": "Aportación obligatoria mínima al capital", "law": "Ley 4/2002 CyL, art. 60.1", "requirement": "Los Estatutos DEBEN fijarla para adquirir/mantener la condición de socio; puede diferir por clase de socio.", "margin": "Fijáis la cuantía; puede ser baja." },
+        { "aspect": "Capital social mínimo", "law": "Ley 4/2002 CyL, art. 4 y 59.2", "requirement": "≥ 3.000 €, totalmente desembolsado en la constitución.", "margin": "—" },
+        { "aspect": "Desembolso inicial", "law": "Ley 4/2002 CyL, art. 60.1", "requirement": "≥ 25 % al suscribir; el resto en un plazo ≤ 4 años.", "margin": "Fijáis el calendario dentro de 4 años." },
+        { "aspect": "Límite por socio", "law": "Ley 4/2002 CyL, art. 59.5", "requirement": "La aportación de cada socio ≤ un tercio del capital social.", "margin": "—" },
+        { "aspect": "Nuevas aportaciones obligatorias", "law": "Ley 4/2002 CyL, art. 60.2", "requirement": "La Asamblea (2/3) puede exigirlas; el socio disconforme puede darse de baja.", "margin": "—" }
+      ],
+      "citations": [
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 60.1 (aportación obligatoria mínima)", "excerpt": "Los Estatutos fijarán la aportación obligatoria mínima al capital social para adquirir y mantener la condición de socio, que podrá ser diferente para las distintas clases de socios [...], debiendo desembolsar, al menos, un 25 por 100 de su cuantía en el momento de la suscripción y el resto en la forma y plazos previstos en los Estatutos, sin que pueda exceder de cuatro años." },
+        { "documentSlug": "docs-leyes-normativa-autonomica", "label": "Ley 4/2002 CyL — Art. 59.5 (límite por socio)", "excerpt": "La aportación de cada socio en las cooperativas no podrá exceder de un tercio del capital social [...]. La suma de las aportaciones de los socios colaboradores, de servicios, temporales e inactivos no superará el 45 por 100 de las aportaciones al capital social." }
+      ]
+    },
+    "comparison": {
+      "intro": "La aportación obligatoria mínima que fijan otras cooperativas es baja (100-600 €), separada del coste real de la vivienda. Es el modelo que encaja con vuestro umbral orientativo.",
+      "columns": [
+        { "key": "minima", "label": "Aportación obligatoria mínima" },
+        { "key": "desembolso", "label": "Desembolso inicial" },
+        { "key": "limite", "label": "Límite / remuneración" }
+      ],
+      "rows": [
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": { "minima": "200 € (uso) / 100 € (consumo)", "desembolso": "Íntegro", "limite": "Sin remuneración; capital mín. 3.400 €" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 23 — Aportaciones",
+          "excerpt": "Para convertirse en socias y socios destinatarios de un derecho de uso deben desembolsar una aportación mínima obligatoria inicial que corresponde a la compra de dos títulos, con un valor total de 200,00 €. La aportación mínima obligatoria para socio consumidor o usuario corresponde a un título de 100,00 €. Las aportaciones obligatorias no se remuneran ni dan ningún tipo de interés."
+        },
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": { "minima": "100 € (un título)", "desembolso": "Íntegro al suscribir", "limite": "—" },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Artículo 18 — Aportaciones obligatorias",
+          "excerpt": "Las aportaciones obligatorias estarán representadas en títulos nominativos de un valor de CIEN EUROS cada uno, debiendo cada socio poseer y suscribir, al menos, como aportación obligatoria mínima para adquirir la condición de tal, un título, cuyo desembolso se hará íntegramente en el momento de la suscripción."
+        },
+        {
+          "project": "Axuntase (Asturias)",
+          "cells": { "minima": "600 €", "desembolso": "Según ley", "limite": "≤ 1/3 del capital; capital mín. 3.000 €" },
+          "documentSlug": "docs-estatutos-estatutos-axuntase",
+          "articleOrSection": "Artículos 33-34 — Aportaciones",
+          "excerpt": "El importe total de las aportaciones de cada socio/a no podrá exceder de un tercio del capital social. El capital social mínimo, que deberá estar totalmente desembolsado, se fija en TRES MIL euros. La cuantía de la aportación obligatoria mínima inicial para adquirir la condición de socio/a será de SEISCIENTOS EUROS (600,00 €)."
+        },
+        {
+          "project": "Los Nidales",
+          "cells": { "minima": "2.400 €", "desembolso": "25 % + resto en 2 años", "limite": "≤ 45 % del capital" },
+          "documentSlug": "docs-estatutos-estatutos-losnidales",
+          "articleOrSection": "Artículo 17 — Aportaciones obligatorias",
+          "excerpt": "Cada socio/a debe suscribir, como aportación obligatoria mínima, cuarenta y ocho (48) títulos de 50 €, de los que tendrá que desembolsar como mínimo el 25% en el momento de la suscripción y el resto, hasta los 2.400 €, en el plazo de dos años. El importe total de las aportaciones de cada socio no podrá exceder del cuarenta y cinco por ciento del mismo."
+        },
+        {
+          "project": "Pepu / Pequeño Pueblo (CyL)",
+          "cells": { "minima": "600 € (2 títulos de 300 €)", "desembolso": "Íntegro al suscribir", "limite": "—" },
+          "documentSlug": "docs-estatutos-estatutos-pepu",
+          "articleOrSection": "Aportación obligatoria mínima",
+          "excerpt": "Las participaciones cooperativas obligatorias estarán representadas por títulos de un valor de trescientos euros cada uno, debiendo cada persona socia poseer y suscribir, al menos, como participación cooperativa obligatoria mínima para adquirir la condición de tal, dos títulos cuyo desembolso se hará íntegramente al momento de la suscripción."
+        }
+      ],
+      "note": "Ninguna confunde la aportación obligatoria mínima (baja) con el coste de la vivienda. Ese es exactamente el diseño que os permite tener un umbral orientativo de 10.000 € y, a la vez, cumplir la ley con una aportación obligatoria mínima pequeña."
+    },
+    "proposal": {
+      "rationale": [
+        "El grupo aprobó (votación de dic-2025 y Reuniones 19-21 de 2026) un sistema de tres cuotas: cuota umbral orientativa de 10.000 € por Socio A (aportación inicial orientativa de 3.000 €, no obligatoria), cuota de mantenimiento por tramos (~40/60/80 €) y cuota de uso simbólica diferenciada.",
+        "Clave legal: hay que añadir a los estatutos una aportación obligatoria mínima al capital (que la ley exige) diferenciada de la cuota umbral. Puede ser baja (p. ej. 100-300 €), de modo que se cumpla la ley sin desvirtuar la flexibilidad del umbral.",
+        "El Socio B no aporta cuota umbral, pero sí debería suscribir la aportación obligatoria mínima para tener la condición de socio."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Aportación obligatoria mínima al capital social",
+          "text": "Para adquirir y mantener la condición de persona socia será obligatorio suscribir y desembolsar una aportación obligatoria mínima al capital social de [100-300] €, desembolsada íntegramente en el momento de la suscripción. Esta aportación es independiente y distinta de la cuota umbral destinada a la adquisición del inmueble. La aportación de cada persona socia no excederá de un tercio del capital social. El capital social mínimo se fija en 3.000 €, totalmente desembolsado en la constitución.",
+          "note": "Cumple el art. 60.1 (aportación obligatoria mínima) sin condicionar el umbral. Los corchetes son la cuantía a votar. La aportación obligatoria mínima, el capital social mínimo y el límite de un tercio son cifras reservadas a los Estatutos (arts. 4/59/60): se quedan aquí y no se remiten al RRI."
+        },
+        {
+          "target": "estatutos",
+          "heading": "Cuota umbral (aportación para la adquisición del inmueble)",
+          "text": "Las personas socias usuarias podrán realizar, además de la aportación obligatoria mínima, aportaciones al capital social destinadas a la adquisición del inmueble en forma de cuota umbral, que no constituye un mínimo obligatorio de acceso y cuya naturaleza es reembolsable como aportación al capital. Su importe de referencia, su flexibilidad, el calendario de aportación y el retorno del exceso se fijarán en los términos y con el procedimiento que desarrolle el Reglamento de Régimen Interno. La persona socia de uso habitual no está obligada a la cuota umbral.",
+          "note": "Los Estatutos fijan solo la naturaleza de la cuota umbral (aportación reembolsable al capital, distinta de la aportación obligatoria mínima) y remiten al RRI el importe orientativo de 10.000 € y su flexibilidad, por ser revisables sin escritura ni registro."
+        },
+        {
+          "target": "rri",
+          "heading": "Importe orientativo de la cuota umbral y flexibilidad",
+          "text": "La cuota umbral de referencia se fija en 10.000 € por persona socia usuaria (con una aportación inicial orientativa de 3.000 €), orientativa y flexible según la capacidad económica de cada persona. Cada persona decidirá la cantidad y el ritmo de aportación hasta ese umbral, sin que las diferencias en el camino hacia él generen diferencias de voto, de prioridad de reserva ni de trato. Estos importes son revisables por la Asamblea; si el precio del inmueble superase el capital reunido, la Asamblea decidirá subir el umbral (p. ej. 15.000 €) o imputar la diferencia a mantenimiento.",
+          "note": "Recoge lo aprobado en dic-2025 y Reuniones 19-21 (2026). Al ser orientativo y revisable, el importe va al RRI; en Estatutos solo queda su naturaleza como aportación reembolsable al capital."
+        },
+        {
+          "target": "rri",
+          "heading": "Cuotas de mantenimiento y de uso",
+          "text": "La cuota de mantenimiento se estructura en tramos revisables (estimados en 40, 60 y 80 €), eligiendo cada persona el tramo según su capacidad; las familias con hijos no optarán al tramo más bajo. La cuota de uso es un pago simbólico diario diferenciado (personas socias mantenedoras y sus hijos: 0,5 €/día; personas no mantenedoras: importe superior; invitados: 10-14 €/día adultos y 5 €/día menores), revisable periódicamente por la Asamblea.",
+          "note": "Recoge lo aprobado en las Reuniones 20 y 21 (2026); los tramos e importes de las cuotas de mantenimiento y de uso son materia de RRI por ser revisables."
+        }
+      ],
+      "openDecisions": [
+        "Fijar la cuantía de la aportación obligatoria mínima legal en estatutos (baja: 100-300 €).",
+        "Cerrar los tramos definitivos de la cuota de mantenimiento.",
+        "Aprobar el retorno del exceso sobre el umbral (propuesta de Economía: 5/4/3 % anual).",
+        "¿Subir el umbral a 15.000 € si no cubre la compra, o imputar parte a mantenimiento?",
+        "¿La aportación obligatoria mínima será distinta para Socio A y Socio B?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas y documentos de la Comisión de Economía. Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
   "suggestedClause": {
-    "text": "La Asamblea General podrá acordar aportaciones obligatorias destinadas a financiar la adquisición, uso, mantenimiento o mejora del proyecto común, respetando en todo caso la legislación cooperativa aplicable y las reglas estatutarias sobre capital social, desembolso y reembolso.",
-    "disclaimer": "Borrador de trabajo. Revisar jurídicamente.",
+    "text": "Para adquirir y mantener la condición de persona socia se suscribirá una aportación obligatoria mínima al capital social de [100-300] €, desembolsada íntegramente, y no excederá de un tercio del capital social; el capital social mínimo se fija en 3.000 €. La cuota umbral destinada a la compra del inmueble es una aportación reembolsable al capital, distinta de la anterior; su importe orientativo (10.000 €), su flexibilidad y los tramos de las cuotas de mantenimiento y de uso se regulan en el Reglamento de Régimen Interno.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación.",
     "status": "needs_legal_review"
   },
   "status": "needs_legal_review"

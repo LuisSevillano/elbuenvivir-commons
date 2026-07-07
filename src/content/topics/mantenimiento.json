@@ -1,0 +1,207 @@
+{
+  "slug": "mantenimiento",
+  "title": "Mantenimiento",
+  "shortDescription": "Cómo sostener económica y comunitariamente la casa y los espacios comunes: la cuota de mantenimiento por tramos ya aprobada (~40/60/80 €), el reparto de tareas y las jornadas de trabajo colectivo, y las obras y mejoras del inmueble.",
+  "category": "convivencia",
+  "minimumContents": [
+    "Definir qué cubre la cuota de mantenimiento: gastos ordinarios de la casa y los espacios comunes (suministros, seguros, pequeñas reparaciones, impuestos y tasas).",
+    "Fijar la existencia y naturaleza de la cuota de mantenimiento por tramos y quién la paga (socios A y socios B de uso habitual).",
+    "Aclarar que las familias con hijos no pueden acogerse al tramo más bajo, salvo circunstancias concretas.",
+    "Regular el reparto de tareas y el trabajo comunitario (jornadas de trabajo colectivo) como forma de mantener y mejorar el inmueble.",
+    "Distinguir el mantenimiento ordinario de las obras y mejoras extraordinarias, y de dónde sale el dinero para cada uno.",
+    "Prever la revisión periódica de los tramos y las consecuencias del impago de la cuota."
+  ],
+  "legalBasis": [],
+  "projectReferences": [],
+  "decisionsForBuenVivir": [
+    "¿Qué gastos concretos entran en la cuota de mantenimiento y cuáles se cubren aparte (cuota de uso, derramas para obras)?",
+    "¿Qué cuantías definitivas tendrán los tres tramos (~40/60/80 €) y con qué criterio se sitúa cada persona en uno u otro?",
+    "¿El trabajo comunitario (jornadas de trabajo colectivo, reparto de tareas) es una obligación exigible o una aportación voluntaria? ¿Se puede compensar económicamente quien no participa?",
+    "¿Cómo se financian las obras y mejoras extraordinarias: con la bolsa de mantenimiento, con derramas o con parte de la cuota umbral sobrante?",
+    "¿Cada cuánto se revisan los tramos y quién decide (Asamblea, Comisión de Economía)?",
+    "¿Qué ocurre si alguien deja de pagar la cuota de mantenimiento (recargo, suspensión de uso, baja)?"
+  ],
+  "risks": [
+    "Fijar cuantías concretas de los tramos en los Estatutos los vuelve rígidos: los gastos reales aún no se conocen y el propio grupo los dejó \"a determinar por el contexto y revisable\".",
+    "Confundir la cuota de mantenimiento (gasto corriente no reintegrable) con la cuota umbral (aportación para la compra, reintegrable) puede generar reclamaciones al causar baja.",
+    "Convertir las jornadas de trabajo colectivo en obligación estricta sin margen puede chocar con la disponibilidad real y con el valor de horizontalidad; no regularlas puede sobrecargar siempre a las mismas personas.",
+    "No separar mantenimiento ordinario de obras extraordinarias puede descapitalizar la caja o dejar mejoras sin financiación.",
+    "Un tramo más bajo mal definido puede volverse injusto si no se aclara el criterio (capacidad económica) y la excepción de las familias con hijos."
+  ],
+  "governancePlacement": {
+    "recommendedPrimaryLocation": "mixed",
+    "rationale": [
+      "La existencia de una cuota de mantenimiento, su naturaleza no reintegrable y la obligación de contribuir a los gastos comunes afectan a las obligaciones de la persona socia: convienen en los Estatutos.",
+      "Las cuantías de los tramos, el criterio para situarse en cada uno, el calendario de jornadas de trabajo y el reparto fino de tareas son operativos y revisables: encajan en el RRI y en acuerdos de Asamblea.",
+      "El grupo aprobó los tramos como estimación (~40/60/80 €) explícitamente revisable, lo que desaconseja fijar cuantías en norma de rango alto."
+    ],
+    "shouldBeInStatutes": [
+      "Facultad de establecer cuotas periódicas de mantenimiento y su naturaleza no reintegrable.",
+      "Obligación de las personas usuarias (socios A y B) de contribuir a los gastos de mantenimiento de la casa y los espacios comunes.",
+      "Deber genérico de participar en la actividad y el cuidado comunitario del inmueble.",
+      "Regla de que el impago de la cuota tiene consecuencias disciplinarias o sobre el uso."
+    ],
+    "shouldBeInRRI": [
+      "Cuantías concretas de los tramos y criterio para situarse en cada uno.",
+      "Regla de que las familias con hijos no optan al tramo más bajo y sus excepciones.",
+      "Organización de las jornadas de trabajo colectivo y el reparto de tareas.",
+      "Distinción operativa entre mantenimiento ordinario, obras y mejoras, y su financiación.",
+      "Procedimiento y calendario de revisión de los tramos."
+    ],
+    "canBeDeferredInitially": [
+      "Cuadro detallado de tareas y turnos.",
+      "Protocolo fino de derramas para obras extraordinarias."
+    ],
+    "risksIfPlacedInStatutes": [
+      "Fijar cuantías o tramos concretos en los Estatutos obliga a modificarlos cada vez que cambien los gastos reales."
+    ],
+    "risksIfPlacedInRRI": [
+      "Dejar solo en el RRI la obligación de contribuir a los gastos comunes debilitaría un deber económico esencial de la persona socia."
+    ]
+  },
+  "relatedTopics": [
+    {
+      "topicSlug": "clases_de_socios",
+      "relationship": "depends_on",
+      "explanation": "Quién paga la cuota de mantenimiento (socios A y socios B de uso habitual) y quién no depende de la estructura de socios ya aprobada."
+    },
+    {
+      "topicSlug": "uso_espacios_comunes",
+      "relationship": "complements",
+      "explanation": "El mantenimiento sostiene los espacios comunes cuyo uso se regula en ese tema; la cuota de uso convive con la de mantenimiento."
+    },
+    {
+      "topicSlug": "aportaciones_obligatorias",
+      "relationship": "complements",
+      "explanation": "La cuota de mantenimiento es una aportación periódica no reintegrable, distinta de las aportaciones al capital social."
+    },
+    {
+      "topicSlug": "reembolso_aportaciones",
+      "relationship": "limits",
+      "explanation": "Conviene aclarar que la cuota de mantenimiento pagada no se reembolsa al causar baja, a diferencia de la cuota umbral."
+    }
+  ],
+  "dossier": {
+    "legal": {
+      "intro": [
+        "En una cooperativa de usuarios de Castilla y León rige la Ley 4/2002. La Ley permite expresamente que los Estatutos o la Asamblea establezcan cuotas periódicas para sostener la actividad, y deja en vuestras manos su cuantía, su periodicidad y sus tramos. Esas cuotas no forman parte del capital social ni son reintegrables: la cuota de mantenimiento pagada no se devuelve al salir.",
+        "La Ley también configura como obligación del socio participar en la actividad cooperativizada y cumplir las obligaciones económicas que le correspondan. Sobre esa base podéis exigir tanto la contribución a los gastos comunes como una participación en el cuidado del inmueble (jornadas de trabajo colectivo), y vincular el impago a consecuencias disciplinarias. Lo que sigue es el mínimo imperativo y vuestro margen de decisión."
+      ],
+      "requirements": [
+        { "aspect": "Cuotas periódicas de mantenimiento", "law": "Ley 4/2002 CyL, art. 69.1", "requirement": "Los Estatutos o la Asamblea pueden establecer cuotas periódicas.", "margin": "Fijáis cuantía, tramos y periodicidad; podéis dejarlas a la Asamblea." },
+        { "aspect": "Naturaleza no reintegrable", "law": "Ley 4/2002 CyL, art. 69.1", "requirement": "Las cuotas no integran el capital social ni son reintegrables; nutren el Fondo de Reserva Obligatorio.", "margin": "Sin margen: la cuota de mantenimiento pagada no se devuelve." },
+        { "aspect": "Participación en la actividad", "law": "Ley 4/2002 CyL, art. 23.2.b", "requirement": "El socio debe participar en la actividad cooperativizada en la cuantía mínima que fijen los Estatutos; el Consejo Rector puede liberarle por causa justificada.", "margin": "Definís si el trabajo comunitario es exigible y con qué alcance." },
+        { "aspect": "Obligaciones económicas", "law": "Ley 4/2002 CyL, art. 23.2.e", "requirement": "El socio debe cumplir con las obligaciones económicas que le correspondan.", "margin": "Fijáis las cuotas y su forma de pago." },
+        { "aspect": "Pagos por servicios individualizados", "law": "Ley 4/2002 CyL, art. 69.3", "requirement": "Los pagos para obtener servicios cooperativizados no integran el capital y se sujetan a lo fijado o contratado.", "margin": "Podéis diferenciar la cuota general de los servicios de uso individual." },
+        { "aspect": "Impago", "law": "Ley 4/2002 CyL, art. 24.4", "requirement": "El socio en descubierto de sus obligaciones económicas puede ser suspendido en sus derechos.", "margin": "Tipificáis la falta y el procedimiento en los Estatutos." }
+      ],
+      "citations": [
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 69.1 (cuotas periódicas)",
+          "excerpt": "Los Estatutos o la Asamblea general pueden establecer cuotas de ingreso y/o periódicas. En ningún caso estas cuotas integrarán el capital social ni serán reintegrables. Dichas cuotas nutrirán el Fondo de Reserva Obligatorio."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 23.2 (obligaciones del socio)",
+          "excerpt": "b) Participar en las actividades cooperativizadas que desarrolla la cooperativa para el cumplimiento de su fin social, en la cuantía mínima obligatoria establecida en los Estatutos. El Consejo Rector, cuando exista causa justificada, podrá liberar de dicha obligación al socio, en la cuantía que proceda y según las circunstancias que concurran... e) Cumplir con las obligaciones económicas que le correspondan."
+        },
+        {
+          "documentSlug": "docs-leyes-normativa-autonomica",
+          "label": "Ley 4/2002 CyL — Art. 24.4 (suspensión por impago)",
+          "excerpt": "La sanción de suspender al socio en sus derechos, que no podrá alcanzar al derecho de información ni, en su caso, al de percibir retorno, ni al devengo de intereses por sus aportaciones al capital social, se aplicará sólo para el supuesto en que el socio esté al descubierto de sus obligaciones económicas o no participe en las actividades cooperativizadas en los términos establecidos estatutariamente."
+        }
+      ]
+    },
+    "comparison": {
+      "intro": "Cómo sostienen otras cooperativas el mantenimiento de la casa y los espacios comunes. La mayoría son de vivienda habitual o cesión de uso: útil como referencia, teniendo en cuenta que El Buen Vivir es de usuarios y de uso vacacional compartido.",
+      "columns": [
+        { "key": "cuota", "label": "Cuota de mantenimiento" },
+        { "key": "destino", "label": "Qué cubre" },
+        { "key": "quien", "label": "Quién la paga" },
+        { "key": "trabajo", "label": "Trabajo comunitario" }
+      ],
+      "rows": [
+        {
+          "project": "Entrepatios (Madrid)",
+          "cells": { "cuota": "Cuota de uso, cuantía anual de la Asamblea", "destino": "Mantenimiento, reparación, impuestos y tasas", "quien": "Personas socias con derecho de uso", "trabajo": "—" },
+          "documentSlug": "docs-estatutos-estatutos-entrepatios",
+          "articleOrSection": "Artículo 22 — Cuotas de ingreso y cuotas periódicas",
+          "excerpt": "Existirán las siguientes cuotas cuyas cuantías serán fijadas anualmente por la Asamblea General: - Cuota de ingreso que se destinará a la Reserva obligatoria. - Cuota de uso para sufragar gastos de mantenimiento, reparación, impuestos y tasas anuales u otros gastos similares. - Cuota mensual de financiación y reserva, destinada a amortizar los préstamos que se hubieran obtenido para financiar el inmueble y los intereses que generen."
+        },
+        {
+          "project": "La Borda (Cataluña)",
+          "cells": { "cuota": "Cuotas periódicas por el derecho de uso", "destino": "Uso de la vivienda; extraordinarias para pérdidas", "quien": "Todas las socias titulares del derecho de uso", "trabajo": "—" },
+          "documentSlug": "docs-estatutos-estatutos-la-borda",
+          "articleOrSection": "Artículo 29 — Cuotas de ingreso y cuotas periódicas",
+          "excerpt": "La Asamblea General de la Cooperativa puede establecer cuotas de ingreso y cuotas periódicas a pagar por todas las socias y socios titulares del derecho de uso de una vivienda, los cuales estarán obligados a satisfacerlas... Las cuotas periódicas se establecen para el uso de la vivienda asignado... En ningún caso las cuotas formarán parte del capital social ni serán reintegrables."
+        },
+        {
+          "project": "Tarocohousing (Andalucía)",
+          "cells": { "cuota": "Cuota de mantenimiento y cuota periódica mensual", "destino": "Gastos de funcionamiento y mantenimiento del edificio", "quien": "Personas socias, proporcional al uso", "trabajo": "—" },
+          "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+          "articleOrSection": "Régimen económico — aportaciones y cuotas",
+          "excerpt": "Asimismo, las personas socias deben efectuar la cuota periódica (mensual) proporcional de los gastos de funcionamiento y de mantenimiento del edificio atribuible a la vivienda objeto del derecho de uso... Las personas socias vendrán además obligadas a pagar el coste de los bienes y servicios que les suministre la cooperativa."
+        },
+        {
+          "project": "Vallecas 2 Homes (Madrid)",
+          "cells": { "cuota": "Cuota periódica anual (máx. 100 €/socio)", "destino": "Mantenimiento y gastos, conservación y reparaciones comunes", "quien": "Todos los socios", "trabajo": "—" },
+          "documentSlug": "docs-rri-rri-vallecas2homes",
+          "articleOrSection": "Artículo 18 — Cuota anual",
+          "excerpt": "El Consejo Rector podrá fijar una cuota periódica anual para el mantenimiento de las actividades propias de la cooperativa, no pudiendo ser superior a CIEN EUROS (100,00 €) por socio y año, dicha cantidad podrá ser disminuida en ejercicios posteriores si el Consejo Rector considera que existe reserva económica suficiente para cubrir dicho apartado, requiriéndose para incrementar dicha cantidad acuerdo favorable de la Asamblea General por una mayoría de dos terceras partes de los cooperativistas."
+        },
+        {
+          "project": "Axuntase (Asturias)",
+          "cells": { "cuota": "Cuota de gastos fijada por la Asamblea", "destino": "Gastos comunes; servicios individualizados aparte", "quien": "Socios y personas acompañantes", "trabajo": "Grupos de trabajo y tareas comunitarias obligatorias" },
+          "documentSlug": "docs-rri-rri-axuntase",
+          "articleOrSection": "Artículo 8 — Otras tareas comunitarias",
+          "excerpt": "Aparte de las tareas en los Grupos de Trabajo, existen otras tareas comunitarias en la actividad cooperativizada. Cada cooperativista debe participar (Art.11.b Estatutos), según sus posibilidades y condición, en las mismas; igualmente para quienes sean acompañantes o parejas de socias/os."
+        }
+      ],
+      "note": "Casi todas cobran una cuota periódica ligada al uso y no reintegrable, y separan servicios individualizados. Axuntase es la única que articula además el mantenimiento como trabajo comunitario (grupos de trabajo y tareas obligatorias), el modelo más cercano a las jornadas de trabajo colectivo de El Buen Vivir."
+    },
+    "proposal": {
+      "rationale": [
+        "El grupo ya aprobó (Reuniones 19-21, 2026) un sistema de tres cuotas y, dentro de él, una cuota de mantenimiento por tramos estimada en ~40/60/80 €, con la regla de que las familias con hijos no optan al tramo más bajo.",
+        "En las mismas actas se acordó que la cuota de mantenimiento son \"todos los gastos divididos entre las personas que disfrutan del proyecto\", y que \"las cuotas de mantenimiento y uso sirven para mantenimiento, gastos y obras\", frente a la cuota umbral destinada a la compra.",
+        "El Documento de visión prevé \"mantener y mejorar el inmueble de manera sostenible y autogestionada\" y \"rehabilitar espacios organizando jornadas de trabajos colectivas\" o, si no, contratando una cuadrilla: el trabajo comunitario es parte del modelo, coherente con los valores de autogestión y horizontalidad.",
+        "Como es cooperativa de usuarios y de uso vacacional, conviene dejar las cuantías fuera de los Estatutos (revisables) y anclar solo la obligación de contribuir y la naturaleza no reintegrable de la cuota."
+      ],
+      "articles": [
+        {
+          "target": "estatutos",
+          "heading": "Cuota de mantenimiento y contribución a los gastos comunes",
+          "text": "Las personas usuarias de la casa contribuirán al mantenimiento de la vivienda y de los espacios comunes mediante una cuota periódica de mantenimiento, cuya cuantía fijará la Asamblea General por tramos según la capacidad y el uso, revisable periódicamente. Esta cuota no integra el capital social ni es reintegrable. Están obligadas a satisfacerla tanto las personas socias de tipo A como las de tipo B que hacen uso habitual de la casa. El impago reiterado tendrá la consideración de falta conforme al régimen disciplinario de estos Estatutos.",
+          "note": "Ancla la obligación y la naturaleza no reintegrable (art. 69.1 Ley 4/2002 CyL) sin fijar cuantías. La distinción A/B remite al tema clases de socios; recuérdese el aviso jurídico sobre el voto del socio B."
+        },
+        {
+          "target": "rri",
+          "heading": "Tramos de la cuota y revisión",
+          "text": "La cuota de mantenimiento se estructura en tres tramos orientativos [40 / 60 / 80 €], que se concretarán cuando se conozcan los gastos reales del proyecto. Cada persona elige el tramo en función de sus posibilidades. Las familias con hijos no podrán acogerse al tramo más bajo, salvo circunstancias concretas valoradas por la Asamblea. La Comisión de Economía propondrá anualmente a la Asamblea la revisión de los tramos y el ajuste de las cuantías.",
+          "note": "Recoge literalmente lo aprobado en las Reuniones 19-21, dejándolo revisable. Los corchetes son las cuantías definitivas pendientes de votar."
+        },
+        {
+          "target": "rri",
+          "heading": "Trabajo comunitario, obras y mejoras",
+          "text": "El mantenimiento ordinario de la casa y de los espacios comunes se organizará mediante reparto de tareas y jornadas de trabajo colectivo, en las que cada persona participará según sus posibilidades y condición. Las obras y mejoras extraordinarias se aprobarán en Asamblea y se financiarán con la bolsa de mantenimiento o, si esta no basta, mediante [derrama / contratación de una cuadrilla]. Quien, por causa justificada, no pueda participar en las jornadas podrá [compensarlo económicamente / de otra forma acordada].",
+          "note": "Desarrolla la visión (jornadas de trabajo colectivo y mantenimiento autogestionado) y separa mantenimiento ordinario de obras. Los corchetes recogen las decisiones abiertas sobre financiación y compensación."
+        }
+      ],
+      "openDecisions": [
+        "¿Qué gastos exactos cubre la cuota de mantenimiento y cuáles van aparte (cuota de uso, derramas de obras)?",
+        "¿Cuantías definitivas de los tres tramos y criterio para situarse en cada uno?",
+        "¿El trabajo comunitario es obligación exigible o aportación voluntaria? ¿Se compensa a quien no participa?",
+        "¿Cómo se financian las obras extraordinarias: bolsa de mantenimiento, derrama o parte de la cuota umbral sobrante?",
+        "¿Cada cuánto y quién revisa los tramos?",
+        "¿Qué consecuencias tiene el impago (recargo, suspensión de uso, baja)?"
+      ],
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas del grupo. Debe revisarse jurídicamente antes de aprobarse."
+    }
+  },
+  "suggestedClause": {
+    "text": "Las personas usuarias de la casa contribuirán al mantenimiento de la vivienda y de los espacios comunes mediante una cuota periódica de mantenimiento, fijada por la Asamblea General por tramos según capacidad y uso y revisable periódicamente, que no integra el capital social ni es reintegrable. El detalle de los tramos, el reparto de tareas y las jornadas de trabajo colectivo se desarrollarán en el Reglamento de Régimen Interno.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente antes de su aprobación.",
+    "status": "needs_legal_review"
+  },
+  "status": "needs_legal_review"
+}

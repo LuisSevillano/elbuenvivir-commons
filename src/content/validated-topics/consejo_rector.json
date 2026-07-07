@@ -1,0 +1,102 @@
+{
+  "slug": "consejo_rector",
+  "status": "reviewed",
+  "editorialSummary": [
+    "El Consejo Rector es el órgano de gobierno y administración de la cooperativa: gestiona, representa y ejecuta lo que decide la Asamblea General.",
+    "La Ley 4/2002 de Castilla y León marca un mínimo claro (composición, cargos, elección y duración del mandato), pero deja a un grupo pequeño como El Buen Vivir la opción de simplificar: Consejo reducido al mínimo de tres o, al ser menos de diez socios, un Administrador único.",
+    "El punto delicado no es cumplir la ley, sino compaginar la figura legal —que concentra representación y voto de calidad en la Presidencia— con la horizontalidad y la autogestión que el grupo quiere; ahí ayudan la rotación de cargos y la facilitación rotativa."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "organ_choice",
+      "question": "¿Consejo Rector reducido o Administrador único?",
+      "recommendationsForBuenVivir": [
+        "Al ser un grupo de menos de diez personas, ambas opciones son legales. El Consejo reduce la concentración de responsabilidad; el Administrador único simplifica al máximo pero exige prever bien su sustitución."
+      ]
+    },
+    {
+      "id": "size_and_offices",
+      "question": "¿Cuántos miembros y qué cargos tendrá el Consejo Rector?",
+      "recommendationsForBuenVivir": [
+        "No conviene copiar consejos de cinco a nueve cargos de cooperativas grandes. Para un grupo pequeño, el mínimo legal de tres (presidencia, secretaría y vocalía) suele ser suficiente y más coherente con la horizontalidad."
+      ]
+    },
+    {
+      "id": "mandate_rotation",
+      "question": "¿Qué duración de mandato y qué rotación refuerzan la horizontalidad?",
+      "recommendationsForBuenVivir": [
+        "La ley obliga a un mandato de entre dos y seis años. Un límite de mandatos consecutivos o la renovación parcial ayudan a repartir la responsabilidad sin perder continuidad."
+      ]
+    },
+    {
+      "id": "commissions_link",
+      "question": "¿Cómo se relaciona el órgano de administración con las comisiones ya activas?",
+      "recommendationsForBuenVivir": [
+        "Conviene decidir pronto qué prepara y ejecuta cada comisión y qué coordina el órgano de administración, para no duplicar funciones ni vaciar de contenido a las comisiones."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "colegiate_organ",
+      "statement": "El Consejo Rector es el órgano colegiado de gobierno, gestión y representación de la cooperativa, subordinado a la política general de la Asamblea.",
+      "summary": "Su naturaleza y competencias son contenido estatutario obligatorio y aparecen de forma clara en la ley y en los estatutos revisados."
+    },
+    {
+      "id": "min_composition",
+      "statement": "La composición mínima es de tres miembros (presidencia, vicepresidencia y secretaría), reducible a dos cuando la cooperativa tiene tres socios.",
+      "summary": "Los estatutos deben fijar el número y los cargos concretos; los proyectos pequeños tienden al mínimo legal."
+    },
+    {
+      "id": "election_mandate",
+      "statement": "Los miembros los elige la Asamblea General en votación secreta y por mayor número de votos, con un mandato de entre dos y seis años, reelegibles.",
+      "summary": "Los estatutos concretan la duración y pueden prever renovaciones parciales para dar continuidad."
+    },
+    {
+      "id": "sole_administrator",
+      "statement": "Las cooperativas con menos de diez socios pueden optar en sus estatutos por un Administrador único, persona física socia, con las funciones del Consejo Rector.",
+      "summary": "Es una forma de administración simplificada especialmente pensada para grupos pequeños, aunque ninguna cooperativa del corpus la utiliza."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "consejo_rector-collective-consensus",
+      "statement": "El Consejo Rector puede sustituir por completo el voto y los cargos legales por decisiones colectivas por consenso.",
+      "reason": "El grupo aspira a un funcionamiento colectivo y por consenso, pero la ley exige cargos, quórum y régimen de votación con voto de calidad de la Presidencia; el consenso puede articularse en el RRI, no eliminar el marco legal. Debe confirmarse con revisión jurídica."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Decidir primero el modelo (Consejo reducido o Administrador único) porque de ello depende toda la redacción del capítulo de gobernanza.",
+    "Optar por una composición cercana al mínimo legal, coherente con el tamaño del grupo y la horizontalidad.",
+    "Fijar una duración de mandato razonable con rotación o límite de mandatos, y valorar la renovación parcial para no perder continuidad.",
+    "Dejar en el RRI la facilitación rotativa, el trabajo por consenso y la coordinación con las comisiones, sin contradecir el marco legal.",
+    "No importar consejos numerosos ni cargos que nadie vaya a ejercer: sería difícil de sostener y obligaría a modificar los estatutos."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Elección entre Consejo Rector y Administrador único.",
+      "Composición, número de miembros y cargos del órgano.",
+      "Procedimiento de elección, duración del mandato y régimen de renovación y cese.",
+      "Competencias del órgano y quórum y mayorías de sus acuerdos."
+    ],
+    "rri": [
+      "Facilitación o mediación rotativa de las reuniones.",
+      "Trabajo por consenso previo a la votación.",
+      "Articulación del órgano con las comisiones de trabajo.",
+      "Periodicidad y formato concreto de las reuniones."
+    ],
+    "notes": [
+      "La revisión jurídica debe confirmar el encaje del funcionamiento por consenso con el régimen legal de cargos y votación, y el procedimiento de sustitución si se elige Administrador único."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, arts. 40 a 45 (Consejo Rector) y art. 54 (Administrador único).",
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, art. 13 j (composición, número y duración como contenido estatutario).",
+    "docs-estatutos-estatutos-pepu: Artículos 26-28 sobre composición, elección y duración del Consejo Rector (cooperativa de CyL).",
+    "docs-estatutos-estatutos-entrepatios: Artículos 50-52 sobre Consejo Rector reducido de tres miembros con suplentes."
+  ],
+  "referencesToAvoid": [
+    "No copiar la composición de consejos numerosos (cinco a nueve cargos) de cooperativas grandes de vivienda sin adaptarla al tamaño de El Buen Vivir.",
+    "No trasladar sin más el reparto de cargos por tipologías de socia de La Borda, propio de un colectivo mucho mayor."
+  ]
+}

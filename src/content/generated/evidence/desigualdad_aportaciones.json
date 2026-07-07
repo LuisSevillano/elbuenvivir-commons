@@ -1,57 +1,57 @@
 {
   "topicSlug": "desigualdad_aportaciones",
-  "generatedAt": "2026-05-14T09:23:30.653Z",
+  "generatedAt": "2026-07-07T07:29:54.720Z",
   "claims": [
     {
       "id": "desigualdad_aportaciones-one_member_one_vote",
       "statement": "Cada persona socia tiene un voto independientemente de su aportación",
-      "evidenceType": "explicit",
-      "confidence": "high",
+      "evidenceType": "inferred",
+      "confidence": "medium",
       "supportingReferences": [
-        "docs-estatutos-estatutos-tarocohousing",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-los-girasoles",
         "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-        "docs-estatutos-estatutos-senior-cohousing-huelva",
         "docs-rri-rri-axuntase",
         "docs-leyes-normativa-estatal",
-        "docs-estatutos-estatutos-entrepatios",
         "docs-estatutos-estatutos-la-borda",
-        "docs-leyes-normativa-autonomica"
+        "docs-estatutos-estatutos-tarocohousing",
+        "docs-estatutos-estatutos-senior-cohousing-huelva"
       ],
-      "explanation": "Se ha detectado explícitamente en 13 proyecto(s) con 17 referencia(s) directa(s)."
+      "explanation": "Parece inferirse en 12 proyecto(s), aunque sin mención explícita y directa."
     },
     {
       "id": "desigualdad_aportaciones-voluntary_contributions",
       "statement": "Se permiten aportaciones voluntarias adicionales a las obligatorias",
-      "evidenceType": "weak_evidence",
-      "confidence": "low",
+      "evidenceType": "explicit",
+      "confidence": "high",
       "supportingReferences": [
-        "docs-estatutos-estatutos-tarocohousing",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-los-girasoles",
         "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-        "docs-estatutos-estatutos-senior-cohousing-huelva",
         "docs-rri-rri-axuntase",
         "docs-leyes-normativa-estatal",
-        "docs-estatutos-estatutos-entrepatios",
         "docs-estatutos-estatutos-la-borda",
+        "docs-estatutos-estatutos-tarocohousing",
         "docs-estatutos-estatutos-tarocohousing"
       ],
-      "explanation": "Hay 18 referencia(s) en 13 proyecto(s), pero están contaminadas por contexto no deseado."
+      "explanation": "Se ha detectado explícitamente en 12 proyecto(s) con 18 referencia(s) directa(s)."
     },
     {
       "id": "desigualdad_aportaciones-unequal_effects",
       "statement": "Las aportaciones desiguales no alteran derechos de uso ni prioridad",
-      "evidenceType": "explicit",
-      "confidence": "high",
+      "evidenceType": "inferred",
+      "confidence": "medium",
       "supportingReferences": [
-        "docs-estatutos-estatutos-tarocohousing",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-los-girasoles",
         "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-        "docs-estatutos-estatutos-senior-cohousing-huelva",
         "docs-rri-rri-axuntase",
         "docs-leyes-normativa-estatal",
-        "docs-estatutos-estatutos-entrepatios",
         "docs-estatutos-estatutos-la-borda",
-        "docs-leyes-normativa-autonomica"
+        "docs-estatutos-estatutos-tarocohousing",
+        "docs-estatutos-estatutos-senior-cohousing-huelva"
       ],
-      "explanation": "Se ha detectado explícitamente en 13 proyecto(s) con 17 referencia(s) directa(s)."
+      "explanation": "Parece inferirse en 12 proyecto(s), aunque sin mención explícita y directa."
     },
     {
       "id": "desigualdad_aportaciones-economic_rights_separate",
@@ -59,16 +59,16 @@
       "evidenceType": "explicit",
       "confidence": "high",
       "supportingReferences": [
-        "docs-estatutos-estatutos-tarocohousing",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-los-girasoles",
         "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-        "docs-estatutos-estatutos-senior-cohousing-huelva",
         "docs-rri-rri-axuntase",
         "docs-leyes-normativa-estatal",
-        "docs-estatutos-estatutos-entrepatios",
         "docs-estatutos-estatutos-la-borda",
-        "docs-leyes-normativa-autonomica"
+        "docs-estatutos-estatutos-tarocohousing",
+        "docs-estatutos-estatutos-senior-cohousing-huelva"
       ],
-      "explanation": "Se ha detectado explícitamente en 13 proyecto(s) con 17 referencia(s) directa(s)."
+      "explanation": "Se ha detectado explícitamente en 12 proyecto(s) con 17 referencia(s) directa(s)."
     },
     {
       "id": "desigualdad_aportaciones-contribution_refund",
@@ -76,40 +76,40 @@
       "evidenceType": "explicit",
       "confidence": "high",
       "supportingReferences": [
-        "docs-estatutos-estatutos-tarocohousing",
+        "docs-estatutos-estatutos-elciempies",
+        "docs-estatutos-estatutos-los-girasoles",
         "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-        "docs-estatutos-estatutos-senior-cohousing-huelva",
         "docs-rri-rri-axuntase",
         "docs-leyes-normativa-estatal",
-        "docs-estatutos-estatutos-entrepatios",
         "docs-estatutos-estatutos-la-borda",
-        "docs-leyes-normativa-autonomica"
+        "docs-estatutos-estatutos-tarocohousing",
+        "docs-estatutos-estatutos-senior-cohousing-huelva"
       ],
-      "explanation": "Se ha detectado explícitamente en 13 proyecto(s) con 17 referencia(s) directa(s)."
+      "explanation": "Se ha detectado explícitamente en 12 proyecto(s) con 17 referencia(s) directa(s)."
     }
   ],
   "conflictingApproaches": [],
   "evidenceSummary": {
     "totalClaims": 5,
-    "explicitCount": 4,
-    "inferredCount": 0,
+    "explicitCount": 3,
+    "inferredCount": 2,
     "recommendationCount": 0,
-    "weakEvidenceCount": 1,
+    "weakEvidenceCount": 0,
     "conflictingCount": 0,
-    "highConfidenceCount": 4,
-    "mediumConfidenceCount": 0,
-    "lowConfidenceCount": 1
+    "highConfidenceCount": 3,
+    "mediumConfidenceCount": 2,
+    "lowConfidenceCount": 0
   },
   "extracts": [
     {
-      "id": "desigualdad_aportaciones-one_member_one_vote-docs-estatutos-estatutos-tarocohousing-114",
+      "id": "desigualdad_aportaciones-one_member_one_vote-docs-estatutos-estatutos-elciempies-120",
       "claimId": "desigualdad_aportaciones-one_member_one_vote",
-      "documentSlug": "docs-estatutos-estatutos-tarocohousing",
-      "documentTitle": "Estatutos Tarocohousing",
+      "documentSlug": "docs-estatutos-estatutos-elciempies",
+      "documentTitle": "Estatutos Elciempies",
       "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_tarocohousing.pdf",
-      "articleOrSection": "Artículo 37.- El capital social. Aportaciones iniciales dinerarias y no",
-      "snippet": "Artículo 37.- El capital social. Aportaciones iniciales dinerarias y no dinerarias; suscripción y desembolso. 1.- El capital social estará constituido por las aportaciones obligatorias y voluntarias de las personas socias, que podrán ser: a) aportaciones con derecho de reembolso en caso de baja b) aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por el Consejo Rector. Del total de las aportaciones obligatorias y voluntarias suscritas por cada socio/a, un 5% de las mismas, hasta un máximo de 5.000 €, su reembolso podrá ser considerado como cantidad rehusable de forma incondicional por el Consejo Rector. Las aportaciones iniciales obligatorias de las nuevas personas socias se efectuarán mediante la adquisición de las aportaciones cuyo reembolso hubiese sido r...",
+      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "snippet": "CAPÍTULO IV RÉGIMEN ECONÓMICO DE LA COOPERATIVA Ar\u001aculo 36.- Responsabilidad de la coopera3va y de las personas socias. La coopera\u000eva responderá de las deudas contraídas con todo su patrimonio presente y futuro. 33 -- 33 of 48 -- La responsabilidad de la persona socia por las deudas sociales estará limitada a las aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito, estén o no desembolsadas en su totalidad. No obstante, en caso de baja o expulsión, la persona socia responderá personalmente por las deudas sociales, previa exclusión del haber social, durante cinco años desde la pérdida de su condición de socio/a, por las obligaciones contraídas por la coopera\u000eva con anterioridad a su baja, hasta el importe reembolsado de sus aportaciones al capital social...",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -120,14 +120,32 @@
       }
     },
     {
-      "id": "desigualdad_aportaciones-one_member_one_vote-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-1",
+      "id": "desigualdad_aportaciones-one_member_one_vote-docs-estatutos-estatutos-los-girasoles-125",
+      "claimId": "desigualdad_aportaciones-one_member_one_vote",
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "documentTitle": "Estatutos Los Girasoles",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "snippet": "CAPÍTULO IV RÉGIMEN ECONÓMICO DE LA COOPERATIVA Arơculo 39.- Responsabilidad de la cooperaƟva y de las personas socias. La cooperaƟva responderá de las deudas contraídas con todo su patrimonio presente y futuro. La responsabilidad de la persona socia por las deudas sociales estará limitada a las aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito, estén o no desembolsadas en su totalidad. No obstante, en caso de baja o expulsión, la persona socia responderá personalmente por las deudas sociales, previa exclusión del haber social, durante cinco años desde la pérdida de su condición de socio/a, por las obligaciones contraídas por la cooperaƟva con anterioridad a su baja, hasta el importe reembolsado de sus aportaciones al capital social. Arơculo 40.- El...",
+      "score": 3,
+      "relevanceFactors": {
+        "explicit": false,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": false,
+        "conceptProximity": false
+      }
+    },
+    {
+      "id": "desigualdad_aportaciones-one_member_one_vote-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-268",
       "claimId": "desigualdad_aportaciones-one_member_one_vote",
       "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
       "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
       "documentType": "guia",
       "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "snippet": "GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR -- 1 of 62 -- DIRECCIÓN ELABORACIÓN JURÍDICA FGC ADCVOCATS, SCCL Cristina R. Grau López como autora con la colaboración de Ainhoa Domínguez Peña. COLABORA Diciembre 2024 Confederación Española de Cooperativas de Consumidores y Usuarios – HISPACOOP Quintana, 1 - 2º B ● 28008 Madrid Tel. 91 593 09 35 www.hispacoop.com La información publicada en este documento es exclusivamente a título informativo y no constituye una recomendación. HISPACOOP no se hace responable del uso que pueda darse a la información incluida. © HISPACOOP Todos los derechos reservados. Queda prohibida la reproducción total o parcial del material protegido por los derechos de propiedad intelectual, o su uso en cualquier forma, o por cualquier me...",
+      "articleOrSection": "3.4. Las aportaciones voluntarias al capital social.",
+      "snippet": "3.4. Las aportaciones voluntarias al capital social. Los estatutos también podrán incluir las aportaciones voluntarias, como mecanismo de financiación adicional. Téngase en cuenta que al tratarse de capital sólo puede ser suscrito por las personas socias de la cooperativa, sea cual sea su clase. La mayoría de las leyes de cooperativas prevén que en este caso el acuerdo de admisión debe ser adoptado por la asamblea general, y debe fijar las condiciones de la admisión de capital social voluntario: el importe total de la admisión, si las personas socias deben hacer una aportación mínima o una máxima; las condiciones de retribución; su régimen de reembolso (como derecho del socio o reusable incondicionalmente por el consejo rector); etc. La mayoría de las leyes de cooperativas permiten la admi...",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -138,71 +156,14 @@
       }
     },
     {
-      "id": "desigualdad_aportaciones-one_member_one_vote-docs-estatutos-estatutos-senior-cohousing-huelva-99",
-      "claimId": "desigualdad_aportaciones-one_member_one_vote",
-      "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "documentTitle": "Estatutos Senior Cohousing Huelva",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_senior_cohousing_huelva.pdf",
-      "articleOrSection": "Artículo 33. Aportaciones Obligatorias y Voluntarias",
-      "snippet": "Artículo 33. Aportaciones Obligatorias y Voluntarias 33.1. Aportaciones Obligatorias Las aportaciones obligatorias son aquellas que forman parte del capital social, y cuya suscripción, al constituirse la entidad, o posteriormente por acuerdo de la Asamblea General, deben realizar necesariamente quienes ostenten la condición de personas socias en el momento de su emisión. Las aportaciones obligatorias pueden ser constitutivas o sucesivas, según se establezca en el momento de la constitución de la entidad o con posterioridad, respectivamente. 33.1.1. La aportación obligatoria constitutiva, o aportación inicial al Capital Social, deberá desembolsarse en función de la naturaleza de la persona socia o persona inversora, de la siguiente forma: Socios Residentes. Las personas socias residentes, d...",
-      "score": 3,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": false,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
-    },
-    {
-      "id": "desigualdad_aportaciones-voluntary_contributions-docs-estatutos-estatutos-tarocohousing-114",
+      "id": "desigualdad_aportaciones-voluntary_contributions-docs-estatutos-estatutos-elciempies-120",
       "claimId": "desigualdad_aportaciones-voluntary_contributions",
-      "documentSlug": "docs-estatutos-estatutos-tarocohousing",
-      "documentTitle": "Estatutos Tarocohousing",
+      "documentSlug": "docs-estatutos-estatutos-elciempies",
+      "documentTitle": "Estatutos Elciempies",
       "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_tarocohousing.pdf",
-      "articleOrSection": "Artículo 37.- El capital social. Aportaciones iniciales dinerarias y no",
-      "snippet": "Artículo 37.- El capital social. Aportaciones iniciales dinerarias y no dinerarias; suscripción y desembolso. 1.- El capital social estará constituido por las aportaciones obligatorias y voluntarias de las personas socias, que podrán ser: a) aportaciones con derecho de reembolso en caso de baja b) aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por el Consejo Rector. Del total de las aportaciones obligatorias y voluntarias suscritas por cada socio/a, un 5% de las mismas, hasta un máximo de 5.000 €, su reembolso podrá ser considerado como cantidad rehusable de forma incondicional por el Consejo Rector. Las aportaciones iniciales obligatorias de las nuevas personas socias se efectuarán mediante la adquisición de las aportaciones cuyo reembolso hubiese sido r...",
-      "score": 3,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": false,
-        "topicDensity": false,
-        "conceptProximity": false
-      }
-    },
-    {
-      "id": "desigualdad_aportaciones-voluntary_contributions-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-1",
-      "claimId": "desigualdad_aportaciones-voluntary_contributions",
-      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "snippet": ".... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31 3.2. Nuevas aportaciones obligatorias al capital social . . . . . . . . . . . . . . . . . . . . . . 34 3.3. Otras aportaciones obligatorias al capital social. . . . . . . . . . . . . . . . . . . . . . . 34 3.4. Las aportaciones voluntarias al capital social. . . . . . . . . . . . . . . . . . . . . . . . . . 35 3.5. La retribución de las aportaciones a capital social. . . . . . . . . . . . . . . . . . . . . 35 3.6. Transmisión de las aportaciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36 3.7. Reembolso de las participaciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37 3.8. Cuotas y otras aportaciones que no forman parte del capital socia...",
-      "score": 23,
-      "relevanceFactors": {
-        "explicit": true,
-        "headingRelevant": false,
-        "contextualCooccurrence": false,
-        "topicDensity": true,
-        "conceptProximity": true
-      },
-      "contaminationFlags": [
-        "términos negativos detectados"
-      ]
-    },
-    {
-      "id": "desigualdad_aportaciones-voluntary_contributions-docs-estatutos-estatutos-senior-cohousing-huelva-99",
-      "claimId": "desigualdad_aportaciones-voluntary_contributions",
-      "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "documentTitle": "Estatutos Senior Cohousing Huelva",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_senior_cohousing_huelva.pdf",
-      "articleOrSection": "Artículo 33. Aportaciones Obligatorias y Voluntarias",
-      "snippet": "Artículo 33. Aportaciones Obligatorias y Voluntarias 33.1. Aportaciones Obligatorias Las aportaciones obligatorias son aquellas que forman parte del capital social, y cuya suscripción, al constituirse la entidad, o posteriormente por acuerdo de la Asamblea General, deben realizar necesariamente quienes ostenten la condición de personas socias en el momento de su emisión. Las aportaciones obligatorias pueden ser constitutivas o sucesivas, según se establezca en el momento de la constitución de la entidad o con posterioridad, respectivamente. 33.1.1. La aportación obligatoria constitutiva, o aportación inicial al Capital Social, deberá desembolsarse en función de la naturaleza de la persona socia o persona inversora, de la siguiente forma: Socios Residentes. Las personas socias residentes, d...",
+      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "snippet": "...-- 33 of 48 -- La responsabilidad de la persona socia por las deudas sociales estará limitada a las aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito, estén o no desembolsadas en su totalidad. No obstante, en caso de baja o expulsión, la persona socia responderá personalmente por las deudas sociales, previa exclusión del haber social, durante cinco años desde la pérdida de su condición de socio/a, por las obligaciones contraídas por la coopera\u000eva con anterioridad a su baja, hasta el importe reembolsado de sus aportaciones al capital social. Ar\u001aculo 37.- El capital social. Aportaciones iniciales dinerarias y no dinerarias; suscripción y desembolso. 1.- El capital social de la sociedad coopera\u000eva estará cons\u000etuido por las aportaciones, ya sean obligato...",
       "score": 38,
       "relevanceFactors": {
         "explicit": true,
@@ -213,14 +174,50 @@
       }
     },
     {
-      "id": "desigualdad_aportaciones-unequal_effects-docs-estatutos-estatutos-tarocohousing-114",
-      "claimId": "desigualdad_aportaciones-unequal_effects",
-      "documentSlug": "docs-estatutos-estatutos-tarocohousing",
-      "documentTitle": "Estatutos Tarocohousing",
+      "id": "desigualdad_aportaciones-voluntary_contributions-docs-estatutos-estatutos-los-girasoles-125",
+      "claimId": "desigualdad_aportaciones-voluntary_contributions",
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "documentTitle": "Estatutos Los Girasoles",
       "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_tarocohousing.pdf",
-      "articleOrSection": "Artículo 37.- El capital social. Aportaciones iniciales dinerarias y no",
-      "snippet": "Artículo 37.- El capital social. Aportaciones iniciales dinerarias y no dinerarias; suscripción y desembolso. 1.- El capital social estará constituido por las aportaciones obligatorias y voluntarias de las personas socias, que podrán ser: a) aportaciones con derecho de reembolso en caso de baja b) aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por el Consejo Rector. Del total de las aportaciones obligatorias y voluntarias suscritas por cada socio/a, un 5% de las mismas, hasta un máximo de 5.000 €, su reembolso podrá ser considerado como cantidad rehusable de forma incondicional por el Consejo Rector. Las aportaciones iniciales obligatorias de las nuevas personas socias se efectuarán mediante la adquisición de las aportaciones cuyo reembolso hubiese sido r...",
+      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "snippet": "...ente y futuro. La responsabilidad de la persona socia por las deudas sociales estará limitada a las aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito, estén o no desembolsadas en su totalidad. No obstante, en caso de baja o expulsión, la persona socia responderá personalmente por las deudas sociales, previa exclusión del haber social, durante cinco años desde la pérdida de su condición de socio/a, por las obligaciones contraídas por la cooperaƟva con anterioridad a su baja, hasta el importe reembolsado de sus aportaciones al capital social. Arơculo 40.- El capital social. Aportaciones iniciales dinerarias y no dinerarias; suscripción y desembolso. 1.- El capital social de la sociedad cooperaƟva estará consƟtuido por las aportaciones, ya sean obligato...",
+      "score": 38,
+      "relevanceFactors": {
+        "explicit": true,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": true,
+        "conceptProximity": true
+      }
+    },
+    {
+      "id": "desigualdad_aportaciones-voluntary_contributions-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-268",
+      "claimId": "desigualdad_aportaciones-voluntary_contributions",
+      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
+      "articleOrSection": "3.4. Las aportaciones voluntarias al capital social.",
+      "snippet": "3.4. Las aportaciones voluntarias al capital social. Los estatutos también podrán incluir las aportaciones voluntarias, como mecanismo de financiación adicional. Téngase en cuenta que al tratarse de capital sólo puede ser suscrito por las personas socias de la cooperativa, sea cual sea su clase. La mayoría de las leyes de cooperativas prevén que en este caso el acuerdo de admisión debe ser adoptado por la asamblea general, y debe fijar las condiciones de la admisión de capital social voluntario: el importe total de la admisión, si las personas socias deben hacer una aportación mínima o una máxima; las condiciones de retribución; su régimen de reembolso (como derecho del socio o reusable incondicionalmente por el consejo rector); etc. La mayoría de las leyes de cooperativas permiten la admi...",
+      "score": 24,
+      "relevanceFactors": {
+        "explicit": true,
+        "headingRelevant": true,
+        "contextualCooccurrence": false,
+        "topicDensity": true,
+        "conceptProximity": true
+      }
+    },
+    {
+      "id": "desigualdad_aportaciones-unequal_effects-docs-estatutos-estatutos-elciempies-120",
+      "claimId": "desigualdad_aportaciones-unequal_effects",
+      "documentSlug": "docs-estatutos-estatutos-elciempies",
+      "documentTitle": "Estatutos Elciempies",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "snippet": "...-- 33 of 48 -- La responsabilidad de la persona socia por las deudas sociales estará limitada a las aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito, estén o no desembolsadas en su totalidad. No obstante, en caso de baja o expulsión, la persona socia responderá personalmente por las deudas sociales, previa exclusión del haber social, durante cinco años desde la pérdida de su condición de socio/a, por las obligaciones contraídas por la coopera\u000eva con anterioridad a su baja, hasta el importe reembolsado de sus aportaciones al capital social. Ar\u001aculo 37.- El capital social. Aportaciones iniciales dinerarias y no dinerarias; suscripción y desembolso. 1.- El capital social de la sociedad coopera\u000eva estará cons\u000etuido por las aportaciones, ya sean obligato...",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -231,14 +228,14 @@
       }
     },
     {
-      "id": "desigualdad_aportaciones-unequal_effects-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-1",
+      "id": "desigualdad_aportaciones-unequal_effects-docs-estatutos-estatutos-los-girasoles-125",
       "claimId": "desigualdad_aportaciones-unequal_effects",
-      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "snippet": ".... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31 3.2. Nuevas aportaciones obligatorias al capital social . . . . . . . . . . . . . . . . . . . . . . 34 3.3. Otras aportaciones obligatorias al capital social. . . . . . . . . . . . . . . . . . . . . . . 34 3.4. Las aportaciones voluntarias al capital social. . . . . . . . . . . . . . . . . . . . . . . . . . 35 3.5. La retribución de las aportaciones a capital social. . . . . . . . . . . . . . . . . . . . . 35 3.6. Transmisión de las aportaciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36 3.7. Reembolso de las participaciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37 3.8. Cuotas y otras aportaciones que no forman parte del capital socia...",
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "documentTitle": "Estatutos Los Girasoles",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "snippet": "...ente y futuro. La responsabilidad de la persona socia por las deudas sociales estará limitada a las aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito, estén o no desembolsadas en su totalidad. No obstante, en caso de baja o expulsión, la persona socia responderá personalmente por las deudas sociales, previa exclusión del haber social, durante cinco años desde la pérdida de su condición de socio/a, por las obligaciones contraídas por la cooperaƟva con anterioridad a su baja, hasta el importe reembolsado de sus aportaciones al capital social. Arơculo 40.- El capital social. Aportaciones iniciales dinerarias y no dinerarias; suscripción y desembolso. 1.- El capital social de la sociedad cooperaƟva estará consƟtuido por las aportaciones, ya sean obligato...",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -249,14 +246,14 @@
       }
     },
     {
-      "id": "desigualdad_aportaciones-unequal_effects-docs-estatutos-estatutos-senior-cohousing-huelva-99",
+      "id": "desigualdad_aportaciones-unequal_effects-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-268",
       "claimId": "desigualdad_aportaciones-unequal_effects",
-      "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "documentTitle": "Estatutos Senior Cohousing Huelva",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_senior_cohousing_huelva.pdf",
-      "articleOrSection": "Artículo 33. Aportaciones Obligatorias y Voluntarias",
-      "snippet": "Artículo 33. Aportaciones Obligatorias y Voluntarias 33.1. Aportaciones Obligatorias Las aportaciones obligatorias son aquellas que forman parte del capital social, y cuya suscripción, al constituirse la entidad, o posteriormente por acuerdo de la Asamblea General, deben realizar necesariamente quienes ostenten la condición de personas socias en el momento de su emisión. Las aportaciones obligatorias pueden ser constitutivas o sucesivas, según se establezca en el momento de la constitución de la entidad o con posterioridad, respectivamente. 33.1.1. La aportación obligatoria constitutiva, o aportación inicial al Capital Social, deberá desembolsarse en función de la naturaleza de la persona socia o persona inversora, de la siguiente forma: Socios Residentes. Las personas socias residentes, d...",
+      "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
+      "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+      "documentType": "guia",
+      "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
+      "articleOrSection": "3.4. Las aportaciones voluntarias al capital social.",
+      "snippet": "3.4. Las aportaciones voluntarias al capital social. Los estatutos también podrán incluir las aportaciones voluntarias, como mecanismo de financiación adicional. Téngase en cuenta que al tratarse de capital sólo puede ser suscrito por las personas socias de la cooperativa, sea cual sea su clase. La mayoría de las leyes de cooperativas prevén que en este caso el acuerdo de admisión debe ser adoptado por la asamblea general, y debe fijar las condiciones de la admisión de capital social voluntario: el importe total de la admisión, si las personas socias deben hacer una aportación mínima o una máxima; las condiciones de retribución; su régimen de reembolso (como derecho del socio o reusable incondicionalmente por el consejo rector); etc. La mayoría de las leyes de cooperativas permiten la admi...",
       "score": 3,
       "relevanceFactors": {
         "explicit": false,
@@ -267,15 +264,15 @@
       }
     },
     {
-      "id": "desigualdad_aportaciones-economic_rights_separate-docs-estatutos-estatutos-tarocohousing-114",
+      "id": "desigualdad_aportaciones-economic_rights_separate-docs-estatutos-estatutos-elciempies-120",
       "claimId": "desigualdad_aportaciones-economic_rights_separate",
-      "documentSlug": "docs-estatutos-estatutos-tarocohousing",
-      "documentTitle": "Estatutos Tarocohousing",
+      "documentSlug": "docs-estatutos-estatutos-elciempies",
+      "documentTitle": "Estatutos Elciempies",
       "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_tarocohousing.pdf",
-      "articleOrSection": "Artículo 37.- El capital social. Aportaciones iniciales dinerarias y no",
-      "snippet": "...s obligatorias y voluntarias de las personas socias, que podrán ser: a) aportaciones con derecho de reembolso en caso de baja b) aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por el Consejo Rector. Del total de las aportaciones obligatorias y voluntarias suscritas por cada socio/a, un 5% de las mismas, hasta un máximo de 5.000 €, su reembolso podrá ser considerado como cantidad rehusable de forma incondicional por el Consejo Rector. Las aportaciones iniciales obligatorias de las nuevas personas socias se efectuarán mediante la adquisición de las aportaciones cuyo reembolso hubiese sido rehusado por la cooperativa, por orden de antigüedad de la fecha de baja. El plazo para hacer efectivo este reembolso se computará a partir de la fecha en la que el Consej...",
-      "score": 17,
+      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "snippet": "...Las aportaciones obligatorias serán consideradas como aportaciones no exigibles, cuya solicitud de reembolso, en caso de baja, podrá ser rehusada incondicionalmente por el Consejo Rector. b Las aportaciones voluntarias serán consideradas como aportaciones exigibles, con derecho a reembolso, en caso de baja. Las aportaciones iniciales obligatorias de las nuevas personas socias podrán ser efectuadas preferentemente mediante la adquisición de las aportaciones cuyo reembolso hubiese sido rehusado incondicionalmente por la coopera\u000eva, y el mismo hubiese sido solicitado por baja de sus \u000etulares y rehusado por el Consejo Rector. Esta adquisición se producirá por orden de an\u000egüedad de solicitudes de reembolso de este \u000epo de aportaciones y, en caso de solicitudes de igual fecha, la adquisición deb...",
+      "score": 29,
       "relevanceFactors": {
         "explicit": true,
         "headingRelevant": false,
@@ -285,51 +282,51 @@
       }
     },
     {
-      "id": "desigualdad_aportaciones-economic_rights_separate-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-1",
+      "id": "desigualdad_aportaciones-economic_rights_separate-docs-estatutos-estatutos-los-girasoles-125",
+      "claimId": "desigualdad_aportaciones-economic_rights_separate",
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "documentTitle": "Estatutos Los Girasoles",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "snippet": "...Las aportaciones obligatorias serán consideradas como aportaciones no exigibles, cuya solicitud de reembolso, en caso de baja, podrá ser rehusada incondicionalmente por el Consejo Rector. 6 b Las aportaciones voluntarias serán consideradas como aportaciones exigibles, con derecho a reembolso, en caso de baja. Las aportaciones iniciales obligatorias de las nuevas personas socias podrán ser efectuadas preferentemente mediante la adquisición de las aportaciones cuyo reembolso hubiese sido rehusado incondicionalmente por la cooperaƟva, y el mismo hubiese sido solicitado por baja de sus Ɵtulares y rehusado por el Consejo Rector. Esta adquisición se producirá por orden de anƟgüedad de solicitudes de reembolso de este Ɵpo de aportaciones y, en caso de solicitudes de igual fecha, la adquisición d...",
+      "score": 29,
+      "relevanceFactors": {
+        "explicit": true,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": true,
+        "conceptProximity": true
+      }
+    },
+    {
+      "id": "desigualdad_aportaciones-economic_rights_separate-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-268",
       "claimId": "desigualdad_aportaciones-economic_rights_separate",
       "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
       "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
       "documentType": "guia",
       "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "snippet": "...las aportaciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36 3.7. Reembolso de las participaciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37 3.8. Cuotas y otras aportaciones que no forman parte del capital social. . . . . 37 3.9. Resultados del ejercicio y su aplicación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39 3.10. Fondo de reserva obligatorio (FRO). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39 3.11. Fondo de educación y promoción (FEPC). . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40 3.12. Ejercicio económico.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40 3.13. Responsabilidad de las personas socias. . . . . . . ....",
-      "score": 175,
+      "articleOrSection": "3.4. Las aportaciones voluntarias al capital social.",
+      "snippet": "...ocias deben hacer una aportación mínima o una máxima; las condiciones de retribución; su régimen de reembolso (como derecho del socio o reusable incondicionalmente por el consejo rector); etc. La mayoría de las leyes de cooperativas permiten la admisión de capital social voluntario por el consejo rector, pero en este caso las condiciones del acuerdo de admisión deben ser las mismas que las últimas acordadas por la asamblea general, por lo que el consejo rector sólo podrá aceptar nuevas aportaciones de capital voluntario si la asamblea de la cooperativa lo ha admitido con anterioridad.",
+      "score": 5,
       "relevanceFactors": {
         "explicit": true,
         "headingRelevant": false,
         "contextualCooccurrence": false,
-        "topicDensity": true,
-        "conceptProximity": true
-      }
-    },
-    {
-      "id": "desigualdad_aportaciones-economic_rights_separate-docs-estatutos-estatutos-senior-cohousing-huelva-99",
-      "claimId": "desigualdad_aportaciones-economic_rights_separate",
-      "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "documentTitle": "Estatutos Senior Cohousing Huelva",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_senior_cohousing_huelva.pdf",
-      "articleOrSection": "Artículo 33. Aportaciones Obligatorias y Voluntarias",
-      "snippet": "...ma, el plazo de suscrip- ción, que no podrá exceder de seis meses, y la determinación de su tipo de interés conforme a lo previsto para la remuneración de las aportaciones en el artículo 34. 33.2.3. Todo socio o socia tendrá derecho a suscribir como aportación voluntaria, dentro de la cuantía global máxima que determine el acuerdo social, una parte proporcional a la aportación obligatoria para integrar el capital social que tuviera en el momento de la adopción de dicho acuerdo. Quien no haga uso, en todo o en parte, de este derecho podrá cederlo a otras personas socias siempre que queden salvados los límites legales relativos a los porcentajes máximos de titularidad de las aportaciones. 33.2.4. En el supuesto de que las personas socias no suscriban la totalidad de la cuantía global máxima...",
-      "score": 4,
-      "relevanceFactors": {
-        "explicit": false,
-        "headingRelevant": false,
-        "contextualCooccurrence": true,
         "topicDensity": false,
         "conceptProximity": false
       }
     },
     {
-      "id": "desigualdad_aportaciones-contribution_refund-docs-estatutos-estatutos-tarocohousing-114",
+      "id": "desigualdad_aportaciones-contribution_refund-docs-estatutos-estatutos-elciempies-120",
       "claimId": "desigualdad_aportaciones-contribution_refund",
-      "documentSlug": "docs-estatutos-estatutos-tarocohousing",
-      "documentTitle": "Estatutos Tarocohousing",
+      "documentSlug": "docs-estatutos-estatutos-elciempies",
+      "documentTitle": "Estatutos Elciempies",
       "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_tarocohousing.pdf",
-      "articleOrSection": "Artículo 37.- El capital social. Aportaciones iniciales dinerarias y no",
-      "snippet": "...s obligatorias y voluntarias de las personas socias, que podrán ser: a) aportaciones con derecho de reembolso en caso de baja b) aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por el Consejo Rector. Del total de las aportaciones obligatorias y voluntarias suscritas por cada socio/a, un 5% de las mismas, hasta un máximo de 5.000 €, su reembolso podrá ser considerado como cantidad rehusable de forma incondicional por el Consejo Rector. Las aportaciones iniciales obligatorias de las nuevas personas socias se efectuarán mediante la adquisición de las aportaciones cuyo reembolso hubiese sido rehusado por la cooperativa, por orden de antigüedad de la fecha de baja. El plazo para hacer efectivo este reembolso se computará a partir de la fecha en la que el Consej...",
-      "score": 25,
+      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "snippet": "...Las aportaciones obligatorias serán consideradas como aportaciones no exigibles, cuya solicitud de reembolso, en caso de baja, podrá ser rehusada incondicionalmente por el Consejo Rector. b Las aportaciones voluntarias serán consideradas como aportaciones exigibles, con derecho a reembolso, en caso de baja. Las aportaciones iniciales obligatorias de las nuevas personas socias podrán ser efectuadas preferentemente mediante la adquisición de las aportaciones cuyo reembolso hubiese sido rehusado incondicionalmente por la coopera\u000eva, y el mismo hubiese sido solicitado por baja de sus \u000etulares y rehusado por el Consejo Rector. Esta adquisición se producirá por orden de an\u000egüedad de solicitudes de reembolso de este \u000epo de aportaciones y, en caso de solicitudes de igual fecha, la adquisición deb...",
+      "score": 33,
       "relevanceFactors": {
         "explicit": true,
         "headingRelevant": false,
@@ -339,39 +336,39 @@
       }
     },
     {
-      "id": "desigualdad_aportaciones-contribution_refund-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-1",
+      "id": "desigualdad_aportaciones-contribution_refund-docs-estatutos-estatutos-los-girasoles-125",
+      "claimId": "desigualdad_aportaciones-contribution_refund",
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "documentTitle": "Estatutos Los Girasoles",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "articleOrSection": "CAPÍTULO IV",
+      "snippet": "...Las aportaciones obligatorias serán consideradas como aportaciones no exigibles, cuya solicitud de reembolso, en caso de baja, podrá ser rehusada incondicionalmente por el Consejo Rector. 6 b Las aportaciones voluntarias serán consideradas como aportaciones exigibles, con derecho a reembolso, en caso de baja. Las aportaciones iniciales obligatorias de las nuevas personas socias podrán ser efectuadas preferentemente mediante la adquisición de las aportaciones cuyo reembolso hubiese sido rehusado incondicionalmente por la cooperaƟva, y el mismo hubiese sido solicitado por baja de sus Ɵtulares y rehusado por el Consejo Rector. Esta adquisición se producirá por orden de anƟgüedad de solicitudes de reembolso de este Ɵpo de aportaciones y, en caso de solicitudes de igual fecha, la adquisición d...",
+      "score": 33,
+      "relevanceFactors": {
+        "explicit": true,
+        "headingRelevant": false,
+        "contextualCooccurrence": false,
+        "topicDensity": true,
+        "conceptProximity": true
+      }
+    },
+    {
+      "id": "desigualdad_aportaciones-contribution_refund-docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024-268",
       "claimId": "desigualdad_aportaciones-contribution_refund",
       "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
       "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
       "documentType": "guia",
       "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "snippet": "...las aportaciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36 3.7. Reembolso de las participaciones. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37 3.8. Cuotas y otras aportaciones que no forman parte del capital social. . . . . 37 3.9. Resultados del ejercicio y su aplicación. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39 3.10. Fondo de reserva obligatorio (FRO). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39 3.11. Fondo de educación y promoción (FEPC). . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40 3.12. Ejercicio económico.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40 3.13. Responsabilidad de las personas socias. . . . . . . ....",
-      "score": 173,
-      "relevanceFactors": {
-        "explicit": true,
-        "headingRelevant": false,
-        "contextualCooccurrence": false,
-        "topicDensity": true,
-        "conceptProximity": true
-      }
-    },
-    {
-      "id": "desigualdad_aportaciones-contribution_refund-docs-estatutos-estatutos-senior-cohousing-huelva-99",
-      "claimId": "desigualdad_aportaciones-contribution_refund",
-      "documentSlug": "docs-estatutos-estatutos-senior-cohousing-huelva",
-      "documentTitle": "Estatutos Senior Cohousing Huelva",
-      "documentType": "estatutos",
-      "sourcePath": "docs/estatutos/estatutos_senior_cohousing_huelva.pdf",
-      "articleOrSection": "Artículo 33. Aportaciones Obligatorias y Voluntarias",
-      "snippet": "...obligatoria al capital social de cinco mil euros (5.000,00 €), desembolsadas en su totalidad en el plazo máximo de dos meses de haber sido aceptadas como socias. Por otra parte, estarán obligadas a las aportaciones obligatorias sucesivas al capital, que serán desembolsadas de acuerdo a lo establecido en cada una de sus emisiones, no pudiendo acceder a los derechos de uso de la unidad habitacional hasta haber cumplido este requisito y otros regulados en los Estatutos y en el Reglamento de Régimen Interior. Personas Inversoras. Las personas inversoras tanto físicas como jurídicas, deberán hacer una aportación mínima de cinco mil euros (5.000 €). Deberán realizar el desembolso de la totalidad en el plazo de dos meses de haber sido aceptada su propuesta. Disfrutarán de la condición de persona...",
-      "score": 13,
+      "articleOrSection": "3.4. Las aportaciones voluntarias al capital social.",
+      "snippet": "...ocias deben hacer una aportación mínima o una máxima; las condiciones de retribución; su régimen de reembolso (como derecho del socio o reusable incondicionalmente por el consejo rector); etc. La mayoría de las leyes de cooperativas permiten la admisión de capital social voluntario por el consejo rector, pero en este caso las condiciones del acuerdo de admisión deben ser las mismas que las últimas acordadas por la asamblea general, por lo que el consejo rector sólo podrá aceptar nuevas aportaciones de capital voluntario si la asamblea de la cooperativa lo ha admitido con anterioridad.",
+      "score": 5,
       "relevanceFactors": {
         "explicit": true,
         "headingRelevant": false,
         "contextualCooccurrence": false,
         "topicDensity": false,
-        "conceptProximity": true
+        "conceptProximity": false
       }
     }
   ],

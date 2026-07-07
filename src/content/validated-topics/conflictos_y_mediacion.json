@@ -1,0 +1,106 @@
+{
+  "slug": "conflictos_y_mediacion",
+  "status": "reviewed",
+  "editorialSummary": [
+    "El Buen Vivir quiere resolver sus conflictos por el diálogo y la mediación, coherente con el buen trato y la horizontalidad que declara como valores centrales.",
+    "La Comisión de Convivencia y Resolución de Conflictos, ya activa, es el órgano mediador natural: su función es prevenir y mediar antes de que los conflictos escalen.",
+    "El punto clave es la articulación con el régimen disciplinario: la mediación es la vía previa y preferente, pero no puede sustituir las garantías legales del expediente sancionador ni la reserva de la expulsión a las faltas muy graves."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "mediation_mandatory",
+      "question": "¿La mediación previa será obligatoria antes de abrir un expediente sancionador o solo recomendada?",
+      "recommendationsForBuenVivir": [
+        "Hacerla obligatoria refuerza el valor del diálogo, pero conviene prever excepciones para conductas graves que afecten a la seguridad de las personas."
+      ]
+    },
+    {
+      "id": "mediator_impartiality",
+      "question": "¿Quién media cuando la Comisión de Convivencia es parte del conflicto o está implicada personalmente?",
+      "recommendationsForBuenVivir": [
+        "En un grupo pequeño de amigos, prever la abstención y una persona mediadora externa evita que el órgano mediador sea juez y parte."
+      ]
+    },
+    {
+      "id": "mediation_limits",
+      "question": "¿Qué asuntos no son mediables y pasan directamente a la vía disciplinaria?",
+      "recommendationsForBuenVivir": [
+        "Definir un límite claro (seguridad e integridad de las personas) protege a quien pudiera verse presionado a mediar un daño."
+      ]
+    },
+    {
+      "id": "mediation_placement",
+      "question": "¿El principio de mediación va en Estatutos y el procedimiento en el RRI?",
+      "recommendationsForBuenVivir": [
+        "Anclar el principio en Estatutos y desarrollar el procedimiento en el RRI da estabilidad sin perder flexibilidad para ajustarlo con la experiencia."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "disciplinary_is_mandatory_content",
+      "statement": "El régimen disciplinario (tipificación de faltas, procedimiento sancionador y pérdida de la condición de socio) es contenido estatutario obligatorio en CyL.",
+      "summary": "La mediación se puede añadir, pero no exime de regular en Estatutos las normas de disciplina social (art. 13.i Ley 4/2002)."
+    },
+    {
+      "id": "mediation_as_prior_step",
+      "statement": "Varias cooperativas prevén la mediación como vía previa a otros métodos de resolución y al expediente sancionador.",
+      "summary": "La Borda y el modelo de RRI de cesión de uso sitúan la negociación y la mediación como primer paso, dejando la sanción como último recurso."
+    },
+    {
+      "id": "commission_exists",
+      "statement": "El Buen Vivir ya cuenta con una Comisión de Convivencia y Resolución de Conflictos orientada a prevenir y mediar.",
+      "summary": "Sus documentos internos la describen como órgano que gestiona conflictos de forma estructurada y media antes de que escalen."
+    },
+    {
+      "id": "expulsion_only_serious",
+      "statement": "La expulsión solo procede por falta muy grave y con garantías (audiencia previa, competencia del Consejo Rector, recurso).",
+      "summary": "El itinerario de mediación debe respetar ese suelo legal cuando el conflicto deriva en sanción."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "conflictos_y_mediacion-mediation-replaces-sanction",
+      "statement": "La mediación puede sustituir por completo al procedimiento sancionador.",
+      "reason": "La ley exige mantener el régimen disciplinario y sus garantías; la documentación muestra la mediación como vía previa o complementaria, nunca como reemplazo de las garantías legales."
+    },
+    {
+      "claimId": "conflictos_y_mediacion-arbitration-obligatory",
+      "statement": "Todo conflicto debe someterse a arbitraje vinculante si la mediación falla.",
+      "reason": "Solo un modelo (RRI de cesión de uso) contempla arbitraje; no es una regla general ni una obligación legal para una cooperativa de usuarios pequeña."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Reconocer en Estatutos el compromiso con la resolución dialogada y a la Comisión de Convivencia como órgano mediador, con desarrollo mínimo.",
+    "Desarrollar en el RRI un procedimiento de mediación escalonado con plazos y con regla de abstención cuando la Comisión sea parte.",
+    "Dejar por escrito que la mediación es la vía previa a la sanción, sin vaciar las garantías del expediente disciplinario.",
+    "Delimitar los asuntos no mediables (seguridad de las personas) que van directos a la vía disciplinaria.",
+    "Repartir y rotar la tarea de mediación y cuidado emocional para no cargarla siempre en las mismas personas."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Principio de resolución de conflictos por el diálogo y la mediación.",
+      "Previsión de la Comisión de Convivencia como órgano mediador.",
+      "Régimen disciplinario mínimo: faltas tipificadas, procedimiento con audiencia previa, competencia del Consejo Rector y recursos, y expulsión solo por falta muy grave."
+    ],
+    "rri": [
+      "Procedimiento de mediación escalonado y sus plazos.",
+      "Composición de la mesa de mediación y abstención por conflicto de interés.",
+      "Recurso a mediación externa y asuntos no mediables.",
+      "Articulación entre mediación (vía previa) e inicio del expediente sancionador."
+    ],
+    "notes": [
+      "La revisión jurídica debe confirmar la articulación entre mediación y régimen disciplinario y los plazos de prescripción de las faltas."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, art. 13.i (disciplina social como contenido estatutario) y art. 24 (faltas, procedimiento sancionador y expulsión).",
+    "docs-estatutos-estatutos-la-borda: Artículo 54 sobre resolución de conflictos y comisiones de mediación.",
+    "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso: Comisión de Convivencia y artículo 12 con procedimiento de mediación escalonado.",
+    "docs-estatutos-estatutos-pepu: procedimiento de exclusión por falta muy grave con audiencia previa (referencia CyL)."
+  ],
+  "referencesToAvoid": [
+    "No presentar el arbitraje vinculante como obligatorio: solo aparece en un modelo y no es exigible a una cooperativa de usuarios pequeña.",
+    "No usar cláusulas de mediación para sustituir las garantías del régimen disciplinario ni la reserva de la expulsión a la falta muy grave."
+  ]
+}

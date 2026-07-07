@@ -26,71 +26,19 @@ Este dossier contiene extractos automáticos para análisis posterior. No contie
 
 ## Referencias agrupadas por proyecto/documento
 
-## Estatutos Entrepatios
-
-### Referencia 1
-
-- Documento: Estatutos Entrepatios
-- Slug documento: `docs-estatutos-estatutos-entrepatios`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 8. Procedimiento de admisión.
-- Ruta fuente: `docs/estatutos/estatutos_entrepatios.pdf`
-- Confidence: high
-- Score: 58
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 8. Procedimiento de admisión.
-1.- La persona interesada deberá presentar su solicitud de ingreso por escrito
-al Consejo Rector, con justificación de la situación que le da derecho
-conforme a estos Estatutos a formar parte de la Cooperativa.
-Las decisiones sobre la admisión de las personas socias corresponderán al
-órgano de administración, quien en el plazo máximo de cuarenta y cinco
-días, a contar desde la recepción de la solicitud de ingreso, decidirá y
-comunicará, también por escrito, al peticionario el acuerdo de admisión o
-denegatorio. Si la solicitud se produce mientras el crédito requerido por la
-Cooperativa para la construcción de las viviendas sigue activo, el Consejo
-Rector se reserva el derecho de verificar que la situación económica de la
-persona o familia interesada en ser admitida es adecuada para poder
-soportar el pago de las cuotas mensuales. Asimismo se reserva el derecho de
-usar esa información para motivar el acuerdo de admisión o denegatorio.
-Este acuerdo será motivado, pero nunca podrá serlo basándose en razones
-políticas, religiosas, sindicales, de raza, sexo o estado civil. Transcurrido dicho
-plazo sin resolución expresa, se entenderá aprobada la admisión.
-2. El acuerdo denegatorio podrá ser recurrido por el solicitante ante la
-Asamblea General en el plazo de treinta días, contados desde la
-notificación del mismo.
-3. El acuerdo de admisión podrá ser recurrido ante la primera Asamblea
-General que se celebre, a instancia del/de los Interventor/es o de un mínimo
-de tres socias/os, en el plazo de treinta días, desde la publicación interna o
-notificación del acuerdo de admisión o desde que haya transcurrido, sin
-resolución expresa del Consejo Rector, el plazo de cuarenta y cinco días.
-4. Los recursos a que se refieren los dos números anteriores
-
-[Extracto truncado automáticamente]
-```
-
----
-
 ## Estatutos Losnidales
 
-### Referencia 2
+### Referencia 1
 
 - Documento: Estatutos Losnidales
 - Slug documento: `docs-estatutos-estatutos-losnidales`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 8.- Procedimiento de admisión.
+- Sección/artículo: 1. La persona interesada deberá presentar su solicitud de ingreso, o de inclusión en la Lista de
 - Ruta fuente: `docs/estatutos/estatutos_losnidales.pdf`
 - Confidence: high
-- Score: 58
+- Score: 36
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -98,8 +46,7 @@ resolución expresa del Consejo Rector, el plazo de cuarenta y cinco días.
 Extracto relevante:
 
 ```text
-Artículo 8.- Procedimiento de admisión.
-1. 	La persona interesada deberá presentar su solicitud de ingreso, o de inclusión en la Lista de
+1. La persona interesada deberá presentar su solicitud de ingreso, o de inclusión en la Lista de
 Espera, por escrito al órgano de administración, con justificación de la situación que le da derecho
 conforme a estos Estatutos a formar parte de la Cooperativa.
 Las decisiones sobre la admisión de las socias/os corresponderán al órgano de administración
@@ -113,69 +60,13 @@ en el que se podrá incluir a personas no consejeras.
 4
 
 -- 4 of 53 --
-
-ESTATUTOS LOS NIDALES ECOVIVIENDA S.COOP.MAD
-2. 	El acuerdo denegatorio podrá ser recurrido por el solicitante ante la Asamblea General
-en el plazo de treinta días, contados desde la notificación del mismo.
-3. 	El acuerdo de admisión podrá ser recurrido ante la Asamblea General, a instancia de los
-Interventores o de un diez por ciento de socias/os, en el plazo de treinta días naturales desde la
-publicación interna o notificación del acuerdo de admisión o desde que haya transcurrido, sin resolución
-expresa del órgano de administración, el plazo de cuarenta y cinco días.
-4. 	Los recursos a que se refieren los dos números anteriores deberán ser resueltos por la
-Asamblea General en la primera reunión que celebre
-
-[Extracto truncado automáticamente]
-```
-
----
-
-### Referencia 3
-
-- Documento: Estatutos Losnidales
-- Slug documento: `docs-estatutos-estatutos-losnidales`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 7.- Requisitos para ser socia y socio.
-- Ruta fuente: `docs/estatutos/estatutos_losnidales.pdf`
-- Confidence: medium
-- Score: 16
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 7.- Requisitos para ser socia y socio.
-Para la admisión de una persona como socia o socio deberán cumplirse los siguientes
-requisitos:
-a) 	El señalado en el artículo anterior de estos Estatutos
-b) 	Estar incluido previamente en la relación de promotores, expresada en la escritura de
-constitución de la Sociedad, o solicitar dicha admisión, como a continuación se expone, en el caso de
-estar ya constituida la misma.
-c) 	Estar inscrito en la Lista de Espera, que habrá de constituir la Cooperativa, para lo que se
-requerirá:
-a. 	Aceptación de los estatutos, y normas de funcionamiento interno de la cooperativa, si las
-hubiere.
-b. 	Aceptación expresa de forma explícita las componentes fundamentales de un proyecto
-colaborativo, basado en el deseo de las socias y socios de colaborar, en la medida de sus capacidades y
-experiencia, al establecimiento de relaciones duraderas y de apoyo mutuo, entendiendo que las normas
-que rigen la comunidad son producto de un consenso voluntario en busca de un beneficio común.
-c. 	Aceptación expresa del decálogo de la Cooperativa.
-d) 	Suscribir la cuantía de la aportación obligatoria mínima para ser socia/o y desembolsar
-el porcentaje de la misma, fijada en estos Estatutos, si la admisión se efectúa en el momento
-de la constitución de la Cooperativa; o suscribir y desembolsar las cantidades acordadas por la
-Asamblea General, en concepto de aportación mínima al capital social y, en su caso, cuota de
-entrada, en el caso de efectuarse la admisión con posterioridad a la constitución de la
-Sociedad.
 ```
 
 ---
 
 ## Estatutos Pepu
 
-### Referencia 4
+### Referencia 2
 
 - Documento: Estatutos Pepu
 - Slug documento: `docs-estatutos-estatutos-pepu`
@@ -185,7 +76,7 @@ Sociedad.
 - Sección/artículo: Artículo 39.- Aportaciones de las nuevas personas socias.
 - Ruta fuente: `docs/estatutos/estatutos_pepu.pdf`
 - Confidence: high
-- Score: 48
+- Score: 30
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -210,7 +101,7 @@ Estatutos.
 
 ---
 
-### Referencia 5
+### Referencia 3
 
 - Documento: Estatutos Pepu
 - Slug documento: `docs-estatutos-estatutos-pepu`
@@ -219,8 +110,8 @@ Estatutos.
 - Proyecto: No disponible
 - Sección/artículo: Artículo 9.- Procedimiento de admisión.
 - Ruta fuente: `docs/estatutos/estatutos_pepu.pdf`
-- Confidence: high
-- Score: 40
+- Confidence: medium
+- Score: 20
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -258,7 +149,7 @@ transcurrido el plazo para recurrir la admisión o, si ésta fuera recur
 
 ## Estatutos Pequenopueblo
 
-### Referencia 6
+### Referencia 4
 
 - Documento: Estatutos Pequenopueblo
 - Slug documento: `docs-estatutos-estatutos-pequenopueblo`
@@ -268,7 +159,7 @@ transcurrido el plazo para recurrir la admisión o, si ésta fuera recur
 - Sección/artículo: Artículo 39.- Aportaciones de las nuevas personas socias.
 - Ruta fuente: `docs/estatutos/estatutos_pequenopueblo.pdf`
 - Confidence: high
-- Score: 48
+- Score: 30
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -293,7 +184,7 @@ Estatutos.
 
 ---
 
-### Referencia 7
+### Referencia 5
 
 - Documento: Estatutos Pequenopueblo
 - Slug documento: `docs-estatutos-estatutos-pequenopueblo`
@@ -302,8 +193,8 @@ Estatutos.
 - Proyecto: No disponible
 - Sección/artículo: Artículo 9.- Procedimiento de admisión.
 - Ruta fuente: `docs/estatutos/estatutos_pequenopueblo.pdf`
-- Confidence: high
-- Score: 40
+- Confidence: medium
+- Score: 20
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -339,19 +230,19 @@ transcurrido el plazo para recurrir la admisión o, si ésta fuera recur
 
 ---
 
-## Estatutos Senior Cohousing Huelva
+## Estatutos Entrepatios
 
-### Referencia 8
+### Referencia 6
 
-- Documento: Estatutos Senior Cohousing Huelva
-- Slug documento: `docs-estatutos-estatutos-senior-cohousing-huelva`
+- Documento: Estatutos Entrepatios
+- Slug documento: `docs-estatutos-estatutos-entrepatios`
 - Tipo: estatutos
-- Jurisdicción: Andalucía
+- Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 7. Admisión y adquisición de la condición de persona socia
-- Ruta fuente: `docs/estatutos/estatutos_senior_cohousing_huelva.pdf`
+- Sección/artículo: Artículo 8. Procedimiento de admisión.
+- Ruta fuente: `docs/estatutos/estatutos_entrepatios.pdf`
 - Confidence: high
-- Score: 40
+- Score: 28
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -359,36 +250,57 @@ transcurrido el plazo para recurrir la admisión o, si ésta fuera recur
 Extracto relevante:
 
 ```text
-Artículo 7. Admisión y adquisición de la condición de persona socia
-7.1. La persona interesada que pretenda ingresar en la cooperativa deberá formular la
-solicitud por escrito dirigida al Consejo Rector en la que conste la justificación de la situación que
-le da derecho, conforme a estos estatutos, a formar parte de la misma. En caso de que el número
-de socios esté completo, solicitará incluirse como persona expectante.
-7.2. Los acuerdos sobre la admisión de personas socias, o personas expectantes en su caso,
-corresponderán al Consejo Rector que, en el plazo de tres meses, desde su presentación deberá
-resolverla, publicar el acuerdo en la página web o tablón de anuncios de la cooperativa de no
-existir aquella y notificarlo a la persona interesada por escrito. En el supuesto de haber
-transcurrido el plazo indicado sin que medie notificación del acuerdo expreso sobre la solicitud
-de admisión, ésta se entenderá aceptada.
-7.3. Esta facultad de admisión, podrá ser delegada por el Consejo Rector en una Comisión
-Ejecutiva de acuerdo al régimen establecido en el artículo 40 de la LSCA.
-7.4. La denegación expresa de la solicitud de admisión será siempre motivada y quedará
-limitada a aquellos casos en que venga determinada por causa justificada, derivada de estos
-estatutos, de alguna disposición normativa, o de imposibilidad técnica derivada de las
-condiciones económico-financieras, organizativas o tecnológicas de la entidad.
-7.5. La persona aspirante a socia contará con el plazo de un mes desde la notificación o desde
-que transcurra el plazo de notificación de la resolución sin que medie la misma, para suscribir y
-desembolsar las aportaciones, así como para satisfacer la cuota de ingreso exigida, en su caso.
-Satisfechas las citadas obligaciones económicas, la persona aspirante a
+Artículo 8. Procedimiento de admisión.
+1.- La persona interesada deberá presentar su solicitud de ingreso por escrito
+al Consejo Rector, con justificación de la situación que le da derecho
+conforme a estos Estatutos a formar parte de la Cooperativa.
+Las decisiones sobre la admisión de las personas socias corresponderán al
+órgano de administración, quien en el plazo máximo de cuarenta y cinco
+días, a contar desde la recepción de la solicitud de ingreso, decidirá y
+comunicará, también por escrito, al peticionario el acuerdo de admisión o
+denegatorio. Si la solicitud se produce mientras el crédito requerido por la
+Cooperativa para la construcción de las viviendas sigue activo, el Consejo
+Rector se reserva el derecho de verificar que la situación económica de la
+persona o familia interesada en ser admitida es adecuada para poder
+soportar el pago de las cuotas mensuales. Asimismo se reserva el derecho de
+usar esa información para motivar el acuerdo de admisión o denegatorio.
+Este acuerdo será motivado, pero nunca podrá serlo basándose en razones
+políticas, religiosas, sindicales, de raza, sexo o estado civil. Transcurrido dicho
+plazo sin resolución expresa, se entenderá aprobada la admisión.
+```
 
-[Extracto truncado automáticamente]
+---
+
+## Otras Leyes, Decretos, Modificaciones
+
+### Referencia 7
+
+- Documento: BOE A 2010 20034 Orden+EHA+3360 2010
+- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010`
+- Tipo: ley
+- Jurisdicción: No disponible
+- Proyecto: Otras Leyes, Decretos, Modificaciones
+- Sección/artículo: a) Que las aportaciones obligatorias iniciales de las nuevas personas socias deban
+- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2010-20034_Orden+EHA+3360_2010.pdf`
+- Confidence: high
+- Score: 25
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+a) Que las aportaciones obligatorias iniciales de las nuevas personas socias deban
+efectuarse mediante la adquisición de las aportaciones cuyo reembolso hubiese sido
+rehusado por la cooperativa.
 ```
 
 ---
 
 ## Estatutos Tarocohousing
 
-### Referencia 9
+### Referencia 8
 
 - Documento: Estatutos Tarocohousing
 - Slug documento: `docs-estatutos-estatutos-tarocohousing`
@@ -398,7 +310,7 @@ Satisfechas las citadas obligaciones económicas, la persona aspirante a
 - Sección/artículo: Artículo 40.- Aportaciones de las nuevas personas socias
 - Ruta fuente: `docs/estatutos/estatutos_tarocohousing.pdf`
 - Confidence: high
-- Score: 40
+- Score: 25
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -407,6 +319,29 @@ Extracto relevante:
 
 ```text
 Artículo 40.- Aportaciones de las nuevas personas socias
+```
+
+---
+
+### Referencia 9
+
+- Documento: Estatutos Tarocohousing
+- Slug documento: `docs-estatutos-estatutos-tarocohousing`
+- Tipo: estatutos
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: g) La admisión de nuevas personas socias cumpliendo con el procedimiento previsto en el
+- Ruta fuente: `docs/estatutos/estatutos_tarocohousing.pdf`
+- Confidence: medium
+- Score: 19
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+g) La admisión de nuevas personas socias cumpliendo con el procedimiento previsto en el
 ```
 
 ---
@@ -418,33 +353,10 @@ Artículo 40.- Aportaciones de las nuevas personas socias
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 12.- Procedimiento de admisión
-- Ruta fuente: `docs/estatutos/estatutos_tarocohousing.pdf`
-- Confidence: high
-- Score: 32
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 12.- Procedimiento de admisión
-```
-
----
-
-### Referencia 11
-
-- Documento: Estatutos Tarocohousing
-- Slug documento: `docs-estatutos-estatutos-tarocohousing`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 40.- Aportaciones de las nuevas personas socias
+- Sección/artículo: d) Aprobación de nuevas aportaciones obligatorias, admisión de aportaciones voluntarias,
 - Ruta fuente: `docs/estatutos/estatutos_tarocohousing.pdf`
 - Confidence: medium
-- Score: 22
+- Score: 15
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -452,65 +364,17 @@ Artículo 12.- Procedimiento de admisión
 Extracto relevante:
 
 ```text
-Artículo 40.- Aportaciones de las nuevas personas socias
-```
-
----
-
-## Normativa Autonomica
-
-### Referencia 12
-
-- Documento: Normativa Autonomica
-- Slug documento: `docs-leyes-normativa-autonomica`
-- Tipo: ley
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 19. Admisión de nuevos socios.
-- Ruta fuente: `docs/leyes/normativa_autonomica.pdf`
-- Confidence: high
-- Score: 40
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 19. Admisión de nuevos socios.
-1. Los Estatutos de cada sociedad cooperativa establecerán los requisitos necesarios
-para la adquisición de la condición de nuevos socios, que en todo caso habrán de respetar
-los principios constitucionales de igualdad y no discriminación.
-2. Para la admisión del nuevo socio se deberá desembolsar la cuantía de la aportación
-obligatoria mínima y suscribir el resto de dicha aportación, de acuerdo con las prescripciones
-legales o estatutarias.
-3. La solicitud de admisión se formulará mediante escrito dirigido al Consejo Rector
-quien resolverá en un plazo no superior a tres meses a contar desde la recepción de la
-solicitud, sobre la admisión o no del peticionario. Transcurrido el plazo de resolución, sin
-haber recaído ésta, se considerará como desestimada la solicitud. La resolución
-correspondiente habrá de ser motivada y se le dará publicidad en la forma en que
-determinen los Estatutos.
-4. Denegada la admisión el solicitante podrá recurrir en el plazo de quince días hábiles a
-contar desde la fecha de notificación del acuerdo denegatorio ante el Comité de Recursos si
-lo hubiere o ante la primera Asamblea General que se celebre.
-5. El acuerdo de admisión puede ser impugnado por un número de socios que
-represente el 10 por 100 de votos sociales o dos votos en las sociedades cooperativas de
-menos de diez socios.
-6. El Comité de Recursos, si lo hubiere, resolverá en un plazo máximo de un mes desde
-la interposición del recurso y la Asamblea general resolverá en la primera reunión que
-celebre, siendo en ambos supuestos preceptiva la audiencia del interesado. El silencio
-tendrá efectos desestimatorios del recurso.
-7. En el supuesto de impugnación de la admisión de nuevos socios, quedará en
-suspenso toda clase de actuaciones inherentes al pro
-
-[Extracto truncado automáticamente]
+d) Aprobación de nuevas aportaciones obligatorias, admisión de aportaciones voluntarias,
+actualización del valor de las aportaciones al capital social, fijación de las aportaciones de
+las nuevas personas socias, establecimiento de las cuotas de ingreso o periódicas, fijar el
+interés para retribuir las aportaciones de las personas socias colaboradoras.
 ```
 
 ---
 
 ## MODELO ESTATUTOS VIVIENDAS
 
-### Referencia 13
+### Referencia 11
 
 - Documento: MODELO ESTATUTOS VIVIENDAS
 - Slug documento: `docs-otros-modelo-estatutos-viviendas`
@@ -519,8 +383,8 @@ suspenso toda clase de actuaciones inherentes al pro
 - Proyecto: No disponible
 - Sección/artículo: Artículo 8.- Admisión
 - Ruta fuente: `docs/otros/MODELO ESTATUTOS  VIVIENDAS.pdf`
-- Confidence: high
-- Score: 36
+- Confidence: medium
+- Score: 20
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -555,19 +419,19 @@ plazo de un mes a contar desde la recepción de su
 
 ---
 
-## Normativa Estatal
+## Estatutos Elciempies
 
-### Referencia 14
+### Referencia 12
 
-- Documento: Normativa Estatal
-- Slug documento: `docs-leyes-normativa-estatal`
-- Tipo: ley
-- Jurisdicción: España
+- Documento: Estatutos Elciempies
+- Slug documento: `docs-estatutos-estatutos-elciempies`
+- Tipo: estatutos
+- Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 13. Admisión de nuevos socios.
-- Ruta fuente: `docs/leyes/normativa_estatal.pdf`
-- Confidence: high
-- Score: 36
+- Sección/artículo: CAPÍTULO IV
+- Ruta fuente: `docs/estatutos/estatutos_elciempies.pdf`
+- Confidence: medium
+- Score: 17
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -575,53 +439,54 @@ plazo de un mes a contar desde la recepción de su
 Extracto relevante:
 
 ```text
-Artículo 13. Admisión de nuevos socios.
-1. La solicitud para la adquisición de la condición de socio se formulará por escrito al
-Consejo Rector, que deberá resolver y comunicar su decisión en el plazo no superior a tres
-meses, a contar desde el recibo de aquélla, y dando publicidad del acuerdo en la forma que
-BOLETÍN OFICIAL DEL ESTADO
-LEGISLACIÓN CONSOLIDADA
-Página 14
+CAPÍTULO IV
+RÉGIMEN ECONÓMICO DE LA COOPERATIVA
+Arculo 36.- Responsabilidad de la coopera3va y de las personas socias.
+La cooperava responderá de las deudas contraídas con todo su patrimonio
+presente y futuro.
+33
 
--- 14 of 67 --
+-- 33 of 48 --
 
-estatutariamente se establezca. El acuerdo del Consejo Rector será motivado. Transcurrido
-el plazo sin haberse adoptado la decisión, se entenderá estimada.
-2. Denegada la admisión, el solicitante podrá recurrir, en el plazo de veinte días,
-computados desde la fecha de notificación del acuerdo del Consejo Rector, ante el Comité
-de Recursos o, en su defecto, ante la Asamblea General. El Comité de Recursos resolverá
-en un plazo máximo de dos meses, contados desde la presentación de la impugnación y la
-Asamblea General en la primera reunión que se celebre, siendo preceptiva, en ambos
-supuestos, la audiencia del interesado.
-La adquisición de la condición de socio quedará en suspenso hasta que haya
-transcurrido el plazo para recurrir la admisión o, si ésta fuese recurrida, hasta que resuelva el
-Comité de Recursos o, en su caso, la Asamblea General.
-3. El acuerdo de admisión podrá ser impugnado por el número de socios y en la forma
-que estatutariamente se determine, siendo preceptiva la audiencia del interesado.
-4. En las sociedades cooperativas de primer grado, que no sean de trabajo asociado o
-de explotación comunitaria de la tierra y en las de segundo grado, los Estatutos podrán
-prever la admisión de socios de trabajo, personas físicas, cuya actividad cooperativizada
-consistirá en la prestación de su trabajo personal en la cooperativa.
-Serán de aplicación a los socios de trabajo las normas es
+La responsabilidad de la persona socia por las deudas sociales estará limitada a las
+aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito,
+estén o no desembolsadas en su totalidad.
+No obstante, en caso de baja o expulsión, la persona socia responderá
+personalmente por las deudas sociales, previa exclusión del haber social, durante cinco
+años desde la pérdida de su condición de socio/a, por las obligaciones contraídas por la
+cooperava con anterioridad a su baja, hasta el importe reembolsado de sus aportaciones
+al capital social.
+Arculo 37.- El capital social. Aportaciones iniciales dinerarias y no dinerarias;
+suscripción y desembolso.
+1.- El capital social de la sociedad cooperava estará constuido por las
+aportaciones, ya sean obligatorias o voluntarias, realizadas a la misma en este concepto
+por las disntas clases de personas socias, quedando establecido lo siguiente:
+a Las aportaciones obligatorias serán consideradas como aportaciones no exigibles,
+cuya solicitud de reembolso, en caso de baja, podrá ser rehusada
+incondicionalmente por el Consejo Rector.
+b Las aportaciones voluntarias serán consideradas como aportaciones exigibles, con
+derecho a reembolso, en caso de baja.
+Las aportaciones iniciales obligatorias de las nuevas personas socias podrán ser
+efectuadas preferentemente mediante la adquisición de las aportaciones cuyo reembolso
+hubiese sido rehusado incondicionalmente por la cooperava, y el mismo hubiese sido
+solicitado por baja de sus tulares y rehusado por el Consejo Rector. Esta adquisic
 
 [Extracto truncado automáticamente]
 ```
 
 ---
 
-## Rri Axuntase
+### Referencia 13
 
-### Referencia 15
-
-- Documento: Rri Axuntase
-- Slug documento: `docs-rri-rri-axuntase`
-- Tipo: rri
+- Documento: Estatutos Elciempies
+- Slug documento: `docs-estatutos-estatutos-elciempies`
+- Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 3.- Adquisición de la condición de socia/o. Procedimiento de admisión.
-- Ruta fuente: `docs/rri/rri_axuntase.pdf`
-- Confidence: high
-- Score: 32
+- Sección/artículo: a) Ser admido/a como persona socia, para lo que deberá solicitar su admisión por
+- Ruta fuente: `docs/estatutos/estatutos_elciempies.pdf`
+- Confidence: medium
+- Score: 14
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -629,17 +494,139 @@ Serán de aplicación a los socios de trabajo las normas es
 Extracto relevante:
 
 ```text
-Artículo 3.- Adquisición de la condición de socia/o. Procedimiento de admisión.
-1.- Para adquirir la condición de socia/o en el momento de la constitución de la
-Sociedad Cooperativa será necesario:
-a) Cumplir con lo señalado en el artículo 2.1 del presente Reglamento
-b) Figurar en la escritura de constitución como promotora/or.
-c) Suscribir el compromiso de no darse de baja, sin causa justificada, hasta que hayan
-transcurrido tres años desde la fecha de su ingreso.
-d) Desembolsar las cantidades a que se refieren los artículos 34 y 35 de los Estatutos y
-los artículos 8 y 9 del presente Reglamento.
-2.- Para adquirir la condición de socia/o después de constituida la Cooperativa será
-necesario:
+a) Ser admido/a como persona socia, para lo que deberá solicitar su admisión por
+escrito dirigida al Consejo Rector.
+10
+
+-- 10 of 48 --
+
+El Consejo Rector resolverá y comunicará por escrito, a través de cualquier medio en el
+que quede constancia fehaciente del contenido del escrito, su decisión en un plazo no
+superior a 3 meses, su decisión debe estar movada. Transcurrido el plazo sin adoptar
+decisión, se entenderá esmada.
+En caso de que la admisión fuese denegada, el/la solicitante podrá recurrir en un plazo de
+un mes, computados desde la fecha de no,cación del acuerdo del Consejo Rector, ante
+la Asamblea General, que resolverá en la primera reunión que se celebre, siendo
+precepva la audiencia del/la interesado/a.
+La adquisición de la condición de socio/a quedará en suspenso hasta que haya
+transcurrido el plazo para recurrir la admisión o, si ésta fuera recurrida, hasta que
+resuelva la primera Asamblea General que se celebre. Será por votación secreta. Será
+precepva la audiencia previa de la persona interesada.
+```
+
+---
+
+## Estatutos Los Girasoles
+
+### Referencia 14
+
+- Documento: Estatutos Los Girasoles
+- Slug documento: `docs-estatutos-estatutos-los-girasoles`
+- Tipo: estatutos
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: CAPÍTULO IV
+- Ruta fuente: `docs/estatutos/estatutos_los_girasoles.pdf`
+- Confidence: medium
+- Score: 17
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+CAPÍTULO IV
+RÉGIMEN ECONÓMICO DE LA COOPERATIVA
+Arơculo 39.- Responsabilidad de la cooperaƟva y de las personas socias.
+La cooperaƟva responderá de las deudas contraídas con todo su patrimonio
+presente y futuro.
+La responsabilidad de la persona socia por las deudas sociales estará limitada a las
+aportaciones al capital social, tanto obligatorias como voluntarias, que hubiera suscrito,
+estén o no desembolsadas en su totalidad.
+No obstante, en caso de baja o expulsión, la persona socia responderá
+personalmente por las deudas sociales, previa exclusión del haber social, durante cinco
+años desde la pérdida de su condición de socio/a, por las obligaciones contraídas por la
+cooperaƟva con anterioridad a su baja, hasta el importe reembolsado de sus aportaciones
+al capital social.
+Arơculo 40.- El capital social. Aportaciones iniciales dinerarias y no dinerarias;
+suscripción y desembolso.
+1.- El capital social de la sociedad cooperaƟva estará consƟtuido por las
+aportaciones, ya sean obligatorias o voluntarias, realizadas a la misma en este concepto
+por las disƟntas clases de personas socias, quedando establecido lo siguiente:
+a Las aportaciones obligatorias serán consideradas como aportaciones no
+exigibles, cuya solicitud de reembolso, en caso de baja, podrá ser rehusada
+incondicionalmente por el Consejo Rector.
+6
+b Las aportaciones voluntarias serán consideradas como aportaciones exigibles,
+con derecho a reembolso, en caso de baja.
+Las aportaciones iniciales obligatorias de las nuevas personas socias podrán ser
+efectuadas preferentemente mediante la adquisición de las aportaciones cuyo reembolso
+hubiese sido rehusado incondicionalmente por la cooperaƟva, y el mismo hubiese sido
+solicitado por baja de sus Ɵtulares y rehusado por el Consejo Rector. Esta adquisición se
+producirá p
+
+[Extracto truncado automáticamente]
+```
+
+---
+
+### Referencia 15
+
+- Documento: Estatutos Los Girasoles
+- Slug documento: `docs-estatutos-estatutos-los-girasoles`
+- Tipo: estatutos
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: a) Ser admiƟdo/a como persona socia, para lo que deberá solicitar su admisión por
+- Ruta fuente: `docs/estatutos/estatutos_los_girasoles.pdf`
+- Confidence: medium
+- Score: 14
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+a) Ser admiƟdo/a como persona socia, para lo que deberá solicitar su admisión por
+escrito dirigida al Consejo Rector.
+El Consejo Rector resolverá y comunicará por escrito, a través de cualquier medio en el
+que quede constancia fehaciente del contenido del escrito, su decisión en un plazo no
+superior a 3 meses, su decisión debe estar moƟvada. Transcurrido el plazo sin adoptar
+decisión, se entenderá esƟmada.
+En caso de que la admisión fuese denegada, el/la solicitante podrá recurrir en un plazo de
+un mes, computados desde la fecha de noƟficación del acuerdo del Consejo Rector, ante
+la Asamblea General, que resolverá en la primera reunión que se celebre, siendo
+precepƟva la audiencia del/la interesado/a.
+La adquisición de la condición de socio/a quedará en suspenso hasta que haya
+transcurrido el plazo para recurrir la admisión o, si ésta fuera recurrida, hasta que
+resuelva la primera Asamblea General que se celebre. Será por votación secreta. Será
+precepƟva la audiencia previa de la persona interesada.
+```
+
+---
+
+## Rri Axuntase
+
+### Referencia 16
+
+- Documento: Rri Axuntase
+- Slug documento: `docs-rri-rri-axuntase`
+- Tipo: rri
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: a) Solicitar su admisión por escrito, en el modelo oficial, dirigido al Consejo Rector. La
+- Ruta fuente: `docs/rri/rri_axuntase.pdf`
+- Confidence: medium
+- Score: 17
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
 a) Solicitar su admisión por escrito, en el modelo oficial, dirigido al Consejo Rector. La
 Comisión de admisión y acogida emitirá Informe al Consejo Rector, que resolverá en los
 plazos y forma que regula la Ley de Cooperativas. La persona solicitante adquiere la
@@ -655,85 +642,23 @@ Además, de acuerdo con el artículo 7.4 de los Estatutos, las nuevas personas s
 cumplirán un plazo de prueba de adaptación a la comunidad de doce meses, o cualquier
 otro que se señalen en los Estatutos. Si en dicho plazo no se produjera la adaptación, por
 cualquier circunstancia, tiene que abandonar el proyecto en el plazo máximo de dos meses.
-b) Cumplir los requisitos señalados en el artículo 2.1 del presente Reglamento.
-c) No haber cumplido los 70 años en el momento de la incorporación a la cooperativa.
-d) El Consejo Rector podrá atender d
-
-[Extracto truncado automáticamente]
 ```
 
 ---
 
-## EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO
-
-### Referencia 16
-
-- Documento: EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO
-- Slug documento: `docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso`
-- Tipo: rri
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 3: Requisitos de Admisión
-- Ruta fuente: `docs/rri/EJEMPLO_DE_REGLAMENTO_DE_REGIMEN_INTERNO_PARA_VIVIENDAS_COOPERATIVAS_EN_CESION_DE_USO.pdf`
-- Confidence: high
-- Score: 24
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 3: Requisitos de Admisión
-1. 	Requisitos para adquirir la condición de socio/a
-a) 	Los aspirantes a la cooperativa deben estar inscritos en el registro de solicitantes
-de vivienda, cumpliendo los requisitos establecidos por la legislación local.
-b) 	Ser residente empadronado en la localidad donde se desarrolla el proyecto.
-c) 	Demostrar 	recursos 	económicos 	limitados 	y 	la 	ausencia 	de 	propiedad
-inmobiliaria.
-d) 	Compromiso con los principios de convivencia y participación comunitaria.
-e) 	No se producirá ningún tipo de discriminación por motivos de género, raza,
-orientación sexual, religión u otras características protegidas por la ley.
-2. 	Procedimiento para adquirir la condición de socio
-El proceso de admisión incluirá entrevistas y evaluaciones para asegurar la
-idoneidad y alineación con los valores cooperativos.
-3. 	Gestión de las personas en lista de espera
-
--- 3 of 12 --
-
-Mª José Vañó Vañó
-a) 	Requisitos para Ingresar en la Lista de Espera: Los socios que deseen optar a
-una vivienda deberán cumplir con los requisitos establecidos en este Reglamento y
-en los Estatutos de la Cooperativa. Esto incluirá la presentación de la solicitud
-correspondiente y la entrega de la documentación requerida.
-b) 	Orden de Preinscripción: El ingreso en la lista de espera se establecerá de acuerdo
-con el orden de preinscripción. Los socios interesados serán clasificados en la lista
-según la fecha de su solicitud, otorgándose prioridad a aquellos que se hayan
-preinscrito primero.
-c) 	Número de Preinscripción: Se asignará a cada socio un número de preinscripción
-único que determinará el orden de elección y adjudicación de viviendas. Este
-número se asignará en el momento de la preinscripción y se utilizará en todas las
-comunicaciones relacionadas con la lista de espera.
-d)
-
-[Extracto truncado automáticamente]
-```
-
----
-
-## Estatutos La Borda
+## MOD ESTATUTOS COOP VIVIENDAS
 
 ### Referencia 17
 
-- Documento: Estatutos La Borda
-- Slug documento: `docs-estatutos-estatutos-la-borda`
-- Tipo: estatutos
+- Documento: MOD ESTATUTOS COOP VIVIENDAS
+- Slug documento: `docs-otros-mod-estatutos-coop-viviendas`
+- Tipo: otro
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 6. Admisión
-- Ruta fuente: `docs/estatutos/estatutos_la_borda.pdf`
-- Confidence: high
-- Score: 24
+- Sección/artículo: 3. El interesado presentará su solicitud de admisión por escrito al Consejo Rector, que
+- Ruta fuente: `docs/otros/MOD_ESTATUTOS_COOP_VIVIENDAS.pdf`
+- Confidence: medium
+- Score: 16
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -741,54 +666,41 @@ d)
 Extracto relevante:
 
 ```text
-Artículo 6. Admisión
-6.1 Requisitos. Para la admisión de una persona como socia necesario que se
-cumplan los siguientes requisitos:
-a) Reunir las condiciones establecidas en el artículo 5 de estos Estatutos.
-Suscribirse la aportación obligatoria inicial al capital social y desembolsar,
-como mínimo, el 25% en el momento de la inscripción, de conformidad con lo
-previsto en la Ley 12/2015, de 9 de julio, de Cooperativas de Cataluña.
-b) Estar de acuerdo con los principales objetivos del proyecto y con las normas
-de convivencia que la Cooperativa establezca.
-c) No haber causado baja de otra Cooperativa de vivienda con anterioridad por
-expulsión o baja injustificada, ni ser deudor de una Cooperativa de vivienda por
-cualquier concepto.
-6.2. Proceso de admisión. Para ser socia o socio de la Cooperativa, sea cual
-sea la tipología de socio que se quiere ser, se deberá solicitar por escrito al
-Consejo Rector. La decisión sobre la admisión de nuevas socias y socios
-corresponde al Consejo Rector, mediante resolución motivada que se notificará
-por escrito a la persona solicitante dentro del plazo de dos meses, que cuentan
-desde la fecha de registro de entrada de la solicitud. A falta de respuesta se
-entiende que la solicitud es denegada.
-
--- 4 of 32 --
-
-La alta será efectiva cuando la nueva socia o socio acepte expresamente las
-normativas 	incluidas 	tanto 	en 	los 	Estatutos 	de 	la 	Cooperativa 	como 	su
-Reglamento de Régimen Interno, satisfaga el porcentaje de sus aportaciones al
-capital 	que 	tenga 	establecido 	la 	Asamblea 	General 	y 	se 	comprometa 	a
-satisfacer el resto en los plazos y condiciones que ésta haya determinado.
-Si el acuerdo fuese denegatorio deberá ser motivado y fundamentado en la Ley
-12/2015, de 9 de julio, de Cooperativas de Cataluña, o en estos Estatutos, c
-
-[Extracto truncado automáticamente]
+3. El interesado presentará su solicitud de admisión por escrito al Consejo Rector, que
+deberá resolver y comunicar al solicitante su decisión en el plazo máximo de tres meses a
+contar desde el recibo de aquélla, mediante escrito motivado.
+Transcurrido el plazo de tres meses sin que el Consejo Rector haya resuelto, se
+entenderá estimada la solicitud.
+El acuerdo de admisión del solicitante, se expondrá en el tablón de anuncios de
+la cooperativa y, en su caso, en el de los distintos centros de la cooperativa.
+El acuerdo de admisión podrá ser impugnado ante la Asamblea General dentro del plazo de
+............... días siguientes al último en que haya de estar publicado el acuerdo, a petición de
+............... socios14, siendo preceptiva la audiencia del interesado.
+El acuerdo denegatorio podrá ser impugnado por el solicitante en el plazo de veinte
+días computados desde la fecha de notificación del acuerdo del Consejo Rector ante la
+Asamblea General que resolverá en la primera reunión que se celebre, siendo preceptiva la
+audiencia del interesado15.
+La adquisición de la condición de socio quedará en suspenso hasta que haya transcurrido el
+plazo para impugnar la admisión y, si ésta fuere impugnada, hasta que se resuelva por la
+Asamblea General.16
+17ARTÍCULO 8 BIS.- SOCIOS COLABORADORES,
 ```
 
 ---
 
-## Estatutos Axuntase
+## GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4
 
 ### Referencia 18
 
-- Documento: Estatutos Axuntase
-- Slug documento: `docs-estatutos-estatutos-axuntase`
-- Tipo: estatutos
+- Documento: GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4
+- Slug documento: `docs-guias-guia-introduccion-al-cohousing-senior-2019-4`
+- Tipo: guia
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 7.- Adquisición de la condición de socio/a. Procedimiento de admisión
-- Ruta fuente: `docs/estatutos/estatutos_axuntase.pdf`
+- Sección/artículo: c) Impugnación de la admisión del solicitante como socio por los demás socios
+- Ruta fuente: `docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf`
 - Confidence: medium
-- Score: 20
+- Score: 14
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -796,43 +708,13 @@ Si el acuerdo fuese denegatorio deberá ser motivado y fundamentado en la Ley
 Extracto relevante:
 
 ```text
-Artículo 7.- Adquisición de la condición de socio/a. Procedimiento de admisión
-1.- Para adquirir la condición de socio/a en el momento de la constitución de la Sociedad
-Cooperativa será necesario:
-a) Cumplir con lo señalado en el artículo 6.1 de los presentes Estatutos.
-b) Figurar en la escritura de constitución como promotor/a.
-c) Suscribir el compromiso de no darse de baja, sin causa justificada, hasta que
-hayan transcurrido tres años desde la fecha de su ingreso.
-d) Desembolsar, las cantidades a que se refieren los artículos 34 y 35 de estos
-Estatutos.
-2.- Para adquirir la condición de socio/a después de constituida la Cooperativa será
-necesario:
-a) Solicitar su admisión por escrito dirigido al Consejo Rector.
-El Consejo Rector resolverá en los plazos y forma que regula la Ley de
-Cooperativas.
-
--- 3 of 25 --
-
-- 3 -
-b) Cumplir con todos los requisitos señalado en el artículo 6.1 de los presentes
-Estatutos.
-c) No haber complido los 70 años en el momento de la incorporación a la
-cooperativa.
-d) No hay límite de edad para el familiar hasta 3er grado de parentesco que se
-incorpora a la sociedad vía transmisión por actos “inter vivos" o "mortis causa",
-siempre que reúnan los requisitos del Art. 6.1.
-e) Suscribir y desembolsar, respectivamente, las cantidades a que se refieren los
-artículos 34 y 35 de estos Estatutos.
-f) Suscribir el compromiso de no darse de baja sin causa justificada hasta que
-hayan transcurrido tres años desde la fecha de su ingreso.
-g) Aceptar el contenido de los Estatutos Sociales y el Reglamento de Régimen
-Interior.
-h) Que exista plaza disponible de alojamiento en ese momento o, en su defecto,
-podrá ser admitido según lo que se establece en el Reglamento de Régimen
-Interno.
-i) El Consejo Rector podrá atender de forma excepcional, con justificación obj
-
-[Extracto truncado automáticamente]
+c) Impugnación de la admisión del solicitante como socio por los demás socios
+Si el Consejo Rector acuerda la admisión como socio del solicitante, el resto de los socios
+puede interponer recurso con el fin de que el solicitante no sea admitido como socio. Algunas
+leyes prevén que cualquier socio disconforme con el acuerdo de admisión del Consejo Rector
+pueda interponer recurso, si bien la mayoría de ellas suelen exigir que este recurso sólo puedan
+presentarlo una pluralidad de socios, variando en cada norma autonómica el concreto porcentaje
+que deben representar, sobre el total de socios de la cooperativa.
 ```
 
 ---

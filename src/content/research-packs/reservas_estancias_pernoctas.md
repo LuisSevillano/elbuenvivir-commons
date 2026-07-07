@@ -11,7 +11,7 @@ Metadata:
 
 ## Descripción breve
 
-Reservas, estancias y pernoctas es un tema planificado de la categoría uso_espacios. Este dossier reúne referencias automáticas asociadas a sus keywords: reserva, estancia, pernocta.
+Reservas, estancias y pernoctas es un tema planificado de la categoría uso_espacios. Este dossier reúne referencias automáticas asociadas a sus keywords: reserva, reservas, estancia, estancias, pernocta, pernoctas.
 
 Este dossier contiene extractos automáticos para análisis posterior. No contiene resúmenes jurídicos ni conclusiones generadas.
 
@@ -21,23 +21,24 @@ Este dossier contiene extractos automáticos para análisis posterior. No contie
 - Qué documentos o proyectos concentran más referencias automáticas sobre este tema?
 - Qué diferencias aparecen entre tipos de documento, jurisdicciones o proyectos?
 - Qué referencias parecen útiles para revisión humana y cuáles pueden ser ruido heurístico?
-- Las keywords (reserva, estancia, pernocta) aparecen en contexto sustantivo o solo incidental?
+- Los aliases (reservas de espacios, estancias de invitados, pernoctas de visitas) apuntan a las mismas reglas que las keywords principales?
+- Las keywords (reserva, reservas, estancia, estancias, pernocta) aparecen en contexto sustantivo o solo incidental?
 
 ## Referencias agrupadas por proyecto/documento
 
-## Estatutos Blanxart
+## Las GuíAs De Sostre CíVic
 
 ### Referencia 1
 
-- Documento: Estatutos Blanxart
-- Slug documento: `docs-estatutos-estatutos-blanxart`
-- Tipo: estatutos
+- Documento: Las GuíAs De Sostre CíVic
+- Slug documento: `docs-guias-las-guias-de-sostre-civic`
+- Tipo: guia
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Article 33. Fons de reserva voluntaris: el Fons Col·lectiu d’Accés a l’Habitatge i el
-- Ruta fuente: `docs/estatutos/estatutos_blanxart.pdf`
+- Sección/artículo: 92 metros cuadrados, y dispone de amplios espacios comunes: azotea,
+- Ruta fuente: `docs/guias/Las guías de Sostre Cívic.pdf`
 - Confidence: high
-- Score: 30
+- Score: 27
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -45,46 +46,40 @@ Este dossier contiene extractos automáticos para análisis posterior. No contie
 Extracto relevante:
 
 ```text
-Article 33. Fons de reserva voluntaris: el Fons Col·lectiu d’Accés a l’Habitatge i el
-Fons Mutual
-33.1. La Cooperativa pot establir fons de reserva voluntaris, que en tot cas tindran la consideració de
-no repartibles, per donar compliment a allò establert per a les cooperatives sense ànim de lucre. La
-seva funció és la de consolidar els fons propis de la cooperativa, tant per garantir la consecució del seu
-objecte social com per cobrir les pèrdues que es puguin produir en el desenvolupament de l’activitat.
-33.2. La Cooperativa denomina Fons Col·lectiu d’Accés a l’Habitatge al fons de reserva voluntari de
-caràcter no repartible entre les sòcies i socis consubstancial a les cooperatives sense ànim de lucre
-i d’iniciativa social.
-La funció d’aquest fons, a banda del de cobrir les pèrdues derivades de l’activitat de la cooperativa,
-és la de cobrir les necessitats de finançament per dur a terme les promocions d’habitatges en règim
-de cessió d’ús o per la rehabilitació o edificació d’habitatges de la seva titularitat.
-Aquest fons ha de venir a complementar les funcions previstes a l’article 124.3 de la Llei 12/2015,
-de 9 de juliol, de Cooperatives de Catalunya, pel fons de reserva obligatori de les cooperatives
-d’habitatges.
-33.3. El Fons Col·lectiu d’Accés a l’Habitatge és constituït per:
-a) La totalitat dels excedents, una vegada dotats els fons obligatoris, en tant que Cooperativa
-sense ànim de lucre.
-b) Les quotes extraordinàries o periòdiques degudament aprovades per l’Assemblea General,
-d’acord amb el previst a l’article 29 d’aquests Estatuts.
-c) 	Les quantitats que les persones sòcies aportin amb la voluntat i compromís de col·laborar
-amb la consecució de l’objecte social de la Cooperativa descrit a l’article 2 d’aquests Estatuts,
-sense que aquestes, en cap cas, puguin
+92 metros cuadrados, y dispone de amplios espacios comunes: azotea,
+lavandería, sala polivalente con cocina, biblioteca, cuatro habitaciones
+para invitados, jardín y huerto comunitario. Todo el edificio tiene la
+clasificación energética A, ya que numerosos elementos técnicos (activos y pasivos) fueron integrados para favorecer su eficiencia: paneles
+fotovoltaicos, caldera colectiva de pellas, sistema de recuperación de
+agua pluvial y gestión de residuos. Los 21 habitantes usuarios han ido
+profundizando en la mutualización y la sostenibilidad, y disponen de
+un servicio de coches compartidos, de un contrato colectivo a una comercializadora de energía renovable y local y compran colectivamente
+en una cooperativa de horticultores de proximidad.
 
-[Extracto truncado automáticamente]
+-- 361 of 377 --
+
+-- 362 of 377 --
+
+77
+MIETSHÄUSER SYNDIKAT
+(Sindicato de viviendas de alquiler)
 ```
 
 ---
 
+## Otras Leyes, Decretos, Modificaciones
+
 ### Referencia 2
 
-- Documento: Estatutos Blanxart
-- Slug documento: `docs-estatutos-estatutos-blanxart`
-- Tipo: estatutos
+- Documento: BOE A 2007 19884 Consolidado RD+1514 2007
+- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007`
+- Tipo: ley
 - Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Article 32. Fons de reserva obligatori
-- Ruta fuente: `docs/estatutos/estatutos_blanxart.pdf`
-- Confidence: medium
-- Score: 21
+- Proyecto: Otras Leyes, Decretos, Modificaciones
+- Sección/artículo: 11. RESERVAS Y OTROS INSTRUMENTOS DE PATRIMONIO
+- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2007-19884-consolidado_RD+1514_2007.pdf`
+- Confidence: high
+- Score: 26
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -92,30 +87,40 @@ sense que aquestes, en cap cas, puguin
 Extracto relevante:
 
 ```text
-Article 32. Fons de reserva obligatori
-32.1. El fons de reserva obligatori no es pot repartir entre els socis i sòcies, i té la finalitat de conso-
-lidar econòmicament la societat.
-32.2. El fons de reserva obligatori és constituït per:
-a) L’aplicació dels excedents cooperatius i dels beneficis extracooperatius, d’acord amb el que
-disposa la Llei i l’article 24 d’aquests Estatuts.
-b) Les deduccions sobre les aportacions obligatòries en el cas de baixa injustificada o expulsió
-dels socis o sòcies.
-c) 	Les quotes d’ingrés o periòdiques.
+11. RESERVAS Y OTROS INSTRUMENTOS DE PATRIMONIO
+110. Prima de emisión o asunción
+111. Otros instrumentos de patrimonio neto
+1110. Patrimonio neto por emisión de instrumentos financieros compuestos
+1111. Resto de instrumentos de patrimonio neto
+112. Reserva legal
+113. Reservas voluntarias
+114. Reservas especiales
+1140. Reservas para acciones o participaciones de la sociedad dominante
+1142. Reserva por capital amortizado
+Página 149
+
+-- 149 of 270 --
+
+1143. Reserva por fondo de comercio
+1144. Reservas por acciones propias aceptadas en garantía
+115. Reservas por pérdidas y ganancias actuariales y otros ajustes
+118. Aportaciones de socios o propietarios
+119. Diferencias por ajuste del capital a euros
 ```
 
 ---
 
 ### Referencia 3
 
-- Documento: Estatutos Blanxart
-- Slug documento: `docs-estatutos-estatutos-blanxart`
-- Tipo: estatutos
+- Documento: BOE A 2007 19884 Consolidado RD+1514 2007
+- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007`
+- Tipo: ley
 - Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Article 27. Aplicació dels excedents
-- Ruta fuente: `docs/estatutos/estatutos_blanxart.pdf`
-- Confidence: medium
-- Score: 18
+- Proyecto: Otras Leyes, Decretos, Modificaciones
+- Sección/artículo: 11. RESERVAS Y OTROS INSTRUMENTOS DE PATRIMONIO NETO
+- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2007-19884-consolidado_RD+1514_2007.pdf`
+- Confidence: high
+- Score: 26
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -123,50 +128,45 @@ c) 	Les quotes d’ingrés o periòdiques.
 Extracto relevante:
 
 ```text
-Article 27. Aplicació dels excedents
-27.1. De conformitat amb la Llei de cooperatives de Catalunya, la determinació dels resultats de
-l’exercici s’efectua d’acord amb la normativa comptable, atenent les deduccions específiques que es
-contemplen en aquesta llei. La determinació dels resultats cooperatius i extracooperatius s’efectua
-de conformitat amb allò establert per la Llei de cooperatives de Catalunya i les altres normes que
-resultin aplicables.
-
--- 16 of 32 --
-
-ESTATUTS DE LA COOPERATIVA MIXTA D’HABITATGES EN RÈGIM DE CESSIÓ
-D’ÚS I DE PERSONES CONSUMIDORES I USUÀRIES CAL BLANXART COOP, SCCL
-27.2. En l’aplicació dels excedents provinents de l’activitat d’habitatge per part de la cooperativa, es
-se seguirà allò establert a la Llei de Cooperatives de Catalunya referit a les cooperatives d’habitatge.
-Una vegada aplicats els excedents provinents de l’activitat d’habitatge a les dotacions al fons de
-reserva obligatori, segons allò establert a l’article 124 de la Llei 12/2015, de 9 de juliol, de Coopera-
-tives de Catalunya, la Cooperativa destinarà la totalitat dels excedents restants als fons de reserva
-voluntaris, de caràcter no repartible entre les sòcies i socis, previstos als Estatuts socials, donant
-compliment a allò establert per a les cooperatives sense ànim de lucre.
-27.3. En l’aplicació dels excedents provinents de l’activitat de consum i ús, comptabilitzats per a la
-determinació del resultat cooperatiu, un cop deduïdes les pèrdues de qualsevol naturalesa d’exer-
-cicis anteriors, i abans de la consideració de l’impost de societats, s’han de destinar, almenys, els
-percentatges següents:
-a) Al fons de reserva obligatori, amb la finalitat de contribuir a la consolidació econòmica de la
-cooperativa, s’ha de destinar, com a mínim, el 20% dels excedents nets.
-b) Al fo
-
-[Extracto truncado automáticamente]
+11. RESERVAS Y OTROS INSTRUMENTOS DE PATRIMONIO NETO
+110. Prima de emisión o asunción
+111. Otros instrumentos de patrimonio neto
+1110. Patrimonio neto por emisión de instrumentos financieros compuestos
+1111. Resto de instrumentos de patrimonio neto
+112. Reserva legal
+113. Reservas voluntarias
+114. Reservas especiales
+1140. Reservas para acciones o participaciones de la sociedad dominante
+1141. Reservas estatutarias
+1142. Reserva por capital amortizado
+1143. Reserva por fondo de comercio
+1144. Reservas por acciones propias aceptadas en garantía
+115. Reservas por pérdidas y ganancias actuariales y otros ajustes
+118. Aportaciones de socios o propietarios
+119. Diferencias por ajuste del capital a euros
+Las cuentas de este subgrupo figurarán en el patrimonio neto del balance, formando
+parte de los fondos propios.
+110. Prima de emisión o asunción
+Aportación realizada por los accionistas o socios en el caso de emisión y colocación de
+acciones o participaciones a un precio superior a su valor nominal. En particular, incluye las
+diferencias que pudieran surgir entre los valores de escritura y los valores por los que deben
+registrarse los bienes recibidos en concepto de aportación no dineraria, de acuerdo con lo
+dispuesto en las normas de registro y valoración.
 ```
 
 ---
-
-## Estatutos Cancarner
 
 ### Referencia 4
 
-- Documento: Estatutos Cancarner
-- Slug documento: `docs-estatutos-estatutos-cancarner`
-- Tipo: estatutos
+- Documento: BOE A 2007 19884 Consolidado RD+1514 2007
+- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007`
+- Tipo: ley
 - Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Article 35. Fons de reserva voluntaris: el Fons Col·lectiu d'Accés a l'Habitatge i el Fons
-- Ruta fuente: `docs/estatutos/estatutos_cancarner.pdf`
-- Confidence: high
-- Score: 30
+- Proyecto: Otras Leyes, Decretos, Modificaciones
+- Sección/artículo: b) Se cargará por la disposición que se haga de esta reserva.
+- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2007-19884-consolidado_RD+1514_2007.pdf`
+- Confidence: medium
+- Score: 16
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -174,47 +174,32 @@ b) Al fo
 Extracto relevante:
 
 ```text
-Article 35. Fons de reserva voluntaris: el Fons Col·lectiu d'Accés a l'Habitatge i el Fons
-Mutual.
-35.1. La Cooperativa pot establir fons de reserva voluntaris, que en tot cas tindran la
-consideració d'irrepartibles, per donar compliment a allò establert per a les cooperatives sense
-ànim de lucre. La seva funció és la de consolidar els fons propis de la cooperativa, tant per
-garantir la consecució del seu objecte social com per cobrir les pèrdues que es puguin produir
-en el desenvolupament de l'activitat.
-35.2. La Cooperativa denomina Fons Col·lectiu d'Accés a l'Habitatge al fons de reserva
-voluntari de caràcter irrepartible entre les sòcies i socis consubstancial a les cooperatives sense
-ànim de lucre i d'iniciativa social.
-La funció d'aquest fons, a banda del de cobrir les pèrdues derivades de l'activitat de la
-cooperativa, és la de cobrir les necessitats de finançament per dur a terme les promocions
-d'habitatges en règim de cessió d'ús o per la rehabilitació o edificació d'habitatges de la seva
-titularitat. Aquest fons ha de venir a complementar les funcions previstes a l'article 124.3 de la
-Llei 12/2015, de 9 de juliol, de Cooperatives de Catalunya, pel fons de reserva obligatori de les
-cooperatives d'habitatges.
-35.3. El Fons Col·lectiu d'Accés a l'Habitatge és constituït per:
-a) La totalitat dels excedents, una vegada dotats els fons obligatoris, en tant que Cooperativa
-sense ànim de lucre.
-b) Les quotes extraordinàries o periòdiques degudament aprovades per l'Assemblea General,
-d'acord amb el previst a l'article 30 d’aquests Estatuts.
-c) Les quantitats que les persones sòcies aportin amb la voluntat i compromís de col·laborar
-amb la consecució de l'objecte social de la Cooperativa descrit a l'article 2 d’aquests Estatuts,
-sense que aquestes, en cap cas, puguin te
-
-[Extracto truncado automáticamente]
+b) Se cargará por la disposición que se haga de esta reserva.
+113. Reservas voluntarias
+Son las constituidas libremente por la empresa. Su movimiento es análogo al señalado
+para la cuenta 112, sin perjuicio de lo indicado en los siguientes párrafos:
+Cuando se produzca un cambio de criterio contable o la subsanación de un error, el
+ajuste por el efecto acumulado calculado al inicio del ejercicio, de las variaciones de los
+elementos patrimoniales afectados por la aplicación retroactiva del nuevo criterio o la
+corrección del error, se imputará a reservas de libre disposición. Con carácter general, se
+imputará a las reservas voluntarias, registrándose del modo siguiente:
 ```
 
 ---
 
+## Estatutos Losnidales
+
 ### Referencia 5
 
-- Documento: Estatutos Cancarner
-- Slug documento: `docs-estatutos-estatutos-cancarner`
+- Documento: Estatutos Losnidales
+- Slug documento: `docs-estatutos-estatutos-losnidales`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Article 34. El fons de reserva obligatori
-- Ruta fuente: `docs/estatutos/estatutos_cancarner.pdf`
-- Confidence: medium
-- Score: 21
+- Sección/artículo: 5. Utilizar la unidad residencial asignada, así como los servicios y espacios comunes que habilitará
+- Ruta fuente: `docs/estatutos/estatutos_losnidales.pdf`
+- Confidence: high
+- Score: 25
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -222,31 +207,25 @@ sense que aquestes, en cap cas, puguin te
 Extracto relevante:
 
 ```text
-Article 34. El fons de reserva obligatori
-34.1 El fons de reserva obligatori no es pot repartir entre els socis i sòcies i té la finalitat de
-consolidar econòmicament la societat.
-34.2. El fons de reserva obligatori és constituït per:
-a) L’aplicació dels excedents cooperatius i dels beneficis extracooperatius, d’acord amb el que
-disposen els articles 81 i 124 de la Llei 12/2015, de 9 de juliol cooperatives, i l’article 28
-d’aquests estatuts.
-b) Les deduccions sobre les aportacions obligatòries en el cas de baixa injustificada o expulsió
-de les persones sòcies.
-c) Les quotes d’ingrés o periòdiques.
+5. Utilizar la unidad residencial asignada, así como los servicios y espacios comunes que habilitará
+la Cooperativa, con carácter vitalicio, en régimen de derecho de uso y habitación, sin perjuicio del
+derecho de baja o de los supuestos de baja obligatoria en la cooperativa. Un mismo socio/a no podrá
+ostentar el derecho de cesión de uso de más de una unidad residencial:
 ```
 
 ---
 
 ### Referencia 6
 
-- Documento: Estatutos Cancarner
-- Slug documento: `docs-estatutos-estatutos-cancarner`
+- Documento: Estatutos Losnidales
+- Slug documento: `docs-estatutos-estatutos-losnidales`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Article 29. Aplicació dels excedents i fons socials obligatoris.
-- Ruta fuente: `docs/estatutos/estatutos_cancarner.pdf`
+- Sección/artículo: a) Como mínimo un 5% a la Reserva de educación y promoción cooperativa, y un 20% a la
+- Ruta fuente: `docs/estatutos/estatutos_losnidales.pdf`
 - Confidence: medium
-- Score: 18
+- Score: 16
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -254,41 +233,15 @@ c) Les quotes d’ingrés o periòdiques.
 Extracto relevante:
 
 ```text
-Article 29. Aplicació dels excedents i fons socials obligatoris.
-En la determinació dels excedents s’han de tenir en compte, a més de les normes generals, les
-específiques previstes a l’article 124 de la Llei 12/2015, de 9 d juliol, de cooperatives de
-Catalunya.
-29.1. Els excedents comptabilitzats del resultat cooperatiu, un cop deduïdes les pèrdues de
-qualsevol naturalesa d'exercicis anteriors, i abans de la consideració de l'impost de societats,
-s'han de destinar, almenys, en els percentatges següents :
-a) Amb caràcter general, el 20% al fons de reserva obligatori i el 10% al fons d'educació i
-promoció cooperatives.
-b) El 50% dels excedents procedents de la regularització de balanços al fons de reserva
-obligatori.
-c) El 100% dels excedents procedents de les plusvàlues obtingudes per l'alienació dels
-elements de l'immobilitzat material o de l'immobilitzat intangible, segons l'article 79.2.f, al
-
--- 15 of 27 --
-
-fons de reserva obligatori, amb la limitació del resultat cooperatiu procedent de les plusvàlues
-de l'exercici.
-29.2. Dels beneficis extracooperatius, una vegada deduïdes les pèrdues de qualsevol
-naturalesa d'exercicis anteriors i abans de la consideració de l'impost sobre societats, s'ha de
-destinar almenys un 50% al fons de reserva obligatori.
-29.3. En cas d'optar per comptabilitzar conjuntament els resultats de la cooperativa, un cop
-deduïdes les pèrdues de qualsevol naturalesa d'exercicis anteriors, i abans de la consideració
-de l'impost de societats, s'ha de destinar, almenys, el percentatge previst pels resultats
-cooperatius.
-29.4. Fetes les dotacions a què fan referència els apartats 1, 2 i 3, la quantitat restant, un cop
-satisfets els impostos exigibles, s'ha d'aplicar, de conformitat amb el que estableixin els
-estatuts o acordi l'assemblea general ordin
-
-[Extracto truncado automáticamente]
+a) Como mínimo un 5% a la Reserva de educación y promoción cooperativa, y un 20% a la
+Reserva obligatoria, hasta que ésta alcance el triple del capital social al cierre del ejercicio. Una vez
+superada tal cifra, la Asamblea General podrá incrementar el porcentaje destinado a la Reserva de
+educación y promoción y reducir el correspondiente a la Reserva obligatoria, siempre que la suma de
+ambas sea, como mínimo, el 25% de los citados excedentes, sin perjuicio de los topes mínimos de cada
+uno de los fondos.
 ```
 
 ---
-
-## Estatutos Losnidales
 
 ### Referencia 7
 
@@ -297,88 +250,7 @@ estatuts o acordi l'assemblea general ordin
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 32.- La Reserva de educación y promoción.
-- Ruta fuente: `docs/estatutos/estatutos_losnidales.pdf`
-- Confidence: high
-- Score: 30
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 32.- La Reserva de educación y promoción.
-1. La Reserva de educación y promoción se destinará a actividades que desarrollen algunos de
-los siguientes fines:
-a) 	La formación de los/as socios/as en los principios y valores cooperativos.
-b) 	La promoción y difusión del cooperativismo y de las relaciones intercooperativas.
-c) 	La promoción cultural, profesional y asistencial de sus socios/as, del entorno local y de
-la comunidad en general.
-d) 	El desarrollo de acciones medioambientales.
-2. La dotación de la Reserva podrá ser aportada total o parcialmente a una Asociación o
-Federación de Cooperativas, a Cooperativas de segundo grado y a entidades públicas o
-privadas que tengan por objeto la realización de fines propios de esta Reserva.
-3. En el informe de gestión anual, explicativo de la misma durante el ejercicio económico, se
-recogerán con detalle las cantidades que con cargo a dicha Reserva se han destinado a los
-fines de la misma, indicando la labor realizada y mencionando, en su caso, las asociaciones o
-entidades en general a las que se remitieron los fondos para el cumplimiento de dichos fines.
-4. Necesariamente se destinará a esta Reserva:
-a) 	El porcentaje que establezca la Asamblea General, de conformidad con lo establecido
-en el artículo 28.2 a) de estos Estatutos.
-b) 	Las sanciones económicas que imponga la Cooperativa a sus socios/as.
-c) 	Las donaciones y ayudas recibidas para el cumplimiento de los fines de esta Reserva.
-5. El importe de esta Reserva es inembargable, excepto por deudas contraídas para el
-cumplimiento de sus fines, e irrepartible, incluso en el caso de liquidación de la Cooperativa.
-6. Excepto en el caso de que la Asamblea General haya aprobado planes plurianuales de
-aplicación de esta Reserva, el importe de la misma que no se haya apli
-
-[Extracto truncado automáticamente]
-```
-
----
-
-### Referencia 8
-
-- Documento: Estatutos Losnidales
-- Slug documento: `docs-estatutos-estatutos-losnidales`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 30.- La Reserva obligatoria.
-- Ruta fuente: `docs/estatutos/estatutos_losnidales.pdf`
-- Confidence: medium
-- Score: 21
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 30.- La Reserva obligatoria.
-La Reserva obligatoria se destinará a la consolidación, desarrollo y garantía de la Cooperativa,
-y es irrepartible entre los/as socios/as, incluso en el caso de disolución de la misma.
-Se destinarán obligatoriamente a esta Reserva:
-a) 	Las cuotas de ingreso, en su caso.
-b) 	El porcentaje de los excedentes disponibles que acuerde la Asamblea General,
-conforme a lo previsto en el número 2 del artículo 28 de estos Estatutos.
-c) 	Los beneficios extracooperativos y extraordinarios.
-d) 	La asignación que corresponda como consecuencia de la regularización del balance.
-e) 	Las deducciones sobre las aportaciones obligatorias en los casos de baja del/la socio/a
-en que aquéllas procedan.
-```
-
----
-
-### Referencia 9
-
-- Documento: Estatutos Losnidales
-- Slug documento: `docs-estatutos-estatutos-losnidales`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 28.- Distribución de beneficios y excedentes.
+- Sección/artículo: 1. A las Reservas especiales que se hayan constituido. Cumplidos los fines para los que se
 - Ruta fuente: `docs/estatutos/estatutos_losnidales.pdf`
 - Confidence: medium
 - Score: 14
@@ -389,42 +261,26 @@ en que aquéllas procedan.
 Extracto relevante:
 
 ```text
-Artículo 28.- Distribución de beneficios y excedentes.
-1. Los beneficios extracooperativos y extraordinarios, una vez deducidas las pérdidas de igual
-procedencia de ejercicios anteriores, se destinarán a la Reserva obligatoria.
-2. Los excedentes del ejercicio económico procedentes de las operaciones con los/as
-socios/as, y antes de la consideración del Impuesto de Sociedades, serán disponibles y se
-destinarán a los siguientes fines:
-a) 	Como mínimo un 5% a la Reserva de educación y promoción cooperativa, y un 20% a la
-Reserva obligatoria, hasta que ésta alcance el triple del capital social al cierre del ejercicio. Una vez
-superada tal cifra, la Asamblea General podrá incrementar el porcentaje destinado a la Reserva de
-educación y promoción y reducir el correspondiente a la Reserva obligatoria, siempre que la suma de
-ambas sea, como mínimo, el 25% de los citados excedentes, sin perjuicio de los topes mínimos de cada
-uno de los fondos.
-b) 	El resto de excedentes, una vez satisfechos los impuestos exigibles, se destinarán a los
-siguientes fines:
-1. 	A las Reservas especiales que se hayan constituido. Cumplidos los fines para los que se
+1. A las Reservas especiales que se hayan constituido. Cumplidos los fines para los que se
 constituyeron estas Reservas, o decidida su cancelación, el remanente podrá capitalizarse o aplicarse a
 las Reservas.
-2. 	Al incremento de la Reserva obligatoria o a la constitución de una Reserva voluntaria.
-3. 	A la retribución o devengo de intereses de las aportaciones de los asociados.
 ```
 
 ---
 
-## Estatutos Entrepatios
+## Estatutos Tarocohousing
 
-### Referencia 10
+### Referencia 8
 
-- Documento: Estatutos Entrepatios
-- Slug documento: `docs-estatutos-estatutos-entrepatios`
+- Documento: Estatutos Tarocohousing
+- Slug documento: `docs-estatutos-estatutos-tarocohousing`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 25. La Reserva de educación y promoción cooperativa.
-- Ruta fuente: `docs/estatutos/estatutos_entrepatios.pdf`
+- Sección/artículo: a) Al uso y disfrute de las viviendas, espacios anexos a las viviendas y zonas comunes que
+- Ruta fuente: `docs/estatutos/estatutos_tarocohousing.pdf`
 - Confidence: high
-- Score: 27
+- Score: 25
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -432,53 +288,107 @@ las Reservas.
 Extracto relevante:
 
 ```text
-Artículo 25. La Reserva de educación y promoción cooperativa.
-1. La Reserva de educación y promoción cooperativa se destina a:
-- La formación de las personas socias y los trabajadores/as en los principios y
-las técnicas cooperativas, empresariales, económicas y profesionales.
-- La promoción de las relaciones intercooperativas y la difusión del
-cooperativismo.
-- La atención a objetivos de incidencia social, de lucha contra la exclusión
-social y de fomento de la sostenibilidad.
-- El pago de las cuotas de la federación/es y plataformas a las que
-pertenezca, en su caso, la Cooperativa.
-2. La dotación de la Reserva de educación y promoción cooperativa puede
-ser aportada bajo cualquier título, total o parcialmente, a una federación de
-cooperativas, en cooperativas de segundo grado y a entidades públicas o
-privadas que tengan por objeto la realización de fines propios de esta
-reserva.
-3. La Reserva de educación y promoción cooperativa, que no es repartible
-entre las personas socias y es inembargable, excepto por deudas contraídas
-para el cumplimiento de sus fines, se constituye con:
-Los porcentajes sobre los excedentes cooperativos que establece la letra a)
-del Artículo 35.2 de estos Estatutos.
-Las sanciones de carácter económico que, por vía disciplinaria, la
-cooperativa imponga a las socias y socios.
-Las subvenciones, donaciones y todo tipo de ayuda recibida de las socias o
-socios o de terceras personas para el cumplimiento de los fines propios de
-este fondo.
-4. La Asamblea General fijará las líneas básicas de aplicación del fondo de
-educación y promoción cooperativa, las dotaciones del cual deben figurar
-en el pasivo del balance separadamente de otras partidas.
+a) Al uso y disfrute de las viviendas, espacios anexos a las viviendas y zonas comunes que
+la cooperativa pone a disposición de las personas socias de vivienda. Este derecho se
+extiende además a las personas que habitualmente convivan con ellas.
+```
 
--- 26 of 66 --
+---
 
-- 27 -
+## Otras Leyes, Decretos, Modificaciones
+
+### Referencia 9
+
+- Documento: BOE A 2010 20034 Orden+EHA+3360 2010
+- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010`
+- Tipo: ley
+- Jurisdicción: No disponible
+- Proyecto: Otras Leyes, Decretos, Modificaciones
+- Sección/artículo: 13. Los aspectos contables del Fondo de Reserva Obligatorio y del Fondo de
+- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2010-20034_Orden+EHA+3360_2010.pdf`
+- Confidence: high
+- Score: 24
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+13. Los aspectos contables del Fondo de Reserva Obligatorio y del Fondo de
+Reembolso o Actualización se regulan en la Norma cuarta. Adicionalmente, en esta Norma
+se desarrolla el tratamiento contable del Fondo de Reserva Voluntario previsto en todas
+las leyes de cooperativas, en sintonía con las reservas voluntarias de las sociedades de
+capital, sin perjuicio del particular régimen de dotación y disponibilidad recogido en las
+citadas leyes.
+El Fondo de Reserva Obligatorio es una reserva legal impuesta por la normativa
+aplicable a las cooperativas que se caracteriza por estar destinado a la consolidación,
+garantía y desarrollo de aquéllas.
+El artículo 58.1 de la Ley 27/1999, de 16 de julio, de Cooperativas, establece la
+obligación de destinar a este Fondo un porcentaje de los excedentes contabilizados para
+la determinación del resultado cooperativo, una vez deducidas las pérdidas de cualquier
+naturaleza de ejercicios anteriores y antes de la consideración del Impuesto sobre
+Sociedades. Adicionalmente se destinarán necesariamente al Fondo de Reserva Obligatorio
+otros conceptos detallados en las distintas leyes de cooperativas, entre los que se incluyen:
+las cuotas de ingreso de los socios, las deducciones sobre las aportaciones obligatorias en
+caso de baja de los socios y los resultados de las operaciones que realicen en virtud de los
+acuerdos cooperativos regulados en el artículo 79.3 de la Ley 27/1999, de 16 de julio, de
+Cooperativas.
+Con carácter general, el Fondo de Reserva Obligatorio tiene carácter irrepartible entre
+los socios, por lo que su calificación es la de patrimonio neto. Sin embargo, en algunas
+legislaciones autonómicas como la andaluza y la murciana el Fondo es parcialmente
+repartible en caso de baja del socio cuando así lo prevén los estatutos, en cuyo c
+
+[Extracto truncado automáticamente]
+```
+
+---
+
+### Referencia 10
+
+- Documento: BOE A 2010 20034 Orden+EHA+3360 2010
+- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010`
+- Tipo: ley
+- Jurisdicción: No disponible
+- Proyecto: Otras Leyes, Decretos, Modificaciones
+- Sección/artículo: 1.1.4 Cuentas a emplear. A efectos del registro contable del «Fondo de Reserva
+- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2010-20034_Orden+EHA+3360_2010.pdf`
+- Confidence: medium
+- Score: 20
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+1.1.4 Cuentas a emplear. A efectos del registro contable del «Fondo de Reserva
+Obligatorio» calificado como fondos propios podrá emplearse la cuenta 112. «Fondo de
+Reserva Obligatorio», creada al efecto en el subgrupo 11. «Reservas» contenido en la
+cuarta y quinta parte del Plan General de Contabilidad y del PGC-PYMES. Su definición y
+movimiento son los siguientes:
+112. «Fondo de Reserva Obligatorio».
+Esta cuenta registrará el «Fondo de Reserva Obligatorio» calificado como reserva
+legal.
+
+-- 23 of 65 --
+
+Núm. 316 Miércoles 29 de diciembre de 2010 Sec. III. Pág. 108296
 ```
 
 ---
 
 ### Referencia 11
 
-- Documento: Estatutos Entrepatios
-- Slug documento: `docs-estatutos-estatutos-entrepatios`
-- Tipo: estatutos
+- Documento: BOE A 2010 20034 Orden+EHA+3360 2010
+- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010`
+- Tipo: ley
 - Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 24. La Reserva obligatoria.
-- Ruta fuente: `docs/estatutos/estatutos_entrepatios.pdf`
+- Proyecto: Otras Leyes, Decretos, Modificaciones
+- Sección/artículo: 1.3.4 Cuentas a emplear. A efectos del registro contable del fondo de reserva
+- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2010-20034_Orden+EHA+3360_2010.pdf`
 - Confidence: medium
-- Score: 19
+- Score: 20
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -486,15 +396,180 @@ en el pasivo del balance separadamente de otras partidas.
 Extracto relevante:
 
 ```text
-Artículo 24. La Reserva obligatoria.
-1. La Reserva obligatoria tiene la finalidad de consolidar y garantizar
-económicamente la sociedad Además de las funciones previstas en la ley,
-garantizará el pago del crédito hipotecario solicitado por la Cooperativa
-para financiar la inversión de las viviendas en cesión de uso y podrá ser
-usada por la Cooperativa para cubrir impagos temporales en las cuotas de
-derecho de uso de personas socias. Este fondo no podrá ser utilizado para
-otros conceptos, ni ser repartido entre las personas socias incluso en el caso
-de disolución de la Cooperativa.
+1.3.4 Cuentas a emplear. A efectos del registro contable del fondo de reserva
+voluntario calificado como fondos propios podrá emplearse la cuenta 113 «Fondo de
+Reserva Voluntario», creada al efecto en el subgrupo 11 «Reservas» contenido en la cuarta
+y quinta parte del Plan General de Contabilidad y del PGC-PYMES; su definición y
+movimiento son los siguientes:
+
+-- 26 of 65 --
+
+Núm. 316 Miércoles 29 de diciembre de 2010 Sec. III. Pág. 108299
+113. «Fondo de Reserva Voluntario».
+Esta cuenta registrará el «Fondo de Reserva Voluntario» calificado como reserva
+voluntaria.
+Con carácter general, su movimiento es el siguiente:
+```
+
+---
+
+## EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO
+
+### Referencia 12
+
+- Documento: EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO
+- Slug documento: `docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso`
+- Tipo: rri
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: 10. Reserva de Fondos: Se establecerá y mantendrá una reserva de fondos
+- Ruta fuente: `docs/rri/EJEMPLO_DE_REGLAMENTO_DE_REGIMEN_INTERNO_PARA_VIVIENDAS_COOPERATIVAS_EN_CESION_DE_USO.pdf`
+- Confidence: medium
+- Score: 22
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+10. Reserva de Fondos: Se establecerá y mantendrá una reserva de fondos
+equivalente al menos al porcentaje especificado en el presupuesto anual para
+contingencias y futuros proyectos. Los cambios en esta reserva deberán ser
+aprobados por la Asamblea General.
+```
+
+---
+
+## Estatutos Elciempies
+
+### Referencia 13
+
+- Documento: Estatutos Elciempies
+- Slug documento: `docs-estatutos-estatutos-elciempies`
+- Tipo: estatutos
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: 6. La cooperava podrá solicitar y recibir consideraciones, informes, cali,caciones y
+- Ruta fuente: `docs/estatutos/estatutos_elciempies.pdf`
+- Confidence: medium
+- Score: 17
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+6. La cooperava podrá solicitar y recibir consideraciones, informes, cali,caciones y
+demás menciones que ayuden a cumplir el objeto social de la misma. Estas menciones
+podrán referirse tanto a la totalidad de la cooperava como a una o varias partes de la
+misma.
+Arculo 6.- Ac3vidades.
+Para el logro del objeto social de esta cooperava se seguirán las siguientes acvidades:
+ Adquirir, parcelar y urbanizar terrenos y, en general, desarrollar cuantas
+acvidades y trabajos sean necesarios para el cumplimiento de su objeto social.
+ Promover la construcción de las viviendas, locales, garajes, infraestructuras,
+dotaciones y zonas comunes necesarias para el cumplimiento de su objeto social,
+así como de su conservación, mantenimiento y mejora. CNAE 4121 “Construcción
+de edi,cios”.
+ La cooperava tendrá personalidad jurídica en todos sus actos y contratos,
+pudiendo adquirir, poseer, arrendar, disponer y administrar bienes y derechos,
+contraer obligaciones, ejercitar acciones judiciales, concertar toda clase de ayudas
+o auxilios económicos y ejercitar cuantas gesones u operaciones se requiera,
+conservará y administrará los edi,cios que se construyan, así como los locales,
+garajes, infraestructuras, dotaciones y otros anejos, según determine la Asamblea
+General, contratándose los servicios y suministros necesarios para la ulización de
+las viviendas, locales y anejos. CNAE 8110 “Servicios integrales a edi,cios e
+instalaciones”.
+ Suministrar agua, gesonar residuos, suministrar sistemas de telecomunicación y
+domóca y gesonar el transporte común.
+ Adaptar los bienes y servicios que suministre la cooperava a la diversidad
+funcional de las personas, promoción personal y cultural, cuidados personales y
+otros análogos, dentro de las posibilidades de la cooperava, que puedan
+f
+
+[Extracto truncado automáticamente]
+```
+
+---
+
+## Estatutos Los Girasoles
+
+### Referencia 14
+
+- Documento: Estatutos Los Girasoles
+- Slug documento: `docs-estatutos-estatutos-los-girasoles`
+- Tipo: estatutos
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: 7. La cooperaƟva podrá solicitar y recibir consideraciones, informes, calificaciones y
+- Ruta fuente: `docs/estatutos/estatutos_los_girasoles.pdf`
+- Confidence: medium
+- Score: 17
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+7. La cooperaƟva podrá solicitar y recibir consideraciones, informes, calificaciones y
+demás menciones que ayuden a cumplir el objeto social de la misma. Estas menciones
+podrán referirse tanto a la totalidad de la cooperaƟva como a una o varias partes de la
+misma.
+3
+
+-- 3 of 46 --
+
+Arơculo 6.- AcƟvidades.
+Para el logro del objeto social de esta cooperaƟva se seguirán las siguientes acƟvidades:
+ Adquirir, parcelar y urbanizar terrenos y, en general, desarrollar cuantas
+acƟvidades y trabajos sean necesarios para el cumplimiento de su objeto social.
+ Promover la construcción de las viviendas, locales, garajes, infraestructuras,
+dotaciones y zonas comunes necesarias para el cumplimiento de su objeto social,
+así como de su conservación, mantenimiento y mejora. CNAE 4121 “Construcción
+de edificios”.
+ La cooperaƟva tendrá personalidad jurídica en todos sus actos y contratos,
+pudiendo adquirir, poseer, arrendar, disponer y administrar bienes y derechos,
+contraer obligaciones, ejercitar acciones judiciales, concertar toda clase de ayudas
+o auxilios económicos y ejercitar cuantas gesƟones u operaciones se requiera,
+conservará y administrará los edificios que se construyan, así como los locales,
+garajes, infraestructuras, dotaciones y otros anejos, según determine la Asamblea
+General, contratándose los servicios y suministros necesarios para la uƟlización de
+las viviendas, locales y anejos. CNAE 8110 “Servicios integrales a edificios e
+instalaciones”.
+ Suministrar agua, gesƟonar residuos, suministrar sistemas de telecomunicación y
+domóƟca y gesƟonar el transporte común.
+ Adaptar los bienes y servicios que suministre la cooperaƟva a la diversidad
+funcional de las personas, promoción personal y cultural, cuidados personales y
+otros análogos, dentro de las posibilidades de la co
+
+[Extracto truncado automáticamente]
+```
+
+---
+
+## Estatutos Entrepatios
+
+### Referencia 15
+
+- Documento: Estatutos Entrepatios
+- Slug documento: `docs-estatutos-estatutos-entrepatios`
+- Tipo: estatutos
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: 2. La Reserva obligatoria está constituida por:
+- Ruta fuente: `docs/estatutos/estatutos_entrepatios.pdf`
+- Confidence: medium
+- Score: 14
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
 2. La Reserva obligatoria está constituida por:
 - Las cuotas de ingreso, en su caso.
 - Los beneficios extracooperativos y extraordinarios y el porcentaje de los
@@ -516,21 +591,25 @@ de reserva obligatorio. En el caso de la enajenación de viviendas a terceros
 no socios, se solicitará previamente la autorización administrativa pertinente.
 - En el caso de que la Cooperativa decida arrendar a terceros no socios
 viviendas, locales u otros espacios, los beneficios o resultados
-extracooperativos que se obtengan de este arrendamiento irán destinados
-
-[Extracto truncado automáticamente]
+extracooperativos que se obtengan de este arrendamiento irán destinados a
+esta reserva obligatoria.
+- Este fondo se constituirá en el momento en el que vaya a iniciarse el
+proyecto de construcción o rehabilitación del edificio o de las viviendas, con
+una aportación inicial por parte de cada persona socia equivalente a tres
+mensualidades de la cuota de uso de la vivienda asignada a dicha persona
+socia.
 ```
 
 ---
 
-### Referencia 12
+### Referencia 16
 
 - Documento: Estatutos Entrepatios
 - Slug documento: `docs-estatutos-estatutos-entrepatios`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 35. Distribución de beneficios y excedentes. El retorno
+- Sección/artículo: a) A las Reservas especiales que se hayan constituido. Cumplidos los fines
 - Ruta fuente: `docs/estatutos/estatutos_entrepatios.pdf`
 - Confidence: medium
 - Score: 14
@@ -541,203 +620,10 @@ extracooperativos que se obtengan de este arrendamiento irán destinados
 Extracto relevante:
 
 ```text
-Artículo 35. Distribución de beneficios y excedentes. El retorno
-cooperativo.
-
--- 32 of 66 --
-
-- 33 -
-1. Los beneficios extracooperativos y extraordinarios, una vez deducidas las
-pérdidas de igual procedencia de ejercicios anteriores, se destinarán a la
-Reserva obligatoria.
-2. Los excedentes del ejercicio económico procedentes de las operaciones
-con los socios, y antes de la consideración del Impuesto de Sociedades,
-serán disponibles y se destinarán a los siguientes fines:
-Como mínimo un 5% a la Reserva de educación y promoción cooperativa, y
-un 20% a la Reserva obligatoria, hasta que ésta alcance el triple del capital
-social al cierre del ejercicio. Una vez superada tal cifra, la Asamblea General
-podrá incrementar el porcentaje destinado a la Reserva de educación y
-promoción y reducir el correspondiente a la Reserva obligatoria, siempre que
-la suma de ambas sea, como mínimo, el 25% de los citados excedentes, sin
-perjuicio de los topes mínimos de cada uno de los fondos.
-El resto de excedentes, una vez satisfechos los impuestos exigibles, se
-destinarán a los siguientes fines:
 a) A las Reservas especiales que se hayan constituido. Cumplidos los fines
 para los que se constituyeron estas Reservas, o decidida su cancelación, el
 remanente podrá capitalizarse, aplicarse a las Reservas o ser distribuido en
 concepto de retornos.
-b) Al incremento de la Reserva obligatoria o a la constitución de una Reserva
-voluntaria.
-c) A su distribución a los socios en concepto de retorno.
-d) A la retribución o devengo de intereses de las aportaciones de los
-asociados.
-3. El retorno cooperativo, que se acreditará a los socios en proporción a las
-operaciones, actividades o servicios cooperativizados realizados por cada
-uno de ellos en la Cooperativa, se hará efectivo a los mismos, por acuerdo
-de
-
-[Extracto truncado automáticamente]
-```
-
----
-
-## Otras Leyes, Decretos, Modificaciones
-
-### Referencia 13
-
-- Documento: BOE A 2007 19884 Consolidado RD+1514 2007
-- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007`
-- Tipo: ley
-- Jurisdicción: No disponible
-- Proyecto: Otras Leyes, Decretos, Modificaciones
-- Sección/artículo: capítulo IV del Texto Refundido de la Ley de Sociedades Anónimas y de la Ley de
-- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2007-19884-consolidado_RD+1514_2007.pdf`
-- Confidence: medium
-- Score: 18
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-capítulo IV del Texto Refundido de la Ley de Sociedades Anónimas y de la Ley de
-Sociedades de Responsabilidad Limitada).
-Figurarán en el patrimonio neto, con signo negativo.
-Su movimiento es el siguiente:
-a) Se cargará por el importe de la adquisición de las acciones o participaciones, con
-abono, generalmente, a cuentas del subgrupo 57.
-b) Se abonará:
-b1) Por la enajenación de las acciones o participaciones, con cargo, generalmente, a
-cuentas del subgrupo 57. La diferencia entre la cantidad obtenida en la enajenación de las
-acciones o participaciones propias y su valor contable se cargará o abonará, según proceda,
-a cuentas del subgrupo 11.
-b2) Por la reducción de capital, con cargo a la cuenta 100 por el importe del nominal de
-las acciones o participaciones. La diferencia entre el importe de adquisición de las acciones
-o participaciones y su valor nominal se cargará o abonará, según proceda, a cuentas del
-subgrupo 11.
-109. Acciones o participaciones propias para reducción de capital
-Acciones o participaciones propias adquiridas por la empresa en ejecución de un
-acuerdo de reducción de capital adoptado por la Junta General (artículo 170 del Texto
-Refundido de la Ley de Sociedades Anónimas y artículo 40 de la Ley de Sociedades de
-Responsabilidad Limitada).
-Figurarán en el patrimonio neto, con signo negativo.
-Su movimiento es el siguiente:
-a) Se cargará por el importe de la adquisición de las acciones, con abono, generalmente,
-a cuentas del subgrupo 57.
-BOLETÍN OFICIAL DEL ESTADO
-LEGISLACIÓN CONSOLIDADA
-Página 166
-
--- 166 of 270 --
-
-b) Se abonará por la reducción de capital, con cargo a la cuenta 100 por el importe del
-nominal de las acciones o participaciones. La diferencia entre el importe de adquisición de
-las acciones o participaciones y su valor nominal se cargará o
-
-[Extracto truncado automáticamente]
-```
-
----
-
-## Estatutos La Borda
-
-### Referencia 14
-
-- Documento: Estatutos La Borda
-- Slug documento: `docs-estatutos-estatutos-la-borda`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 32. Fondo de reserva voluntarios: el Fondo Colectivo de Acceso a la
-- Ruta fuente: `docs/estatutos/estatutos_la_borda.pdf`
-- Confidence: low
-- Score: 13
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 32. Fondo de reserva voluntarios: el Fondo Colectivo de Acceso a la
-Vivienda y el Fondo Mutual.
-32.1. La Cooperativa puede establecer fondos de reserva voluntarios, que en
-todo caso tendrán la consideración de irrepartibles, para dar cumplimiento a lo
-establecido para las cooperativas sin ánimo de lucro. Su función es la de
-consolidar 	los 	fondos 	propios 	de 	la 	cooperativa, 	tanto 	para 	garantizar 	la
-consecución de su objeto social como para cubrir las pérdidas que puedan
-producirse en el desarrollo de la actividad.
-32.2. La Cooperativa denomina Fondo Colectivo de Acceso a la Vivienda al
-fondo de reserva voluntario de carácter irrepartible entre las socias y socios
-consustancial a las cooperativas sin ánimo de lucro y de iniciativa social.
-La función de este fondo, aparte del de cubrir las pérdidas derivadas de la
-actividad de la cooperativa, es la de cubrir las necesidades de financiación para
-llevar a cabo las promociones de viviendas en régimen de cesión de uso o por
-la rehabilitación o edificación de viviendas de su titularidad.
-Este fondo tiene que venir a complementar las funciones previstas en el
-```
-
----
-
-## Estatutos Tarocohousing
-
-### Referencia 15
-
-- Documento: Estatutos Tarocohousing
-- Slug documento: `docs-estatutos-estatutos-tarocohousing`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 51.- Fondo de Reserva Voluntario de Solidaridad.
-- Ruta fuente: `docs/estatutos/estatutos_tarocohousing.pdf`
-- Confidence: low
-- Score: 11
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 51.- Fondo de Reserva Voluntario de Solidaridad.
-```
-
----
-
-## Estatutos Axuntase
-
-### Referencia 16
-
-- Documento: Estatutos Axuntase
-- Slug documento: `docs-estatutos-estatutos-axuntase`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 43.- Fondo de Reserva voluntario de solidaridad
-- Ruta fuente: `docs/estatutos/estatutos_axuntase.pdf`
-- Confidence: low
-- Score: 10
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 43.- Fondo de Reserva voluntario de solidaridad
-1.- Se constituye con base legal en el Artículo 98.2 de la LCPA un fondo de Reserva
-voluntario de solidaridad con la finalidad que en cada momento establezca la Asamblea
-General y en especial para atender las necesidades de sus socios/as. Tendrá carácter
-de no repartible entre los/as socios/as Su funcionamiento y finalidad se desarrollará en
-el Reglamento de Régimen Interno de la Cooperativa.
-2.- Se nutre con las cantidades acordadas por la Asamblea General, de los excedentes
-cooperativos, extracooperativos, y donaciones que la sociedad reciba para la finalidad
-propia de este fondo, una vez satisfechos los impuestos exigibles.
-
--- 23 of 25 --
-
-- 23 -
 ```
 
 ---
@@ -751,10 +637,10 @@ propia de este fondo, una vez satisfechos los impuestos exigibles.
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 51.- Fondo de Reserva voluntario.
+- Sección/artículo: Artículo 50.- Fondo de Reserva obligatorio.
 - Ruta fuente: `docs/estatutos/estatutos_pepu.pdf`
-- Confidence: low
-- Score: 10
+- Confidence: medium
+- Score: 14
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -762,24 +648,27 @@ propia de este fondo, una vez satisfechos los impuestos exigibles.
 Extracto relevante:
 
 ```text
-Artículo 51.- Fondo de Reserva voluntario.
-Este Fondo de Reserva tiene como finalidad reforzar la consolidación, desarrollo y garantía de
-la Cooperativa y no será repartible entre los socios.
+Artículo 50.- Fondo de Reserva obligatorio.
+El Fondo de Reserva obligatorio se destinará a la consolidación, desarrollo y garantía de la
+Cooperativa, y es irrepartible entre las personas socias.
+Se destinarán obligatoriamente a este Fondo de Reserva:
 ```
 
 ---
 
+## Estatutos Pequenopueblo
+
 ### Referencia 18
 
-- Documento: Estatutos Pepu
-- Slug documento: `docs-estatutos-estatutos-pepu`
+- Documento: Estatutos Pequenopueblo
+- Slug documento: `docs-estatutos-estatutos-pequenopueblo`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 52.- Fondo de Reserva de Promoción y Formación Cooperativa.
-- Ruta fuente: `docs/estatutos/estatutos_pepu.pdf`
-- Confidence: low
-- Score: 10
+- Sección/artículo: Artículo 50.- Fondo de Reserva obligatorio.
+- Ruta fuente: `docs/estatutos/estatutos_pequenopueblo.pdf`
+- Confidence: medium
+- Score: 14
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -787,36 +676,10 @@ la Cooperativa y no será repartible entre los socios.
 Extracto relevante:
 
 ```text
-Artículo 52.- Fondo de Reserva de Promoción y Formación Cooperativa.
-1.- El Fondo de Promoción y Formación Cooperativa se destinará a actividades que desarrollen
-algunos de los siguientes fines:
-a) La formación de las personas socias y trabajadoras de la Cooperativa en los principios
-y valores cooperativos con un mínimo del cinco por ciento de los excedentes netos..
-b) La promoción y difusión del cooperativismo y de las relaciones intercooperativas.
-c) La promoción cultural, profesional y asistencial de sus personas socias, de sus
-trabajadores, del entorno local y de la comunidad en general.
-d) El desarrollo de acciones medioambientales.
-COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8
-Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51
-Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL
-Acceda a la página web: https://www.ae.jcyl.es/verDocumentos/ver?idDOE=13I9OHPLELLK8 para visualizar el documento
-
--- 41 of 49 --
-
-ESTATUTOS DE LA ENTIDAD “PEQUEÑO PUEBLO” S. COOP. 	Marzo-2022
-Página 42 de 49
-2.- La dotación del Fondo de Reserva podrá ser aportada total o parcialmente a una Asociación,
-Unión o Federación de Cooperativas, a Cooperativas de segundo grado y a entidades públicas o
-privadas que tengan por objeto la realización de fines propios de este Fondo.
-3.- Necesariamente se destinará a este Fondo
-a) El porcentaje que establezca la Asamblea General, de conformidad con lo establecido
-en el artículo 49.2 de estos Estatutos.
-b) Las sanciones económicas que imponga la Cooperativa a sus socios.
-c) Las donaciones y ayudas recibidas para el cumplimiento de los fines de este Fondo.
-4.- El importe de este Fondo es inembargable, excepto por deudas contraídas para el
-cumplimiento de sus fi
-
-[Extracto truncado automáticamente]
+Artículo 50.- Fondo de Reserva obligatorio.
+El Fondo de Reserva obligatorio se destinará a la consolidación, desarrollo y garantía de la
+Cooperativa, y es irrepartible entre las personas socias.
+Se destinarán obligatoriamente a este Fondo de Reserva:
 ```
 
 ---

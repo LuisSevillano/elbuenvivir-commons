@@ -34,10 +34,10 @@ Este dossier contiene extractos automáticos para análisis posterior. No contie
 - Tipo: estatutos
 - Jurisdicción: Andalucía
 - Proyecto: No disponible
-- Sección/artículo: Artículo 36. Reembolso
+- Sección/artículo: d) El Consejo Rector podrá aplazar el reembolso de la liquidación en el plazo que
 - Ruta fuente: `docs/estatutos/estatutos_senior_cohousing_huelva.pdf`
 - Confidence: high
-- Score: 72
+- Score: 24
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -45,87 +45,17 @@ Este dossier contiene extractos automáticos para análisis posterior. No contie
 Extracto relevante:
 
 ```text
-Artículo 36. Reembolso
-36.1. En los supuestos de pérdida de la condición de persona socia o inversora, éstos o sus
-derechohabientes, tienen derecho a exigir el reembolso de sus aportaciones integrantes del
-capital social, cuyo valor será el que refleje el libro registro de personas socias y de aportaciones
-al capital social.
-36.2. El reembolso se realizará del modo siguiente:
-a) Del importe de las aportaciones se deducirán, en el momento de la baja, las
-pérdidas imputables a la persona, correspondientes al ejercicio durante el que se haya
-producido la misma, y las acumuladas en la proporción que contablemente le corresponda.
-b) Del importe de las aportaciones obligatorias, una vez realizado en su caso, la
-deducción prevista en el apartado anterior, el Consejo Rector podrá decidir las
-deducciones correspondientes que, para el supuesto de baja por exclusión no podrá
-exceder del 30%, y del 20% para el supuesto de baja voluntaria no justificada, en los
-términos previstos en el artículo 48.2.b) del Reglamento. En ningún caso podrán
-establecerse deducciones sobre las aportaciones voluntarias, ni sobre las obligatorias,
-cuando la baja sea justificada o en caso de defunción.
-c) Se detraerán del importe de las aportaciones sociales las sanciones económicas
-impuestas al socio o socia que no hubieran sido satisfechas, así como aquellas
-obligaciones de pago que la persona socia tenga pendientes con la cooperativa derivadas
-de su relación societaria.
 d) El Consejo Rector podrá aplazar el reembolso de la liquidación en el plazo que
 señalen los estatutos sociales, que no podrá superar los límites fijados en el artículo 60.4
 de la LSCA, a partir de la fecha de baja. El reembolso de la liquidación se ajustará a lo
-recogido en el artículo 48.2. d) del Reglamento y en los siguientes plazo
-
-[Extracto truncado automáticamente]
-```
-
----
-
-## Normativa Estatal
-
-### Referencia 2
-
-- Documento: Normativa Estatal
-- Slug documento: `docs-leyes-normativa-estatal`
-- Tipo: ley
-- Jurisdicción: España
-- Proyecto: No disponible
-- Sección/artículo: Artículo 51. Reembolso de las aportaciones.
-- Ruta fuente: `docs/leyes/normativa_estatal.pdf`
-- Confidence: high
-- Score: 69
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 51. Reembolso de las aportaciones.
-1. Los estatutos regularán el reembolso de las aportaciones al capital social en caso de
-baja en la cooperativa. La liquidación de estas aportaciones se hará según el balance de
-cierre del ejercicio en el que se produzca la baja, sin que se puedan efectuar deducciones,
-salvo las señaladas en los puntos 2 y 3 de este artículo.
-2. Del valor acreditado de las aportaciones se deducirán las pérdidas imputadas e
-imputables al socio, reflejadas en el balance de cierre del ejercicio en el que se produzca la
-baja, ya correspondan a dicho ejercicio o provengan de otros anteriores y estén sin
-compensar. El Consejo Rector tendrá un plazo de tres meses desde la fecha de la
-aprobación de las cuentas del ejercicio en el que haya causado baja el socio, para proceder
-a efectuar el cálculo del importe a retornar de sus aportaciones al capital social, que le
-deberá ser comunicado. El socio disconforme con el acuerdo de la liquidación efectuada por
-el Consejo Rector podrá impugnarlo por el mismo procedimiento previsto en el artículo 17.5
-o, en su caso, el que establezcan los Estatutos.
-3. En el caso de baja no justificada por incumplimiento del período de permanencia
-mínimo, a que se hace referencia en el artículo 17.3 de la presente Ley, se podrá establecer
-una deducción sobre el importe resultante de la liquidación de las aportaciones obligatorias,
-una vez efectuados los ajustes señalados en el punto anterior. Los estatutos fijarán el
-porcentaje a deducir, sin que éste pueda superar el treinta por ciento.
-4. Una vez acordada por el Consejo Rector la cuantía del reembolso de las aportaciones,
-ésta no será susceptible de actualización, pero dará derecho a percibir el interés legal del
-dinero, que deberá abonarse anualmente junto con, al menos, un
-
-[Extracto truncado automáticamente]
+recogido en el artículo 48.2. d) del Reglamento y en los siguientes plazos:
 ```
 
 ---
 
 ## Estatutos Tarocohousing
 
-### Referencia 3
+### Referencia 2
 
 - Documento: Estatutos Tarocohousing
 - Slug documento: `docs-estatutos-estatutos-tarocohousing`
@@ -135,7 +65,7 @@ dinero, que deberá abonarse anualmente junto con, al menos, un
 - Sección/artículo: Artículo 46.- Reembolso de las aportaciones.
 - Ruta fuente: `docs/estatutos/estatutos_tarocohousing.pdf`
 - Confidence: high
-- Score: 66
+- Score: 24
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -148,17 +78,17 @@ Artículo 46.- Reembolso de las aportaciones.
 
 ---
 
-### Referencia 4
+### Referencia 3
 
 - Documento: Estatutos Tarocohousing
 - Slug documento: `docs-estatutos-estatutos-tarocohousing`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 37.- El capital social. Aportaciones iniciales dinerarias y no
+- Sección/artículo: b) aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por
 - Ruta fuente: `docs/estatutos/estatutos_tarocohousing.pdf`
-- Confidence: high
-- Score: 36
+- Confidence: medium
+- Score: 20
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -166,12 +96,7 @@ Artículo 46.- Reembolso de las aportaciones.
 Extracto relevante:
 
 ```text
-Artículo 37.- El capital social. Aportaciones iniciales dinerarias y no
-dinerarias; suscripción y desembolso.
-1.- El capital social estará constituido por las aportaciones obligatorias y voluntarias de las
-personas socias, que podrán ser:
-a) aportaciones con derecho de reembolso en caso de baja
-b) 	aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por
+b) aportaciones cuyo reembolso en caso de baja pueda ser rehusado incondicionalmente por
 el Consejo Rector.
 Del total de las aportaciones obligatorias y voluntarias suscritas por cada socio/a, un 5%
 de las mismas, hasta un máximo de 5.000 €, su reembolso podrá ser considerado como cantidad
@@ -190,114 +115,11 @@ nominativa donde se reflejará anualmente el importe de aquéllas y las sucesiva
 experimente. Estas libretas de participación no tendrán la consideración de títulos valores.
 2.- Las aportaciones de las personas socias al capital social se realizará en moneda de
 curso legal.
-3.- El importe total de la
-
-[Extracto truncado automáticamente]
-```
-
----
-
-## Normativa Autonomica
-
-### Referencia 5
-
-- Documento: Normativa Autonomica
-- Slug documento: `docs-leyes-normativa-autonomica`
-- Tipo: ley
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 66. Reembolso de las aportaciones.
-- Ruta fuente: `docs/leyes/normativa_autonomica.pdf`
-- Confidence: high
-- Score: 66
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 66. Reembolso de las aportaciones.
-1. Los Estatutos sociales regularán el reembolso de las aportaciones al capital en caso
-de baja en la cooperativa, de acuerdo con las normas fijadas en este artículo. La liquidación
-BOLETÍN OFICIAL DEL ESTADO
-LEGISLACIÓN CONSOLIDADA
-Página 34
-
--- 34 of 71 --
-
-de estas aportaciones se hará según el balance de cierre del ejercicio en el que se produzca
-la baja.
-2. El Consejo Rector tendrá un plazo de tres meses, desde la fecha de aprobación de las
-cuentas del ejercicio en el que el socio haya solicitado la baja, para proceder a efectuar el
-cálculo y comunicar el importe a retornar de sus aportaciones al capital social. El socio que
-esté disconforme con el acuerdo de la liquidación efectuada por el Consejo Rector podrá
-impugnarlo por el procedimiento previsto en el artículo 20.4 o, en su caso, por el que
-establezcan los Estatutos.
-3. Del valor acreditado de las aportaciones se deducirán las pérdidas imputadas e
-imputables al socio, reflejadas en el balance de cierre del ejercicio en el que se produzca la
-baja, ya correspondan a dicho ejercicio o provengan de otros anteriores y estén sin
-compensar.
-4. Los Estatutos de cada cooperativa fijarán el importe porcentual de las deducciones
-que como máximo sean aplicables a la cuantía del reembolso, que no podrán exceder del 30
-por 100, en el caso de expulsión, ni del 20 por 100, en el caso de baja no justificada. En el
-supuesto de baja no justificada en el que además se incumpla el período de permanencia
-mínimo obligatorio, los Estatutos podrán establecer un incremento de esta deducción en 10
-puntos porcentuales.
-5. El plazo para hacer efectivo el reembolso no podrá exceder de cinco años a partir de
-la comunicación al socio del importe a retornar. En caso de fallecimiento del socio, el
-r
-
-[Extracto truncado automáticamente]
-```
-
----
-
-## MOD ESTATUTOS COOP VIVIENDAS
-
-### Referencia 6
-
-- Documento: MOD ESTATUTOS COOP VIVIENDAS
-- Slug documento: `docs-otros-mod-estatutos-coop-viviendas`
-- Tipo: otro
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: ARTÍCULO 52.- REEMBOLSO DE LAS APORTACIONES.67
-- Ruta fuente: `docs/otros/MOD_ESTATUTOS_COOP_VIVIENDAS.pdf`
-- Confidence: high
-- Score: 57
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-ARTÍCULO 52.- REEMBOLSO DE LAS APORTACIONES.67
-1. Los socios tendrán derecho al reembolso de sus aportaciones al capital social en caso
-de baja en la cooperativa. La liquidación de estas aportaciones se hará según el
-balance de cierre del ejercicio en el que se produzca la baja, con las deducciones señaladas
-en los siguientes apartados.
-2. Del valor acreditado de las aportaciones se deducirán las pérdidas imputables al socio,
-reflejadas en el balance de cierre del ejercicio en el que se produzca la
-baja, correspondientes a dicho ejercicio o provengan de otros anteriores y estén sin
-compensar.
-3. En caso de baja no justificada se podrá establecer una deducción del 15% de las cantidades
-entregadas por el mismo para financiar el pago de las viviendas y locales.
-4. El Consejo Rector tendrá un plazo de tres meses para proceder a efectuar el cálculo
-del importe a retornar de sus aportaciones, contado desde la fecha de la aprobación
-de las cuentas del ejercicio en el que haya causado baja el socio. El citado importe deberá
-ser comunicado al socio.
-El socio disconforme con el resultado de dicho acuerdo podrá impugnarlo en el plazo de
-un mes, desde su notificación ante la Asamblea General68 que resolverá en la primera
-reunión que celebre, previa audiencia del interesado, y en votación secreta. Transcurridos
-dichos plazos sin haberse resuelto y notificado el recurso, se entenderá que éste ha sido
-estimado
-En el supuesto de que la impugnación no sea admitida o se desestimase, podrá recurrirse
-en el plazo de un mes ante el Juzgado de lo Mercantil, por el cauce procesal previsto
-en el artículo 31 de la Ley de Cooperativas.
-5. El plazo de reembolso no podrá exceder de ............ 69 años a partir de la fecha de la baja.
-En caso de fallecimiento del socio, el reembolso a los causahab
+3.- El importe total de las aportaciones de cada socio/a no podrá exceder de un tercio del
+capital social.
+4.- Cada persona socia, según la clase de socia/o a la que pertenezca, realizará las
+mismas aportaciones obligatorias al capital social.
+5.- Los bienes de cualquier tipo entregados por las personas socias para la ges
 
 [Extracto truncado automáticamente]
 ```
@@ -306,7 +128,7 @@ En caso de fallecimiento del socio, el reembolso a los causahab
 
 ## Estatutos Pepu
 
-### Referencia 7
+### Referencia 4
 
 - Documento: Estatutos Pepu
 - Slug documento: `docs-estatutos-estatutos-pepu`
@@ -315,8 +137,8 @@ En caso de fallecimiento del socio, el reembolso a los causahab
 - Proyecto: No disponible
 - Sección/artículo: Artículo 45.- Liquidación y reembolso de las aportaciones.
 - Ruta fuente: `docs/estatutos/estatutos_pepu.pdf`
-- Confidence: high
-- Score: 51
+- Confidence: medium
+- Score: 22
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -332,17 +154,17 @@ respecto en el artículo 14 de estos Estatutos.
 
 ---
 
-### Referencia 8
+### Referencia 5
 
 - Documento: Estatutos Pepu
 - Slug documento: `docs-estatutos-estatutos-pepu`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 14.- Efectos económicos de las bajas.
+- Sección/artículo: Artículo 59.- Liquidación.
 - Ruta fuente: `docs/estatutos/estatutos_pepu.pdf`
-- Confidence: high
-- Score: 45
+- Confidence: medium
+- Score: 20
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -350,40 +172,33 @@ respecto en el artículo 14 de estos Estatutos.
 Extracto relevante:
 
 ```text
-Artículo 14.- Efectos económicos de las bajas.
-1.- La persona que causa baja en la Cooperativa o sus causahabientes tienen derecho a exigir el
-reembolso de sus participaciones sociales, tanto el actualizado de las obligatorias como el de las
-voluntarias.
-2.- La liquidación del importe efectivo a reembolsar de las participaciones sociales se practicará
-a partir del balance de cierre del ejercicio social en el que se ha originado el derecho al
-reembolso, conforme a las normas siguientes:
-a) Del valor acreditado de las participaciones suscritas por la persona socia, se podrán
-efectuar las siguientes deducciones y descuentos:
-§ 	En los supuestos que corresponda, se deducirán, en primer lugar, las pérdidas
-imputadas o imputables a la persona socia reflejadas en el balance de cierre del
-ejercicio económico en que se produzca la pérdida de tal condición, ya
-correspondan dicho ejercicio o provengan de otros anteriores y estén sin
-compensar y, en segundo lugar, las sanciones económicas impuestas a la
-persona socia que no hubieran sido satisfechas.
-§ 	Se deducirán aquellas obligaciones de pago que la persona socia tenga
-pendientes con la cooperativa derivadas de su participación en la actividad
-cooperativizada, así como la parte proporcional que, de acuerdo a la actividad
-cooperativizada realizada por la persona socia, le corresponda de las deudas de
-la sociedad vinculadas a inversiones realizadas y que estén pendientes de pago,
-así como aquellas otras obligaciones por cualquier otro concepto.
+Artículo 59.- Liquidación.
+1.- Cumplidas las formalidades legales sobre la disolución de la Cooperativa se abre el período
+de liquidación, excepto en los supuestos de fusión, absorción o escisión. La Cooperativa disuelta
+conservará su personalidad jurídica mientras la liquidación se realiza. Durante este tiempo
+deberá añadir a su denominación la expresión "en liquidación".
 COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8
 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51
 Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL
-Acceda a la página web: https://www.ae.jcyl.e
 
-[Extracto truncado automáticamente]
+-- 44 of 49 --
+
+ESTATUTOS DE LA ENTIDAD “PEQUEÑO PUEBLO” S. COOP. Marzo-2022
+Página 45 de 49
+2.- La Asamblea General elegirá tres personas socias, en votación secreta y por la mayoría de
+votos, para ejercer las funciones de liquidación de la Cooperativa. Aceptarán el cargo en la
+misma Asamblea y actuarán de forma colegiada y tomarán los acuerdos por mayoría. Su
+nombramiento debe ser inscrito en el Registro de Sociedades Cooperativas. La Asamblea podrá
+abonar los gastos que se originen.
+3.- La liquidación y extinción de la cooperativa se ajustará a las normas establecidas en los
+artículos 90 y 96 respectivamente de la Ley de Cooperativas.
 ```
 
 ---
 
 ## Estatutos Pequenopueblo
 
-### Referencia 9
+### Referencia 6
 
 - Documento: Estatutos Pequenopueblo
 - Slug documento: `docs-estatutos-estatutos-pequenopueblo`
@@ -392,8 +207,8 @@ Acceda a la página web: https://www.ae.jcyl.e
 - Proyecto: No disponible
 - Sección/artículo: Artículo 45.- Liquidación y reembolso de las aportaciones.
 - Ruta fuente: `docs/estatutos/estatutos_pequenopueblo.pdf`
-- Confidence: high
-- Score: 51
+- Confidence: medium
+- Score: 22
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -409,17 +224,17 @@ respecto en el artículo 14 de estos Estatutos.
 
 ---
 
-### Referencia 10
+### Referencia 7
 
 - Documento: Estatutos Pequenopueblo
 - Slug documento: `docs-estatutos-estatutos-pequenopueblo`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 14.- Efectos económicos de las bajas.
+- Sección/artículo: Artículo 59.- Liquidación.
 - Ruta fuente: `docs/estatutos/estatutos_pequenopueblo.pdf`
-- Confidence: high
-- Score: 45
+- Confidence: medium
+- Score: 20
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -427,138 +242,43 @@ respecto en el artículo 14 de estos Estatutos.
 Extracto relevante:
 
 ```text
-Artículo 14.- Efectos económicos de las bajas.
-1.- La persona que causa baja en la Cooperativa o sus causahabientes tienen derecho a exigir el
-reembolso de sus participaciones sociales, tanto el actualizado de las obligatorias como el de las
-voluntarias.
-2.- La liquidación del importe efectivo a reembolsar de las participaciones sociales se practicará
-a partir del balance de cierre del ejercicio social en el que se ha originado el derecho al
-reembolso, conforme a las normas siguientes:
-a) Del valor acreditado de las participaciones suscritas por la persona socia, se podrán
-efectuar las siguientes deducciones y descuentos:
-§ 	En los supuestos que corresponda, se deducirán, en primer lugar, las pérdidas
-imputadas o imputables a la persona socia reflejadas en el balance de cierre del
-ejercicio económico en que se produzca la pérdida de tal condición, ya
-correspondan dicho ejercicio o provengan de otros anteriores y estén sin
-compensar y, en segundo lugar, las sanciones económicas impuestas a la
-persona socia que no hubieran sido satisfechas.
-§ 	Se deducirán aquellas obligaciones de pago que la persona socia tenga
-pendientes con la cooperativa derivadas de su participación en la actividad
-cooperativizada, así como la parte proporcional que, de acuerdo a la actividad
-cooperativizada realizada por la persona socia, le corresponda de las deudas de
-la sociedad vinculadas a inversiones realizadas y que estén pendientes de pago,
-así como aquellas otras obligaciones por cualquier otro concepto.
+Artículo 59.- Liquidación.
+1.- Cumplidas las formalidades legales sobre la disolución de la Cooperativa se abre el período
+de liquidación, excepto en los supuestos de fusión, absorción o escisión. La Cooperativa disuelta
+conservará su personalidad jurídica mientras la liquidación se realiza. Durante este tiempo
+deberá añadir a su denominación la expresión "en liquidación".
 COPIA AUTENTICA DEL DOCUMENTO Identificador: 13I9OHPLELLK8
 Nº Registro: 20229000833392 Fecha Registro: 20/04/2022 13:25:04 Fecha Firma: 20/04/2022 13:24:16 Fecha copia: 20/04/2022 13:33:51
 Firmado: SOLEDAD CONCEPCION HERNANDEZ DE LA TORRE BENZAL
-Acceda a la página web: https://www.ae.jcyl.e
 
-[Extracto truncado automáticamente]
-```
+-- 44 of 49 --
 
----
-
-## MODELO ESTATUTOS VIVIENDAS
-
-### Referencia 11
-
-- Documento: MODELO ESTATUTOS VIVIENDAS
-- Slug documento: `docs-otros-modelo-estatutos-viviendas`
-- Tipo: otro
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 37.- Reembolso
-- Ruta fuente: `docs/otros/MODELO ESTATUTOS  VIVIENDAS.pdf`
-- Confidence: high
-- Score: 48
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 37.- Reembolso
-1.- En los supuestos de pérdida de la condición de persona socia o inversora, éstos o sus
-derechohabientes, tienen derecho a exigir el reembolso de sus aportaciones integrantes del capital
-social, cuyo valor será el que refleje el libro registro de personas socias y de aportaciones al capital
-social.
-2.- El reembolso se realizará en consonancia con lo dispuesto en el artículo 60 de la LSCA y 48 del
-Reglamento.
-3. En caso de baja no justificada de la persona socia, podrán aplicarse a las cantidades entregadas por la
-misma para financiar el pago de las construcciones, las deducciones a que se refiere el artículo 60.4 de la
-LSCA y el artículo 48.2.b) del Reglamento, hasta el máximo del veinte por ciento de los porcentajes que
-este último prevé.
-El reembolso de dichas cantidades, así como de las aportaciones al capital social, se efectuará
-en el momento en que el socio o socia que causó baja sea sustituido, en sus derechos y obligaciones, por
-una nueva persona socia o en los plazos establecidos con carácter general en el artículo 60.4 de la LSCA,
-de cumplirse éstos con anterioridad.
-```
-
----
-
-## Estatutos Axuntase
-
-### Referencia 12
-
-- Documento: Estatutos Axuntase
-- Slug documento: `docs-estatutos-estatutos-axuntase`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Artículo 37.- Reembolso de las aportaciones obligatorias o voluntarias
-- Ruta fuente: `docs/estatutos/estatutos_axuntase.pdf`
-- Confidence: high
-- Score: 42
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Artículo 37.- Reembolso de las aportaciones obligatorias o voluntarias
-1.- La liquidación de las aportaciones al capital social obligatorias o voluntarias se hará
-según el balance de cierre del ejercicio en el que se produzca la baja, con las
-deducciones señaladas en los siguientes apartados:
-a) Del valor acreditado, y en su caso, actualizado de las aportaciones obligatorias o
-voluntarias se deducirán las pérdidas imputadas e imputables al socio/a reflejadas en el
-balance de cierre del ejercicio en el que se produzca la baja, ya correspondan a dicho
-ejercicio o provengan de otros anteriores y estén sin compensar. También se deducirán
-las deudas que el socio tuviera contraídas con la Cooperativa.
-b) En caso de baja no justificada por incumplimiento del periodo de permanencia mínimo
-o de incumplimiento del plazo mínimo de preaviso, se podrá establecer una deducción
-del 5 % sobre cada año o fracción que falte para cumplir el mínimo de 3 años previstos
-de permanencia en la Cooperativa o por cada mes o fracción que falte para el preaviso
-de seis meses con un máximo de deducción total del 15%.
-2.- El Consejo Rector tendrá un plazo de tres meses desde la aprobación de las cuentas
-del ejercicio en el que haya causado baja el/la socio/a para proceder a efectuar el cálculo
-del importe que corresponda retornar de sus aportaciones, tanto obligatorias como
-voluntarias, al socio/a y comunicar por escrito la liquidación efectuada al interesado/a.
-3.- El socio/a disconforme con el resultado de dicho acuerdo podrá impugnarlo
-razonadamente en el plazo de un mes, desde su notificación, ante la Asamblea General
-que resolverá en la primera reunión que celebre, previa audiencia del interesado/a.
-Transcurridos dichos plazos sin haberse resuelto y notificado el recurso, se entenderá
-que éste h
-
-[Extracto truncado automáticamente]
+ESTATUTOS DE LA ENTIDAD “PEQUEÑO PUEBLO” S. COOP. Marzo-2022
+Página 45 de 49
+2.- La Asamblea General elegirá tres personas socias, en votación secreta y por la mayoría de
+votos, para ejercer las funciones de liquidación de la Cooperativa. Aceptarán el cargo en la
+misma Asamblea y actuarán de forma colegiada y tomarán los acuerdos por mayoría. Su
+nombramiento debe ser inscrito en el Registro de Sociedades Cooperativas. La Asamblea podrá
+abonar los gastos que se originen.
+3.- La liquidación y extinción de la cooperativa se ajustará a las normas establecidas en los
+artículos 90 y 96 respectivamente de la Ley de Cooperativas.
 ```
 
 ---
 
 ## Otras Leyes, Decretos, Modificaciones
 
-### Referencia 13
+### Referencia 8
 
 - Documento: BOE A 2011 18204 Ley+6 2011
 - Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2011-18204-ley-6-2011`
 - Tipo: ley
 - Jurisdicción: No disponible
 - Proyecto: Otras Leyes, Decretos, Modificaciones
-- Sección/artículo: artículo 20.4 o, en su caso, el que establezcan los Estatutos.
+- Sección/artículo: b) Aportaciones cuyo reembolso en caso de baja pueda ser rehusado
 - Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2011-18204_Ley+6_2011.pdf`
-- Confidence: high
-- Score: 39
+- Confidence: medium
+- Score: 20
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -566,52 +286,264 @@ que éste h
 Extracto relevante:
 
 ```text
-artículo 20.4 o, en su caso, el que establezcan los Estatutos.
-3. 	En el caso de baja no justificada por incumplimiento del período de
-permanencia mínimo, a que se hace referencia en el artículo 20.2 de la presente
-Ley, se podrá establecer una deducción sobre el importe resultante de la liquidación
-de las aportaciones obligatorias, una vez efectuados los ajustes señalados en el
-punto anterior. Los estatutos fijarán el porcentaje a deducir, sin que éste pueda
-superar el treinta por ciento.
-4. 	Una vez acordada por el Consejo Rector la cuantía del reembolso de las
-aportaciones, ésta no será susceptible de actualización, pero dará derecho a
-percibir el interés legal del dinero, que deberá abonarse anualmente junto con, al
-menos, una quinta parte de la cantidad a rembolsar.
-5. 	El plazo para hacer efectivo el reembolso no podrá exceder de cinco años
-a partir de la fecha de la baja. En caso de fallecimiento del socio, el plazo de
-reembolso a los causahabientes no podrá ser superior a un año desde que el
-hecho causante se ponga en conocimiento de la cooperativa. Para las aportaciones
-previstas en el artículo 59.1.b) los plazos señalados en el párrafo anterior se
-computarán a partir de la fecha en la que el Consejo Rector acuerde el reembolso.
-6. 	Cuando los titulares de aportaciones previstas en el artículo 59.1.b hayan
-causado baja, el reembolso que, en su caso, acuerde el Consejo Rector se
-efectuará por orden de antigüedad de las solicitudes de reembolso o, cuando no
-haya tal solicitud, por orden de antigüedad de la fecha de baja.
-cve: BOE-A-2011-18204
+b) Aportaciones cuyo reembolso en caso de baja pueda ser rehusado
+incondicionalmente por el Consejo Rector.
+La transformación obligatoria de las aportaciones con derecho de reembolso en
+caso de baja en aportaciones cuyo reembolso pueda ser rehusado
 
--- 3 of 4 --
+-- 2 of 4 --
 
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 280 	Lunes 21 de noviembre de 2011 	Sec. I. 	Pág. 121887
-7. 	En caso de ingreso de nuevos socios los estatutos podrán prever que las
-aportaciones al capital social de los nuevos
+Núm. 280 Lunes 21 de noviembre de 2011 Sec. I. Pág. 121886
+incondicionalmente por el Consejo Rector, o la transformación inversa, requerirá el
+acuerdo de la Asamblea General, adoptado por la mayoría exigida para la
+modificación de los estatutos. El socio disconforme podrá darse de baja,
+calificándose ésta como justificada.
+Los estatutos podrán prever que cuando en un ejercicio económico el importe
+de la devolución de las aportaciones supere el porcentaje de capital social que en
+ellos se establezca, los nuevos reembolsos estén condicionados al acuerdo
+favorable del Consejo Rector. El socio que hubiese salvado expresamente su voto
+o estuviese ausente o disconforme con el establecimiento o disminución de este
+porcentaje podrá darse de baja, calificándose ésta como justificada.»
+Dos. Se modifica el apartado 2 del artículo 63, que queda redactado del siguiente
+modo:
+«2. Si la Asamblea General acuerda devengar intereses para las aportaciones
+al capital social o repartir retornos, las aportaciones previstas en el artículo 59.1 de
+los socios que hayan causado baja en la cooperativa y cuyo reembolso haya sido
+rehusado por el Consejo Rector, tendrán preferencia para percibir la remuneración
+que se establezca en los estatutos, sin que el importe total de las remuneraciones
+al capital social pueda ser superior a los resultados positivos del ejercicio.»
+Tres. Se modifica el artículo 66, que queda redactado del siguiente modo:
+«1. Los Estatutos regularán el derecho al reembolso de las aportaciones al
+capital social en caso
 
 [Extracto truncado automáticamente]
 ```
 
 ---
+
+## GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4
+
+### Referencia 9
+
+- Documento: GUIA INTRODUCCION AL COHOUSING SENIOR 2019 4
+- Slug documento: `docs-guias-guia-introduccion-al-cohousing-senior-2019-4`
+- Tipo: guia
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: a) El reembolso de las aportaciones a capital social.
+- Ruta fuente: `docs/guias/GUIA-INTRODUCCION-AL-COHOUSING-SENIOR-2019-4.pdf`
+- Confidence: medium
+- Score: 20
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+a) El reembolso de las aportaciones a capital social.
+Como hemos dicho anteriormente, los estatutos sociales deben regular si este derecho del socio
+al reembolso de sus aportaciones al capital es incuestionable o si se reserva a la cooperativa el
+derecho incondicional a rehusar el reembolso, mediante el acuerdo correspondiente del órgano
+social que igualmente determinen los estatutos (el consejo rector o la asamblea).
+Si el consejo o rector o la asamblea rehúsan el reembolso del capital, no obstante, el socio
+puede causar baja igualmente, en cuyo caso ostenta un derecho de crédito contra la cooperativa
+por las sumas que no se le han reintegrado, siendo un acreedor ordinario en caso de disolución
+de la cooperativa (y teniendo preferencia de cobro, por tanto, con respecto al reembolso de
+capital de los socios que no han causado baja). Asimismo, mientras no se le reembolsen sus
+aportaciones, tiene preferencia, por ejemplo, en el pago de intereses. Los estatutos sociales
+también pueden prever que no se repartirán excedentes hasta que se reembolse el capital al
+socio que causó baja o que las aportaciones de los nuevos socios se apliquen preferentemente
+a dicho reembolso.
+```
+
+---
+
+## GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024
+
+### Referencia 10
+
+- Documento: GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024
+- Slug documento: `docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024`
+- Tipo: guia
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: c) El reembolso del capital.
+- Ruta fuente: `docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf`
+- Confidence: medium
+- Score: 20
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+c) El reembolso del capital.
+El derecho de reembolso del capital social en caso de baja se puede configurar como un derecho
+incondicional del socio, o bien puede estar sujeto a la voluntad del Consejo Rector que podrá
+decidir de manera incondicional si reembolsa el capital a la persona socia que ha causado baja o si
+rehúsa dicho reembolso, convirtiéndola en acreedora, hasta tanto no le sea reintegrado el capital
+aportado en su día. Téngase en cuenta que algunas leyes autonómicas permiten que los estatutos
+decidan si esta decisión corresponde al consejo rector o a la asamblea, por lo que debe aplicarse
+la norma autonómica que corresponda a la cooperativa, en función de cuál sea el ámbito territorial
+en el que desempeñe su actividad principal.
+Dado que, como sea dicho, la cooperativa es una sociedad de capital variable, desde el punto de
+vista contable, este capital se considerará como un pasivo exigible (deuda) si la persona socia
+tiene un derecho incondicional a exigir el reembolso de su capital al causar baja como socia, lo
+que puede repercutir en la ratio financiera que será tenida en cuenta, entre otros, por las entidades
+financieras. En cambio, si se atribuye a la cooperativa la decisión sobre el reembolso del capital en
+caso de baja, a este capital se considerará fondo propio a efectos contables (patrimonio).
+Por tanto, al regular el capital social los estatutos deben determinar si el capital es reembolsable
+incondicionalmente a petición de la persona socia que causa baja o si el consejo rector (o en su
+caso la asamblea) podrán rechazar incondicionalmente este reembolso.
+
+-- 33 of 62 --
+
+34
+```
+
+---
+
+### Referencia 11
+
+- Documento: GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024
+- Slug documento: `docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024`
+- Tipo: guia
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: 3.7. Reembolso de las participaciones.
+- Ruta fuente: `docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf`
+- Confidence: medium
+- Score: 20
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+3.7. Reembolso de las participaciones.
+Como se ha explicado, el régimen de reembolso en caso de baja de la persona socia debe regularse en
+los estatutos de la cooperativa y, para que el capital sea considerado patrimonio social (fondo propio)
+recomendamos que los estatutos incluyan el derecho incondicional del consejo rector -o, si lo permite
+la respectiva ley aplicable y está previsto en los estatutos sociales, la asamblea- a rehusar el reembolso
+del capital.
+Por otra parte, tanto si el reembolso del capital social se ha regulado como un derecho de la persona socia
+o si los estatutos han incluido el derecho incondicional a rehusar su reembolso, recomendamos incluir en
+los estatutos que el reembolso a las personas socias que han causado baja, pueda aplazarse hasta que otra
+persona socia (o socia expectante) ocupe el lugar de la que causó baja y efectúe las aportaciones correspondientes. Con esta medida se pretende mantener el equilibrio financiero y patrimonial de la cooperativa.
+```
+
+---
+
+### Referencia 12
+
+- Documento: GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024
+- Slug documento: `docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024`
+- Tipo: guia
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: 6.2. Liquidación.
+- Ruta fuente: `docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf`
+- Confidence: medium
+- Score: 20
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+6.2. Liquidación.
+Una vez que se ha disuelto la cooperativa, se debe proceder a su liquidación. Es posible prever en los
+estatutos a quién corresponde realizar la liquidación. Si no se prevé en los estatutos será la asamblea
+general la encargada de nombrar a las personas socias que se encargarán de la liquidación, que siempre
+deberán ser impares.
+Mientras dure el período de liquidación de la cooperativa se debe seguir convocando y reuniendo la
+asamblea general que será convocada por los liquidadores. Serán ellos los encargados de presidir las
+reuniones y de rendir cuentas de la liquidación.
+En el caso que así lo solicite el quorum requerido, las personas socias pueden solicitar al Juzgado de
+Primera Instancia del domicilio social de la cooperativa que controle el período de liquidación.
+Las funciones de las personas miembros del órgano de liquidación son las siguientes:
+● Llevar y custodiar los libros y la correspondencia de la cooperativa, así como velar por la integridad
+de su patrimonio.
+● Realizar las operaciones que estén pendientes. También deberán realizar aquellas nuevas
+operaciones, pero únicamente en los casos en los que sean necesarias.
+● Tienen que encargarse de reclamar y de cobrar los créditos que estén pendientes, tanto contra las
+personas socias como contra terceras personas.
+● Concertar transacciones y compromisos cuando así convenga a los intereses sociales.
+● Pagar a los acreedores y a las personas socias cuando corresponda.
+● Son los encargados de representar a la cooperativa en juicio para el cumplimiento de las funciones
+que tienen encomendadas.
+
+-- 57 of 62 --
+
+58
+```
+
+---
+
+## MODELO ESTATUTOS VIVIENDAS
+
+### Referencia 13
+
+- Documento: MODELO ESTATUTOS VIVIENDAS
+- Slug documento: `docs-otros-modelo-estatutos-viviendas`
+- Tipo: otro
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: Artículo 47.- Liquidación, nombramiento y atribuciones de las personas liquidadoras
+- Ruta fuente: `docs/otros/MODELO ESTATUTOS  VIVIENDAS.pdf`
+- Confidence: medium
+- Score: 20
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+Artículo 47.- Liquidación, nombramiento y atribuciones de las personas liquidadoras
+1.- Las personas encargadas de la liquidación, en número impar, salvo en el supuesto de concurso,
+previsto en la letra h) del artículo 79.1 LSCA serán nombradas por la Asamblea General que adopte el
+acuerdo de disolución, en votación secreta, debiendo aceptar los cargos como requisito de eficacia.
+Siempre que exista más de una persona liquidadora, la Asamblea General podrá designar para esta
+función a personas no socias que, en función de su cualificación profesional, experiencia técnica o
+empresarial, puedan contribuir al más eficaz cumplimiento de las funciones encomendadas. En ningún
+caso, las personas liquidadoras no socias podrán superar un tercio del total.
+2.- El diez por ciento de las personas socias si la entidad la conforman más de mil, el quince por ciento si
+la integran más de quinientas y el veinte por ciento, en los restantes casos, podrán solicitar del juez
+competente la designación de uno o varios interventores que fiscalicen las operaciones de liquidación.
+
+-- 26 of 27 --
+
+27
+3.- Los liquidadores efectuarán todas las operaciones tendentes a la liquidación de la entidad,
+respetando las disposiciones normativas y estatutarias aplicables al régimen de las asambleas generales,
+a las que deberán rendir cuenta de la marcha de la liquidación y del balance correspondiente para su
+aprobación.
+4.- A las personas responsables de la liquidación les serán de aplicación las normas sobre elección,
+incapacidad, revocación, incompatibilidad y responsabilidad de los miembros del órgano de
+administración.
+5.- A las personas liquidadoras les será de aplicación el régimen establecido en el artículo 68 del
+```
+
+---
+
+## Estatutos Elciempies
 
 ### Referencia 14
 
-- Documento: BOE A 2011 18204 Ley+6 2011
-- Slug documento: `docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2011-18204-ley-6-2011`
-- Tipo: ley
+- Documento: Estatutos Elciempies
+- Slug documento: `docs-estatutos-estatutos-elciempies`
+- Tipo: estatutos
 - Jurisdicción: No disponible
-- Proyecto: Otras Leyes, Decretos, Modificaciones
-- Sección/artículo: Documento completo
-- Ruta fuente: `docs/leyes/Otras leyes, decretos, modificaciones/BOE-A-2011-18204_Ley+6_2011.pdf`
-- Confidence: high
-- Score: 38
+- Proyecto: No disponible
+- Sección/artículo: 4 La transmisión a favor de un tercero no socio/a por acto “mors causa”, queda
+- Ruta fuente: `docs/estatutos/estatutos_elciempies.pdf`
+- Confidence: medium
+- Score: 18
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -619,51 +551,49 @@ aportaciones al capital social de los nuevos
 Extracto relevante:
 
 ```text
-BOLETÍN OFICIAL DEL ESTADO
-Núm. 280 	Lunes 21 de noviembre de 2011 	Sec. I. 	Pág. 121884
-I. 	DISPOSICIONES GENERALES
-COMUNIDAD DE CASTILLA Y LEÓN
-18204 	Ley 6/2011, de 4 de noviembre, por el que se modifica la Ley 4/2002, de 11 de
-abril, de Cooperativas de Castilla y León.
-Sea notorio a todos los ciudadanos que las Cortes de Castilla y León han aprobado y
-yo en nombre del Rey y de acuerdo con lo que se establece en el artículo 25.5 del
-Estatuto de Autonomía, promulgo y ordeno la publicación de la siguiente ley.
-EXPOSICIÓN DE MOTIVOS
-En virtud del Reglamento (CE) 1606/2002 del Parlamento Europeo y del Consejo,
-de 19 de julio de 2002, relativo a la aplicación de las Normas Internacionales de
-Contabilidad se acordó la aplicación en la Unión Europea de las Normas Internacionales
-de Contabilidad, que con posterioridad fueron aprobadas, en su mayoría, por el
-Reglamento (CE) 1725/2003 de la Comisión, de 29 de septiembre de 2003, por el que se
-adoptan determinadas Normas Internacionales de Contabilidad de conformidad con el
-Reglamento (CE) 1606/2002 del Parlamento Europeo y del Consejo.
-La reciente revisión por el Internacional Accounting Standards Board (IASB) de la
-Norma Internacional de Contabilidad nº 32, referente a los instrumentos financieros, así
-como la emisión de la correspondiente interpretación del Comité de Interpretación de las
-Normas Internacionales de Información Financiera (CINIIF 2) sobre la aplicación de la
-Norma Internacional de Contabilidad (NIC 32) a las aportaciones de personas socias de
-entidades cooperativas aprobadas en virtud del Reglamento (CE) 2237/2004 de la
-Comisión de 29 de diciembre de 2004 que modifica el Reglamento (CE) 1725/2003 por el
-que se adoptan determinadas Normas Internacionales de Contabilidad de conformidad
-con el Reglamento (CE) 160
+4 La transmisión a favor de un tercero no socio/a por acto “mors causa”, queda
+supeditada a que la persona aspirante a socio/a de vivienda cumpla los requisitos
+establecidos para la admisión de personas socias de vivienda en estos estatutos. Para
+aplicar el empo de permanencia se tendrá en cuenta la angüedad de la persona socia
+de vivienda transmitente, contada a parr de la fecha de su ingreso como tal.
+Arculo 46.- Reembolso de las aportaciones.
+1.- Las personas socias o sus causahabientes tendrán derecho al reembolso de sus
+aportaciones obligatorias y voluntarias al capital social en caso de baja de la cooperava.
+La liquidación de estas aportaciones se hará según el balance de cierre del ejercicio en el
+que se produzca la baja, con las deducciones señaladas en los siguientes apartados.
+2.- Del valor acreditado de las aportaciones se deducirán las pérdidas imputadas y
+no sasfechas e imputables a las personas socias reTejadas en el balance de cierre del
+ejercicio en el que se produzca la baja, correspondan a dicho ejercicio o provengan de
+otros ejercicios anteriores y estén sin compensar.
+También se deducirán las deudas que la persona socia tuviera contraídas con la
+cooperava, por sanciones impuestas, por cuotas obligatorias no abonadas o cualquiera
+otra prestación de servicio no cobrado.
+3.- El valor acreditado de las aportaciones a que se hace referencia en el punto 2,
+será el mismo importe y por el mismo valor de la aportación mínima obligatoria
+desembolsadas para ser socio/a más las sucesivas aportaciones obligatorias y voluntarias
+acordadas y desembolsadas con posterioridad.
+4.- En el caso de baja no jus,cada por incumplimiento del período de
+permanencia mínimo, a que se hace referencia en el apartado 3 del arHculo 15 de estos
+estatutos, se podrá establecer
 
 [Extracto truncado automáticamente]
 ```
 
 ---
 
-## Estatutos Losnidales
+## Estatutos Los Girasoles
 
 ### Referencia 15
 
-- Documento: Estatutos Losnidales
-- Slug documento: `docs-estatutos-estatutos-losnidales`
+- Documento: Estatutos Los Girasoles
+- Slug documento: `docs-estatutos-estatutos-los-girasoles`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 14.- Consecuencias de la baja.
-- Ruta fuente: `docs/estatutos/estatutos_losnidales.pdf`
-- Confidence: high
-- Score: 39
+- Sección/artículo: 4. La transmisión a favor de un tercero no socio/a por acto “morƟs causa”, queda
+- Ruta fuente: `docs/estatutos/estatutos_los_girasoles.pdf`
+- Confidence: medium
+- Score: 18
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -671,82 +601,53 @@ con el Reglamento (CE) 160
 Extracto relevante:
 
 ```text
-Artículo 14.- Consecuencias de la baja.
-1. 	El socio o la socia que causa baja en la Cooperativa o sus causahabientes tienen
-derecho a exigir el reembolso de:
-a) 	sus aportaciones al capital social, tanto el actualizado de las obligatorias como el de las
-voluntarias
-b) 	las cantidades entregadas para financiar el pago de la urbanización del ámbito de la
-promoción y construcción de las dotaciones comunes y las unidades residenciales constitutivas
-de la promoción, en los términos descritos por el artículo 23.1 de estos Estatutos, con su
-actualización correspondiente
-2. 	La liquidación de estas aportaciones y cantidades se hará según el balance de situación
-correspondiente al semestre en el que se produzca la baja, o al periodo que determine la
-legislación autonómica en cada momento.
-3. 	Sobre la cuantía de las aportaciones obligatorias del socio o la socia que causa baja, el
-órgano de administración podrá acordar unas deducciones del 30% en caso de baja por
-expulsión y del 20% en caso de baja no justificada, deducciones que no se practicarán en el
-caso de baja justificada.
-4. 	Asimismo, sobre la cuantía de las cantidades entregadas por el socio o la socia para
-financiar el pago de la urbanización y edificación del proyecto en su conjunto, el órgano de
-administración, en el caso de baja no justificada del mismo, podrá acordar unas deducciones
-del 5%, que tampoco se efectuarán cuando la baja es justificada.
-5. 	El plazo de reembolso de las referidas aportaciones y cantidades no podrá exceder de
-cinco años en caso de expulsión y de tres en el supuesto de otras bajas injustificadas. En el
-caso de bajas justificadas, el plazo máximo para su devolución será de 6 meses, pudiendo
-prorrogarse hasta que se produzca una nueva incorporación, hasta un máximo de dieciocho
-meses, plazo
+4. La transmisión a favor de un tercero no socio/a por acto “morƟs causa”, queda
+supeditada a que la persona aspirante a socio/a de vivienda cumpla los requisitos
+establecidos para la admisión de personas socias de vivienda en estos estatutos. Para
+aplicar el Ɵempo de permanencia se tendrá en cuenta la anƟgüedad de la persona socia
+de vivienda transmitente, contada a parƟr de la fecha de su ingreso como tal.
+Arơculo 49.- Reembolso de las aportaciones.
+1.- Las personas socias o sus causahabientes tendrán derecho al reembolso de sus
+aportaciones obligatorias y voluntarias al capital social en caso de baja de la cooperaƟva.
+La liquidación de estas aportaciones se hará según el balance de cierre del ejercicio en el
+que se produzca la baja, con las deducciones señaladas en los siguientes apartados.
+2.- Del valor acreditado de las aportaciones se deducirán las pérdidas imputadas y
+no saƟsfechas e imputables a las personas socias reflejadas en el balance de cierre del
+ejercicio en el que se produzca la baja, correspondan a dicho ejercicio o provengan de
+otros ejercicios anteriores y estén sin compensar.
+También se deducirán las deudas que la persona socia tuviera contraídas con la
+cooperaƟva, por sanciones impuestas, por cuotas obligatorias no abonadas o cualquiera
+otra prestación de servicio no cobrado.
+3.- El valor acreditado de las aportaciones a que se hace referencia en el punto 2,
+será el mismo importe y por el mismo valor de la aportación mínima obligatoria
+38
+
+-- 38 of 46 --
+
+desembolsadas para ser socio/a más las sucesivas aportaciones obligatorias y voluntarias
+acordadas y desembolsadas con posterioridad.
+4.- En el caso de baja no jusƟficada por incumplimiento del período de
+permanencia mínimo, a que se hace referencia en el apartado 3 del arơculo 17 de estos
+estatut
 
 [Extracto truncado automáticamente]
-```
-
----
-
-### Referencia 16
-
-- Documento: Estatutos Losnidales
-- Slug documento: `docs-estatutos-estatutos-losnidales`
-- Tipo: estatutos
-- Jurisdicción: No disponible
-- Proyecto: No disponible
-- Sección/artículo: Articulo 25.- Reembolso de las aportaciones y de las cantidades para financiar la unidad
-- Ruta fuente: `docs/estatutos/estatutos_losnidales.pdf`
-- Confidence: high
-- Score: 36
-- Review status: auto
-
-> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
-
-Extracto relevante:
-
-```text
-Articulo 25.- Reembolso de las aportaciones y de las cantidades para financiar la unidad
-residencial.
-18
-
--- 18 of 53 --
-
-ESTATUTOS LOS NIDALES ECOVIVIENDA S.COOP.MAD
-En cuanto al reembolso de las aportaciones y de las cantidades para financiar la unidad
-residencial y dotacional, y la responsabilidad de los socios que causen baja en la Cooperativa
-se estará a lo establecido al respecto en el artículo 14 y 23 de estos Estatutos
 ```
 
 ---
 
 ## Estatutos Entrepatios
 
-### Referencia 17
+### Referencia 16
 
 - Documento: Estatutos Entrepatios
 - Slug documento: `docs-estatutos-estatutos-entrepatios`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 15. Consecuencias de la baja.
+- Sección/artículo: Artículo 68. Período de liquidación.
 - Ruta fuente: `docs/estatutos/estatutos_entrepatios.pdf`
-- Confidence: high
-- Score: 36
+- Confidence: medium
+- Score: 16
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -754,53 +655,28 @@ se estará a lo establecido al respecto en el artículo 14 y 23 de estos Estatut
 Extracto relevante:
 
 ```text
-Artículo 15. Consecuencias de la baja.
-1. La persona socia que causa baja en la Cooperativa o sus causahabientes
-tienen derecho al reembolso de sus aportaciones al capital social, tanto el
-actualizado de las obligatorias como el de las voluntarias.
-En el caso de que la persona socia que causa baja no sea sustituida por otra
-a quien la Cooperativa le ceda el uso de la misma vivienda, el Consejo
-Rector, cuando así se haya especificado en la correspondiente emisión, se
-reserva el derecho de rehusar incondicionalmente, de forma temporal, el
-reembolso de las aportaciones al capital social de la persona socia saliente,
-
--- 16 of 66 --
-
-- 17 -
-acuerdo que para ser válido debe ser ratificado en la primera Asamblea
-General que se celebre.
-En base a los resultados del ejercicio económico en que se produzca la baja
-y de la imputación de resultados que le sea atribuible, se procederá en el
-plazo de un mes, que cuenta desde la aprobación de las cuentas anuales
-correspondientes a dicho ejercicio, a fijar el importe definitivo del reembolso
-de sus aportaciones al capital social. El Consejo Rector puede fijar
-provisionalmente este importe antes de la aprobación de las cuentas y, en su
-caso, podrá autorizar algún reembolso a cuenta del definitivo.
-2. Sobre la cuantía de las aportaciones obligatorias de la persona socia que
-causa baja, el Consejo Rector podrá acordar unas deducciones del 30 % en
-caso de baja por expulsión y del 20 % en caso de baja no justificada o de
-baja durante el período de permanencia mínima, en su caso, deducciones
-que no se practicarán en el caso de baja justificada. Asimismo, el Consejo
-Rector podrá imputar a la persona socia saliente las deudas pendientes con
-la Cooperativa y los daños y perjuicios ocasionados a la Cooperativa, en
-especial por el impago de las c
-
-[Extracto truncado automáticamente]
+Artículo 68. Período de liquidación.
+La disolución de la Cooperativa abre el período de liquidación. La
+Cooperativa disuelta conservará su personalidad jurídica mientras la
+liquidación se realiza. Durante este tiempo deberá añadir a su denominación
+la expresión “en liquidación”.
 ```
 
 ---
 
-### Referencia 18
+## Estatutos Losnidales
 
-- Documento: Estatutos Entrepatios
-- Slug documento: `docs-estatutos-estatutos-entrepatios`
+### Referencia 17
+
+- Documento: Estatutos Losnidales
+- Slug documento: `docs-estatutos-estatutos-losnidales`
 - Tipo: estatutos
 - Jurisdicción: No disponible
 - Proyecto: No disponible
-- Sección/artículo: Artículo 32. Reembolso de las aportaciones al Capital Social.
-- Ruta fuente: `docs/estatutos/estatutos_entrepatios.pdf`
-- Confidence: high
-- Score: 36
+- Sección/artículo: Artículo 66.- Período de liquidación.
+- Ruta fuente: `docs/estatutos/estatutos_losnidales.pdf`
+- Confidence: medium
+- Score: 16
 - Review status: auto
 
 > Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
@@ -808,11 +684,42 @@ especial por el impago de las c
 Extracto relevante:
 
 ```text
-Artículo 32. Reembolso de las aportaciones al Capital Social.
-En cuanto al reembolso de las aportaciones al Capital Social, y la
-responsabilidad de los socios que causen baja en la Cooperativa se estará a
-lo establecido al respecto en el artículo titulado Consecuencias de la baja
-de estos Estatutos.
+Artículo 66.- Período de liquidación.
+La disolución de la Cooperativa abre el período de liquidación. La Cooperativa disuelta
+conservará su personalidad jurídica mientras la liquidación se realiza. Durante este tiempo
+deberá añadir a su denominación la expresión “en liquidación”.
+```
+
+---
+
+## Normativa Autonomica
+
+### Referencia 18
+
+- Documento: Normativa Autonomica
+- Slug documento: `docs-leyes-normativa-autonomica`
+- Tipo: ley
+- Jurisdicción: No disponible
+- Proyecto: No disponible
+- Sección/artículo: 5. El plazo para hacer efectivo el reembolso no podrá exceder de cinco años a partir de
+- Ruta fuente: `docs/leyes/normativa_autonomica.pdf`
+- Confidence: medium
+- Score: 16
+- Review status: auto
+
+> Referencia automática sin revisar. No usar como conclusión jurídica sin revisión humana.
+
+Extracto relevante:
+
+```text
+5. El plazo para hacer efectivo el reembolso no podrá exceder de cinco años a partir de
+la comunicación al socio del importe a retornar. En caso de fallecimiento del socio, el
+reembolso a los causahabientes no superará un año desde el cierre del ejercicio en que se
+produzca el fallecimiento, siempre que en ese plazo fuera puesto en conocimiento de la
+cooperativa el derecho al reembolso por parte de los herederos. Para las aportaciones
+previstas en el artículo 59.1.b), los plazos señalados en el número anterior se computarán a
+partir de la fecha en la que el Consejo Rector acuerde el reembolso, efectuando este por
+orden de antigüedad de la fecha de la baja.
 ```
 
 ---

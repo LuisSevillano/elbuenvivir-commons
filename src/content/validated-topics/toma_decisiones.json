@@ -1,0 +1,110 @@
+{
+  "slug": "toma_decisiones",
+  "status": "reviewed",
+  "editorialSummary": [
+    "Decidir en cooperativa es combinar dos planos: el legal (una persona un voto, mayoría simple y dos tercios para lo estructural) y el cultural (el consenso y la horizontalidad que el grupo ya practica).",
+    "La Ley 4/2002 de Castilla y León reparte la decisión entre la Asamblea general, órgano supremo, y el Consejo Rector, que gestiona y representa; y deja margen para exigir mayorías más altas, hasta un máximo de cuatro quintas partes.",
+    "El punto clave no es elegir entre consenso o mayorías, sino ordenarlos: buscar acuerdo primero y tener una regla de mayoría clara para cuando el consenso no llegue, sin caer en la unanimidad obligatoria que puede bloquear el proyecto."
+  ],
+  "decisionQuestions": [
+    {
+      "id": "asamblea_vs_consejo",
+      "question": "¿Qué se decide en Asamblea y qué se delega en el Consejo Rector?",
+      "recommendationsForBuenVivir": [
+        "La ley reserva a la Asamblea un núcleo (cargos, cuentas, Estatutos y RRI, aportaciones, disolución). Conviene que el grupo mantenga en Asamblea lo importante y deje al Consejo la gestión ordinaria, evitando reuniones interminables."
+      ]
+    },
+    {
+      "id": "consenso_o_mayoria",
+      "question": "¿Se decide por consenso, por mayoría o de forma escalonada?",
+      "recommendationsForBuenVivir": [
+        "Un modelo escalonado (consenso primero, mayoría si no hay acuerdo) recoge los valores del grupo sin arriesgar la parálisis. La unanimidad como requisito estatutario es jurídicamente peligrosa."
+      ]
+    },
+    {
+      "id": "mayoria_cualificada",
+      "question": "¿Qué decisiones merecen una mayoría reforzada propia?",
+      "recommendationsForBuenVivir": [
+        "El grupo ya habló de un 75 %. Es viable, pero debe definirse la lista de asuntos a los que se aplica y no superar el 80 % que fija la ley como techo."
+      ]
+    },
+    {
+      "id": "papel_comisiones",
+      "question": "¿Qué pueden decidir las comisiones y qué no?",
+      "recommendationsForBuenVivir": [
+        "Las comisiones deben instruir y proponer, no decidir. Si asumen decisiones vinculantes fuera de los órganos sociales, esos acuerdos pueden ser impugnables."
+      ]
+    },
+    {
+      "id": "voto_socio_b",
+      "question": "¿Quién tiene derecho de voto y qué pasa con el socio B?",
+      "recommendationsForBuenVivir": [
+        "El principio es una persona un voto entre socios A. El estatus sin voto del socio B es frágil y debería revisarse jurídicamente antes de cerrarlo."
+      ]
+    }
+  ],
+  "supportedFindings": [
+    {
+      "id": "un_voto",
+      "statement": "El principio de una persona, un voto es la regla general en la Asamblea de una cooperativa de Castilla y León.",
+      "summary": "Encaja de forma natural con la horizontalidad sin jerarquías que el grupo declara en su documento de visión."
+    },
+    {
+      "id": "doble_mayoria",
+      "statement": "La ley combina mayoría simple para lo ordinario y dos tercios para modificar Estatutos, RRI, aportaciones obligatorias, fusión o disolución.",
+      "summary": "Es un suelo imperativo: el grupo puede reforzarlo, pero no rebajarlo, y no puede pasar de las cuatro quintas partes."
+    },
+    {
+      "id": "escalonado_existente",
+      "statement": "Varios estatutos prevén válvulas frente al bloqueo, como pasar a mayoría simple tras dos convocatorias.",
+      "summary": "La Borda muestra un modelo escalonado casi idéntico al flujograma que El Buen Vivir aprobó en 2025."
+    },
+    {
+      "id": "comisiones_cauce",
+      "statement": "Las comisiones se conciben como cauce de información y de trabajo, no como órgano que sustituye a Asamblea o Consejo Rector.",
+      "summary": "La ley lo dice expresamente: no pueden confundirse con los órganos sociales."
+    }
+  ],
+  "unsupportedClaims": [
+    {
+      "claimId": "toma_decisiones-unanimidad",
+      "statement": "Todas las decisiones de la cooperativa deben adoptarse por consenso o unanimidad.",
+      "reason": "Ni la ley ni los estatutos revisados respaldan la unanimidad obligatoria como regla general; la norma es la mayoría, y el consenso se articula como fase previa, no como requisito que sustituya la votación."
+    }
+  ],
+  "recommendationsForBuenVivir": [
+    "Fijar en los Estatutos el principio de una persona un voto, el reparto Asamblea/Consejo Rector y las mayorías legales.",
+    "Llevar al RRI el proceso de consenso, la matización del voto y el protocolo ante bloqueos que el grupo ya usa.",
+    "Definir, si se quiere, una mayoría cualificada del 75 % para una lista cerrada de decisiones importantes, sin superar el techo legal.",
+    "Dejar por escrito que las comisiones preparan y proponen, pero no deciden en lugar de los órganos sociales.",
+    "Revisar jurídicamente el derecho de voto del socio B antes de cerrar el diseño de gobierno."
+  ],
+  "statutesVsRRI": {
+    "statutes": [
+      "Órganos sociales y reparto de competencias entre Asamblea general y Consejo Rector.",
+      "Principio de una persona un voto y titularidad del derecho de voto.",
+      "Quórum y mayorías: ordinaria, dos tercios y, en su caso, mayoría cualificada propia dentro del techo legal.",
+      "Delegación de voto por representación."
+    ],
+    "rri": [
+      "Proceso escalonado de decisión: rondas de consenso y matización del voto.",
+      "Procedimiento ante bloqueos (comisión mediadora, aplazamiento y votación posterior).",
+      "Funcionamiento de las comisiones de trabajo y su relación con la Asamblea.",
+      "Reglas prácticas de las reuniones: turnos de palabra, tiempos y forma de delegar el voto."
+    ],
+    "notes": [
+      "La revisión jurídica debe validar la mayoría cualificada elegida (máximo cuatro quintas partes) y la titularidad del voto del socio B."
+    ]
+  },
+  "referencesToUse": [
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, art. 30 y 31 (Asamblea general y sus competencias).",
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, art. 35 y 37 (una persona un voto y adopción de acuerdos).",
+    "docs-leyes-normativa-autonomica: Ley 4/2002 CyL, art. 40, 41 y 44 (Consejo Rector) y art. 22 (comisiones).",
+    "docs-estatutos-estatutos-la-borda: Artículo 36 (adopción escalonada de acuerdos y bloqueo).",
+    "docs-estatutos-estatutos-entrepatios: Artículos 45 y 61 (asentimiento previo y comisiones)."
+  ],
+  "referencesToAvoid": [
+    "No usar el voto plural o ponderado de otras clases de cooperativas: no aplica a una cooperativa de usuarios de personas físicas.",
+    "No copiar exigencias de unanimidad o mayorías superiores a las cuatro quintas partes, contrarias a la Ley 4/2002."
+  ]
+}

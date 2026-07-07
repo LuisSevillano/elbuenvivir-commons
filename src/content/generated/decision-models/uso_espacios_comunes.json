@@ -1,6 +1,6 @@
 {
   "topicSlug": "uso_espacios_comunes",
-  "generatedAt": "2026-05-14T09:23:55.613Z",
+  "generatedAt": "2026-07-07T07:30:00.173Z",
   "decisionQuestions": [
     {
       "id": "shared_space_rules",
@@ -9,54 +9,7 @@
         "No todos los espacios necesitan el mismo nivel de regulación.",
         "Permite reservar reglas fuertes para espacios escasos o sensibles."
       ],
-      "detectedApproaches": [
-        {
-          "name": "Calendario compartido de uso",
-          "summary": "Ordena reservas, estancias y espacios escasos mediante una agenda común.",
-          "characteristics": [
-            "calendario visible",
-            "turnos",
-            "cancelaciones"
-          ],
-          "advantages": [
-            "reduce solapamientos",
-            "hace comparable el uso"
-          ],
-          "risks": [
-            "puede sobrerregular si apenas hay demanda"
-          ],
-          "suitableFor": [
-            "grupos con espacios reservables"
-          ],
-          "detectedInProjects": [
-            "Las GuíAs De Sostre CíVic"
-          ],
-          "evidenceLevel": "low"
-        },
-        {
-          "name": "Prioridades y rotación",
-          "summary": "Define quién tiene preferencia y cómo se reparte el uso en periodos saturados.",
-          "characteristics": [
-            "prioridades",
-            "rotación",
-            "criterios para picos de demanda"
-          ],
-          "advantages": [
-            "evita capturas por orden de llegada"
-          ],
-          "risks": [
-            "requiere seguimiento mínimo"
-          ],
-          "suitableFor": [
-            "fines de semana, festivos o habitaciones limitadas"
-          ],
-          "detectedInProjects": [
-            "Las GuíAs De Sostre CíVic",
-            "Informe Cooperativas Cesion De Uso"
-          ],
-          "evidenceLevel": "medium"
-        }
-      ],
+      "detectedApproaches": [],
       "commonTradeoffs": [
         "espontaneidad comunitaria vs previsibilidad"
       ],
@@ -71,9 +24,11 @@
         "uso_espacios_comunes-shared_space_rules-5"
       ],
       "relatedProjects": [
-        "Las GuíAs De Sostre CíVic",
-        "Informe Cooperativas Cesion De Uso",
-        "Estatutos La Borda"
+        "Estatutos La Borda",
+        "Estatutos Elciempies",
+        "Estatutos Los Girasoles",
+        "Estatutos Losnidales",
+        "Estatutos Tarocohousing"
       ],
       "suggestedPlacement": {
         "statutes": [
@@ -110,11 +65,12 @@
             "grupos pequeños y flexibles"
           ],
           "detectedInProjects": [
-            "Las GuíAs De Sostre CíVic",
+            "Estatutos Tarocohousing",
             "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+            "Estatutos La Borda",
             "Estatutos Elciempies"
           ],
-          "evidenceLevel": "medium"
+          "evidenceLevel": "high"
         }
       ],
       "commonTradeoffs": [
@@ -131,8 +87,9 @@
         "uso_espacios_comunes-care_responsibility-5"
       ],
       "relatedProjects": [
-        "Las GuíAs De Sostre CíVic",
+        "Estatutos Tarocohousing",
         "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
+        "Estatutos La Borda",
         "Estatutos Elciempies"
       ],
       "suggestedPlacement": {
@@ -146,8 +103,6 @@
     }
   ],
   "practicalPatterns": [
-    "Calendario compartido de uso",
-    "Prioridades y rotación",
     "Uso libre salvo conflicto"
   ],
   "commonTradeoffs": [
@@ -155,8 +110,6 @@
     "autogestión flexible vs distribución explícita de cargas"
   ],
   "frequentRisks": [
-    "puede sobrerregular si apenas hay demanda",
-    "requiere seguimiento mínimo",
     "puede llegar tarde si hay abuso recurrente"
   ],
   "recommendationsForBuenVivir": [
@@ -174,137 +127,132 @@
     ]
   },
   "relevantProjects": [
-    "Las GuíAs De Sostre CíVic",
-    "Informe Cooperativas Cesion De Uso",
     "Estatutos La Borda",
-    "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
-    "Estatutos Elciempies"
+    "Estatutos Elciempies",
+    "Estatutos Los Girasoles",
+    "Estatutos Losnidales",
+    "Estatutos Tarocohousing",
+    "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024"
   ],
   "extracts": [
     {
       "id": "uso_espacios_comunes-shared_space_rules-1",
-      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-      "documentTitle": "Las GuíAs De Sostre CíVic",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
-      "articleOrSection": "Título original: La construcció i la cura dels grups",
-      "excerpt": "Título original: La construcció i la cura dels grups La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 211 of 377 -- -- 212 of 377 -- Cuidados...",
-      "matchedConcepts": [
-        "prioridad de uso",
-        "uso de espacios comunes"
-      ],
-      "score": 55
-    },
-    {
-      "id": "uso_espacios_comunes-shared_space_rules-2",
-      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-      "documentTitle": "Las GuíAs De Sostre CíVic",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
-      "articleOrSection": "Título original: Cures en la convivència de persones grans",
-      "excerpt": "Título original: Cures en la convivència de persones grans La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 287 of 377 -- 79 -- 288 of 377 --...",
-      "matchedConcepts": [
-        "prioridad de uso",
-        "uso de espacios comunes"
-      ],
-      "score": 55
-    },
-    {
-      "id": "uso_espacios_comunes-shared_space_rules-3",
-      "documentSlug": "docs-rri-informe-cooperativas-cesion-de-uso",
-      "documentTitle": "Informe Cooperativas Cesion De Uso",
-      "documentType": "rri",
-      "sourcePath": "docs/rri/informe-cooperativas-cesion-de-uso.pdf",
-      "articleOrSection": "Documento completo",
-      "excerpt": "...E D O O B S E R V A T O R I O D E V I V I E N D A A Y U N T A M I E N T O D E T O L E D O -- 1 of 68 -- INTRODUCCIÓN El derecho a una vivienda digna y asequible. Suena tan necesario como irreal en estos tiempos. A los problemas que este principio ha ido encontrando desde que se recogió en la Constitución Española de 1978 se suma ahora una crisis socio-sanitaria mundial que en España ha golpeado con fuerza y que hace prever que el acceso a cobijarse bajo un techo en condiciones mínimas de habitabilidad puede encontr...",
-      "matchedConcepts": [
-        "prioridad de uso",
-        "uso de espacios comunes"
-      ],
-      "score": 52
-    },
-    {
-      "id": "uso_espacios_comunes-shared_space_rules-4",
-      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-      "documentTitle": "Las GuíAs De Sostre CíVic",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
-      "articleOrSection": "Título original: Transformem l’entorn",
-      "excerpt": "Título original: Transformem l’entorn La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 128 of 377 -- -- 129 of 377 -- La construcción y el cu...",
-      "matchedConcepts": [
-        "calendario o reserva operativa",
-        "uso de espacios comunes"
-      ],
-      "score": 49
-    },
-    {
-      "id": "uso_espacios_comunes-shared_space_rules-5",
       "documentSlug": "docs-estatutos-estatutos-la-borda",
       "documentTitle": "Estatutos La Borda",
       "documentType": "estatutos",
       "sourcePath": "docs/estatutos/estatutos_la_borda.pdf",
-      "articleOrSection": "Artículo 7. Obligaciones de las socias y socios",
-      "excerpt": "Artículo 7. Obligaciones de las socias y socios 7.1. Las socias y socios, sea cual sea su tipología, están obligados a: a) Hacer el desembolso de la aportación comprometida y cumplir las obligaciones económicas que les corresponda en virtud de estos Estatutos o por acuerdo adoptado válidamente por los órganos sociales de la Cooperativa, en especial, las relativas a la financiación de la vivienda o el inmueble asignado. b) Asistir a las reuniones de la Asamblea General y de otros órganos por los que sean convocados,...",
+      "articleOrSection": "7.3. El reglamento de Régimen Interno debe especificar la delimitación de los",
+      "excerpt": "7.3. El reglamento de Régimen Interno debe especificar la delimitación de los elementos de uso común, de uso común restringido y de uso privativo del conjunto del edificio de viviendas cooperativas. Asimismo, debe recoger las normas de mantenimiento, conservación y mejora ordinarias y extraordinarias de los elementos de uso común y de uso privativo del conjunto del edificio y de las viviendas cooperativas, y las de correcto funcionamiento de los servicios e instalaciones de uso común y de uso privativo del conjunto...",
       "matchedConcepts": [
         "uso de espacios comunes"
       ],
-      "score": 44
+      "score": 26
+    },
+    {
+      "id": "uso_espacios_comunes-shared_space_rules-2",
+      "documentSlug": "docs-estatutos-estatutos-elciempies",
+      "documentTitle": "Estatutos Elciempies",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
+      "articleOrSection": "c) Para las personas socias de vivienda que exista vivienda vacante en ese momento.",
+      "excerpt": "c) Para las personas socias de vivienda que exista vivienda vacante en ese momento. Ar\u001aculo 13.- Derechos de las personas socias. 1.- Las personas socias de vivienda \u000eenen derecho: a Al uso y disfrute de las viviendas, espacios anexos a las viviendas y zonas comunes que la coopera\u000eva pone a disposición de las personas socias de vivienda. Este derecho se ex\u000eende además a las personas bene,ciarias. b A adaptar el interior de su vivienda y espacios anexos a la misma a sus necesidades, gustos, preferencias o intereses...",
+      "matchedConcepts": [
+        "uso de espacios comunes"
+      ],
+      "score": 20
+    },
+    {
+      "id": "uso_espacios_comunes-shared_space_rules-3",
+      "documentSlug": "docs-estatutos-estatutos-los-girasoles",
+      "documentTitle": "Estatutos Los Girasoles",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_los_girasoles.pdf",
+      "articleOrSection": "c) Para las personas socias de vivienda que exista vivienda vacante en ese momento.",
+      "excerpt": "c) Para las personas socias de vivienda que exista vivienda vacante en ese momento. Arơculo 15.- Derechos de las personas socias. 1.- Las personas socias de vivienda Ɵenen derecho: a Al uso y disfrute de las viviendas, espacios anexos a las viviendas y zonas comunes que la cooperaƟva pone a disposición de las personas socias de vivienda. Este derecho se exƟende además a las personas beneficiarias. b A adaptar el interior de su vivienda y espacios anexos a la misma a sus necesidades, gustos, preferencias o intereses...",
+      "matchedConcepts": [
+        "uso de espacios comunes"
+      ],
+      "score": 20
+    },
+    {
+      "id": "uso_espacios_comunes-shared_space_rules-4",
+      "documentSlug": "docs-estatutos-estatutos-losnidales",
+      "documentTitle": "Estatutos Losnidales",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_losnidales.pdf",
+      "articleOrSection": "5. Utilizar la unidad residencial asignada, así como los servicios y espacios comunes que habilitará",
+      "excerpt": "5. Utilizar la unidad residencial asignada, así como los servicios y espacios comunes que habilitará la Cooperativa, con carácter vitalicio, en régimen de derecho de uso y habitación, sin perjuicio del derecho de baja o de los supuestos de baja obligatoria en la cooperativa. Un mismo socio/a no podrá ostentar el derecho de cesión de uso de más de una unidad residencial:",
+      "matchedConcepts": [
+        "uso de espacios comunes"
+      ],
+      "score": 18
+    },
+    {
+      "id": "uso_espacios_comunes-shared_space_rules-5",
+      "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+      "documentTitle": "Estatutos Tarocohousing",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_tarocohousing.pdf",
+      "articleOrSection": "a) Al uso y disfrute de las viviendas, espacios anexos a las viviendas y zonas comunes que",
+      "excerpt": "a) Al uso y disfrute de las viviendas, espacios anexos a las viviendas y zonas comunes que la cooperativa pone a disposición de las personas socias de vivienda. Este derecho se extiende además a las personas que habitualmente convivan con ellas.",
+      "matchedConcepts": [
+        "uso de espacios comunes"
+      ],
+      "score": 18
     },
     {
       "id": "uso_espacios_comunes-care_responsibility-1",
-      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-      "documentTitle": "Las GuíAs De Sostre CíVic",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
-      "articleOrSection": "Título original: La construcció i la cura dels grups",
-      "excerpt": "Título original: La construcció i la cura dels grups La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 211 of 377 -- -- 212 of 377 -- Cuidados...",
+      "documentSlug": "docs-estatutos-estatutos-tarocohousing",
+      "documentTitle": "Estatutos Tarocohousing",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_tarocohousing.pdf",
+      "articleOrSection": "n) Satisfacer el resarcimiento de los daños y perjuicios en los elementos de uso común del",
+      "excerpt": "n) Satisfacer el resarcimiento de los daños y perjuicios en los elementos de uso común del inmueble y/o en la vivienda cooperativa que la persona socia o los miembros de su unidad de convivencia causen por el incumplimiento de la obligación de conservación, uso diligente y adecuado. 4.- La persona socia colaboradora tendrá las siguientes obligaciones:",
       "matchedConcepts": [
         "uso de espacios comunes",
         "responsabilidad de quien invita o usa"
       ],
-      "score": 205
+      "score": 36
     },
     {
       "id": "uso_espacios_comunes-care_responsibility-2",
-      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-      "documentTitle": "Las GuíAs De Sostre CíVic",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
-      "articleOrSection": "Título original: Transformem l’entorn",
-      "excerpt": "Título original: Transformem l’entorn La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 128 of 377 -- -- 129 of 377 -- La construcción y el cu...",
-      "matchedConcepts": [
-        "uso de espacios comunes",
-        "responsabilidad de quien invita o usa"
-      ],
-      "score": 181
-    },
-    {
-      "id": "uso_espacios_comunes-care_responsibility-3",
       "documentSlug": "docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
       "documentTitle": "GUIA REDACCION ESTATUTOS DE COOPERATIVAS DE COHOUSING SENIOR 2024",
       "documentType": "guia",
       "sourcePath": "docs/guias/GUIA_REDACCION-ESTATUTOS-DE-COOPERATIVAS-DE-COHOUSING-SENIOR-2024.pdf",
-      "articleOrSection": "Documento completo",
-      "excerpt": "GUÍA PRÁCTICA: REDACCIÓN DE ESTATUTOS DE LAS COOPERATIVAS DE COHOUSING SÉNIOR -- 1 of 62 -- DIRECCIÓN ELABORACIÓN JURÍDICA FGC ADCVOCATS, SCCL Cristina R. Grau López como autora con la colaboración de Ainhoa Domínguez Peña. COLABORA Diciembre 2024 Confederación Española de Cooperativas de Consumidores y Usuarios – HISPACOOP Quintana, 1 - 2º B ● 28008 Madrid Tel. 91 593 09 35 www.hispacoop.com La información publicada en este documento es exclusivamente a título informativo y no constituye una recomendación. HISPACO...",
+      "articleOrSection": "3.13. Responsabilidad de las personas socias.",
+      "excerpt": "3.13. Responsabilidad de las personas socias. La responsabilidad de las personas socias por las deudas sociales se encuentra limitada por sus aportaciones a capital social. Es decir, que de las deudas contraídas por la sociedad cooperativa responde esta, con indemnidad del patrimonio privado de sus miembros. Esta responsabilidad de la cooperativa abarca todo su patrimonio presente y futuro, excepto el correspondiente al fondo de formación y promoción cooperativa, que solo responderá de las obligaciones estipuladas...",
+      "matchedConcepts": [
+        "responsabilidad de quien invita o usa"
+      ],
+      "score": 36
+    },
+    {
+      "id": "uso_espacios_comunes-care_responsibility-3",
+      "documentSlug": "docs-estatutos-estatutos-la-borda",
+      "documentTitle": "Estatutos La Borda",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_la_borda.pdf",
+      "articleOrSection": "j) Satisfacer el resarcimiento de los daños y perjuicios en los elementos de uso",
+      "excerpt": "j) Satisfacer el resarcimiento de los daños y perjuicios en los elementos de uso común del inmueble y / o en la vivienda cooperativa que la persona socia o los miembros de la unidad de convivencia causen por el incumplimiento de la obligación de conservación, uso diligente y adecuada.",
       "matchedConcepts": [
         "uso de espacios comunes",
         "responsabilidad de quien invita o usa"
       ],
-      "score": 88
+      "score": 26
     },
     {
       "id": "uso_espacios_comunes-care_responsibility-4",
-      "documentSlug": "docs-guias-las-guias-de-sostre-civic",
-      "documentTitle": "Las GuíAs De Sostre CíVic",
-      "documentType": "guia",
-      "sourcePath": "docs/guias/Las guías de Sostre Cívic.pdf",
-      "articleOrSection": "Título original: Cures en la convivència de persones grans",
-      "excerpt": "Título original: Cures en la convivència de persones grans La traducción de esta guía se ha realizado en el marco del proyecto estratégico para la recuperación y transformación económica \"Red estatal de Polos Cooperativos y de ESS para el fomento de la intercooperación y el fortalecimiento de sectores estratégicos de la vivienda cooperativa en cesión de uso y de las comunidades energéticas\". El proyecto ha estado impulsado por y financiado por la Unión Europea - NextGenerationEU -- 287 of 377 -- 79 -- 288 of 377 --...",
+      "documentSlug": "docs-estatutos-estatutos-la-borda",
+      "documentTitle": "Estatutos La Borda",
+      "documentType": "estatutos",
+      "sourcePath": "docs/estatutos/estatutos_la_borda.pdf",
+      "articleOrSection": "7.3. El reglamento de Régimen Interno debe especificar la delimitación de los",
+      "excerpt": "7.3. El reglamento de Régimen Interno debe especificar la delimitación de los elementos de uso común, de uso común restringido y de uso privativo del conjunto del edificio de viviendas cooperativas. Asimismo, debe recoger las normas de mantenimiento, conservación y mejora ordinarias y extraordinarias de los elementos de uso común y de uso privativo del conjunto del edificio y de las viviendas cooperativas, y las de correcto funcionamiento de los servicios e instalaciones de uso común y de uso privativo del conjunto...",
       "matchedConcepts": [
-        "uso de espacios comunes",
-        "responsabilidad de quien invita o usa"
+        "uso de espacios comunes"
       ],
-      "score": 64
+      "score": 26
     },
     {
       "id": "uso_espacios_comunes-care_responsibility-5",
@@ -312,13 +260,13 @@
       "documentTitle": "Estatutos Elciempies",
       "documentType": "estatutos",
       "sourcePath": "docs/estatutos/estatutos_elciempies.pdf",
-      "articleOrSection": "CAPITULO II",
-      "excerpt": "CAPITULO II DE LAS PERSONAS SOCIAS Ar\u001aculo 9.- Clases de personas socias.  Personas socias de vivienda.- Son aquellas personas Esicas que \u000eenen plenos derechos y obligaciones recogidos en estos estatutos respecto de la vivienda o, en su caso, local, así como los elementos comunes. También puede ser socio/a de vivienda las siguientes personas jurídicas: los entes públicos y las en\u000edades sin ánimo de lucro, que precisen alojamiento para aquellas personas que, dependientes de ellos, tengan que residir, por razón de s...",
+      "articleOrSection": "e) No podrán desarrollar ac\u000evidades en competencia con las que desarrolle la",
+      "excerpt": "e) No podrán desarrollar ac\u000evidades en competencia con las que desarrolle la coopera\u000eva, salvo expresa autorización del Consejo Rector de la misma. 6.- Los derechos de las personas socias, sea cual sea su clase, sólo se pueden suspender temporalmente como una modalidad de sanción, prevista en estos estatutos, o de medida cautelar en un expediente sancionador. En ningún caso pueden quedar afectados el derecho de información, el derecho de voto en la Asamblea General, ni los derechos que la ley exceptúe. Ar\u001aculo 14.-...",
       "matchedConcepts": [
         "uso de espacios comunes",
         "responsabilidad de quien invita o usa"
       ],
-      "score": 58
+      "score": 22
     }
   ],
   "limits": []

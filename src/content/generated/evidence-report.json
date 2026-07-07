@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-14T09:23:33.978Z",
+  "generatedAt": "2026-07-07T07:29:54.746Z",
   "qualitySummary": {
-    "averageGroundingScore": 27,
-    "topicsWithHighConfidence": 5,
+    "averageGroundingScore": 23,
+    "topicsWithHighConfidence": 4,
     "topicsWithConflicts": 0,
-    "topicsWithWeakDominance": 0
+    "topicsWithWeakDominance": 1
   },
   "topics": [
     {
@@ -12,16 +12,17 @@
       "groundingScore": 0,
       "totalClaims": 6,
       "explicitCount": 0,
-      "inferredCount": 5,
-      "weakEvidenceCount": 1,
+      "inferredCount": 0,
+      "weakEvidenceCount": 6,
       "conflictingCount": 0,
       "highConfidenceCount": 0,
-      "mediumConfidenceCount": 5,
-      "lowConfidenceCount": 1,
-      "extracts": 15,
-      "nonSubstantiveFiltered": 10,
-      "evidenceHealth": "weak",
+      "mediumConfidenceCount": 0,
+      "lowConfidenceCount": 6,
+      "extracts": 3,
+      "nonSubstantiveFiltered": 3,
+      "evidenceHealth": "insufficient",
       "flags": [
+        "ALTA_PROPORCION_EVIDENCIA_DEBIL",
         "SIN_EVIDENCIA_ALTA",
         "SIN_CONFLICTOS_DETECTADOS",
         "BAJA_PROPORCION_EVIDENCIA_EXPLICITA",
@@ -30,34 +31,35 @@
     },
     {
       "topicSlug": "reservas_estancias_pernoctas",
-      "groundingScore": 16,
+      "groundingScore": 0,
       "totalClaims": 4,
-      "explicitCount": 3,
-      "inferredCount": 1,
+      "explicitCount": 0,
+      "inferredCount": 4,
       "weakEvidenceCount": 0,
       "conflictingCount": 0,
-      "highConfidenceCount": 3,
-      "mediumConfidenceCount": 1,
+      "highConfidenceCount": 0,
+      "mediumConfidenceCount": 4,
       "lowConfidenceCount": 0,
       "extracts": 12,
-      "nonSubstantiveFiltered": 12,
-      "evidenceHealth": "insufficient",
+      "nonSubstantiveFiltered": 0,
+      "evidenceHealth": "weak",
       "flags": [
+        "SIN_EVIDENCIA_ALTA",
         "SIN_CONFLICTOS_DETECTADOS",
-        "ALTA_PROPORCION_SNIPPETS_NO_SUSTANTIVOS"
+        "BAJA_PROPORCION_EVIDENCIA_EXPLICITA"
       ]
     },
     {
       "topicSlug": "desigualdad_aportaciones",
-      "groundingScore": 33,
+      "groundingScore": 28,
       "totalClaims": 5,
-      "explicitCount": 4,
-      "inferredCount": 0,
-      "weakEvidenceCount": 1,
+      "explicitCount": 3,
+      "inferredCount": 2,
+      "weakEvidenceCount": 0,
       "conflictingCount": 0,
-      "highConfidenceCount": 4,
-      "mediumConfidenceCount": 0,
-      "lowConfidenceCount": 1,
+      "highConfidenceCount": 3,
+      "mediumConfidenceCount": 2,
+      "lowConfidenceCount": 0,
       "extracts": 15,
       "nonSubstantiveFiltered": 0,
       "evidenceHealth": "strong",
@@ -67,6 +69,42 @@
     },
     {
       "topicSlug": "baja_socio",
+      "groundingScore": 35,
+      "totalClaims": 5,
+      "explicitCount": 4,
+      "inferredCount": 1,
+      "weakEvidenceCount": 0,
+      "conflictingCount": 0,
+      "highConfidenceCount": 4,
+      "mediumConfidenceCount": 1,
+      "lowConfidenceCount": 0,
+      "extracts": 15,
+      "nonSubstantiveFiltered": 3,
+      "evidenceHealth": "strong",
+      "flags": [
+        "SIN_CONFLICTOS_DETECTADOS"
+      ]
+    },
+    {
+      "topicSlug": "toma_decisiones",
+      "groundingScore": 36,
+      "totalClaims": 4,
+      "explicitCount": 3,
+      "inferredCount": 1,
+      "weakEvidenceCount": 0,
+      "conflictingCount": 0,
+      "highConfidenceCount": 3,
+      "mediumConfidenceCount": 1,
+      "lowConfidenceCount": 0,
+      "extracts": 12,
+      "nonSubstantiveFiltered": 0,
+      "evidenceHealth": "strong",
+      "flags": [
+        "SIN_CONFLICTOS_DETECTADOS"
+      ]
+    },
+    {
+      "topicSlug": "uso_espacios_comunes",
       "groundingScore": 39,
       "totalClaims": 5,
       "explicitCount": 4,
@@ -79,43 +117,6 @@
       "extracts": 15,
       "nonSubstantiveFiltered": 0,
       "evidenceHealth": "strong",
-      "flags": [
-        "SIN_CONFLICTOS_DETECTADOS"
-      ]
-    },
-    {
-      "topicSlug": "toma_decisiones",
-      "groundingScore": 40,
-      "totalClaims": 4,
-      "explicitCount": 4,
-      "inferredCount": 0,
-      "weakEvidenceCount": 0,
-      "conflictingCount": 0,
-      "highConfidenceCount": 4,
-      "mediumConfidenceCount": 0,
-      "lowConfidenceCount": 0,
-      "extracts": 12,
-      "nonSubstantiveFiltered": 6,
-      "evidenceHealth": "weak",
-      "flags": [
-        "SIN_CONFLICTOS_DETECTADOS",
-        "ALTA_PROPORCION_SNIPPETS_NO_SUSTANTIVOS"
-      ]
-    },
-    {
-      "topicSlug": "uso_espacios_comunes",
-      "groundingScore": 32,
-      "totalClaims": 5,
-      "explicitCount": 4,
-      "inferredCount": 1,
-      "weakEvidenceCount": 0,
-      "conflictingCount": 0,
-      "highConfidenceCount": 4,
-      "mediumConfidenceCount": 1,
-      "lowConfidenceCount": 0,
-      "extracts": 15,
-      "nonSubstantiveFiltered": 5,
-      "evidenceHealth": "moderate",
       "flags": [
         "SIN_CONFLICTOS_DETECTADOS"
       ]

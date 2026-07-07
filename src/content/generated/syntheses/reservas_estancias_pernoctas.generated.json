@@ -1,43 +1,40 @@
 {
   "slug": "reservas_estancias_pernoctas",
-  "generatedAt": "2026-05-14T09:24:12.562Z",
+  "generatedAt": "2026-07-07T07:29:53.114Z",
   "generatedFrom": {
     "researchPack": "src/content/research-packs/reservas_estancias_pernoctas.md",
-    "referencesCount": 40,
+    "referencesCount": 41,
     "documents": [
-      "Docs-estatutos-estatutos-axuntase",
-      "Docs-estatutos-estatutos-blanxart",
-      "Docs-estatutos-estatutos-cancarner",
-      "Docs-estatutos-estatutos-elciempies",
-      "Docs-estatutos-estatutos-entrepatios",
-      "Docs-estatutos-estatutos-la-borda",
-      "Docs-estatutos-estatutos-los-girasoles",
-      "Docs-estatutos-estatutos-losnidales",
-      "Docs-estatutos-estatutos-pepu",
-      "Docs-estatutos-estatutos-pequenopueblo",
-      "Docs-estatutos-estatutos-tarocohousing",
-      "Docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
-      "Docs-guias-guia-redaccion-estatutos-de-cooperativas-de-cohousing-senior-2024",
-      "Docs-guias-las-guias-de-sostre-civic",
-      "Docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
-      "Docs-otros-modelo-estatutos-viviendas",
-      "Docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
-      "Docs-rri-informe-cooperativas-cesion-de-uso",
-      "Docs-rri-rri-vallecas2homes"
+      "docs-estatutos-estatutos-elciempies",
+      "docs-estatutos-estatutos-entrepatios",
+      "docs-estatutos-estatutos-los-girasoles",
+      "docs-estatutos-estatutos-losnidales",
+      "docs-estatutos-estatutos-pepu",
+      "docs-estatutos-estatutos-pequenopueblo",
+      "docs-estatutos-estatutos-tarocohousing",
+      "docs-guias-guia-introduccion-al-cohousing-senior-2019-4",
+      "docs-guias-las-guias-de-sostre-civic",
+      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2007-19884-consolidado-rd-1514-2007",
+      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2010-20034-orden-eha-3360-2010",
+      "docs-leyes-otras-leyes-decretos-modificaciones-boe-a-2014-9959-ley-5-2014",
+      "docs-otros-modelo-estatutos-viviendas",
+      "docs-rri-ejemplo-de-reglamento-de-regimen-interno-para-viviendas-cooperativas-en-cesion-de-uso",
+      "docs-rri-informe-cooperativas-cesion-de-uso",
+      "docs-rri-rri-vallecas2homes"
     ]
   },
   "summary": {
     "overview": [
-      "Los extractos más claros relacionan este tema con criterios de reserva y prioridad de uso, conflictos y mediación, responsabilidad por invitados y pernoctas.",
-      "Aparecen ejemplos en varios proyectos, entre ellos Estatutos Blanxart, Estatutos Cancarner, Estatutos Losnidales, Estatutos Entrepatios.",
+      "Los extractos más claros relacionan este tema con criterios de reserva y prioridad de uso, responsabilidad por invitados y pernoctas, espacios comunes.",
+      "Aparecen ejemplos en varios proyectos, entre ellos Otras Leyes, Decretos, Modificaciones, Estatutos Losnidales, EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO, Estatutos Entrepatios.",
       "Las reservas suelen necesitar criterios de prioridad, calendario y límites de uso para evitar apropiaciones informales de espacios comunes.",
       "También se usa evidencia indirecta de temas relacionados (invitados, uso_espacios_comunes, conflictos_y_mediacion) para completar la comparación sin inventar referencias directas."
     ],
     "commonPatterns": [
       "Las reservas suelen necesitar criterios de prioridad, calendario y límites de uso para evitar apropiaciones informales de espacios comunes.",
-      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados.",
       "Cuando aparecen invitados o pernoctas, la regla útil suele combinar aviso, responsabilidad de la persona anfitriona y límites de duración.",
       "El uso de espacios comunes suele regularse mediante reglas prácticas de reserva, cuidado y prioridad de usos.",
+      "Los conflictos suelen aparecer asociados a convivencia, uso cotidiano y necesidad de procedimientos escalonados.",
       "Las visitas e invitados suelen conectarse con reservas, pernoctas, uso de espacios y convivencia.",
       "Las referencias indirectas de invitados, espacios comunes y convivencia permiten tratar reservas y pernoctas como reglas prácticas de uso compartido, no como derechos individuales ilimitados."
     ],
@@ -47,35 +44,35 @@
     ],
     "commonRisks": [
       "Sin criterios de reserva, los espacios comunes pueden quedar capturados por quien los solicita antes o por usos recurrentes no revisados.",
-      "Sin un cauce claro, desacuerdos pequeños pueden convertirse en conflictos societarios.",
       "No definir responsabilidad puede trasladar costes, limpieza o conflictos de convivencia al conjunto del grupo.",
       "La falta de criterios puede generar conflictos entre uso individual, uso comunitario e invitados.",
+      "Sin un cauce claro, desacuerdos pequeños pueden convertirse en conflictos societarios.",
       "Si no hay criterios, puede tensionarse el equilibrio entre hospitalidad, intimidad y disponibilidad de espacios.",
       "Sin calendario, prioridades o límites de estancia, los espacios comunes pueden saturarse y generar conflictos entre hospitalidad e intimidad comunitaria."
     ],
     "commonTradeoffs": [
-      "Hospitalidad flexible vs disponibilidad equitativa de espacios comunes",
-      "Autonomía comunitaria vs necesidad de procedimiento claro",
-      "Uso flexible del espacio vs prevención de conflictos de convivencia",
-      "Apertura a invitados vs disponibilidad cotidiana para quienes conviven"
+      "hospitalidad flexible vs disponibilidad equitativa de espacios comunes",
+      "uso flexible del espacio vs prevención de conflictos de convivencia",
+      "autonomía comunitaria vs necesidad de procedimiento claro",
+      "apertura a invitados vs disponibilidad cotidiana para quienes conviven"
     ]
   },
   "governancePlacement": {
     "usuallyInStatutes": [
-      "Principio general de convivencia y uso compartido de espacios comunes",
-      "Deber de respetar acuerdos comunitarios sobre uso de espacios",
-      "Compatibilidad entre uso privativo, invitados y vida comunitaria",
-      "Principio general de uso común, convivencia y respeto a acuerdos internos",
-      "Principios de convivencia y posibilidad de mediación o régimen disciplinario",
-      "Principio de convivencia y compatibilidad entre uso privado y común"
+      "principio general de convivencia y uso compartido de espacios comunes",
+      "deber de respetar acuerdos comunitarios sobre uso de espacios",
+      "compatibilidad entre uso privativo, invitados y vida comunitaria",
+      "principio general de uso común, convivencia y respeto a acuerdos internos",
+      "principio de convivencia y compatibilidad entre uso privado y común",
+      "principio general de uso compartido y respeto a acuerdos comunitarios"
     ],
     "usuallyInRRI": [
-      "Calendario de reservas, turnos y prioridades",
-      "Límites de pernocta, avisos y responsabilidad de la persona anfitriona",
-      "Criterios para invitados, familiares y usos repetidos",
-      "Gestión de conflictos por solapamientos o usos intensivos",
-      "Calendario, turnos, prioridades, límites de pernocta y forma de aviso",
-      "Pasos de mediación, tiempos de respuesta y personas de referencia"
+      "calendario de reservas, turnos y prioridades",
+      "límites de pernocta, avisos y responsabilidad de la persona anfitriona",
+      "criterios para invitados, familiares y usos repetidos",
+      "gestión de conflictos por solapamientos o usos intensivos",
+      "calendario, turnos, prioridades, límites de pernocta y forma de aviso",
+      "avisos, límites, calendario, limpieza y responsabilidad de la persona anfitriona"
     ],
     "mixedApproaches": [
       "Se observa como enfoque prudente fijar criterios estables y dejar procedimientos cotidianos a normas revisables."
@@ -90,91 +87,91 @@
     "minimalApproach": [
       "Fijar solo principios y efectos básicos que necesiten estabilidad.",
       "Evitar copiar detalles operativos de otros proyectos sin comprobar su encaje.",
-      "Decidir qué espacios requieren reserva previa, qué usos tienen prioridad y cuánto tiempo máximo puede durar una estancia",
-      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito"
+      "decidir qué espacios requieren reserva previa, qué usos tienen prioridad y cuánto tiempo máximo puede durar una estancia",
+      "decidir qué debe comunicar la persona anfitriona y qué responsabilidades asume durante la estancia"
     ],
     "flexibleApproach": [
       "Remitir procedimientos, calendarios y pautas cotidianas al RRI.",
       "Mantener espacio para revisar la práctica tras los primeros usos reales.",
-      "Decidir qué espacios requieren reserva previa, qué usos tienen prioridad y cuánto tiempo máximo puede durar una estancia",
-      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito"
+      "decidir qué espacios requieren reserva previa, qué usos tienen prioridad y cuánto tiempo máximo puede durar una estancia",
+      "decidir qué debe comunicar la persona anfitriona y qué responsabilidades asume durante la estancia"
     ],
     "pointsToDecideSoon": [
-      "Decidir qué espacios requieren reserva previa, qué usos tienen prioridad y cuánto tiempo máximo puede durar una estancia",
-      "Decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
-      "Decidir qué debe comunicar la persona anfitriona y qué responsabilidades asume durante la estancia",
-      "Decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
-      "Decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados",
+      "decidir qué espacios requieren reserva previa, qué usos tienen prioridad y cuánto tiempo máximo puede durar una estancia",
+      "decidir qué debe comunicar la persona anfitriona y qué responsabilidades asume durante la estancia",
+      "decidir qué usos requieren reserva y cuáles se gestionan por convivencia ordinaria",
+      "decidir qué conflictos se gestionan informalmente y cuáles requieren procedimiento escrito",
+      "decidir si habrá límites de pernocta, aviso previo y responsabilidad por invitados",
       "Decidir qué espacios se reservan, quién tiene prioridad, cuántas pernoctas son admisibles y cómo se avisa al grupo."
     ],
     "pointsThatCanWait": [
-      "Formularios internos",
-      "Calendarios operativos",
-      "Protocolos menores que no afecten derechos básicos"
+      "formularios internos",
+      "calendarios operativos",
+      "protocolos menores que no afecten derechos básicos"
     ]
   },
   "detectedTensions": [
-    "Hospitalidad flexible vs disponibilidad equitativa de espacios comunes",
-    "Autonomía comunitaria vs necesidad de procedimiento claro",
-    "Uso flexible del espacio vs prevención de conflictos de convivencia",
-    "Hospitalidad flexible vs reparto equitativo de espacios comunes"
+    "hospitalidad flexible vs disponibilidad equitativa de espacios comunes",
+    "uso flexible del espacio vs prevención de conflictos de convivencia",
+    "autonomía comunitaria vs necesidad de procedimiento claro",
+    "hospitalidad flexible vs reparto equitativo de espacios comunes"
   ],
   "notableProjects": [
     {
-      "projectName": "Estatutos Entrepatios",
-      "notableBecause": "Aporta evidencia indirecta desde conflictos_y_mediacion.",
+      "projectName": "Otras Leyes, Decretos, Modificaciones",
+      "notableBecause": "Aporta evidencia indirecta desde invitados, uso_espacios_comunes, conflictos_y_mediacion.",
       "references": [
-        "Estatutos Entrepatios - Artículo 25. La Reserva de educación y promoción cooperativa.",
-        "Estatutos Entrepatios - Artículo 24. La Reserva obligatoria.",
-        "Estatutos Entrepatios - Artículo 35. Distribución de beneficios y excedentes. El retorno",
-        "Estatutos Entrepatios - Artículo 60. Conflicto de intereses. (evidencia indirecta: conflictos_y_mediacion)"
+        "BOE A 2007 19884 Consolidado RD+1514 2007 - 11. RESERVAS Y OTROS INSTRUMENTOS DE PATRIMONIO",
+        "BOE A 2007 19884 Consolidado RD+1514 2007 - 11. RESERVAS Y OTROS INSTRUMENTOS DE PATRIMONIO NETO",
+        "BOE A 2007 19884 Consolidado RD+1514 2007 - b) Se cargará por la disposición que se haga de esta reserva.",
+        "BOE A 2010 20034 Orden+EHA+3360 2010 - 13. Los aspectos contables del Fondo de Reserva Obligatorio y del Fondo de",
+        "BOE A 2010 20034 Orden+EHA+3360 2010 - 1.1.4 Cuentas a emplear. A efectos del registro contable del «Fondo de Reserva"
       ]
     },
     {
       "projectName": "Estatutos Losnidales",
+      "notableBecause": "Aporta evidencia indirecta desde uso_espacios_comunes.",
+      "references": [
+        "Estatutos Losnidales - 5. Utilizar la unidad residencial asignada, así como los servicios y espacios comunes que habilitará",
+        "Estatutos Losnidales - a) Como mínimo un 5% a la Reserva de educación y promoción cooperativa, y un 20% a la",
+        "Estatutos Losnidales - 1. A las Reservas especiales que se hayan constituido. Cumplidos los fines para los que se",
+        "Estatutos Losnidales - 5. Utilizar la unidad residencial asignada, así como los servicios y espacios comunes que habilitará (evidencia indirecta: uso_espacios_comunes)"
+      ]
+    },
+    {
+      "projectName": "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO",
       "notableBecause": "Aporta evidencia indirecta desde conflictos_y_mediacion.",
       "references": [
-        "Estatutos Losnidales - Artículo 32.- La Reserva de educación y promoción.",
-        "Estatutos Losnidales - Artículo 30.- La Reserva obligatoria.",
-        "Estatutos Losnidales - Artículo 28.- Distribución de beneficios y excedentes.",
-        "Estatutos Losnidales - Artículo 58.- Conflicto de intereses. (evidencia indirecta: conflictos_y_mediacion)"
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - 10. Reserva de Fondos: Se establecerá y mantendrá una reserva de fondos",
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - 2. Arbitraje: Si las negociaciones y la mediación no logran resolver el conflicto, las (evidencia indirecta: conflictos_y_mediacion)",
+        "EJEMPLO DE REGLAMENTO DE REGIMEN INTERNO PARA VIVIENDAS COOPERATIVAS EN CESION DE USO - 1. Negociación y Mediación: Las partes involucradas deberán realizar esfuerzos de (evidencia indirecta: conflictos_y_mediacion)"
+      ]
+    },
+    {
+      "projectName": "Estatutos Tarocohousing",
+      "notableBecause": "Aporta evidencia indirecta desde uso_espacios_comunes.",
+      "references": [
+        "Estatutos Tarocohousing - a) Al uso y disfrute de las viviendas, espacios anexos a las viviendas y zonas comunes que",
+        "Estatutos Tarocohousing - a) Al uso y disfrute de las viviendas, espacios anexos a las viviendas y zonas comunes que (evidencia indirecta: uso_espacios_comunes)",
+        "Estatutos Tarocohousing - n) Satisfacer el resarcimiento de los daños y perjuicios en los elementos de uso común del (evidencia indirecta: uso_espacios_comunes)"
       ]
     },
     {
       "projectName": "Las GuíAs De Sostre CíVic",
       "notableBecause": "Aporta evidencia indirecta desde uso_espacios_comunes, conflictos_y_mediacion.",
       "references": [
-        "Las GuíAs De Sostre CíVic - Título original: La construcció i la cura dels grups (evidencia indirecta: uso_espacios_comunes)",
-        "Las GuíAs De Sostre CíVic - Título original: Cures en la convivència de persones grans (evidencia indirecta: uso_espacios_comunes)",
-        "Las GuíAs De Sostre CíVic - Título original: Transformem l’entorn (evidencia indirecta: conflictos_y_mediacion)",
-        "Las GuíAs De Sostre CíVic - Título (xx minutos) (evidencia indirecta: conflictos_y_mediacion)"
+        "Las GuíAs De Sostre CíVic - 92 metros cuadrados, y dispone de amplios espacios comunes: azotea,",
+        "Las GuíAs De Sostre CíVic - 92 metros cuadrados, y dispone de amplios espacios comunes: azotea, (evidencia indirecta: uso_espacios_comunes)",
+        "Las GuíAs De Sostre CíVic - 9.1. Qué son los conflictos (evidencia indirecta: conflictos_y_mediacion)"
       ]
     },
     {
-      "projectName": "Estatutos Blanxart",
-      "notableBecause": "Aparece en relación con criterios de reserva y prioridad de uso.",
+      "projectName": "MODELO ESTATUTOS VIVIENDAS",
+      "notableBecause": "Aporta evidencia indirecta desde invitados.",
       "references": [
-        "Estatutos Blanxart - Article 33. Fons de reserva voluntaris: el Fons Col·lectiu d’Accés a l’Habitatge i el",
-        "Estatutos Blanxart - Article 32. Fons de reserva obligatori",
-        "Estatutos Blanxart - Article 27. Aplicació dels excedents"
-      ]
-    },
-    {
-      "projectName": "Estatutos Cancarner",
-      "notableBecause": "Aparece en relación con criterios de reserva y prioridad de uso.",
-      "references": [
-        "Estatutos Cancarner - Article 35. Fons de reserva voluntaris: el Fons Col·lectiu d'Accés a l'Habitatge i el Fons",
-        "Estatutos Cancarner - Article 34. El fons de reserva obligatori",
-        "Estatutos Cancarner - Article 29. Aplicació dels excedents i fons socials obligatoris."
-      ]
-    },
-    {
-      "projectName": "Estatutos Pepu",
-      "notableBecause": "Aporta evidencia indirecta desde conflictos_y_mediacion.",
-      "references": [
-        "Estatutos Pepu - Artículo 51.- Fondo de Reserva voluntario.",
-        "Estatutos Pepu - Artículo 52.- Fondo de Reserva de Promoción y Formación Cooperativa.",
-        "Estatutos Pepu - Artículo 35.- Conflicto de intereses y responsabilidad. (evidencia indirecta: conflictos_y_mediacion)"
+        "MODELO ESTATUTOS VIVIENDAS - 3. Si la Cooperativa realizara operaciones con terceras personas prescindiendo de lo anteriormente (evidencia indirecta: invitados)",
+        "MODELO ESTATUTOS VIVIENDAS - 4. Los ingresos obtenidos de operaciones con terceras personas se destinarán en un 10%, a dotar el (evidencia indirecta: invitados)",
+        "MODELO ESTATUTOS VIVIENDAS - Artículo 43.- Operaciones con terceras personas (evidencia indirecta: invitados)"
       ]
     }
   ],

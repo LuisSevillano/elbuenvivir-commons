@@ -8,3 +8,4 @@ build
 docs
 project-context
 .DS_Store
+.claude/

@@ -16,9 +16,9 @@ export interface SeoMetadata {
 }
 
 export const defaultSeo: SeoMetadata = {
-  title: `${siteName} | Atlas de gobernanza cooperativa`,
+  title: `${siteName} | Nuestras reglas, nuestro Buen Vivir`,
   description:
-    'Atlas comparado para diseñar estatutos, RRI y acuerdos de convivencia en cooperativas de vivienda: temas, patrones y documentos de referencia.',
+    'La mesa de trabajo de la cooperativa El Buen Vivir: tema a tema, qué exige la ley, cómo lo resolvieron otras cooperativas y una propuesta redactada para nosotras, con las fuentes siempre a la vista.',
   path: '/',
   image: defaultSocialImage,
   imageAlt: defaultSocialImageAlt,
@@ -60,7 +60,7 @@ export function topicSeo(topic: ConsultableTopic): SeoMetadata {
   return buildSeo({
     title: withBrand(topic.title),
     description: compactDescription(
-      `${topic.shortDescription} Compara decisiones, modelos de solución y ubicación entre Estatutos y RRI.`
+      `${topic.shortDescription} Qué dice la ley, cómo lo resolvieron otras cooperativas y nuestra propuesta.`
     ),
     path: `/temas/${topic.slug}`,
     type: 'article'
@@ -73,7 +73,7 @@ export function documentSeo(document: SourceDocument): SeoMetadata {
 
   return buildSeo({
     title: withBrand(title),
-    description: compactDescription(`${summary} Documento fuente del atlas comparado de gobernanza cooperativa.`),
+    description: compactDescription(`${summary} Documento de referencia para fundamentar los Estatutos y el RRI de El Buen Vivir.`),
     path: `/documentos/${document.slug}`,
     type: 'article'
   });

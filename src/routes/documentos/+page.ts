@@ -4,9 +4,9 @@ import { buildSeo, withBrand } from '$lib/seo';
 export function load() {
   return {
     seo: buildSeo({
-      title: withBrand('Documentos de gobernanza cooperativa'),
+      title: withBrand('Documentos de referencia'),
       description:
-        'Consulta estatutos, reglamentos, guías y normativa usados para comparar soluciones reales de gobernanza cooperativa.',
+        'Los estatutos, reglamentos, guías y normativa que usamos como fuente para fundamentar cada propuesta de El Buen Vivir.',
       path: '/documentos'
     }),
     documents: loadDocuments()

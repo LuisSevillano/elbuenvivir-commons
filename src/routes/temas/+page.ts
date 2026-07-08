@@ -6,9 +6,9 @@ export function load() {
 
   return {
     seo: buildSeo({
-      title: withBrand('Temas de gobernanza cooperativa'),
+      title: withBrand('Todos los temas'),
       description:
-        'Explora decisiones prácticas sobre Estatutos, RRI, convivencia, aportaciones y uso de espacios en cooperativas de vivienda.',
+        'Los temas que El Buen Vivir tiene que decidir para sus Estatutos y su Reglamento: aportaciones, convivencia, uso de la casa, altas y bajas, disolución y más — cada uno con la ley, la comparativa y una propuesta.',
       path: '/temas'
     }),
     topics

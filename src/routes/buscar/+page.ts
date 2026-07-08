@@ -9,10 +9,10 @@ export function load({ url }) {
   const topics = loadConsultableTopics();
 
   const query = url?.searchParams?.get('q') ?? '';
-  const title = query ? `Buscar "${query}"` : 'Buscar en la selección editorial';
+  const title = query ? `Buscar "${query}"` : 'Buscar';
   const description = query
-    ? `Resultados de búsqueda para "${query}" en temas públicos y documentos de referencia.`
-    : 'Busca temas seleccionados editorialmente y documentos de referencia.';
+    ? `Resultados de búsqueda para "${query}" en los temas y documentos de El Buen Vivir.`
+    : 'Busca entre los temas y los documentos de referencia de El Buen Vivir.';
 
   return {
     seo: buildSeo({

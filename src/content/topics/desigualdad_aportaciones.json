@@ -39,7 +39,7 @@
     ],
     "shouldBeInRRI": [
       "Umbral orientativo de 10.000 € y su flexibilidad por socio (cantidades y plazos).",
-      "Tabla de retorno del exceso (5% / 4% / 3%) y funcionamiento del Fondo de Distribución y Equilibrio.",
+      "Devolución del exceso sin interés (orden y ritmo) y funcionamiento del Fondo de Distribución y Equilibrio.",
       "Calendario de aportaciones, seguimiento de compromisos y tratamiento de dificultades de pago."
     ],
     "canBeDeferredInitially": [
@@ -108,14 +108,14 @@
           "excerpt": "En Consejo Rector, según mandato de la Asamblea General para la mayoría de los dos tercios, puede desestimar el retorno de las aportaciones al capital social en caso de baja de la persona socia o la devolución de sus aportaciones voluntarias en cualquier caso, sin perjuicio de que se pueda pactar su regreso por acuerdo entre las partes."
         }
       ],
-      "note": "Patrón común: la aportación obligatoria mínima es baja e igual, y la desigualdad se canaliza como aportación voluntaria, que sí puede remunerarse pero dentro de los límites de la ley. Ninguna promete un retorno fijo asegurado como el que plantea la Comisión de Economía; ese punto es propio de El Buen Vivir y el más delicado jurídicamente."
+      "note": "Patrón común: la aportación obligatoria mínima es baja e igual, y la desigualdad se canaliza como aportación voluntaria, que sí puede remunerarse pero dentro de los límites de la ley. El Buen Vivir ha optado por devolver el exceso SIN interés (solo la cantidad aportada de más), lo que evita el problema del art. 63.2 que tendría un retorno remunerado."
     },
     "proposal": {
       "rationale": [
         "El grupo aprobó (Guía de votación de capacidad económica, dic-2025) que NO habrá aportación mínima obligatoria y fijó 10.000 € como umbral de referencia colectivo. En las Reuniones 19-21 (2026) confirmó el modelo económico 7 con umbral orientativo de 10.000 € y cifra mínima orientativa de 3.000 €, 'ambos flexibles por socio', y dejó expresamente estos números para el RRI, no para los Estatutos ('flexible, revisable, orientativo').",
         "Para sostener una persona = un voto pese a aportar distinto, conviene fijar en Estatutos una aportación obligatoria mínima baja e igual para todos (art. 60) y tratar todo lo que va por encima como aportación voluntaria o financiación al proyecto. El voto no depende del capital (art. 35.1), así que la desigualdad económica no altera la igualdad política si se dice expresamente.",
-        "La Comisión de Economía (documento 'Modelo de financiación colaborativo') propone devolver el exceso sobre 10.000 € con un retorno anual por tramos: 5% hasta 2.000 € de exceso, 4% entre 2.000 y 5.000 €, 3% por encima, hasta recuperar el 100%, gestionado por un Fondo de Distribución y Equilibrio (FDE) y con prorrateo en años de baja liquidez sin anular el derecho.",
-        "Aviso a resolver con jurista: un 'retorno garantizado' fijo choca con el art. 63.2 (la remuneración del capital no puede superar los resultados positivos del ejercicio). Encaja mejor tratar el exceso como préstamo o financiación que no integra el capital social, remunerado por contrato, que como interés de aportación voluntaria."
+        "El grupo ha optado por devolver el exceso sobre el umbral SIN interés: se reintegra la cantidad aportada de más, sin ganancia, a medida que otras personas socias alcanzan su umbral o entra liquidez. La bolsa de la cuota umbral está separada de la de mantenimiento, con cuentas bancarias distintas (Reunión 21).",
+        "Ventaja legal de devolver sin interés: se evita el problema del art. 63.2 (la remuneración del capital no puede superar los resultados del ejercicio), porque no se remunera capital, solo se devuelve lo aportado. Si en el futuro se quisiera remunerar el exceso, entonces sí habría que articularlo como préstamo/financiación que no integra el capital, no como aportación voluntaria."
       ],
       "articles": [
         {
@@ -133,23 +133,23 @@
         {
           "target": "rri",
           "heading": "Retorno del exceso sobre el umbral",
-          "text": "Quien aporte por encima del umbral de 10.000 € tendrá derecho a la devolución del exceso mediante un retorno anual por tramos: [5%] del exceso hasta 2.000 €, [4%] del exceso entre 2.000 y 5.000 € y [3%] del exceso superior a 5.000 €, hasta recuperar el 100%. El retorno se abona desde el ejercicio siguiente al ingreso, con cargo al Fondo de Distribución y Equilibrio. Si en algún ejercicio no hay liquidez suficiente, los pagos se prorratearán entre las personas con derecho, sin que ello anule el derecho al retorno completo. La naturaleza jurídica del exceso (aportación voluntaria al capital o financiación que no integra capital) se determinará conforme a la revisión jurídica.",
-          "note": "AVISO: es el punto frágil. Como interés de aportación voluntaria, el retorno no puede superar los resultados positivos del ejercicio (art. 63.2), lo que contradice un porcentaje 'garantizado'. Valorar con jurista tratarlo como préstamo/financiación que no integra capital (con contrato de préstamo participativo)."
+          "text": "Quien aporte por encima del umbral de 10.000 € tendrá derecho a la devolución de ese exceso SIN interés: se le reintegra la cantidad aportada de más, sin ganancia, a medida que otras personas socias alcanzan su umbral o entra liquidez, por orden de antigüedad de la solicitud. Si en algún ejercicio no hay liquidez suficiente, la devolución se difiere sin que ello anule el derecho. Quien lo prefiera podrá donar el exceso en lugar de recuperarlo. La bolsa de la cuota umbral es independiente de la de mantenimiento, con cuentas separadas (Reunión 21).",
+          "note": "El exceso se devuelve como un adelanto sin retribución (no es capital remunerado), lo que evita el límite del art. 63.2. El mecanismo concreto (orden y ritmo de devolución) queda pendiente de aprobar en asamblea."
         }
       ],
       "openDecisions": [
         "¿Se fija la aportación obligatoria mínima baja e igual (p. ej. 3.000 €) y el resto hasta 10.000 € como voluntario?",
-        "¿Se aprueban los porcentajes de retorno 5% / 4% / 3% propuestos por la Comisión de Economía o se ajustan?",
-        "¿El exceso sobre el umbral es capital voluntario o préstamo/financiación que no integra capital? (determina si el 'retorno garantizado' es legal).",
-        "¿De qué bolsa se paga el retorno y qué se hace si el precio de la casa supera el capital reunido: subir el umbral (p. ej. 15.000 €) o imputar la diferencia a mantenimiento? (Reunión 21).",
+        "¿Cómo se articula la devolución del exceso sin interés: orden (antigüedad / prorrata) y ritmo según entra liquidez o nuevas socias alcanzan el umbral?",
+        "¿El exceso sobre el umbral se articula como aportación voluntaria al capital (reembolsable) o como anticipo/financiación que no integra capital? Sin interés, ambas encajan; el anticipo evita el tope del tercio del capital (art. 59.5).",
+        "Si el precio de la casa supera el capital reunido, ¿subir el umbral (p. ej. 15.000 €) o recurrir a financiación externa? (No a mantenimiento: cajas separadas, R21.)",
         "Al causar baja, ¿se devuelve la cuota umbral y el exceso pendiente? ¿Con qué plazos y deducciones dentro de los topes del art. 66?"
       ],
-      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas del grupo. Debe revisarse jurídicamente antes de aprobarse, en especial el encaje del retorno garantizado."
+      "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas del grupo. Debe revisarse jurídicamente antes de aprobarse, en especial la naturaleza jurídica de las aportaciones y la devolución del exceso."
     }
   },
   "suggestedClause": {
     "text": "La aportación obligatoria mínima para ser persona socia usuaria será de [cantidad] e igual para todas; las aportaciones por encima de ese mínimo, hasta el umbral de referencia, serán voluntarias. La cuantía aportada no altera los derechos políticos: cada persona socia tiene un voto. La devolución del exceso sobre el umbral y su retorno se regularán en el Reglamento de Régimen Interno conforme a la revisión jurídica.",
-    "disclaimer": "Borrador de trabajo. Revisar jurídicamente, en especial el retorno garantizado del exceso y su encaje en el art. 63.",
+    "disclaimer": "Borrador de trabajo. Revisar jurídicamente, en especial la devolución del exceso (sin interés) y la naturaleza de las aportaciones.",
     "status": "needs_legal_review"
   },
   "status": "needs_legal_review"

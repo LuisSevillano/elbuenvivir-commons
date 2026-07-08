@@ -120,9 +120,9 @@
       "articles": [
         {
           "target": "estatutos",
-          "heading": "Aportación obligatoria mínima e igualdad de voto",
-          "text": "La aportación obligatoria mínima al capital social para adquirir y mantener la condición de persona socia usuaria será de [cantidad baja e igual, p. ej. 3.000 €], desembolsada en la forma y plazos que fijen los Estatutos. Cada persona socia podrá realizar aportaciones voluntarias por encima de ese mínimo, hasta el umbral de referencia que acuerde la cooperativa. En ningún caso la cuantía aportada alterará los derechos políticos: cada persona socia tendrá un voto en la Asamblea General, con independencia de lo que haya aportado. El importe del umbral de referencia, su flexibilidad y el régimen de retorno del exceso se fijarán en los términos y con el procedimiento que desarrolle el Reglamento de Régimen Interno.",
-          "note": "Fija el suelo común reservado (art. 60) y blinda una persona = un voto (art. 35.1), ambos contenido estatutario. El umbral concreto, su flexibilidad y el retorno del exceso se remiten al RRI por ser orientativos y revisables sin pasar por escritura y registro."
+          "heading": "Igualdad de voto pese a aportaciones desiguales",
+          "text": "Por encima de la aportación obligatoria mínima al capital —fijada con carácter común e igual para todas las personas socias en estos Estatutos—, cada persona socia usuaria podrá realizar aportaciones voluntarias distintas, según su capacidad, hasta el umbral de referencia que acuerde la cooperativa. En ningún caso la cuantía aportada alterará los derechos políticos: cada persona socia tendrá un voto en la Asamblea General, con independencia de lo que haya aportado. El importe del umbral de referencia, su flexibilidad y el régimen de retorno del exceso se fijarán en los términos y con el procedimiento que desarrolle el Reglamento de Régimen Interno.",
+          "note": "Este artículo NO vuelve a fijar la aportación obligatoria mínima: esa cifra se establece una sola vez en el tema Aportaciones obligatorias (art. 60.1). Aquí solo se blinda una persona = un voto (art. 35.1) y se aclara que lo aportado por encima del mínimo hacia el umbral es voluntario. El umbral concreto, su flexibilidad y el retorno del exceso se remiten al RRI por ser orientativos y revisables sin pasar por escritura y registro."
         },
         {
           "target": "rri",
@@ -138,7 +138,7 @@
         }
       ],
       "openDecisions": [
-        "¿Se fija la aportación obligatoria mínima baja e igual (p. ej. 3.000 €) y el resto hasta 10.000 € como voluntario?",
+        "¿Se fija la aportación obligatoria mínima baja e igual (la cuantía se decide en el tema Aportaciones obligatorias, p. ej. 100-300 €) y todo lo que va hasta el umbral de 10.000 € como voluntario?",
         "¿Cómo se articula la devolución del exceso sin interés: orden (antigüedad / prorrata) y ritmo según entra liquidez o nuevas socias alcanzan el umbral?",
         "¿El exceso sobre el umbral se articula como aportación voluntaria al capital (reembolsable) o como anticipo/financiación que no integra capital? Sin interés, ambas encajan; el anticipo evita el tope del tercio del capital (art. 59.5).",
         "Si el precio de la casa supera el capital reunido, ¿subir el umbral (p. ej. 15.000 €) o recurrir a financiación externa? (No a mantenimiento: cajas separadas, R21.)",

@@ -140,10 +140,12 @@
         <article class="article {art.target}">
           <div class="article-head">
             <span class="target-badge {art.target}">{art.target === 'estatutos' ? 'Estatutos' : 'RRI'}</span>
-            <h3>{art.heading}</h3>
-            <button class="copy-article" type="button" onclick={() => copy(`${art.heading}\n\n${art.text}`, art.heading)}>
-              {copiedKey === art.heading ? 'Copiado' : 'Copiar'}
-            </button>
+            <div class="article-title-row">
+              <h3>{art.heading}</h3>
+              <button class="copy-article" type="button" onclick={() => copy(`${art.heading}\n\n${art.text}`, art.heading)}>
+                {copiedKey === art.heading ? 'Copiado' : 'Copiar'}
+              </button>
+            </div>
           </div>
           <p class="clause">{#each segments(art.text) as s}{#if s.ph}<mark class="ph">{s.part}</mark>{:else}{s.part}{/if}{/each}</p>
           {#if art.note}<p class="article-note">{art.note}</p>{/if}
@@ -225,9 +227,11 @@
   .rationale { margin: 0 0 0.9rem; padding-left: 1.1rem; display: grid; gap: 0.3rem; font-size: 0.86rem; line-height: 1.45; }
   .articles { display: grid; gap: 0.7rem; }
   .article { border: 1px solid var(--border); border-radius: 6px; padding: 0.75rem 0.85rem; background: #fcfcfd; }
-  .article-head { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem; }
-  .article-head h3 { margin: 0; font-size: 0.95rem; }
-  .target-badge { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.12rem 0.4rem; border-radius: 3px; font-weight: 700; }
+  .article-head { display: flex; flex-direction: column; gap: 0.45rem; margin-bottom: 0.55rem; }
+  .article-title-row { display: flex; align-items: baseline; justify-content: space-between; gap: 0.75rem; }
+  .article-title-row h3 { margin: 0; font-size: 1rem; line-height: 1.3; flex: 1 1 auto; }
+  .article-title-row .copy-article { flex: none; margin-left: 0; }
+  .target-badge { align-self: flex-start; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.15rem 0.45rem; border-radius: 3px; font-weight: 700; }
   .target-badge.estatutos { background: #dbeafe; color: #1e40af; }
   .target-badge.rri { background: #ede9fe; color: #5b21b6; }
   .clause { margin: 0; font-family: Georgia, 'Times New Roman', serif; font-size: 0.9rem; line-height: 1.55; color: #1f2937; padding-left: 0.7rem; border-left: 2px solid var(--border); }

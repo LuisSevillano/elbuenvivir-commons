@@ -14,14 +14,14 @@
   "legalBasis": [],
   "projectReferences": [],
   "decisionsForBuenVivir": [
-    "¿Cómo se encaja el 'plan B' aprobado en la Reunión 20 (vender la casa, que cada socio recupere su inversión y repartir el resto a partes iguales) con el artículo 94, que NO permite repartir el haber sobrante entre los socios?",
+    "¿Cómo se encajaría el 'plan B' (propuesta presentada en la Reunión 20 y aún SIN aprobar —quedó solo en 'reflexionar', y en la Reunión 21 se aplazó por completo—: vender la casa, que cada socio recupere su inversión y repartir el resto a partes iguales) con el artículo 94, que NO permite repartir el haber sobrante entre los socios? Conviene resolverlo antes de llevarlo a votación.",
     "¿Qué parte de la aportación de cada socio (cuota umbral de hasta 10.000 €) es capital social reintegrable en la liquidación y qué parte alimenta fondos irrepartibles (cuotas de ingreso, deducciones)?",
     "¿A qué cooperativa o entidad de la economía social se destinará el haber líquido sobrante, tal y como exige el artículo 94.2.d?",
     "¿Se fija un plazo de duración de la cooperativa o se deja indefinida (afecta a las causas de disolución)?",
     "¿Se regula en Estatutos el proceso de venta del inmueble en liquidación o se remite el detalle operativo al RRI?"
   ],
   "risks": [
-    "El 'plan B' aprobado en la Reunión 20 (repartir el sobrante de la venta a partes iguales entre socios) choca frontalmente con el destino legal del haber sobrante: el art. 94 lo reserva a otra cooperativa o al Fondo de Fomento del Cooperativismo, no a los socios.",
+    "La propuesta de 'plan B' presentada en la Reunión 20 (repartir el sobrante de la venta a partes iguales entre socios) —aún sin aprobar, aplazada en la Reunión 21— chocaría frontalmente con el destino legal del haber sobrante: el art. 94 lo reserva a otra cooperativa o al Fondo de Fomento del Cooperativismo, no a los socios. Es un motivo para NO aprobarla tal cual.",
     "El Fondo de Reserva Obligatorio, que se nutre de las cuotas de ingreso y de las deducciones por baja, es irrepartible: confiar en él como 'ahorro recuperable' de la casa sería un error.",
     "Presentar la casa como un 'fondo de ahorros' recuperable puede desdibujar el carácter antiespeculativo y de usuarios del proyecto, y generar expectativas económicas que la forma cooperativa no puede cumplir.",
     "No designar en Estatutos la entidad destinataria del haber sobrante deja esa decisión al azar de una Asamblea futura o, en su defecto, a la Administración autonómica.",
@@ -76,7 +76,7 @@
     "legal": {
       "intro": [
         "En una cooperativa de usuarios de Castilla y León rige la Ley 4/2002. Su Capítulo IX regula la disolución (cómo y por qué se acaba la cooperativa) y la liquidación (cómo se reparte lo que queda). Buena parte es derecho imperativo: podéis añadir causas estatutarias de disolución y designar el destino del haber sobrante, pero no podéis cambiar el orden de adjudicación ni convertir en repartible lo que la ley declara irrepartible.",
-        "La clave para El Buen Vivir es el destino del patrimonio. Tras pagar deudas, la ley reintegra a los socios sus aportaciones al capital social —eso permite que cada socio recupere su inversión—, pero el haber líquido sobrante (por ejemplo, la plusvalía de una casa que se ha revalorizado) NO se reparte entre los socios: se destina a otra cooperativa o entidad de la economía social. Además, el Fondo de Reserva Obligatorio es irrepartible. Aquí aparece la tensión con el 'plan B' del grupo."
+        "La clave para El Buen Vivir es el destino del patrimonio. Tras pagar deudas, la ley reintegra a los socios sus aportaciones al capital social —eso permite que cada socio recupere su inversión—, pero el haber líquido sobrante (por ejemplo, la plusvalía de una casa que se ha revalorizado) NO se reparte entre los socios: se destina a otra cooperativa o entidad de la economía social. Además, el Fondo de Reserva Obligatorio es irrepartible. Aquí aparece la tensión con el 'plan B' que el grupo ha propuesto (pero aún no aprobado)."
       ],
       "requirements": [
         { "aspect": "Causas de disolución", "law": "Ley 4/2002 CyL, art. 90.1", "requirement": "Se disuelve por cumplimiento del plazo estatutario, acuerdo de la Asamblea (2/3), paralización de la actividad dos años, reducción de socios o capital bajo el mínimo, realización o imposibilidad del objeto, fusión/escisión, u otra causa legal o estatutaria.", "margin": "Podéis añadir causas propias (p. ej. un plazo de duración) y concretar la imposibilidad del objeto." },
@@ -161,7 +161,7 @@
     "proposal": {
       "rationale": [
         "El Buen Vivir es cooperativa de usuarios y antiespeculativa: la casa es de la cooperativa, no un activo privado revalorizable de los socios. Esto encaja con el destino legal del patrimonio, que impide repartir el sobrante.",
-        "El 'plan B' aprobado en la Reunión 20 tiene dos partes: (1) que cada socio recupere su inversión —compatible con el art. 94.b si esa aportación se estructura como capital social reintegrable— y (2) repartir el resto a partes iguales entre todos —incompatible con el art. 94.2.d, que reserva el haber sobrante a otra cooperativa o al Fondo de Fomento.",
+        "El 'plan B' —propuesto en la Reunión 20 y todavía sin aprobar (en la R20 solo se acordó 'reflexionar' sobre él, y en la R21 se aplazó)— tiene dos partes: (1) que cada socio recupere su inversión —compatible con el art. 94.b si esa aportación se estructura como capital social reintegrable— y (2) repartir el resto a partes iguales entre todos —incompatible con el art. 94.2.d, que reserva el haber sobrante a otra cooperativa o al Fondo de Fomento. La segunda parte debería reformularse antes de que llegue a votación.",
         "Conviene separar en Estatutos lo que la ley reintegra (aportaciones al capital) de lo que no puede repartirse (haber sobrante y Fondo de Reserva Obligatorio), para no generar expectativas económicas que la forma cooperativa no puede cumplir.",
         "Como el destino del sobrante debe designarse en Estatutos, el grupo puede elegir una cooperativa o entidad afín a sus valores (ecofeminismo, decrecimiento, economía social) en lugar de dejarlo a la Administración."
       ],

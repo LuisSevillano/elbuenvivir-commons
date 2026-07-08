@@ -6,11 +6,13 @@ Dos puntos del modelo económico **chocan de frente con la Ley 4/2002 de Coopera
 
 ---
 
-## 1. El "Plan B" de disolución no se puede ejecutar tal como está
+## 1. El "Plan B" de disolución (propuesto, NO aprobado) no se podría ejecutar tal como está
 
-**Qué aprobamos (Reunión 20):** si el proyecto no sale adelante, vender la casa, que cada persona recupere su inversión y **repartir el resto a partes iguales entre todas**.
+**Ojo con el estado:** revisadas las actas, el "Plan B" **no está aprobado**. En la **Reunión 20** solo se acordó *"reflexionar sobre la cláusula"* y quedó pendiente *votarla*; en la **Reunión 21** el punto se **aplazó por completo** (no pudo conectarse una socia). Sigue siendo, por tanto, una **propuesta en estudio**, no un acuerdo.
 
-**El problema:** el **artículo 94.2.d** de la Ley 4/2002 **no permite repartir el haber sobrante de una liquidación entre las socias**. Ese sobrante debe destinarse a otra cooperativa o al Fondo de Fomento del Cooperativismo. Además, el **Fondo de Reserva Obligatorio es irrepartible** (art. 71).
+**La propuesta:** si el proyecto no sale adelante, vender la casa, que cada persona recupere su inversión y **repartir el resto a partes iguales entre todas**.
+
+**El problema (para tenerlo en cuenta ANTES de votarla):** el **artículo 94.2.d** de la Ley 4/2002 **no permite repartir el haber sobrante de una liquidación entre las socias**. Ese sobrante debe destinarse a otra cooperativa o al Fondo de Fomento del Cooperativismo. Además, el **Fondo de Reserva Obligatorio es irrepartible** (art. 71). La buena noticia es que, al no estar aprobado, no hay que "deshacer" nada: basta reformular la propuesta antes de llevarla a asamblea.
 
 - ✅ **Sí es viable:** que cada persona **recupere su aportación al capital** (su cuota umbral) — la primera parte del Plan B.
 - ❌ **No es viable:** **repartir el excedente** de la venta a partes iguales entre las socias.

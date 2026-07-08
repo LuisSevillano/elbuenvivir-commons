@@ -20,7 +20,7 @@
     "Al causar baja una persona, ¿se le devuelve la cuota umbral aportada y el exceso pendiente de retorno, y con qué plazos y deducciones?"
   ],
   "risks": [
-    "Un retorno con interés fijo sobre el capital chocaría con el art. 63.2 (la remuneración del capital no puede superar los resultados del ejercicio). El grupo ha optado por un retorno SIN interés, lo que evita ese problema: se devuelve el exceso aportado, no una ganancia.",
+    "Un retorno con interés fijo sobre el capital chocaría con el art. 63.2 (la remuneración del capital no puede superar los resultados del ejercicio). La orientación de trabajo (aún pendiente de votar: el RETORNO figura como punto abierto en las Reuniones 20 y 21) es un retorno SIN interés, lo que evitaría ese problema: se devuelve el exceso aportado, no una ganancia.",
     "Si las aportaciones desiguales se contabilizan como capital, ninguna persona puede superar un tercio del capital social (art. 59.5): una aportación muy alta podría rebasar ese tope.",
     "Confundir capacidad de aportar con poder: aunque una persona aporte más, la ley mantiene un voto por socio (art. 35.1) en una cooperativa de usuarios; conviene decirlo expresamente para evitar autoridad informal.",
     "Dejar el retorno y la salida sin regular hasta que haya un caso real: es donde la desigualdad económica genera más conflicto (baja, herencia, nueva incorporación).",
@@ -108,13 +108,13 @@
           "excerpt": "En Consejo Rector, según mandato de la Asamblea General para la mayoría de los dos tercios, puede desestimar el retorno de las aportaciones al capital social en caso de baja de la persona socia o la devolución de sus aportaciones voluntarias en cualquier caso, sin perjuicio de que se pueda pactar su regreso por acuerdo entre las partes."
         }
       ],
-      "note": "Patrón común: la aportación obligatoria mínima es baja e igual, y la desigualdad se canaliza como aportación voluntaria, que sí puede remunerarse pero dentro de los límites de la ley. El Buen Vivir ha optado por devolver el exceso SIN interés (solo la cantidad aportada de más), lo que evita el problema del art. 63.2 que tendría un retorno remunerado."
+      "note": "Patrón común: la aportación obligatoria mínima es baja e igual, y la desigualdad se canaliza como aportación voluntaria, que sí puede remunerarse pero dentro de los límites de la ley. El Buen Vivir se orienta a devolver el exceso SIN interés (solo la cantidad aportada de más) —decisión aún pendiente de votar en asamblea—, lo que evitaría el problema del art. 63.2 que tendría un retorno remunerado."
     },
     "proposal": {
       "rationale": [
         "El grupo aprobó (Guía de votación de capacidad económica, dic-2025) que NO habrá aportación mínima obligatoria y fijó 10.000 € como umbral de referencia colectivo. En las Reuniones 19-21 (2026) confirmó el modelo económico 7 con umbral orientativo de 10.000 € y cifra mínima orientativa de 3.000 €, 'ambos flexibles por socio', y dejó expresamente estos números para el RRI, no para los Estatutos ('flexible, revisable, orientativo').",
         "Para sostener una persona = un voto pese a aportar distinto, conviene fijar en Estatutos una aportación obligatoria mínima baja e igual para todos (art. 60) y tratar todo lo que va por encima como aportación voluntaria o financiación al proyecto. El voto no depende del capital (art. 35.1), así que la desigualdad económica no altera la igualdad política si se dice expresamente.",
-        "El grupo ha optado por devolver el exceso sobre el umbral SIN interés: se reintegra la cantidad aportada de más, sin ganancia, a medida que otras personas socias alcanzan su umbral o entra liquidez. La bolsa de la cuota umbral está separada de la de mantenimiento, con cuentas bancarias distintas (Reunión 21).",
+        "La orientación de trabajo del grupo —aún pendiente de aprobar: el RETORNO figura expresamente como punto abierto en las Reuniones 20 y 21— es devolver el exceso sobre el umbral SIN interés: reintegrar la cantidad aportada de más, sin ganancia, a medida que otras personas socias alcanzan su umbral o entra liquidez. Lo que sí está aprobado (Reunión 21) es que la bolsa de la cuota umbral está separada de la de mantenimiento, con cuentas bancarias distintas.",
         "Ventaja legal de devolver sin interés: se evita el problema del art. 63.2 (la remuneración del capital no puede superar los resultados del ejercicio), porque no se remunera capital, solo se devuelve lo aportado. Si en el futuro se quisiera remunerar el exceso, entonces sí habría que articularlo como préstamo/financiación que no integra el capital, no como aportación voluntaria."
       ],
       "articles": [

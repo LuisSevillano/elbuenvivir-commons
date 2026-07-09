@@ -38,6 +38,7 @@
 
   const topic = $derived(data.topic);
   const dossier = $derived(data.topic.dossier ?? null);
+  const openDecisionsCount = $derived(dossier?.proposal?.openDecisions?.length ?? 0);
   const decisionModel = $derived(data.decisionModel);
   const evidenceLayer = $derived(data.evidenceLayer);
   const synthesis = $derived(data.synthesis);
@@ -224,6 +225,13 @@
 <article class="topic-page">
   <a class="back-link" href="/temas">← Todos los temas</a>
   <TopicHero {topic} editorialStatus={editorialStatusKey} />
+
+  {#if openDecisionsCount > 0}
+    <a class="jump-decisions" href="#decisiones">
+      <span>Lo que os queda por votar</span>
+      <span class="jd-count">{openDecisionsCount}</span>
+    </a>
+  {/if}
 
   {#if isReviewed}
     <p class="page-note">Borrador de trabajo · contrastar con las fuentes y revisar jurídicamente antes de aprobarlo.</p>
@@ -469,6 +477,27 @@
   .topic-page { max-width: 70ch; margin: 0 auto; }
   .back-link { display: inline-block; margin-bottom: 0.9rem; color: var(--muted); text-decoration: none; font-size: 0.85rem; }
   .back-link:hover { color: var(--accent); }
+
+  .jump-decisions {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    margin: 0 0 1.3rem;
+    padding: 0.5rem 0.9rem;
+    border: 1px dashed var(--accent-warm);
+    border-radius: 999px;
+    background: rgba(184, 118, 59, 0.07);
+    color: var(--accent);
+    font-weight: 600; font-size: 0.9rem;
+    text-decoration: none;
+    transition: background 0.12s;
+  }
+  .jump-decisions::after { content: '↓'; font-weight: 700; }
+  .jump-decisions:hover { background: rgba(184, 118, 59, 0.15); }
+  .jd-count {
+    font-family: var(--font-display); font-weight: 600;
+    background: var(--accent-warm); color: #fffdf8;
+    border-radius: 999px; min-width: 1.4em; padding: 0 0.4em;
+    text-align: center; font-size: 0.85rem;
+  }
   .workbench { display: grid; gap: 0.35rem; }
   .minimal-page { display: grid; gap: 0.45rem; }
   .page-note {

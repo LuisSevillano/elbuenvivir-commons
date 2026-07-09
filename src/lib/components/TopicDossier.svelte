@@ -154,7 +154,7 @@
     </div>
 
     {#if proposal.openDecisions.length > 0}
-      <div class="open-decisions">
+      <div class="open-decisions" id="decisiones">
         <h4>Lo que os queda por votar</h4>
         <ul>
           {#each proposal.openDecisions as decision}<li>{decision}</li>{/each}
@@ -246,8 +246,8 @@
   }
   .article-note { margin: 0.45rem 0 0; font-size: 0.78rem; font-style: italic; color: var(--muted); line-height: 1.4; }
 
-  .open-decisions { margin-top: 0.9rem; padding: 0.7rem 0.85rem; border: 1px dashed #c4b5fd; border-radius: 6px; background: #faf5ff; }
-  .open-decisions h4 { margin: 0 0 0.4rem; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: #6d28d9; }
+  .open-decisions { margin-top: 0.9rem; scroll-margin-top: 1.5rem; padding: 0.7rem 0.85rem; border: 1px dashed var(--accent-warm); border-radius: 6px; background: rgba(184, 118, 59, 0.07); }
+  .open-decisions h4 { margin: 0 0 0.4rem; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); }
   .open-decisions ul { margin: 0; padding-left: 1.1rem; display: grid; gap: 0.25rem; font-size: 0.85rem; line-height: 1.4; }
 
   .disclaimer { margin: 0.9rem 0 0; font-size: 0.76rem; color: var(--muted); line-height: 1.4; padding-top: 0.6rem; border-top: 1px solid var(--border); }

@@ -18,7 +18,7 @@ export function pageOgImage(
   alt: string
 ): Pick<SeoMetadata, 'image' | 'imageAlt'> | Record<string, never> {
   return hasOgImage('paginas', name)
-    ? { image: `/og/paginas/${name}.png`, imageAlt: alt }
+    ? { image: `/og/paginas/${name}.jpg`, imageAlt: alt }
     : {};
 }
 
@@ -92,7 +92,7 @@ export function topicSeo(topic: ConsultableTopic): SeoMetadata {
     path: `/temas/${topic.slug}`,
     ...(hasOgImage('temas', topic.slug)
       ? {
-          image: `/og/temas/${topic.slug}.png`,
+          image: `/og/temas/${topic.slug}.jpg`,
           imageAlt: `Tarjeta del tema «${topic.title}» de El Buen Vivir.`
         }
       : {}),
@@ -110,7 +110,7 @@ export function documentSeo(document: SourceDocument): SeoMetadata {
     path: `/documentos/${document.slug}`,
     ...(hasOgImage('documentos', document.slug)
       ? {
-          image: `/og/documentos/${document.slug}.png`,
+          image: `/og/documentos/${document.slug}.jpg`,
           imageAlt: `Tarjeta del documento «${title}» de El Buen Vivir.`
         }
       : {}),

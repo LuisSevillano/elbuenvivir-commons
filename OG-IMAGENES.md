@@ -19,7 +19,7 @@ final** — sin límites raros de CSS y con la misma tipografía del sitio.
    `<style>` hay un bloque de "Ajustes rápidos" (colores, fuente, tamaños). Es
    CSS normal y recarga en vivo.
 
-## Cómo hornear los PNG
+## Cómo hornear las imágenes
 
 Una sola vez, instala el navegador headless:
 ```
@@ -32,14 +32,17 @@ Cada vez que cambies la plantilla o añadas temas/documentos:
 pnpm dev            # en una terminal
 pnpm og:gen         # en otra
 ```
-Esto escribe los PNG (1200×630) en `static/og/temas/` y `static/og/documentos/`.
+Esto escribe los JPEG (1200×630) en `static/og/temas/`, `static/og/documentos/`
+y `static/og/paginas/`. Se usa JPEG (no PNG) porque el fondo es una foto y pesa
+mucho menos (~70 KB por imagen). Variables opcionales: `OG_SCALE` (1 por defecto)
+y `OG_QUALITY` (82).
 
 > Genera en tu Mac a propósito: Chromium usa la fuente de sistema *Iowan Old
 > Style*, la misma del sitio, así que la imagen sale idéntica a la web.
 
 ## Publicar
 
-Los PNG son **assets estáticos que se commitean** (el build solo los copia; no
+Las imágenes son **assets estáticos que se commitean** (el build solo los copia; no
 se ejecuta Playwright en Netlify). El flujo completo:
 ```
 pnpm og:gen                 # regenera imágenes

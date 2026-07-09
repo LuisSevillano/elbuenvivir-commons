@@ -19,7 +19,8 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const BASE = (process.env.OG_BASE_URL ?? 'http://localhost:5173').replace(/\/$/, '');
-const SCALE = Number(process.env.OG_SCALE ?? '2');
+const SCALE = Number(process.env.OG_SCALE ?? '1'); // 1 = 1200x630 (tamaño OG estándar)
+const QUALITY = Number(process.env.OG_QUALITY ?? '82'); // calidad JPEG
 const OUT_DIR = path.resolve('static/og');
 const MANIFEST = path.resolve('src/lib/og/manifest.json');
 
@@ -64,7 +65,11 @@ async function main() {
     await page.waitForSelector('.og-card[data-fit="done"]', { timeout: 5000 });
     await page.waitForTimeout(80);
     await mkdir(path.join(OUT_DIR, dir), { recursive: true });
-    await card.screenshot({ path: path.join(OUT_DIR, dir, `${slug}.png`) });
+    await card.screenshot({
+      path: path.join(OUT_DIR, dir, `${slug}.jpg`),
+      type: 'jpeg',
+      quality: QUALITY
+    });
     done[dir].push(slug);
   };
 

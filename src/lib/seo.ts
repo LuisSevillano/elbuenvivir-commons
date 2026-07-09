@@ -37,6 +37,12 @@ export function withBrand(title: string): string {
   return title.includes(siteName) ? title : `${title} | ${siteName}`;
 }
 
+// La marca ya viaja en og:site_name; en las páginas de detalle el título
+// gana más contexto indicando la sección ("Derechos y obligaciones | Temas").
+export function withSection(title: string, section: string): string {
+  return `${title} | ${section}`;
+}
+
 export function compactDescription(value: string, fallback = defaultSeo.description): string {
   const normalized = value.replace(/\s+/g, ' ').trim() || fallback;
 
@@ -58,7 +64,7 @@ export function buildSeo(metadata: SeoMetadata): SeoMetadata {
 
 export function topicSeo(topic: ConsultableTopic): SeoMetadata {
   return buildSeo({
-    title: withBrand(topic.title),
+    title: withSection(topic.title, 'Temas'),
     description: compactDescription(
       `${topic.shortDescription} Qué dice la ley, cómo lo resolvieron otras cooperativas y nuestra propuesta.`
     ),
@@ -72,7 +78,7 @@ export function documentSeo(document: SourceDocument): SeoMetadata {
   const summary = document.notes ?? getDocumentSummary(document);
 
   return buildSeo({
-    title: withBrand(title),
+    title: withSection(title, 'Documentos'),
     description: compactDescription(`${summary} Documento de referencia para fundamentar los Estatutos y el RRI de El Buen Vivir.`),
     path: `/documentos/${document.slug}`,
     type: 'article'

@@ -1,6 +1,6 @@
 import { loadDocuments } from '$lib/content/loadDocuments';
 import { loadConsultableTopics } from '$lib/content/loadConsultableTopics';
-import { buildSeo, compactDescription, withBrand } from '$lib/seo';
+import { buildSeo, compactDescription } from '$lib/seo';
 
 export const prerender = false;
 
@@ -16,7 +16,7 @@ export function load({ url }) {
 
   return {
     seo: buildSeo({
-      title: withBrand(title),
+      title,
       description: compactDescription(description),
       path: '/buscar'
     }),

@@ -61,7 +61,7 @@ export function load() {
 
   return {
     seo: {
-      title: 'Borrador de Estatutos y RRI | El Buen Vivir Commons',
+      title: 'Borrador de Estatutos y RRI',
       description:
         'Borrador de trabajo de los Estatutos y el Reglamento de Régimen Interno de El Buen Vivir, ensamblado a partir de las propuestas de cada tema. Requiere revisión jurídica.',
       path: '/borrador'

@@ -16,13 +16,27 @@
     footer?: string;
     chip?: string;
   } = $props();
+
+  // El cuerpo del título se adapta a su longitud, para que un título largo
+  // (p. ej. un decreto) no se derrame sobre el subtítulo. Ajusta estos tramos
+  // a tu gusto: [máx. de caracteres, tamaño en px].
+  const TITLE_SIZES: [number, number][] = [
+    [24, 76],
+    [40, 64],
+    [58, 54],
+    [80, 46],
+    [Infinity, 38]
+  ];
+  const titleSize = $derived(
+    (TITLE_SIZES.find(([max]) => title.length <= max) ?? [0, 38])[1]
+  );
 </script>
 
 <div class="og-card">
   <div class="top">
     <span class="accent-bar"></span>
     <p class="eyebrow">{eyebrow}</p>
-    <h1 class="title">{title}</h1>
+    <h1 class="title" style="font-size: {titleSize}px">{title}</h1>
     {#if supporting}<p class="supporting">{supporting}</p>{/if}
   </div>
   <div class="foot">
@@ -52,14 +66,24 @@
     padding: var(--card-pad);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background: var(--card-bg);
     color: var(--card-ink);
     overflow: hidden;
   }
 
+  /* El bloque superior ocupa el espacio que deja el pie y recorta lo que
+     sobre, así el título nunca puede invadir el pie. */
+  .top {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
   .accent-bar {
     display: block;
+    flex: none;
     width: 64px;
     height: 8px;
     border-radius: 4px;
@@ -68,6 +92,7 @@
   }
 
   .eyebrow {
+    flex: none;
     margin: 0 0 20px;
     font-family: var(--card-sans);
     font-size: 24px;
@@ -77,21 +102,23 @@
   }
 
   .title {
+    flex: 0 1 auto;
+    min-height: 0;
     margin: 0;
     font-family: var(--card-serif);
     font-weight: 600;
-    font-size: 76px;
-    line-height: 1.04;
+    line-height: 1.05;
     letter-spacing: -0.01em;
     color: var(--card-ink);
-    /* Recorta a 3 líneas por si un título es muy largo. */
+    /* Segunda red de seguridad: como mucho 4 líneas, con puntos suspensivos. */
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
 
   .supporting {
+    flex: none;
     margin: 30px 0 0;
     font-family: var(--card-serif);
     font-size: 30px;
@@ -101,6 +128,8 @@
   }
 
   .foot {
+    flex: none;
+    margin-top: 28px;
     display: flex;
     align-items: center;
     justify-content: space-between;

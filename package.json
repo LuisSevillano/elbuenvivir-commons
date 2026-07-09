@@ -32,6 +32,7 @@
     "build:patterns": "tsx scripts/build-cross-topic-patterns.ts",
     "build:project-profiles": "tsx scripts/build-project-profiles.ts",
     "enrich:drive-links": "tsx scripts/enrich-google-drive-links.ts",
+    "og:gen": "tsx scripts/generate-og.ts",
     "deploy": "netlify deploy --build --prod --site 28954291-cdf4-49f8-a212-11b4c7c15bbb"
   },
   "devDependencies": {
@@ -40,6 +41,7 @@
     "@sveltejs/vite-plugin-svelte": "^7.1.2",
     "netlify-cli": "^26.1.0",
     "pdf-parse": "^2.4.5",
+    "playwright": "^1.48.0",
     "svelte": "^5.56.4",
     "svelte-check": "^4.2.1",
     "tsx": "^4.19.4",

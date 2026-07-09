@@ -1,5 +1,13 @@
 import { getDocumentDisplayTitle, getDocumentSummary } from '$lib/content/documentDisplay';
 import type { ConsultableTopic, SourceDocument } from '$lib/content/types';
+import ogManifest from './og/manifest.json';
+
+// Solo apuntamos a la imagen por-página si realmente se ha generado (está en el
+// manifiesto). Si no, se cae a la imagen por defecto en vez de a un 404.
+// El manifiesto lo reescribe `pnpm og:gen`.
+function hasOgImage(kind: 'temas' | 'documentos', slug: string): boolean {
+  return (ogManifest[kind] as string[]).includes(slug);
+}
 
 export const siteUrl = 'https://elbuenvivir-commons.netlify.app';
 export const siteName = 'El Buen Vivir Commons';
@@ -69,6 +77,12 @@ export function topicSeo(topic: ConsultableTopic): SeoMetadata {
       `${topic.shortDescription} Qué dice la ley, cómo lo resolvieron otras cooperativas y nuestra propuesta.`
     ),
     path: `/temas/${topic.slug}`,
+    ...(hasOgImage('temas', topic.slug)
+      ? {
+          image: `/og/temas/${topic.slug}.png`,
+          imageAlt: `Tarjeta del tema «${topic.title}» de El Buen Vivir.`
+        }
+      : {}),
     type: 'article'
   });
 }
@@ -81,6 +95,12 @@ export function documentSeo(document: SourceDocument): SeoMetadata {
     title: withSection(title, 'Documentos'),
     description: compactDescription(`${summary} Documento de referencia para fundamentar los Estatutos y el RRI de El Buen Vivir.`),
     path: `/documentos/${document.slug}`,
+    ...(hasOgImage('documentos', document.slug)
+      ? {
+          image: `/og/documentos/${document.slug}.png`,
+          imageAlt: `Tarjeta del documento «${title}» de El Buen Vivir.`
+        }
+      : {}),
     type: 'article'
   });
 }

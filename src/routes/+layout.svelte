@@ -43,7 +43,7 @@
 <div class="site-shell">
 	<header class="site-header">
 		<div class="header-topline">
-			<a class="brand" href="/">El Buen Vivir Commons</a>
+			<a class="brand" href="/">La Wiki de El Buen Vivir</a>
 			<button
 				class="mobile-search-toggle"
 				type="button"

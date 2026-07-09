@@ -1,4 +1,4 @@
-# El Buen Vivir Commons
+# La Wiki de El Buen Vivir
 
 Herramienta privada de trabajo para organizar documentación y borradores internos de una cooperativa.
 

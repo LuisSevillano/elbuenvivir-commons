@@ -59,6 +59,12 @@
     --card-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
     --card-sans: system-ui, -apple-system, 'Segoe UI', sans-serif;
     --card-pad: 80px;
+
+    /* Fondo: la foto de la home (identidad común) bajo un velo crema.
+       Más % = menos foto (texto más legible); menos % = más foto. */
+    --card-photo: url('/thumbnail-og.jpg');
+    --card-veil-top: 88%;
+    --card-veil-bottom: 74%;
   }
   /* --------------------------------------------------------------------- */
 
@@ -69,9 +75,18 @@
     padding: var(--card-pad);
     display: flex;
     flex-direction: column;
-    background: var(--card-bg);
     color: var(--card-ink);
     overflow: hidden;
+    background-color: var(--card-bg);
+    background-image: linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--card-bg) var(--card-veil-top), transparent),
+        color-mix(in srgb, var(--card-bg) var(--card-veil-bottom), transparent)
+      ),
+      var(--card-photo);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   /* El bloque superior ocupa el espacio que deja el pie y recorta lo que

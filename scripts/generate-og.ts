@@ -60,8 +60,9 @@ async function main() {
     });
     const card = page.locator('.og-card');
     await card.waitFor({ state: 'visible' });
-    // Da un instante a que asiente la tipografía antes de capturar.
-    await page.waitForTimeout(120);
+    // Espera a que fitTitle() haya ajustado el tamaño del título.
+    await page.waitForSelector('.og-card[data-fit="done"]', { timeout: 5000 });
+    await page.waitForTimeout(80);
     await mkdir(path.join(OUT_DIR, dir), { recursive: true });
     await card.screenshot({ path: path.join(OUT_DIR, dir, `${slug}.png`) });
     done[dir].push(slug);

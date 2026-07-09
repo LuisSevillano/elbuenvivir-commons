@@ -3,23 +3,27 @@
   let { data } = $props();
 </script>
 
-<!-- El script de generación captura solo el elemento .og-card, así que la
-     barra de ayuda de abajo no aparece en la imagen final. -->
+<!-- Lienzo a pantalla completa (position:fixed) para que la tarjeta se
+     renderice a su tamaño real de 1200×630, sin que el ancho máximo del layout
+     la encoja. El generador captura solo el elemento .og-card. -->
 <div class="stage">
   <OgCard {...data.card} />
+  <p class="help">
+    Vista previa de la imagen para compartir (1200×630). Cambia el destino con
+    <code>?type=tema&amp;slug=&lt;slug&gt;</code>, <code>?type=documento&amp;slug=&lt;slug&gt;</code>
+    o <code>?type=pagina&amp;slug=temas|borrador</code>. Edita el diseño en
+    <code>src/lib/components/OgCard.svelte</code>. Para hornear los PNG: arranca
+    <code>pnpm dev</code> y ejecuta <code>pnpm og:gen</code>.
+  </p>
 </div>
-
-<p class="help" data-og-ignore>
-  Vista previa de la imagen para compartir (1200×630). Cambia el destino con
-  <code>?type=tema&amp;slug=&lt;slug&gt;</code> o <code>?type=documento&amp;slug=&lt;slug&gt;</code>.
-  Edita el diseño en <code>src/lib/components/OgCard.svelte</code>. Para hornear los
-  PNG: arranca <code>pnpm dev</code> y ejecuta <code>pnpm og:gen</code>.
-</p>
 
 <style>
   .stage {
-    display: flex;
-    justify-content: center;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    overflow: auto;
+    box-sizing: border-box;
     padding: 24px;
     /* Un checkerboard suave para ver los bordes de la tarjeta. */
     background:
@@ -27,10 +31,9 @@
   }
   .help {
     max-width: 1200px;
-    margin: 8px auto 40px;
-    padding: 0 24px;
+    margin: 16px 0 0;
     font-size: 0.9rem;
-    color: var(--muted);
+    color: #444;
     line-height: 1.5;
   }
   .help code {

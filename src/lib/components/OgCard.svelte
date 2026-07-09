@@ -20,26 +20,50 @@
     accent?: string;
   } = $props();
 
-  // El cuerpo del título se adapta a su longitud, para que un título largo
-  // (p. ej. un decreto) no se derrame sobre el subtítulo. Ajusta estos tramos
-  // a tu gusto: [máx. de caracteres, tamaño en px].
-  const TITLE_SIZES: [number, number][] = [
-    [24, 76],
-    [40, 64],
-    [58, 54],
-    [80, 46],
-    [Infinity, 38]
-  ];
-  const titleSize = $derived(
-    (TITLE_SIZES.find(([max]) => title.length <= max) ?? [0, 38])[1]
-  );
+  // Tamaños del título (px). Se empieza por el mayor y se ENCOGE hasta que todo
+  // cabe en la tarjeta: así ningún título largo se corta ni pisa al pie.
+  const TITLE_MAX = 76;
+  const TITLE_MIN = 30;
+
+  let cardEl = $state<HTMLElement>();
+  let titleEl = $state<HTMLElement>();
+  let fitted = $state(false);
+
+  function fitTitle() {
+    const card = cardEl;
+    const el = titleEl;
+    if (!card || !el) return;
+    const top = card.querySelector('.top') as HTMLElement | null;
+    if (!top) return;
+
+    let size = TITLE_MAX;
+    el.style.fontSize = `${size}px`;
+    // Reduce el cuerpo mientras el contenido (eyebrow + título + subtítulo)
+    // desborde el espacio que le deja el pie dentro de .top.
+    let guard = 0;
+    while (size > TITLE_MIN && top.scrollHeight > top.clientHeight && guard < 60) {
+      size -= 2;
+      el.style.fontSize = `${size}px`;
+      guard += 1;
+    }
+    fitted = true;
+  }
+
+  $effect(() => {
+    // Recalcula si cambian los textos (deps explícitas).
+    void title;
+    void supporting;
+    void eyebrow;
+    fitted = false;
+    fitTitle();
+  });
 </script>
 
-<div class="og-card">
+<div class="og-card" bind:this={cardEl} data-fit={fitted ? 'done' : 'pending'}>
   <div class="top">
     <span class="accent-bar" style="background: {accent}"></span>
     <p class="eyebrow">{eyebrow}</p>
-    <h1 class="title" style="font-size: {titleSize}px">{title}</h1>
+    <h1 class="title" bind:this={titleEl}>{title}</h1>
     {#if supporting}<p class="supporting">{supporting}</p>{/if}
   </div>
   <div class="foot">
@@ -71,6 +95,7 @@
   .og-card {
     width: 1200px;
     height: 630px;
+    flex: none; /* tamaño fijo: nunca se encoge aunque el contenedor sea menor */
     box-sizing: border-box;
     padding: var(--card-pad);
     display: flex;
@@ -89,8 +114,9 @@
     background-repeat: no-repeat;
   }
 
-  /* El bloque superior ocupa el espacio que deja el pie y recorta lo que
-     sobre, así el título nunca puede invadir el pie. */
+  /* El bloque superior ocupa el espacio que deja el pie; el título se encoge
+     por JS (fitTitle) hasta que su contenido cabe aquí. El overflow:hidden es
+     la red de seguridad si ni al tamaño mínimo cupiera. */
   .top {
     flex: 1 1 auto;
     min-height: 0;
@@ -120,29 +146,24 @@
   }
 
   .title {
-    flex: 0 1 auto;
-    min-height: 0;
+    flex: none;
     margin: 0;
     font-family: var(--card-serif);
     font-weight: 600;
+    font-size: 76px; /* valor inicial; fitTitle() lo ajusta */
     line-height: 1.05;
     letter-spacing: -0.01em;
     color: var(--card-ink);
-    /* Segunda red de seguridad: como mucho 4 líneas, con puntos suspensivos. */
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
   }
 
   .supporting {
     flex: none;
-    margin: 30px 0 0;
+    margin: 28px 0 0;
     font-family: var(--card-serif);
-    font-size: 30px;
-    line-height: 1.4;
+    font-size: 29px;
+    line-height: 1.35;
     color: var(--card-muted);
-    max-width: 24ch;
+    max-width: 34ch;
   }
 
   .foot {

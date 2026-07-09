@@ -34,7 +34,7 @@
   <header class="panel-head">
     <h2>¿Qué toca decidir?</h2>
     <p class="panel-sub">
-      <strong>{state.totalOpen}</strong> decisiones abiertas en <strong>{state.openByTopic.length}</strong> temas, listas para llevar a la asamblea. Cada una lleva ya su propuesta redactada y sus fuentes.
+      <strong>{state.totalOpen}</strong> decisiones abiertas en <strong>{state.openByTopic.length}</strong> temas, ordenadas de la más importante y compleja a la más sencilla. Cada una lleva ya su propuesta redactada y sus fuentes.
     </p>
   </header>
 

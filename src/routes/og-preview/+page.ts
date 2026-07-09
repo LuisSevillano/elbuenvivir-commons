@@ -4,6 +4,7 @@ import { loadConsultableTopic } from '$lib/content/loadConsultableTopics';
 import { loadDocument } from '$lib/content/loadDocuments';
 import { getDocumentDisplayTitle } from '$lib/content/documentDisplay';
 import { categoryLabels } from '$lib/content/labels';
+import { OG_ACCENTS, OG_PAGES } from '$lib/og/cards';
 
 // Página de trabajo: renderiza la tarjeta OG en vivo para poder ajustarla y
 // para que el script de generación la "fotografíe". No es una página pública:
@@ -34,6 +35,10 @@ export function load({ url }) {
   const type = url.searchParams.get('type') ?? 'tema';
   const slug = url.searchParams.get('slug') ?? '';
 
+  if (type === 'pagina') {
+    return { card: OG_PAGES[slug] ?? OG_PAGES.temas };
+  }
+
   if (type === 'documento') {
     const document = slug ? loadDocument(slug) : undefined;
     return {
@@ -42,7 +47,8 @@ export function load({ url }) {
         title: document ? getDocumentDisplayTitle(document) : 'Documento de referencia',
         supporting: 'Fuente para fundamentar los Estatutos y el RRI',
         footer: SITE,
-        chip: documentChip(document?.type)
+        chip: documentChip(document?.type),
+        accent: OG_ACCENTS.documentos
       }
     };
   }
@@ -54,7 +60,8 @@ export function load({ url }) {
       title: topic ? topic.title : 'Un tema de gobernanza',
       supporting: 'Qué dice la ley · cómo lo hacen otras · nuestra propuesta',
       footer: SITE,
-      chip: topic ? categoryLabels[topic.category] : 'Tema'
+      chip: topic ? categoryLabels[topic.category] : 'Tema',
+      accent: OG_ACCENTS.temas
     }
   };
 }

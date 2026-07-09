@@ -6,6 +6,10 @@
 	--border: #ded4c4;
 	--accent: #765d3b;
 	--accent-warm: #b8763b;
+	/* Código de color por sección (mismo en la web y en las imágenes al compartir):
+	   temas = ámbar, documentos = verde oliva. Cambia el valor y cambia en todo. */
+	--accent-temas: #b8763b;
+	--accent-docs: #6f7a4f;
 	--font-display: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
 	color: var(--ink);
 	font-family:

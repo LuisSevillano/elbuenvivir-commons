@@ -43,6 +43,7 @@
 
   .topic-hero .eyebrow {
     margin: 0 0 0.35rem;
+    color: var(--accent-temas);
   }
 
   .hero-title {

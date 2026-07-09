@@ -5,8 +5,21 @@ import ogManifest from './og/manifest.json';
 // Solo apuntamos a la imagen por-página si realmente se ha generado (está en el
 // manifiesto). Si no, se cae a la imagen por defecto en vez de a un 404.
 // El manifiesto lo reescribe `pnpm og:gen`.
-function hasOgImage(kind: 'temas' | 'documentos', slug: string): boolean {
+type OgKind = 'temas' | 'documentos' | 'paginas';
+
+function hasOgImage(kind: OgKind, slug: string): boolean {
   return (ogManifest[kind] as string[]).includes(slug);
+}
+
+// Imagen para páginas sueltas (índices, borrador). Devuelve {} si aún no se ha
+// generado, de modo que se cae a la imagen por defecto.
+export function pageOgImage(
+  name: string,
+  alt: string
+): Pick<SeoMetadata, 'image' | 'imageAlt'> | Record<string, never> {
+  return hasOgImage('paginas', name)
+    ? { image: `/og/paginas/${name}.png`, imageAlt: alt }
+    : {};
 }
 
 export const siteUrl = 'https://elbuenvivir-commons.netlify.app';

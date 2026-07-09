@@ -8,13 +8,16 @@
     title = 'Un tema de gobernanza',
     supporting = '',
     footer = 'elbuenvivir-commons.netlify.app',
-    chip = ''
+    chip = '',
+    accent = '#b8763b'
   }: {
     eyebrow?: string;
     title?: string;
     supporting?: string;
     footer?: string;
     chip?: string;
+    /** Color del código de sección (temas = ámbar, documentos = oliva). */
+    accent?: string;
   } = $props();
 
   // El cuerpo del título se adapta a su longitud, para que un título largo
@@ -34,7 +37,7 @@
 
 <div class="og-card">
   <div class="top">
-    <span class="accent-bar"></span>
+    <span class="accent-bar" style="background: {accent}"></span>
     <p class="eyebrow">{eyebrow}</p>
     <h1 class="title" style="font-size: {titleSize}px">{title}</h1>
     {#if supporting}<p class="supporting">{supporting}</p>{/if}

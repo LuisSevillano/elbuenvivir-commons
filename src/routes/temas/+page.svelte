@@ -90,6 +90,10 @@
 </section>
 
 <style>
+  .hero .eyebrow {
+    color: var(--accent-temas);
+  }
+
   .editorial-ledger {
     display: flex;
     flex-wrap: wrap;

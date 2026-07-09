@@ -1,4 +1,5 @@
 import { loadConsultableTopics } from '$lib/content/loadConsultableTopics';
+import { pageOgImage } from '$lib/seo';
 
 // Orden estructural de un articulado de estatutos/RRI.
 const ORDER = [
@@ -64,7 +65,8 @@ export function load() {
       title: 'Borrador de Estatutos y RRI',
       description:
         'Borrador de trabajo de los Estatutos y el Reglamento de Régimen Interno de El Buen Vivir, ensamblado a partir de las propuestas de cada tema. Requiere revisión jurídica.',
-      path: '/borrador'
+      path: '/borrador',
+      ...pageOgImage('borrador', 'Tarjeta del Borrador de Estatutos y RRI de El Buen Vivir.')
     },
     estatutos,
     rri

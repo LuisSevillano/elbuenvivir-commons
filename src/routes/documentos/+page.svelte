@@ -27,3 +27,9 @@
     </div>
   {/if}
 </section>
+
+<style>
+  .hero .eyebrow {
+    color: var(--accent-docs);
+  }
+</style>

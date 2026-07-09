@@ -68,6 +68,7 @@
 </article>
 
 <style>
+  .hero .eyebrow { color: var(--accent-docs); }
   .back-link { display: inline-block; margin-bottom: 0.9rem; color: var(--muted); text-decoration: none; font-size: 0.85rem; }
   .back-link:hover { color: var(--accent); }
   .document-badges {

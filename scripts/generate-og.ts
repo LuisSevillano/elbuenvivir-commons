@@ -26,6 +26,7 @@ const MANIFEST = path.resolve('src/lib/og/manifest.json');
 interface TargetList {
   temas: string[];
   documentos: string[];
+  paginas: string[];
 }
 
 async function fetchTargets(): Promise<TargetList> {
@@ -48,8 +49,12 @@ async function main() {
     deviceScaleFactor: SCALE
   });
 
-  const done: { temas: string[]; documentos: string[] } = { temas: [], documentos: [] };
-  const shoot = async (type: 'tema' | 'documento', slug: string, dir: 'temas' | 'documentos') => {
+  const done: TargetList = { temas: [], documentos: [], paginas: [] };
+  const shoot = async (
+    type: 'tema' | 'documento' | 'pagina',
+    slug: string,
+    dir: 'temas' | 'documentos' | 'paginas'
+  ) => {
     await page.goto(`${BASE}/og-preview?type=${type}&slug=${encodeURIComponent(slug)}`, {
       waitUntil: 'networkidle'
     });
@@ -64,14 +69,14 @@ async function main() {
 
   for (const slug of targets.temas) await shoot('tema', slug, 'temas');
   for (const slug of targets.documentos) await shoot('documento', slug, 'documentos');
+  for (const slug of targets.paginas) await shoot('pagina', slug, 'paginas');
 
   await browser.close();
 
   // Deja constancia de qué imágenes existen; seo.ts solo enlaza las que están aquí.
   await writeFile(MANIFEST, `${JSON.stringify(done, null, 2)}\n`, 'utf-8');
-  console.log(
-    `OG listo: ${done.temas.length + done.documentos.length} imágenes en ${OUT_DIR} y manifiesto actualizado.`
-  );
+  const total = done.temas.length + done.documentos.length + done.paginas.length;
+  console.log(`OG listo: ${total} imágenes en ${OUT_DIR} y manifiesto actualizado.`);
 }
 
 main().catch((error) => {

@@ -3,6 +3,7 @@ import { dev } from '$app/environment';
 import { loadConsultableTopic } from '$lib/content/loadConsultableTopics';
 import { loadDocument } from '$lib/content/loadDocuments';
 import { getDocumentDisplayTitle } from '$lib/content/documentDisplay';
+import { categoryLabels } from '$lib/content/labels';
 
 // Página de trabajo: renderiza la tarjeta OG en vivo para poder ajustarla y
 // para que el script de generación la "fotografíe". No es una página pública:
@@ -53,7 +54,7 @@ export function load({ url }) {
       title: topic ? topic.title : 'Un tema de gobernanza',
       supporting: 'Qué dice la ley · cómo lo hacen otras · nuestra propuesta',
       footer: SITE,
-      chip: 'Ley 4/2002 · CyL'
+      chip: topic ? categoryLabels[topic.category] : 'Tema'
     }
   };
 }

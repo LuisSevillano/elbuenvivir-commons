@@ -18,14 +18,16 @@
     "¿Qué parte de la aportación de cada socio (cuota umbral de hasta 10.000 €) es capital social reintegrable en la liquidación y qué parte alimenta fondos irrepartibles (cuotas de ingreso, deducciones)?",
     "¿A qué cooperativa o entidad de la economía social se destinará el haber líquido sobrante, tal y como exige el artículo 94.2.d?",
     "¿Se fija un plazo de duración de la cooperativa o se deja indefinida (afecta a las causas de disolución)?",
-    "¿Se regula en Estatutos el proceso de venta del inmueble en liquidación o se remite el detalle operativo al RRI?"
+    "¿Se regula en Estatutos el proceso de venta del inmueble en liquidación o se remite el detalle operativo al RRI?",
+    "Si la casa se vende con PÉRDIDA al disolver, ¿cómo se reparte esa pérdida entre socias con aportaciones desiguales? (Recomendado: en proporción a lo aportado —mismo porcentaje de pérdida para todas—, no a partes iguales.)"
   ],
   "risks": [
     "La propuesta de 'plan B' presentada en la Reunión 20 (repartir el sobrante de la venta a partes iguales entre socios) —aún sin aprobar, aplazada en la Reunión 21— chocaría frontalmente con el destino legal del haber sobrante: el art. 94 lo reserva a otra cooperativa o al Fondo de Fomento del Cooperativismo, no a los socios. Es un motivo para NO aprobarla tal cual.",
     "El Fondo de Reserva Obligatorio, que se nutre de las cuotas de ingreso y de las deducciones por baja, es irrepartible: confiar en él como 'ahorro recuperable' de la casa sería un error.",
     "Presentar la casa como un 'fondo de ahorros' recuperable puede desdibujar el carácter antiespeculativo y de usuarios del proyecto, y generar expectativas económicas que la forma cooperativa no puede cumplir.",
     "No designar en Estatutos la entidad destinataria del haber sobrante deja esa decisión al azar de una Asamblea futura o, en su defecto, a la Administración autonómica.",
-    "Copiar cláusulas de cooperativas de otras comunidades (Canarias, Madrid, Cataluña) sin ajustarlas al art. 94 de la Ley 4/2002 de CyL podría invalidar la previsión."
+    "Copiar cláusulas de cooperativas de otras comunidades (Canarias, Madrid, Cataluña) sin ajustarlas al art. 94 de la Ley 4/2002 de CyL podría invalidar la previsión.",
+    "No fijar el criterio de imputación de pérdidas: si la pérdida de una venta a la baja se repartiera a partes iguales entre socias con aportaciones desiguales, quien aportó poco podría llegar a deber dinero. En proporción a lo aportado, cada socia pierde el mismo porcentaje y nadie que haya contribuido acaba en negativo."
   ],
   "governancePlacement": {
     "recommendedPrimaryLocation": "estatutos",
@@ -84,7 +86,8 @@
         { "aspect": "Liquidadores", "law": "Ley 4/2002 CyL, art. 91", "requirement": "Disuelta la sociedad se abre la liquidación; la Asamblea elige liquidadores en número impar, entre los socios, en votación secreta. La cooperativa conserva personalidad jurídica y añade 'en liquidación' a su nombre.", "margin": "Elegís el número (impar) de liquidadores." },
         { "aspect": "Enajenación del patrimonio", "law": "Ley 4/2002 CyL, art. 93.c", "requirement": "Corresponde a los liquidadores enajenar los bienes sociales mediante el proceso que acuerde la Asamblea general.", "margin": "La Asamblea decide cómo se vende la casa." },
         { "aspect": "Adjudicación del haber social", "law": "Ley 4/2002 CyL, art. 94.2", "requirement": "Tras pagar deudas: (a) el Fondo de Educación y Promoción a una entidad cooperativa; (b) reintegro a los socios de sus aportaciones al capital; (c) reservas voluntarias solo si son repartibles; (d) el haber líquido sobrante a una cooperativa o entidad designada, NO a los socios.", "margin": "Designáis la entidad destinataria del sobrante y decidís si las reservas voluntarias son repartibles." },
-        { "aspect": "Fondo de Reserva Obligatorio", "law": "Ley 4/2002 CyL, art. 71", "requirement": "Es irrepartible entre los socios. Se nutre, entre otros, de las cuotas de ingreso y de las deducciones sobre aportaciones de quienes causan baja.", "margin": "Sin margen: no puede repartirse ni siquiera en la disolución." }
+        { "aspect": "Fondo de Reserva Obligatorio", "law": "Ley 4/2002 CyL, art. 71", "requirement": "Es irrepartible entre los socios. Se nutre, entre otros, de las cuotas de ingreso y de las deducciones sobre aportaciones de quienes causan baja.", "margin": "Sin margen: no puede repartirse ni siquiera en la disolución." },
+        { "aspect": "Reparto de pérdidas en la liquidación", "law": "Ley 4/2002 CyL, art. 94 (liquidación) y reglas de imputación de pérdidas", "requirement": "En la liquidación, tras pagar deudas y el Fondo de Educación y Promoción, se reintegra a cada socia su aportación al capital acreditada; si hay pérdidas (p. ej. vender la casa por debajo de su coste), estas reducen ese capital antes del reintegro, de modo que nadie recupera el importe íntegro.", "margin": "El criterio de imputación de pérdidas se fija en los Estatutos: podéis establecer que la pérdida de capital se reparta en proporción a lo aportado por cada socia (mismo porcentaje para todas)." }
       ],
       "citations": [
         {
@@ -179,6 +182,12 @@
           "note": "Núcleo imperativo en Estatutos (causas, mayoría de 2/3, orden del art. 94, irrepartibilidad del FRO y designación del destinatario del sobrante). Solo se remite al RRI lo operativo del procedimiento de enajenación, que el art. 93.c deja a lo que acuerde la Asamblea."
         },
         {
+          "target": "estatutos",
+          "heading": "Imputación de pérdidas en la liquidación",
+          "text": "Cuando el resultado de la liquidación fuera insuficiente para reintegrar íntegramente las aportaciones al capital social —por ejemplo, si el inmueble se vendiera por debajo de su coste—, la pérdida se imputará a cada persona socia en proporción a su aportación acreditada al capital, de modo que todas soporten el mismo porcentaje de pérdida sobre lo aportado. En ningún caso el reintegro será negativo: al estar la responsabilidad limitada a la aportación, una persona socia nunca deberá desembolsar dinero adicional por encima de lo ya aportado. Las pérdidas se imputarán primero a las reservas voluntarias repartibles y al Fondo de Reserva Obligatorio en los límites que permita la ley, antes de reducir el capital reintegrable.",
+          "note": "Materia estatutaria (criterio de imputación de pérdidas). Ejemplo: si entre todas se aportaron 100.000 € al capital y la casa se vende por 80.000 € (pérdida del 20 %), quien aportó 20.000 € recupera 16.000 € y quien aportó 5.000 € recupera 4.000 €: mismo porcentaje de pérdida para todas y nadie en negativo. Alternativa a evitar: repartir la pérdida a partes iguales, que con aportaciones desiguales puede dejar debiendo a quien aportó poco. Es la cara B del carácter antiespeculativo: ni se reparte la plusvalía si sube, ni se soporta la pérdida de forma desproporcionada si baja. Confírmese con la gestoría el encaje con las reglas de imputación de pérdidas de la Ley 4/2002."
+        },
+        {
           "target": "rri",
           "heading": "Protocolo de liquidación y venta del inmueble",
           "text": "La Comisión de Economía preparará, para la Asamblea que acuerde la liquidación, una valoración del inmueble y una propuesta de procedimiento de venta transparente. La Comisión de Convivencia acompañará el proceso y la comunicación a los socios. El Reglamento fijará el calendario de cierre, la coordinación con los acreedores y los plazos de comunicación a las personas socias. Antes del reparto se saldarán deudas, se liquidarán cuotas pendientes y se informará a cada socio del importe de sus aportaciones al capital reintegrable, distinguiéndolo con claridad de los fondos irrepartibles.",
@@ -190,7 +199,8 @@
         "¿Qué parte de la cuota umbral (hasta 10.000 €) se contabiliza como aportación al capital social reintegrable y qué parte como cuota de ingreso (que va al FRO irrepartible)?",
         "¿A qué cooperativa o entidad de la economía social se destina el haber sobrante?",
         "¿Se fija un plazo de duración de la cooperativa como causa de disolución o se deja indefinida?",
-        "¿Se declaran repartibles las reservas voluntarias (única vía legal para devolver a socios algo más que sus aportaciones al capital)?"
+        "¿Se declaran repartibles las reservas voluntarias (única vía legal para devolver a socios algo más que sus aportaciones al capital)?",
+        "Si la venta del inmueble arroja pérdida, ¿se imputa a cada socia en proporción a lo aportado (recomendado) o a partes iguales? Con aportaciones desiguales, el criterio proporcional es el equitativo y evita que quien aportó poco acabe debiendo."
       ],
       "disclaimer": "Borrador de trabajo a partir de la Ley 4/2002 CyL, los estatutos de otras cooperativas y las actas del grupo. Debe revisarse jurídicamente antes de aprobarse."
     }

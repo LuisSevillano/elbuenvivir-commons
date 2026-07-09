@@ -23,7 +23,8 @@
   "risks": [
     "Prometer devolución inmediata de las cuotas umbral puede descapitalizar la compra de la casa.",
     "No distinguir el 'retorno del exceso' de la 'devolución de la cuota umbral' mezcla dos mecanismos distintos.",
-    "Articular la cuota umbral como 'cuota' (no reintegrable) o como 'aportación' cambia radicalmente los derechos de quien sale: hay que decidirlo con jurista."
+    "Articular la cuota umbral como 'cuota' (no reintegrable) o como 'aportación' cambia radicalmente los derechos de quien sale: hay que decidirlo con jurista.",
+    "El reembolso puede no ser íntegro: si hay pérdidas (en una baja o en la disolución con venta a la baja), estas se deducen del capital antes de devolverlo, y con aportaciones desiguales deben imputarse en proporción a lo aportado (ver tema Disolución)."
   ],
   "governancePlacement": {
     "recommendedPrimaryLocation": "mixed",

@@ -251,7 +251,7 @@
   }
 
   .result-card:hover {
-    border-color: #a89778;
+    border-color: var(--ink);
   }
 
   .result-meta {

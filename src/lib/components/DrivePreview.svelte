@@ -56,7 +56,7 @@
 
   .drive-btn.preview:hover {
     background: var(--accent);
-    color: #fffdf8;
+    color: #ffffff;
   }
 
   .drive-modal {

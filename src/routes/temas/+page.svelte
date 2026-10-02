@@ -104,7 +104,7 @@
   .editorial-ledger span {
     border: 1px solid var(--border);
     border-radius: 4px;
-    background: #fffdf8;
+    background: var(--surface);
     color: var(--muted);
     font-size: 0.86rem;
     padding: 0.45rem 0.65rem;

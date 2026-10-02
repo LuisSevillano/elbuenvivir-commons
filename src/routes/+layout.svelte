@@ -16,7 +16,7 @@
 	<title>{seo.title}</title>
 	<meta name="description" content={seo.description} />
 	<meta name="robots" content="index, follow, max-image-preview:large" />
-	<meta name="theme-color" content="#f5efe3" />
+	<meta name="theme-color" content="#ffffff" />
 
 	<link rel="canonical" href={canonicalUrl} />
 

@@ -21,8 +21,8 @@
   }
 
   .badge-neutral {
-    background: #f5f3ef;
-    color: #423b32;
+    background: #f4f4f4;
+    color: #333333;
   }
 
   .badge-warning {

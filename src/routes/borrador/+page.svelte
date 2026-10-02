@@ -123,7 +123,7 @@
   .draft { max-width: 74ch; margin: 0 auto; }
   .draft-hero { margin-bottom: 1.6rem; }
   .draft-hero h1 { margin: 0.3rem 0 0.8rem; }
-  .lead code { font-family: ui-monospace, monospace; font-size: 0.85em; background: #efe7d8; padding: 0.05em 0.35em; border-radius: 3px; }
+  .lead code { font-family: ui-monospace, monospace; font-size: 0.85em; background: #f0f0f0; padding: 0.05em 0.35em; border-radius: 3px; }
 
   .doc-switch { display: flex; gap: 0.4rem; border-bottom: 1px solid var(--border); margin-bottom: 1.2rem; }
   .doc-switch button {
@@ -144,7 +144,7 @@
     border: 1px solid var(--accent); color: var(--accent); background: var(--surface);
     border-radius: 4px; padding: 0.35rem 0.7rem; white-space: nowrap;
   }
-  .btn:hover { background: var(--accent); color: #fffdf8; }
+  .btn:hover { background: var(--accent); color: #ffffff; }
 
   .articles { list-style: none; margin: 0; padding: 0; counter-reset: art; display: grid; gap: 1.4rem; }
   .articles li { padding-bottom: 1.2rem; border-bottom: 1px solid var(--border); }
@@ -159,11 +159,11 @@
   .art-src:hover { color: var(--accent); text-decoration: underline; }
   .art-text {
     margin: 0; font-family: Georgia, 'Times New Roman', serif; font-size: 0.96rem; line-height: 1.6;
-    color: #1f2937; padding-left: 0.85rem; border-left: 2px solid var(--border);
+    color: var(--ink); padding-left: 0.85rem; border-left: 2px solid var(--border);
   }
   .ph {
-    background: rgba(184, 118, 59, 0.14);
-    color: #8a5a25;
+    background: rgba(0, 0, 0, 0.08);
+    color: var(--ink);
     border-bottom: 1px dashed var(--accent-warm);
     border-radius: 2px;
     padding: 0 0.22em;

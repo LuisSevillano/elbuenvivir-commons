@@ -41,7 +41,7 @@
     padding: 0.95rem;
     border: 1px solid var(--border);
     border-radius: 4px;
-    background: #fff;
+    background: var(--surface);
   }
 
   section.statutes {

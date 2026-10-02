@@ -9,7 +9,7 @@
     supporting = '',
     footer = 'elbuenvivir-cuaderno-de-ruta.netlify.app',
     chip = '',
-    accent = '#b8763b'
+    accent = '#111111'
   }: {
     eyebrow?: string;
     title?: string;
@@ -75,18 +75,17 @@
 <style>
   /* ---- Ajustes rápidos (toca estos valores) ---------------------------- */
   .og-card {
-    --card-bg: #f3ecdf;
-    --card-ink: #252019;
-    --card-muted: #6f6659;
-    --card-accent: #765d3b;
-    --card-accent-warm: #b8763b;
+    --card-bg: #ffffff;
+    --card-ink: #111111;
+    --card-muted: #555555;
+    --card-accent: #111111;
+    --card-accent-warm: #111111;
     --card-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
     --card-sans: system-ui, -apple-system, 'Segoe UI', sans-serif;
     --card-pad: 80px;
 
-    /* Fondo: la foto de la home (identidad común) bajo un velo crema.
-       Más % = menos foto (texto más legible); menos % = más foto. */
-    --card-photo: url('/thumbnail-og.jpg');
+    /* Fondo plano, sin foto: las tarjetas al compartir son monocromas. */
+    --card-photo: none;
     --card-veil-top: 88%;
     --card-veil-bottom: 74%;
   }
@@ -185,9 +184,9 @@
     font-family: var(--card-sans);
     font-size: 23px;
     font-weight: 600;
-    color: var(--card-accent);
+    color: var(--card-ink);
     background: #ffffff;
-    border: 1.5px solid #e4d9c6;
+    border: 1.5px solid var(--card-ink);
     border-radius: 999px;
     padding: 12px 26px;
     white-space: nowrap;

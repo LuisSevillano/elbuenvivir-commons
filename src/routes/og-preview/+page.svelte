@@ -33,13 +33,13 @@
     max-width: 1200px;
     margin: 16px 0 0;
     font-size: 0.9rem;
-    color: #444;
+    color: var(--ink);
     line-height: 1.5;
   }
   .help code {
     font-family: ui-monospace, monospace;
     font-size: 0.85em;
-    background: #efe7d8;
+    background: #f0f0f0;
     padding: 0.05em 0.35em;
     border-radius: 3px;
   }

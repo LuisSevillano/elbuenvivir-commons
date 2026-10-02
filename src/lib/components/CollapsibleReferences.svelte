@@ -74,7 +74,7 @@
   .reference-drawer { display: grid; gap: 1rem; }
   .snippet-group, .extract-group, .reference-cards { min-width: 0; }
   h3 { margin: 0 0 0.6rem; font-size: 0.95rem; }
-  blockquote { margin: 0 0 0.7rem; padding: 0.75rem; border-left: 3px solid var(--accent); border-radius: 4px; background: #fafafa; }
+  blockquote { margin: 0 0 0.7rem; padding: 0.75rem; border-left: 3px solid var(--accent); border-radius: 4px; background: #f5f5f5; }
   blockquote p { margin: 0 0 0.45rem; font-size: 0.86rem; line-height: 1.45; }
   footer { color: var(--muted); font-size: 0.76rem; overflow-wrap: anywhere; }
   .reference-cards { display: grid; gap: 0.7rem; }

@@ -62,7 +62,7 @@
 
   .doc-btn:hover {
     background: var(--accent);
-    color: #fffdf8;
+    color: #ffffff;
   }
 
   .doc-modal {

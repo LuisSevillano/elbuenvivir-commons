@@ -484,17 +484,17 @@
     padding: 0.5rem 0.9rem;
     border: 1px dashed var(--accent-warm);
     border-radius: 999px;
-    background: rgba(184, 118, 59, 0.07);
+    background: rgba(0, 0, 0, 0.04);
     color: var(--accent);
     font-weight: 600; font-size: 0.9rem;
     text-decoration: none;
     transition: background 0.12s;
   }
   .jump-decisions::after { content: '↓'; font-weight: 700; }
-  .jump-decisions:hover { background: rgba(184, 118, 59, 0.15); }
+  .jump-decisions:hover { background: rgba(0, 0, 0, 0.08); }
   .jd-count {
     font-family: var(--font-display); font-weight: 600;
-    background: var(--accent-warm); color: #fffdf8;
+    background: var(--accent-warm); color: #ffffff;
     border-radius: 999px; min-width: 1.4em; padding: 0 0.4em;
     text-align: center; font-size: 0.85rem;
   }
@@ -510,7 +510,7 @@
   }
   .editorial-status {
     display: grid; gap: 0.2rem; margin: -0.55rem 0 1rem; padding: 0.7rem 0.85rem;
-    border: 1px solid var(--border); border-radius: 4px; background: #fafafa;
+    border: 1px solid var(--border); border-radius: 4px; background: var(--surface);
     font-size: 0.86rem; line-height: 1.4;
   }
   .editorial-status strong { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; }
@@ -519,7 +519,7 @@
   .editorial-status.exploratory, .editorial-status.review-available { border-color: #fde68a; background: #fffbeb; }
   .editorial-status.insufficient_evidence, .editorial-status.evidencia_insuficiente { border-color: #fecaca; background: #fef2f2; }
   .solution-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 0.85rem; }
-  .empty-note { margin: 0; padding: 0.9rem; border: 1px solid var(--border); border-radius: 4px; background: #fafafa; color: var(--muted); font-size: 0.92rem; }
+  .empty-note { margin: 0; padding: 0.9rem; border: 1px solid var(--border); border-radius: 4px; background: var(--surface); color: var(--muted); font-size: 0.92rem; }
   .secondary-block { margin-top: 0.85rem; }
   .evidence-section { margin-top: 0.5rem; }
   .claims-group { margin-bottom: 0.75rem; }
@@ -535,7 +535,7 @@
   .ref-count { color: var(--muted); font-size: 0.76rem; white-space: nowrap; }
   .claim-note { width: 100%; color: var(--muted); font-size: 0.8rem; font-style: italic; }
   .findings-list, .unsupported-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 0.45rem; }
-  .findings-list li, .unsupported-list li { display: grid; gap: 0.2rem; padding: 0.65rem 0.75rem; border: 1px solid var(--border); border-radius: 4px; background: #fff; }
+  .findings-list li, .unsupported-list li { display: grid; gap: 0.2rem; padding: 0.65rem 0.75rem; border: 1px solid var(--border); border-radius: 4px; background: var(--surface); }
   .findings-list span, .unsupported-list span { font-size: 0.9rem; line-height: 1.4; }
   .findings-list small, .unsupported-list small { color: var(--muted); font-size: 0.78rem; line-height: 1.35; }
   .unsupported-list li { border-color: #fecaca; background: #fef2f2; }

@@ -26,7 +26,7 @@
 		border: 1px solid var(--border);
 		border-radius: 4px;
 		box-shadow: inset 0 3px 0 var(--accent-docs);
-		background: #fffdf8;
+		background: var(--surface);
 		color: inherit;
 		padding: 1rem;
 		text-decoration: none;

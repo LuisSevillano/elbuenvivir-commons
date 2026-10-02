@@ -1,15 +1,15 @@
 :root {
-	--bg: #f7f3ec;
-	--surface: #fffdf8;
-	--ink: #252019;
-	--muted: #6f6659;
-	--border: #ded4c4;
-	--accent: #765d3b;
-	--accent-warm: #b8763b;
+	--bg: #ffffff;
+	--surface: #ffffff;
+	--ink: #111111;
+	--muted: #555555;
+	--border: #e2e2e2;
+	--accent: #111111;
+	--accent-warm: #111111;
 	/* Código de color por sección (mismo en la web y en las imágenes al compartir):
-	   temas = ámbar, documentos = verde oliva. Cambia el valor y cambia en todo. */
-	--accent-temas: #b8763b;
-	--accent-docs: #6f7a4f;
+	   monocromo: temas en negro, documentos en gris. Cambia el valor y cambia en todo. */
+	--accent-temas: #111111;
+	--accent-docs: #555555;
 	--font-display: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
 	color: var(--ink);
 	font-family:
@@ -117,7 +117,7 @@ nav a.active {
 }
 
 .global-search input {
-	background: #fffdf8;
+	background: var(--surface);
 	border: 1px solid var(--border);
 	border-radius: 4px;
 	color: var(--ink);
@@ -186,7 +186,7 @@ h3 {
 
 .button-primary {
 	background: var(--accent);
-	color: #fffdf8;
+	color: #ffffff;
 }
 
 .button-secondary {
@@ -213,7 +213,7 @@ h3 {
 }
 
 .empty-state {
-	border: 1px dashed #cbbda9;
+	border: 1px dashed var(--border);
 	border-radius: 4px;
 	color: var(--muted);
 	padding: 1.2rem;
@@ -366,7 +366,7 @@ h3 {
 	}
 
 	.mobile-search-panel input {
-		background: #fffdf8;
+		background: var(--surface);
 		border: 1px solid var(--border);
 		border-radius: 4px;
 		color: var(--ink);
@@ -388,7 +388,7 @@ h3 {
 		line-height: 1.15;
 		padding: 0;
 		text-decoration: underline;
-		text-decoration-color: #cbbda9;
+		text-decoration-color: var(--border);
 		text-decoration-thickness: 1px;
 		text-underline-offset: 0.2em;
 	}

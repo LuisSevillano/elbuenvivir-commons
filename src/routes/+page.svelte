@@ -53,7 +53,7 @@
 <style>
 	.hero { margin: 0 0 2.2rem; }
 	.hero h1 { max-width: 15ch; }
-	.hero em { font-style: normal; color: var(--ink); box-shadow: inset 0 -0.35em 0 rgba(184, 118, 59, 0.16); }
+	.hero em { font-style: normal; color: var(--ink); box-shadow: inset 0 -0.35em 0 rgba(0, 0, 0, 0.10); }
 
 	.stats {
 		display: flex; flex-wrap: wrap; gap: 2.2rem;

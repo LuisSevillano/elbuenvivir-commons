@@ -162,8 +162,8 @@
     color: var(--ink); padding-left: 0.85rem; border-left: 2px solid var(--border);
   }
   .ph {
-    background: rgba(0, 0, 0, 0.08);
-    color: var(--ink);
+    background: rgba(47, 93, 58, 0.12);
+    color: var(--accent);
     border-bottom: 1px dashed var(--accent-warm);
     border-radius: 2px;
     padding: 0 0.22em;

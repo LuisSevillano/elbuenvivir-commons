@@ -1,6 +1,6 @@
 <script lang="ts">
   import StatusBadge from './StatusBadge.svelte';
-  import { categoryLabels } from '$lib/content/labels';
+  import { categoryColors, categoryLabels } from '$lib/content/labels';
   import { validatedTopicStatusLabels } from '$lib/content/validatedTopicSchema';
   import type { ConsultableTopic, GovernanceTopic, ValidatedTopicStatus } from '$lib/content/types';
 
@@ -17,7 +17,7 @@
 
 <header class="topic-hero">
   {#if categoryLabels[topic.category]}
-    <p class="eyebrow">{categoryLabels[topic.category]}</p>
+    <p class="eyebrow" style="color: {categoryColors[topic.category]}">{categoryLabels[topic.category]}</p>
   {/if}
 
   <h1 class="hero-title">{topic.title}</h1>

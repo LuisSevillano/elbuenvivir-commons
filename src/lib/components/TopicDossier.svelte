@@ -236,8 +236,8 @@
   .target-badge.rri { background: #555555; color: #ffffff; }
   .clause { margin: 0; font-family: Georgia, 'Times New Roman', serif; font-size: 0.9rem; line-height: 1.55; color: var(--ink); padding-left: 0.7rem; border-left: 2px solid var(--border); }
   .clause .ph {
-    background: rgba(0, 0, 0, 0.08);
-    color: var(--ink);
+    background: rgba(47, 93, 58, 0.12);
+    color: var(--accent);
     border-bottom: 1px dashed var(--accent-warm);
     border-radius: 2px;
     padding: 0 0.22em;
@@ -246,7 +246,7 @@
   }
   .article-note { margin: 0.45rem 0 0; font-size: 0.78rem; font-style: italic; color: var(--muted); line-height: 1.4; }
 
-  .open-decisions { margin-top: 0.9rem; scroll-margin-top: 1.5rem; padding: 0.7rem 0.85rem; border: 1px dashed var(--ink); border-radius: 6px; background: #f5f5f5; }
+  .open-decisions { margin-top: 0.9rem; scroll-margin-top: 1.5rem; padding: 0.7rem 0.85rem; border: 1px dashed var(--accent-warm); border-radius: 6px; background: rgba(47, 93, 58, 0.06); }
   .open-decisions h4 { margin: 0 0 0.4rem; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); }
   .open-decisions ul { margin: 0; padding-left: 1.1rem; display: grid; gap: 0.25rem; font-size: 0.85rem; line-height: 1.4; }
 

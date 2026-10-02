@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { categoryLabels, topicStatusLabels } from '$lib/content/labels';
+  import { categoryColors, categoryLabels, topicStatusLabels } from '$lib/content/labels';
   import { validatedTopicStatusLabels } from '$lib/content/validatedTopicSchema';
   import type { ConsultableTopic, GovernanceTopic } from '$lib/content/types';
   import StatusBadge from './StatusBadge.svelte';
@@ -15,9 +15,9 @@
   const showPlacement = $derived(editorialStatus !== 'insufficient_evidence' && editorialStatus !== 'evidencia_insuficiente');
 </script>
 
-<a class="topic-card" href={`/temas/${topic.slug}`}>
+<a class="topic-card" href={`/temas/${topic.slug}`} style="box-shadow: inset 0 3px 0 {categoryColors[topic.category]}">
   <div class="meta">
-    <span>{categoryLabels[topic.category]}</span>
+    <span class="cat" style="color: {categoryColors[topic.category]}">{categoryLabels[topic.category]}</span>
     <!-- El estado solo se muestra cuando es de aviso (no en "Revisado", que es lo normal). -->
     {#if editorialStatus && editorialStatus !== 'reviewed'}
       <StatusBadge tone={editorialTone}>{validatedTopicStatusLabels[editorialStatus]}</StatusBadge>

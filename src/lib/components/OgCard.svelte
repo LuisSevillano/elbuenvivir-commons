@@ -9,7 +9,7 @@
     supporting = '',
     footer = 'elbuenvivir-cuaderno-de-ruta.netlify.app',
     chip = '',
-    accent = '#111111'
+    accent = '#2f5d3a'
   }: {
     eyebrow?: string;
     title?: string;

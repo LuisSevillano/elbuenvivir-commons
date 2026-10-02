@@ -17,6 +17,21 @@ export const categoryLabels: Record<TopicCategory, string> = {
   otros: 'Otros'
 };
 
+/** Tono apagado por categoría para diferenciar secciones dentro de temas. */
+export const categoryColors: Record<TopicCategory, string> = {
+  identidad_juridica: '#5f6f3e',
+  socios: '#2f5d3a',
+  economico: '#8a6d1c',
+  gobernanza: '#3f5a6b',
+  convivencia: '#9c5f2e',
+  uso_espacios: '#4f7a6b',
+  disciplina: '#934141',
+  cuidados: '#7d5480',
+  ciclo_vida: '#4a6b8c',
+  legal: '#333333',
+  otros: '#6b6b6b'
+};
+
 export const documentTypeLabels: Record<DocumentType, string> = {
   ley: 'Ley',
   estatutos: 'Estatutos',

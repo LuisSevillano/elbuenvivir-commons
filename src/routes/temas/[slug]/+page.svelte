@@ -484,14 +484,14 @@
     padding: 0.5rem 0.9rem;
     border: 1px dashed var(--accent-warm);
     border-radius: 999px;
-    background: rgba(0, 0, 0, 0.04);
+    background: rgba(47, 93, 58, 0.08);
     color: var(--accent);
     font-weight: 600; font-size: 0.9rem;
     text-decoration: none;
     transition: background 0.12s;
   }
   .jump-decisions::after { content: '↓'; font-weight: 700; }
-  .jump-decisions:hover { background: rgba(0, 0, 0, 0.08); }
+  .jump-decisions:hover { background: rgba(47, 93, 58, 0.14); }
   .jd-count {
     font-family: var(--font-display); font-weight: 600;
     background: var(--accent-warm); color: #ffffff;

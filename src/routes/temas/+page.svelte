@@ -1,5 +1,6 @@
 <script lang="ts">
   import TopicCard from '$lib/components/TopicCard.svelte';
+  import { categoryColors } from '$lib/content/labels';
   import { validatedTopicStatusLabels } from '$lib/content/validatedTopicSchema';
   import type { ConsultableTopic } from '$lib/content/types';
 
@@ -69,7 +70,7 @@
   <section class="section empty-state">No hay temas disponibles todavía.</section>
 {:else}
   {#each groups as group}
-    <section class="section topic-group">
+    <section class="section topic-group" style="--cat: {categoryColors[group.category as keyof typeof categoryColors] ?? 'var(--ink)'}">
       <h2 class="cat-heading">{group.label}</h2>
       <div class="grid">
         {#each group.topics as topic}
@@ -112,7 +113,7 @@
 
   .editorial-ledger strong { color: var(--ink); }
 
-  .topic-group { margin-top: 2rem; }
+  .topic-group { margin-top: 2rem; border-top: 3px solid var(--cat); padding-top: 1rem; }
   .cat-heading {
     font-family: var(--font-display);
     font-weight: 600;
@@ -121,5 +122,6 @@
     margin: 0 0 1rem;
     padding-bottom: 0.4rem;
     border-bottom: 1px solid var(--border);
+    color: var(--cat);
   }
 </style>

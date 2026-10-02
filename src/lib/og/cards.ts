@@ -4,8 +4,8 @@
 
 // Mismos valores que --accent-temas / --accent-docs en src/styles.css.
 export const OG_ACCENTS = {
-  temas: '#111111',
-  documentos: '#555555'
+  temas: '#2f5d3a',
+  documentos: '#6f7a4f'
 } as const;
 
 export interface OgCardData {

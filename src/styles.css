@@ -4,12 +4,12 @@
 	--ink: #111111;
 	--muted: #555555;
 	--border: #e2e2e2;
-	--accent: #111111;
-	--accent-warm: #111111;
+	--accent: #2f5d3a;
+	--accent-warm: #4a7c59;
 	/* Código de color por sección (mismo en la web y en las imágenes al compartir):
-	   monocromo: temas en negro, documentos en gris. Cambia el valor y cambia en todo. */
-	--accent-temas: #111111;
-	--accent-docs: #555555;
+	   temas en verde bosque, documentos en verde oliva. Cambia el valor y cambia en todo. */
+	--accent-temas: #2f5d3a;
+	--accent-docs: #6f7a4f;
 	--font-display: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
 	color: var(--ink);
 	font-family:

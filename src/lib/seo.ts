@@ -22,7 +22,7 @@ export function pageOgImage(
     : {};
 }
 
-export const siteUrl = 'https://elbuenvivir-commons.netlify.app';
+export const siteUrl = 'https://elbuenvivir-cuaderno-de-ruta.netlify.app';
 export const siteName = 'La Wiki de El Buen Vivir';
 export const defaultSocialImage = '/thumbnail-og.jpg';
 export const defaultSocialImageAlt = 'Casa rural entre vegetacion, con camino de tierra y montanas al fondo.';
@@ -37,9 +37,9 @@ export interface SeoMetadata {
 }
 
 export const defaultSeo: SeoMetadata = {
-  title: `${siteName} | Nuestras reglas, nuestro Buen Vivir`,
+  title: `${siteName} | Experiencia, referencias y decisiones`,
   description:
-    'La mesa de trabajo de la cooperativa El Buen Vivir: tema a tema, qué exige la ley, cómo lo resolvieron otras cooperativas y una propuesta redactada para nosotras, con las fuentes siempre a la vista.',
+    'Aquí encontrarás nuestro recorrido convertido en una herramienta de trabajo: qué hemos avanzado, qué decisiones quedan por cerrar y cómo encajan con la normativa y con la experiencia de otras cooperativas, para completar nuestros Estatutos y el Reglamento de Régimen Interno.',
   path: '/',
   image: defaultSocialImage,
   imageAlt: defaultSocialImageAlt,

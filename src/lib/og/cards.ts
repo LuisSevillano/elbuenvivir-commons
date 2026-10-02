@@ -17,7 +17,7 @@ export interface OgCardData {
   accent: string;
 }
 
-const SITE = 'elbuenvivir-commons.netlify.app';
+const SITE = 'elbuenvivir-cuaderno-de-ruta.netlify.app';
 
 // Páginas sueltas (no detalle) que también tienen su propia imagen al compartir.
 export const OG_PAGES: Record<string, OgCardData> = {

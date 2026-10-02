@@ -12,7 +12,7 @@ import { OG_ACCENTS, OG_PAGES } from '$lib/og/cards';
 export const prerender = false;
 export const ssr = true;
 
-const SITE = 'elbuenvivir-commons.netlify.app';
+const SITE = 'elbuenvivir-cuaderno-de-ruta.netlify.app';
 
 function documentChip(type: string | undefined): string {
   switch (type) {

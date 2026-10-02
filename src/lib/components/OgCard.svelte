@@ -7,7 +7,7 @@
     eyebrow = 'EL BUEN VIVIR · TEMAS',
     title = 'Un tema de gobernanza',
     supporting = '',
-    footer = 'elbuenvivir-commons.netlify.app',
+    footer = 'elbuenvivir-cuaderno-de-ruta.netlify.app',
     chip = '',
     accent = '#b8763b'
   }: {

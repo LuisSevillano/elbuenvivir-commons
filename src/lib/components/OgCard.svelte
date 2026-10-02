@@ -84,10 +84,11 @@
     --card-sans: system-ui, -apple-system, 'Segoe UI', sans-serif;
     --card-pad: 80px;
 
-    /* Fondo plano, sin foto: las tarjetas al compartir son monocromas. */
-    --card-photo: none;
-    --card-veil-top: 88%;
-    --card-veil-bottom: 74%;
+    /* Fondo: la foto de la home bajo un velo blanco casi opaco.
+       Más % = menos foto (texto más legible); menos % = más foto. */
+    --card-photo: url('/thumbnail-og.jpg');
+    --card-veil-top: 92%;
+    --card-veil-bottom: 82%;
   }
   /* --------------------------------------------------------------------- */
 

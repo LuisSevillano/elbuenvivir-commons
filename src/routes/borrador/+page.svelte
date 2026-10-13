@@ -145,8 +145,8 @@
     <button role="tab" aria-selected={active === 'rri'} class:active={active === 'rri'} onclick={() => (active = 'rri')}>
       RRI
     </button>
-    <button role="tab" aria-selected={active === 'estatutos'} class:active={active === 'estatutos'} onclick={() => (active = 'estatutos')}>
-      Estatutos <span>(WIP)</span>
+    <button role="tab" aria-selected={active === 'estatutos'} class:active={active === 'estatutos'} class:wip={active !== 'estatutos'} onclick={() => (active = 'estatutos')}>
+      Estatutos <span class="wip-badge"><span class="wip-label-full">En construcción</span><span class="wip-label-short">WIP</span></span>
     </button>
   </div>
 
@@ -162,30 +162,41 @@
     <div id="rri">
       <RriDraftView draft={data.rri} topicTitles={data.topicTitles} />
     </div>
-  {:else if statutes.articles.length > 0}
-    <ol class="articles" id="estatutos">
-      {#each statutes.articles as art, i (art.topicSlug + art.heading)}
-        <li id={`estatutos-articulo-${i + 1}`}>
-          <div class="art-head">
-            <span class="art-num">{statutes.unit} {i + 1}</span>
-            <h3>
-              {cleanHeading(art.heading)}
-              <a
-                class="permalink"
-                href={`#estatutos-articulo-${i + 1}`}
-                aria-label={`Enlace directo al artículo ${i + 1} de Estatutos`}
-                title="Enlace directo a este artículo">§</a
-              >
-            </h3>
-            <a class="art-src" href={`/temas/${art.topicSlug}`}>{art.topicTitle} →</a>
-          </div>
-          <p class="art-text">{#each segments(art.text) as s}{#if s.ph}<mark class="ph">{s.part}</mark>{:else}{s.part}{/if}{/each}</p>
-          {#if art.note}<p class="art-note">{art.note}</p>{/if}
-        </li>
-      {/each}
-    </ol>
   {:else}
-    <p class="empty-note">Este documento aún no tiene artículos propuestos.</p>
+    <section id="estatutos" class="statutes-draft" aria-label="Borrador de Estatutos en construcción">
+      <aside class="wip-notice" role="status">
+        <span class="notice-icon" aria-hidden="true">!</span>
+        <div>
+          <strong>Área en construcción · Sin revisar</strong>
+          <p>Este borrador de Estatutos está en elaboración y todavía no ha pasado una revisión jurídica y editorial completa. Su contenido es provisional; no debe interpretarse como una propuesta cerrada.</p>
+        </div>
+      </aside>
+      {#if statutes.articles.length > 0}
+        <ol class="articles statutes-content">
+          {#each statutes.articles as art, i (art.topicSlug + art.heading)}
+            <li id={`estatutos-articulo-${i + 1}`}>
+              <div class="art-head">
+                <span class="art-num">{statutes.unit} {i + 1}</span>
+                <h3>
+                  {cleanHeading(art.heading)}
+                  <a
+                    class="permalink"
+                    href={`#estatutos-articulo-${i + 1}`}
+                    aria-label={`Enlace directo al artículo ${i + 1} de Estatutos`}
+                    title="Enlace directo a este artículo">§</a
+                  >
+                </h3>
+                <a class="art-src" href={`/temas/${art.topicSlug}`}>{art.topicTitle} →</a>
+              </div>
+              <p class="art-text">{#each segments(art.text) as s}{#if s.ph}<mark class="ph">{s.part}</mark>{:else}{s.part}{/if}{/each}</p>
+              {#if art.note}<p class="art-note">{art.note}</p>{/if}
+            </li>
+          {/each}
+        </ol>
+      {:else}
+        <p class="empty-note">Este documento aún no tiene artículos propuestos.</p>
+      {/if}
+    </section>
   {/if}
 
   <p class="draft-disclaimer">
@@ -205,7 +216,26 @@
     border-bottom: 2px solid transparent; margin-bottom: -1px;
   }
   .doc-switch button.active { color: var(--ink); border-bottom-color: var(--accent-warm); }
-  .doc-switch button span { color: gray; font-weight: lighter;  }
+  .doc-switch button .wip-badge {
+    background: #f1f1ef;
+    border: 1px solid #deded9;
+    border-radius: 999px;
+    color: #777872;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.035em;
+    margin-left: 0.35rem;
+    padding: 0.16rem 0.42rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  .wip-label-short { display: none; }
+  .doc-switch button.wip { color: #797a75; font-weight: lighter; }
+  @media (max-width: 320px) {
+    .wip-label-full { display: none; }
+    .wip-label-short { display: inline; }
+  }
   .doc-toolbar { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
   .doc-toolbar h2 { font-family: var(--font-display); font-weight: 600; font-size: clamp(1.2rem, 2.5vw, 1.6rem); margin: 0; }
   .doc-actions { display: flex; gap: 0.5rem; }
@@ -272,4 +302,33 @@
     font-size: 0.82rem; color: var(--muted); line-height: 1.5;
   }
   .empty-note { color: var(--muted); }
+
+  .wip-notice {
+    align-items: flex-start;
+    background: #f6f6f3;
+    border: 1px solid #deded9;
+    border-left: 4px solid #96978e;
+    border-radius: 4px;
+    color: #4f504a;
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding: 0.9rem 1rem;
+  }
+  .notice-icon {
+    align-items: center;
+    background: #e7e7e2;
+    border-radius: 50%;
+    color: #66675f;
+    display: inline-flex;
+    flex: 0 0 1.35rem;
+    font-size: 0.82rem;
+    font-weight: 800;
+    height: 1.35rem;
+    justify-content: center;
+    margin-top: 0.05rem;
+  }
+  .wip-notice strong { color: #454640; font-size: 0.82rem; }
+  .wip-notice p { font-size: 0.82rem; line-height: 1.5; margin: 0.2rem 0 0; }
+  .statutes-content { filter: grayscale(1); opacity: 0.78; }
 </style>

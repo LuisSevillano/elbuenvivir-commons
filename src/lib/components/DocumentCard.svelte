@@ -5,16 +5,18 @@
 	import StatusBadge from './StatusBadge.svelte';
 	import TagList from './TagList.svelte';
 
-	let { document }: { document: SourceDocument } = $props();
+	let { document, hideType = false }: { document: SourceDocument; hideType?: boolean } = $props();
 
 	const displayTitle = $derived(getDocumentDisplayTitle(document));
 	const summary = $derived(getDocumentSummary(document));
 </script>
 
 <a class="document-card" href={`/documentos/${document.slug}`}>
-	<div class="meta">
-		<StatusBadge>{documentTypeLabels[document.type]}</StatusBadge>
-	</div>
+	{#if !hideType}
+		<div class="meta">
+			<StatusBadge>{documentTypeLabels[document.type]}</StatusBadge>
+		</div>
+	{/if}
 	<h2>{displayTitle}</h2>
 	<p class="document-summary">{summary}</p>
 	<TagList tags={document.tags} />
@@ -25,7 +27,6 @@
 		display: block;
 		border: 1px solid var(--border);
 		border-radius: 4px;
-		box-shadow: inset 0 3px 0 var(--accent-docs);
 		background: var(--surface);
 		color: inherit;
 		padding: 1rem;

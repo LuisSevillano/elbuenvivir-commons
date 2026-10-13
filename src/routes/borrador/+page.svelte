@@ -142,11 +142,11 @@
   </header>
 
   <div class="doc-switch" role="tablist">
-    <button role="tab" aria-selected={active === 'estatutos'} class:active={active === 'estatutos'} onclick={() => (active = 'estatutos')}>
-      Estatutos
-    </button>
     <button role="tab" aria-selected={active === 'rri'} class:active={active === 'rri'} onclick={() => (active = 'rri')}>
       RRI
+    </button>
+    <button role="tab" aria-selected={active === 'estatutos'} class:active={active === 'estatutos'} onclick={() => (active = 'estatutos')}>
+      Estatutos <span>(WIP)</span>
     </button>
   </div>
 
@@ -205,6 +205,7 @@
     border-bottom: 2px solid transparent; margin-bottom: -1px;
   }
   .doc-switch button.active { color: var(--ink); border-bottom-color: var(--accent-warm); }
+  .doc-switch button span { color: gray; font-weight: lighter;  }
   .doc-toolbar { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
   .doc-toolbar h2 { font-family: var(--font-display); font-weight: 600; font-size: clamp(1.2rem, 2.5vw, 1.6rem); margin: 0; }
   .doc-actions { display: flex; gap: 0.5rem; }
@@ -225,11 +226,15 @@
   }
   .permalink {
     color: var(--muted);
+    display: inline-block;
     font-size: 0.75em;
     font-weight: 400;
+    line-height: 1;
     margin-left: 0.35rem;
     opacity: 0;
+    position: relative;
     text-decoration: none;
+    top: -0.08em;
   }
   .art-head:hover .permalink,
   .permalink:focus-visible {

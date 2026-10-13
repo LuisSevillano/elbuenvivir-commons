@@ -228,12 +228,15 @@
 
   .permalink {
     color: var(--muted);
+    display: inline-block;
     font-size: 0.75em;
     font-weight: 400;
+    line-height: 1;
     margin-left: 0.35rem;
     opacity: 0;
+    position: relative;
     text-decoration: none;
-    vertical-align: baseline;
+    top: -0.08em;
   }
 
   .chapter-head:hover .permalink,

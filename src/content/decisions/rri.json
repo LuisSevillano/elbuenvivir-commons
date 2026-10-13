@@ -1,0 +1,95 @@
+{
+  "decisions": [
+    {
+      "id": "rri-use-external-structure",
+      "status": "approved",
+      "scope": "rri",
+      "summary": "El RRI se redactará siguiendo la estructura de un reglamento real y contrastándola con la investigación disponible.",
+      "source": "Acuerdo vigente del grupo"
+    },
+    {
+      "id": "economic-model-three-contributions",
+      "status": "approved",
+      "scope": "rri",
+      "summary": "El modelo económico distingue cuota umbral, cuota de mantenimiento y cuota de uso.",
+      "source": "Acuerdo vigente del grupo"
+    },
+    {
+      "id": "economic-threshold-flexible",
+      "status": "legal_review",
+      "scope": "rri",
+      "summary": "La aportación inicial es flexible y se orienta hacia un umbral de referencia, pendiente de concretar su encaje jurídico.",
+      "source": "Acuerdo vigente del grupo"
+    },
+    {
+      "id": "economic-contingency-reserve",
+      "status": "approved",
+      "scope": "rri",
+      "summary": "Se reserva un fondo de contingencia de 5.000 euros.",
+      "source": "Acuerdo vigente del grupo"
+    },
+    {
+      "id": "economic-maintenance-brackets",
+      "status": "pending",
+      "scope": "rri",
+      "summary": "La cuota de mantenimiento tendrá tres tramos; sus importes actuales son todavía aproximados.",
+      "source": "Acuerdo vigente del grupo"
+    },
+    {
+      "id": "member-b-operating-rules",
+      "status": "legal_review",
+      "scope": "rri",
+      "summary": "La persona socia de tipo B paga mantenimiento, se vincula a una de tipo A y no tiene prioridad de calendario; su encaje jurídico sigue pendiente.",
+      "source": "Acuerdo vigente del grupo"
+    },
+    {
+      "id": "usage-fees-current",
+      "status": "approved",
+      "scope": "rri",
+      "summary": "Se aprueba la escala vigente de cuotas de uso para personas mantenedoras, no mantenedoras e invitadas.",
+      "source": "Acuerdo vigente del grupo"
+    },
+    {
+      "id": "economic-separate-funds",
+      "status": "approved",
+      "scope": "rri",
+      "summary": "La cuota umbral y la cuota de mantenimiento se gestionan en bolsas separadas.",
+      "source": "Acuerdo vigente del grupo"
+    },
+    {
+      "id": "usage-no-compensation",
+      "status": "approved",
+      "scope": "rri",
+      "summary": "Las diferencias de frecuencia de uso no se compensan económicamente.",
+      "source": "Acuerdo vigente del grupo"
+    },
+    {
+      "id": "return-above-threshold",
+      "status": "legal_review",
+      "scope": "rri",
+      "summary": "El retorno de las cantidades aportadas por encima del umbral necesita asesoramiento y una decisión posterior.",
+      "source": "Decisión pendiente del grupo"
+    },
+    {
+      "id": "member-exit-refund",
+      "status": "legal_review",
+      "scope": "rri",
+      "summary": "La devolución de aportaciones al salir del proyecto necesita asesoramiento y una decisión posterior.",
+      "source": "Decisión pendiente del grupo"
+    },
+    {
+      "id": "monthly-fifteen-euros",
+      "status": "transitional",
+      "scope": "operations",
+      "summary": "Se inicia una aportación mensual transitoria de 15 euros mientras se organiza la cuenta común.",
+      "source": "Acuerdo operativo vigente"
+    },
+    {
+      "id": "investment-protection-sale-clause",
+      "status": "discarded",
+      "scope": "rri",
+      "summary": "Se descarta la cláusula de protección que podía conducir a la venta de la casa por una dificultad económica individual.",
+      "source": "Acuerdo vigente del grupo"
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "title": "Reglamento de Régimen Interno de El Buen Vivir",
+  "preambleTitle": "Presentación",
+  "preamble": [
+    "El Buen Vivir es un proyecto cooperativo de uso compartido que busca organizar de forma sencilla, justa y revisable la convivencia, el acceso a la casa y la participación de las personas socias.",
+    "Este Reglamento desarrolla los aspectos cotidianos que los Estatutos no deben rigidizar. Su función es convertir los acuerdos del grupo en reglas comprensibles, aplicables y modificables por la Asamblea cuando la experiencia lo aconseje.",
+    "El texto es un borrador de trabajo. Los artículos señalados como pendientes contienen decisiones abiertas o cuestiones que requieren revisión jurídica antes de su aprobación."
+  ],
+  "chapters": [
+    {
+      "id": "disposiciones-generales",
+      "number": "I",
+      "title": "Disposiciones generales",
+      "articles": [
+        {
+          "id": "objeto-y-rango",
+          "number": 1,
+          "title": "Objeto y relación con los Estatutos",
+          "status": "current",
+          "paragraphs": [
+            "Este Reglamento de Régimen Interno desarrolla las reglas de funcionamiento cotidiano de El Buen Vivir y complementa sus Estatutos.",
+            "En caso de contradicción prevalecerán la ley y los Estatutos. Ninguna disposición de este Reglamento podrá limitar los derechos mínimos reconocidos a las personas socias."
+          ],
+          "decisionIds": ["rri-use-external-structure"],
+          "topicSlugs": ["estatutos_vs_rri"]
+        },
+        {
+          "id": "ambito-de-aplicacion",
+          "number": 2,
+          "title": "Ámbito de aplicación",
+          "status": "current",
+          "paragraphs": [
+            "El Reglamento obliga a todas las personas socias. Sus reglas de uso, cuidado y convivencia serán también aplicables, en lo que corresponda, a acompañantes, familiares y personas invitadas.",
+            "La persona socia que facilite el acceso de terceras personas deberá informarles de las normas aplicables y responder de las obligaciones que este Reglamento le atribuya."
+          ],
+          "decisionIds": [],
+          "topicSlugs": ["derechos_y_obligaciones", "invitados"]
+        },
+        {
+          "id": "aprobacion-y-modificacion",
+          "number": 3,
+          "title": "Aprobación, interpretación y modificación",
+          "status": "pending",
+          "paragraphs": [
+            "La aprobación y modificación del Reglamento corresponde a la Asamblea General, con la mayoría exigida por la ley y los Estatutos.",
+            "Las dudas de interpretación se resolverán respetando los acuerdos vigentes del grupo, la finalidad de cada regla y los principios de buen trato, igualdad y uso responsable."
+          ],
+          "pendingItems": [
+            "Concretar el procedimiento para proponer, debatir y aprobar modificaciones.",
+            "Decidir la periodicidad de la revisión general del Reglamento."
+          ],
+          "decisionIds": [],
+          "topicSlugs": ["asamblea_general", "toma_decisiones"]
+        }
+      ]
+    },
+    {
+      "id": "personas-socias",
+      "number": "II",
+      "title": "Personas socias e incorporación",
+      "articles": [
+        {
+          "id": "clases-de-personas",
+          "number": 4,
+          "title": "Clases de personas y vinculación al proyecto",
+          "status": "pending",
+          "paragraphs": [
+            "La organización interna distinguirá entre personas socias de tipo A, vinculadas a la financiación de la casa y con prioridad de calendario, y personas de tipo B, vinculadas a una persona de tipo A y usuarias habituales sin prioridad de calendario.",
+            "Las personas de tipo B contribuirán a la cuota de mantenimiento y a la cuota de uso en los términos de este Reglamento."
+          ],
+          "pendingItems": [
+            "Confirmar jurídicamente la denominación y los derechos políticos de la figura de tipo B.",
+            "Definir con precisión los derechos de voz, voto, información y conversión de cada figura."
+          ],
+          "decisionIds": ["member-b-operating-rules"],
+          "topicSlugs": ["clases_de_socios", "derechos_y_obligaciones"]
+        },
+        {
+          "id": "admision-y-acogida",
+          "number": 5,
+          "title": "Admisión y acogida",
+          "status": "pending",
+          "paragraphs": [
+            "La incorporación de una nueva persona deberá garantizar que conoce y acepta la visión del proyecto, los Estatutos, este Reglamento y las obligaciones económicas y comunitarias correspondientes.",
+            "El proceso incluirá una solicitud, un período de conocimiento mutuo y una decisión motivada del órgano competente."
+          ],
+          "pendingItems": [
+            "Definir las fases, los plazos y el órgano que prepara la propuesta de admisión.",
+            "Acordar si existe un período de acogida o adaptación y cuáles son sus efectos."
+          ],
+          "decisionIds": [],
+          "topicSlugs": ["admision_socio"]
+        },
+        {
+          "id": "derechos-y-deberes",
+          "number": 6,
+          "title": "Derechos y deberes de participación",
+          "status": "current",
+          "paragraphs": [
+            "Las personas socias tienen derecho a recibir información comprensible, participar en los espacios que les correspondan y utilizar la casa conforme a su condición y a las reglas de reserva.",
+            "Son deberes comunes respetar los acuerdos, contribuir económicamente según lo aprobado, cuidar la casa, participar de forma corresponsable en las tareas y favorecer una convivencia basada en el buen trato."
+          ],
+          "decisionIds": [],
+          "topicSlugs": ["derechos_y_obligaciones", "convivencia"]
+        },
+        {
+          "id": "lista-conversion-y-salida",
+          "number": 7,
+          "title": "Lista de espera, conversión y salida",
+          "status": "pending",
+          "paragraphs": [
+            "La lista de espera, la conversión entre figuras y la sustitución de una persona que causa baja se gestionarán mediante criterios transparentes y conocidos por el grupo.",
+            "Ninguna salida se considerará económicamente cerrada hasta liquidar las cuotas pendientes y determinar el régimen aplicable a las aportaciones."
+          ],
+          "pendingItems": [
+            "Definir los criterios y el orden de la lista de espera.",
+            "Acordar el procedimiento de conversión entre las figuras A y B.",
+            "Resolver, con asesoramiento jurídico, los plazos y condiciones de devolución al causar baja."
+          ],
+          "decisionIds": ["member-exit-refund"],
+          "topicSlugs": ["lista_espera", "baja_socio", "reembolso_aportaciones"]
+        }
+      ]
+    },
+    {
+      "id": "organizacion-y-participacion",
+      "number": "III",
+      "title": "Organización y participación",
+      "articles": [
+        {
+          "id": "funcionamiento-asamblea",
+          "number": 8,
+          "title": "Funcionamiento de la Asamblea",
+          "status": "pending",
+          "paragraphs": [
+            "La Asamblea es el principal espacio de información, deliberación y decisión colectiva. Las convocatorias incluirán el orden del día y la documentación necesaria con antelación suficiente.",
+            "Las reuniones podrán celebrarse de forma presencial, telemática o mixta cuando se garantice la participación efectiva. De cada sesión se conservará un acta con los acuerdos y asuntos pendientes."
+          ],
+          "pendingItems": [
+            "Concretar canales de convocatoria, antelación y procedimiento de aprobación de las actas."
+          ],
+          "decisionIds": [],
+          "topicSlugs": ["asamblea_general"]
+        },
+        {
+          "id": "toma-de-decisiones",
+          "number": 9,
+          "title": "Deliberación y toma de decisiones",
+          "status": "pending",
+          "paragraphs": [
+            "Las propuestas se deliberarán buscando primero una solución compartida. Cuando no sea posible alcanzar consenso, se aplicará la votación y la mayoría que corresponda conforme a la ley y los Estatutos.",
+            "Los bloqueos deberán formularse de forma motivada y orientarse a proteger el proyecto, la convivencia o los derechos de las personas, no a impedir indefinidamente una decisión."
+          ],
+          "pendingItems": [
+            "Revisar y trasladar al Reglamento el procedimiento vigente de consenso y gestión de bloqueos.",
+            "Definir qué decisiones internas requieren una mayoría reforzada."
+          ],
+          "decisionIds": [],
+          "topicSlugs": ["toma_decisiones"]
+        },
+        {
+          "id": "comisiones-y-coordinacion",
+          "number": 10,
+          "title": "Comisiones, grupos de trabajo y coordinación",
+          "status": "pending",
+          "paragraphs": [
+            "Las comisiones y grupos de trabajo estudian asuntos, preparan propuestas y ejecutan tareas acordadas, pero no sustituyen a los órganos sociales en las decisiones que legalmente les corresponden.",
+            "Su actividad será transparente para el conjunto del grupo y se organizará procurando un reparto equilibrado de las tareas prácticas y de cuidado."
+          ],
+          "pendingItems": [
+            "Definir las comisiones estables, su composición, renovación y forma de rendir cuentas.",
+            "Concretar la coordinación entre las comisiones y el órgano de administración."
+          ],
+          "decisionIds": [],
+          "topicSlugs": ["consejo_rector", "toma_decisiones"]
+        }
+      ]
+    },
+    {
+      "id": "regimen-economico",
+      "number": "IV",
+      "title": "Régimen económico interno",
+      "articles": [
+        {
+          "id": "estructura-economica",
+          "number": 11,
+          "title": "Estructura de aportaciones y cuotas",
+          "status": "current",
+          "paragraphs": [
+            "El modelo económico interno distingue tres conceptos: cuota umbral para contribuir a la adquisición de la casa, cuota de mantenimiento para los gastos comunes y cuota de uso asociada a las estancias.",
+            "La cuota umbral y la cuota de mantenimiento se gestionarán en bolsas separadas. La información económica se presentará al grupo de forma periódica y comprensible."
+          ],
+          "decisionIds": ["economic-model-three-contributions", "economic-separate-funds"],
+          "topicSlugs": ["aportaciones_obligatorias", "ejercicio_economico"]
+        },
+        {
+          "id": "cuota-umbral-y-contingencia",
+          "number": 12,
+          "title": "Cuota umbral y fondo de contingencia",
+          "status": "pending",
+          "paragraphs": [
+            "La referencia económica para las personas de tipo A se sitúa en 10.000 euros, con una aportación inicial orientativa entre 3.000 y 10.000 euros y un ritmo flexible según la capacidad de cada persona.",
+            "Se reservará un fondo de contingencia de 5.000 euros para necesidades imprevistas del proyecto."
+          ],
+          "pendingItems": [
+            "Determinar con asesoramiento jurídico la naturaleza de la cuota umbral y su relación con el capital social.",
+            "Definir cómo se actualiza el umbral si cambia el coste de adquisición o financiación."
+          ],
+          "decisionIds": ["economic-threshold-flexible", "economic-contingency-reserve"],
+          "topicSlugs": ["aportaciones_obligatorias", "desigualdad_aportaciones"]
+        },
+        {
+          "id": "cuota-mantenimiento",
+          "number": 13,
+          "title": "Cuota de mantenimiento",
+          "status": "pending",
+          "paragraphs": [
+            "La cuota de mantenimiento se organizará en tres tramos vinculados a la capacidad económica, actualmente estimados en 40, 60 y 80 euros.",
+            "Las unidades familiares con hijos no se acogerán al tramo inferior, salvo que la Asamblea acuerde una excepción justificada. Los importes se revisarán cuando se conozcan los gastos reales."
+          ],
+          "pendingItems": [
+            "Confirmar los importes definitivos y la periodicidad de su revisión.",
+            "Definir criterios objetivos para las excepciones y cambios de tramo."
+          ],
+          "decisionIds": ["economic-maintenance-brackets"],
+          "topicSlugs": ["mantenimiento"]
+        },
+        {
+          "id": "cuota-uso",
+          "number": 14,
+          "title": "Cuota de uso",
+          "status": "current",
+          "paragraphs": [
+            "La cuota diaria vigente es de 0,50 euros para las personas mantenedoras y sus hijos e hijas; 7 euros para personas adultas no mantenedoras y 2,50 euros para menores; y 14 euros para personas adultas invitadas sin relación directa y 5 euros para menores.",
+            "Las diferencias en la frecuencia de uso de la casa no se compensarán económicamente. La Asamblea podrá revisar los importes sin alterar la separación entre mantenimiento y uso."
+          ],
+          "decisionIds": ["usage-fees-current", "usage-no-compensation"],
+          "topicSlugs": ["reservas_estancias_pernoctas", "invitados"]
+        },
+        {
+          "id": "retorno-y-reembolso",
+          "number": 15,
+          "title": "Retorno del exceso y reembolso al salir",
+          "status": "pending",
+          "paragraphs": [
+            "El retorno de cantidades aportadas por encima del umbral y el reembolso correspondiente a una persona que abandona el proyecto se regularán después de determinar su naturaleza jurídica y su efecto sobre la liquidez común."
+          ],
+          "pendingItems": [
+            "Determinar qué cantidades son reintegrables y con cargo a qué bolsa.",
+            "Acordar orden, plazos, condiciones y posibles aplazamientos.",
+            "Coordinar el reembolso con la incorporación de nuevas personas y la lista de espera."
+          ],
+          "decisionIds": ["return-above-threshold", "member-exit-refund"],
+          "topicSlugs": ["desigualdad_aportaciones", "reembolso_aportaciones", "baja_socio"]
+        }
+      ]
+    },
+    {
+      "id": "uso-y-cuidado-casa",
+      "number": "V",
+      "title": "Uso y cuidado de la casa",
+      "articles": [
+        {
+          "id": "calendario-y-prioridad",
+          "number": 16,
+          "title": "Calendario, reservas y prioridad",
+          "status": "pending",
+          "paragraphs": [
+            "El uso de la casa se organizará mediante un calendario común. Las personas de tipo A tendrán prioridad y las de tipo B elegirán fechas después, conforme a su vinculación con una persona de tipo A.",
+            "El sistema deberá repartir las oportunidades de uso de forma transparente y evitar reservas que bloqueen innecesariamente la disponibilidad."
+          ],
+          "pendingItems": [
+            "Definir turnos, antelación, duración máxima, cancelaciones y resolución de coincidencias.",
+            "Adaptar las reglas cuando se conozcan el inmueble, el aforo y las temporadas de mayor demanda."
+          ],
+          "decisionIds": ["member-b-operating-rules"],
+          "topicSlugs": ["uso_espacios_comunes", "reservas_estancias_pernoctas"]
+        },
+        {
+          "id": "estancias-e-invitadas",
+          "number": 17,
+          "title": "Estancias y personas invitadas",
+          "status": "pending",
+          "paragraphs": [
+            "Toda estancia deberá registrarse en el sistema de reservas y respetar el aforo, la convivencia y las cuotas de uso vigentes.",
+            "Las personas invitadas estarán vinculadas a una persona socia anfitriona, que deberá informarles de las normas y responder de la reserva, el cuidado, la limpieza y las incidencias de su estancia."
+          ],
+          "pendingItems": [
+            "Decidir límites de aforo, frecuencia y noches por período.",
+            "Acordar si la persona anfitriona debe estar presente durante toda la estancia."
+          ],
+          "decisionIds": ["usage-fees-current"],
+          "topicSlugs": ["invitados", "reservas_estancias_pernoctas"]
+        },
+        {
+          "id": "espacios-y-limpieza",
+          "number": 18,
+          "title": "Uso responsable de espacios y limpieza",
+          "status": "pending",
+          "paragraphs": [
+            "Los espacios se utilizarán conforme a su finalidad, respetando el descanso, la seguridad y el acceso de las demás personas.",
+            "Cada persona dejará los espacios utilizados limpios y ordenados. Los consumibles, residuos, llaves y equipamientos se gestionarán conforme a los protocolos comunes."
+          ],
+          "pendingItems": [
+            "Concretar las reglas de cada espacio cuando se conozcan la casa y sus instalaciones.",
+            "Definir el sistema de limpieza entre estancias y la reposición de consumibles."
+          ],
+          "decisionIds": [],
+          "topicSlugs": ["uso_espacios_comunes", "convivencia"]
+        },
+        {
+          "id": "mantenimiento-y-tareas",
+          "number": 19,
+          "title": "Mantenimiento, obras y tareas comunitarias",
+          "status": "pending",
+          "paragraphs": [
+            "El mantenimiento preventivo y las reparaciones se organizarán mediante planificación, presupuesto y reparto corresponsable de tareas, sin perjuicio de contratar trabajos profesionales cuando resulte necesario.",
+            "Las obras o mejoras que afecten a la seguridad, al presupuesto o al uso general necesitarán autorización del órgano competente."
+          ],
+          "pendingItems": [
+            "Definir qué tareas son comunitarias, cómo se reparten y qué alternativas existen cuando una persona no puede realizarlas.",
+            "Fijar los límites económicos y materiales para autorizar reparaciones y mejoras."
+          ],
+          "decisionIds": [],
+          "topicSlugs": ["mantenimiento"]
+        }
+      ]
+    },
+    {
+      "id": "convivencia-y-conflictos",
+      "number": "VI",
+      "title": "Convivencia, cuidados y conflictos",
+      "articles": [
+        {
+          "id": "principios-convivencia",
+          "number": 20,
+          "title": "Principios de convivencia",
+          "status": "current",
+          "paragraphs": [
+            "La convivencia se basará en el buen trato, la escucha, el cuidado, la igualdad, la corresponsabilidad y el respeto a la intimidad.",
+            "Todas las personas contribuirán a prevenir discriminaciones, abusos, sobrecargas de cuidados y conductas que deterioren la confianza o el uso compartido de la casa."
+          ],
+          "decisionIds": [],
+          "topicSlugs": ["convivencia"]
+        },
+        {
+          "id": "comision-convivencia",
+          "number": 21,
+          "title": "Comisión de Convivencia",
+          "status": "pending",
+          "paragraphs": [
+            "La Comisión de Convivencia promoverá el buen trato, propondrá medidas preventivas y podrá acompañar situaciones de desacuerdo cuando las personas afectadas acepten su intervención.",
+            "La Comisión no tendrá potestad sancionadora y deberá preservar la confidencialidad, la imparcialidad y el cuidado de todas las partes."
+          ],
+          "pendingItems": [
+            "Definir composición, renovación, incompatibilidades y límites de confidencialidad.",
+            "Acordar cuándo puede actuar de oficio y cuándo necesita una solicitud."
+          ],
+          "decisionIds": [],
+          "topicSlugs": ["convivencia", "conflictos_y_mediacion"]
+        },
+        {
+          "id": "mediacion-y-disciplina",
+          "number": 22,
+          "title": "Mediación y relación con el régimen disciplinario",
+          "status": "pending",
+          "paragraphs": [
+            "Los conflictos se abordarán inicialmente mediante diálogo y, cuando proceda, mediación. La participación será voluntaria y no impedirá adoptar medidas de protección urgentes.",
+            "Cuando los hechos pudieran constituir una falta o afectaran a derechos no disponibles, se aplicará el procedimiento disciplinario previsto en los Estatutos y la ley, separándolo claramente de la mediación."
+          ],
+          "pendingItems": [
+            "Acordar las fases y plazos del procedimiento de mediación.",
+            "Definir los asuntos no mediables y las medidas de cuidado durante el proceso."
+          ],
+          "decisionIds": [],
+          "topicSlugs": ["conflictos_y_mediacion", "expulsion_socio"]
+        }
+      ]
+    },
+    {
+      "id": "disposiciones-finales",
+      "number": "VII",
+      "title": "Revisión y entrada en vigor",
+      "articles": [
+        {
+          "id": "cuestiones-no-previstas",
+          "number": 23,
+          "title": "Cuestiones no previstas",
+          "status": "current",
+          "paragraphs": [
+            "Las cuestiones no previstas se resolverán por el órgano competente según su naturaleza, respetando la ley, los Estatutos, los acuerdos vigentes y los principios de este Reglamento.",
+            "Si la situación revela una carencia estable, se propondrá una modificación del Reglamento en lugar de acumular excepciones informales."
+          ],
+          "decisionIds": [],
+          "topicSlugs": ["estatutos_vs_rri"]
+        },
+        {
+          "id": "revision-y-vigencia",
+          "number": 24,
+          "title": "Revisión y entrada en vigor",
+          "status": "pending",
+          "paragraphs": [
+            "El Reglamento entrará en vigor cuando sea aprobado por la Asamblea General. Se revisará periódicamente y siempre que la experiencia de uso, un cambio legal o una modificación de los Estatutos lo haga necesario."
+          ],
+          "pendingItems": [
+            "Fijar la fecha de aprobación y entrada en vigor.",
+            "Acordar la periodicidad de la revisión ordinaria."
+          ],
+          "decisionIds": [],
+          "topicSlugs": ["estatutos_vs_rri"]
+        }
+      ]
+    }
+  ]
+}

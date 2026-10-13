@@ -30,12 +30,12 @@
 
 <nav class="draft-index" aria-label="Índice del Reglamento de Régimen Interno">
   <p>Índice</p>
-  <ol>
-    <li><a href="#presentacion">Presentación</a></li>
+  <ul class="index-chapters">
+    <li class="index-chapter"><a href="#presentacion">Presentación</a></li>
     {#each draft.chapters as chapter (chapter.id)}
-      <li>
+      <li class="index-chapter">
         <a href={`#${chapter.id}`}>{chapter.number}. {chapter.title}</a>
-        <ul>
+        <ul class="index-articles">
           {#each chapter.articles as article (article.id)}
             <li>
               <a href={`#${articleAnchor(article.number)}`}>Art. {article.number} — {article.title}</a>
@@ -44,7 +44,7 @@
         </ul>
       </li>
     {/each}
-  </ol>
+  </ul>
 </nav>
 
 <section class="preamble" id="presentacion">
@@ -142,19 +142,19 @@
     text-transform: uppercase;
   }
 
-  .draft-index ol {
+  .draft-index .index-chapters {
     columns: 2;
     gap: 2rem;
+    list-style: none;
     margin: 0;
-    padding-left: 1.25rem;
+    padding: 0;
   }
 
-  .draft-index li {
+  .draft-index .index-chapter {
     break-inside: avoid;
     color: var(--muted);
     font-size: 0.86rem;
-    margin-bottom: 0.3rem;
-    padding-left: 0.15rem;
+    margin-bottom: 0.6rem;
   }
 
   .draft-index a {
@@ -163,22 +163,22 @@
     text-underline-offset: 3px;
   }
 
-  .draft-index ul {
+  .draft-index .index-articles {
     list-style: none;
-    margin: 0.3rem 0 0.6rem;
+    margin: 0.3rem 0 0;
     padding: 0;
   }
 
-  .draft-index ul li {
+  .draft-index .index-articles li {
     font-size: 0.78rem;
     margin-bottom: 0.15rem;
   }
 
-  .draft-index ul a {
+  .draft-index .index-articles a {
     color: var(--muted);
   }
 
-  .draft-index ul a:hover {
+  .draft-index .index-articles a:hover {
     color: var(--accent-docs);
   }
 
@@ -404,7 +404,7 @@
   }
 
   @media (max-width: 640px) {
-    .draft-index ol {
+    .draft-index .index-chapters {
       columns: 1;
     }
 

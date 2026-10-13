@@ -231,7 +231,7 @@
     white-space: nowrap;
   }
   .wip-label-short { display: none; }
-  .doc-switch button.wip { color: #797a75; font-weight: lighter; }
+  .doc-switch button.wip { color: #797a75; font-weight: 400; }
   @media (max-width: 320px) {
     .wip-label-full { display: none; }
     .wip-label-short { display: inline; }

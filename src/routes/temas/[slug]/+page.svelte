@@ -234,7 +234,7 @@
   {/if}
 
   {#if isReviewed}
-    <p class="page-note">Borrador de trabajo · contrastar con las fuentes y revisar jurídicamente antes de aprobarlo.</p>
+    <p class="page-note">Borrador de trabajo — contrastar con las fuentes y revisar jurídicamente antes de aprobarlo.</p>
   {:else}
     <section class="editorial-status {editorialStatusClass}">
       <strong>{editorialStatus}</strong>

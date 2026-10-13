@@ -43,7 +43,7 @@ export function load({ url }) {
     const document = slug ? loadDocument(slug) : undefined;
     return {
       card: {
-        eyebrow: 'EL BUEN VIVIR · DOCUMENTOS',
+        eyebrow: 'EL BUEN VIVIR — DOCUMENTOS',
         title: document ? getDocumentDisplayTitle(document) : 'Documento de referencia',
         supporting: 'Fuente para fundamentar los Estatutos y el RRI',
         footer: SITE,
@@ -56,9 +56,9 @@ export function load({ url }) {
   const topic = slug ? loadConsultableTopic(slug) : undefined;
   return {
     card: {
-      eyebrow: 'EL BUEN VIVIR · TEMAS',
+      eyebrow: 'EL BUEN VIVIR — TEMAS',
       title: topic ? topic.title : 'Un tema de gobernanza',
-      supporting: 'Qué dice la ley · cómo lo hacen otras · nuestra propuesta',
+      supporting: 'Qué dice la ley — cómo lo hacen otras — nuestra propuesta',
       footer: SITE,
       chip: topic ? categoryLabels[topic.category] : 'Tema',
       accent: OG_ACCENTS.temas

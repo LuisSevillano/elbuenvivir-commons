@@ -69,7 +69,7 @@
 
 <article class="draft">
   <header class="draft-hero">
-    <p class="eyebrow">Borrador ensamblado · para llevar a Google Docs</p>
+    <p class="eyebrow">Borrador ensamblado — para llevar a Google Docs</p>
     <h1>Borrador de Estatutos y RRI</h1>
     <p class="lead">
       Todas las propuestas de los {data.estatutos.length + data.rri.length} artículos, reunidas en orden

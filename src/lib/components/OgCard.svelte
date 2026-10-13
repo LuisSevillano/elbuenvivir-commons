@@ -4,7 +4,7 @@
   // y disposición son CSS normal. Lo que edites aquí se ve en vivo en
   // /og-preview y es EXACTAMENTE lo que se horneará como imagen.
   let {
-    eyebrow = 'EL BUEN VIVIR · TEMAS',
+    eyebrow = 'EL BUEN VIVIR — TEMAS',
     title = 'Un tema de gobernanza',
     supporting = '',
     footer = 'elbuenvivir-cuaderno-de-ruta.netlify.app',

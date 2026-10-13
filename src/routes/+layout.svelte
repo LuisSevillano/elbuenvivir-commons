@@ -73,8 +73,8 @@
 			{/if}
 			<nav aria-label="Navegación principal">
 				<a href="/temas" class:active={page.url.pathname.startsWith('/temas')} aria-current={page.url.pathname.startsWith('/temas') ? 'page' : undefined}>Temas</a>
-				<a href="/borrador" class:active={page.url.pathname.startsWith('/borrador')} aria-current={page.url.pathname.startsWith('/borrador') ? 'page' : undefined}>Borrador</a>
 				<a href="/documentos" class:active={page.url.pathname.startsWith('/documentos')} aria-current={page.url.pathname.startsWith('/documentos') ? 'page' : undefined}>Documentos</a>
+				<a href="/borrador" class:active={page.url.pathname.startsWith('/borrador')} aria-current={page.url.pathname.startsWith('/borrador') ? 'page' : undefined}>Borrador</a>
 			</nav>
 		</div>
 	</header>

@@ -1,4 +1,5 @@
 export type DocumentType = 'ley' | 'estatutos' | 'rri' | 'guia' | 'modelo' | 'otro';
+export type DocumentEditorialRole = 'structural' | 'checklist' | 'comparative' | 'context' | 'excluded';
 
 export type TopicCategory =
   | 'identidad_juridica'
@@ -41,6 +42,8 @@ export interface SourceDocument {
   contentHash?: string;
   lastProcessedAt?: string;
   needsReview?: boolean;
+  editorialRole?: DocumentEditorialRole;
+  editorialNote?: string;
 }
 
 export interface SuggestedClause {

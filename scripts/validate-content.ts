@@ -26,6 +26,8 @@ const allowedCategories = new Set([
 ]);
 const allowedIngestionStatuses = new Set(['pending', 'ok', 'needs_review']);
 const allowedExtractionStatuses = new Set(['not_started', 'ok', 'partial', 'failed', 'unsupported']);
+const allowedDocumentTypes = new Set(['ley', 'estatutos', 'rri', 'guia', 'modelo', 'otro']);
+const allowedEditorialRoles = new Set(['structural', 'checklist', 'comparative', 'context', 'excluded']);
 
 const errors: string[] = [];
 const warnings: string[] = [];
@@ -108,7 +110,7 @@ if (!Array.isArray(documents)) {
     stringField(document, 'title', context);
     stringField(document, 'fileName', context);
     const sourcePath = stringField(document, 'sourcePath', context);
-    stringField(document, 'type', context);
+    const documentType = stringField(document, 'type', context);
     const contentHash = stringField(document, 'contentHash', context);
     const ingestionStatus = stringField(document, 'ingestionStatus', context);
     const extractionStatus = document.extractionStatus;
@@ -129,6 +131,21 @@ if (!Array.isArray(documents)) {
 
     if (ingestionStatus && !allowedIngestionStatuses.has(ingestionStatus)) {
       errors.push(`${context}: ingestionStatus no reconocido "${ingestionStatus}"`);
+    }
+
+    if (documentType && !allowedDocumentTypes.has(documentType)) {
+      errors.push(`${context}: type no reconocido "${documentType}"`);
+    }
+
+    if (
+      document.editorialRole !== undefined &&
+      (typeof document.editorialRole !== 'string' || !allowedEditorialRoles.has(document.editorialRole))
+    ) {
+      errors.push(`${context}: editorialRole no reconocido "${String(document.editorialRole)}"`);
+    }
+
+    if (document.editorialNote !== undefined && typeof document.editorialNote !== 'string') {
+      errors.push(`${context}: editorialNote debe ser string`);
     }
 
     if (document.needsReview !== undefined && typeof document.needsReview !== 'boolean') {

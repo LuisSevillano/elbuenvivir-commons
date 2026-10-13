@@ -1,7 +1,8 @@
 import { loadConsultableTopics } from '$lib/content/loadConsultableTopics';
+import { loadRriDraft } from '$lib/content/loadRriDraft';
 import { pageOgImage } from '$lib/seo';
 
-// Orden estructural de un articulado de estatutos/RRI.
+// Orden estructural provisional del articulado de Estatutos.
 const ORDER = [
   'identidad_juridica',
   'clases_de_socios',
@@ -40,15 +41,16 @@ export function load() {
     return index < 0 ? ORDER.length + 1 : index;
   };
 
-  const topics = loadConsultableTopics()
+  const allTopics = loadConsultableTopics();
+  const topics = allTopics
     .filter((topic) => topic.dossier?.proposal && topic.slug !== 'estatutos_vs_rri')
     .toSorted((a, b) => rank(a.slug) - rank(b.slug));
 
   const estatutos: Article[] = [];
-  const rri: Article[] = [];
 
   for (const topic of topics) {
     for (const article of topic.dossier?.proposal.articles ?? []) {
+      if (article.target !== 'estatutos') continue;
       const entry: Article = {
         topicSlug: topic.slug,
         topicTitle: topic.title,
@@ -56,7 +58,7 @@ export function load() {
         text: article.text,
         note: article.note
       };
-      (article.target === 'rri' ? rri : estatutos).push(entry);
+      estatutos.push(entry);
     }
   }
 
@@ -64,11 +66,12 @@ export function load() {
     seo: {
       title: 'Borrador de Estatutos y RRI',
       description:
-        'Borrador de trabajo de los Estatutos y el Reglamento de Régimen Interno de El Buen Vivir, ensamblado a partir de las propuestas de cada tema. Requiere revisión jurídica.',
+        'Borrador de trabajo de los Estatutos y del RRI consolidado de El Buen Vivir, organizado por capítulos y con las decisiones abiertas claramente señaladas.',
       path: '/borrador',
       ...pageOgImage('borrador', 'Tarjeta del Borrador de Estatutos y RRI de El Buen Vivir.')
     },
     estatutos,
-    rri
+    rri: loadRriDraft(),
+    topicTitles: Object.fromEntries(allTopics.map((topic) => [topic.slug, topic.title]))
   };
 }

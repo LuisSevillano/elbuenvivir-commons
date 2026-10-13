@@ -1,4 +1,7 @@
 <script lang="ts">
+  import RriDraftView from '$lib/components/RriDraft.svelte';
+  import type { RriDraft } from '$lib/content/loadRriDraft';
+
   let { data } = $props();
 
   interface Article {
@@ -10,13 +13,13 @@
   }
 
   type DocKey = 'estatutos' | 'rri';
-  let active = $state<DocKey>('estatutos');
+  let active = $state<DocKey>('rri');
 
-  const docs: Record<DocKey, { label: string; title: string; articles: Article[]; unit: string }> = $derived({
-    estatutos: { label: 'Estatutos', title: 'Estatutos de El Buen Vivir, S. Coop.', articles: data.estatutos, unit: 'Artículo' },
-    rri: { label: 'Reglamento de Régimen Interno', title: 'Reglamento de Régimen Interno de El Buen Vivir', unit: 'Norma', articles: data.rri }
+  const statutes = $derived({
+    title: 'Estatutos de El Buen Vivir, S. Coop.',
+    articles: data.estatutos as Article[],
+    unit: 'Artículo'
   });
-  const current = $derived(docs[active]);
 
   // Algunos títulos ya traen "Artículo N —" / "Norma —"; lo quitamos para no duplicar con la numeración.
   function cleanHeading(h: string): string {
@@ -30,7 +33,7 @@
 
   let copied = $state(false);
 
-  function plainText(doc: { title: string; unit: string; articles: Article[] }): string {
+  function statutesPlainText(doc: { title: string; unit: string; articles: Article[] }): string {
     const lines = [doc.title.toUpperCase(), ''];
     doc.articles.forEach((a, i) => {
       lines.push(`${doc.unit} ${i + 1}. ${cleanHeading(a.heading)}`, '', a.text, '');
@@ -38,7 +41,7 @@
     lines.push('— Borrador de trabajo. Requiere revisión jurídica antes de su aprobación.');
     return lines.join('\n');
   }
-  function markdown(doc: { title: string; unit: string; articles: Article[] }): string {
+  function statutesMarkdown(doc: { title: string; unit: string; articles: Article[] }): string {
     const lines = [`# ${doc.title}`, ''];
     doc.articles.forEach((a, i) => {
       lines.push(`## ${doc.unit} ${i + 1}. ${cleanHeading(a.heading)}`, '', a.text, '');
@@ -47,9 +50,46 @@
     return lines.join('\n');
   }
 
+  function rriPlainText(doc: RriDraft): string {
+    const lines = [doc.title.toUpperCase(), '', doc.preambleTitle.toUpperCase(), '', ...doc.preamble, ''];
+
+    for (const chapter of doc.chapters) {
+      lines.push(`CAPÍTULO ${chapter.number}. ${chapter.title.toUpperCase()}`, '');
+      for (const article of chapter.articles) {
+        const pending = article.status === 'pending' ? ' [PENDIENTE]' : '';
+        lines.push(`Artículo ${article.number}. ${article.title}${pending}`, '', ...article.paragraphs, '');
+        if (article.pendingItems?.length) {
+          lines.push('Por decidir:', ...article.pendingItems.map((item) => `- [${item}]`), '');
+        }
+      }
+    }
+
+    lines.push('— Borrador de trabajo. Requiere revisión jurídica antes de su aprobación.');
+    return lines.join('\n');
+  }
+
+  function rriMarkdown(doc: RriDraft): string {
+    const lines = [`# ${doc.title}`, '', `## ${doc.preambleTitle}`, '', ...doc.preamble, ''];
+
+    for (const chapter of doc.chapters) {
+      lines.push(`## Capítulo ${chapter.number}. ${chapter.title}`, '');
+      for (const article of chapter.articles) {
+        const pending = article.status === 'pending' ? ' — PENDIENTE' : '';
+        lines.push(`### Artículo ${article.number}. ${article.title}${pending}`, '', ...article.paragraphs, '');
+        if (article.pendingItems?.length) {
+          lines.push('**Por decidir:**', '', ...article.pendingItems.map((item) => `- [${item}]`), '');
+        }
+      }
+    }
+
+    lines.push('---', '', '_Borrador de trabajo. Requiere revisión jurídica antes de su aprobación._');
+    return lines.join('\n');
+  }
+
   async function copyAll() {
     try {
-      await navigator.clipboard.writeText(plainText(current));
+      const text = active === 'estatutos' ? statutesPlainText(statutes) : rriPlainText(data.rri);
+      await navigator.clipboard.writeText(text);
       copied = true;
       setTimeout(() => (copied = false), 1800);
     } catch {
@@ -57,7 +97,8 @@
     }
   }
   function download() {
-    const blob = new Blob([markdown(current)], { type: 'text/markdown;charset=utf-8' });
+    const content = active === 'estatutos' ? statutesMarkdown(statutes) : rriMarkdown(data.rri);
+    const blob = new Blob([content], { type: 'text/markdown;charset=utf-8' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
@@ -69,40 +110,40 @@
 
 <article class="draft">
   <header class="draft-hero">
-    <p class="eyebrow">Borrador ensamblado — para llevar a Google Docs</p>
+    <p class="eyebrow">Borrador de trabajo</p>
     <h1>Borrador de Estatutos y RRI</h1>
     <p class="lead">
-      Todas las propuestas de los {data.estatutos.length + data.rri.length} artículos, reunidas en orden
-      en los dos documentos. Lo que aparece entre <code>[corchetes]</code> es lo que queda por decidir.
-      Copia o descarga para seguir editándolo en Google Docs.
+      Los Estatutos reúnen las propuestas jurídicas de los temas. El RRI se presenta como un documento
+      consolidado por capítulos que distingue los acuerdos vigentes de lo que aún debe decidirse o
+      revisarse jurídicamente, señalado como <strong>Pendiente</strong>.
     </p>
   </header>
 
   <div class="doc-switch" role="tablist">
     <button role="tab" aria-selected={active === 'estatutos'} class:active={active === 'estatutos'} onclick={() => (active = 'estatutos')}>
-      Estatutos <span>{data.estatutos.length}</span>
+      Estatutos
     </button>
     <button role="tab" aria-selected={active === 'rri'} class:active={active === 'rri'} onclick={() => (active = 'rri')}>
-      RRI <span>{data.rri.length}</span>
+      RRI
     </button>
   </div>
 
   <div class="doc-toolbar">
-    <h2>{current.title}</h2>
+    <h2>{active === 'estatutos' ? statutes.title : data.rri.title}</h2>
     <div class="doc-actions">
       <button class="btn" type="button" onclick={copyAll}>{copied ? 'Copiado' : 'Copiar todo'}</button>
       <button class="btn" type="button" onclick={download}>Descargar .md</button>
     </div>
   </div>
 
-  {#if current.articles.length === 0}
-    <p class="empty-note">Este documento aún no tiene artículos propuestos.</p>
-  {:else}
+  {#if active === 'rri'}
+    <RriDraftView draft={data.rri} topicTitles={data.topicTitles} />
+  {:else if statutes.articles.length > 0}
     <ol class="articles">
-      {#each current.articles as art, i}
+      {#each statutes.articles as art, i (art.topicSlug + art.heading)}
         <li>
           <div class="art-head">
-            <span class="art-num">{current.unit} {i + 1}</span>
+            <span class="art-num">{statutes.unit} {i + 1}</span>
             <h3>{cleanHeading(art.heading)}</h3>
             <a class="art-src" href={`/temas/${art.topicSlug}`}>{art.topicTitle} →</a>
           </div>
@@ -111,6 +152,8 @@
         </li>
       {/each}
     </ol>
+  {:else}
+    <p class="empty-note">Este documento aún no tiene artículos propuestos.</p>
   {/if}
 
   <p class="draft-disclaimer">
@@ -123,8 +166,6 @@
   .draft { max-width: 74ch; margin: 0 auto; }
   .draft-hero { margin-bottom: 1.6rem; }
   .draft-hero h1 { margin: 0.3rem 0 0.8rem; }
-  .lead code { font-family: ui-monospace, monospace; font-size: 0.85em; background: #f0f0f0; padding: 0.05em 0.35em; border-radius: 3px; }
-
   .doc-switch { display: flex; gap: 0.4rem; border-bottom: 1px solid var(--border); margin-bottom: 1.2rem; }
   .doc-switch button {
     appearance: none; background: none; border: none; cursor: pointer; font: inherit;
@@ -132,10 +173,6 @@
     border-bottom: 2px solid transparent; margin-bottom: -1px;
   }
   .doc-switch button.active { color: var(--ink); border-bottom-color: var(--accent-warm); }
-  .doc-switch button span {
-    font-family: var(--font-display); font-size: 0.8rem; color: var(--accent-warm); margin-left: 0.2rem;
-  }
-
   .doc-toolbar { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
   .doc-toolbar h2 { font-family: var(--font-display); font-weight: 600; font-size: clamp(1.2rem, 2.5vw, 1.6rem); margin: 0; }
   .doc-actions { display: flex; gap: 0.5rem; }

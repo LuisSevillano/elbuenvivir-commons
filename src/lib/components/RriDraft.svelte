@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount, tick } from 'svelte';
   import type { RriDraft } from '$lib/content/loadRriDraft';
 
   let {
@@ -15,19 +16,39 @@
       pending: /^\[[^\]]*\]$/.test(part)
     }));
   }
+
+  function articleAnchor(number: number): string {
+    return `articulo-${number}`;
+  }
+
+  onMount(async () => {
+    if (!location.hash) return;
+    await tick();
+    document.getElementById(location.hash.slice(1))?.scrollIntoView({ block: 'start' });
+  });
 </script>
 
 <nav class="draft-index" aria-label="Índice del Reglamento de Régimen Interno">
   <p>Índice</p>
   <ol>
+    <li><a href="#presentacion">Presentación</a></li>
     {#each draft.chapters as chapter (chapter.id)}
-      <li><a href={`#${chapter.id}`}>{chapter.number}. {chapter.title}</a></li>
+      <li>
+        <a href={`#${chapter.id}`}>{chapter.number}. {chapter.title}</a>
+        <ul>
+          {#each chapter.articles as article (article.id)}
+            <li>
+              <a href={`#${articleAnchor(article.number)}`}>Art. {article.number} — {article.title}</a>
+            </li>
+          {/each}
+        </ul>
+      </li>
     {/each}
   </ol>
 </nav>
 
-<section class="preamble">
-  <p class="section-kicker">{draft.preambleTitle}</p>
+<section class="preamble" id="presentacion">
+  <p class="section-kicker">{draft.preambleTitle} <a class="permalink" href="#presentacion" aria-label="Enlace directo a la presentación" title="Enlace directo a esta sección">§</a></p>
   {#each draft.preamble as paragraph, index (`preamble-${index}`)}
     <p>{paragraph}</p>
   {/each}
@@ -38,15 +59,26 @@
     <section class="rri-chapter" id={chapter.id}>
       <header class="chapter-head">
         <span>Capítulo {chapter.number}</span>
-        <h3>{chapter.title}</h3>
+        <h3>
+          {chapter.title}
+          <a class="permalink" href={`#${chapter.id}`} aria-label={`Enlace directo al capítulo ${chapter.number}`} title="Enlace directo a este capítulo">§</a>
+        </h3>
       </header>
 
       <div class="chapter-articles">
         {#each chapter.articles as article (article.id)}
-          <article class="rri-article" id={`articulo-${article.number}`}>
+          <article class="rri-article" id={articleAnchor(article.number)}>
             <header class="article-head">
               <span class="article-number">Artículo {article.number}</span>
-              <h4>{article.title}</h4>
+              <h4>
+                {article.title}
+                <a
+                  class="permalink"
+                  href={`#${articleAnchor(article.number)}`}
+                  aria-label={`Enlace directo al artículo ${article.number}`}
+                  title="Enlace directo a este artículo">§</a
+                >
+              </h4>
               {#if article.status === 'pending'}
                 <span class="pending-badge">Pendiente</span>
               {/if}
@@ -131,10 +163,36 @@
     text-underline-offset: 3px;
   }
 
+  .draft-index ul {
+    list-style: none;
+    margin: 0.3rem 0 0.6rem;
+    padding: 0;
+  }
+
+  .draft-index ul li {
+    font-size: 0.78rem;
+    margin-bottom: 0.15rem;
+  }
+
+  .draft-index ul a {
+    color: var(--muted);
+  }
+
+  .draft-index ul a:hover {
+    color: var(--accent-docs);
+  }
+
   .preamble {
     border-bottom: 1px solid var(--border);
     margin-bottom: 2.5rem;
     padding-bottom: 1.5rem;
+    scroll-margin-top: 1rem;
+  }
+
+  .preamble:target .section-kicker {
+    text-decoration: underline;
+    text-decoration-color: var(--accent-docs);
+    text-underline-offset: 4px;
   }
 
   .section-kicker {
@@ -159,6 +217,40 @@
 
   .rri-chapter {
     scroll-margin-top: 1rem;
+  }
+
+  .rri-chapter:target .chapter-head h3,
+  .rri-article:target .article-head h4 {
+    text-decoration: underline;
+    text-decoration-color: var(--accent-docs);
+    text-underline-offset: 4px;
+  }
+
+  .permalink {
+    color: var(--muted);
+    font-size: 0.75em;
+    font-weight: 400;
+    margin-left: 0.35rem;
+    opacity: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+  }
+
+  .chapter-head:hover .permalink,
+  .rri-article:hover .permalink,
+  .preamble:hover .permalink,
+  .permalink:focus-visible {
+    opacity: 1;
+  }
+
+  .permalink:hover {
+    color: var(--accent-docs);
+  }
+
+  @media (hover: none) {
+    .permalink {
+      opacity: 1;
+    }
   }
 
   .chapter-head {

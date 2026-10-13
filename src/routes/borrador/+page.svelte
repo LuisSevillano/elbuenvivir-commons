@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount, tick } from 'svelte';
   import RriDraftView from '$lib/components/RriDraft.svelte';
   import type { RriDraft } from '$lib/content/loadRriDraft';
 
@@ -14,6 +15,27 @@
 
   type DocKey = 'estatutos' | 'rri';
   let active = $state<DocKey>('rri');
+
+  function docFromHash(): DocKey | null {
+    const hash = location.hash;
+    if (!hash || hash.length < 2) return null;
+    if (hash === '#estatutos' || hash.startsWith('#estatutos-')) return 'estatutos';
+    return 'rri';
+  }
+
+  onMount(() => {
+    const applyHash = async () => {
+      const doc = docFromHash();
+      if (doc) active = doc;
+      await tick();
+      const id = location.hash.slice(1);
+      if (id) document.getElementById(id)?.scrollIntoView({ block: 'start' });
+    };
+    void applyHash();
+    const onHashChange = () => void applyHash();
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
+  });
 
   const statutes = $derived({
     title: 'Estatutos de El Buen Vivir, S. Coop.',
@@ -137,14 +159,24 @@
   </div>
 
   {#if active === 'rri'}
-    <RriDraftView draft={data.rri} topicTitles={data.topicTitles} />
+    <div id="rri">
+      <RriDraftView draft={data.rri} topicTitles={data.topicTitles} />
+    </div>
   {:else if statutes.articles.length > 0}
-    <ol class="articles">
+    <ol class="articles" id="estatutos">
       {#each statutes.articles as art, i (art.topicSlug + art.heading)}
-        <li>
+        <li id={`estatutos-articulo-${i + 1}`}>
           <div class="art-head">
             <span class="art-num">{statutes.unit} {i + 1}</span>
-            <h3>{cleanHeading(art.heading)}</h3>
+            <h3>
+              {cleanHeading(art.heading)}
+              <a
+                class="permalink"
+                href={`#estatutos-articulo-${i + 1}`}
+                aria-label={`Enlace directo al artículo ${i + 1} de Estatutos`}
+                title="Enlace directo a este artículo">§</a
+              >
+            </h3>
             <a class="art-src" href={`/temas/${art.topicSlug}`}>{art.topicTitle} →</a>
           </div>
           <p class="art-text">{#each segments(art.text) as s}{#if s.ph}<mark class="ph">{s.part}</mark>{:else}{s.part}{/if}{/each}</p>
@@ -184,8 +216,29 @@
   .btn:hover { background: var(--accent); color: #ffffff; }
 
   .articles { list-style: none; margin: 0; padding: 0; counter-reset: art; display: grid; gap: 1.4rem; }
-  .articles li { padding-bottom: 1.2rem; border-bottom: 1px solid var(--border); }
+  .articles li { padding-bottom: 1.2rem; border-bottom: 1px solid var(--border); scroll-margin-top: 1rem; }
   .articles li:last-child { border-bottom: none; }
+  .articles li:target .art-head h3 {
+    text-decoration: underline;
+    text-decoration-color: var(--accent-docs);
+    text-underline-offset: 4px;
+  }
+  .permalink {
+    color: var(--muted);
+    font-size: 0.75em;
+    font-weight: 400;
+    margin-left: 0.35rem;
+    opacity: 0;
+    text-decoration: none;
+  }
+  .art-head:hover .permalink,
+  .permalink:focus-visible {
+    opacity: 1;
+  }
+  .permalink:hover { color: var(--accent-docs); }
+  @media (hover: none) {
+    .permalink { opacity: 1; }
+  }
   .art-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 0.5rem 0.7rem; margin-bottom: 0.5rem; }
   .art-num {
     font-family: var(--font-display); font-weight: 600; font-size: 0.9rem; color: var(--accent-warm);

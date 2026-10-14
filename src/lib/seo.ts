@@ -23,7 +23,7 @@ export function pageOgImage(
 }
 
 export const siteUrl = 'https://elbuenvivir-cuaderno-de-ruta.netlify.app';
-export const siteName = 'La Wiki de El Buen Vivir';
+export const siteName = 'El Buen Vivir';
 export const defaultSocialImage = '/thumbnail-og.jpg';
 export const defaultSocialImageAlt = 'Casa rural entre vegetacion, con camino de tierra y montanas al fondo.';
 
